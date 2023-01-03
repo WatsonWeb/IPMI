@@ -1,0 +1,22 @@
+/* Institute Single Template */
+@use "../global/colors" as *;
+
+@media screen and (max-width: 374px) {
+	.speaker-profile,
+	.sponsor {
+		width: 100%;
+	}
+}
+
+@media screen and (max-width: 767px) {
+	.bio-content {
+		overflow-y: auto;
+		max-height: 100%;
+	}
+}
+
+.profile-link.accent-dark-color:hover,
+.profile-link.accent-dark-color:focus {
+	background-color: $primary;
+	background-color: var(--accent);
+}

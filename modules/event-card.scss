@@ -1,0 +1,13 @@
+/* Event Card */
+.event-period::after {
+	content: ".";
+	color: inherit;
+}
+
+.event-name-link,
+.event-name-link {
+	&:hover,
+	&:focus {
+		color: inherit !important;
+	}
+}

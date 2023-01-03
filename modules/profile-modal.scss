@@ -1,0 +1,24 @@
+/* Profile Modal */
+.profile-modal {
+	pointer-events: none;
+}
+
+.profile-modal.open {
+	pointer-events: auto;
+	background-color: rgba(0, 0, 0, 0.7);
+}
+
+.profile-modal.open .profile-wrap {
+	opacity: 1;
+	transform: none;
+}
+
+.loading.opening {
+	opacity: 1;
+	transform: none;
+}
+
+.bio-text {
+	overflow-y: auto;
+	max-height: 100%;
+}

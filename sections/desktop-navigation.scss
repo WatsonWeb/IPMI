@@ -1,0 +1,64 @@
+/* Desktop Navigation */
+@use "../global/colors" as *;
+
+// Nav Link Underline
+.nav-link::after {
+	content: "";
+	display: block;
+	width: calc(100% - 20px);
+	height: 3px;
+	border-radius: 100px;
+	background-color: $primary;
+	position: absolute;
+	bottom: 5px;
+	left: 10px;
+	opacity: 0;
+	transform: scaleX(0.5) translateY(-5px);
+	transition: all 200ms ease;
+	transition-property: transform, opacity;
+}
+
+// Dropdowns
+.nav-dropdown-toggle {
+	&:hover,
+	&:focus {
+		.nav-link::after {
+			transform: none;
+			opacity: 1;
+		}
+
+		.nav-caret {
+			color: $primary;
+		}
+
+		.nav-dropdown-wrap {
+			pointer-events: auto;
+		}
+
+		.nav-dropdown {
+			opacity: 1;
+			transform: none;
+		}
+	}
+}
+
+.nav-dropdown-link {
+	&:hover,
+	&:focus {
+		.nav-dropdown-arrow {
+			color: $primary;
+		}
+	}
+}
+
+.nav-dropdown-wrap {
+	pointer-events: none;
+}
+
+@media only screen and (min-width: 1440px) {
+	.nav-link::after {
+		width: calc(100% - 30px);
+		left: 15px;
+		bottom: 10px;
+	}
+}

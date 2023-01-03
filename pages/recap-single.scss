@@ -1,0 +1,23 @@
+/* Recap Single Template */
+@use "../global/colors" as *;
+.recap-content p:last-child {
+	margin-bottom: 0;
+}
+
+.recap-testimonial:last-child {
+	margin-bottom: 0;
+}
+
+.event-name-link:hover,
+.event-name-link:focus {
+	color: inherit !important;
+}
+
+.recap-heading p {
+	margin-bottom: 0;
+}
+
+.recap-speaker-border {
+	border-color: $primary;
+	border-color: var(--accent);
+}

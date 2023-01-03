@@ -1,0 +1,110 @@
+/* Utility */
+@use "colors" as *;
+
+.aspect-1-1 {
+	aspect-ratio: 1 / 1;
+}
+
+.aspect-4-3 {
+	aspect-ratio: 4 / 3;
+}
+.aspect-16-9 {
+	aspect-ratio: 16 / 9;
+}
+
+.flip {
+	transform: scaleX(-1);
+}
+
+// Colors
+.accent-color,
+.section-heading strong,
+.bold-accent strong,
+.bold-accent a {
+	color: $primary;
+	color: var(--accent);
+}
+
+.accent-dark-color {
+	color: $primary-dark;
+	color: var(--accent-dark);
+}
+
+.bg---accent {
+	background-color: $primary;
+	background-color: var(--accent);
+}
+
+.accent-gradient {
+	background-color: $primary;
+	background-color: var(--accent);
+	background-image: linear-gradient(180deg, $primary 0%, $primary-dark 100%);
+	background-image: linear-gradient(
+		180deg,
+		var(--accent) 0%,
+		var(--accent-dark) 100%
+	);
+}
+
+// Borders
+.border {
+	box-sizing: content-box;
+}
+
+.accent-border {
+	border-color: $primary;
+	border-color: var(--accent);
+}
+
+// Type
+.accent-period::after {
+	content: ".";
+	color: $primary;
+	color: var(--accent);
+}
+
+.inherit-text {
+	color: inherit;
+}
+
+// Viewport Visibility
+@media screen and (min-width: 768px) {
+	.hidden-tablet-up {
+		display: none !important;
+		visibility: none !important;
+		pointer-events: none !important;
+	}
+}
+
+@media screen and (max-width: 767px) {
+	.hidden-mobile {
+		display: none !important;
+		visibility: none !important;
+		pointer-events: none !important;
+	}
+}
+
+@media screen and (min-width: 992px) {
+	.hidden-desktop {
+		display: none !important;
+		visibility: none !important;
+		pointer-events: none !important;
+	}
+}
+
+// Animation
+@keyframes spin {
+	from {
+		transform: rotate(0deg);
+	}
+	to {
+		transform: rotate(360deg);
+	}
+}
+
+.spinning {
+	animation-name: spin;
+	animation-duration: 3000ms;
+	animation-iteration-count: infinite;
+	animation-timing-function: linear;
+}

@@ -1,0 +1,10 @@
+/* Layout */
+@media screen and (min-width: 992px) {
+	.gap-30:first-child {
+		padding-left: 0;
+	}
+
+	.gap-30:last-child {
+		padding-right: 0;
+	}
+}

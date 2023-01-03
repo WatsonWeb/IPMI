@@ -1,0 +1,44 @@
+/* Typography */
+@use "colors" as *;
+
+body {
+	font-smoothing: antialiased;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+// Weights
+._450 {
+	font-weight: 450 !important;
+}
+._515 {
+	font-weight: 515 !important;
+}
+._550 {
+	font-weight: 550 !important;
+}
+
+// Text Links
+.text-link {
+	text-decoration: underline;
+	text-decoration-color: transparent;
+	transition: text-decoration-color 200ms ease;
+
+	&:hover,
+	&:focus {
+		text-decoration-color: inherit;
+	}
+}
+
+// Colors
+.bold-blue {
+	strong,
+	b {
+		color: $primary;
+	}
+}
+
+// Spacing
+.section-heading p {
+	margin-bottom: 0;
+}

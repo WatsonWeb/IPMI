@@ -1,0 +1,19 @@
+/* Footer */
+
+// Tablet and below
+@media screen and (max-width: 767px) {
+	.footer .mobile-collapse,
+	.footer.open .footer-open-button {
+		display: none;
+	}
+
+	.footer.open .mobile-collapse {
+		display: flex;
+		max-height: 500px;
+		opacity: 1;
+	}
+
+	.footer.open .footer-close-button {
+		display: block;
+	}
+}

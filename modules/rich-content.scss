@@ -1,0 +1,32 @@
+/* Rich Content */
+@use "../global/colors" as *;
+
+.rich-content li,
+.rich-content.dates p {
+	margin-bottom: 0.5em;
+	padding-left: 1.5em;
+	font-weight: 550;
+}
+
+.rich-content ul {
+	list-style: none;
+}
+
+.rich-content ul,
+.rich-content ol,
+.rich-content.dates {
+	padding-left: 0;
+	margin-bottom: 1.5em;
+}
+
+.rich-content ul li::before,
+.rich-content.dates p::before {
+	content: "\2022";
+	color: $primary;
+	color: var(--accent);
+	font-weight: bold;
+	display: inline-block;
+	margin-left: -1.5em;
+	margin-right: 0.5em;
+	width: 1em;
+}

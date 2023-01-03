@@ -1,0 +1,37 @@
+/* Mobile Navigation */
+@use "../global/colors" as *;
+
+.mobile-menu-wrap {
+	pointer-events: none;
+}
+
+.mobile-menu-wrap.open {
+	pointer-events: auto;
+	background-color: rgba(0, 0, 0, 0.5);
+
+	.mobile-menu {
+		opacity: 1;
+		transform: none;
+	}
+}
+
+.mobile-dropdown-link {
+	&:hover,
+	&:focus {
+		.nav-caret,
+		.nav-dropdown-arrow {
+			color: $primary;
+		}
+	}
+}
+
+.mobile-dropdown-list {
+	position: relative;
+	display: block;
+	max-height: 0;
+	overflow: hidden;
+}
+
+.mobile-dropdown-list.w--open {
+	max-height: 500px;
+}

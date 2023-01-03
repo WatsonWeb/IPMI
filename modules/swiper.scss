@@ -1,0 +1,34 @@
+/* Swiper */
+@use "../global/colors" as *;
+
+.swiper .swiper-slide {
+	height: auto;
+}
+
+.swiper-button-disabled {
+	background-color: $disabled;
+	background-image: none;
+	cursor: default;
+}
+
+.swiper-button-disabled::after {
+	content: none;
+}
+
+.swiper-pagination-bullet {
+	display: block;
+	width: 10px;
+	height: 10px;
+	background-color: $disabled;
+	cursor: pointer;
+	border-radius: 50%;
+
+	&:hover,
+	&:focus {
+		background-color: $zinc-500;
+	}
+}
+.swiper-pagination-bullet-active {
+	background-color: $primary !important;
+	background-color: var(--accent) !important;
+}

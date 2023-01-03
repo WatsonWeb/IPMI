@@ -1,0 +1,71 @@
+/* Forms */
+@use "../global/colors" as *;
+
+/* Forms */
+
+.form-category-link {
+	&.active {
+		.form-category-background {
+			transform: none;
+			opacity: 1;
+		}
+	}
+
+	&:hover,
+	&:focus {
+		.form-category-label {
+			color: $white;
+		}
+	}
+
+	&:hover,
+	&:focus,
+	&.active {
+		.form-category-icon {
+			background-color: $primary;
+			background-color: var(--accent);
+		}
+
+		.form-category-label {
+			color: $primary-dark;
+			color: var(--accent-dark);
+		}
+	}
+}
+
+.field:focus {
+	border-color: $primary;
+	border-color: var(--accent);
+}
+
+.field::placeholder {
+	transition: color 0.2s;
+}
+
+.field:focus::placeholder {
+	color: $zinc-300;
+}
+
+.field-wrapper.focused .label {
+	color: $primary;
+	color: var(--accent);
+}
+
+.form-submit-button {
+	background-color: $primary-dark;
+	background-color: var(--accent-dark);
+
+	&:hover,
+	&:focus {
+		background-color: $primary;
+		background-color: var(--accent);
+	}
+}
+
+.hidden-field {
+	opacity: 0 !important;
+	max-height: 0 !important;
+	pointer-events: none !important;
+	margin-bottom: 0 !important;
+	padding-bottom: 0 !important;
+}
