@@ -6,30 +6,7 @@
 
 	&:hover,
 	&:focus {
-		&.color---healthcare {
-			color: $healthcare;
-			box-shadow: inset 0 0 5px 5px rgba(0, 0, 0, 0.05),
-				0 0 5px 5px $healthcare;
-		}
-		&.color---hr {
-			color: $hr;
-			box-shadow: inset 0 0 5px 5px rgba(0, 0, 0, 0.05), 0 0 5px 5px $hr;
-		}
-		&.color---sales {
-			color: $sales;
-			box-shadow: inset 0 0 5px 5px rgba(0, 0, 0, 0.05),
-				0 0 5px 5px $sales;
-		}
-		&.color---environmental {
-			color: $environmental;
-			box-shadow: inset 0 0 5px 5px rgba(0, 0, 0, 0.05),
-				0 0 5px 5px $environmental;
-		}
-		&.color---legal {
-			color: $legal;
-			box-shadow: inset 0 0 5px 5px rgba(0, 0, 0, 0.05),
-				0 0 5px 5px $legal;
-		}
+		opacity: 0.9;
 	}
 
 	&.active {
