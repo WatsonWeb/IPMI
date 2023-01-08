@@ -19,7 +19,7 @@
 			color: $legal;
 		}
 
-		.institute-filter-icon path.a {
+		.institute-filter-icon path.b {
 			fill: $white;
 		}
 	}
@@ -29,10 +29,10 @@
 	transition: fill 0.2s ease;
 
 	&.a {
-		fill: #bcbcbf;
+		fill: currentColor;
 	}
 
 	&.b {
-		fill: currentColor;
+		fill: #bcbcbf;
 	}
 }
