@@ -4,23 +4,23 @@
 .institute-filter-button {
 	color: $zinc-500;
 
-	.institute-filter-icon path {
-		transition: fill 0.2s ease;
-	}
-
-	.institute-filter-icon path.a {
-		fill: currentColor;
-	}
-
-	.institute-filter-icon path.b {
-		fill: currentColor;
-	}
-
 	&.active {
 		color: inherit;
 
 		.institute-filter-icon path.b {
 			fill: #fff;
 		}
+	}
+}
+
+.institute-filter-icon path {
+	transition: fill 0.2s ease;
+
+	&.a {
+		fill: currentColor;
+	}
+
+	&.b {
+		fill: $zinc-300;
 	}
 }
