@@ -2,13 +2,25 @@
 @use "../global/colors" as *;
 
 .institute-filter-button {
-	color: $zinc-500;
-
 	&.active {
-		color: inherit;
+		&.color---healthcare {
+			color: $healthcare;
+		}
+		&.color---hr {
+			color: $hr;
+		}
+		&.color---sales {
+			color: $sales;
+		}
+		&.color---environmental {
+			color: $environmental;
+		}
+		&.color---legal {
+			color: $legal;
+		}
 
-		.institute-filter-icon path.b {
-			fill: #fff;
+		.institute-filter-icon path.a {
+			fill: $white;
 		}
 	}
 }
@@ -17,10 +29,10 @@
 	transition: fill 0.2s ease;
 
 	&.a {
-		fill: currentColor;
+		fill: #bcbcbf;
 	}
 
 	&.b {
-		fill: $zinc-300;
+		fill: currentColor;
 	}
 }
