@@ -12,13 +12,11 @@
 	&.active {
 		&:hover,
 		&:focus {
-			background-color: $zinc-100;
+			background-color: $zinc-200;
 		}
 	}
 
-	&.active,
-	&:hover,
-	&:focus {
+	&.active {
 		&.color---healthcare {
 			color: $healthcare;
 		}
