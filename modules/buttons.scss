@@ -1,6 +1,5 @@
 /* Buttons */
-.button::after,
-.institute-filter-button::after {
+.button::after {
 	content: "";
 	display: block;
 	background-color: #fff;
@@ -19,9 +18,7 @@
 }
 
 .button:hover::after,
-.button:focus::after,
-.institute-filter-button:hover::after,
-.institute-filter-button:hover::after {
+.button:focus::after {
 	opacity: 0.25;
 	transform: none;
 }

@@ -3,9 +3,10 @@
 
 .institute-filter-button {
 	color: $zinc-500;
-	position: relative;
 
-	&.active {
+	&.active,
+	&:hover,
+	&:focus {
 		&.color---healthcare {
 			color: $healthcare;
 		}
