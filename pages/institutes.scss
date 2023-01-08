@@ -2,25 +2,25 @@
 @use "../global/colors" as *;
 
 .institute-filter-button {
-	.institute-filter-label {
-		color: $zinc-400 !important;
-	}
+	color: $zinc-500;
 
 	.institute-filter-icon path {
 		transition: fill 0.2s ease;
 	}
 
 	.institute-filter-icon path.a {
-		fill: $zinc-400 !important;
+		fill: currentColor;
+	}
+
+	.institute-filter-icon path.b {
+		fill: currentColor;
 	}
 
 	&.active {
-		.institute-filter-label {
-			color: inherit !important;
-		}
+		color: inherit;
 
-		.institute-filter-icon path.a {
-			fill: inherit !important;
+		.institute-filter-icon path.b {
+			fill: #fff;
 		}
 	}
 }
