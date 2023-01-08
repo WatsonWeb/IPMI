@@ -4,6 +4,7 @@
 .institute-filter-button {
 	background-color: $zinc-200;
 	color: $zinc-500;
+	transition: all 0.2s ease;
 
 	&.active,
 	&:hover,
@@ -52,4 +53,8 @@
 			fill: $zinc-200;
 		}
 	}
+}
+
+.institute-filter-label {
+	transition: color 0.2s ease;
 }
