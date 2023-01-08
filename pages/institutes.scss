@@ -4,6 +4,18 @@
 .institute-filter-button {
 	color: $zinc-500;
 
+	&:hover,
+	&:focus {
+		background-color: $zinc-400;
+	}
+
+	&.active {
+		&:hover,
+		&:focus {
+			background-color: $zinc-100;
+		}
+	}
+
 	&.active,
 	&:hover,
 	&:focus {
