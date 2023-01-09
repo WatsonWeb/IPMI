@@ -69,6 +69,12 @@
 }
 
 // Viewport Visibility
+.hidden {
+	display: none !important;
+	visibility: none !important;
+	pointer-events: none !important;
+}
+
 @media screen and (min-width: 768px) {
 	.hidden-tablet-up {
 		display: none !important;
