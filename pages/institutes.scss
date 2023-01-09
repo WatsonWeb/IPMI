@@ -1,6 +1,10 @@
 /* Institutes */
 @use "../global/colors" as *;
 
+.institute-cards {
+	opacity: 1 !important;
+}
+
 .institute-filter-button {
 	color: #707070;
 
