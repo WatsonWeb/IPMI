@@ -13,9 +13,7 @@
 		background-color: $zinc-100;
 	}
 
-	&.active,
-	&:hover,
-	&:focus {
+	&.active {
 		&.color---healthcare {
 			color: $healthcare;
 		}
