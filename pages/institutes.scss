@@ -45,6 +45,13 @@
 			}
 		}
 	}
+
+	&.active {
+		&:hover,
+		&:focus {
+			background-color: $white;
+		}
+	}
 }
 
 .institute-filter-icon {
