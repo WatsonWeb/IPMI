@@ -1,54 +1,54 @@
 /* Institutes */
 @use "../global/colors" as *;
 
-// .institute-filter-button {
-// 	transition: all 0.2s ease;
+.institute-filter-button,
+.institute-filter-label,
+.institute-filter-icon svg,
+.institute-filter-icon path,
+.institute-filter-icon ellipse {
+	transition: fill 0.2s ease;
+}
 
-// 	&.active,
-// 	&:hover,
-// 	&:focus {
-// 		&.color---healthcare {
-// 			color: $healthcare;
-// 		}
-// 		&.color---hr {
-// 			color: $hr;
-// 		}
-// 		&.color---sales {
-// 			color: $sales;
-// 		}
-// 		&.color---environmental {
-// 			color: $environmental;
-// 		}
-// 		&.color---legal {
-// 			color: $legal;
-// 		}
+.institute-filter-button {
+	&.active,
+	&:hover,
+	&:focus {
+		&.color---healthcare {
+			color: $healthcare;
+		}
+		&.color---hr {
+			color: $hr;
+		}
+		&.color---sales {
+			color: $sales;
+		}
+		&.color---environmental {
+			color: $environmental;
+		}
+		&.color---legal {
+			color: $legal;
+		}
 
-// 		.institute-filter-icon {
-// 			path,
-// 			ellipse {
-// 				&.b {
-// 					fill: $zinc-50;
-// 				}
-// 			}
-// 		}
-// 	}
-// }
+		.institute-filter-icon {
+			path,
+			ellipse {
+				&.b {
+					fill: $white;
+				}
+			}
+		}
+	}
+}
 
-// .institute-filter-icon {
-// 	path,
-// 	ellipse {
-// 		transition: fill 0.2s ease;
+.institute-filter-icon {
+	path,
+	ellipse {
+		&.a {
+			fill: currentColor;
+		}
 
-// 		&.a {
-// 			fill: currentColor;
-// 		}
-
-// 		&.b {
-// 			fill: $zinc-200;
-// 		}
-// 	}
-// }
-
-// .institute-filter-label {
-// 	transition: color 0.2s ease;
-// }
+		&.b {
+			fill: $zinc-100;
+		}
+	}
+}
