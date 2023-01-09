@@ -1,14 +1,6 @@
 /* Institutes */
 @use "../global/colors" as *;
 
-.institute-filter-button,
-.institute-filter-label,
-.institute-filter-icon svg,
-.institute-filter-icon path,
-.institute-filter-icon ellipse {
-	transition: all 0.2s ease;
-}
-
 .institute-filter-button {
 	color: #707070;
 
