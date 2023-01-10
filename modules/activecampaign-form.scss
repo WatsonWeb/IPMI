@@ -1,0 +1,238 @@
+/* ActiveCampaign Forms */
+@use "../global/colors" as *;
+
+#activecampaign-form {
+	font-family: "Avenir Next Variable", sans-serif !important;
+
+	._form-content {
+		font-family: "Avenir Next Variable", sans-serif !important;
+	}
+
+	._form-title,
+	.form-content ._form_element:first-child {
+		display: none !important;
+	}
+
+	form {
+		margin: 0 !important;
+		padding: 0 !important;
+		background: none !important;
+		color: $zinc-600 !important;
+		margin-top: -1rem !important;
+		font-size: 16px !important;
+		max-width: none !important;
+	}
+
+	._form_element {
+		margin-bottom: 1.5rem !important;
+	}
+
+	input,
+	select,
+	textarea {
+		font-size: 20px !important;
+		font-family: "Avenir Next Variable", sans-serif !important;
+	}
+
+	._checkbox-radio label,
+	button[type="submit"] {
+		font-size: 16px !important;
+		font-family: "Avenir Next Variable", sans-serif !important;
+	}
+
+	input[type="text"],
+	select,
+	textarea {
+		border-radius: 10px !important;
+		border: 3px solid rgba(212, 212, 216, 0) !important;
+		transition: color 0.2s, box-shadow 0.2s, border-color 0.2s !important;
+		box-shadow: 0 1px 2px -1px rgb(0 0 0 / 10%),
+			0 1px 3px 0 rgb(0 0 0 / 10%) !important;
+		background-color: $white !important;
+		font-weight: 450 !important;
+		padding: 10px 1em 14px 1em !important;
+		min-height: 70px !important;
+		line-height: 1.42857143 !important;
+
+		&::placeholder {
+			transition: color 0.2s !important;
+			color: $zinc-400 !important;
+		}
+
+		&:focus {
+			border-color: $primary !important;
+			border-color: var(--accent) !important;
+
+			&::placeholder {
+				color: $zinc-300 !important;
+			}
+		}
+	}
+
+	._field-wrapper {
+		padding-left: 25px !important;
+		position: relative !important;
+
+		input[type="text"],
+		select,
+		textarea {
+			padding-left: 35px !important;
+		}
+	}
+
+	.field-icon svg {
+		font-size: 24px !important;
+	}
+
+	legend,
+	label {
+		font-weight: 550 !important;
+	}
+
+	legend {
+		margin-bottom: 1.5rem !important;
+	}
+
+	._checkbox-radio {
+		display: flex !important;
+		align-items: center !important;
+
+		margin-bottom: 0.5rem !important;
+
+		input {
+			margin-right: 0.5rem !important;
+		}
+
+		input[type="checkbox"],
+		input[type="radio"] {
+			width: 16px !important;
+			height: 16px !important;
+		}
+
+		label {
+			margin-bottom: 0 !important;
+		}
+	}
+
+	._form_element > label {
+		letter-spacing: 2px !important;
+		text-transform: uppercase !important;
+		font-size: 16px !important;
+		font-weight: 550 !important;
+		padding-left: 0.3rem !important;
+		transition: color 0.2s !important;
+	}
+
+	._form_element.focused > label,
+	._checkbox-radio input:checked + span > label {
+		color: $primary !important;
+		color: var(--accent) !important;
+	}
+
+	._button-wrapper {
+		text-align: center !important;
+
+		button {
+			border-radius: 100px !important;
+			transition: background-color 0.2s !important;
+			background-color: $primary-dark !important;
+			background-color: var(--accent-dark) !important;
+			color: $white !important;
+			text-transform: uppercase !important;
+			padding: 15px 20px !important;
+			letter-spacing: 1px !important;
+			font-weight: 700 !important;
+
+			&:hover,
+			&:focus {
+				background-color: $primary !important;
+				background-color: var(--accent) !important;
+			}
+		}
+	}
+
+	// Mobile
+	@media screen and (max-width: 479px) {
+		form {
+			font-size: 14px !important;
+		}
+
+		input,
+		select,
+		textarea {
+			font-size: 16px !important;
+		}
+
+		._checkbox-radio label,
+		button[type="submit"] {
+			font-size: 12px !important;
+		}
+
+		._field-wrapper {
+			padding-left: 15px !important;
+		}
+
+		input[type="text"],
+		select,
+		textarea {
+			padding-left: 25px !important;
+			min-height: 50px !important;
+		}
+
+		.field-icon svg {
+			font-size: 19.5px !important;
+		}
+
+		input[type="checkbox"],
+		input[type="radio"] {
+			width: 12px !important;
+			height: 12px !important;
+		}
+	}
+
+	// Mobile Landscape
+	@media screen and (min-width: 480px) and (max-width: 767px) {
+		form {
+			font-size: 16px !important;
+		}
+
+		input,
+		select,
+		textarea {
+			font-size: 18px !important;
+		}
+
+		._checkbox-radio label,
+		button[type="submit"] {
+			font-size: 14px !important;
+		}
+
+		._field-wrapper {
+			padding-left: 20px !important;
+		}
+
+		input[type="text"],
+		select,
+		textarea {
+			padding-left: 30px !important;
+			min-height: 60px !important;
+		}
+
+		.field-icon svg {
+			font-size: 21px !important;
+		}
+
+		input[type="checkbox"],
+		input[type="radio"] {
+			width: 13px !important;
+			height: 13px !important;
+		}
+	}
+
+	// Tablet
+	@media screen and (min-width: 768px) and (max-width: 991px) {
+		#activecampaign-form {
+			max-width: 500px !important;
+		}
+	}
+}
