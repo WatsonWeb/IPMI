@@ -9,16 +9,34 @@
 .mobile-menu-wrap.reveal {
 	pointer-events: auto;
 	background-color: rgba(0, 0, 0, 0.5);
-
 	.mobile-menu {
 		opacity: 1;
 		transform: none;
 	}
 }
 
+.mobile-dropdown-toggle {
+	&:hover,
+	&:focus,
+	&.w--open {
+		background-color: $zinc-700;
+		color: $white;
+		.nav-caret {
+			color: $primary;
+		}
+	}
+
+	&:has(+ nav a.w--current) {
+		.nav-caret {
+			color: $primary;
+		}
+	}
+}
+
 .mobile-dropdown-link {
 	&:hover,
-	&:focus {
+	&:focus,
+	&.w--current {
 		.nav-caret,
 		.nav-dropdown-arrow {
 			color: $primary;

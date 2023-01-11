@@ -62,3 +62,24 @@
 		bottom: 10px;
 	}
 }
+
+// Active states
+.nav-link.w--current::after {
+	transform: none;
+	opacity: 1;
+}
+
+.nav-link.w--current {
+	.nav-caret {
+		color: $primary;
+	}
+}
+
+.nav-dropdown-link.w--current {
+	background-color: $zinc-700;
+	color: $white;
+
+	.nav-dropdown-arrow {
+		color: $primary;
+	}
+}
