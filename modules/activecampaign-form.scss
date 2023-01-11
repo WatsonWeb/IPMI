@@ -190,6 +190,12 @@
 		}
 	}
 
+	@media screen and (min-width: 320px) and (max-width: 667px) {
+		._checkbox-radio input {
+			margin-right: 0.5rem !important;
+		}
+	}
+
 	// Mobile Landscape
 	@media screen and (min-width: 480px) and (max-width: 767px) {
 		form {

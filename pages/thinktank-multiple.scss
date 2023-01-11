@@ -1,0 +1,6 @@
+/* Virtual Think Tank Multiple Template */
+@media screen and (max-width: 599px) {
+	.cards-list.small {
+		grid-template-columns: 1fr;
+	}
+}
