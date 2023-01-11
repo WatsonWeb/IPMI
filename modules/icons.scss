@@ -21,13 +21,26 @@ span {
 	}
 }
 
-.wf-design-mode {
+html.wf-design-mode {
 	div,
 	span {
 		&.fa-solid,
 		&.fa-regular,
 		&.fa-light {
 			visibility: visible;
+			font-family: "Font Awesome 6 Pro";
+		}
+
+		&.fa-solid {
+			font-weight: 900;
+		}
+
+		&.fa-regular {
+			font-weight: 400;
+		}
+
+		&.fa-light {
+			font-weight: 300;
 		}
 	}
 
