@@ -56,3 +56,12 @@
 		}
 	}
 }
+
+#filter-button.active {
+	background-color: $primary;
+}
+
+#filter-buttons.active {
+	margin-top: 30px;
+	max-height: 999px;
+}
