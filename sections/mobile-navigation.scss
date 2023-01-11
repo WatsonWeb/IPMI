@@ -5,7 +5,8 @@
 	pointer-events: none;
 }
 
-.mobile-menu-wrap.open {
+.mobile-menu-wrap.open,
+.mobile-menu-wrap.reveal {
 	pointer-events: auto;
 	background-color: rgba(0, 0, 0, 0.5);
 
@@ -34,4 +35,11 @@
 
 .mobile-dropdown-list.w--open {
 	max-height: 500px;
+}
+
+.mobile-menu-wrap.reveal {
+	.mobile-dropdown-list {
+		overflow: visible;
+		max-height: none;
+	}
 }
