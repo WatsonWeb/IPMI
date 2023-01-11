@@ -20,3 +20,32 @@ span {
 		vertical-align: 0.05357em;
 	}
 }
+
+.wf-design-mode {
+	div,
+	span {
+		&.fa-solid,
+		&.fa-regular,
+		&.fa-light {
+			visibility: visible;
+		}
+	}
+
+	.fa-solid,
+	.fa-regular,
+	.fa-light {
+		font-family: "Font Awesome 6 Pro";
+	}
+
+	.fa-solid {
+		font-weight: 900;
+	}
+
+	.fa-regular {
+		font-weight: 400;
+	}
+
+	.fa-light {
+		font-weight: 300;
+	}
+}
