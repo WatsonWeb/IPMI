@@ -18,15 +18,10 @@
 .mobile-dropdown-toggle {
 	&:hover,
 	&:focus,
-	&.w--open {
+	&.w--open,
+	&:has(+ nav a.w--current) {
 		background-color: $zinc-700;
 		color: $white;
-		.nav-caret {
-			color: $primary;
-		}
-	}
-
-	&:has(+ nav a.w--current) {
 		.nav-caret {
 			color: $primary;
 		}
@@ -37,6 +32,8 @@
 	&:hover,
 	&:focus,
 	&.w--current {
+		background-color: $zinc-800;
+		color: $white;
 		.nav-caret,
 		.nav-dropdown-arrow {
 			color: $primary;
