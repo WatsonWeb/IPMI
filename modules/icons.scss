@@ -1,0 +1,14 @@
+/* Icons */
+div,
+span {
+	&.fa-solid,
+	&.fa-regular,
+	&.fa-light {
+		min-width: 1em;
+		visibility: hidden;
+	}
+
+	&.fa-xl {
+		font-size: 1.5em;
+	}
+}
