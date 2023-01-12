@@ -1,6 +1,16 @@
 /* Gallery */
 @use "../global/colors" as *;
 
+.gallery-lightbox-link {
+	&:hover,
+	&:focus {
+		.gallery-caption {
+			opacity: 1;
+			transform: translateY(0);
+		}
+	}
+}
+
 .meetings-gallery {
 	--accent: #{$hr};
 	--accent-dark: #{$hr-dark};
