@@ -25,3 +25,9 @@
 	--accent: #{$sales};
 	--accent-dark: #{$sales-dark};
 }
+
+.gallery-outter-wrap {
+	.bold-blue strong {
+		color: var(--accent);
+	}
+}
