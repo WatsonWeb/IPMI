@@ -1,24 +1,49 @@
 /* Icons */
-div,
-span {
-	&.fa-solid,
-	&.fa-regular,
-	&.fa-light,
-	&.fa-brands {
-		visibility: hidden;
-	}
 
-	&.fa-xl {
-		font-size: 1.5em;
-		line-height: 0.04167em;
-		vertical-align: -0.125em;
-	}
+// Prevent icon flashing
+.fa-solid,
+.fa-regular,
+.fa-light,
+.fa-brands {
+	visibility: hidden;
+}
 
-	&.fa-sm {
-		font-size: 0.875em;
-		line-height: 0.07143em;
-		vertical-align: 0.05357em;
-	}
+.fa-solid,
+.fa-regular,
+.fa-light {
+	font-family: "Font Awesome 6 Pro";
+}
+
+.fa-brands {
+	font-family: "Font Awesome 6 Brands";
+}
+
+.fa-solid {
+	font-weight: 900;
+}
+
+.fa-regular {
+	font-weight: 400;
+}
+
+.fa-light {
+	font-weight: 300;
+}
+
+.fa-brands {
+	font-weight: 400;
+}
+
+.fa-sm {
+	font-size: 0.875em;
+	line-height: 0.07143em;
+	vertical-align: 0.05357em;
+}
+
+.fa-xl {
+	font-size: 1.5em;
+	line-height: 0.04167em;
+	vertical-align: -0.125em;
 }
 
 html.wf-design-mode {
@@ -27,31 +52,5 @@ html.wf-design-mode {
 	.fa-light,
 	.fa-brands {
 		visibility: visible;
-	}
-
-	.fa-solid,
-	.fa-regular,
-	.fa-light {
-		font-family: "Font Awesome 6 Pro";
-	}
-
-	.fa-brands {
-		font-family: "Font Awesome 6 Brands";
-	}
-
-	.fa-solid {
-		font-weight: 900;
-	}
-
-	.fa-regular {
-		font-weight: 400;
-	}
-
-	.fa-light {
-		font-weight: 300;
-	}
-
-	.fa-brands {
-		font-weight: 400;
 	}
 }
