@@ -1,11 +1,12 @@
 /* Icons */
-
-// Prevent icon flashing
-.fa-solid,
-.fa-regular,
-.fa-light,
-.fa-brands {
-	visibility: hidden;
+div,
+span {
+	&.fa-solid,
+	&.fa-regular,
+	&.fa-light,
+	&.fa-brands {
+		visibility: hidden;
+	}
 }
 
 .fa-solid,
