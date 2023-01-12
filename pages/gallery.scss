@@ -1,0 +1,17 @@
+/* Gallery */
+@use "../global/colors" as *;
+
+.meetings-gallery {
+	--accent: $hr;
+	--accent-dark: $hr-dark;
+}
+
+.thinktanks-gallery {
+	--accent: $environmental;
+	--accent-dark: $environmental-dark;
+}
+
+.networking-gallery {
+	--accent: $sales;
+	--accent-dark: $sales-dark;
+}
