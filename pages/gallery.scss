@@ -2,16 +2,16 @@
 @use "../global/colors" as *;
 
 .meetings-gallery {
-	--accent: $hr;
-	--accent-dark: $hr-dark;
+	--accent: #{$hr};
+	--accent-dark: #{$hr-dark};
 }
 
 .thinktanks-gallery {
-	--accent: #8b49a6;
-	--accent-dark: #763e8c;
+	--accent: #{$environmental};
+	--accent-dark: #{$environmental-dark};
 }
 
 .networking-gallery {
-	--accent: $sales;
-	--accent-dark: $sales-dark;
+	--accent: #{$sales};
+	--accent-dark: #{$sales-dark};
 }
