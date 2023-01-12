@@ -23,9 +23,13 @@
 	cursor: pointer;
 	border-radius: 50%;
 
-	&:hover,
-	&:focus {
+	&:hover {
 		background-color: $zinc-500;
+	}
+
+	&:focus {
+		background-color: $primary;
+		background-color: var(--accent);
 	}
 }
 .swiper-pagination-bullet-active {
