@@ -9,6 +9,11 @@
 .faq-question.is-active-accordion {
 	.faq-header {
 		cursor: n-resize;
+		color: $primary;
+	}
+
+	.faq-content-wrap {
+		max-height: 999px;
 	}
 
 	.faq-underline {
