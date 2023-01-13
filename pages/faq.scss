@@ -6,10 +6,11 @@
 	color: $primary;
 }
 
-.faq-question.is-active-accordion {
+.faq-question.open {
 	.faq-header {
 		cursor: n-resize;
 		color: $primary;
+		background-color: #ececed;
 	}
 
 	.faq-underline {
