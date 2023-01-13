@@ -1,0 +1,24 @@
+/* FAQ */
+@use "../global/colors" as *;
+
+.faq-question-header::after {
+	content: "?";
+	color: $primary;
+}
+
+.faq-question.is-active-accordion {
+	.faq-header {
+		cursor: n-resize;
+		background-color: #ececed;
+		color: $primary;
+	}
+
+	.faq-underline {
+		width: 100%;
+		opacity: 1;
+	}
+
+	.faq-arrow {
+		transform: rotate(180deg);
+	}
+}
