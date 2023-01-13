@@ -9,12 +9,10 @@
 .faq-question.is-active-accordion {
 	.faq-header {
 		cursor: n-resize;
-		background-color: #ececed;
-		color: $primary;
 	}
 
 	.faq-underline {
-		width: 100%;
+		max-width: 100%;
 		opacity: 1;
 	}
 
