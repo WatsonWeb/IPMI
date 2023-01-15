@@ -83,6 +83,14 @@
 	}
 }
 
+@media screen and (max-width: 991px) {
+	.hidden-tablet-down {
+		display: none !important;
+		visibility: none !important;
+		pointer-events: none !important;
+	}
+}
+
 @media screen and (max-width: 767px) {
 	.hidden-mobile {
 		display: none !important;
