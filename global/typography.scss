@@ -21,7 +21,8 @@ body {
 
 // Text Links
 .text-link,
-.rich-content a {
+.rich-content a,
+.recap-content a {
 	text-decoration: underline;
 	text-decoration-color: transparent;
 	transition: text-decoration-color 200ms ease;
