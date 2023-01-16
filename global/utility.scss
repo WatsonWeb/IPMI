@@ -123,3 +123,12 @@
 	animation-iteration-count: infinite;
 	animation-timing-function: linear;
 }
+
+.hover-scale {
+	transform: translateZ(0);
+
+	&:hover,
+	&:focus {
+		transform: translateZ(0) scale(1.05);
+	}
+}
