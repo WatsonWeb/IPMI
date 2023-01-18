@@ -1,0 +1,76 @@
+<script
+	src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"
+	crossorigin="anonymous"
+></script>
+<script>
+	$(function () {
+		// Get URL Hash
+		const hash = window.location.hash.substring(1);
+
+		$(".faq-header").click(function () {
+			if ($(this).attr("aria-expanded") === "false") {
+				$(this).closest(".faq-question").addClass("open");
+				$(this).attr("aria-expanded", "true");
+			} else {
+				$(this).closest(".faq-question").removeClass("open");
+				$(this).attr("aria-expanded", "false");
+			}
+		});
+
+		$(".faq-question").each(function () {
+			const id = $(this).find(".faq-id").attr("id");
+			$(this)
+				.find(".gallery-wrapper")
+				.attr("id", id + "-swiper");
+			$(this)
+				.find(".swiper-pagination")
+				.attr("id", id + "-pagination");
+			$(this)
+				.find(".swiper-button-prev")
+				.attr("id", id + "-prev");
+			$(this)
+				.find(".swiper-button-next")
+				.attr("id", id + "-next");
+
+			let gallerySwiper = new Swiper("#" + id + "-swiper", {
+				spaceBetween: 0,
+				slidesPerView: 3,
+				slidesPerGroup: 3,
+				preloadImages: false,
+				pagination: {
+					el: "#" + id + "-pagination",
+					clickable: true,
+				},
+				navigation: {
+					nextEl: "#" + id + "-next",
+					prevEl: "#" + id + "-prev",
+				},
+				breakpoints: {
+					// Mobile
+					1: {
+						slidesPerView: 1,
+						slidesPerGroup: 1,
+						spaceBetween: 20,
+					},
+
+					// Tablet
+					768: {
+						slidesPerView: 2,
+						slidesPerGroup: 2,
+						spaceBetween: 0,
+					},
+					// Desktop
+					992: {
+						slidesPerView: 3,
+						slidesPerGroup: 3,
+						spaceBetween: 0,
+					},
+				},
+			});
+
+			if (hash === id) {
+				$(this).find(".faq-header").click();
+			}
+		});
+	});
+</script>

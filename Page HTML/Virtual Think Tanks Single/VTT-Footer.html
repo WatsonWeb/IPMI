@@ -1,0 +1,276 @@
+<script
+	src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"
+	crossorigin="anonymous"
+></script>
+<script>
+	$(function () {
+		$(".vtt-profile a").click(function (event) {
+			event.preventDefault();
+
+			const $loading = $(this).closest(".w-dyn-item").find(".loading");
+
+			$loading.addClass("opening");
+
+			const href = $(this).attr("href");
+			$("#modal-container").load(
+				href + " .bio-columns",
+				function (response, status, xhr) {
+					$("#profile-modal").addClass("open");
+					$loading
+						.closest(".w-dyn-item")
+						.find(".loading")
+						.removeClass("opening");
+				}
+			);
+		});
+
+		$("#profile-modal").click(function (event) {
+			$(this).removeClass("open");
+		});
+
+		$("#profile-modal .modal-close").click(function (event) {
+			event.preventDefault();
+			$("#profile-modal").removeClass("open");
+		});
+
+		$("#profile-modal .profile-wrap").click(function (event) {
+			event.stopPropagation();
+		});
+
+		/* Forms */
+
+		/*$(".field").focus(function () {
+			$(this).closest(".field-wrapper").addClass("focused");
+		});
+
+		$(".field").blur(function () {
+			$(this).closest(".field-wrapper").removeClass("focused");
+		});*/
+
+		/* Active Campaign Form */
+		$("._form_element input").focus(function () {
+			$(this).closest("._form_element").addClass("focused");
+		});
+
+		$("._form_element input").blur(function () {
+			$(this).closest("._form_element").removeClass("focused");
+		});
+
+		// Dynamic Icons for standard fields
+		$(
+			"#activecampaign-form ._form_element input[type=text], #activecampaign-form ._form_element textarea"
+		).each(function () {
+			$(this)
+				.closest("._field-wrapper")
+				.append(
+					'<div class="field-icon circle accent-gradient"><div class="fa-regular fa-xl"></div></div>'
+				);
+		});
+
+		$("#activecampaign-form ._form_element select").each(function () {
+			$(this)
+				.closest("._field-wrapper")
+				.append(
+					'<div class="field-icon circle accent-gradient"><div class="fa-regular fa-xl"></div></div>'
+				);
+		});
+
+		const fieldIcons = [
+			{ id: "firstname", icon: "" },
+			{ id: "lastname", icon: "" },
+			{ id: "jobtitle", icon: "" },
+			{ id: "customer_account", icon: "" },
+			{ id: "email", icon: "" },
+			{ id: "phone", icon: "" },
+			{ id: "date", icon: "" },
+			{ id: "time", icon: "" },
+		];
+
+		$.each(fieldIcons, function (i, field) {
+			$("#activecampaign-form")
+				.find("#" + field.id)
+				.next(".field-icon")
+				.find(".fa-regular")
+				.text(field.icon);
+		});
+
+		/* Preferred Dates */
+		/*
+		const preferredDatesSource = $(".preferred-dates-source p");
+		const preferredDatesWrapper = $("#preferred-date-wrapper");
+		const preferredDatesSelect = $("#preferred-date");
+		const preferredTimesWrapper = $("#preferred-time-wrapper");
+		const preferredTimesSelect = $("#preferred-time");
+
+		preferredTimesSelect.prop("disabled", true);
+		let datesAndTimes = [];
+
+		// Fill datesAndTimes array with data
+		preferredDatesSource.each(function () {
+			const innerText = $(this).text();
+
+			if (innerText.length > 1) {
+				const dateTimeArray = innerText.split("-").map(function (item) {
+					return item.trim();
+				});
+				const dateString = dateTimeArray[0];
+				const timesArray = dateTimeArray[1]
+					.split(",")
+					.map(function (item) {
+						return item.trim();
+					});
+				const dateTimeObj = {
+					date: dateString,
+					times: timesArray,
+				};
+
+				datesAndTimes.push(dateTimeObj);
+			}
+		});
+
+		// Loop over data and add to inputs
+		if (datesAndTimes.length > 0) {
+			$.each(datesAndTimes, function (i, val) {
+				preferredDatesSelect.append(
+					$("<option>", {
+						value: val.date,
+						text: val.date,
+					})
+				);
+			});
+		}
+
+		// Propagate times select based on time select changing
+		preferredDatesSelect.change(function () {
+			const selectedDate = $(this).val();
+			if (selectedDate === "") {
+				preferredTimesSelect
+					.prop("disabled", true)
+					.find("option")
+					.remove()
+					.end()
+					.append(
+						$("<option>", {
+							value: "",
+							text: "Select Preferred Time",
+						})
+					)
+					.find("option:first")
+					.prop("selected", true);
+			} else {
+				preferredTimesSelect.prop("disabled", false);
+				$.each(datesAndTimes, function (i, val) {
+					if (selectedDate === val.date) {
+						preferredTimesSelect.find("option").remove();
+						$.each(val.times, function (j, time) {
+							preferredTimesSelect.append(
+								$("<option>", {
+									value: time,
+									text: time,
+								})
+							);
+						});
+						preferredTimesSelect
+							.find("option:first")
+							.prop("selected", true);
+					}
+				});
+			}
+		});
+
+		// Single date / time = Autoselect and hide fields
+		if (datesAndTimes.length === 1) {
+			preferredDatesSelect
+				.find("option:nth-child(2)")
+				.prop("selected", true)
+				.end()
+				.change();
+			preferredDatesWrapper.addClass("hidden");
+			preferredTimesWrapper.addClass("hidden");
+		}
+		*/
+
+		// Slider
+		const testimonialsSwiper = new Swiper("#testimonials-swiper", {
+			spaceBetween: 0,
+			slidesPerView: 3,
+			slidesPerGroup: 3,
+			preloadImages: false,
+			grabCursor: true,
+			pagination: {
+				el: "#testimonials-pagination",
+				clickable: true,
+			},
+			navigation: {
+				nextEl: "#testimonials-next",
+				prevEl: "#testimonials-prev",
+			},
+			breakpoints: {
+				// Mobile
+				1: {
+					slidesPerView: 1,
+					slidesPerGroup: 1,
+					spaceBetween: 20,
+				},
+
+				// Tablet
+				768: {
+					slidesPerView: 2,
+					slidesPerGroup: 2,
+					spaceBetween: 0,
+				},
+				// Desktop
+				992: {
+					slidesPerView: 3,
+					slidesPerGroup: 3,
+					spaceBetween: 0,
+				},
+			},
+		});
+	});
+</script>
+<script
+	src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"
+	crossorigin="anonymous"
+></script>
+<script>
+	// Swiper
+	const eventsSwiper = new Swiper("#events-swiper", {
+		spaceBetween: 0,
+		slidesPerView: 3,
+		slidesPerGroup: 3,
+		preloadImages: false,
+		pagination: {
+			el: "#events-pagination",
+			clickable: true,
+		},
+		navigation: {
+			nextEl: "#events-next",
+			prevEl: "#events-prev",
+		},
+		breakpoints: {
+			// Mobile
+			1: {
+				slidesPerView: 1,
+				slidesPerGroup: 1,
+				enabled: true,
+				spaceBetween: 20,
+			},
+
+			// Tablet
+			768: {
+				slidesPerView: 2,
+				slidesPerGroup: 2,
+				enabled: true,
+				spaceBetween: 0,
+			},
+			// Desktop
+			992: {
+				slidesPerView: 3,
+				slidesPerGroup: 3,
+				spaceBetween: 0,
+				enabled: false,
+			},
+		},
+	});
+</script>

@@ -1,0 +1,38 @@
+<script>
+	$(function () {
+		// Institute Filters
+
+		let filterClicked = false;
+
+		$("#filter-button").click(function () {
+			$(this).toggleClass("active");
+			$("#filter-buttons").toggleClass("active");
+		});
+
+		$(".institute-filter-checkbox").click(function (event) {
+			event.stopPropagation();
+		});
+
+		$(".institute-filter-button").click(function () {
+			const checkbox = $(this).find("input[type=checkbox]");
+			const checkboxLabel = $(this).find(".institute-filter-checkbox");
+
+			if (!filterClicked) {
+				$(this)
+					.siblings()
+					.removeClass("active")
+					.find(".institute-filter-checkbox")
+					.trigger("click");
+				filterClicked = true;
+			} else {
+				if (checkbox.prop("checked")) {
+					$(this).removeClass("active");
+					checkboxLabel.trigger("click");
+				} else {
+					$(this).addClass("active");
+					checkboxLabel.trigger("click");
+				}
+			}
+		});
+	});
+</script>

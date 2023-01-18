@@ -1,0 +1,49 @@
+<script>
+	document.addEventListener("DOMContentLoaded", () => {
+		document.querySelectorAll(".mobile-menu-button").forEach((trigger) => {
+			trigger.addEventListener("click", function () {
+				document
+					.querySelectorAll(".mobile-menu-wrap")
+					.forEach((target) => target.classList.add("open"));
+			});
+		});
+
+		document.querySelectorAll(".mobile-menu-wrap").forEach((trigger) => {
+			trigger.addEventListener("click", function () {
+				document
+					.querySelectorAll(".mobile-menu-wrap")
+					.forEach((target) => target.classList.remove("open"));
+			});
+		});
+
+		document.querySelectorAll(".mobile-close-button").forEach((trigger) => {
+			trigger.addEventListener("click", function () {
+				document
+					.querySelectorAll(".mobile-menu-wrap")
+					.forEach((target) => target.classList.remove("open"));
+			});
+		});
+
+		document.querySelectorAll(".mobile-menu").forEach((trigger) => {
+			trigger.addEventListener("click", function (event) {
+				event.stopPropagation();
+			});
+		});
+
+		document.querySelectorAll(".footer-open-button").forEach((trigger) => {
+			trigger.addEventListener("click", function () {
+				document
+					.querySelectorAll(".footer")
+					.forEach((target) => target.classList.add("open"));
+			});
+		});
+
+		document.querySelectorAll(".footer-close-button").forEach((trigger) => {
+			trigger.addEventListener("click", function () {
+				document
+					.querySelectorAll(".footer")
+					.forEach((target) => target.classList.remove("open"));
+			});
+		});
+	});
+</script>

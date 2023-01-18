@@ -1,0 +1,154 @@
+<script>
+	$(function () {
+		/* Forms */
+
+		// Company Size - Hide Hidden Option
+		$(".company-size option:last").attr("hidden", true);
+
+		$(".form-category-link").click(function (event) {
+			event.preventDefault();
+
+			$(".form-category-link").removeClass("active");
+			$(this).addClass("active");
+
+			// Change Label
+			const label = $(this).find(".form-category-label").text();
+			$("#field-category").val(label);
+
+			// Change E-mail Address
+			const address = $(
+				"#field-" + label.toLowerCase() + "-address"
+			).val();
+			if (address) {
+				$("#field-recipient").val(address);
+			}
+
+			// Hide Fields
+			$(".field-wrapper").each(function () {
+				if ($(this).hasClass("hide-" + label.toLowerCase())) {
+					$(this).addClass("hidden-field");
+				} else {
+					$(this).removeClass("hidden-field");
+				}
+			});
+
+			// Company Size - Select / Reset Hidden Option
+			if (label === "Attend") {
+				$(".company-size").val($(".company-size option:first").val());
+			} else {
+				setTimeout(function () {
+					$(".company-size").val(
+						$(".company-size option:last").val()
+					);
+				}, 200);
+			}
+		});
+
+		$(".field").focus(function () {
+			$(this).closest(".field-wrapper").addClass("focused");
+		});
+
+		$(".field").blur(function () {
+			$(this).closest(".field-wrapper").removeClass("focused");
+		});
+	});
+</script>
+<script
+	src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"
+	crossorigin="anonymous"
+></script>
+<script>
+	// Swiper
+	const recapSwiper = new Swiper("#recap-swiper", {
+		preloadImages: false,
+		spaceBetween: 0,
+		pagination: {
+			el: "#recap-pagination",
+			clickable: true,
+		},
+		navigation: {
+			nextEl: "#recap-next",
+			prevEl: "#recap-prev",
+		},
+	});
+
+	const eventsSwiper = new Swiper("#events-swiper", {
+		enabled: false,
+		spaceBetween: 0,
+		slidesPerView: 3,
+		slidesPerGroup: 3,
+		preloadImages: false,
+		pagination: {
+			el: "#events-pagination",
+			clickable: true,
+		},
+		navigation: {
+			nextEl: "#events-next",
+			prevEl: "#events-prev",
+		},
+		breakpoints: {
+			// Mobile
+			1: {
+				slidesPerView: 1,
+				slidesPerGroup: 1,
+				enabled: true,
+				spaceBetween: 20,
+			},
+
+			// Tablet
+			768: {
+				slidesPerView: 2,
+				slidesPerGroup: 2,
+				enabled: true,
+				spaceBetween: 0,
+			},
+			// Desktop
+			992: {
+				slidesPerView: 3,
+				slidesPerGroup: 3,
+				spaceBetween: 0,
+				enabled: false,
+			},
+		},
+	});
+
+	const testimonialsSwiper = new Swiper("#testimonials-swiper", {
+		enabled: false,
+		spaceBetween: 0,
+		slidesPerView: 1,
+		slidesPerGroup: 1,
+		preloadImages: false,
+		pagination: {
+			el: "#testimonials-pagination",
+			clickable: true,
+		},
+		navigation: {
+			nextEl: "#testimonials-next",
+			prevEl: "#testimonials-prev",
+		},
+		breakpoints: {
+			// Mobile
+			1: {
+				slidesPerView: 1,
+				slidesPerGroup: 1,
+				enabled: true,
+				spaceBetween: 20,
+			},
+
+			// Tablet
+			768: {
+				slidesPerView: 2,
+				slidesPerGroup: 2,
+				enabled: true,
+				spaceBetween: 0,
+			},
+			// Desktop
+			992: {
+				slidesPerView: 1,
+				slidesPerGroup: 1,
+				spaceBetween: 0,
+				enabled: false,
+			},
+		},
+	});
+</script>

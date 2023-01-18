@@ -1,0 +1,176 @@
+<script
+	src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"
+	crossorigin="anonymous"
+></script>
+<script>
+	$(function () {
+		// Sliders
+		$(".attend-section").each(function () {
+			const id = $(this).attr("id");
+			const desktopSlider = $(this).find(
+				".attend-slider-wrap .gallery-slider"
+			);
+			const mobileSlider = $(this).find(
+				".attend-mobile-slider-wrap .attend-mobile-slider"
+			);
+
+			// Desktop Slider
+			desktopSlider
+				.find(".gallery-wrapper")
+				.attr("id", id + "-desktop-swiper");
+			desktopSlider
+				.find(".swiper-pagination")
+				.attr("id", id + "-desktop-pagination");
+			desktopSlider
+				.find(".swiper-button-prev")
+				.attr("id", id + "-desktop-prev");
+			desktopSlider
+				.find(".swiper-button-next")
+				.attr("id", id + "-desktop-next");
+
+			// Mobile Slider
+			mobileSlider
+				.find(".gallery-wrapper")
+				.attr("id", id + "-mobile-swiper");
+			mobileSlider
+				.find(".swiper-pagination")
+				.attr("id", id + "-mobile-pagination");
+			mobileSlider
+				.find(".swiper-button-prev")
+				.attr("id", id + "-mobile-prev");
+			mobileSlider
+				.find(".swiper-button-next")
+				.attr("id", id + "-mobile-next");
+
+			let desktopSwiper = new Swiper("#" + id + "-desktop-swiper", {
+				spaceBetween: 0,
+				slidesPerView: 1,
+				slidesPerGroup: 1,
+				preloadImages: false,
+				pagination: {
+					el: "#" + id + "-desktop-pagination",
+					clickable: true,
+				},
+				navigation: {
+					nextEl: "#" + id + "-desktop-next",
+					prevEl: "#" + id + "-desktop-prev",
+				},
+			});
+
+			let mobileSwiper = new Swiper("#" + id + "-mobile-swiper", {
+				spaceBetween: 0,
+				slidesPerView: 2,
+				slidesPerGroup: 2,
+				preloadImages: false,
+				pagination: {
+					el: "#" + id + "-mobile-pagination",
+					clickable: true,
+				},
+				navigation: {
+					nextEl: "#" + id + "-mobile-next",
+					prevEl: "#" + id + "-mobile-prev",
+				},
+				breakpoints: {
+					// Mobile
+					1: {
+						slidesPerView: 1,
+						slidesPerGroup: 1,
+						spaceBetween: 20,
+					},
+
+					// Tablet
+					768: {
+						slidesPerView: 2,
+						slidesPerGroup: 2,
+						spaceBetween: 0,
+					},
+				},
+			});
+		});
+
+		// Form
+
+		// Auto-fill Upcoming Institutes
+		let upcomingInsitutes = [];
+		const upcomingInsitutesSelect = $("#field-institute");
+		$("#upcoming-institutes .upcoming-institute").each(function () {
+			const name = $(this).find(".upcoming-institute-name").text();
+			const date = $(this).find(".upcoming-institute-date").text();
+			upcomingInsitutes.push(name + " - " + date);
+		});
+
+		if (upcomingInsitutes.length > 0) {
+			$.each(upcomingInsitutes, function (i, val) {
+				upcomingInsitutesSelect.append(
+					$("<option>", {
+						value: val,
+						text: val,
+					})
+				);
+			});
+		}
+
+		// Company Size - Hide Hidden Option
+		$(".company-size option:last").attr("hidden", true);
+
+		$(".form-category-link").click(function (event) {
+			event.preventDefault();
+
+			$(".form-category-link").removeClass("active");
+			$(this).addClass("active");
+
+			// Change Label
+			const label = $(this).find(".form-category-label").text();
+			$("#field-category").val(label);
+
+			// Change E-mail Address
+			const address = $(
+				"#field-" + label.toLowerCase() + "-address"
+			).val();
+			if (address) {
+				$("#field-recipient").val(address);
+			}
+
+			// Hide Fields
+			$(".field-wrapper").each(function () {
+				if ($(this).hasClass("hide-" + label.toLowerCase())) {
+					$(this).addClass("hidden-field");
+				} else {
+					$(this).removeClass("hidden-field");
+				}
+			});
+
+			// Company Size - Select / Reset Hidden Option
+			if (label === "Attend") {
+				$(".company-size").val($(".company-size option:first").val());
+			} else {
+				setTimeout(function () {
+					$(".company-size").val(
+						$(".company-size option:last").val()
+					);
+				}, 200);
+			}
+		});
+
+		// Category Click Triggers
+		$("#attend-button").click(function () {
+			$(".attend-category").trigger("click");
+		});
+
+		$("#speak-button").click(function () {
+			$(".speak-category").trigger("click");
+		});
+
+		$("#partner-button").click(function () {
+			$(".partner-category").trigger("click");
+		});
+
+		$(".field").focus(function () {
+			$(this).closest(".field-wrapper").addClass("focused");
+		});
+
+		$(".field").blur(function () {
+			$(this).closest(".field-wrapper").removeClass("focused");
+		});
+	});
+</script>

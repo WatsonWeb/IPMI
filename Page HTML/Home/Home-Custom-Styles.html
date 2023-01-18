@@ -1,0 +1,162 @@
+<style>
+	:root {
+		--blue: #0284c7;
+		--dark-blue: #0273ad;
+		--accent: var(--blue);
+		--accent-dark: var(--dark-blue);
+		--disabled: #a1a1aa;
+	}
+
+	::-moz-selection {
+		/* Code for Firefox */
+		color: white;
+		background: var(--blue);
+	}
+
+	::selection {
+		color: white;
+		background: var(--blue);
+	}
+
+	body {
+		font-smoothing: antialiased;
+		-webkit-font-smoothing: antialiased;
+		-moz-osx-font-smoothing: grayscale;
+		-webkit-tap-highlight-color: transparent;
+	}
+
+	@media screen and (max-width: 319px) {
+		.container {
+			padding-left: 20px;
+			padding-right: 20px;
+		}
+	}
+	._450 {
+		font-weight: 450 !important;
+	}
+	._515 {
+		font-weight: 515 !important;
+	}
+	._550 {
+		font-weight: 550 !important;
+	}
+	.bold-blue strong {
+		color: var(--blue);
+	}
+
+	.text-link {
+		text-decoration: underline;
+		-webkit-text-decoration-color: transparent;
+		-moz-text-decoration-color: transparent;
+		text-decoration-color: transparent;
+		transition: text-decoration-color 200ms ease;
+	}
+
+	.text-link:hover,
+	.text-link:focus {
+		-webkit-text-decoration-color: inherit;
+		-moz-text-decoration-color: inherit;
+		text-decoration-color: inherit;
+	}
+
+	.curve {
+		fill: currentColor;
+	}
+
+	.aspect-4-3 {
+		aspect-ratio: 4 / 3;
+	}
+	.aspect-16-9 {
+		aspect-ratio: 16 / 9;
+	}
+
+	/* Swiper */
+	.swiper .swiper-slide {
+		height: auto;
+	}
+
+	.swiper-button-disabled {
+		background-color: var(--disabled);
+		background-image: none;
+		cursor: default;
+	}
+
+	.swiper-button-disabled::after {
+		content: none;
+	}
+
+	.swiper-pagination-bullet {
+		display: block;
+		width: 10px;
+		height: 10px;
+		background-color: var(--disabled);
+		cursor: pointer;
+		border-radius: 50%;
+	}
+
+	.swiper-pagination-bullet:hover,
+	.swiper-pagination-bullet:focus {
+		background-color: #71717a;
+	}
+	.swiper-pagination-bullet-active {
+		background-color: var(--accent) !important;
+	}
+
+	/* Footer */
+	.footer {
+		font-weight: 450;
+	}
+
+	@media screen and (max-width: 767px) {
+		.footer .mobile-collapse,
+		.footer.open .footer-open-button {
+			display: none;
+		}
+
+		.footer.open .mobile-collapse {
+			display: flex;
+			max-height: 500px;
+			opacity: 1;
+		}
+
+		.footer.open .footer-close-button {
+			display: block;
+		}
+	}
+
+	/* Helper Classes */
+	@media screen and (min-width: 992px) {
+		.hidden-desktop {
+			display: none !important;
+			visibility: none !important;
+			pointer-events: none !important;
+		}
+
+		.gap-30:first-child {
+			padding-left: 0;
+		}
+
+		.gap-30:last-child {
+			padding-right: 0;
+		}
+	}
+
+	/* Helper Classes */
+	@media screen and (min-width: 768px) {
+		.hidden-tablet-up {
+			display: none !important;
+			visibility: none !important;
+			pointer-events: none !important;
+		}
+	}
+
+	@media screen and (max-width: 767px) {
+		.hidden-mobile {
+			display: none !important;
+			visibility: none !important;
+			pointer-events: none !important;
+		}
+	}
+
+	/* Home */
+</style>
