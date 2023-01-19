@@ -4,19 +4,6 @@
 ></script>
 <script>
 	$(function () {
-		// Get URL Hash
-		const hash = window.location.hash.substring(1);
-
-		$(".faq-header").click(function () {
-			if ($(this).attr("aria-expanded") === "false") {
-				$(this).closest(".faq-question").addClass("open");
-				$(this).attr("aria-expanded", "true");
-			} else {
-				$(this).closest(".faq-question").removeClass("open");
-				$(this).attr("aria-expanded", "false");
-			}
-		});
-
 		$(".faq-question").each(function () {
 			const id = $(this).find(".faq-id").attr("id");
 			$(this)
@@ -67,10 +54,44 @@
 					},
 				},
 			});
+		});
+	});
 
-			if (hash === id) {
-				$(this).find(".faq-header").click();
+	$(window).on("load", function () {
+		$(".faq-header").click(function () {
+			if ($(this).attr("aria-expanded") === "false") {
+				$(this).closest(".faq-question").addClass("open");
+				$(this).attr("aria-expanded", "true");
+			} else {
+				$(this).closest(".faq-question").removeClass("open");
+				$(this).attr("aria-expanded", "false");
 			}
 		});
+
+		// Get URL Hash
+		function openFAQ(hash) {
+			$(".faq-question").each(function () {
+				const id = $(this).find(".faq-id").attr("id");
+				if (
+					hash === id &&
+					$(this).find(".faq-header").attr("aria-expanded") ===
+						"false"
+				) {
+					$(this).find(".faq-header").trigger("click");
+				}
+			});
+		}
+
+		openFAQ(window.location.hash.substring(1));
+
+		$(".nav-dropdown-link, .footer-link, .mobile-dropdown-link").click(
+			function () {
+				const linkArr = $(this).attr("href").split("#");
+
+				if (linkArr.length === 2) {
+					openFAQ(linkArr[1]);
+				}
+			}
+		);
 	});
 </script>
