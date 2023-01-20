@@ -1,8 +1,6 @@
 <script>
 	$(function () {
-		$(".features a, .staff a, .advisors a, .speakers a").click(function (
-			event
-		) {
+		$(".features a, .staff a, .advisors a, .speakers a").click(function (event) {
 			event.preventDefault();
 
 			const $loading = $(this).closest(".w-dyn-item").find(".loading");
@@ -10,16 +8,10 @@
 			$loading.addClass("opening");
 
 			const href = $(this).attr("href");
-			$("#modal-container").load(
-				href + " .bio-columns",
-				function (response, status, xhr) {
-					$("#profile-modal").addClass("open");
-					$loading
-						.closest(".w-dyn-item")
-						.find(".loading")
-						.removeClass("opening");
-				}
-			);
+			$("#modal-container").load(href + " .bio-columns", function (response, status, xhr) {
+				$("#profile-modal").addClass("open");
+				$loading.closest(".w-dyn-item").find(".loading").removeClass("opening");
+			});
 		});
 
 		$("#profile-modal").click(function (event) {
@@ -51,9 +43,7 @@
 			$("#field-category").val(label);
 
 			// Change E-mail Address
-			const address = $(
-				"#field-" + label.toLowerCase() + "-address"
-			).val();
+			const address = $("#field-" + label.toLowerCase() + "-address").val();
 			if (address) {
 				$("#field-recipient").val(address);
 			}
@@ -72,9 +62,7 @@
 				$(".company-size").val($(".company-size option:first").val());
 			} else {
 				setTimeout(function () {
-					$(".company-size").val(
-						$(".company-size option:last").val()
-					);
+					$(".company-size").val($(".company-size option:last").val());
 				}, 200);
 			}
 		});
@@ -88,10 +76,7 @@
 		});
 	});
 </script>
-<script
-	src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"
-	crossorigin="anonymous"
-></script>
+<script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js" crossorigin="anonymous"></script>
 <script>
 	// Swiper
 	const advisorsSwiper = new Swiper("#advisors-swiper", {
