@@ -1,6 +1,6 @@
 // Paste this in the console at the Webflow Publishing page to bulk-import 301 Redirects
 
-let hostingContainer = document.getElementsByClassName("hosting-tab")[0];
+let hostingContainer = document.getElementsByClassName("redirects")[0];
 let hostingController = angular.element(hostingContainer);
 let scope = hostingController.scope();
 
