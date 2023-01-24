@@ -132,19 +132,19 @@ Modernizr.on("webp", function (result) {
 		// not-supported
 
 		// Load WebP Polyfill Scripts
-		const scripts = ["https://cdn.jsdelivr.net/npm/webp-hero@0.0.2/dist-cjs/polyfills.min.js", "https://cdn.jsdelivr.net/npm/webp-hero@0.0.2/dist-cjs/webp-hero.bundle.min.js"];
+		$.when(
+			$.getScript("https://cdn.jsdelivr.net/npm/webp-hero@0.0.2/dist-cjs/polyfills.min.js"),
+			$.getScript("https://cdn.jsdelivr.net/npm/webp-hero@0.0.2/dist-cjs/webp-hero.bundle.min.js"),
+			$.Deferred(function (deferred) {
+				$(deferred.resolve);
+			})
+		).done(function () {
+			// Remove Image Srcsets
+			$("img").removeAttr("srcset");
 
-		// Append Scripts
-		$.each(scripts, function (index, path) {
-			let script = document.createElement("script");
-			script.setAttribute("src", path);
-			script.setAttribute("type", "text/javascript");
-			script.setAttribute("defer", "true");
-			document.body.appendChild(script);
+			// Run WebP Hero Polyfill
+			let webpMachine = new webpHero.WebpMachine();
+			webpMachine.polyfillDocument();
 		});
-
-		// Run WebP Hero Polyfill
-		let webpMachine = new webpHero.WebpMachine();
-		webpMachine.polyfillDocument();
 	}
 });
