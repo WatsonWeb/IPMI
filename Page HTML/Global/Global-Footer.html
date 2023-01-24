@@ -22,6 +22,9 @@
 		$(".footer-close-button").click(function () {
 			$(".footer").removeClass("open");
 		});
+
+		/* SVG Scaling Fix - Safari*/
+		$(".curve svg, .large-event-curve svg, .event-curve svg").attr("preserveAspectRatio", "none");
 	});
 </script>
 <script defer src="https://watsonweb.github.io/IPMI/js/webp-polyfill-min.js" crossorigin="anonymous"></script>
