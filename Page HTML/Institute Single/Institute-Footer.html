@@ -40,7 +40,11 @@
 
 			// Change Label
 			const label = $(this).find(".form-category-label").text();
-			$("#field-category").val(label);
+			let emailLabel = label;
+			if (emailLabel === "Speak") {
+				emailLabel = "Speaker";
+			}
+			$("#field-category").val(emailLabel);
 
 			// Change E-mail Address
 			const address = $("#field-" + label.toLowerCase() + "-address").val();

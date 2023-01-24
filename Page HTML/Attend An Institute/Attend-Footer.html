@@ -1,46 +1,23 @@
-<script
-	src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"
-	crossorigin="anonymous"
-></script>
+<script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js" crossorigin="anonymous"></script>
 <script>
 	$(function () {
 		// Sliders
 		$(".attend-section").each(function () {
 			const id = $(this).attr("id");
-			const desktopSlider = $(this).find(
-				".attend-slider-wrap .gallery-slider"
-			);
-			const mobileSlider = $(this).find(
-				".attend-mobile-slider-wrap .attend-mobile-slider"
-			);
+			const desktopSlider = $(this).find(".attend-slider-wrap .gallery-slider");
+			const mobileSlider = $(this).find(".attend-mobile-slider-wrap .attend-mobile-slider");
 
 			// Desktop Slider
-			desktopSlider
-				.find(".gallery-wrapper")
-				.attr("id", id + "-desktop-swiper");
-			desktopSlider
-				.find(".swiper-pagination")
-				.attr("id", id + "-desktop-pagination");
-			desktopSlider
-				.find(".swiper-button-prev")
-				.attr("id", id + "-desktop-prev");
-			desktopSlider
-				.find(".swiper-button-next")
-				.attr("id", id + "-desktop-next");
+			desktopSlider.find(".gallery-wrapper").attr("id", id + "-desktop-swiper");
+			desktopSlider.find(".swiper-pagination").attr("id", id + "-desktop-pagination");
+			desktopSlider.find(".swiper-button-prev").attr("id", id + "-desktop-prev");
+			desktopSlider.find(".swiper-button-next").attr("id", id + "-desktop-next");
 
 			// Mobile Slider
-			mobileSlider
-				.find(".gallery-wrapper")
-				.attr("id", id + "-mobile-swiper");
-			mobileSlider
-				.find(".swiper-pagination")
-				.attr("id", id + "-mobile-pagination");
-			mobileSlider
-				.find(".swiper-button-prev")
-				.attr("id", id + "-mobile-prev");
-			mobileSlider
-				.find(".swiper-button-next")
-				.attr("id", id + "-mobile-next");
+			mobileSlider.find(".gallery-wrapper").attr("id", id + "-mobile-swiper");
+			mobileSlider.find(".swiper-pagination").attr("id", id + "-mobile-pagination");
+			mobileSlider.find(".swiper-button-prev").attr("id", id + "-mobile-prev");
+			mobileSlider.find(".swiper-button-next").attr("id", id + "-mobile-next");
 
 			let desktopSwiper = new Swiper("#" + id + "-desktop-swiper", {
 				spaceBetween: 0,
@@ -121,12 +98,14 @@
 
 			// Change Label
 			const label = $(this).find(".form-category-label").text();
-			$("#field-category").val(label);
+			let emailLabel = label;
+			if (emailLabel === "Speak") {
+				emailLabel = "Speaker";
+			}
+			$("#field-category").val(emailLabel);
 
 			// Change E-mail Address
-			const address = $(
-				"#field-" + label.toLowerCase() + "-address"
-			).val();
+			const address = $("#field-" + label.toLowerCase() + "-address").val();
 			if (address) {
 				$("#field-recipient").val(address);
 			}
@@ -145,9 +124,7 @@
 				$(".company-size").val($(".company-size option:first").val());
 			} else {
 				setTimeout(function () {
-					$(".company-size").val(
-						$(".company-size option:last").val()
-					);
+					$(".company-size").val($(".company-size option:last").val());
 				}, 200);
 			}
 		});
