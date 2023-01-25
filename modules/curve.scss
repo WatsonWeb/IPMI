@@ -2,5 +2,12 @@
 .curve,
 .event-curve,
 .large-event-curve {
-	fill: currentColor;
+	svg {
+		fill: currentColor;
+	}
+
+	.w-embed::before,
+	.w-embed::after {
+		display: none !important;
+	}
 }
