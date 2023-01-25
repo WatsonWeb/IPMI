@@ -10,4 +10,8 @@
 	.w-embed::after {
 		display: none !important;
 	}
+
+	& + section {
+		margin-top: -1px;
+	}
 }
