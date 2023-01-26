@@ -33,6 +33,13 @@ body {
 		color: $primary-dark;
 		text-decoration-color: inherit;
 	}
+
+	&.accent-color {
+		&:hover,
+		&:focus {
+			color: var(--accent);
+		}
+	}
 }
 
 // Colors

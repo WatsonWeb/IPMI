@@ -1,19 +1,13 @@
-<script
-	src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"
-	crossorigin="anonymous"
-></script>
-<script
-	src="https://cdn.jsdelivr.net/npm/countup.js@2.3.2/dist/countUp.umd.js"
-	crossorigin="anonymous"
-></script>
-<script
-	src="https://cdn.jsdelivr.net/gh/tomik23/circular-progress-bar@1.1.9/dist/circularProgressBar.min.js"
-	crossorigin="anonymous"
-></script>
+<script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/countup.js@2.3.2/dist/countUp.umd.js" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/gh/tomik23/circular-progress-bar@1.1.9/dist/circularProgressBar.min.js" crossorigin="anonymous"></script>
 <script>
 	$(function () {
 		// Swiper
 		const featuresSwiper = new Swiper("#features-swiper", {
+			a11y: {
+				slideRole: "listitem",
+			},
 			spaceBetween: 0,
 			slidesPerView: 3,
 			slidesPerGroup: 3,
@@ -53,6 +47,9 @@
 		});
 
 		const institutesMobileSwiper = new Swiper("#institutes-mobile-swiper", {
+			a11y: {
+				slideRole: "listitem",
+			},
 			spaceBetween: 30,
 			preloadImages: false,
 			pagination: {
@@ -65,49 +62,52 @@
 			},
 		});
 
-		const institutesDesktopSwiper = new Swiper(
-			"#institutes-desktop-swiper",
-			{
-				spaceBetween: 0,
-				slidesPerView: 3,
-				slidesPerGroup: 3,
-				preloadImages: false,
-				pagination: {
-					el: "#institutes-desktop-pagination",
-					clickable: true,
+		const institutesDesktopSwiper = new Swiper("#institutes-desktop-swiper", {
+			a11y: {
+				slideRole: "listitem",
+			},
+			spaceBetween: 0,
+			slidesPerView: 3,
+			slidesPerGroup: 3,
+			preloadImages: false,
+			pagination: {
+				el: "#institutes-desktop-pagination",
+				clickable: true,
+			},
+			navigation: {
+				nextEl: "#institutes-desktop-next",
+				prevEl: "#institutes-desktop-prev",
+			},
+			breakpoints: {
+				// Mobile
+				1: {
+					slidesPerView: 1,
+					slidesPerGroup: 1,
+					enabled: true,
+					spaceBetween: 20,
 				},
-				navigation: {
-					nextEl: "#institutes-desktop-next",
-					prevEl: "#institutes-desktop-prev",
-				},
-				breakpoints: {
-					// Mobile
-					1: {
-						slidesPerView: 1,
-						slidesPerGroup: 1,
-						enabled: true,
-						spaceBetween: 20,
-					},
 
-					// Tablet
-					768: {
-						slidesPerView: 2,
-						slidesPerGroup: 2,
-						enabled: true,
-						spaceBetween: 0,
-					},
-					// Desktop
-					992: {
-						slidesPerView: 3,
-						slidesPerGroup: 3,
-						spaceBetween: 0,
-						enabled: false,
-					},
+				// Tablet
+				768: {
+					slidesPerView: 2,
+					slidesPerGroup: 2,
+					enabled: true,
+					spaceBetween: 0,
 				},
-			}
-		);
+				// Desktop
+				992: {
+					slidesPerView: 3,
+					slidesPerGroup: 3,
+					spaceBetween: 0,
+					enabled: false,
+				},
+			},
+		});
 
 		const recapsSwiper = new Swiper("#recaps-swiper", {
+			a11y: {
+				slideRole: "listitem",
+			},
 			spaceBetween: 0,
 			slidesPerView: 4,
 			slidesPerGroup: 4,
@@ -147,6 +147,9 @@
 		});
 
 		const testimonialsSwiper = new Swiper("#testimonials-swiper", {
+			a11y: {
+				slideRole: "listitem",
+			},
 			spaceBetween: 0,
 			slidesPerView: 3,
 			slidesPerGroup: 3,
@@ -183,6 +186,9 @@
 			},
 		});
 		const attendSwiper = new Swiper("#attend-swiper", {
+			a11y: {
+				slideRole: "listitem",
+			},
 			spaceBetween: 0,
 			slidesPerView: 3,
 			slidesPerGroup: 3,
@@ -247,27 +253,13 @@
 		};
 
 		// get all progress bar
-		const elements = [].slice.call(
-			document.querySelectorAll(".stats-cards")
-		);
+		const elements = [].slice.call(document.querySelectorAll(".stats-cards"));
 
 		// call to function
-		const statCircleInstitutes = new CircularProgressBar(
-			"stat-circle-institutes",
-			statsCircleConfig
-		);
-		const statCircleCXOs = new CircularProgressBar(
-			"stat-circle-cxos",
-			statsCircleConfig
-		);
-		const statCircleSpeakers = new CircularProgressBar(
-			"stat-circle-speakers",
-			statsCircleConfig
-		);
-		const statCirclePartners = new CircularProgressBar(
-			"stat-circle-partners",
-			statsCircleConfig
-		);
+		const statCircleInstitutes = new CircularProgressBar("stat-circle-institutes", statsCircleConfig);
+		const statCircleCXOs = new CircularProgressBar("stat-circle-cxos", statsCircleConfig);
+		const statCircleSpeakers = new CircularProgressBar("stat-circle-speakers", statsCircleConfig);
+		const statCirclePartners = new CircularProgressBar("stat-circle-partners", statsCircleConfig);
 
 		// https://developer.mozilla.org/en-US/docs/Web/API/Intersection_Observer_API
 		// if IntersectionObserver is supported by the browser
@@ -280,10 +272,7 @@
 
 			const ovserver = new IntersectionObserver((entries, observer) => {
 				entries.map((entry) => {
-					if (
-						entry.isIntersecting &&
-						entry.intersectionRatio >= 0.5
-					) {
+					if (entry.isIntersecting && entry.intersectionRatio >= 0.5) {
 						// Institutes
 						statCircleInstitutes.initial();
 						statInstitutes.start();
