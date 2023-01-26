@@ -21,7 +21,9 @@
 // Dropdowns
 .nav-dropdown-toggle {
 	&:hover,
-	&:focus {
+	&:focus,
+	&:focus-visible,
+	&:focus-within {
 		.nav-link::after {
 			transform: none;
 			opacity: 1;
