@@ -1,0 +1,43 @@
+<script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js" crossorigin="anonymous"></script>
+<script>
+	// Swiper
+	const testimonialsSwiper = new Swiper("#testimonials-swiper", {
+		a11y: {
+			slideRole: "listitem",
+		},
+		spaceBetween: 0,
+		slidesPerView: 3,
+		slidesPerGroup: 3,
+		preloadImages: false,
+		grabCursor: true,
+		pagination: {
+			el: "#testimonials-pagination",
+			clickable: true,
+		},
+		navigation: {
+			nextEl: "#testimonials-next",
+			prevEl: "#testimonials-prev",
+		},
+		breakpoints: {
+			// Mobile
+			1: {
+				slidesPerView: 1,
+				slidesPerGroup: 1,
+				spaceBetween: 20,
+			},
+
+			// Tablet
+			768: {
+				slidesPerView: 2,
+				slidesPerGroup: 2,
+				spaceBetween: 0,
+			},
+			// Desktop
+			992: {
+				slidesPerView: 3,
+				slidesPerGroup: 3,
+				spaceBetween: 0,
+			},
+		},
+	});
+</script>

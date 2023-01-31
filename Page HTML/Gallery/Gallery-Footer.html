@@ -1,11 +1,11 @@
-<script
-	src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"
-	crossorigin="anonymous"
-></script>
+<script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js" crossorigin="anonymous"></script>
 <script>
 	$(function () {
 		// Swiper
 		const sessionsSwiper = new Swiper("#sessions-swiper", {
+			a11y: {
+				slideRole: "listitem",
+			},
 			spaceBetween: 0,
 			slidesPerView: 3,
 			slidesPerGroup: 3,
@@ -42,6 +42,9 @@
 		});
 
 		const meetingsSwiper = new Swiper("#meetings-swiper", {
+			a11y: {
+				slideRole: "listitem",
+			},
 			spaceBetween: 0,
 			slidesPerView: 3,
 			slidesPerGroup: 3,
@@ -78,6 +81,9 @@
 		});
 
 		const thinktanksSwiper = new Swiper("#thinktanks-swiper", {
+			a11y: {
+				slideRole: "listitem",
+			},
 			spaceBetween: 0,
 			slidesPerView: 3,
 			slidesPerGroup: 3,
@@ -114,6 +120,9 @@
 		});
 
 		const networkingSwiper = new Swiper("#networking-swiper", {
+			a11y: {
+				slideRole: "listitem",
+			},
 			spaceBetween: 0,
 			slidesPerView: 3,
 			slidesPerGroup: 3,

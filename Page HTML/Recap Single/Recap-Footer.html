@@ -16,9 +16,7 @@
 			$("#field-category").val(label);
 
 			// Change E-mail Address
-			const address = $(
-				"#field-" + label.toLowerCase() + "-address"
-			).val();
+			const address = $("#field-" + label.toLowerCase() + "-address").val();
 			if (address) {
 				$("#field-recipient").val(address);
 			}
@@ -37,9 +35,7 @@
 				$(".company-size").val($(".company-size option:first").val());
 			} else {
 				setTimeout(function () {
-					$(".company-size").val(
-						$(".company-size option:last").val()
-					);
+					$(".company-size").val($(".company-size option:last").val());
 				}, 200);
 			}
 		});
@@ -53,13 +49,13 @@
 		});
 	});
 </script>
-<script
-	src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"
-	crossorigin="anonymous"
-></script>
+<script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js" crossorigin="anonymous"></script>
 <script>
 	// Swiper
 	const recapSwiper = new Swiper("#recap-swiper", {
+		a11y: {
+			slideRole: "listitem",
+		},
 		preloadImages: false,
 		spaceBetween: 0,
 		pagination: {
@@ -73,6 +69,9 @@
 	});
 
 	const eventsSwiper = new Swiper("#events-swiper", {
+		a11y: {
+			slideRole: "listitem",
+		},
 		enabled: false,
 		spaceBetween: 0,
 		slidesPerView: 3,
@@ -113,6 +112,9 @@
 	});
 
 	const testimonialsSwiper = new Swiper("#testimonials-swiper", {
+		a11y: {
+			slideRole: "listitem",
+		},
 		enabled: false,
 		spaceBetween: 0,
 		slidesPerView: 1,

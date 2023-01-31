@@ -20,6 +20,9 @@
 			mobileSlider.find(".swiper-button-next").attr("id", id + "-mobile-next");
 
 			let desktopSwiper = new Swiper("#" + id + "-desktop-swiper", {
+				a11y: {
+					slideRole: "listitem",
+				},
 				spaceBetween: 0,
 				slidesPerView: 1,
 				slidesPerGroup: 1,
@@ -35,6 +38,9 @@
 			});
 
 			let mobileSwiper = new Swiper("#" + id + "-mobile-swiper", {
+				a11y: {
+					slideRole: "listitem",
+				},
 				spaceBetween: 0,
 				slidesPerView: 2,
 				slidesPerGroup: 2,
