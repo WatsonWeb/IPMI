@@ -34,7 +34,8 @@ body {
 		text-decoration-color: inherit;
 	}
 
-	&.accent-color {
+	&.accent-color,
+	&.accent-dark-color {
 		&:hover,
 		&:focus {
 			color: $primary-dark;
