@@ -46,8 +46,7 @@
 		border-radius: 10px !important;
 		border: 3px solid rgba(212, 212, 216, 0) !important;
 		transition: color 0.2s, box-shadow 0.2s, border-color 0.2s !important;
-		box-shadow: 0 1px 2px -1px rgb(0 0 0 / 10%),
-			0 1px 3px 0 rgb(0 0 0 / 10%) !important;
+		box-shadow: 0 1px 2px -1px rgb(0 0 0 / 10%), 0 1px 3px 0 rgb(0 0 0 / 10%) !important;
 		background-color: $white !important;
 		font-weight: 450 !important;
 		padding: 10px 1em 14px 1em !important;
@@ -67,6 +66,15 @@
 				color: $zinc-300 !important;
 			}
 		}
+	}
+
+	textarea {
+		min-height: 150px !important;
+	}
+
+	textarea + .field-icon {
+		top: 0 !important;
+		margin-top: 10px !important;
 	}
 
 	._field-wrapper {
