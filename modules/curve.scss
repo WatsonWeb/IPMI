@@ -11,7 +11,8 @@
 		display: none !important;
 	}
 
-	& + section {
+	& + section,
+	& + .section {
 		margin-top: -1px;
 	}
 }
