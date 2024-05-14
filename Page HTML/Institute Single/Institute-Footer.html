@@ -4,93 +4,96 @@
 			event.preventDefault();
 
 			const $loading = $(this).closest(".w-dyn-item").find(".loading");
-			const slug = $(this).closest(".w-dyn-item").find(".slug").text();
+			const cmsId = $(this).closest(".w-dyn-item").find(".cmd-id").text();
 			const modal = $("#profile-modal");
 
-			if (slug === "") {
+			if (cmsId === "") {
 				return false;
 			}
 
 			$loading.addClass("opening");
 
 			// Get JSON from Webflow API (Cyclic)
-			$.getJSON("https://ipmi.cyclic.app/speakers?slug=" + slug, function (speaker) {
-				// Build Modal
+			$.getJSON(
+				"https://ipmi.netlify.app/cms-items/" + cmsId,
+				function (speaker) {
+					// Build Modal
 
-				// Photo
-				let photoLoaded = false;
-				if (speaker["profile-photo"] !== undefined) {
-					modal.find(".bio-photo-wrap").removeClass("hidden");
-					var photoLoadPromise = new Promise(function (resolve) {
-						if (photoLoaded) {
-							resolve();
-						} else {
-							modal
-								.find(".bio-photo")
-								.attr("src", speaker["profile-photo"].url)
-								.on("load", function () {
-									photoLoaded = true;
-									resolve();
-								});
-						}
-					});
-				} else {
-					modal.find(".bio-photo-wrap").addClass("hidden");
-					photoLoaded = true;
-				}
+					// Photo
+					let photoLoaded = false;
+					if (speaker["profile-photo"] !== undefined) {
+						modal.find(".bio-photo-wrap").removeClass("hidden");
+						var photoLoadPromise = new Promise(function (resolve) {
+							if (photoLoaded) {
+								resolve();
+							} else {
+								modal
+									.find(".bio-photo")
+									.attr("src", speaker["profile-photo"].url)
+									.on("load", function () {
+										photoLoaded = true;
+										resolve();
+									});
+							}
+						});
+					} else {
+						modal.find(".bio-photo-wrap").addClass("hidden");
+						photoLoaded = true;
+					}
 
-				// Name
-				if (speaker.name !== undefined) {
-					modal.find(".bio-name").removeClass("hidden");
-					modal.find(".bio-name").text(speaker.name);
-				} else {
-					modal.find(".bio-name").addClass("hidden");
-				}
+					// Name
+					if (speaker.name !== undefined) {
+						modal.find(".bio-name").removeClass("hidden");
+						modal.find(".bio-name").text(speaker.name);
+					} else {
+						modal.find(".bio-name").addClass("hidden");
+					}
 
-				// Accolades
-				if (speaker.accolades !== undefined) {
-					modal.find(".bio-accolades").removeClass("hidden");
-					modal.find(".bio-accolades").text(speaker.accolades);
-				} else {
-					modal.find(".bio-accolades").addClass("hidden");
-				}
+					// Accolades
+					if (speaker.accolades !== undefined) {
+						modal.find(".bio-accolades").removeClass("hidden");
+						modal.find(".bio-accolades").text(speaker.accolades);
+					} else {
+						modal.find(".bio-accolades").addClass("hidden");
+					}
 
-				// Job Title
-				if (speaker["job-title"] !== undefined) {
-					modal.find(".bio-job-title").removeClass("hidden");
-					modal.find(".bio-job-title").text(speaker["job-title"]);
-				} else {
-					modal.find(".bio-job-title").addClass("hidden");
-				}
+					// Job Title
+					if (speaker["job-title"] !== undefined) {
+						modal.find(".bio-job-title").removeClass("hidden");
+						modal.find(".bio-job-title").text(speaker["job-title"]);
+					} else {
+						modal.find(".bio-job-title").addClass("hidden");
+					}
 
-				// Company / Organization
-				if (speaker["company-organization"] !== undefined) {
-					modal.find(".bio-company").removeClass("hidden");
-					modal.find(".bio-company").text(speaker["company-organization"]);
-				} else {
-					modal.find(".bio-company").addClass("hidden");
-				}
+					// Company / Organization
+					if (speaker["company-organization"] !== undefined) {
+						modal.find(".bio-company").removeClass("hidden");
+						modal.find(".bio-company").text(speaker["company-organization"]);
+					} else {
+						modal.find(".bio-company").addClass("hidden");
+					}
 
-				// Biography
-				if (speaker.biography !== undefined) {
-					modal.find(".bio-content").removeClass("hidden");
-					modal.find(".bio-text").html(speaker.biography);
-				} else {
-					modal.find(".bio-content").addClass("hidden");
-				}
+					// Biography
+					if (speaker.biography !== undefined) {
+						modal.find(".bio-content").removeClass("hidden");
+						modal.find(".bio-text").html(speaker.biography);
+					} else {
+						modal.find(".bio-content").addClass("hidden");
+					}
 
-				// Scroll to Top of Bio
-				modal.find(".bio-text").scrollTop = 0;
+					// Scroll to Top of Bio
+					modal.find(".bio-text").scrollTop = 0;
 
-				// Open Modal
-				if (photoLoaded === true) {
-					$("#profile-modal").addClass("open");
-				} else {
-					photoLoadPromise.then(function () {
+					// Open Modal
+					if (photoLoaded === true) {
 						$("#profile-modal").addClass("open");
-					});
+					} else {
+						photoLoadPromise.then(function () {
+							$("#profile-modal").addClass("open");
+						});
+					}
 				}
-			})
+			)
 				.fail(function () {
 					console.error("Error loading Speaker Bio");
 				})
@@ -167,7 +170,9 @@
 		});
 	});
 </script>
-<script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js" crossorigin="anonymous"></script>
+<script
+	src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"
+	crossorigin="anonymous"></script>
 <script>
 	// Swiper
 	const advisorsSwiper = new Swiper("#advisors-swiper", {
