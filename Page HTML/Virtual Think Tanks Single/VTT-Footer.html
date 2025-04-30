@@ -5,17 +5,17 @@
 			event.preventDefault();
 
 			const $loading = $(this).closest(".w-dyn-item").find(".loading");
-			const slug = $(this).closest(".w-dyn-item").find(".slug").text();
+			const cmsId = $(this).closest(".w-dyn-item").find(".cms-id").text();
 			const modal = $("#profile-modal");
 
-			if (slug === "") {
+			if (cmsId === "") {
 				return false;
 			}
 
 			$loading.addClass("opening");
 
 			// Get JSON from Webflow API (Cyclic)
-			$.getJSON("https://ipmi.cyclic.app/speakers?slug=" + slug, function (speaker) {
+			$.getJSON("https://ipmi.netlify.app/cms-items/" + cmsId, function (speaker) {
 				// Build Modal
 
 				// Photo
