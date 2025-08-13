@@ -1,123 +1,129 @@
-<script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js" crossorigin="anonymous"></script>
+<script
+  src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"
+  crossorigin="anonymous"
+></script>
 <script>
-	$(function () {
-		$(".modal-link").click(function (event) {
-			event.preventDefault();
+  $(function () {
+    $(".modal-link").click(function (event) {
+      event.preventDefault();
 
-			const $loading = $(this).closest(".w-dyn-item").find(".loading");
-			const cmsId = $(this).closest(".w-dyn-item").find(".cms-id").text();
-			const modal = $("#profile-modal");
+      const $loading = $(this).closest(".w-dyn-item").find(".loading");
+      const cmsId = $(this).closest(".w-dyn-item").find(".cms-id").text();
+      const modal = $("#profile-modal");
 
-			if (cmsId === "") {
-				return false;
-			}
+      if (cmsId === "") {
+        return false;
+      }
 
-			$loading.addClass("opening");
+      $loading.addClass("opening");
 
-			// Get JSON from Webflow API (Cyclic)
-			$.getJSON("https://ipmi.netlify.app/cms-items/" + cmsId, function (speaker) {
-				// Build Modal
+      // Get JSON from Webflow API (Vercel)
+      $.getJSON(
+        "https://ipmi-express-server.vercel.app/cms-items/" + cmsId,
+        function (speaker) {
+          // Build Modal
 
-				// Photo
-				let photoLoaded = false;
-				if (speaker["profile-photo"] !== undefined) {
-					modal.find(".bio-photo-wrap").removeClass("hidden");
-					var photoLoadPromise = new Promise(function (resolve) {
-						if (photoLoaded) {
-							resolve();
-						} else {
-							modal
-								.find(".bio-photo")
-								.attr("src", speaker["profile-photo"].url)
-								.on("load", function () {
-									photoLoaded = true;
-									resolve();
-								});
-						}
-					});
-				} else {
-					modal.find(".bio-photo-wrap").addClass("hidden");
-					photoLoaded = true;
-				}
+          // Photo
+          let photoLoaded = false;
+          if (speaker["profile-photo"] !== undefined) {
+            modal.find(".bio-photo-wrap").removeClass("hidden");
+            var photoLoadPromise = new Promise(function (resolve) {
+              if (photoLoaded) {
+                resolve();
+              } else {
+                modal
+                  .find(".bio-photo")
+                  .attr("src", speaker["profile-photo"].url)
+                  .on("load", function () {
+                    photoLoaded = true;
+                    resolve();
+                  });
+              }
+            });
+          } else {
+            modal.find(".bio-photo-wrap").addClass("hidden");
+            photoLoaded = true;
+          }
 
-				// Name
-				if (speaker.name !== undefined) {
-					modal.find(".bio-name").removeClass("hidden");
-					modal.find(".bio-name").text(speaker.name);
-				} else {
-					modal.find(".bio-name").addClass("hidden");
-				}
+          // Name
+          if (speaker.name !== undefined) {
+            modal.find(".bio-name").removeClass("hidden");
+            modal.find(".bio-name").text(speaker.name);
+          } else {
+            modal.find(".bio-name").addClass("hidden");
+          }
 
-				// Accolades
-				if (speaker.accolades !== undefined) {
-					modal.find(".bio-accolades").removeClass("hidden");
-					modal.find(".bio-accolades").text(speaker.accolades);
-				} else {
-					modal.find(".bio-accolades").addClass("hidden");
-				}
+          // Accolades
+          if (speaker.accolades !== undefined) {
+            modal.find(".bio-accolades").removeClass("hidden");
+            modal.find(".bio-accolades").text(speaker.accolades);
+          } else {
+            modal.find(".bio-accolades").addClass("hidden");
+          }
 
-				// Job Title
-				if (speaker["job-title"] !== undefined) {
-					modal.find(".bio-job-title").removeClass("hidden");
-					modal.find(".bio-job-title").text(speaker["job-title"]);
-				} else {
-					modal.find(".bio-job-title").addClass("hidden");
-				}
+          // Job Title
+          if (speaker["job-title"] !== undefined) {
+            modal.find(".bio-job-title").removeClass("hidden");
+            modal.find(".bio-job-title").text(speaker["job-title"]);
+          } else {
+            modal.find(".bio-job-title").addClass("hidden");
+          }
 
-				// Company / Organization
-				if (speaker["company-organization"] !== undefined) {
-					modal.find(".bio-company").removeClass("hidden");
-					modal.find(".bio-company").text(speaker["company-organization"]);
-				} else {
-					modal.find(".bio-company").addClass("hidden");
-				}
+          // Company / Organization
+          if (speaker["company-organization"] !== undefined) {
+            modal.find(".bio-company").removeClass("hidden");
+            modal.find(".bio-company").text(speaker["company-organization"]);
+          } else {
+            modal.find(".bio-company").addClass("hidden");
+          }
 
-				// Biography
-				if (speaker.biography !== undefined) {
-					modal.find(".bio-content").removeClass("hidden");
-					modal.find(".bio-text").html(speaker.biography);
-				} else {
-					modal.find(".bio-content").addClass("hidden");
-				}
+          // Biography
+          if (speaker.biography !== undefined) {
+            modal.find(".bio-content").removeClass("hidden");
+            modal.find(".bio-text").html(speaker.biography);
+          } else {
+            modal.find(".bio-content").addClass("hidden");
+          }
 
-				// Scroll to Top of Bio
-				modal.find(".bio-text").scrollTop = 0;
+          // Scroll to Top of Bio
+          modal.find(".bio-text").scrollTop = 0;
 
-				// Open Modal
-				if (photoLoaded === true) {
-					$("#profile-modal").addClass("open");
-				} else {
-					photoLoadPromise.then(function () {
-						$("#profile-modal").addClass("open");
-					});
-				}
-			})
-				.fail(function () {
-					console.error("Error loading Speaker Bio");
-				})
-				.always(function () {
-					setTimeout(() => {
-						$loading.removeClass("opening");
-					}, "300");
-				});
-		});
+          // Open Modal
+          if (photoLoaded === true) {
+            $("#profile-modal").addClass("open");
+          } else {
+            photoLoadPromise.then(function () {
+              $("#profile-modal").addClass("open");
+            });
+          }
+        }
+      )
+        .fail(function () {
+          console.error("Error loading Speaker Bio");
+        })
+        .always(function () {
+          setTimeout(() => {
+            $loading.removeClass("opening");
+          }, "300");
+        });
+    });
 
-		$("#profile-modal").click(function (event) {
-			$(this).removeClass("open");
-		});
+    $("#profile-modal").click(function (event) {
+      $(this).removeClass("open");
+    });
 
-		$("#profile-modal .modal-close").click(function (event) {
-			event.preventDefault();
-			$("#profile-modal").removeClass("open");
-		});
+    $("#profile-modal .modal-close").click(function (event) {
+      event.preventDefault();
+      $("#profile-modal").removeClass("open");
+    });
 
-		$("#profile-modal .profile-wrap").click(function (event) {
-			event.stopPropagation();
-		});
+    $("#profile-modal .profile-wrap").click(function (event) {
+      event.stopPropagation();
+    });
 
-		/* Forms */
+    /* Forms */
 
-		/*$(".field").focus(function () {
+    /*$(".field").focus(function () {
 			$(this).closest(".field-wrapper").addClass("focused");
 		});
 
@@ -125,45 +131,55 @@
 			$(this).closest(".field-wrapper").removeClass("focused");
 		});*/
 
-		/* Active Campaign Form */
-		$("._form_element input").focus(function () {
-			$(this).closest("._form_element").addClass("focused");
-		});
+    /* Active Campaign Form */
+    $("._form_element input").focus(function () {
+      $(this).closest("._form_element").addClass("focused");
+    });
 
-		$("._form_element input").blur(function () {
-			$(this).closest("._form_element").removeClass("focused");
-		});
+    $("._form_element input").blur(function () {
+      $(this).closest("._form_element").removeClass("focused");
+    });
 
-		// Dynamic Icons for standard fields
-		$("#activecampaign-form ._form_element input[type=text], #activecampaign-form ._form_element textarea").each(function () {
-			$(this).closest("._field-wrapper").append('<div class="field-icon circle accent-gradient"><div class="fa-regular fa-xl"></div></div>');
-		});
+    // Dynamic Icons for standard fields
+    $(
+      "#activecampaign-form ._form_element input[type=text], #activecampaign-form ._form_element textarea"
+    ).each(function () {
+      $(this)
+        .closest("._field-wrapper")
+        .append(
+          '<div class="field-icon circle accent-gradient"><div class="fa-regular fa-xl"></div></div>'
+        );
+    });
 
-		$("#activecampaign-form ._form_element select").each(function () {
-			$(this).closest("._field-wrapper").append('<div class="field-icon circle accent-gradient"><div class="fa-regular fa-xl"></div></div>');
-		});
+    $("#activecampaign-form ._form_element select").each(function () {
+      $(this)
+        .closest("._field-wrapper")
+        .append(
+          '<div class="field-icon circle accent-gradient"><div class="fa-regular fa-xl"></div></div>'
+        );
+    });
 
-		const fieldIcons = [
-			{ id: "firstname", icon: "" },
-			{ id: "lastname", icon: "" },
-			{ id: "jobtitle", icon: "" },
-			{ id: "customer_account", icon: "" },
-			{ id: "email", icon: "" },
-			{ id: "phone", icon: "" },
-			{ id: "date", icon: "" },
-			{ id: "time", icon: "" },
-		];
+    const fieldIcons = [
+      { id: "firstname", icon: "" },
+      { id: "lastname", icon: "" },
+      { id: "jobtitle", icon: "" },
+      { id: "customer_account", icon: "" },
+      { id: "email", icon: "" },
+      { id: "phone", icon: "" },
+      { id: "date", icon: "" },
+      { id: "time", icon: "" },
+    ];
 
-		$.each(fieldIcons, function (i, field) {
-			$("#activecampaign-form")
-				.find("#" + field.id)
-				.next(".field-icon")
-				.find(".fa-regular")
-				.text(field.icon);
-		});
+    $.each(fieldIcons, function (i, field) {
+      $("#activecampaign-form")
+        .find("#" + field.id)
+        .next(".field-icon")
+        .find(".fa-regular")
+        .text(field.icon);
+    });
 
-		/* Preferred Dates */
-		/*
+    /* Preferred Dates */
+    /*
 		const preferredDatesSource = $(".preferred-dates-source p");
 		const preferredDatesWrapper = $("#preferred-date-wrapper");
 		const preferredDatesSelect = $("#preferred-date");
@@ -258,84 +274,87 @@
 		}
 		*/
 
-		// Slider
-		const testimonialsSwiper = new Swiper("#testimonials-swiper", {
-			spaceBetween: 0,
-			slidesPerView: 3,
-			slidesPerGroup: 3,
-			preloadImages: false,
-			grabCursor: true,
-			pagination: {
-				el: "#testimonials-pagination",
-				clickable: true,
-			},
-			navigation: {
-				nextEl: "#testimonials-next",
-				prevEl: "#testimonials-prev",
-			},
-			breakpoints: {
-				// Mobile
-				1: {
-					slidesPerView: 1,
-					slidesPerGroup: 1,
-					spaceBetween: 20,
-				},
+    // Slider
+    const testimonialsSwiper = new Swiper("#testimonials-swiper", {
+      spaceBetween: 0,
+      slidesPerView: 3,
+      slidesPerGroup: 3,
+      preloadImages: false,
+      grabCursor: true,
+      pagination: {
+        el: "#testimonials-pagination",
+        clickable: true,
+      },
+      navigation: {
+        nextEl: "#testimonials-next",
+        prevEl: "#testimonials-prev",
+      },
+      breakpoints: {
+        // Mobile
+        1: {
+          slidesPerView: 1,
+          slidesPerGroup: 1,
+          spaceBetween: 20,
+        },
 
-				// Tablet
-				768: {
-					slidesPerView: 2,
-					slidesPerGroup: 2,
-					spaceBetween: 0,
-				},
-				// Desktop
-				992: {
-					slidesPerView: 3,
-					slidesPerGroup: 3,
-					spaceBetween: 0,
-				},
-			},
-		});
-	});
+        // Tablet
+        768: {
+          slidesPerView: 2,
+          slidesPerGroup: 2,
+          spaceBetween: 0,
+        },
+        // Desktop
+        992: {
+          slidesPerView: 3,
+          slidesPerGroup: 3,
+          spaceBetween: 0,
+        },
+      },
+    });
+  });
 </script>
-<script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js" crossorigin="anonymous"></script>
+<script
+  src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"
+  crossorigin="anonymous"
+></script>
 <script>
-	// Swiper
-	const eventsSwiper = new Swiper("#events-swiper", {
-		spaceBetween: 0,
-		slidesPerView: 3,
-		slidesPerGroup: 3,
-		preloadImages: false,
-		pagination: {
-			el: "#events-pagination",
-			clickable: true,
-		},
-		navigation: {
-			nextEl: "#events-next",
-			prevEl: "#events-prev",
-		},
-		breakpoints: {
-			// Mobile
-			1: {
-				slidesPerView: 1,
-				slidesPerGroup: 1,
-				enabled: true,
-				spaceBetween: 20,
-			},
+  // Swiper
+  const eventsSwiper = new Swiper("#events-swiper", {
+    spaceBetween: 0,
+    slidesPerView: 3,
+    slidesPerGroup: 3,
+    preloadImages: false,
+    pagination: {
+      el: "#events-pagination",
+      clickable: true,
+    },
+    navigation: {
+      nextEl: "#events-next",
+      prevEl: "#events-prev",
+    },
+    breakpoints: {
+      // Mobile
+      1: {
+        slidesPerView: 1,
+        slidesPerGroup: 1,
+        enabled: true,
+        spaceBetween: 20,
+      },
 
-			// Tablet
-			768: {
-				slidesPerView: 2,
-				slidesPerGroup: 2,
-				enabled: true,
-				spaceBetween: 0,
-			},
-			// Desktop
-			992: {
-				slidesPerView: 3,
-				slidesPerGroup: 3,
-				spaceBetween: 0,
-				enabled: false,
-			},
-		},
-	});
+      // Tablet
+      768: {
+        slidesPerView: 2,
+        slidesPerGroup: 2,
+        enabled: true,
+        spaceBetween: 0,
+      },
+      // Desktop
+      992: {
+        slidesPerView: 3,
+        slidesPerGroup: 3,
+        spaceBetween: 0,
+        enabled: false,
+      },
+    },
+  });
 </script>

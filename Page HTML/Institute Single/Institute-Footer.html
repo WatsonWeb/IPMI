@@ -1,411 +1,412 @@
 <script>
-	$(function () {
-		$(".modal-link").click(function (event) {
-			event.preventDefault();
+  $(function () {
+    $(".modal-link").click(function (event) {
+      event.preventDefault();
 
-			const $loading = $(this).closest(".w-dyn-item").find(".loading");
-			const cmsId = $(this).closest(".w-dyn-item").find(".cms-id").text();
-			const modal = $("#profile-modal");
+      const $loading = $(this).closest(".w-dyn-item").find(".loading");
+      const cmsId = $(this).closest(".w-dyn-item").find(".cms-id").text();
+      const modal = $("#profile-modal");
 
-			if (cmsId === "") {
-				return false;
-			}
+      if (cmsId === "") {
+        return false;
+      }
 
-			$loading.addClass("opening");
+      $loading.addClass("opening");
 
-			// Get JSON from Webflow API (Cyclic)
-			$.getJSON(
-				"https://ipmi.netlify.app/cms-items/" + cmsId,
-				function (speaker) {
-					// Build Modal
+      // Get JSON from Webflow API (Vercel)
+      $.getJSON(
+        "https://ipmi-express-server.vercel.app/cms-items/" + cmsId,
+        function (speaker) {
+          // Build Modal
 
-					// Photo
-					let photoLoaded = false;
-					if (speaker["profile-photo"] !== undefined) {
-						modal.find(".bio-photo-wrap").removeClass("hidden");
-						var photoLoadPromise = new Promise(function (resolve) {
-							if (photoLoaded) {
-								resolve();
-							} else {
-								modal
-									.find(".bio-photo")
-									.attr("src", speaker["profile-photo"].url)
-									.on("load", function () {
-										photoLoaded = true;
-										resolve();
-									});
-							}
-						});
-					} else {
-						modal.find(".bio-photo-wrap").addClass("hidden");
-						photoLoaded = true;
-					}
+          // Photo
+          let photoLoaded = false;
+          if (speaker["profile-photo"] !== undefined) {
+            modal.find(".bio-photo-wrap").removeClass("hidden");
+            var photoLoadPromise = new Promise(function (resolve) {
+              if (photoLoaded) {
+                resolve();
+              } else {
+                modal
+                  .find(".bio-photo")
+                  .attr("src", speaker["profile-photo"].url)
+                  .on("load", function () {
+                    photoLoaded = true;
+                    resolve();
+                  });
+              }
+            });
+          } else {
+            modal.find(".bio-photo-wrap").addClass("hidden");
+            photoLoaded = true;
+          }
 
-					// Name
-					if (speaker.name !== undefined) {
-						modal.find(".bio-name").removeClass("hidden");
-						modal.find(".bio-name").text(speaker.name);
-					} else {
-						modal.find(".bio-name").addClass("hidden");
-					}
+          // Name
+          if (speaker.name !== undefined) {
+            modal.find(".bio-name").removeClass("hidden");
+            modal.find(".bio-name").text(speaker.name);
+          } else {
+            modal.find(".bio-name").addClass("hidden");
+          }
 
-					// Accolades
-					if (speaker.accolades !== undefined) {
-						modal.find(".bio-accolades").removeClass("hidden");
-						modal.find(".bio-accolades").text(speaker.accolades);
-					} else {
-						modal.find(".bio-accolades").addClass("hidden");
-					}
+          // Accolades
+          if (speaker.accolades !== undefined) {
+            modal.find(".bio-accolades").removeClass("hidden");
+            modal.find(".bio-accolades").text(speaker.accolades);
+          } else {
+            modal.find(".bio-accolades").addClass("hidden");
+          }
 
-					// Job Title
-					if (speaker["job-title"] !== undefined) {
-						modal.find(".bio-job-title").removeClass("hidden");
-						modal.find(".bio-job-title").text(speaker["job-title"]);
-					} else {
-						modal.find(".bio-job-title").addClass("hidden");
-					}
+          // Job Title
+          if (speaker["job-title"] !== undefined) {
+            modal.find(".bio-job-title").removeClass("hidden");
+            modal.find(".bio-job-title").text(speaker["job-title"]);
+          } else {
+            modal.find(".bio-job-title").addClass("hidden");
+          }
 
-					// Company / Organization
-					if (speaker["company-organization"] !== undefined) {
-						modal.find(".bio-company").removeClass("hidden");
-						modal.find(".bio-company").text(speaker["company-organization"]);
-					} else {
-						modal.find(".bio-company").addClass("hidden");
-					}
+          // Company / Organization
+          if (speaker["company-organization"] !== undefined) {
+            modal.find(".bio-company").removeClass("hidden");
+            modal.find(".bio-company").text(speaker["company-organization"]);
+          } else {
+            modal.find(".bio-company").addClass("hidden");
+          }
 
-					// Biography
-					if (speaker.biography !== undefined) {
-						modal.find(".bio-content").removeClass("hidden");
-						modal.find(".bio-text").html(speaker.biography);
-					} else {
-						modal.find(".bio-content").addClass("hidden");
-					}
+          // Biography
+          if (speaker.biography !== undefined) {
+            modal.find(".bio-content").removeClass("hidden");
+            modal.find(".bio-text").html(speaker.biography);
+          } else {
+            modal.find(".bio-content").addClass("hidden");
+          }
 
-					// Scroll to Top of Bio
-					modal.find(".bio-text").scrollTop = 0;
+          // Scroll to Top of Bio
+          modal.find(".bio-text").scrollTop = 0;
 
-					// Open Modal
-					if (photoLoaded === true) {
-						$("#profile-modal").addClass("open");
-					} else {
-						photoLoadPromise.then(function () {
-							$("#profile-modal").addClass("open");
-						});
-					}
-				}
-			)
-				.fail(function () {
-					console.error("Error loading Speaker Bio");
-				})
-				.always(function () {
-					setTimeout(() => {
-						$loading.removeClass("opening");
-					}, "300");
-				});
-		});
+          // Open Modal
+          if (photoLoaded === true) {
+            $("#profile-modal").addClass("open");
+          } else {
+            photoLoadPromise.then(function () {
+              $("#profile-modal").addClass("open");
+            });
+          }
+        }
+      )
+        .fail(function () {
+          console.error("Error loading Speaker Bio");
+        })
+        .always(function () {
+          setTimeout(() => {
+            $loading.removeClass("opening");
+          }, "300");
+        });
+    });
 
-		$("#profile-modal").click(function (event) {
-			$(this).removeClass("open");
-		});
+    $("#profile-modal").click(function (event) {
+      $(this).removeClass("open");
+    });
 
-		$("#profile-modal .modal-close").click(function (event) {
-			event.preventDefault();
-			$("#profile-modal").removeClass("open");
-		});
+    $("#profile-modal .modal-close").click(function (event) {
+      event.preventDefault();
+      $("#profile-modal").removeClass("open");
+    });
 
-		$("#profile-modal .profile-wrap").click(function (event) {
-			event.stopPropagation();
-		});
+    $("#profile-modal .profile-wrap").click(function (event) {
+      event.stopPropagation();
+    });
 
-		/* Forms */
+    /* Forms */
 
-		// Company Size - Hide Hidden Option
-		$(".company-size option:last").attr("hidden", true);
+    // Company Size - Hide Hidden Option
+    $(".company-size option:last").attr("hidden", true);
 
-		$(".form-category-link").click(function (event) {
-			event.preventDefault();
+    $(".form-category-link").click(function (event) {
+      event.preventDefault();
 
-			$(".form-category-link").removeClass("active");
-			$(this).addClass("active");
+      $(".form-category-link").removeClass("active");
+      $(this).addClass("active");
 
-			// Change Label
-			const label = $(this).find(".form-category-label").text();
-			let emailLabel = label;
-			if (emailLabel === "Speak") {
-				emailLabel = "Speaker";
-			}
-			$("#field-category").val(emailLabel);
+      // Change Label
+      const label = $(this).find(".form-category-label").text();
+      let emailLabel = label;
+      if (emailLabel === "Speak") {
+        emailLabel = "Speaker";
+      }
+      $("#field-category").val(emailLabel);
 
-			// Change E-mail Address
-			const address = $("#field-" + label.toLowerCase() + "-address").val();
-			if (address) {
-				$("#field-recipient").val(address);
-			}
+      // Change E-mail Address
+      const address = $("#field-" + label.toLowerCase() + "-address").val();
+      if (address) {
+        $("#field-recipient").val(address);
+      }
 
-			// Hide Fields
-			$(".field-wrapper").each(function () {
-				if ($(this).hasClass("hide-" + label.toLowerCase())) {
-					$(this).addClass("hidden-field");
-				} else {
-					$(this).removeClass("hidden-field");
-				}
-			});
+      // Hide Fields
+      $(".field-wrapper").each(function () {
+        if ($(this).hasClass("hide-" + label.toLowerCase())) {
+          $(this).addClass("hidden-field");
+        } else {
+          $(this).removeClass("hidden-field");
+        }
+      });
 
-			// Company Size - Select / Reset Hidden Option
-			if (label === "Attend") {
-				$(".company-size").val($(".company-size option:first").val());
-			} else {
-				setTimeout(function () {
-					$(".company-size").val($(".company-size option:last").val());
-				}, 200);
-			}
-		});
+      // Company Size - Select / Reset Hidden Option
+      if (label === "Attend") {
+        $(".company-size").val($(".company-size option:first").val());
+      } else {
+        setTimeout(function () {
+          $(".company-size").val($(".company-size option:last").val());
+        }, 200);
+      }
+    });
 
-		$(".field").focus(function () {
-			$(this).closest(".field-wrapper").addClass("focused");
-		});
+    $(".field").focus(function () {
+      $(this).closest(".field-wrapper").addClass("focused");
+    });
 
-		$(".field").blur(function () {
-			$(this).closest(".field-wrapper").removeClass("focused");
-		});
-	});
+    $(".field").blur(function () {
+      $(this).closest(".field-wrapper").removeClass("focused");
+    });
+  });
 </script>
 <script
-	src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"
-	crossorigin="anonymous"></script>
+  src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"
+  crossorigin="anonymous"
+></script>
 <script>
-	// Swiper
-	const advisorsSwiper = new Swiper("#advisors-swiper", {
-		a11y: {
-			slideRole: "listitem",
-		},
-		preloadImages: false,
-		simulateTouch: false,
-		pagination: {
-			el: "#advisors-pagination",
-			clickable: true,
-		},
-		navigation: {
-			nextEl: "#advisors-next",
-			prevEl: "#advisors-prev",
-		},
-		breakpoints: {
-			// Mobile Landscape
-			480: {
-				slidesPerView: 2,
-				slidesPerGroup: 2,
-			},
-			// Tablet
-			768: {
-				slidesPerView: 3,
-				slidesPerGroup: 3,
-			},
-			// Desktop
-			992: {
-				slidesPerView: 4,
-				slidesPerGroup: 4,
-			},
-		},
-	});
+  // Swiper
+  const advisorsSwiper = new Swiper("#advisors-swiper", {
+    a11y: {
+      slideRole: "listitem",
+    },
+    preloadImages: false,
+    simulateTouch: false,
+    pagination: {
+      el: "#advisors-pagination",
+      clickable: true,
+    },
+    navigation: {
+      nextEl: "#advisors-next",
+      prevEl: "#advisors-prev",
+    },
+    breakpoints: {
+      // Mobile Landscape
+      480: {
+        slidesPerView: 2,
+        slidesPerGroup: 2,
+      },
+      // Tablet
+      768: {
+        slidesPerView: 3,
+        slidesPerGroup: 3,
+      },
+      // Desktop
+      992: {
+        slidesPerView: 4,
+        slidesPerGroup: 4,
+      },
+    },
+  });
 
-	const speakersSwiper = new Swiper("#speakers-swiper", {
-		a11y: {
-			slideRole: "listitem",
-		},
-		preloadImages: false,
-		simulateTouch: false,
-		pagination: {
-			el: "#speakers-pagination",
-			clickable: true,
-		},
-		navigation: {
-			nextEl: "#speakers-next",
-			prevEl: "#speakers-prev",
-		},
-		grid: {
-			fill: "row",
-			rows: 2,
-		},
-		breakpoints: {
-			// Mobile Portrait
-			374: {
-				slidesPerView: 2,
-				slidesPerGroup: 2,
-			},
-			// Tablet
-			768: {
-				slidesPerView: 3,
-				slidesPerGroup: 3,
-			},
-			// Desktop
-			992: {
-				slidesPerView: 4,
-				slidesPerGroup: 4,
-			},
-			// Desktop MD
-			1280: {
-				slidesPerView: 5,
-				slidesPerGroup: 5,
-			},
-		},
-	});
+  const speakersSwiper = new Swiper("#speakers-swiper", {
+    a11y: {
+      slideRole: "listitem",
+    },
+    preloadImages: false,
+    simulateTouch: false,
+    pagination: {
+      el: "#speakers-pagination",
+      clickable: true,
+    },
+    navigation: {
+      nextEl: "#speakers-next",
+      prevEl: "#speakers-prev",
+    },
+    grid: {
+      fill: "row",
+      rows: 2,
+    },
+    breakpoints: {
+      // Mobile Portrait
+      374: {
+        slidesPerView: 2,
+        slidesPerGroup: 2,
+      },
+      // Tablet
+      768: {
+        slidesPerView: 3,
+        slidesPerGroup: 3,
+      },
+      // Desktop
+      992: {
+        slidesPerView: 4,
+        slidesPerGroup: 4,
+      },
+      // Desktop MD
+      1280: {
+        slidesPerView: 5,
+        slidesPerGroup: 5,
+      },
+    },
+  });
 
-	const legacyAdvisorsSwiper = new Swiper("#legacy-advisors-swiper", {
-		a11y: {
-			slideRole: "listitem",
-		},
-		preloadImages: false,
-		simulateTouch: false,
-		pagination: {
-			el: "#legacy-advisors-pagination",
-			clickable: true,
-		},
-		navigation: {
-			nextEl: "#legacy-advisors-next",
-			prevEl: "#legacy-advisors-prev",
-		},
-		breakpoints: {
-			// Mobile Landscape
-			480: {
-				slidesPerView: 2,
-				slidesPerGroup: 2,
-			},
-			// Tablet
-			768: {
-				slidesPerView: 3,
-				slidesPerGroup: 3,
-			},
-			// Desktop
-			992: {
-				slidesPerView: 4,
-				slidesPerGroup: 4,
-			},
-		},
-	});
+  const legacyAdvisorsSwiper = new Swiper("#legacy-advisors-swiper", {
+    a11y: {
+      slideRole: "listitem",
+    },
+    preloadImages: false,
+    simulateTouch: false,
+    pagination: {
+      el: "#legacy-advisors-pagination",
+      clickable: true,
+    },
+    navigation: {
+      nextEl: "#legacy-advisors-next",
+      prevEl: "#legacy-advisors-prev",
+    },
+    breakpoints: {
+      // Mobile Landscape
+      480: {
+        slidesPerView: 2,
+        slidesPerGroup: 2,
+      },
+      // Tablet
+      768: {
+        slidesPerView: 3,
+        slidesPerGroup: 3,
+      },
+      // Desktop
+      992: {
+        slidesPerView: 4,
+        slidesPerGroup: 4,
+      },
+    },
+  });
 
-	const legacySpeakersSwiper = new Swiper("#legacy-speakers-swiper", {
-		a11y: {
-			slideRole: "listitem",
-		},
-		preloadImages: false,
-		simulateTouch: false,
-		pagination: {
-			el: "#legacy-speakers-pagination",
-			clickable: true,
-		},
-		navigation: {
-			nextEl: "#legacy-speakers-next",
-			prevEl: "#legacy-speakers-prev",
-		},
-		grid: {
-			fill: "row",
-			rows: 2,
-		},
-		breakpoints: {
-			// Mobile Portrait
-			374: {
-				slidesPerView: 2,
-				slidesPerGroup: 2,
-			},
-			// Tablet
-			768: {
-				slidesPerView: 3,
-				slidesPerGroup: 3,
-			},
-			// Desktop
-			992: {
-				slidesPerView: 4,
-				slidesPerGroup: 4,
-			},
-			// Desktop MD
-			1280: {
-				slidesPerView: 5,
-				slidesPerGroup: 5,
-			},
-		},
-	});
+  const legacySpeakersSwiper = new Swiper("#legacy-speakers-swiper", {
+    a11y: {
+      slideRole: "listitem",
+    },
+    preloadImages: false,
+    simulateTouch: false,
+    pagination: {
+      el: "#legacy-speakers-pagination",
+      clickable: true,
+    },
+    navigation: {
+      nextEl: "#legacy-speakers-next",
+      prevEl: "#legacy-speakers-prev",
+    },
+    grid: {
+      fill: "row",
+      rows: 2,
+    },
+    breakpoints: {
+      // Mobile Portrait
+      374: {
+        slidesPerView: 2,
+        slidesPerGroup: 2,
+      },
+      // Tablet
+      768: {
+        slidesPerView: 3,
+        slidesPerGroup: 3,
+      },
+      // Desktop
+      992: {
+        slidesPerView: 4,
+        slidesPerGroup: 4,
+      },
+      // Desktop MD
+      1280: {
+        slidesPerView: 5,
+        slidesPerGroup: 5,
+      },
+    },
+  });
 
-	const partnersSwiper = new Swiper("#partners-swiper-new", {
-		a11y: {
-			slideRole: "listitem",
-		},
-		preloadImages: false,
-		simulateTouch: false,
-		pagination: {
-			el: "#partners-pagination",
-			clickable: true,
-		},
-		navigation: {
-			nextEl: "#partners-next",
-			prevEl: "#partners-prev",
-		},
-		grid: {
-			fill: "row",
-			rows: 2,
-		},
-		breakpoints: {
-			// Mobile Portrait
-			374: {
-				slidesPerView: 2,
-				slidesPerGroup: 2,
-			},
-			// Tablet
-			768: {
-				slidesPerView: 3,
-				slidesPerGroup: 3,
-			},
-			// Desktop
-			992: {
-				slidesPerView: 4,
-				slidesPerGroup: 4,
-			},
-			// Desktop MD
-			1280: {
-				slidesPerView: 5,
-				slidesPerGroup: 5,
-			},
-		},
-	});
+  const partnersSwiper = new Swiper("#partners-swiper-new", {
+    a11y: {
+      slideRole: "listitem",
+    },
+    preloadImages: false,
+    simulateTouch: false,
+    pagination: {
+      el: "#partners-pagination",
+      clickable: true,
+    },
+    navigation: {
+      nextEl: "#partners-next",
+      prevEl: "#partners-prev",
+    },
+    grid: {
+      fill: "row",
+      rows: 2,
+    },
+    breakpoints: {
+      // Mobile Portrait
+      374: {
+        slidesPerView: 2,
+        slidesPerGroup: 2,
+      },
+      // Tablet
+      768: {
+        slidesPerView: 3,
+        slidesPerGroup: 3,
+      },
+      // Desktop
+      992: {
+        slidesPerView: 4,
+        slidesPerGroup: 4,
+      },
+      // Desktop MD
+      1280: {
+        slidesPerView: 5,
+        slidesPerGroup: 5,
+      },
+    },
+  });
 
-	const legacyPartnersSwiper = new Swiper("#partners-swiper", {
-		a11y: {
-			slideRole: "listitem",
-		},
-		preloadImages: false,
-		simulateTouch: false,
-		pagination: {
-			el: "#partners-pagination",
-			clickable: true,
-		},
-		navigation: {
-			nextEl: "#partners-next",
-			prevEl: "#partners-prev",
-		},
-		grid: {
-			fill: "row",
-			rows: 2,
-		},
-		breakpoints: {
-			// Mobile Portrait
-			374: {
-				slidesPerView: 2,
-				slidesPerGroup: 2,
-			},
-			// Tablet
-			768: {
-				slidesPerView: 3,
-				slidesPerGroup: 3,
-			},
-			// Desktop
-			992: {
-				slidesPerView: 4,
-				slidesPerGroup: 4,
-			},
-			// Desktop MD
-			1280: {
-				slidesPerView: 5,
-				slidesPerGroup: 5,
-			},
-		},
-	});
+  const legacyPartnersSwiper = new Swiper("#partners-swiper", {
+    a11y: {
+      slideRole: "listitem",
+    },
+    preloadImages: false,
+    simulateTouch: false,
+    pagination: {
+      el: "#partners-pagination",
+      clickable: true,
+    },
+    navigation: {
+      nextEl: "#partners-next",
+      prevEl: "#partners-prev",
+    },
+    grid: {
+      fill: "row",
+      rows: 2,
+    },
+    breakpoints: {
+      // Mobile Portrait
+      374: {
+        slidesPerView: 2,
+        slidesPerGroup: 2,
+      },
+      // Tablet
+      768: {
+        slidesPerView: 3,
+        slidesPerGroup: 3,
+      },
+      // Desktop
+      992: {
+        slidesPerView: 4,
+        slidesPerGroup: 4,
+      },
+      // Desktop MD
+      1280: {
+        slidesPerView: 5,
+        slidesPerGroup: 5,
+      },
+    },
+  });
 </script>
