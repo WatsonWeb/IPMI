@@ -1,38 +1,60 @@
 <script>
-	$(function () {
+	document.addEventListener("DOMContentLoaded", function () {
 		// Institute Filters
-
 		let filterClicked = false;
 
-		$("#filter-button").click(function () {
-			$(this).toggleClass("active");
-			$("#filter-buttons").toggleClass("active");
+		const filterButton = document.getElementById("filter-button");
+		const filterButtons = document.getElementById("filter-buttons");
+		const filterCheckboxes = document.querySelectorAll(".institute-filter-checkbox");
+		const filterOptionButtons = document.querySelectorAll(".institute-filter-button");
+
+		const triggerFilterCheckbox = function (button) {
+			const checkboxTrigger =
+				button.querySelector(".institute-filter-checkbox") ||
+				button.querySelector('input[type="checkbox"]');
+
+			if (checkboxTrigger) checkboxTrigger.click();
+		};
+
+		if (filterButton && filterButtons) {
+			filterButton.addEventListener("click", function () {
+				filterButton.classList.toggle("active");
+				filterButtons.classList.toggle("active");
+			});
+		}
+
+		filterCheckboxes.forEach(function (checkbox) {
+			checkbox.addEventListener("click", function (event) {
+				event.stopPropagation();
+			});
 		});
 
-		$(".institute-filter-checkbox").click(function (event) {
-			event.stopPropagation();
-		});
+		filterOptionButtons.forEach(function (button) {
+			button.addEventListener("click", function () {
+				const checkbox = button.querySelector('input[type="checkbox"]');
+				if (!checkbox) return;
 
-		$(".institute-filter-button").click(function () {
-			const checkbox = $(this).find("input[type=checkbox]");
-			const checkboxLabel = $(this).find(".institute-filter-checkbox");
+				if (!filterClicked) {
+					const siblingButtons = Array.from(button.parentElement?.children || []).filter(
+						function (el) {
+							return el !== button && el.classList.contains("institute-filter-button");
+						},
+					);
 
-			if (!filterClicked) {
-				$(this)
-					.siblings()
-					.removeClass("active")
-					.find(".institute-filter-checkbox")
-					.trigger("click");
-				filterClicked = true;
-			} else {
-				if (checkbox.prop("checked")) {
-					$(this).removeClass("active");
-					checkboxLabel.trigger("click");
+					siblingButtons.forEach(function (siblingButton) {
+						siblingButton.classList.remove("active");
+						triggerFilterCheckbox(siblingButton);
+					});
+
+					filterClicked = true;
+				} else if (checkbox.checked) {
+					button.classList.remove("active");
+					triggerFilterCheckbox(button);
 				} else {
-					$(this).addClass("active");
-					checkboxLabel.trigger("click");
+					button.classList.add("active");
+					triggerFilterCheckbox(button);
 				}
-			}
+			});
 		});
 	});
 </script>

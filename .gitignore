@@ -1,2 +1,44 @@
-/.DS_Store
-/config.codekit3
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Logs
+logs/
+*.log
+
+# Environment variables
+.env
+.env.*
+
+# Build output
+dist/
+build/
+out/
+.cache/
+.next/
+.tmp/
+.temp/
+
+# Coverage
+coverage/
+
+# Misc
+*.swp
+*.swo
+
+# Webflow export artifacts (if any, optional)
+.webflow/

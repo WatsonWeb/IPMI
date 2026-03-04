@@ -1,0 +1,21 @@
+{
+  "name": "ipmi-webflow",
+  "version": "1.0.0",
+  "description": "Custom Webflow theme for International Performance Management Institute.",
+  "main": "index.js",
+  "scripts": {
+		"fmt": "oxfmt",
+    "fmt:check": "oxfmt --check",
+		"lint": "oxlint",
+    "lint:fix": "oxlint --fix"
+	},
+  "keywords": [],
+  "author": "Bryan Watson - info@bryantwatson.ca",
+  "license": "ISC",
+  "packageManager": "pnpm@10.30.3",
+  "devDependencies": {
+    "oxfmt": "^0.36.0",
+    "oxlint": "^1.51.0",
+    "oxlint-tsgolint": "^0.16.0"
+  }
+}
