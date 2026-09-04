@@ -78,6 +78,15 @@
     if (element && element.classList) element.classList.remove(className);
   }
 
+  function hasClass(element, className) {
+    return Boolean(
+      element &&
+      element.classList &&
+      typeof element.classList.contains === "function" &&
+      element.classList.contains(className),
+    );
+  }
+
   function toggleClass(element, className, enabled) {
     if (!element || !element.classList) return;
 
@@ -829,9 +838,36 @@
     };
 
     if (!validDateParts(parts.year, parts.month, parts.day)) return null;
+    parts.iso = pad(parts.year, 4) + "-" + pad(parts.month) + "-" + pad(parts.day);
     parts.value = pad(parts.year, 4) + pad(parts.month) + pad(parts.day);
     parts.serial = Date.UTC(parts.year, parts.month - 1, parts.day);
     return parts;
+  }
+
+  function parseDisplayDate(value) {
+    var match = String(value || "")
+      .trim()
+      .match(
+        /^(?:[A-Za-z]+,\s*)?(January|February|March|April|May|June|July|August|September|October|November|December)\s+(\d{1,2}),\s*(\d{4})$/i,
+      );
+    if (!match) return null;
+
+    var monthNames = [
+      "january",
+      "february",
+      "march",
+      "april",
+      "may",
+      "june",
+      "july",
+      "august",
+      "september",
+      "october",
+      "november",
+      "december",
+    ];
+    var month = monthNames.indexOf(match[1].toLowerCase()) + 1;
+    return parseDateOnly(match[3] + "-" + pad(month) + "-" + pad(Number(match[2])));
   }
 
   function addDays(parts, amount) {
@@ -1136,13 +1172,30 @@
       (descriptionElement && (descriptionElement.textContent || descriptionElement.innerText)) ||
         "",
     ).trim();
+    var allDay = field("allDay", ["data-kbyg-all-day", "data-kbyg-calendar-all-day"]);
+    var start = field("start", ["data-kbyg-start", "data-kbyg-calendar-start"]);
+    var end = field("end", ["data-kbyg-end", "data-kbyg-calendar-end"]);
+    var card =
+      control && typeof control.closest === "function" ? control.closest(".kbyg-date-card") : null;
+    var displayDateElement = query(card, ".kbyg-date-card__display-date");
+    var displayDate = parseDisplayDate(
+      displayDateElement && (displayDateElement.textContent || displayDateElement.innerText),
+    );
+
+    // Webflow serializes DateTime fields in custom attributes using the site
+    // timezone, which can shift midnight UTC values back one day. The visible
+    // CMS display date is authoritative for these all-day deadline cards.
+    if (parseBoolean(allDay, false) && displayDate) {
+      start = displayDate.iso;
+      end = displayDate.iso;
+    }
 
     return {
       title: field("title") || fallbackTitle,
       description: field("description") || fallbackDescription,
-      start: field("start", ["data-kbyg-start", "data-kbyg-calendar-start"]),
-      end: field("end", ["data-kbyg-end", "data-kbyg-calendar-end"]),
-      allDay: field("allDay", ["data-kbyg-all-day", "data-kbyg-calendar-all-day"]),
+      start: start,
+      end: end,
+      allDay: allDay,
       location: field("location"),
       url: field("url"),
       filename: field("filename"),

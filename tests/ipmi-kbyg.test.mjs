@@ -456,6 +456,11 @@ test("accordions expose correct ARIA state, allow one open item, and support key
   documentRef.pages = [page];
   const first = accordionItem(true);
   const second = accordionItem(true, "div");
+  const firstMarker = new FakeElement("span", {
+    "data-kbyg-initially-expanded-marker": "",
+  });
+  first.item.removeAttribute("data-initially-expanded");
+  first.item.selectorMap.set("[data-kbyg-initially-expanded-marker]", [firstMarker]);
 
   page.selectorMap.set("[data-kbyg-section]", []);
   page.selectorMap.set("[data-kbyg-jump]", []);
@@ -502,16 +507,19 @@ test("calendar controls can read title and rich description text from their CMS 
   const control = new FakeElement("a", {
     href: "#",
     "data-kbyg-calendar": "",
-    "data-kbyg-start": "2026-09-04",
-    "data-kbyg-end": "2026-09-04",
+    "data-kbyg-start": "September 3, 2026",
+    "data-kbyg-end": "September 3, 2026",
     "data-kbyg-all-day": "true",
   });
   const card = new FakeElement("article");
   const month = new FakeElement("span");
   const day = new FakeElement("span");
+  const displayDate = new FakeElement("p");
+  displayDate.textContent = "Friday, September 4, 2026";
   card.classList.add("kbyg-date-card");
   card.selectorMap.set(".kbyg-date-card__month", [month]);
   card.selectorMap.set(".kbyg-date-card__day", [day]);
+  card.selectorMap.set(".kbyg-date-card__display-date", [displayDate]);
   item.selectorMap.set("[data-kbyg-calendar-title]", [title]);
   item.selectorMap.set("[data-kbyg-calendar-description]", [description]);
   item.appendChild(card);
