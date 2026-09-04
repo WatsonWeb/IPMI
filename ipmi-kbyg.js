@@ -99,6 +99,418 @@
     }
   }
 
+  var FONT_AWESOME_IMAGE_MAP = [
+    ["calendar-clock", "calendar-clock"],
+    ["calendar-check", "calendar-check"],
+    ["calendar-plus", "calendar-plus"],
+    ["airplane", "plane-departure"],
+    ["prohibited", "ban"],
+    ["handshake", "handshake"],
+    ["building", "building"],
+    ["profile", "id-card"],
+    ["people", "users"],
+    ["group", "users"],
+    ["hotel", "hotel"],
+    ["chair", "chair"],
+    ["podium", "keynote"],
+    ["glasses", "champagne-glasses"],
+    ["car", "car-side"],
+    ["bed", "bed"],
+    ["question", "circle-question"],
+    ["heartbeat", "heart-pulse"],
+    ["external-link", "arrow-up-right-from-square"],
+    ["mail", "envelope"],
+    ["phone", "phone"],
+  ];
+
+  var FONT_AWESOME_JUMP_MAP = {
+    welcome: "id-card",
+    prepare: "building",
+    "key-dates": "calendar-check",
+    agenda: "calendar-days",
+    hub: "laptop",
+    "hotel-travel": "hotel",
+    experience: "handshake",
+    faq: "circle-question",
+    "sponsor-support": "circle-question",
+    contact: "envelope",
+  };
+
+  function addClasses(element, classNames) {
+    String(classNames || "")
+      .split(/\s+/)
+      .filter(Boolean)
+      .forEach(function (className) {
+        addClass(element, className);
+      });
+  }
+
+  function removeClasses(element, classNames) {
+    String(classNames || "")
+      .split(/\s+/)
+      .filter(Boolean)
+      .forEach(function (className) {
+        removeClass(element, className);
+      });
+  }
+
+  function clearChildren(element) {
+    if (!element) return;
+    if (typeof element.replaceChildren === "function") {
+      element.replaceChildren();
+      return;
+    }
+
+    while (element.firstChild && typeof element.removeChild === "function") {
+      element.removeChild(element.firstChild);
+    }
+    element.textContent = "";
+  }
+
+  function createFontAwesomeIcon(documentRef, iconName, weight, extraClasses) {
+    if (!documentRef || typeof documentRef.createElement !== "function") return null;
+    var icon = documentRef.createElement("span");
+    addClasses(icon, "kbyg-fa " + (weight || "fa-light") + " fa-" + iconName);
+    addClasses(icon, extraClasses);
+    setAttribute(icon, "aria-hidden", "true");
+    return icon;
+  }
+
+  function prependChild(parent, child) {
+    if (!parent || !child) return;
+    if (typeof parent.prepend === "function") parent.prepend(child);
+    else if (parent.firstChild && typeof parent.insertBefore === "function") {
+      parent.insertBefore(child, parent.firstChild);
+    } else if (typeof parent.appendChild === "function") {
+      parent.appendChild(child);
+    }
+  }
+
+  function appendFontAwesomeIcon(parent, documentRef, iconName, weight, extraClasses) {
+    var icon = createFontAwesomeIcon(documentRef, iconName, weight, extraClasses);
+    if (icon && parent && typeof parent.appendChild === "function") parent.appendChild(icon);
+    return icon;
+  }
+
+  function iconNameFromImage(image) {
+    var source = String(getAttribute(image, "src") || "").toLowerCase();
+    for (var index = 0; index < FONT_AWESOME_IMAGE_MAP.length; index += 1) {
+      if (source.indexOf(FONT_AWESOME_IMAGE_MAP[index][0]) !== -1) {
+        return FONT_AWESOME_IMAGE_MAP[index][1];
+      }
+    }
+    return "";
+  }
+
+  function replaceCmsIconImage(image, documentRef) {
+    var iconName = iconNameFromImage(image);
+    var parent = image && image.parentNode;
+    if (!iconName || !parent || typeof parent.replaceChild !== "function") return null;
+
+    if (hasClass(parent, "kbyg-icon")) {
+      clearChildren(parent);
+      setAttribute(parent, "data-kbyg-font-awesome", iconName);
+      appendFontAwesomeIcon(parent, documentRef, iconName, "fa-light");
+      return parent;
+    }
+
+    var wrapper = documentRef.createElement("span");
+    addClasses(wrapper, getAttribute(image, "class"));
+    setAttribute(wrapper, "aria-hidden", "true");
+    setAttribute(wrapper, "data-kbyg-font-awesome", iconName);
+    appendFontAwesomeIcon(wrapper, documentRef, iconName, "fa-light");
+    parent.replaceChild(wrapper, image);
+    return wrapper;
+  }
+
+  function replaceGlyphWithFontAwesome(element, documentRef, iconName, weight) {
+    if (!element || !iconName) return null;
+    clearChildren(element);
+    removeClasses(
+      element,
+      "kbyg-glyph--mask kbyg-glyph--phone kbyg-glyph--mail kbyg-glyph--calendar-check kbyg-glyph--calendar-plus kbyg-glyph--external-link",
+    );
+    addClass(element, "kbyg-glyph--font-awesome");
+    setAttribute(element, "data-kbyg-font-awesome", iconName);
+    return appendFontAwesomeIcon(element, documentRef, iconName, weight || "fa-light");
+  }
+
+  function setHeadingSegments(heading, documentRef, segments) {
+    if (!heading || !documentRef || typeof documentRef.createElement !== "function") return;
+    clearChildren(heading);
+
+    segments.forEach(function (segment) {
+      var span = documentRef.createElement("span");
+      if (segment.accent) addClass(span, "kbyg-accent");
+      if (segment.breakBefore) addClass(span, "kbyg-title-break");
+      if (segment.tabletBreak) addClass(span, "kbyg-tablet-break");
+      span.textContent = segment.text;
+      heading.appendChild(span);
+    });
+  }
+
+  function setupFontAwesome(page, documentRef, windowRef) {
+    var replacedImages = [];
+    queryAll(page, "img.kbyg-icon, .kbyg-icon > img").forEach(function (image) {
+      var replacement = replaceCmsIconImage(image, documentRef);
+      if (replacement) replacedImages.push(replacement);
+    });
+
+    [
+      [".kbyg-glyph--phone", "phone", "fa-solid"],
+      [".kbyg-glyph--mail", "envelope", "fa-solid"],
+      [".kbyg-glyph--calendar-check", "calendar-check", "fa-regular"],
+      [".kbyg-glyph--calendar-plus", "calendar-plus", "fa-regular"],
+      [".kbyg-glyph--external-link", "arrow-up-right-from-square", "fa-light"],
+    ].forEach(function (record) {
+      queryAll(page, record[0]).forEach(function (element) {
+        replaceGlyphWithFontAwesome(element, documentRef, record[1], record[2]);
+      });
+    });
+
+    queryAll(page, ".kbyg-hero__badge").forEach(function (badge) {
+      clearChildren(badge);
+      appendFontAwesomeIcon(badge, documentRef, "heart-pulse", "fa-light");
+    });
+
+    queryAll(page, ".kbyg-travel-gallery__map, .kbyg-travel-gallery iframe").forEach(
+      function (map) {
+        setAttribute(map, "loading", "eager");
+      },
+    );
+
+    queryAll(page, ".kbyg-jump__link").forEach(function (link) {
+      if (query(link, ".kbyg-jump__icon")) return;
+      var iconName = FONT_AWESOME_JUMP_MAP[readJumpValue(link)];
+      if (!iconName) return;
+      var wrapper = documentRef.createElement("span");
+      addClass(wrapper, "kbyg-jump__icon");
+      setAttribute(wrapper, "aria-hidden", "true");
+      appendFontAwesomeIcon(wrapper, documentRef, iconName, "fa-light");
+      prependChild(link, wrapper);
+    });
+
+    queryAll(page, "[data-kbyg-jump-form]").forEach(function (form) {
+      if (query(form, ".kbyg-jump__select-icon")) return;
+      var wrapper = documentRef.createElement("span");
+      addClasses(wrapper, "kbyg-jump__icon kbyg-jump__select-icon");
+      setAttribute(wrapper, "aria-hidden", "true");
+      appendFontAwesomeIcon(wrapper, documentRef, "id-card", "fa-light");
+      prependChild(form, wrapper);
+    });
+
+    queryAll(page, ".kbyg-button").forEach(function (button) {
+      if (hasAttribute(button, "data-kbyg-calendar")) {
+        clearChildren(button);
+        appendFontAwesomeIcon(
+          button,
+          documentRef,
+          "calendar-plus",
+          "fa-regular",
+          "kbyg-button__fa",
+        );
+        var label = documentRef.createElement("span");
+        addClass(label, "kbyg-button__label");
+        label.textContent = "ADD TO CALENDAR";
+        button.appendChild(label);
+        return;
+      }
+
+      var iconName = "";
+      var weight = "fa-light";
+      if (button.closest && button.closest(".kbyg-hero__actions")) {
+        iconName = "arrow-down";
+        weight = "fa-solid";
+      } else if (hasClass(button, "kbyg-button--calendar-link")) {
+        iconName = "calendar-check";
+        weight = "fa-regular";
+      } else if (button.closest && button.closest("#agenda")) {
+        iconName = "calendar-clock";
+        clearChildren(button);
+        var agendaLabel = documentRef.createElement("span");
+        addClass(agendaLabel, "kbyg-button__label");
+        agendaLabel.textContent = "VIEW ";
+        var fullLabel = documentRef.createElement("span");
+        addClass(fullLabel, "kbyg-button__desktop-word");
+        fullLabel.textContent = "FULL ";
+        agendaLabel.appendChild(fullLabel);
+        var instituteLabel = documentRef.createElement("span");
+        instituteLabel.textContent = "INSTITUTE AGENDA";
+        agendaLabel.appendChild(instituteLabel);
+        button.appendChild(agendaLabel);
+      } else if (hasClass(button, "kbyg-button--external")) {
+        iconName = "arrow-up-right-from-square";
+      }
+
+      if (iconName && !query(button, ".kbyg-button__fa")) {
+        var icon = createFontAwesomeIcon(documentRef, iconName, weight, "kbyg-button__fa");
+        if (
+          hasClass(button, "kbyg-button--calendar-link") ||
+          hasClass(button, "kbyg-button--external") ||
+          (button.closest && button.closest("#agenda"))
+        ) {
+          prependChild(button, icon);
+        } else if (icon) {
+          button.appendChild(icon);
+        }
+      }
+    });
+
+    queryAll(page, ".kbyg-agenda-card__header").forEach(function (header) {
+      var wrapper = query(header, ".kbyg-agenda-card__icon");
+      if (!wrapper) {
+        wrapper = documentRef.createElement("span");
+        addClass(wrapper, "kbyg-agenda-card__icon");
+        setAttribute(wrapper, "aria-hidden", "true");
+        prependChild(header, wrapper);
+      }
+      clearChildren(wrapper);
+      setAttribute(wrapper, "data-kbyg-font-awesome", "calendar-pen");
+      appendFontAwesomeIcon(wrapper, documentRef, "calendar-pen", "fa-light");
+    });
+
+    queryAll(page, ".kbyg-agenda-card .kbyg-rich-text p").forEach(function (row) {
+      var strong = query(row, "strong");
+      if (!strong || hasClass(row, "kbyg-agenda-card__row")) return;
+      var time = String(strong.textContent || "").trim();
+      var item = String(row.textContent || "")
+        .slice(time.length)
+        .replace(/^[\s\u2013\u2014-]+/, "")
+        .trim();
+      clearChildren(row);
+      addClass(row, "kbyg-agenda-card__row");
+      addClass(strong, "kbyg-agenda-card__time");
+      strong.textContent = time;
+      row.appendChild(strong);
+      var itemSpan = documentRef.createElement("span");
+      addClass(itemSpan, "kbyg-agenda-card__item");
+      itemSpan.textContent = item;
+      row.appendChild(itemSpan);
+    });
+
+    queryAll(page, ".kbyg-faq-item__toggle").forEach(function (toggle) {
+      clearChildren(toggle);
+      addClass(toggle, "has-font-awesome");
+      appendFontAwesomeIcon(toggle, documentRef, "plus", "fa-light", "kbyg-fa--plus");
+      appendFontAwesomeIcon(toggle, documentRef, "minus", "fa-light", "kbyg-fa--minus");
+    });
+
+    queryAll(page, ".kbyg-contact-card__eyebrow").forEach(function (eyebrow) {
+      if (/^your operations lead$/i.test(String(eyebrow.textContent || "").trim())) {
+        eyebrow.textContent = "OPERATIONS LEAD";
+      }
+    });
+
+    queryAll(page, ".kbyg-meeting-method__item-title").forEach(function (title, index) {
+      if (!/^\d+\.\s/.test(String(title.textContent || "").trim())) {
+        title.textContent = index + 1 + ". " + String(title.textContent || "").trim();
+      }
+    });
+
+    var heroTitle = query(page, ".kbyg-hero__title");
+    if (heroTitle) {
+      setHeadingSegments(heroTitle, documentRef, [
+        { text: "Know Before You Go" },
+        { accent: true, text: "." },
+      ]);
+    }
+
+    var welcomeTitle = query(page, "#kbyg-welcome-title");
+    if (welcomeTitle) {
+      setHeadingSegments(welcomeTitle, documentRef, [
+        { text: "Welcome, we’re excited to see you soon" },
+        { accent: true, text: "!" },
+      ]);
+    }
+
+    var agendaTitle = query(page, "#kbyg-agenda-title");
+    if (agendaTitle) {
+      setHeadingSegments(agendaTitle, documentRef, [
+        { text: "Agenda At-A-Glance" },
+        { accent: true, text: "." },
+      ]);
+    }
+
+    var hubTitle = query(page, "#hub .kbyg-section__title");
+    if (hubTitle) {
+      setHeadingSegments(hubTitle, documentRef, [
+        { text: String(hubTitle.textContent || "").replace(/\.$/, "") },
+        { accent: true, text: "." },
+      ]);
+    }
+
+    var supportTitle = query(page, "#sponsor-support .kbyg-section__title");
+    if (supportTitle) {
+      setHeadingSegments(supportTitle, documentRef, [
+        { accent: true, text: "Sponsor Support" },
+        { text: " Lives in the Hub." },
+      ]);
+    }
+
+    if (getAttribute(page, "data-audience") === "sponsor") {
+      var prepareTitle = query(page, "#kbyg-prepare-title-sponsor");
+      if (prepareTitle) {
+        setHeadingSegments(prepareTitle, documentRef, [
+          { text: "Preparing for your Institute is as easy as " },
+          { accent: true, text: "1-2-3." },
+        ]);
+      }
+
+      var keyDatesTitle = query(page, "#kbyg-key-dates-title-sponsor");
+      if (keyDatesTitle) {
+        setHeadingSegments(keyDatesTitle, documentRef, [
+          { text: "Key Dates & Deliverables" },
+          { accent: true, text: "." },
+        ]);
+      }
+
+      var travelTitle = query(page, "#kbyg-travel-title");
+      if (travelTitle) {
+        setHeadingSegments(travelTitle, documentRef, [
+          { text: "Hotel & Travel" },
+          { accent: true, text: "." },
+        ]);
+      }
+
+      var experienceTitle = query(page, "#kbyg-experience-title-sponsor");
+      if (experienceTitle) {
+        setHeadingSegments(experienceTitle, documentRef, [
+          { text: "Business Meetings & Onsite Experience" },
+          { accent: true, text: "." },
+        ]);
+      }
+    } else {
+      var delegatePrepareTitle = query(page, "#kbyg-prepare-title-delegate");
+      if (delegatePrepareTitle) {
+        setHeadingSegments(delegatePrepareTitle, documentRef, [
+          { tabletBreak: true, text: "Preparing for your Institute" },
+          { text: " is as easy as " },
+          { accent: true, text: "1-2-3." },
+        ]);
+      }
+    }
+
+    var contactTitle = query(page, "#contact .kbyg-contact__title");
+    if (contactTitle) {
+      setHeadingSegments(contactTitle, documentRef, [
+        { text: "Questions Before You Go? " },
+        { accent: true, breakBefore: true, text: "We’re Here to Help." },
+      ]);
+    }
+
+    var fontAwesome = windowRef && windowRef.FontAwesome;
+    if (fontAwesome && fontAwesome.dom && typeof fontAwesome.dom.i2svg === "function") {
+      try {
+        var conversion = fontAwesome.dom.i2svg({ node: page });
+        if (conversion && typeof conversion.catch === "function") conversion.catch(function () {});
+      } catch {
+        // The kit's mutation observer will retry once its icon data is ready.
+      }
+    }
+
+    return { replacedImages: replacedImages };
+  }
+
   function addListener(target, type, listener, options, cleanups) {
     if (!target || typeof target.addEventListener !== "function") return;
 
@@ -1384,11 +1796,13 @@
     );
     var accordions = setupAccordions(page, pageToken, environment.document, cleanups);
     var calendars = setupCalendars(page, environment.document, environment.window, cleanups);
+    var fontAwesome = setupFontAwesome(page, environment.document, environment.window);
     var instance = {
       page: page,
       navigation: navigation,
       accordions: accordions,
       calendars: calendars,
+      fontAwesome: fontAwesome,
       audience: audience,
       responsiveWelcomeTitle: responsiveWelcomeTitle,
       destroy: function () {

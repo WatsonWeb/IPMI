@@ -88,6 +88,13 @@ class FakeElement extends FakeTarget {
   setAttribute(name, value) {
     this.attributes.set(name, String(value));
     if (name === "id") this.id = String(value);
+    if (name === "class") {
+      this.classList = new FakeClassList();
+      String(value)
+        .split(/\s+/)
+        .filter(Boolean)
+        .forEach((className) => this.classList.add(className));
+    }
   }
 
   getAttribute(name) {
@@ -118,6 +125,31 @@ class FakeElement extends FakeTarget {
     child.parentNode = this;
     this.children.push(child);
     return child;
+  }
+
+  get firstChild() {
+    return this.children[0] || null;
+  }
+
+  prepend(child) {
+    child.parentNode = this;
+    this.children.unshift(child);
+  }
+
+  replaceChild(replacement, child) {
+    const index = this.children.indexOf(child);
+    if (index === -1) return null;
+    child.parentNode = null;
+    replacement.parentNode = this;
+    this.children[index] = replacement;
+    return child;
+  }
+
+  replaceChildren(...children) {
+    for (const child of this.children) child.parentNode = null;
+    this.children = [];
+    for (const child of children) this.appendChild(child);
+    this.textContent = "";
   }
 
   removeChild(child) {
@@ -510,6 +542,93 @@ test("responsive welcome heading exposes the compact mobile accessible name", ()
 
   instance.destroy();
   assert.equal(title.getAttribute("aria-label"), null);
+});
+
+test("replaces standard KBYG glyph assets with the existing Font Awesome kit convention", () => {
+  const documentRef = new FakeDocument();
+  const windowRef = new FakeWindow(documentRef);
+  documentRef.defaultView = windowRef;
+  const page = new FakeElement("main", { class: "kbyg-page", "data-audience": "sponsor" });
+  page.ownerDocument = documentRef;
+  documentRef.pages = [page];
+
+  const section = new FakeElement("section", {
+    id: "welcome",
+    "data-kbyg-section": "welcome",
+  });
+  section.rect = { top: 0, bottom: 800, height: 800 };
+  const jumpLink = new FakeElement("a", {
+    href: "#welcome",
+    "data-kbyg-jump": "welcome",
+  });
+  const iconParent = new FakeElement("article");
+  const iconImage = new FakeElement("img", {
+    class: "kbyg-icon kbyg-icon-card__icon",
+    src: "https://cdn.example.test/kbyg-building.svg",
+  });
+  iconParent.appendChild(iconImage);
+  const leadershipParent = new FakeElement("article");
+  const leadershipImage = new FakeElement("img", {
+    class: "kbyg-icon kbyg-icon-card__icon",
+    src: "https://cdn.example.test/kbyg-podium.svg",
+  });
+  leadershipParent.appendChild(leadershipImage);
+  const travelIcon = new FakeElement("span", {
+    class: "kbyg-icon kbyg-icon--small kbyg-travel-card__icon",
+  });
+  const travelImage = new FakeElement("img", {
+    src: "https://cdn.example.test/kbyg-hotel.svg",
+  });
+  travelIcon.appendChild(travelImage);
+  const heroBadge = new FakeElement("span", { class: "kbyg-hero__badge" });
+  const heroTitle = new FakeElement("h1", { class: "kbyg-hero__title" });
+  heroTitle.textContent = "Know Before You Go.";
+  const methodTitle = new FakeElement("h4", { class: "kbyg-meeting-method__item-title" });
+  methodTitle.textContent = "Mutual Requests";
+  const map = new FakeElement("iframe", {
+    class: "kbyg-travel-gallery__map",
+    loading: "lazy",
+  });
+  const phoneGlyph = new FakeElement("span", {
+    class: "kbyg-glyph kbyg-glyph--mask kbyg-glyph--phone",
+  });
+
+  page.selectorMap.set("[data-kbyg-section]", [section]);
+  page.selectorMap.set("[data-kbyg-jump]", [jumpLink]);
+  page.selectorMap.set(".kbyg-jump__link", [jumpLink]);
+  page.selectorMap.set("[data-kbyg-accordion]", []);
+  page.selectorMap.set("[data-kbyg-calendar]", []);
+  page.selectorMap.set("img.kbyg-icon, .kbyg-icon > img", [
+    iconImage,
+    leadershipImage,
+    travelImage,
+  ]);
+  page.selectorMap.set(".kbyg-glyph--phone", [phoneGlyph]);
+  page.selectorMap.set(".kbyg-hero__badge", [heroBadge]);
+  page.selectorMap.set(".kbyg-hero__title", [heroTitle]);
+  page.selectorMap.set(".kbyg-meeting-method__item-title", [methodTitle]);
+  page.selectorMap.set(".kbyg-travel-gallery__map, .kbyg-travel-gallery iframe", [map]);
+
+  kbyg.initPage(page, { document: documentRef, window: windowRef });
+
+  const iconWrapper = iconParent.children[0];
+  assert.equal(iconWrapper.tagName, "SPAN");
+  assert.ok(iconWrapper.classList.contains("kbyg-icon"));
+  assert.ok(iconWrapper.children[0].classList.contains("fa-light"));
+  assert.ok(iconWrapper.children[0].classList.contains("fa-building"));
+  assert.ok(leadershipParent.children[0].children[0].classList.contains("fa-keynote"));
+  assert.equal(travelIcon.children.length, 1);
+  assert.ok(travelIcon.children[0].classList.contains("fa-hotel"));
+  assert.ok(heroBadge.children[0].classList.contains("fa-heart-pulse"));
+  assert.ok(phoneGlyph.children[0].classList.contains("fa-solid"));
+  assert.ok(phoneGlyph.children[0].classList.contains("fa-phone"));
+  assert.ok(jumpLink.children[0].classList.contains("kbyg-jump__icon"));
+  assert.ok(jumpLink.children[0].children[0].classList.contains("fa-id-card"));
+  assert.equal(heroTitle.children[0].textContent, "Know Before You Go");
+  assert.equal(heroTitle.children[1].textContent, ".");
+  assert.ok(heroTitle.children[1].classList.contains("kbyg-accent"));
+  assert.equal(methodTitle.textContent, "1. Mutual Requests");
+  assert.equal(map.getAttribute("loading"), "eager");
 });
 
 test("calendar controls can read title and rich description text from their CMS item", async () => {
