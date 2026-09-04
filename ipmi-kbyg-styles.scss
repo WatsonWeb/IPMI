@@ -1678,6 +1678,15 @@
       gap: 46px;
     }
 
+    .kbyg-welcome__grid .kbyg-section__title {
+      font-size: 0;
+
+      &::after {
+        content: "Welcome!";
+        font-size: 36px;
+      }
+    }
+
     .kbyg-contact-card--welcome {
       .kbyg-contact-card__identity {
         flex-direction: row;
@@ -1838,6 +1847,10 @@
 
     .kbyg-section__title,
     .kbyg-contact__title {
+      font-size: 34px;
+    }
+
+    .kbyg-welcome__grid .kbyg-section__title::after {
       font-size: 34px;
     }
 
@@ -2165,6 +2178,10 @@
       font-size: 31px;
     }
 
+    .kbyg-welcome__grid .kbyg-section__title::after {
+      font-size: 31px;
+    }
+
     .kbyg-section__eyebrow,
     .kbyg-hero__date {
       letter-spacing: 0.09em;
@@ -2235,6 +2252,10 @@
 
     .kbyg-section__title,
     .kbyg-contact__title {
+      font-size: 29px;
+    }
+
+    .kbyg-welcome__grid .kbyg-section__title::after {
       font-size: 29px;
     }
 

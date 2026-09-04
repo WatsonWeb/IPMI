@@ -294,6 +294,51 @@
     }
   }
 
+  function setupResponsiveWelcomeTitle(page, windowRef, cleanups) {
+    var title = query(page, "#kbyg-welcome-title");
+    if (!title || !windowRef || typeof windowRef.matchMedia !== "function") return null;
+
+    var mediaQuery;
+    try {
+      mediaQuery = windowRef.matchMedia("(max-width: 991px)");
+    } catch {
+      return null;
+    }
+
+    var originalLabel = getAttribute(title, "aria-label");
+
+    function syncLabel() {
+      if (mediaQuery.matches) {
+        setAttribute(title, "aria-label", "Welcome!");
+      } else if (originalLabel === null) {
+        removeAttribute(title, "aria-label");
+      } else {
+        setAttribute(title, "aria-label", originalLabel);
+      }
+    }
+
+    syncLabel();
+
+    if (typeof mediaQuery.addEventListener === "function") {
+      mediaQuery.addEventListener("change", syncLabel);
+      cleanups.push(function () {
+        mediaQuery.removeEventListener("change", syncLabel);
+      });
+    } else if (typeof mediaQuery.addListener === "function") {
+      mediaQuery.addListener(syncLabel);
+      cleanups.push(function () {
+        mediaQuery.removeListener(syncLabel);
+      });
+    }
+
+    cleanups.push(function () {
+      if (originalLabel === null) removeAttribute(title, "aria-label");
+      else setAttribute(title, "aria-label", originalLabel);
+    });
+
+    return { title: title, mediaQuery: mediaQuery };
+  }
+
   function numericCssValue(value) {
     var number = Number.parseFloat(String(value || ""));
     return Number.isFinite(number) && number > 0 ? number : 0;
@@ -1329,6 +1374,7 @@
     var environment = getWindow(page, options);
     var cleanups = [];
     var audience = setupAudience(page, environment.window);
+    var responsiveWelcomeTitle = setupResponsiveWelcomeTitle(page, environment.window, cleanups);
     var navigation = setupNavigation(
       page,
       pageToken,
@@ -1344,6 +1390,7 @@
       accordions: accordions,
       calendars: calendars,
       audience: audience,
+      responsiveWelcomeTitle: responsiveWelcomeTitle,
       destroy: function () {
         navigation.destroy();
         cleanups.splice(0).forEach(function (cleanup) {

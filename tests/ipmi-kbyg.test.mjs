@@ -197,6 +197,7 @@ class FakeWindow extends FakeTarget {
       },
     };
     this.reducedMotion = false;
+    this.mobileLayout = false;
     this.URL = {
       createObjectURL: (blob) => {
         this.downloadedBlob = blob;
@@ -209,8 +210,10 @@ class FakeWindow extends FakeTarget {
     this.Blob = Blob;
   }
 
-  matchMedia() {
-    return { matches: this.reducedMotion };
+  matchMedia(query) {
+    return {
+      matches: String(query).includes("max-width") ? this.mobileLayout : this.reducedMotion,
+    };
   }
 
   requestAnimationFrame(callback) {
@@ -489,6 +492,24 @@ test("accordions expose correct ARIA state, allow one open item, and support key
   assert.equal(second.trigger.getAttribute("aria-expanded"), "true");
   assert.equal(first.trigger.getAttribute("aria-expanded"), "false");
   assert.equal(first.panel.hidden, true);
+});
+
+test("responsive welcome heading exposes the compact mobile accessible name", () => {
+  const documentRef = new FakeDocument();
+  const windowRef = new FakeWindow(documentRef);
+  windowRef.mobileLayout = true;
+  documentRef.defaultView = windowRef;
+  const page = new FakeElement("main");
+  page.ownerDocument = documentRef;
+  const title = new FakeElement("h2");
+  title.textContent = "Welcome, we’re excited to see you soon!";
+  page.selectorMap.set("#kbyg-welcome-title", [title]);
+
+  const instance = kbyg.initPage(page, { document: documentRef, window: windowRef });
+  assert.equal(title.getAttribute("aria-label"), "Welcome!");
+
+  instance.destroy();
+  assert.equal(title.getAttribute("aria-label"), null);
 });
 
 test("calendar controls can read title and rich description text from their CMS item", async () => {
