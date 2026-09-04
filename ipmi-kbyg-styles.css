@@ -464,6 +464,7 @@
 }
 .kbyg-page .kbyg-hero__title {
   margin: 0;
+  color: var(--kbyg-white);
   font-size: clamp(46px, 3.25vw, 62px);
   font-weight: 750;
   letter-spacing: -0.035em;
@@ -504,6 +505,21 @@
   grid-area: actions;
   display: flex;
   align-items: flex-start;
+}
+.kbyg-page .kbyg-hero__actions .kbyg-button {
+  white-space: nowrap;
+}
+.kbyg-page .kbyg-hero__actions .kbyg-button::after {
+  width: 9px;
+  height: 9px;
+  flex: 0 0 9px;
+  border-right: 2px solid currentColor;
+  border-bottom: 2px solid currentColor;
+  content: "";
+  transform: rotate(45deg) translate(-2px, -2px);
+}
+.kbyg-page .kbyg-hero__actions .kbyg-button__glyph {
+  display: none;
 }
 .kbyg-page .kbyg-hero__media {
   position: relative;
@@ -607,6 +623,7 @@
   min-height: 48px;
   align-items: center;
   gap: 9px;
+  margin: 0;
   padding-inline: 17px 42px;
   color: var(--kbyg-white);
 }
@@ -617,6 +634,16 @@
   font-size: 15px;
   pointer-events: none;
 }
+.kbyg-page .kbyg-jump__select-wrap:not([data-kbyg-jump-form]):not(:has([data-kbyg-jump-form])) {
+  display: none !important;
+}
+.kbyg-page .kbyg-jump__select-wrap > [data-kbyg-jump-form] {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  gap: inherit;
+  margin: 0;
+}
 .kbyg-page .kbyg-jump__select-label {
   flex: 0 0 auto;
   font-size: 14px;
@@ -626,7 +653,10 @@
 }
 .kbyg-page .kbyg-jump__select {
   min-width: 0;
+  height: auto !important;
   flex: 1 1 auto;
+  margin: 0;
+  padding: 0;
   border: 0;
   -webkit-appearance: none;
      -moz-appearance: none;
@@ -1306,6 +1336,18 @@
   .kbyg-page .mobile-menu-button,
   .kbyg-page .mobile-menu-button.button {
     display: flex !important;
+    width: 50px;
+    height: 50px;
+    flex: 0 0 50px;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+  }
+  .kbyg-page .mobile-menu-text {
+    display: none;
+  }
+  .kbyg-page .mobile-menu-icon {
+    margin-right: 0;
   }
   .kbyg-page .mobile-menu-wrap {
     display: flex !important;
@@ -1488,11 +1530,6 @@
   }
   .kbyg-page .brand {
     max-width: 215px;
-  }
-  .kbyg-page .mobile-menu-button {
-    width: 50px;
-    height: 50px;
-    padding: 0;
   }
   .kbyg-page .kbyg-section__header {
     margin-bottom: 32px;

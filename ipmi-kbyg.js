@@ -1290,7 +1290,7 @@
         if (day) day.textContent = String(startDate.day);
       }
 
-      if (labelData.title && !getAttribute(control, "aria-label")) {
+      if (labelData.title) {
         setAttribute(control, "aria-label", "Add " + labelData.title + " to calendar");
       }
 

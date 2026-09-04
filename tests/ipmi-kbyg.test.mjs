@@ -506,6 +506,7 @@ test("calendar controls can read title and rich description text from their CMS 
   description.textContent = "Bring ID\nand confirmation.";
   const control = new FakeElement("a", {
     href: "#",
+    "aria-label": "Sponsor arrival",
     "data-kbyg-calendar": "",
     "data-kbyg-start": "September 3, 2026",
     "data-kbyg-end": "September 3, 2026",
@@ -537,6 +538,7 @@ test("calendar controls can read title and rich description text from their CMS 
   kbyg.initPage(page, { document: documentRef, window: windowRef });
   assert.equal(month.textContent, "SEP");
   assert.equal(day.textContent, "4");
+  assert.equal(control.getAttribute("aria-label"), "Add Sponsor arrival to calendar");
   const event = control.dispatch("click");
   assert.equal(event.defaultPrevented, true);
   assert.equal(control.getAttribute("aria-disabled"), null);
