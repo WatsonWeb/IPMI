@@ -647,7 +647,7 @@
   border: 3px solid var(--kbyg-accent-dark);
   border-radius: 999px;
   background: var(--kbyg-accent-dark);
-  box-shadow: 0 3px 13px rgba(24, 24, 27, 0.16);
+  box-shadow: 0 3px 13px rgba(0, 39, 42, 0.18);
   pointer-events: auto;
 }
 .kbyg-page .kbyg-jump__list {
