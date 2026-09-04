@@ -31,6 +31,7 @@
 .kbyg-page {
   --kbyg-accent: var(--accent, #25948a);
   --kbyg-accent-dark: var(--accent-dark, #1f7a72);
+  --kbyg-accent-deep: color-mix(in srgb, var(--kbyg-accent-dark) 82%, #0a1c1b);
   --kbyg-accent-text: color-mix(in srgb, var(--kbyg-accent-dark) 82%, #18181b);
   --kbyg-accent-on-dark: color-mix(in srgb, var(--kbyg-accent) 72%, #fff);
   --kbyg-accent-button-top: color-mix(in srgb, var(--kbyg-accent) 72%, #18181b);
@@ -425,7 +426,15 @@
   color: var(--kbyg-mist);
 }
 .kbyg-page .kbyg-curve--hero svg {
-  filter: drop-shadow(0 -14px 0 var(--kbyg-accent));
+  clip-path: inset(-100px -2px 0);
+  filter: none;
+  overflow: visible;
+  transform: scaleX(-1.002) translateZ(0);
+}
+.kbyg-page .kbyg-curve--hero path {
+  stroke: var(--kbyg-accent);
+  stroke-width: 60px;
+  paint-order: stroke fill;
 }
 .kbyg-page .kbyg-curve--light {
   color: var(--kbyg-paper);
@@ -450,6 +459,26 @@
 .kbyg-page #sponsor-support + .kbyg-curve svg,
 .kbyg-page #contact + .kbyg-curve svg {
   transform: scaleX(-1.002) translateZ(0);
+}
+@media screen and (min-width: 992px) {
+  .kbyg-page .kbyg-curve--hero::after {
+    position: absolute;
+    z-index: 0;
+    inset: 44px 0 0;
+    background: var(--kbyg-mist);
+    content: "";
+  }
+  .kbyg-page .kbyg-curve--hero .w-embed {
+    position: relative;
+    z-index: 1;
+  }
+  .kbyg-page .kbyg-curve--hero svg {
+    height: 90px !important;
+    transform: translateY(-46px) scaleX(-1.002) translateZ(0);
+  }
+  .kbyg-page[data-audience=delegate] .kbyg-curve--hero svg {
+    transform: translateY(-34px) scaleX(-1.002) translateZ(0);
+  }
 }
 .kbyg-page .kbyg-hero {
   position: relative;
@@ -615,10 +644,10 @@
 .kbyg-page .kbyg-jump__inner {
   width: 100%;
   padding: 6px;
-  border: 3px solid var(--kbyg-accent);
+  border: 3px solid var(--kbyg-accent-dark);
   border-radius: 999px;
   background: var(--kbyg-accent-dark);
-  box-shadow: 0 9px 22px rgba(24, 24, 27, 0.2);
+  box-shadow: 0 3px 13px rgba(24, 24, 27, 0.16);
   pointer-events: auto;
 }
 .kbyg-page .kbyg-jump__list {
@@ -643,6 +672,7 @@
   padding: 8px 12px;
   border: 1px solid color-mix(in srgb, var(--kbyg-white) 24%, transparent);
   border-radius: 999px;
+  background: var(--kbyg-accent-deep);
   color: var(--kbyg-white);
   font-size: 11px;
   font-weight: 700;
@@ -678,6 +708,8 @@
   gap: 9px;
   margin: 0;
   padding-inline: 17px 42px;
+  border-radius: 999px;
+  background: var(--kbyg-accent-deep);
   color: var(--kbyg-white);
 }
 .kbyg-page .kbyg-jump__select-wrap::after {
@@ -1624,6 +1656,9 @@
   .kbyg-page .kbyg-jump__link {
     min-height: 44px;
   }
+  .kbyg-page[data-audience=delegate] .kbyg-jump {
+    transform: translateY(28px);
+  }
 }
 @media screen and (max-width: 1199px) {
   .kbyg-page {
@@ -1642,6 +1677,16 @@
   .kbyg-page {
     --kbyg-section-space-top: 76px;
     --kbyg-section-space-bottom: 76px;
+  }
+  .kbyg-page .kbyg-curve--hero path {
+    stroke-width: 54px;
+  }
+  .kbyg-page .kbyg-curve--hero svg {
+    height: 60px !important;
+    transform: translateY(-4px) scaleX(-1.002) translateZ(0);
+  }
+  .kbyg-page .kbyg-jump__inner {
+    padding: 4px;
   }
   .kbyg-page .navbar {
     padding-top: 30px;
@@ -1993,12 +2038,15 @@
     aspect-ratio: 16/9;
   }
   .kbyg-page[data-audience=delegate] .kbyg-jump {
-    margin-bottom: 18px;
-    transform: translateY(70px);
+    margin-bottom: 22px;
+    transform: translateY(61px);
+  }
+  .kbyg-page[data-audience=delegate] .kbyg-curve--hero svg {
+    transform: translateY(-8px) scaleX(-1.002) translateZ(0);
   }
   .kbyg-page[data-audience=sponsor] .kbyg-jump {
-    margin-bottom: 12px;
-    transform: translateY(62px);
+    margin-bottom: 16px;
+    transform: translateY(66px);
   }
   .kbyg-page[data-audience=delegate] .kbyg-hero__content {
     padding-bottom: 39px;
@@ -2245,7 +2293,7 @@
   }
   .kbyg-page[data-audience=sponsor] .kbyg-jump {
     margin-bottom: 9px;
-    transform: translateY(62px);
+    transform: translateY(67px);
   }
   .kbyg-page[data-audience=delegate] .kbyg-jump {
     margin-bottom: -36px;
@@ -2255,7 +2303,11 @@
     height: 34px;
   }
   .kbyg-page .kbyg-curve--hero svg {
-    filter: drop-shadow(0 -8px 0 var(--kbyg-accent));
+    height: 34px !important;
+    transform: translateY(21px) scaleX(-1.002) translateZ(0);
+  }
+  .kbyg-page .kbyg-curve--hero path {
+    stroke-width: 56px;
   }
   .kbyg-page .kbyg-jump {
     margin-block: -30px 22px;
@@ -2264,7 +2316,7 @@
     padding: 4px;
   }
   .kbyg-page .kbyg-jump__select-wrap {
-    min-height: 44px;
+    min-height: 40px;
     padding-inline: 13px 38px;
   }
   .kbyg-page .kbyg-welcome__grid,
