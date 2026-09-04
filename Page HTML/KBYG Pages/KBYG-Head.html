@@ -1,0 +1,55 @@
+<!--
+  KBYG collection-template <head> custom code.
+
+  DEPLOYMENT: replace __KBYG_COMMIT_SHA__ with the immutable Git commit SHA that
+  contains ipmi-kbyg-styles.css. Keep this stylesheet linked once on the KBYG
+  Pages collection template, not on individual CMS items.
+
+  WEBFLOW CMS BINDINGS (configured in Designer, not represented as fake tokens):
+  - SEO title: {Referenced Institute Name} Know Before You Go — {Audience}
+  - Meta description: KBYG Page > Hero Intro
+  - Open Graph image: Referenced Institute > Thumbnail
+  - The .kbyg-page root in KBYG-Template.html:
+      data-audience       <- KBYG Page > Audience, normalized to lowercase
+      --kbyg-accent       <- Referenced Institute > Accent Color
+      --kbyg-accent-dark  <- Referenced Institute > Accent Dark
+-->
+<meta name="robots" content="noindex,follow" />
+<style>
+  .kbyg-page[data-audience="delegate"] [data-kbyg-audience-branch="sponsor"],
+  .kbyg-page[data-audience="sponsor"] [data-kbyg-audience-branch="delegate"] {
+    display: none !important;
+  }
+</style>
+<script>
+  (function () {
+    var match = String(window.location.pathname || "")
+      .toLowerCase()
+      .match(/-(delegate|sponsor)\/?$/);
+    var audience = match ? match[1] : "delegate";
+
+    function applyAudience() {
+      var root = document.querySelector(".kbyg-page");
+      if (!root) return;
+      root.setAttribute("data-audience", audience);
+      root
+        .querySelectorAll(
+          '[data-kbyg-audience-branch]:not([data-kbyg-audience-branch="' + audience + '"])',
+        )
+        .forEach(function (branch) {
+          branch.remove();
+        });
+    }
+
+    var observer = new MutationObserver(applyAudience);
+    observer.observe(document.documentElement, { childList: true, subtree: true });
+    document.addEventListener("DOMContentLoaded", function () {
+      applyAudience();
+      observer.disconnect();
+    });
+  })();
+</script>
+<link
+  rel="stylesheet"
+  href="https://watsonweb.github.io/IPMI/ipmi-kbyg-styles.css?v=__KBYG_COMMIT_SHA__"
+/>

@@ -1,0 +1,761 @@
+{
+  "source": {
+    "siteId": "62f30d583ebbed2d6d47f9a5",
+    "instituteId": "68b0aff93e4f6363f03f620b",
+    "pagesCollectionId": "6a9a5f7b77769cbf46ce29a1",
+    "blocksCollectionId": "6a9a5f494b89250952dfff08",
+    "operationsLeadId": "6392772fccd80e4fbe026044",
+    "capturedAt": "2026-09-04T06:21:44.947Z",
+    "notes": "Normalized source-controlled snapshot of staged Webflow records. iconKey is the repository-hosted semantic icon contract used when a Webflow image field is not populated."
+  },
+  "institutes": [
+    {
+      "id": "68b0aff93e4f6363f03f620b",
+      "name": "2026 Healthcare HR Management Institute",
+      "titleNoYear": "Healthcare HR Management Institute",
+      "startDate": "2026-09-13T00:00:00.000Z",
+      "endDate": "2026-09-15T00:00:00.000Z",
+      "venue": "The Ritz-Carlton Orlando, Grande Lakes",
+      "address": "4012 Central Florida Parkway, Orlando, FL 32837",
+      "accentColor": "#25948a",
+      "darkColor": "#1f7a72",
+      "mapQuery": "The Ritz-Carlton, Orlando, FL",
+      "agendaUrl": "https://ipmionline.sharepoint.com/:b:/s/IPMIExternal/IQDhY6Ng2S5QQ4ydRO30tLytAd2eoi55aaOvVa0DMGPXDKw",
+      "thumbnail": {
+        "fileId": "6a9a66fceb4c917e35dec429",
+        "url": "https://cdn.prod.website-files.com/6312ee46f4c52faf21ee8ab5/6a9a66fceb4c917e35dec429_6a9a66444b76f8336b80a7b3_kbyg-ritz-carlton-exterior.webp"
+      },
+      "venueGallery": [
+        {
+          "fileId": "6a9a66fceb4c917e35dec429",
+          "url": "https://cdn.prod.website-files.com/6312ee46f4c52faf21ee8ab5/6a9a66fceb4c917e35dec429_6a9a66444b76f8336b80a7b3_kbyg-ritz-carlton-exterior.webp"
+        },
+        {
+          "fileId": "6a9a66fceb4c917e35dec431",
+          "url": "https://cdn.prod.website-files.com/6312ee46f4c52faf21ee8ab5/6a9a66fceb4c917e35dec431_6a9a6644ce252381364dc0c2_kbyg-ritz-carlton-pool.webp"
+        }
+      ],
+      "kbygHotelIntro": "<p>The essentials for your stay at Grande Lakes, from room coverage to local transportation.</p>",
+      "kbygReservationDetails": "<p>Secure your reservation by submitting your hotel needs through the event Hub’s Book Hotel tab by the deadline. Your participation includes two nights; additional nights, if available, are $335 per night plus a $25 nightly resort fee, payable at check-out.</p>",
+      "kbygReservationUrl": "mailto:kbrightling@ipmievents.com",
+      "kbygTransportationDetails": "<p>Guests are responsible for arranging their own transportation to and from the hotel. Visit the event Hub for destination information and local recommendations.</p>"
+    }
+  ],
+  "staff": [
+    {
+      "id": "6392772fccd80e4fbe026044",
+      "fullName": "Katrina Brightling",
+      "jobTitle": "Operations Director",
+      "phone": "647.969.8536",
+      "email": "kbrightling@ipmievents.com",
+      "profilePhoto": {
+        "fileId": "6a2190a1fe9f7474db6cfc18",
+        "url": "https://cdn.prod.website-files.com/6312ee46f4c52faf21ee8ab5/6a2190a1fe9f7474db6cfc18_Katrina%20Brightling%20bnw%20Photo.jpg"
+      }
+    }
+  ],
+  "pages": [
+    {
+      "id": "6a9a6378aaffd3efb5e46336",
+      "name": "HCHR Sep 2026 Delegate",
+      "slug": "hchr-sept-2026-delegate",
+      "institute": "68b0aff93e4f6363f03f620b",
+      "audience": "delegate",
+      "webflowAudienceOptionId": "d60d1331a8222b56c6d46f788019ed98",
+      "operationsLead": "6392772fccd80e4fbe026044",
+      "heroImage": {
+        "fileId": "6a9a6b10fd883fff73e457a1",
+        "url": "https://cdn.prod.website-files.com/6312ee46f4c52faf21ee8ab5/6a9a6b10fd883fff73e457a1_6a9a69f8fd883fff73e394fb_kbyg-hero-attendee-clean.webp"
+      },
+      "heroImageAlt": "Attendee viewing the Know Before You Go event app in a hotel lobby",
+      "hubImage": {
+        "fileId": "6a9a66d199a7e9cbc7082da8",
+        "url": "https://cdn.prod.website-files.com/6312ee46f4c52faf21ee8ab5/6a9a66d199a7e9cbc7082da8_6a9a6644c73b205cf5e0cf83_kbyg-hub-attendee.webp"
+      },
+      "hubImageAlt": "Attendee using a tablet while colleagues meet in a hotel lounge",
+      "preparation": [
+        "6a9a61608591545695d9c51c",
+        "6a9a61ae2837d9128fd77e03",
+        "6a9a61f4a74bfa192a4f8752"
+      ],
+      "keyDates": [
+        "6a9a61f4a74bfa192a4f875a",
+        "6a9a61f4a74bfa192a4f875c",
+        "6a9a61f4a74bfa192a4f875e",
+        "6a9a61f4a74bfa192a4f8760"
+      ],
+      "agendaDays": [
+        "6a9a61f4a74bfa192a4f876a",
+        "6a9a61f4a74bfa192a4f876c",
+        "6a9a61f4a74bfa192a4f876e"
+      ],
+      "experience": [
+        "6a9a6216fe4cda4c0d5d74b7",
+        "6a9a6216fe4cda4c0d5d74b9",
+        "6a9a6216fe4cda4c0d5d74bb"
+      ],
+      "faqs": [
+        "6a9a6216fe4cda4c0d5d74cd",
+        "6a9a6216fe4cda4c0d5d74cf",
+        "6a9a6216fe4cda4c0d5d74d1",
+        "6a9a6216fe4cda4c0d5d74d3",
+        "6a9a6216fe4cda4c0d5d74d5"
+      ],
+      "heroEyebrow": "SEPTEMBER 13-15, 2026",
+      "heroIntro": "Your essential guide to event preparation, travel, timing, and everything you need to arrive confident and ready for the connections ahead.",
+      "heroCtaLabel": "VIEW INSTITUTE GUIDE",
+      "heroCtaUrl": "#welcome",
+      "welcomeEyebrow": "WELCOME",
+      "welcomeTitle": "Welcome, we’re excited to see you soon!",
+      "welcomeIntro": "<p>Everything you need to prepare, travel, and arrive ready is gathered here in one focused guide, making the weeks before the Institute feel clear, organized, and manageable.</p>",
+      "welcomeBody": "<p>Welcome to the 2026 Healthcare HR Management Institute, and thank you for choosing to join us. We are delighted to bring together an exceptional group of senior Healthcare HR leaders and solution providers for three days of meaningful conversations, fresh perspectives, and valuable relationship-building opportunities.</p><p>In the coming weeks, we will guide you through three simple steps to help prepare for a successful program. Your Operations Lead, Katrina Brightling, will be available throughout the process to provide support and ensure you are ready to make the most of your experience.</p>",
+      "preparationEyebrow": "BEFORE YOU ARRIVE",
+      "preparationTitle": "Preparing for your Institute is as easy as 1-2-3.",
+      "preparationIntro": "Complete these actions in the Attendee Hub, then build a schedule around the conversations that matter most to you.",
+      "keyDatesEyebrow": "MARK YOUR CALENDAR",
+      "keyDatesTitle": "Key Dates & Deliverables.",
+      "keyDatesIntro": "Your profile, hotel, and schedule milestones—sequenced from first login through arrival.",
+      "agendaEyebrow": "PLAN YOUR DAILY SCHEDULE",
+      "agendaTitle": "Agenda At-A-Glance.",
+      "agendaIntro": "Times are approximate and subject to change. Please refer to the Event Agenda in the Sponsor Hub for complete program details.",
+      "agendaCtaLabel": "VIEW FULL INSTITUTE AGENDA",
+      "agendaUrl": "https://ipmionline.sharepoint.com/:b:/s/IPMIExternal/IQDhY6Ng2S5QQ4ydRO30tLytAd2eoi55aaOvVa0DMGPXDKw",
+      "hubEyebrow": "YOUR DIGITAL HOME BASE",
+      "hubTitle": "Attendee Hub.",
+      "hubBody": "<p>The Attendee Hub is your central resource for all event-related information. Through the Hub, you can review key dates and deliverables, submit your Attendee Profile questionnaire and hotel requirements, build your personalized itinerary, and access important event information and resources.</p><p>Attendee Hub login credentials are provided by your Operations Lead in their welcome email, which is typically sent 8–10 weeks before the event start date.</p>",
+      "hubCtaLabel": "OPEN ATTENDEE HUB",
+      "hubUrl": "mailto:kbrightling@ipmievents.com",
+      "hotelEyebrow": "ARRIVE WITH CONFIDENCE",
+      "hotelTitle": "Hotel & Travel.",
+      "reservationUrl": "mailto:kbrightling@ipmievents.com",
+      "experienceEyebrow": "DESIGNED AROUND CONNECTION",
+      "experienceTitle": "Your Institute Experience.",
+      "experienceIntro": "A purposeful mix of insight, one-to-one conversation, and peer collaboration.",
+      "contactEyebrow": "YOUR OPERATIONS LEAD",
+      "contactTitle": "Questions Before You Go? We’re Here to Help.",
+      "contactIntro": "Reach out for help with your Attendee Hub, hotel details, profile, or personal schedule."
+    },
+    {
+      "id": "6a9a6378aaffd3efb5e46338",
+      "name": "HCHR Sep 2026 Sponsor",
+      "slug": "hchr-sept-2026-sponsor",
+      "institute": "68b0aff93e4f6363f03f620b",
+      "audience": "sponsor",
+      "webflowAudienceOptionId": "8a5fbf19e97e4b162365f4a00b1cf520",
+      "operationsLead": "6392772fccd80e4fbe026044",
+      "heroImage": {
+        "fileId": "6a9a6b10fd883fff73e457a1",
+        "url": "https://cdn.prod.website-files.com/6312ee46f4c52faf21ee8ab5/6a9a6b10fd883fff73e457a1_6a9a69f8fd883fff73e394fb_kbyg-hero-attendee-clean.webp"
+      },
+      "heroImageAlt": "Attendee viewing the Know Before You Go event app in a hotel lobby",
+      "hubImage": {
+        "fileId": "6a9a66d199a7e9cbc7082da8",
+        "url": "https://cdn.prod.website-files.com/6312ee46f4c52faf21ee8ab5/6a9a66d199a7e9cbc7082da8_6a9a6644c73b205cf5e0cf83_kbyg-hub-attendee.webp"
+      },
+      "hubImageAlt": "Attendee using a tablet while colleagues meet in a hotel lounge",
+      "preparation": [
+        "6a9a61f4a74bfa192a4f8754",
+        "6a9a61f4a74bfa192a4f8756",
+        "6a9a61f4a74bfa192a4f8758"
+      ],
+      "keyDates": [
+        "6a9a61f4a74bfa192a4f8762",
+        "6a9a61f4a74bfa192a4f8764",
+        "6a9a61f4a74bfa192a4f8766",
+        "6a9a61f4a74bfa192a4f8768"
+      ],
+      "agendaDays": [
+        "6a9a61f4a74bfa192a4f876a",
+        "6a9a61f4a74bfa192a4f876c",
+        "6a9a61f4a74bfa192a4f876e"
+      ],
+      "experience": [
+        "6a9a6216fe4cda4c0d5d74bd",
+        "6a9a6216fe4cda4c0d5d74bf",
+        "6a9a6216fe4cda4c0d5d74c1",
+        "6a9a6216fe4cda4c0d5d74c3",
+        "6a9a6216fe4cda4c0d5d74c5",
+        "6a9a6216fe4cda4c0d5d74c7",
+        "6a9a6216fe4cda4c0d5d74c9",
+        "6a9a6216fe4cda4c0d5d74cb"
+      ],
+      "faqs": [],
+      "heroEyebrow": "SEPTEMBER 13-15, 2026",
+      "heroIntro": "Your essential guide to key deliverables, team preparation, business meetings, travel, and everything you need for a smooth, successful onsite experience.",
+      "heroCtaLabel": "VIEW INSTITUTE GUIDE",
+      "heroCtaUrl": "#welcome",
+      "welcomeEyebrow": "WELCOME",
+      "welcomeTitle": "Welcome, we’re excited to see you soon!",
+      "welcomeIntro": "<p>Everything you need to prepare, travel, and arrive ready is gathered here in one focused guide, making the weeks before the Institute feel clear, organized, and manageable.</p>",
+      "welcomeBody": "<p>Welcome to the 2026 Healthcare HR Management Institute—an exclusive opportunity to connect with senior Healthcare HR executives, gain valuable industry insights, and build meaningful business relationships.</p><p>To help you maximize your experience and ensure a successful event, there are a few important pre-event steps to complete in the weeks ahead. This guide outlines everything you need to know, including key deadlines, deliverables, and event details.</p><p>Your Operations Lead, Katrina Brightling, will be available throughout the planning process to answer questions, provide support, and ensure you are fully prepared for a productive and successful event experience.</p>",
+      "preparationEyebrow": "BEFORE YOU ARRIVE",
+      "preparationTitle": "Preparing for your Institute is as easy as 1-2-3.",
+      "preparationIntro": "Complete these Sponsor Hub deliverables so your onsite team and meeting strategy are ready well before arrival.",
+      "keyDatesEyebrow": "MARK YOUR CALENDAR",
+      "keyDatesTitle": "Key Dates & Deliverables.",
+      "keyDatesIntro": "Company, attendee, and business-meeting milestones—sequenced from profiling through arrival.",
+      "agendaEyebrow": "PLAN YOUR DAILY SCHEDULE",
+      "agendaTitle": "Agenda At-A-Glance.",
+      "agendaIntro": "Times are approximate and subject to change. Please refer to the Event Agenda in the Sponsor Hub for complete program details.",
+      "agendaCtaLabel": "VIEW FULL INSTITUTE AGENDA",
+      "agendaUrl": "https://ipmionline.sharepoint.com/:b:/s/IPMIExternal/IQDhY6Ng2S5QQ4ydRO30tLytAd2eoi55aaOvVa0DMGPXDKw",
+      "hubEyebrow": "YOUR DIGITAL HOME BASE",
+      "hubTitle": "Sponsor Hub.",
+      "hubBody": "<p>The Sponsor Hub is the central resource for managing your organization’s participation in the event. Through the Hub, you can submit a custom Delegate Profiling Question, update your company information, register your onsite attendees, complete the business meeting selection process, review key dates and deliverables, and access important event information and resources.</p><p>Sponsor Hub login credentials are provided by your Operations Lead in their welcome email, which is typically sent 8–10 weeks prior to the event start date.</p>",
+      "hubCtaLabel": "OPEN SPONSOR HUB",
+      "hubUrl": "mailto:kbrightling@ipmievents.com",
+      "hotelEyebrow": "ARRIVE WITH CONFIDENCE",
+      "hotelTitle": "Hotel & Travel.",
+      "reservationUrl": "mailto:kbrightling@ipmievents.com",
+      "experienceEyebrow": "MAKE EVERY CONVERSATION COUNT",
+      "experienceTitle": "Business Meetings & Onsite Experience.",
+      "experienceIntro": "Business meetings are pre-scheduled based on the priorities and preferences submitted by both Service Providers and attending executives.",
+      "supportEyebrow": "NEED AN ANSWER?",
+      "supportTitle": "Sponsor Support Lives in the Hub.",
+      "supportBody": "<p>Visit the Sponsor Hub for a comprehensive FAQ section covering a wide range of topics, including pre-event deliverables, hotel reservations, business meetings, shipping instructions, onsite logistics, and post-event follow-up details.</p>",
+      "supportUrl": "mailto:kbrightling@ipmievents.com",
+      "supportCtaLabel": "VISIT THE SPONSOR HUB",
+      "contactEyebrow": "YOUR OPERATIONS LEAD",
+      "contactTitle": "Questions Before You Go? We’re Here to Help.",
+      "contactIntro": "Reach out for help with the Sponsor Hub, attendee registrations, deliverables, hotel details, or meeting selections."
+    }
+  ],
+  "blocks": [
+    {
+      "id": "6a9a61608591545695d9c51c",
+      "name": "HCHR Sep 2026 Delegate Preparation 1",
+      "slug": "hchr-sep-2026-delegate-preparation-1",
+      "institute": "68b0aff93e4f6363f03f620b",
+      "audienceScope": "delegate",
+      "blockType": "preparation",
+      "eyebrow": "1.",
+      "title": "Submit Your Travel Details",
+      "body": "<p>Please submit your Travel Details through the “Book Hotel” tab of your Attendee Hub to make your hotel reservation for the event.</p>",
+      "icon": {
+        "fileId": "6a9a669eabe05fbcafe084da",
+        "url": "https://cdn.prod.website-files.com/6312ee46f4c52faf21ee8ab5/6a9a669eabe05fbcafe084da_6a9a65cdc73b205cf5e09d2b_kbyg-airplane.svg",
+        "alt": ""
+      }
+    },
+    {
+      "id": "6a9a61ae2837d9128fd77e03",
+      "name": "HCHR Sep 2026 Delegate Preparation 2",
+      "slug": "hchr-sep-2026-delegate-preparation-2",
+      "institute": "68b0aff93e4f6363f03f620b",
+      "audienceScope": "delegate",
+      "blockType": "preparation",
+      "eyebrow": "2.",
+      "title": "Create Your Attendee Profile",
+      "body": "<p>Prior to the event, please complete the brief questionnaire addressing your specific operational goals and strategic objectives for the program.</p>",
+      "icon": {
+        "fileId": "6a9a66b8e288eba707c1f1ca",
+        "url": "https://cdn.prod.website-files.com/6312ee46f4c52faf21ee8ab5/6a9a66b8e288eba707c1f1ca_6a9a6642fd883fff73e1a664_kbyg-profile.svg",
+        "alt": ""
+      }
+    },
+    {
+      "id": "6a9a61f4a74bfa192a4f8752",
+      "name": "HCHR Sep 2026 Delegate Preparation 3",
+      "slug": "hchr-sep-2026-delegate-preparation-3",
+      "institute": "68b0aff93e4f6363f03f620b",
+      "audienceScope": "delegate",
+      "blockType": "preparation",
+      "eyebrow": "3.",
+      "title": "Create Your Itinerary",
+      "body": "<p>Customize your event agenda by selecting your conference sessions, Think Tanks, and business meeting preferences for the Institute.</p>",
+      "icon": {
+        "fileId": "6a9a66b9e288eba707c1f1ee",
+        "url": "https://cdn.prod.website-files.com/6312ee46f4c52faf21ee8ab5/6a9a66b9e288eba707c1f1ee_6a9a663b452b111de655235c_kbyg-calendar-check.svg",
+        "alt": ""
+      }
+    },
+    {
+      "id": "6a9a61f4a74bfa192a4f8754",
+      "name": "HCHR Sep 2026 Sponsor Preparation 1",
+      "slug": "hchr-sep-2026-sponsor-preparation-1",
+      "institute": "68b0aff93e4f6363f03f620b",
+      "audienceScope": "sponsor",
+      "blockType": "preparation",
+      "eyebrow": "1.",
+      "title": "Submit Your Delegate Profiling Question, Company Details & Logo",
+      "body": "<p>Submit your company profile information and one Delegate Profiling Question for inclusion in the delegate profile questionnaire. These details help attendees better understand your organization, products, and services, while the questionnaire responses provide valuable insights into delegate priorities and challenges to support more informed and productive business meeting selections.</p>",
+      "icon": {
+        "fileId": "6a9a66b8e288eba707c1f1bc",
+        "url": "https://cdn.prod.website-files.com/6312ee46f4c52faf21ee8ab5/6a9a66b8e288eba707c1f1bc_6a9a663baaffd3efb5e5e069_kbyg-building.svg",
+        "alt": ""
+      }
+    },
+    {
+      "id": "6a9a61f4a74bfa192a4f8756",
+      "name": "HCHR Sep 2026 Sponsor Preparation 2",
+      "slug": "hchr-sep-2026-sponsor-preparation-2",
+      "institute": "68b0aff93e4f6363f03f620b",
+      "audienceScope": "sponsor",
+      "blockType": "preparation",
+      "eyebrow": "2.",
+      "title": "Register Onsite Attendees & Submit Hotel Needs",
+      "body": "<p>Please identify all individuals from your organization, including presenters, who will be attending the event, and submit their information via the Register Onsite Attendees section of the Sponsor Hub. Your Operations Lead will add them to the event roster and coordinate their hotel accommodations.</p>",
+      "icon": {
+        "fileId": "6a9a66b9e288eba707c1f1de",
+        "url": "https://cdn.prod.website-files.com/6312ee46f4c52faf21ee8ab5/6a9a66b9e288eba707c1f1de_6a9a664059caf5a850137080_kbyg-people.svg",
+        "alt": ""
+      }
+    },
+    {
+      "id": "6a9a61f4a74bfa192a4f8758",
+      "name": "HCHR Sep 2026 Sponsor Preparation 3",
+      "slug": "hchr-sep-2026-sponsor-preparation-3",
+      "institute": "68b0aff93e4f6363f03f620b",
+      "audienceScope": "sponsor",
+      "blockType": "preparation",
+      "eyebrow": "3.",
+      "title": "One-on-One Meeting Selections",
+      "body": "<p>Review the Delegate Profile Summaries and identify your top preferences for your pre-scheduled one-on-one business meetings.</p>",
+      "icon": {
+        "fileId": "6a9a66b8e288eba707c1f1cd",
+        "url": "https://cdn.prod.website-files.com/6312ee46f4c52faf21ee8ab5/6a9a66b8e288eba707c1f1cd_6a9a663faaffd3efb5e5e562_kbyg-handshake.svg",
+        "alt": ""
+      }
+    },
+    {
+      "id": "6a9a61f4a74bfa192a4f875a",
+      "name": "HCHR Sep 2026 Delegate Date 1",
+      "slug": "hchr-sep-2026-delegate-date-1",
+      "institute": "68b0aff93e4f6363f03f620b",
+      "audienceScope": "delegate",
+      "blockType": "key-date",
+      "eyebrow": "Wednesday, July 29, 2026",
+      "title": "Attendee Profile Opens",
+      "calendarStart": "2026-07-29T00:00:00.000Z",
+      "calendarEnd": "2026-07-29T00:00:00.000Z",
+      "allDay": true,
+      "icon": {
+        "fileId": "6a9a66b9e288eba707c1f1ff",
+        "url": "https://cdn.prod.website-files.com/6312ee46f4c52faf21ee8ab5/6a9a66b9e288eba707c1f1ff_6a9a663cce252381364dbcda_kbyg-calendar-plus.svg",
+        "alt": ""
+      }
+    },
+    {
+      "id": "6a9a61f4a74bfa192a4f875c",
+      "name": "HCHR Sep 2026 Delegate Date 2",
+      "slug": "hchr-sep-2026-delegate-date-2",
+      "institute": "68b0aff93e4f6363f03f620b",
+      "audienceScope": "delegate",
+      "blockType": "key-date",
+      "eyebrow": "Wednesday, August 19, 2026",
+      "title": "Deadline to Submit Travel Details",
+      "calendarStart": "2026-08-19T00:00:00.000Z",
+      "calendarEnd": "2026-08-19T00:00:00.000Z",
+      "allDay": true,
+      "icon": {
+        "fileId": "6a9a669eabe05fbcafe084da",
+        "url": "https://cdn.prod.website-files.com/6312ee46f4c52faf21ee8ab5/6a9a669eabe05fbcafe084da_6a9a65cdc73b205cf5e09d2b_kbyg-airplane.svg",
+        "alt": ""
+      }
+    },
+    {
+      "id": "6a9a61f4a74bfa192a4f875e",
+      "name": "HCHR Sep 2026 Delegate Date 3",
+      "slug": "hchr-sep-2026-delegate-date-3",
+      "institute": "68b0aff93e4f6363f03f620b",
+      "audienceScope": "delegate",
+      "blockType": "key-date",
+      "eyebrow": "Wednesday, August 19, 2026",
+      "title": "Deadline to Complete Your Attendee Profile",
+      "calendarStart": "2026-08-19T00:00:00.000Z",
+      "calendarEnd": "2026-08-19T00:00:00.000Z",
+      "allDay": true,
+      "icon": {
+        "fileId": "6a9a66b8e288eba707c1f1ca",
+        "url": "https://cdn.prod.website-files.com/6312ee46f4c52faf21ee8ab5/6a9a66b8e288eba707c1f1ca_6a9a6642fd883fff73e1a664_kbyg-profile.svg",
+        "alt": ""
+      }
+    },
+    {
+      "id": "6a9a61f4a74bfa192a4f8760",
+      "name": "HCHR Sep 2026 Delegate Date 4",
+      "slug": "hchr-sep-2026-delegate-date-4",
+      "institute": "68b0aff93e4f6363f03f620b",
+      "audienceScope": "delegate",
+      "blockType": "key-date",
+      "eyebrow": "Monday, August 24, 2026",
+      "title": "Begin Building Your Personal Schedule",
+      "calendarStart": "2026-08-24T00:00:00.000Z",
+      "calendarEnd": "2026-08-24T00:00:00.000Z",
+      "allDay": true,
+      "icon": {
+        "fileId": "6a9a66b9e288eba707c1f1ee",
+        "url": "https://cdn.prod.website-files.com/6312ee46f4c52faf21ee8ab5/6a9a66b9e288eba707c1f1ee_6a9a663b452b111de655235c_kbyg-calendar-check.svg",
+        "alt": ""
+      }
+    },
+    {
+      "id": "6a9a61f4a74bfa192a4f8762",
+      "name": "HCHR Sep 2026 Sponsor Date 1",
+      "slug": "hchr-sep-2026-sponsor-date-1",
+      "institute": "68b0aff93e4f6363f03f620b",
+      "audienceScope": "sponsor",
+      "blockType": "key-date",
+      "eyebrow": "Wednesday, July 22, 2026",
+      "title": "Deadline to Submit Delegate Profiling Question",
+      "calendarStart": "2026-07-22T00:00:00.000Z",
+      "calendarEnd": "2026-07-22T00:00:00.000Z",
+      "allDay": true,
+      "icon": {
+        "fileId": "6a9a66b7e288eba707c1f185",
+        "url": "https://cdn.prod.website-files.com/6312ee46f4c52faf21ee8ab5/6a9a66b7e288eba707c1f185_6a9a66432837d9128fd98cc3_kbyg-question.svg",
+        "alt": ""
+      }
+    },
+    {
+      "id": "6a9a61f4a74bfa192a4f8764",
+      "name": "HCHR Sep 2026 Sponsor Date 2",
+      "slug": "hchr-sep-2026-sponsor-date-2",
+      "institute": "68b0aff93e4f6363f03f620b",
+      "audienceScope": "sponsor",
+      "blockType": "key-date",
+      "eyebrow": "Friday, August 14, 2026",
+      "title": "Deadline to Register Attendees and Submit Travel Details",
+      "calendarStart": "2026-08-14T00:00:00.000Z",
+      "calendarEnd": "2026-08-14T00:00:00.000Z",
+      "allDay": true,
+      "icon": {
+        "fileId": "6a9a66b9e288eba707c1f1de",
+        "url": "https://cdn.prod.website-files.com/6312ee46f4c52faf21ee8ab5/6a9a66b9e288eba707c1f1de_6a9a664059caf5a850137080_kbyg-people.svg",
+        "alt": ""
+      }
+    },
+    {
+      "id": "6a9a61f4a74bfa192a4f8766",
+      "name": "HCHR Sep 2026 Sponsor Date 3",
+      "slug": "hchr-sep-2026-sponsor-date-3",
+      "institute": "68b0aff93e4f6363f03f620b",
+      "audienceScope": "sponsor",
+      "blockType": "key-date",
+      "eyebrow": "Friday, August 14, 2026",
+      "title": "Deadline to Submit Company Details & Logo",
+      "calendarStart": "2026-08-14T00:00:00.000Z",
+      "calendarEnd": "2026-08-14T00:00:00.000Z",
+      "allDay": true,
+      "icon": {
+        "fileId": "6a9a66b8e288eba707c1f1bc",
+        "url": "https://cdn.prod.website-files.com/6312ee46f4c52faf21ee8ab5/6a9a66b8e288eba707c1f1bc_6a9a663baaffd3efb5e5e069_kbyg-building.svg",
+        "alt": ""
+      }
+    },
+    {
+      "id": "6a9a61f4a74bfa192a4f8768",
+      "name": "HCHR Sep 2026 Sponsor Date 4",
+      "slug": "hchr-sep-2026-sponsor-date-4",
+      "institute": "68b0aff93e4f6363f03f620b",
+      "audienceScope": "sponsor",
+      "blockType": "key-date",
+      "eyebrow": "Wednesday, August 26, 2026",
+      "title": "Begin Submitting Your Business Meeting Preferences",
+      "calendarStart": "2026-08-26T00:00:00.000Z",
+      "calendarEnd": "2026-08-26T00:00:00.000Z",
+      "allDay": true,
+      "icon": {
+        "fileId": "6a9a66b8e288eba707c1f1cd",
+        "url": "https://cdn.prod.website-files.com/6312ee46f4c52faf21ee8ab5/6a9a66b8e288eba707c1f1cd_6a9a663faaffd3efb5e5e562_kbyg-handshake.svg",
+        "alt": ""
+      }
+    },
+    {
+      "id": "6a9a61f4a74bfa192a4f876a",
+      "name": "HCHR Sep 2026 Agenda Day 1",
+      "slug": "hchr-sep-2026-agenda-day-1",
+      "institute": "68b0aff93e4f6363f03f620b",
+      "audienceScope": "shared",
+      "blockType": "agenda-day",
+      "eyebrow": "Sunday",
+      "title": "DAY 1 - SUNDAY",
+      "body": "<p><strong>12:00 PM - 1:00 PM</strong> — Registration &amp; Welcome</p><p><strong>1:00 PM - 6:30 PM</strong> — Conference Sessions, Think Tanks &amp; Business Meetings</p><p><strong>6:30 PM - 8:00 PM</strong> — Welcome Reception &amp; Dinner</p>",
+      "icon": {
+        "fileId": "6a9a66b7e288eba707c1f1aa",
+        "url": "https://cdn.prod.website-files.com/6312ee46f4c52faf21ee8ab5/6a9a66b7e288eba707c1f1aa_6a9a663c452b111de6552397_kbyg-calendar-clock.svg",
+        "alt": ""
+      }
+    },
+    {
+      "id": "6a9a61f4a74bfa192a4f876c",
+      "name": "HCHR Sep 2026 Agenda Day 2",
+      "slug": "hchr-sep-2026-agenda-day-2",
+      "institute": "68b0aff93e4f6363f03f620b",
+      "audienceScope": "shared",
+      "blockType": "agenda-day",
+      "eyebrow": "Monday",
+      "title": "DAY 2 - MONDAY",
+      "body": "<p><strong>7:30 AM - 8:30 AM</strong> — Breakfast</p><p><strong>8:30 AM - 6:30 PM</strong> — Event Programming, Breakouts &amp; Business Meetings</p><p><strong>12:00 PM - 1:00 PM</strong> — Networking Lunch</p><p><strong>6:30 PM - 8:00 PM</strong> — Dinner &amp; Evening Entertainment</p>",
+      "icon": {
+        "fileId": "6a9a66b7e288eba707c1f1aa",
+        "url": "https://cdn.prod.website-files.com/6312ee46f4c52faf21ee8ab5/6a9a66b7e288eba707c1f1aa_6a9a663c452b111de6552397_kbyg-calendar-clock.svg",
+        "alt": ""
+      }
+    },
+    {
+      "id": "6a9a61f4a74bfa192a4f876e",
+      "name": "HCHR Sep 2026 Agenda Day 3",
+      "slug": "hchr-sep-2026-agenda-day-3",
+      "institute": "68b0aff93e4f6363f03f620b",
+      "audienceScope": "shared",
+      "blockType": "agenda-day",
+      "eyebrow": "Tuesday",
+      "title": "DAY 3 - TUESDAY",
+      "body": "<p><strong>7:30 AM - 8:30 AM</strong> — Breakfast</p><p><strong>8:30 AM - 12:00 PM</strong> — Conference Sessions, Think Tanks &amp; Business Meetings</p><p><strong>12:00 PM</strong> — Closing Remarks &amp; Event Conclusion</p>",
+      "icon": {
+        "fileId": "6a9a66b7e288eba707c1f1aa",
+        "url": "https://cdn.prod.website-files.com/6312ee46f4c52faf21ee8ab5/6a9a66b7e288eba707c1f1aa_6a9a663c452b111de6552397_kbyg-calendar-clock.svg",
+        "alt": ""
+      }
+    },
+    {
+      "id": "6a9a6216fe4cda4c0d5d74b7",
+      "name": "HCHR Sep 2026 Delegate Experience 1",
+      "slug": "hchr-sep-2026-delegate-experience-1",
+      "institute": "68b0aff93e4f6363f03f620b",
+      "audienceScope": "delegate",
+      "blockType": "experience",
+      "title": "Thought Leadership Sessions",
+      "body": "<p>Gain valuable insights from industry leaders through panel discussions and case studies focused on the most pressing issues facing healthcare HR executives.</p>",
+      "icon": {
+        "fileId": "6a9a66b7e288eba707c1f1a1",
+        "url": "https://cdn.prod.website-files.com/6312ee46f4c52faf21ee8ab5/6a9a66b7e288eba707c1f1a1_6a9a6641ec11449c643c5bfe_kbyg-podium.svg",
+        "alt": ""
+      }
+    },
+    {
+      "id": "6a9a6216fe4cda4c0d5d74b9",
+      "name": "HCHR Sep 2026 Delegate Experience 2",
+      "slug": "hchr-sep-2026-delegate-experience-2",
+      "institute": "68b0aff93e4f6363f03f620b",
+      "audienceScope": "delegate",
+      "blockType": "experience",
+      "title": "Business Meetings",
+      "body": "<p>Connect one-on-one with leading Service Providers in curated 30-minute meetings tailored to your interests, priorities, and business objectives.</p>",
+      "icon": {
+        "fileId": "6a9a66b8e288eba707c1f1cd",
+        "url": "https://cdn.prod.website-files.com/6312ee46f4c52faf21ee8ab5/6a9a66b8e288eba707c1f1cd_6a9a663faaffd3efb5e5e562_kbyg-handshake.svg",
+        "alt": ""
+      }
+    },
+    {
+      "id": "6a9a6216fe4cda4c0d5d74bb",
+      "name": "HCHR Sep 2026 Delegate Experience 3",
+      "slug": "hchr-sep-2026-delegate-experience-3",
+      "institute": "68b0aff93e4f6363f03f620b",
+      "audienceScope": "delegate",
+      "blockType": "experience",
+      "title": "Interactive Think Tank Sessions",
+      "body": "<p>Collaborate with peers in small-group discussions designed to tackle shared challenges, exchange ideas, and develop actionable strategies in a highly engaging, solution-focused environment.</p>",
+      "icon": {
+        "fileId": "6a9a66b9e288eba707c1f1db",
+        "url": "https://cdn.prod.website-files.com/6312ee46f4c52faf21ee8ab5/6a9a66b9e288eba707c1f1db_6a9a663efd883fff73e1a469_kbyg-group.svg",
+        "alt": ""
+      }
+    },
+    {
+      "id": "6a9a6216fe4cda4c0d5d74bd",
+      "name": "HCHR Sep 2026 Sponsor Meeting Method 1",
+      "slug": "hchr-sep-2026-sponsor-meeting-method-1",
+      "institute": "68b0aff93e4f6363f03f620b",
+      "audienceScope": "sponsor",
+      "blockType": "experience",
+      "eyebrow": "1.",
+      "title": "Mutual Requests",
+      "body": "<p>Both parties have selected one another.</p>",
+      "icon": {
+        "fileId": "6a9a66b8e288eba707c1f1cd",
+        "url": "https://cdn.prod.website-files.com/6312ee46f4c52faf21ee8ab5/6a9a66b8e288eba707c1f1cd_6a9a663faaffd3efb5e5e562_kbyg-handshake.svg",
+        "alt": ""
+      }
+    },
+    {
+      "id": "6a9a6216fe4cda4c0d5d74bf",
+      "name": "HCHR Sep 2026 Sponsor Meeting Method 2",
+      "slug": "hchr-sep-2026-sponsor-meeting-method-2",
+      "institute": "68b0aff93e4f6363f03f620b",
+      "audienceScope": "sponsor",
+      "blockType": "experience",
+      "eyebrow": "2.",
+      "title": "Delegate Requests",
+      "body": "<p>The executive has requested your organization.</p>",
+      "icon": {
+        "fileId": "6a9a66b8e288eba707c1f1ca",
+        "url": "https://cdn.prod.website-files.com/6312ee46f4c52faf21ee8ab5/6a9a66b8e288eba707c1f1ca_6a9a6642fd883fff73e1a664_kbyg-profile.svg",
+        "alt": ""
+      }
+    },
+    {
+      "id": "6a9a6216fe4cda4c0d5d74c1",
+      "name": "HCHR Sep 2026 Sponsor Meeting Method 3",
+      "slug": "hchr-sep-2026-sponsor-meeting-method-3",
+      "institute": "68b0aff93e4f6363f03f620b",
+      "audienceScope": "sponsor",
+      "blockType": "experience",
+      "eyebrow": "3.",
+      "title": "Service Provider Requests",
+      "body": "<p>Your organization has requested the executive.</p>",
+      "icon": {
+        "fileId": "6a9a66b8e288eba707c1f1bc",
+        "url": "https://cdn.prod.website-files.com/6312ee46f4c52faf21ee8ab5/6a9a66b8e288eba707c1f1bc_6a9a663baaffd3efb5e5e069_kbyg-building.svg",
+        "alt": ""
+      }
+    },
+    {
+      "id": "6a9a6216fe4cda4c0d5d74c3",
+      "name": "HCHR Sep 2026 Sponsor Experience 1",
+      "slug": "hchr-sep-2026-sponsor-experience-1",
+      "institute": "68b0aff93e4f6363f03f620b",
+      "audienceScope": "sponsor",
+      "blockType": "experience",
+      "title": "Opt-Outs",
+      "body": "<p>A confidential Opt-Out feature is available during the selection process, allowing you to exclude specific organizations from your schedule and keep your meetings focused on the conversations most relevant to your business objectives.</p>",
+      "icon": {
+        "fileId": "6a9a66b7e288eba707c1f1a7",
+        "url": "https://cdn.prod.website-files.com/6312ee46f4c52faf21ee8ab5/6a9a66b7e288eba707c1f1a7_6a9a6642e375a810fc4cdef1_kbyg-prohibited.svg",
+        "alt": ""
+      }
+    },
+    {
+      "id": "6a9a6216fe4cda4c0d5d74c5",
+      "name": "HCHR Sep 2026 Sponsor Experience 2",
+      "slug": "hchr-sep-2026-sponsor-experience-2",
+      "institute": "68b0aff93e4f6363f03f620b",
+      "audienceScope": "sponsor",
+      "blockType": "experience",
+      "title": "Meeting Schedule",
+      "body": "<p>Your personalized business meeting schedule will be released on the Tuesday prior to the event, providing ample time to review your itinerary, research attendees, and prepare for productive onsite discussions.</p>",
+      "icon": {
+        "fileId": "6a9a66b7e288eba707c1f1aa",
+        "url": "https://cdn.prod.website-files.com/6312ee46f4c52faf21ee8ab5/6a9a66b7e288eba707c1f1aa_6a9a663c452b111de6552397_kbyg-calendar-clock.svg",
+        "alt": ""
+      }
+    },
+    {
+      "id": "6a9a6216fe4cda4c0d5d74c7",
+      "name": "HCHR Sep 2026 Sponsor Experience 3",
+      "slug": "hchr-sep-2026-sponsor-experience-3",
+      "institute": "68b0aff93e4f6363f03f620b",
+      "audienceScope": "sponsor",
+      "blockType": "experience",
+      "title": "Meeting Space",
+      "body": "<p>Our team will take care of all meeting space setup on your behalf, including signage, tables, chairs, power, lighting, and Wi-Fi. For photos and additional details about the meeting environment, please visit the FAQ section of the Sponsor Hub.</p>",
+      "icon": {
+        "fileId": "6a9a66b7e288eba707c1f1a4",
+        "url": "https://cdn.prod.website-files.com/6312ee46f4c52faf21ee8ab5/6a9a66b7e288eba707c1f1a4_6a9a663d452b111de6552407_kbyg-chair.svg",
+        "alt": ""
+      }
+    },
+    {
+      "id": "6a9a6216fe4cda4c0d5d74c9",
+      "name": "HCHR Sep 2026 Sponsor Experience 4",
+      "slug": "hchr-sep-2026-sponsor-experience-4",
+      "institute": "68b0aff93e4f6363f03f620b",
+      "audienceScope": "sponsor",
+      "blockType": "experience",
+      "title": "Thought Leadership Sessions",
+      "body": "<p>Sponsors are invited to attend the Thought Leadership Sessions and gain valuable insights from industry leaders through panel discussions and case studies focused on the most pressing issues facing healthcare HR executives. Visit the Sponsor Hub to view the agenda and session details.</p>",
+      "icon": {
+        "fileId": "6a9a66b7e288eba707c1f1a1",
+        "url": "https://cdn.prod.website-files.com/6312ee46f4c52faf21ee8ab5/6a9a66b7e288eba707c1f1a1_6a9a6641ec11449c643c5bfe_kbyg-podium.svg",
+        "alt": ""
+      }
+    },
+    {
+      "id": "6a9a6216fe4cda4c0d5d74cb",
+      "name": "HCHR Sep 2026 Sponsor Experience 5",
+      "slug": "hchr-sep-2026-sponsor-experience-5",
+      "institute": "68b0aff93e4f6363f03f620b",
+      "audienceScope": "sponsor",
+      "blockType": "experience",
+      "title": "Networking Opportunities",
+      "body": "<p>Enjoy enhanced networking opportunities including daily interactive group meals, engaging icebreaker activities, and refreshing coffee breaks, all thoughtfully designed to facilitate meaningful connections within the group.</p>",
+      "icon": {
+        "fileId": "6a9a66b7e288eba707c1f188",
+        "url": "https://cdn.prod.website-files.com/6312ee46f4c52faf21ee8ab5/6a9a66b7e288eba707c1f188_6a9a663dfd883fff73e1a399_kbyg-glasses.svg",
+        "alt": ""
+      }
+    },
+    {
+      "id": "6a9a6216fe4cda4c0d5d74cd",
+      "name": "HCHR Sep 2026 Delegate FAQ 1",
+      "slug": "hchr-sep-2026-delegate-faq-1",
+      "institute": "68b0aff93e4f6363f03f620b",
+      "audienceScope": "delegate",
+      "blockType": "faq",
+      "title": "When will I receive my hotel confirmation?",
+      "body": "<p>Hotel confirmation numbers will be provided by your Operations Lead approximately 10 days prior to the event.</p>",
+      "initiallyExpanded": true,
+      "icon": {
+        "fileId": "6a9a66b7e288eba707c1f185",
+        "url": "https://cdn.prod.website-files.com/6312ee46f4c52faf21ee8ab5/6a9a66b7e288eba707c1f185_6a9a66432837d9128fd98cc3_kbyg-question.svg",
+        "alt": ""
+      }
+    },
+    {
+      "id": "6a9a6216fe4cda4c0d5d74cf",
+      "name": "HCHR Sep 2026 Delegate FAQ 2",
+      "slug": "hchr-sep-2026-delegate-faq-2",
+      "institute": "68b0aff93e4f6363f03f620b",
+      "audienceScope": "delegate",
+      "blockType": "faq",
+      "title": "What is the dress code?",
+      "body": "<p>Please contact your Operations Lead for current event dress-code guidance.</p>",
+      "initiallyExpanded": false,
+      "icon": {
+        "fileId": "6a9a66b7e288eba707c1f185",
+        "url": "https://cdn.prod.website-files.com/6312ee46f4c52faf21ee8ab5/6a9a66b7e288eba707c1f185_6a9a66432837d9128fd98cc3_kbyg-question.svg",
+        "alt": ""
+      }
+    },
+    {
+      "id": "6a9a6216fe4cda4c0d5d74d1",
+      "name": "HCHR Sep 2026 Delegate FAQ 3",
+      "slug": "hchr-sep-2026-delegate-faq-3",
+      "institute": "68b0aff93e4f6363f03f620b",
+      "audienceScope": "delegate",
+      "blockType": "faq",
+      "title": "Are guests permitted to attend the meal functions?",
+      "body": "<p>Please contact your Operations Lead before making guest plans for meal functions.</p>",
+      "initiallyExpanded": false,
+      "icon": {
+        "fileId": "6a9a66b7e288eba707c1f185",
+        "url": "https://cdn.prod.website-files.com/6312ee46f4c52faf21ee8ab5/6a9a66b7e288eba707c1f185_6a9a66432837d9128fd98cc3_kbyg-question.svg",
+        "alt": ""
+      }
+    },
+    {
+      "id": "6a9a6216fe4cda4c0d5d74d3",
+      "name": "HCHR Sep 2026 Delegate FAQ 4",
+      "slug": "hchr-sep-2026-delegate-faq-4",
+      "institute": "68b0aff93e4f6363f03f620b",
+      "audienceScope": "delegate",
+      "blockType": "faq",
+      "title": "Am I required to participate in the Business Meetings?",
+      "body": "<p>Please contact your Operations Lead with any questions about your scheduled Business Meetings.</p>",
+      "initiallyExpanded": false,
+      "icon": {
+        "fileId": "6a9a66b7e288eba707c1f185",
+        "url": "https://cdn.prod.website-files.com/6312ee46f4c52faf21ee8ab5/6a9a66b7e288eba707c1f185_6a9a66432837d9128fd98cc3_kbyg-question.svg",
+        "alt": ""
+      }
+    },
+    {
+      "id": "6a9a6216fe4cda4c0d5d74d5",
+      "name": "HCHR Sep 2026 Delegate FAQ 5",
+      "slug": "hchr-sep-2026-delegate-faq-5",
+      "institute": "68b0aff93e4f6363f03f620b",
+      "audienceScope": "delegate",
+      "blockType": "faq",
+      "title": "Where can I access further event details and information?",
+      "body": "<p>Current event details and resources are available in the Attendee Hub.</p>",
+      "initiallyExpanded": false,
+      "icon": {
+        "fileId": "6a9a66b7e288eba707c1f185",
+        "url": "https://cdn.prod.website-files.com/6312ee46f4c52faf21ee8ab5/6a9a66b7e288eba707c1f185_6a9a66432837d9128fd98cc3_kbyg-question.svg",
+        "alt": ""
+      }
+    }
+  ]
+}

@@ -1,0 +1,237 @@
+{
+  "version": 1,
+  "assetRoot": "assets/kbyg/icons",
+  "icons": {
+    "airplane": "assets/kbyg/icons/airplane.svg",
+    "bed": "assets/kbyg/icons/bed.svg",
+    "building": "assets/kbyg/icons/building.svg",
+    "calendar-check": "assets/kbyg/icons/calendar-check.svg",
+    "calendar-clock": "assets/kbyg/icons/calendar-clock.svg",
+    "calendar-plus": "assets/kbyg/icons/calendar-plus.svg",
+    "car": "assets/kbyg/icons/car.svg",
+    "chair": "assets/kbyg/icons/chair.svg",
+    "external-link": "assets/kbyg/icons/external-link.svg",
+    "glasses": "assets/kbyg/icons/glasses.svg",
+    "group": "assets/kbyg/icons/group.svg",
+    "handshake": "assets/kbyg/icons/handshake.svg",
+    "heartbeat": "assets/kbyg/icons/heartbeat.svg",
+    "hotel": "assets/kbyg/icons/hotel.svg",
+    "mail": "assets/kbyg/icons/mail.svg",
+    "people": "assets/kbyg/icons/people.svg",
+    "phone": "assets/kbyg/icons/phone.svg",
+    "podium": "assets/kbyg/icons/podium.svg",
+    "profile": "assets/kbyg/icons/profile.svg",
+    "prohibited": "assets/kbyg/icons/prohibited.svg",
+    "question": "assets/kbyg/icons/question.svg"
+  },
+  "blocks": [
+    {
+      "slug": "hchr-sep-2026-delegate-preparation-1",
+      "title": "Submit Your Travel Details",
+      "icon": "airplane",
+      "asset": "assets/kbyg/icons/airplane.svg"
+    },
+    {
+      "slug": "hchr-sep-2026-delegate-preparation-2",
+      "title": "Create Your Attendee Profile",
+      "icon": "profile",
+      "asset": "assets/kbyg/icons/profile.svg"
+    },
+    {
+      "slug": "hchr-sep-2026-delegate-preparation-3",
+      "title": "Create Your Itinerary",
+      "icon": "calendar-check",
+      "asset": "assets/kbyg/icons/calendar-check.svg"
+    },
+    {
+      "slug": "hchr-sep-2026-sponsor-preparation-1",
+      "title": "Submit Your Delegate Profiling Question, Company Details & Logo",
+      "icon": "building",
+      "asset": "assets/kbyg/icons/building.svg"
+    },
+    {
+      "slug": "hchr-sep-2026-sponsor-preparation-2",
+      "title": "Register Onsite Attendees & Submit Hotel Needs",
+      "icon": "people",
+      "asset": "assets/kbyg/icons/people.svg"
+    },
+    {
+      "slug": "hchr-sep-2026-sponsor-preparation-3",
+      "title": "One-on-One Meeting Selections",
+      "icon": "handshake",
+      "asset": "assets/kbyg/icons/handshake.svg"
+    },
+    {
+      "slug": "hchr-sep-2026-delegate-date-1",
+      "title": "Attendee Profile Opens",
+      "icon": "calendar-plus",
+      "asset": "assets/kbyg/icons/calendar-plus.svg"
+    },
+    {
+      "slug": "hchr-sep-2026-delegate-date-2",
+      "title": "Deadline to Submit Travel Details",
+      "icon": "airplane",
+      "asset": "assets/kbyg/icons/airplane.svg"
+    },
+    {
+      "slug": "hchr-sep-2026-delegate-date-3",
+      "title": "Deadline to Complete Your Attendee Profile",
+      "icon": "profile",
+      "asset": "assets/kbyg/icons/profile.svg"
+    },
+    {
+      "slug": "hchr-sep-2026-delegate-date-4",
+      "title": "Begin Building Your Personal Schedule",
+      "icon": "calendar-check",
+      "asset": "assets/kbyg/icons/calendar-check.svg"
+    },
+    {
+      "slug": "hchr-sep-2026-sponsor-date-1",
+      "title": "Deadline to Submit Delegate Profiling Question",
+      "icon": "question",
+      "asset": "assets/kbyg/icons/question.svg"
+    },
+    {
+      "slug": "hchr-sep-2026-sponsor-date-2",
+      "title": "Deadline to Register Attendees and Submit Travel Details",
+      "icon": "people",
+      "asset": "assets/kbyg/icons/people.svg"
+    },
+    {
+      "slug": "hchr-sep-2026-sponsor-date-3",
+      "title": "Deadline to Submit Company Details & Logo",
+      "icon": "building",
+      "asset": "assets/kbyg/icons/building.svg"
+    },
+    {
+      "slug": "hchr-sep-2026-sponsor-date-4",
+      "title": "Begin Submitting Your Business Meeting Preferences",
+      "icon": "handshake",
+      "asset": "assets/kbyg/icons/handshake.svg"
+    },
+    {
+      "slug": "hchr-sep-2026-agenda-day-1",
+      "title": "DAY 1 - SUNDAY",
+      "icon": "calendar-clock",
+      "asset": "assets/kbyg/icons/calendar-clock.svg"
+    },
+    {
+      "slug": "hchr-sep-2026-agenda-day-2",
+      "title": "DAY 2 - MONDAY",
+      "icon": "calendar-clock",
+      "asset": "assets/kbyg/icons/calendar-clock.svg"
+    },
+    {
+      "slug": "hchr-sep-2026-agenda-day-3",
+      "title": "DAY 3 - TUESDAY",
+      "icon": "calendar-clock",
+      "asset": "assets/kbyg/icons/calendar-clock.svg"
+    },
+    {
+      "slug": "hchr-sep-2026-delegate-experience-1",
+      "title": "Thought Leadership Sessions",
+      "icon": "podium",
+      "asset": "assets/kbyg/icons/podium.svg"
+    },
+    {
+      "slug": "hchr-sep-2026-delegate-experience-2",
+      "title": "Business Meetings",
+      "icon": "handshake",
+      "asset": "assets/kbyg/icons/handshake.svg"
+    },
+    {
+      "slug": "hchr-sep-2026-delegate-experience-3",
+      "title": "Interactive Think Tank Sessions",
+      "icon": "group",
+      "asset": "assets/kbyg/icons/group.svg"
+    },
+    {
+      "slug": "hchr-sep-2026-sponsor-meeting-method-1",
+      "title": "Mutual Requests",
+      "icon": "handshake",
+      "asset": "assets/kbyg/icons/handshake.svg"
+    },
+    {
+      "slug": "hchr-sep-2026-sponsor-meeting-method-2",
+      "title": "Delegate Requests",
+      "icon": "profile",
+      "asset": "assets/kbyg/icons/profile.svg"
+    },
+    {
+      "slug": "hchr-sep-2026-sponsor-meeting-method-3",
+      "title": "Service Provider Requests",
+      "icon": "building",
+      "asset": "assets/kbyg/icons/building.svg"
+    },
+    {
+      "slug": "hchr-sep-2026-sponsor-experience-1",
+      "title": "Opt-Outs",
+      "icon": "prohibited",
+      "asset": "assets/kbyg/icons/prohibited.svg"
+    },
+    {
+      "slug": "hchr-sep-2026-sponsor-experience-2",
+      "title": "Meeting Schedule",
+      "icon": "calendar-clock",
+      "asset": "assets/kbyg/icons/calendar-clock.svg"
+    },
+    {
+      "slug": "hchr-sep-2026-sponsor-experience-3",
+      "title": "Meeting Space",
+      "icon": "chair",
+      "asset": "assets/kbyg/icons/chair.svg"
+    },
+    {
+      "slug": "hchr-sep-2026-sponsor-experience-4",
+      "title": "Thought Leadership Sessions",
+      "icon": "podium",
+      "asset": "assets/kbyg/icons/podium.svg"
+    },
+    {
+      "slug": "hchr-sep-2026-sponsor-experience-5",
+      "title": "Networking Opportunities",
+      "icon": "glasses",
+      "asset": "assets/kbyg/icons/glasses.svg"
+    },
+    {
+      "slug": "hchr-sep-2026-delegate-faq-1",
+      "title": "When will I receive my hotel confirmation?",
+      "icon": "question",
+      "asset": "assets/kbyg/icons/question.svg"
+    },
+    {
+      "slug": "hchr-sep-2026-delegate-faq-2",
+      "title": "What is the dress code?",
+      "icon": "question",
+      "asset": "assets/kbyg/icons/question.svg"
+    },
+    {
+      "slug": "hchr-sep-2026-delegate-faq-3",
+      "title": "Are guests permitted to attend the meal functions?",
+      "icon": "question",
+      "asset": "assets/kbyg/icons/question.svg"
+    },
+    {
+      "slug": "hchr-sep-2026-delegate-faq-4",
+      "title": "Am I required to participate in the Business Meetings?",
+      "icon": "question",
+      "asset": "assets/kbyg/icons/question.svg"
+    },
+    {
+      "slug": "hchr-sep-2026-delegate-faq-5",
+      "title": "Where can I access further event details and information?",
+      "icon": "question",
+      "asset": "assets/kbyg/icons/question.svg"
+    }
+  ],
+  "ui": {
+    "hotel": "assets/kbyg/icons/hotel.svg",
+    "reservation": "assets/kbyg/icons/bed.svg",
+    "transportation": "assets/kbyg/icons/car.svg",
+    "phone": "assets/kbyg/icons/phone.svg",
+    "email": "assets/kbyg/icons/mail.svg",
+    "externalLink": "assets/kbyg/icons/external-link.svg",
+    "faq": "assets/kbyg/icons/question.svg",
+    "support": "assets/kbyg/icons/heartbeat.svg"
+  }
+}

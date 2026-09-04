@@ -1,0 +1,1690 @@
+<!--
+  KBYG PAGES COLLECTION TEMPLATE — semantic source scaffold
+
+  This file documents the DOM/class/behavior contract to reproduce in Webflow.
+  Visible fallback content mirrors the approved HCHR September 2026 Delegate and
+  Sponsor Figma frames. Configure every marked value with native Webflow CMS
+  bindings and every audience branch with native conditional visibility.
+
+  Root bindings:
+  - data-audience: KBYG Page > Audience, emitted as lowercase delegate|sponsor.
+  - --kbyg-accent: Referenced Institute > Accent Color.
+  - --kbyg-accent-dark: Referenced Institute > Accent Dark.
+
+  Shared component instances must remain inside .kbyg-page so the dedicated CSS
+  can apply template-only navigation/footer fixes without changing global pages.
+  Decorative icons have aria-hidden="true". Meaningful image alt values bind to
+  the explicit KBYG Page alt fields or the referenced Staff member's name.
+-->
+<div
+  class="kbyg-page"
+  data-audience="delegate"
+  style="--kbyg-accent: #25948a; --kbyg-accent-dark: #1f7a72"
+>
+  <!-- WEBFLOW COMPONENT INSTANCE: Desktop Navigation -->
+  <!-- WEBFLOW COMPONENT INSTANCE: Mobile Navigation -->
+
+  <main>
+    <header class="kbyg-hero" aria-labelledby="kbyg-page-title">
+      <div class="kbyg-hero__backdrop" aria-hidden="true">
+        <!-- WEBFLOW BIND: KBYG Page > Hero Image; this backdrop image is decorative. -->
+        <img
+          src="https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6a9a6b00eb4c917e35e13982_kbyg-hero-orlando-skyline.webp"
+          alt=""
+        />
+      </div>
+      <div class="kbyg-container kbyg-hero__content">
+        <div class="kbyg-hero__copy">
+          <!-- WEBFLOW BIND: KBYG Page > Hero Eyebrow. -->
+          <p class="kbyg-hero__date">SEPTEMBER 13-15, 2026</p>
+          <h1 id="kbyg-page-title" class="kbyg-hero__title">
+            Know Before You <strong>Go.</strong>
+          </h1>
+          <!-- WEBFLOW BIND: Referenced Institute > Year + Title. -->
+          <p class="kbyg-hero__event">2026 Healthcare HR Management Institute</p>
+          <!-- WEBFLOW BIND: Referenced Institute > Venue. -->
+          <p class="kbyg-hero__venue">
+            <span class="kbyg-glyph" aria-hidden="true">
+              <svg viewBox="0 0 24 24" focusable="false">
+                <path
+                  d="M20 10c0 5-8 11-8 11S4 15 4 10a8 8 0 1 1 16 0Z"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="1.75"
+                />
+                <circle
+                  cx="12"
+                  cy="10"
+                  r="2.5"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="1.75"
+                />
+              </svg>
+            </span>
+            <span>The Ritz-Carlton Orlando, Grande Lakes</span>
+          </p>
+
+          <!-- WEBFLOW CONDITION: Audience is Delegate. -->
+          <!-- WEBFLOW BIND: Delegate KBYG Page > Hero Intro. -->
+          <p class="kbyg-hero__intro" data-kbyg-audience-branch="delegate">
+            Your essential guide to event preparation, travel, timing, and everything you need to
+            arrive confident and ready for the connections ahead.
+          </p>
+
+          <!-- WEBFLOW CONDITION: Audience is Sponsor. -->
+          <!-- WEBFLOW BIND: Sponsor KBYG Page > Hero Intro. -->
+          <p class="kbyg-hero__intro" data-kbyg-audience-branch="sponsor">
+            Your essential guide to key deliverables, team preparation, business meetings, travel,
+            and everything you need for a smooth, successful onsite experience.
+          </p>
+        </div>
+
+        <div class="kbyg-hero__actions">
+          <!-- WEBFLOW BIND: KBYG Page > Hero CTA URL and Hero CTA Label. -->
+          <a class="kbyg-button" href="#welcome">
+            <span>VIEW INSTITUTE GUIDE</span>
+            <span class="kbyg-glyph kbyg-button__glyph" aria-hidden="true">
+              <svg viewBox="0 0 24 24" focusable="false">
+                <path
+                  d="m7 10 5 5 5-5"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                />
+              </svg>
+            </span>
+          </a>
+        </div>
+
+        <div class="kbyg-hero__media">
+          <!-- WEBFLOW BIND: KBYG Page > Hero Image and Hero Image Alt. -->
+          <img
+            class="kbyg-hero__image"
+            src="https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6a9a69f8fd883fff73e394fb_kbyg-hero-attendee-clean.webp"
+            alt="Attendee viewing the Know Before You Go event app in a hotel lobby"
+          />
+          <!-- WEBFLOW CONDITION: Audience is Delegate. -->
+          <span class="kbyg-hero__badge" data-kbyg-audience-branch="delegate" aria-hidden="true">
+            <!-- Delegate badge: confirmation checkmark. -->
+            <svg viewBox="0 0 64 64" focusable="false">
+              <circle cx="32" cy="32" r="29" fill="none" stroke="currentColor" stroke-width="4" />
+              <path
+                d="M20 33.5 28.2 42 45 23"
+                fill="none"
+                stroke="currentColor"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="5"
+              />
+            </svg>
+          </span>
+          <!-- WEBFLOW CONDITION: Audience is Sponsor. -->
+          <span class="kbyg-hero__badge" data-kbyg-audience-branch="sponsor" aria-hidden="true">
+            <!-- Sponsor badge: uploaded heart/health glyph. -->
+            <span
+              class="kbyg-glyph kbyg-glyph--mask kbyg-glyph--heartbeat kbyg-hero__badge-glyph"
+            ></span>
+          </span>
+        </div>
+      </div>
+    </header>
+
+    <div class="kbyg-curve kbyg-curve--hero" data-kbyg-curve="left" aria-hidden="true">
+      <!-- WEBFLOW COMPONENT INSTANCE: Curve Left or Curve Right, as matched to the Figma frame. -->
+    </div>
+
+    <nav class="kbyg-jump kbyg-container" data-kbyg-jump-nav aria-label="On this page">
+      <div class="kbyg-jump__inner">
+        <!-- WEBFLOW CONDITION: Audience is Delegate. -->
+        <ul class="kbyg-jump__list" data-kbyg-audience-branch="delegate">
+          <li class="kbyg-jump__item">
+            <a class="kbyg-jump__link" href="#welcome" data-kbyg-jump="welcome">WELCOME</a>
+          </li>
+          <li class="kbyg-jump__item">
+            <a class="kbyg-jump__link" href="#prepare" data-kbyg-jump="prepare">PREPARE</a>
+          </li>
+          <li class="kbyg-jump__item">
+            <a class="kbyg-jump__link" href="#key-dates" data-kbyg-jump="key-dates">KEY DATES</a>
+          </li>
+          <li class="kbyg-jump__item">
+            <a class="kbyg-jump__link" href="#agenda" data-kbyg-jump="agenda">AGENDA</a>
+          </li>
+          <li class="kbyg-jump__item">
+            <a class="kbyg-jump__link" href="#hub" data-kbyg-jump="hub">ATTENDEE HUB</a>
+          </li>
+          <li class="kbyg-jump__item">
+            <a class="kbyg-jump__link" href="#hotel-travel" data-kbyg-jump="hotel-travel">HOTEL</a>
+          </li>
+          <li class="kbyg-jump__item">
+            <a class="kbyg-jump__link" href="#experience" data-kbyg-jump="experience">EXPERIENCE</a>
+          </li>
+          <li class="kbyg-jump__item">
+            <a class="kbyg-jump__link" href="#faq" data-kbyg-jump="faq">FAQ</a>
+          </li>
+          <li class="kbyg-jump__item">
+            <a class="kbyg-jump__link" href="#contact" data-kbyg-jump="contact">CONTACT</a>
+          </li>
+        </ul>
+
+        <!-- WEBFLOW CONDITION: Audience is Sponsor. -->
+        <ul class="kbyg-jump__list" data-kbyg-audience-branch="sponsor">
+          <li class="kbyg-jump__item">
+            <a class="kbyg-jump__link" href="#welcome" data-kbyg-jump="welcome">WELCOME</a>
+          </li>
+          <li class="kbyg-jump__item">
+            <a class="kbyg-jump__link" href="#prepare" data-kbyg-jump="prepare">PREPARE</a>
+          </li>
+          <li class="kbyg-jump__item">
+            <a class="kbyg-jump__link" href="#key-dates" data-kbyg-jump="key-dates">KEY DATES</a>
+          </li>
+          <li class="kbyg-jump__item">
+            <a class="kbyg-jump__link" href="#agenda" data-kbyg-jump="agenda">AGENDA</a>
+          </li>
+          <li class="kbyg-jump__item">
+            <a class="kbyg-jump__link" href="#hub" data-kbyg-jump="hub">SPONSOR HUB</a>
+          </li>
+          <li class="kbyg-jump__item">
+            <a class="kbyg-jump__link" href="#hotel-travel" data-kbyg-jump="hotel-travel">HOTEL</a>
+          </li>
+          <li class="kbyg-jump__item">
+            <a class="kbyg-jump__link" href="#experience" data-kbyg-jump="experience"
+              >BUSINESS MEETINGS</a
+            >
+          </li>
+          <li class="kbyg-jump__item">
+            <a class="kbyg-jump__link" href="#sponsor-support" data-kbyg-jump="sponsor-support"
+              >SUPPORT</a
+            >
+          </li>
+          <li class="kbyg-jump__item">
+            <a class="kbyg-jump__link" href="#contact" data-kbyg-jump="contact">CONTACT</a>
+          </li>
+        </ul>
+
+        <!-- WEBFLOW CONDITION: Audience is Delegate; omit the Sponsor select branch. -->
+        <form
+          class="kbyg-jump__select-wrap"
+          data-kbyg-jump-form
+          data-kbyg-audience-branch="delegate"
+        >
+          <span id="kbyg-jump-label-delegate" class="kbyg-jump__select-label">JUMP TO:</span>
+          <select
+            id="kbyg-jump-select-delegate"
+            class="kbyg-jump__select"
+            data-kbyg-jump
+            aria-labelledby="kbyg-jump-label-delegate"
+          >
+            <option value="welcome">WELCOME</option>
+            <option value="prepare">PREPARE</option>
+            <option value="key-dates">KEY DATES</option>
+            <option value="agenda">AGENDA</option>
+            <option value="hub">ATTENDEE HUB</option>
+            <option value="hotel-travel">HOTEL</option>
+            <option value="experience">EXPERIENCE</option>
+            <option value="faq">FAQ</option>
+            <option value="contact">CONTACT</option>
+          </select>
+        </form>
+
+        <!-- WEBFLOW CONDITION: Audience is Sponsor; omit the Delegate select branch. -->
+        <form
+          class="kbyg-jump__select-wrap"
+          data-kbyg-jump-form
+          data-kbyg-audience-branch="sponsor"
+        >
+          <span id="kbyg-jump-label-sponsor" class="kbyg-jump__select-label">JUMP TO:</span>
+          <select
+            id="kbyg-jump-select-sponsor"
+            class="kbyg-jump__select"
+            data-kbyg-jump
+            aria-labelledby="kbyg-jump-label-sponsor"
+          >
+            <option value="welcome">WELCOME</option>
+            <option value="prepare">PREPARE</option>
+            <option value="key-dates">KEY DATES</option>
+            <option value="agenda">AGENDA</option>
+            <option value="hub">SPONSOR HUB</option>
+            <option value="hotel-travel">HOTEL</option>
+            <option value="experience">BUSINESS MEETINGS</option>
+            <option value="sponsor-support">SUPPORT</option>
+            <option value="contact">CONTACT</option>
+          </select>
+        </form>
+      </div>
+    </nav>
+
+    <section
+      id="welcome"
+      class="kbyg-section kbyg-section--mist"
+      data-kbyg-section="welcome"
+      aria-labelledby="kbyg-welcome-title"
+    >
+      <div class="kbyg-container kbyg-welcome__grid">
+        <div>
+          <header class="kbyg-section__header">
+            <!-- WEBFLOW BIND: KBYG Page > Welcome Eyebrow. -->
+            <p class="kbyg-section__eyebrow">WELCOME</p>
+            <!-- WEBFLOW BIND: KBYG Page > Welcome Title. -->
+            <h2 id="kbyg-welcome-title" class="kbyg-section__title">
+              Welcome, we’re excited to see you soon!
+            </h2>
+            <!-- WEBFLOW BIND: KBYG Page > Welcome Intro. -->
+            <p class="kbyg-section__intro">
+              Everything you need to prepare, travel, and arrive ready is gathered here in one
+              focused guide, making the weeks before the Institute feel clear, organized, and
+              manageable.
+            </p>
+          </header>
+
+          <!-- WEBFLOW CONDITION: Audience is Delegate. -->
+          <!-- WEBFLOW BIND: Delegate KBYG Page > Welcome Body. -->
+          <div class="kbyg-rich-text" data-kbyg-audience-branch="delegate">
+            <p>
+              Welcome to the 2026 Healthcare HR Management Institute, and thank you for choosing to
+              join us. We are delighted to bring together an exceptional group of senior Healthcare
+              HR leaders and solution providers for three days of meaningful conversations, fresh
+              perspectives, and valuable relationship-building opportunities.
+            </p>
+            <p>
+              In the coming weeks, we will guide you through three simple steps to help prepare for
+              a successful program. Your Operations Lead, Katrina Brightling, will be available
+              throughout the process to provide support and ensure you are ready to make the most of
+              your experience.
+            </p>
+          </div>
+
+          <!-- WEBFLOW CONDITION: Audience is Sponsor. -->
+          <!-- WEBFLOW BIND: Sponsor KBYG Page > Welcome Body. -->
+          <div class="kbyg-rich-text" data-kbyg-audience-branch="sponsor">
+            <p>
+              Welcome to the 2026 Healthcare HR Management Institute—an exclusive opportunity to
+              connect with senior Healthcare HR executives, gain valuable industry insights, and
+              build meaningful business relationships.
+            </p>
+            <p>
+              To help you maximize your experience and ensure a successful event, there are a few
+              important pre-event steps to complete in the weeks ahead. This guide outlines
+              everything you need to know, including key deadlines, deliverables, and event details.
+            </p>
+            <p>
+              Your Operations Lead, Katrina Brightling, will be available throughout the planning
+              process to answer questions, provide support, and ensure you are fully prepared for a
+              productive and successful event experience.
+            </p>
+          </div>
+        </div>
+
+        <!-- WEBFLOW BIND: KBYG Page > Operations Lead reference. -->
+        <aside class="kbyg-contact-card kbyg-contact-card--welcome" aria-label="Operations lead">
+          <div class="kbyg-contact-card__identity">
+            <!-- WEBFLOW BIND: Operations Lead > Image and alt text = Operations Lead > Name. -->
+            <img
+              class="kbyg-contact-card__photo"
+              src="https://cdn.prod.website-files.com/6312ee46f4c52faf21ee8ab5/6a2190a1fe9f7474db6cfc18_Katrina%20Brightling%20bnw%20Photo.jpg"
+              alt="Katrina Brightling, Operations Director"
+            />
+            <div>
+              <p class="kbyg-contact-card__eyebrow">YOUR OPERATIONS LEAD</p>
+              <h3 class="kbyg-contact-card__name">Katrina Brightling</h3>
+              <p class="kbyg-contact-card__title">Operations Director</p>
+              <p class="kbyg-contact-card__organization">IPMI</p>
+            </div>
+          </div>
+          <ul class="kbyg-contact-card__meta">
+            <li class="kbyg-contact-card__meta-item">
+              <a class="kbyg-contact-card__meta-link" href="tel:+16479698536">
+                <span class="kbyg-contact-card__meta-icon" aria-hidden="true">
+                  <span class="kbyg-glyph kbyg-glyph--mask kbyg-glyph--phone"></span>
+                </span>
+                <span>647.969.8536</span>
+              </a>
+            </li>
+            <li class="kbyg-contact-card__meta-item">
+              <a class="kbyg-contact-card__meta-link" href="mailto:kbrightling@ipmievents.com">
+                <span class="kbyg-contact-card__meta-icon" aria-hidden="true">
+                  <span class="kbyg-glyph kbyg-glyph--mask kbyg-glyph--mail"></span>
+                </span>
+                <span>kbrightling@ipmievents.com</span>
+              </a>
+            </li>
+          </ul>
+        </aside>
+      </div>
+    </section>
+
+    <div class="kbyg-curve kbyg-curve--dark" data-kbyg-curve="right" aria-hidden="true">
+      <!-- WEBFLOW COMPONENT INSTANCE: Curve Right. -->
+    </div>
+
+    <section
+      id="prepare"
+      class="kbyg-section kbyg-section--dark kbyg-section--dots"
+      data-kbyg-section="prepare"
+    >
+      <div class="kbyg-container">
+        <!-- WEBFLOW CONDITION: Audience is Delegate. -->
+        <div data-kbyg-audience-branch="delegate">
+          <header class="kbyg-section__header">
+            <!-- WEBFLOW BIND: Delegate KBYG Page > Preparation Eyebrow/Title/Intro. -->
+            <p class="kbyg-section__eyebrow">BEFORE YOU ARRIVE</p>
+            <h2 id="kbyg-prepare-title-delegate" class="kbyg-section__title">
+              Preparing for your Institute is as easy as 1-2-3.
+            </h2>
+            <p class="kbyg-section__intro">
+              Complete these actions in the Attendee Hub, then build a schedule around the
+              conversations that matter most to you.
+            </p>
+          </header>
+          <!--
+            WEBFLOW COLLECTION LIST: KBYG Page > Preparation, preserving multi-reference order.
+            Require Block Type = Preparation and Audience Scope = Shared or Delegate.
+          -->
+          <div class="kbyg-icon-card-grid">
+            <article class="kbyg-icon-card">
+              <span class="kbyg-icon kbyg-icon-card__icon" aria-hidden="true">
+                <img
+                  src="https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6a9a65cdc73b205cf5e09d2b_kbyg-airplane.svg"
+                  alt=""
+                  loading="lazy"
+                  decoding="async"
+                />
+              </span>
+              <h3 class="kbyg-icon-card__title">
+                <span class="kbyg-icon-card__number">01.</span> Submit Your Travel Details
+              </h3>
+              <div class="kbyg-icon-card__body">
+                <p>
+                  Please submit your Travel Details through the “Book Hotel” tab of your Attendee
+                  Hub to make your hotel reservation for the event.
+                </p>
+              </div>
+            </article>
+            <article class="kbyg-icon-card">
+              <span class="kbyg-icon kbyg-icon-card__icon" aria-hidden="true">
+                <img
+                  src="https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6a9a6642fd883fff73e1a664_kbyg-profile.svg"
+                  alt=""
+                  loading="lazy"
+                  decoding="async"
+                />
+              </span>
+              <h3 class="kbyg-icon-card__title">
+                <span class="kbyg-icon-card__number">02.</span> Create Your Attendee Profile
+              </h3>
+              <div class="kbyg-icon-card__body">
+                <p>
+                  Prior to the event, please complete the brief questionnaire addressing your
+                  specific operational goals and strategic objectives for the program.
+                </p>
+              </div>
+            </article>
+            <article class="kbyg-icon-card">
+              <span class="kbyg-icon kbyg-icon-card__icon" aria-hidden="true">
+                <img
+                  src="https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6a9a663b452b111de655235c_kbyg-calendar-check.svg"
+                  alt=""
+                  loading="lazy"
+                  decoding="async"
+                />
+              </span>
+              <h3 class="kbyg-icon-card__title">
+                <span class="kbyg-icon-card__number">03.</span> Create Your Itinerary
+              </h3>
+              <div class="kbyg-icon-card__body">
+                <p>
+                  Customize your event agenda by selecting your conference sessions, Think Tanks,
+                  and business meeting preferences for the Institute.
+                </p>
+              </div>
+            </article>
+          </div>
+        </div>
+
+        <!-- WEBFLOW CONDITION: Audience is Sponsor. -->
+        <div data-kbyg-audience-branch="sponsor">
+          <header class="kbyg-section__header">
+            <!-- WEBFLOW BIND: Sponsor KBYG Page > Preparation Eyebrow/Title/Intro. -->
+            <p class="kbyg-section__eyebrow">BEFORE YOU ARRIVE</p>
+            <h2 id="kbyg-prepare-title-sponsor" class="kbyg-section__title">
+              Preparing for your Institute is as easy as 1-2-3.
+            </h2>
+            <p class="kbyg-section__intro">
+              Complete these Sponsor Hub deliverables so your onsite team and meeting strategy are
+              ready well before arrival.
+            </p>
+          </header>
+          <!--
+            WEBFLOW COLLECTION LIST: KBYG Page > Preparation, preserving multi-reference order.
+            Require Block Type = Preparation and Audience Scope = Shared or Sponsor.
+          -->
+          <div class="kbyg-icon-card-grid">
+            <article class="kbyg-icon-card">
+              <span class="kbyg-icon kbyg-icon-card__icon" aria-hidden="true">
+                <img
+                  src="https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6a9a663baaffd3efb5e5e069_kbyg-building.svg"
+                  alt=""
+                  loading="lazy"
+                  decoding="async"
+                />
+              </span>
+              <h3 class="kbyg-icon-card__title">
+                <span class="kbyg-icon-card__number">01.</span> Submit Your Delegate Profiling
+                Question, Company Details &amp; Logo
+              </h3>
+              <div class="kbyg-icon-card__body">
+                <p>
+                  Submit your company profile information and one Delegate Profiling Question for
+                  inclusion in the delegate profile questionnaire. These details help attendees
+                  better understand your organization, products, and services, while the
+                  questionnaire responses provide valuable insights into delegate priorities and
+                  challenges to support more informed and productive business meeting selections.
+                </p>
+              </div>
+            </article>
+            <article class="kbyg-icon-card">
+              <span class="kbyg-icon kbyg-icon-card__icon" aria-hidden="true">
+                <img
+                  src="https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6a9a664059caf5a850137080_kbyg-people.svg"
+                  alt=""
+                  loading="lazy"
+                  decoding="async"
+                />
+              </span>
+              <h3 class="kbyg-icon-card__title">
+                <span class="kbyg-icon-card__number">02.</span> Register Onsite Attendees &amp;
+                Submit Hotel Needs
+              </h3>
+              <div class="kbyg-icon-card__body">
+                <p>
+                  Please identify all individuals from your organization, including presenters, who
+                  will be attending the event, and submit their information via the Register Onsite
+                  Attendees section of the Sponsor Hub. Your Operations Lead will add them to the
+                  event roster and coordinate their hotel accommodations.
+                </p>
+              </div>
+            </article>
+            <article class="kbyg-icon-card">
+              <span class="kbyg-icon kbyg-icon-card__icon" aria-hidden="true">
+                <img
+                  src="https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6a9a663faaffd3efb5e5e562_kbyg-handshake.svg"
+                  alt=""
+                  loading="lazy"
+                  decoding="async"
+                />
+              </span>
+              <h3 class="kbyg-icon-card__title">
+                <span class="kbyg-icon-card__number">03.</span> One-on-One Meeting Selections
+              </h3>
+              <div class="kbyg-icon-card__body">
+                <p>
+                  Review the Delegate Profile Summaries and identify your top preferences for your
+                  pre-scheduled one-on-one business meetings.
+                </p>
+              </div>
+            </article>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div class="kbyg-curve kbyg-curve--light" data-kbyg-curve="left" aria-hidden="true">
+      <!-- WEBFLOW COMPONENT INSTANCE: Curve Left. -->
+    </div>
+
+    <section id="key-dates" class="kbyg-section kbyg-section--light" data-kbyg-section="key-dates">
+      <div class="kbyg-container">
+        <!-- WEBFLOW CONDITION: Audience is Delegate. -->
+        <div data-kbyg-audience-branch="delegate">
+          <header class="kbyg-section__header">
+            <p class="kbyg-section__eyebrow">MARK YOUR CALENDAR</p>
+            <h2 id="kbyg-key-dates-title-delegate" class="kbyg-section__title">
+              Key Dates &amp; Deliverables.
+            </h2>
+            <p class="kbyg-section__intro">
+              Your profile, hotel, and schedule milestones—sequenced from first login through
+              arrival.
+            </p>
+          </header>
+          <!--
+            WEBFLOW COLLECTION LIST: KBYG Page > Key Dates, preserving multi-reference order.
+            Require Block Type = Key Date and Audience Scope = Shared or Delegate.
+          -->
+          <div class="kbyg-dates-grid">
+            <article class="kbyg-date-card" data-kbyg-calendar-item>
+              <time class="kbyg-date-card__date" datetime="2026-07-29">
+                <span class="kbyg-date-card__month">Jul</span>
+                <span class="kbyg-date-card__day">29</span>
+              </time>
+              <div>
+                <h3 class="kbyg-date-card__title" data-kbyg-calendar-title>
+                  Attendee Profile Opens
+                </h3>
+                <p class="kbyg-date-card__display-date">Wednesday, July 29, 2026</p>
+                <span class="kbyg-sr-only" data-kbyg-calendar-description
+                  >Attendee Profile Opens</span
+                >
+              </div>
+              <button
+                class="kbyg-button kbyg-button--calendar"
+                type="button"
+                data-kbyg-calendar
+                data-kbyg-event-id="hchr-sep-2026-delegate-date-1"
+                data-kbyg-start="2026-07-29"
+                data-kbyg-end="2026-07-29"
+                data-kbyg-all-day="true"
+                data-kbyg-title="Attendee Profile Opens"
+                data-kbyg-filename="attendee-profile-opens"
+                aria-label="Add Attendee Profile Opens to calendar"
+              >
+                ADD TO CALENDAR
+              </button>
+            </article>
+            <article class="kbyg-date-card" data-kbyg-calendar-item>
+              <time class="kbyg-date-card__date" datetime="2026-08-19">
+                <span class="kbyg-date-card__month">Aug</span>
+                <span class="kbyg-date-card__day">19</span>
+              </time>
+              <div>
+                <h3 class="kbyg-date-card__title" data-kbyg-calendar-title>
+                  Deadline to Submit Travel Details
+                </h3>
+                <p class="kbyg-date-card__display-date">Wednesday, August 19, 2026</p>
+                <span class="kbyg-sr-only" data-kbyg-calendar-description
+                  >Deadline to Submit Travel Details</span
+                >
+              </div>
+              <button
+                class="kbyg-button kbyg-button--calendar"
+                type="button"
+                data-kbyg-calendar
+                data-kbyg-event-id="hchr-sep-2026-delegate-date-2"
+                data-kbyg-start="2026-08-19"
+                data-kbyg-end="2026-08-19"
+                data-kbyg-all-day="true"
+                data-kbyg-title="Deadline to Submit Travel Details"
+                data-kbyg-filename="deadline-to-submit-travel-details"
+                aria-label="Add Deadline to Submit Travel Details to calendar"
+              >
+                ADD TO CALENDAR
+              </button>
+            </article>
+            <article class="kbyg-date-card" data-kbyg-calendar-item>
+              <time class="kbyg-date-card__date" datetime="2026-08-19">
+                <span class="kbyg-date-card__month">Aug</span>
+                <span class="kbyg-date-card__day">19</span>
+              </time>
+              <div>
+                <h3 class="kbyg-date-card__title" data-kbyg-calendar-title>
+                  Deadline to Complete Your Attendee Profile
+                </h3>
+                <p class="kbyg-date-card__display-date">Wednesday, August 19, 2026</p>
+                <span class="kbyg-sr-only" data-kbyg-calendar-description
+                  >Deadline to Complete Your Attendee Profile</span
+                >
+              </div>
+              <button
+                class="kbyg-button kbyg-button--calendar"
+                type="button"
+                data-kbyg-calendar
+                data-kbyg-event-id="hchr-sep-2026-delegate-date-3"
+                data-kbyg-start="2026-08-19"
+                data-kbyg-end="2026-08-19"
+                data-kbyg-all-day="true"
+                data-kbyg-title="Deadline to Complete Your Attendee Profile"
+                data-kbyg-filename="deadline-to-complete-your-attendee-profile"
+                aria-label="Add Deadline to Complete Your Attendee Profile to calendar"
+              >
+                ADD TO CALENDAR
+              </button>
+            </article>
+            <article class="kbyg-date-card" data-kbyg-calendar-item>
+              <time class="kbyg-date-card__date" datetime="2026-08-24">
+                <span class="kbyg-date-card__month">Aug</span>
+                <span class="kbyg-date-card__day">24</span>
+              </time>
+              <div>
+                <h3 class="kbyg-date-card__title" data-kbyg-calendar-title>
+                  Begin Building Your Personal Schedule
+                </h3>
+                <p class="kbyg-date-card__display-date">Monday, August 24, 2026</p>
+                <span class="kbyg-sr-only" data-kbyg-calendar-description
+                  >Begin Building Your Personal Schedule</span
+                >
+              </div>
+              <button
+                class="kbyg-button kbyg-button--calendar"
+                type="button"
+                data-kbyg-calendar
+                data-kbyg-event-id="hchr-sep-2026-delegate-date-4"
+                data-kbyg-start="2026-08-24"
+                data-kbyg-end="2026-08-24"
+                data-kbyg-all-day="true"
+                data-kbyg-title="Begin Building Your Personal Schedule"
+                data-kbyg-filename="begin-building-your-personal-schedule"
+                aria-label="Add Begin Building Your Personal Schedule to calendar"
+              >
+                ADD TO CALENDAR
+              </button>
+            </article>
+          </div>
+          <div class="kbyg-section__actions">
+            <!-- WEBFLOW BIND: Delegate KBYG Page > Hub URL. -->
+            <a class="kbyg-button kbyg-button--calendar-link" href="#hub">VIEW ALL KEY DATES</a>
+          </div>
+        </div>
+
+        <!-- WEBFLOW CONDITION: Audience is Sponsor. -->
+        <div data-kbyg-audience-branch="sponsor">
+          <header class="kbyg-section__header">
+            <p class="kbyg-section__eyebrow">MARK YOUR CALENDAR</p>
+            <h2 id="kbyg-key-dates-title-sponsor" class="kbyg-section__title">
+              Key Dates &amp; Deliverables.
+            </h2>
+            <p class="kbyg-section__intro">
+              Company, attendee, and business-meeting milestones—sequenced from profiling through
+              arrival.
+            </p>
+          </header>
+          <!--
+            WEBFLOW COLLECTION LIST: KBYG Page > Key Dates, preserving multi-reference order.
+            Require Block Type = Key Date and Audience Scope = Shared or Sponsor.
+          -->
+          <div class="kbyg-dates-grid">
+            <article class="kbyg-date-card" data-kbyg-calendar-item>
+              <time class="kbyg-date-card__date" datetime="2026-07-22">
+                <span class="kbyg-date-card__month">Jul</span>
+                <span class="kbyg-date-card__day">22</span>
+              </time>
+              <div>
+                <h3 class="kbyg-date-card__title" data-kbyg-calendar-title>
+                  Deadline to Submit Delegate Profiling Question
+                </h3>
+                <p class="kbyg-date-card__display-date">Wednesday, July 22, 2026</p>
+                <span class="kbyg-sr-only" data-kbyg-calendar-description
+                  >Deadline to Submit Delegate Profiling Question</span
+                >
+              </div>
+              <button
+                class="kbyg-button kbyg-button--calendar"
+                type="button"
+                data-kbyg-calendar
+                data-kbyg-event-id="hchr-sep-2026-sponsor-date-1"
+                data-kbyg-start="2026-07-22"
+                data-kbyg-end="2026-07-22"
+                data-kbyg-all-day="true"
+                data-kbyg-title="Deadline to Submit Delegate Profiling Question"
+                data-kbyg-filename="deadline-to-submit-delegate-profiling-question"
+                aria-label="Add Deadline to Submit Delegate Profiling Question to calendar"
+              >
+                ADD TO CALENDAR
+              </button>
+            </article>
+            <article class="kbyg-date-card" data-kbyg-calendar-item>
+              <time class="kbyg-date-card__date" datetime="2026-08-14">
+                <span class="kbyg-date-card__month">Aug</span>
+                <span class="kbyg-date-card__day">14</span>
+              </time>
+              <div>
+                <h3 class="kbyg-date-card__title" data-kbyg-calendar-title>
+                  Deadline to Register Attendees and Submit Travel Details
+                </h3>
+                <p class="kbyg-date-card__display-date">Friday, August 14, 2026</p>
+                <span class="kbyg-sr-only" data-kbyg-calendar-description
+                  >Deadline to Register Attendees and Submit Travel Details</span
+                >
+              </div>
+              <button
+                class="kbyg-button kbyg-button--calendar"
+                type="button"
+                data-kbyg-calendar
+                data-kbyg-event-id="hchr-sep-2026-sponsor-date-2"
+                data-kbyg-start="2026-08-14"
+                data-kbyg-end="2026-08-14"
+                data-kbyg-all-day="true"
+                data-kbyg-title="Deadline to Register Attendees and Submit Travel Details"
+                data-kbyg-filename="deadline-to-register-attendees-and-submit-travel-details"
+                aria-label="Add Deadline to Register Attendees and Submit Travel Details to calendar"
+              >
+                ADD TO CALENDAR
+              </button>
+            </article>
+            <article class="kbyg-date-card" data-kbyg-calendar-item>
+              <time class="kbyg-date-card__date" datetime="2026-08-14">
+                <span class="kbyg-date-card__month">Aug</span>
+                <span class="kbyg-date-card__day">14</span>
+              </time>
+              <div>
+                <h3 class="kbyg-date-card__title" data-kbyg-calendar-title>
+                  Deadline to Submit Company Details &amp; Logo
+                </h3>
+                <p class="kbyg-date-card__display-date">Friday, August 14, 2026</p>
+                <span class="kbyg-sr-only" data-kbyg-calendar-description
+                  >Deadline to Submit Company Details &amp; Logo</span
+                >
+              </div>
+              <button
+                class="kbyg-button kbyg-button--calendar"
+                type="button"
+                data-kbyg-calendar
+                data-kbyg-event-id="hchr-sep-2026-sponsor-date-3"
+                data-kbyg-start="2026-08-14"
+                data-kbyg-end="2026-08-14"
+                data-kbyg-all-day="true"
+                data-kbyg-title="Deadline to Submit Company Details &amp; Logo"
+                data-kbyg-filename="deadline-to-submit-company-details-and-logo"
+                aria-label="Add Deadline to Submit Company Details &amp; Logo to calendar"
+              >
+                ADD TO CALENDAR
+              </button>
+            </article>
+            <article class="kbyg-date-card" data-kbyg-calendar-item>
+              <time class="kbyg-date-card__date" datetime="2026-08-26">
+                <span class="kbyg-date-card__month">Aug</span>
+                <span class="kbyg-date-card__day">26</span>
+              </time>
+              <div>
+                <h3 class="kbyg-date-card__title" data-kbyg-calendar-title>
+                  Begin Submitting Your Business Meeting Preferences
+                </h3>
+                <p class="kbyg-date-card__display-date">Wednesday, August 26, 2026</p>
+                <span class="kbyg-sr-only" data-kbyg-calendar-description
+                  >Begin Submitting Your Business Meeting Preferences</span
+                >
+              </div>
+              <button
+                class="kbyg-button kbyg-button--calendar"
+                type="button"
+                data-kbyg-calendar
+                data-kbyg-event-id="hchr-sep-2026-sponsor-date-4"
+                data-kbyg-start="2026-08-26"
+                data-kbyg-end="2026-08-26"
+                data-kbyg-all-day="true"
+                data-kbyg-title="Begin Submitting Your Business Meeting Preferences"
+                data-kbyg-filename="begin-submitting-your-business-meeting-preferences"
+                aria-label="Add Begin Submitting Your Business Meeting Preferences to calendar"
+              >
+                ADD TO CALENDAR
+              </button>
+            </article>
+          </div>
+          <div class="kbyg-section__actions">
+            <!-- WEBFLOW BIND: Sponsor KBYG Page > Hub URL. -->
+            <a class="kbyg-button kbyg-button--calendar-link" href="#hub">VIEW ALL KEY DATES</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div class="kbyg-curve kbyg-curve--mist" data-kbyg-curve="right" aria-hidden="true">
+      <!-- WEBFLOW COMPONENT INSTANCE: Curve Right. -->
+    </div>
+
+    <section
+      id="agenda"
+      class="kbyg-section kbyg-section--mist kbyg-section--dots"
+      data-kbyg-section="agenda"
+      aria-labelledby="kbyg-agenda-title"
+    >
+      <div class="kbyg-container">
+        <header class="kbyg-section__header">
+          <!-- WEBFLOW BIND: KBYG Page > Agenda Eyebrow/Title/Intro. -->
+          <p class="kbyg-section__eyebrow">PLAN YOUR DAILY SCHEDULE</p>
+          <h2 id="kbyg-agenda-title" class="kbyg-section__title">Agenda At-A-Glance.</h2>
+          <p class="kbyg-section__intro">
+            Times are approximate and subject to change. Please refer to the Event Agenda in the
+            Sponsor Hub for complete program details.
+          </p>
+        </header>
+        <!--
+          WEBFLOW COLLECTION LIST: KBYG Page > Agenda Days, preserving multi-reference order.
+          Require Block Type = Agenda Day and Audience Scope = Shared or the current audience.
+        -->
+        <div class="kbyg-agenda-grid">
+          <article class="kbyg-agenda-card">
+            <h3 class="kbyg-agenda-card__header">
+              <span class="kbyg-agenda-card__icon" aria-hidden="true">
+                <img
+                  src="https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6a9a663c452b111de6552397_kbyg-calendar-clock.svg"
+                  alt=""
+                  loading="lazy"
+                  decoding="async"
+                />
+              </span>
+              DAY 1 - SUNDAY
+            </h3>
+            <ul class="kbyg-agenda-card__list">
+              <li class="kbyg-agenda-card__row">
+                <time class="kbyg-agenda-card__time">12:00 PM - 1:00 PM</time>
+                <span class="kbyg-agenda-card__item">Registration &amp; Welcome</span>
+              </li>
+              <li class="kbyg-agenda-card__row">
+                <time class="kbyg-agenda-card__time">1:00 PM - 6:30 PM</time>
+                <span class="kbyg-agenda-card__item"
+                  >Conference Sessions, Think Tanks &amp; Business Meetings</span
+                >
+              </li>
+              <li class="kbyg-agenda-card__row">
+                <time class="kbyg-agenda-card__time">6:30 PM - 8:00 PM</time>
+                <span class="kbyg-agenda-card__item">Welcome Reception &amp; Dinner</span>
+              </li>
+            </ul>
+          </article>
+          <article class="kbyg-agenda-card">
+            <h3 class="kbyg-agenda-card__header">
+              <span class="kbyg-agenda-card__icon" aria-hidden="true">
+                <img
+                  src="https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6a9a663c452b111de6552397_kbyg-calendar-clock.svg"
+                  alt=""
+                  loading="lazy"
+                  decoding="async"
+                />
+              </span>
+              DAY 2 - MONDAY
+            </h3>
+            <ul class="kbyg-agenda-card__list">
+              <li class="kbyg-agenda-card__row">
+                <time class="kbyg-agenda-card__time">7:30 AM - 8:30 AM</time>
+                <span class="kbyg-agenda-card__item">Breakfast</span>
+              </li>
+              <li class="kbyg-agenda-card__row">
+                <time class="kbyg-agenda-card__time">8:30 AM - 6:30 PM</time>
+                <span class="kbyg-agenda-card__item"
+                  >Event Programming, Breakouts &amp; Business Meetings</span
+                >
+              </li>
+              <li class="kbyg-agenda-card__row">
+                <time class="kbyg-agenda-card__time">12:00 PM - 1:00 PM</time>
+                <span class="kbyg-agenda-card__item">Networking Lunch</span>
+              </li>
+              <li class="kbyg-agenda-card__row">
+                <time class="kbyg-agenda-card__time">6:30 PM - 8:00 PM</time>
+                <span class="kbyg-agenda-card__item">Dinner &amp; Evening Entertainment</span>
+              </li>
+            </ul>
+          </article>
+          <article class="kbyg-agenda-card">
+            <h3 class="kbyg-agenda-card__header">
+              <span class="kbyg-agenda-card__icon" aria-hidden="true">
+                <img
+                  src="https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6a9a663c452b111de6552397_kbyg-calendar-clock.svg"
+                  alt=""
+                  loading="lazy"
+                  decoding="async"
+                />
+              </span>
+              DAY 3 - TUESDAY
+            </h3>
+            <ul class="kbyg-agenda-card__list">
+              <li class="kbyg-agenda-card__row">
+                <time class="kbyg-agenda-card__time">7:30 AM - 8:30 AM</time>
+                <span class="kbyg-agenda-card__item">Breakfast</span>
+              </li>
+              <li class="kbyg-agenda-card__row">
+                <time class="kbyg-agenda-card__time">8:30 AM - 12:00 PM</time>
+                <span class="kbyg-agenda-card__item"
+                  >Conference Sessions, Think Tanks &amp; Business Meetings</span
+                >
+              </li>
+              <li class="kbyg-agenda-card__row">
+                <time class="kbyg-agenda-card__time">12:00 PM</time>
+                <span class="kbyg-agenda-card__item">Closing Remarks &amp; Event Conclusion</span>
+              </li>
+            </ul>
+          </article>
+        </div>
+        <div class="kbyg-section__actions">
+          <!-- WEBFLOW BIND: href = Referenced Institute > Agenda Link. -->
+          <a
+            class="kbyg-button kbyg-button--external"
+            href="https://ipmionline.sharepoint.com/:b:/s/IPMIExternal/IQDhY6Ng2S5QQ4ydRO30tLytAd2eoi55aaOvVa0DMGPXDKw"
+            >VIEW FULL INSTITUTE AGENDA</a
+          >
+        </div>
+      </div>
+    </section>
+
+    <div class="kbyg-curve kbyg-curve--dark" data-kbyg-curve="left" aria-hidden="true">
+      <!-- WEBFLOW COMPONENT INSTANCE: Curve Left. -->
+    </div>
+
+    <section id="hub" class="kbyg-section kbyg-section--dark" data-kbyg-section="hub">
+      <div class="kbyg-container">
+        <!-- WEBFLOW CONDITION: Audience is Delegate. -->
+        <div class="kbyg-hub__grid" data-kbyg-audience-branch="delegate">
+          <div class="kbyg-hub__copy">
+            <header class="kbyg-section__header">
+              <p class="kbyg-section__eyebrow">YOUR DIGITAL HOME BASE</p>
+              <h2 id="kbyg-hub-title-delegate" class="kbyg-section__title">Attendee Hub.</h2>
+            </header>
+            <!-- WEBFLOW BIND: Delegate KBYG Page > Hub Body. -->
+            <div class="kbyg-rich-text">
+              <p>
+                The Attendee Hub is your central resource for all event-related information. Through
+                the Hub, you can review key dates and deliverables, submit your Attendee Profile
+                questionnaire and hotel requirements, build your personalized itinerary, and access
+                important event information and resources.
+              </p>
+              <p>
+                Attendee Hub login credentials are provided by your Operations Lead in their welcome
+                email, which is typically sent 8–10 weeks before the event start date.
+              </p>
+            </div>
+            <div class="kbyg-section__actions">
+              <!-- WEBFLOW BIND: Delegate KBYG Page > Hub URL. -->
+              <a
+                class="kbyg-button kbyg-button--external"
+                href="mailto:kbrightling@ipmievents.com"
+                aria-label="Email Katrina Brightling to open the Attendee Hub"
+              >
+                OPEN ATTENDEE HUB
+              </a>
+            </div>
+          </div>
+          <div class="kbyg-hub__media">
+            <!-- WEBFLOW BIND: KBYG Page > Hub Image and Hub Image Alt. -->
+            <img
+              class="kbyg-hub__image"
+              src="https://cdn.prod.website-files.com/6312ee46f4c52faf21ee8ab5/6a9a66d199a7e9cbc7082da8_6a9a6644c73b205cf5e0cf83_kbyg-hub-attendee.webp"
+              alt="Attendee using a tablet while colleagues meet in a hotel lounge"
+            />
+          </div>
+        </div>
+
+        <!-- WEBFLOW CONDITION: Audience is Sponsor. -->
+        <div class="kbyg-hub__grid" data-kbyg-audience-branch="sponsor">
+          <div class="kbyg-hub__copy">
+            <header class="kbyg-section__header">
+              <p class="kbyg-section__eyebrow">YOUR DIGITAL HOME BASE</p>
+              <h2 id="kbyg-hub-title-sponsor" class="kbyg-section__title">Sponsor Hub.</h2>
+            </header>
+            <!-- WEBFLOW BIND: Sponsor KBYG Page > Hub Body. -->
+            <div class="kbyg-rich-text">
+              <p>
+                The Sponsor Hub is the central resource for managing your organization’s
+                participation in the event. Through the Hub, you can submit a custom Delegate
+                Profiling Question, update your company information, register your onsite attendees,
+                complete the business meeting selection process, review key dates and deliverables,
+                and access important event information and resources.
+              </p>
+              <p>
+                Sponsor Hub login credentials are provided by your Operations Lead in their welcome
+                email, which is typically sent 8–10 weeks prior to the event start date.
+              </p>
+            </div>
+            <div class="kbyg-section__actions">
+              <!-- WEBFLOW BIND: Sponsor KBYG Page > Hub URL. -->
+              <a
+                class="kbyg-button kbyg-button--external"
+                href="mailto:kbrightling@ipmievents.com"
+                aria-label="Email Katrina Brightling to open the Sponsor Hub"
+              >
+                OPEN SPONSOR HUB
+              </a>
+            </div>
+          </div>
+          <div class="kbyg-hub__media">
+            <img
+              class="kbyg-hub__image"
+              src="https://cdn.prod.website-files.com/6312ee46f4c52faf21ee8ab5/6a9a66d199a7e9cbc7082da8_6a9a6644c73b205cf5e0cf83_kbyg-hub-attendee.webp"
+              alt="Attendee using a tablet while colleagues meet in a hotel lounge"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div class="kbyg-curve kbyg-curve--light" data-kbyg-curve="right" aria-hidden="true">
+      <!-- WEBFLOW COMPONENT INSTANCE: Curve Right. -->
+    </div>
+
+    <section
+      id="hotel-travel"
+      class="kbyg-section kbyg-section--light"
+      data-kbyg-section="hotel-travel"
+      aria-labelledby="kbyg-travel-title"
+    >
+      <div class="kbyg-container">
+        <header class="kbyg-section__header">
+          <p class="kbyg-section__eyebrow">ARRIVE WITH CONFIDENCE</p>
+          <h2 id="kbyg-travel-title" class="kbyg-section__title">Hotel &amp; Travel.</h2>
+          <!-- WEBFLOW BIND: Referenced Institute > KBYG Hotel Intro. -->
+          <p class="kbyg-section__intro">
+            The essentials for your stay at Grande Lakes, from room coverage to local
+            transportation.
+          </p>
+        </header>
+        <div class="kbyg-travel-grid">
+          <div class="kbyg-travel-gallery">
+            <!-- WEBFLOW BIND: Referenced Institute > Venue Gallery, preserving image order. -->
+            <img
+              class="kbyg-travel-gallery__image"
+              src="https://cdn.prod.website-files.com/6312ee46f4c52faf21ee8ab5/6a9a66fceb4c917e35dec429_6a9a66444b76f8336b80a7b3_kbyg-ritz-carlton-exterior.webp"
+              alt="Exterior of The Ritz-Carlton Orlando, Grande Lakes"
+            />
+            <img
+              class="kbyg-travel-gallery__image"
+              src="https://cdn.prod.website-files.com/6312ee46f4c52faf21ee8ab5/6a9a66fceb4c917e35dec431_6a9a6644ce252381364dc0c2_kbyg-ritz-carlton-pool.webp"
+              alt="Aerial view of The Ritz-Carlton Orlando, Grande Lakes"
+            />
+            <!-- WEBFLOW EMBED: map query = Referenced Institute > Map Query. -->
+            <iframe
+              class="kbyg-travel-gallery__map"
+              src="https://www.google.com/maps?q=The%20Ritz-Carlton%2C%20Orlando%2C%20FL&amp;output=embed"
+              title="Map showing The Ritz-Carlton Orlando, Grande Lakes"
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"
+            ></iframe>
+          </div>
+
+          <div class="kbyg-travel-details">
+            <article class="kbyg-travel-card">
+              <span class="kbyg-icon kbyg-icon--small kbyg-travel-card__icon" aria-hidden="true">
+                <img
+                  src="https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6a9a663fb3881ff63c87e119_kbyg-hotel.svg"
+                  alt=""
+                  loading="lazy"
+                  decoding="async"
+                />
+              </span>
+              <h3 class="kbyg-travel-card__title">The Ritz-Carlton</h3>
+              <div class="kbyg-travel-card__body">
+                <p class="kbyg-travel-card__meta-line">
+                  <span class="kbyg-glyph" aria-hidden="true">
+                    <svg viewBox="0 0 24 24" focusable="false">
+                      <path
+                        d="M20 10c0 5-8 11-8 11S4 15 4 10a8 8 0 1 1 16 0Z"
+                        fill="none"
+                        stroke="currentColor"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        stroke-width="1.75"
+                      />
+                      <circle
+                        cx="12"
+                        cy="10"
+                        r="2.5"
+                        fill="none"
+                        stroke="currentColor"
+                        stroke-width="1.75"
+                      />
+                    </svg>
+                  </span>
+                  <span>4012 Central Florida Parkway, Orlando, FL 32837</span>
+                </p>
+                <p class="kbyg-travel-card__meta-line">
+                  <a class="kbyg-travel-card__meta-link" href="tel:+14072062400">
+                    <span
+                      class="kbyg-glyph kbyg-glyph--mask kbyg-glyph--phone"
+                      aria-hidden="true"
+                    ></span>
+                    <span>407.206.2400</span>
+                  </a>
+                </p>
+              </div>
+            </article>
+
+            <!-- WEBFLOW CONDITION: Audience is Delegate. -->
+            <article class="kbyg-travel-card" data-kbyg-audience-branch="delegate">
+              <span class="kbyg-icon kbyg-icon--small kbyg-travel-card__icon" aria-hidden="true">
+                <img
+                  src="https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6a9a663aaaffd3efb5e5dfac_kbyg-bed.svg"
+                  alt=""
+                  loading="lazy"
+                  decoding="async"
+                />
+              </span>
+              <h3 class="kbyg-travel-card__title">Hotel Reservations</h3>
+              <!-- WEBFLOW BIND: Referenced Institute > KBYG Reservation Details. -->
+              <div class="kbyg-travel-card__body">
+                <p>
+                  Secure your reservation by submitting your hotel needs through the Attendee Hub’s
+                  “Book Hotel” tab by the deadline. Your participation includes two nights;
+                  additional nights, if available, are $335 per night plus a $25 nightly resort fee,
+                  payable at check-out.
+                </p>
+              </div>
+              <!-- WEBFLOW BIND: Referenced Institute > KBYG Reservation URL. -->
+              <a
+                class="kbyg-travel-card__link kbyg-travel-card__link--email"
+                href="mailto:kbrightling@ipmievents.com"
+                >REQUEST RESERVATION SUPPORT</a
+              >
+            </article>
+
+            <!-- WEBFLOW CONDITION: Audience is Sponsor. -->
+            <article class="kbyg-travel-card" data-kbyg-audience-branch="sponsor">
+              <span class="kbyg-icon kbyg-icon--small kbyg-travel-card__icon" aria-hidden="true">
+                <img
+                  src="https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6a9a663aaaffd3efb5e5dfac_kbyg-bed.svg"
+                  alt=""
+                  loading="lazy"
+                  decoding="async"
+                />
+              </span>
+              <h3 class="kbyg-travel-card__title">Hotel Reservations</h3>
+              <!-- WEBFLOW BIND: Institute reservation copy with Sponsor Hub substituted for this audience. -->
+              <div class="kbyg-travel-card__body">
+                <p>
+                  Secure your reservation by submitting your hotel needs through the Sponsor Hub’s
+                  “Book Hotel” tab by the deadline. Your participation includes two nights;
+                  additional nights, if available, are $335 per night plus a $25 nightly resort fee,
+                  payable at check-out.
+                </p>
+              </div>
+              <!-- WEBFLOW BIND: Referenced Institute > KBYG Reservation URL. -->
+              <a
+                class="kbyg-travel-card__link kbyg-travel-card__link--email"
+                href="mailto:kbrightling@ipmievents.com"
+                >REQUEST RESERVATION SUPPORT</a
+              >
+            </article>
+
+            <!-- WEBFLOW CONDITION: Audience is Delegate. -->
+            <article class="kbyg-travel-card" data-kbyg-audience-branch="delegate">
+              <span class="kbyg-icon kbyg-icon--small kbyg-travel-card__icon" aria-hidden="true">
+                <img
+                  src="https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6a9a663c452b111de65523db_kbyg-car.svg"
+                  alt=""
+                  loading="lazy"
+                  decoding="async"
+                />
+              </span>
+              <h3 class="kbyg-travel-card__title">Transportation</h3>
+              <!-- WEBFLOW BIND: Referenced Institute > KBYG Transportation Details. -->
+              <div class="kbyg-travel-card__body">
+                <p>
+                  Guests are responsible for arranging their own transportation to and from the
+                  hotel. For destination information and helpful local recommendations, please visit
+                  the Attendee Hub.
+                </p>
+              </div>
+            </article>
+
+            <!-- WEBFLOW CONDITION: Audience is Sponsor. -->
+            <article class="kbyg-travel-card" data-kbyg-audience-branch="sponsor">
+              <span class="kbyg-icon kbyg-icon--small kbyg-travel-card__icon" aria-hidden="true">
+                <img
+                  src="https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6a9a663c452b111de65523db_kbyg-car.svg"
+                  alt=""
+                  loading="lazy"
+                  decoding="async"
+                />
+              </span>
+              <h3 class="kbyg-travel-card__title">Transportation</h3>
+              <!-- WEBFLOW BIND: Institute transportation copy with Sponsor Hub substituted for this audience. -->
+              <div class="kbyg-travel-card__body">
+                <p>
+                  Guests are responsible for arranging their own transportation to and from the
+                  hotel. For destination information and helpful local recommendations, please visit
+                  the Sponsor Hub.
+                </p>
+              </div>
+            </article>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div class="kbyg-curve kbyg-curve--dark" data-kbyg-curve="left" aria-hidden="true">
+      <!-- WEBFLOW COMPONENT INSTANCE: Curve Left. -->
+    </div>
+
+    <section
+      id="experience"
+      class="kbyg-section kbyg-section--dark kbyg-section--dots"
+      data-kbyg-section="experience"
+    >
+      <div class="kbyg-container">
+        <!-- WEBFLOW CONDITION: Audience is Delegate. -->
+        <div data-kbyg-audience-branch="delegate">
+          <header class="kbyg-section__header">
+            <p class="kbyg-section__eyebrow">DESIGNED AROUND CONNECTION</p>
+            <h2 id="kbyg-experience-title-delegate" class="kbyg-section__title">
+              Your Institute Experience.
+            </h2>
+            <p class="kbyg-section__intro">
+              A purposeful mix of insight, one-to-one conversation, and peer collaboration.
+            </p>
+          </header>
+          <!--
+            WEBFLOW COLLECTION LIST: KBYG Page > Experience, preserving multi-reference order.
+            Require Block Type = Experience and Audience Scope = Shared or Delegate.
+          -->
+          <div class="kbyg-experience-grid">
+            <article class="kbyg-icon-card">
+              <span class="kbyg-icon kbyg-icon-card__icon" aria-hidden="true">
+                <img
+                  src="https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6a9a6641ec11449c643c5bfe_kbyg-podium.svg"
+                  alt=""
+                  loading="lazy"
+                  decoding="async"
+                />
+              </span>
+              <h3 class="kbyg-icon-card__title">Thought Leadership Sessions</h3>
+              <div class="kbyg-icon-card__body">
+                <p>
+                  Gain valuable insights from industry leaders through panel discussions and case
+                  studies focused on the most pressing issues facing healthcare HR executives.
+                </p>
+              </div>
+            </article>
+            <article class="kbyg-icon-card">
+              <span class="kbyg-icon kbyg-icon-card__icon" aria-hidden="true">
+                <img
+                  src="https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6a9a663faaffd3efb5e5e562_kbyg-handshake.svg"
+                  alt=""
+                  loading="lazy"
+                  decoding="async"
+                />
+              </span>
+              <h3 class="kbyg-icon-card__title">Business Meetings</h3>
+              <div class="kbyg-icon-card__body">
+                <p>
+                  Connect one-on-one with leading Service Providers in curated 30-minute meetings
+                  tailored to your interests, priorities, and business objectives.
+                </p>
+              </div>
+            </article>
+            <article class="kbyg-icon-card">
+              <span class="kbyg-icon kbyg-icon-card__icon" aria-hidden="true">
+                <img
+                  src="https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6a9a663efd883fff73e1a469_kbyg-group.svg"
+                  alt=""
+                  loading="lazy"
+                  decoding="async"
+                />
+              </span>
+              <h3 class="kbyg-icon-card__title">Interactive Think Tank Sessions</h3>
+              <div class="kbyg-icon-card__body">
+                <p>
+                  Collaborate with peers in small-group discussions designed to tackle shared
+                  challenges, exchange ideas, and develop actionable strategies in a highly
+                  engaging, solution-focused environment.
+                </p>
+              </div>
+            </article>
+          </div>
+        </div>
+
+        <!-- WEBFLOW CONDITION: Audience is Sponsor. -->
+        <div data-kbyg-audience-branch="sponsor">
+          <header class="kbyg-section__header">
+            <p class="kbyg-section__eyebrow">MAKE EVERY CONVERSATION COUNT</p>
+            <h2 id="kbyg-experience-title-sponsor" class="kbyg-section__title">
+              Business Meetings &amp; Onsite Experience.
+            </h2>
+            <p class="kbyg-section__intro">
+              Business meetings are pre-scheduled based on the priorities and preferences submitted
+              by both Service Providers and attending executives.
+            </p>
+          </header>
+          <aside class="kbyg-meeting-method" aria-labelledby="kbyg-meeting-method-title">
+            <h3 id="kbyg-meeting-method-title" class="kbyg-meeting-method__title">
+              How Meetings Are Scheduled
+            </h3>
+            <div class="kbyg-meeting-method__list">
+              <div class="kbyg-meeting-method__item">
+                <h4 class="kbyg-meeting-method__item-title">Mutual Requests</h4>
+                <p class="kbyg-meeting-method__item-body">
+                  Both parties have selected one another.
+                </p>
+              </div>
+              <div class="kbyg-meeting-method__item">
+                <h4 class="kbyg-meeting-method__item-title">Delegate Requests</h4>
+                <p class="kbyg-meeting-method__item-body">
+                  The executive has requested your organization.
+                </p>
+              </div>
+              <div class="kbyg-meeting-method__item">
+                <h4 class="kbyg-meeting-method__item-title">Service Provider Requests</h4>
+                <p class="kbyg-meeting-method__item-body">
+                  Your organization has requested the executive.
+                </p>
+              </div>
+            </div>
+          </aside>
+          <!--
+            WEBFLOW COLLECTION LIST: KBYG Page > Experience, preserving multi-reference order.
+            The three meeting-method records render above; the remaining five Experience records
+            render below. Require Audience Scope = Shared or Sponsor.
+          -->
+          <div class="kbyg-experience-grid">
+            <article class="kbyg-icon-card">
+              <span class="kbyg-icon kbyg-icon-card__icon" aria-hidden="true">
+                <img
+                  src="https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6a9a6642e375a810fc4cdef1_kbyg-prohibited.svg"
+                  alt=""
+                  loading="lazy"
+                  decoding="async"
+                />
+              </span>
+              <h3 class="kbyg-icon-card__title">Opt-Outs</h3>
+              <div class="kbyg-icon-card__body">
+                <p>
+                  A confidential Opt-Out feature is available during the selection process, allowing
+                  you to exclude specific organizations from your schedule and keep your meetings
+                  focused on the conversations most relevant to your business objectives.
+                </p>
+              </div>
+            </article>
+            <article class="kbyg-icon-card">
+              <span class="kbyg-icon kbyg-icon-card__icon" aria-hidden="true">
+                <img
+                  src="https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6a9a663c452b111de6552397_kbyg-calendar-clock.svg"
+                  alt=""
+                  loading="lazy"
+                  decoding="async"
+                />
+              </span>
+              <h3 class="kbyg-icon-card__title">Meeting Schedule</h3>
+              <div class="kbyg-icon-card__body">
+                <p>
+                  Your personalized business meeting schedule will be released on the Tuesday prior
+                  to the event, providing ample time to review your itinerary, research attendees,
+                  and prepare for productive onsite discussions.
+                </p>
+              </div>
+            </article>
+            <article class="kbyg-icon-card">
+              <span class="kbyg-icon kbyg-icon-card__icon" aria-hidden="true">
+                <img
+                  src="https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6a9a663d452b111de6552407_kbyg-chair.svg"
+                  alt=""
+                  loading="lazy"
+                  decoding="async"
+                />
+              </span>
+              <h3 class="kbyg-icon-card__title">Meeting Space</h3>
+              <div class="kbyg-icon-card__body">
+                <p>
+                  Our team will take care of all meeting space setup on your behalf, including
+                  signage, tables, chairs, power, lighting, and Wi-Fi. For photos and additional
+                  details about the meeting environment, please visit the FAQ section of the Sponsor
+                  Hub.
+                </p>
+              </div>
+            </article>
+            <article class="kbyg-icon-card">
+              <span class="kbyg-icon kbyg-icon-card__icon" aria-hidden="true">
+                <img
+                  src="https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6a9a6641ec11449c643c5bfe_kbyg-podium.svg"
+                  alt=""
+                  loading="lazy"
+                  decoding="async"
+                />
+              </span>
+              <h3 class="kbyg-icon-card__title">Thought Leadership Sessions</h3>
+              <div class="kbyg-icon-card__body">
+                <p>
+                  Sponsors are invited to attend the Thought Leadership Sessions and gain valuable
+                  insights from industry leaders through panel discussions and case studies focused
+                  on the most pressing issues facing healthcare HR executives. Visit the Sponsor Hub
+                  to view the agenda and session details.
+                </p>
+              </div>
+            </article>
+            <article class="kbyg-icon-card">
+              <span class="kbyg-icon kbyg-icon-card__icon" aria-hidden="true">
+                <img
+                  src="https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6a9a663dfd883fff73e1a399_kbyg-glasses.svg"
+                  alt=""
+                  loading="lazy"
+                  decoding="async"
+                />
+              </span>
+              <h3 class="kbyg-icon-card__title">Networking Opportunities</h3>
+              <div class="kbyg-icon-card__body">
+                <p>
+                  Enjoy enhanced networking opportunities including daily interactive group meals,
+                  engaging icebreaker activities, and refreshing coffee breaks, all thoughtfully
+                  designed to facilitate meaningful connections within the group.
+                </p>
+              </div>
+            </article>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div class="kbyg-curve kbyg-curve--mist" data-kbyg-curve="right" aria-hidden="true">
+      <!-- WEBFLOW COMPONENT INSTANCE: Curve Right. -->
+    </div>
+
+    <!-- WEBFLOW CONDITION: Audience is Delegate; omit this entire section for Sponsor output. -->
+    <section
+      id="faq"
+      class="kbyg-section kbyg-section--mist"
+      data-kbyg-section="faq"
+      data-kbyg-audience-branch="delegate"
+      aria-labelledby="kbyg-faq-title"
+    >
+      <div class="kbyg-container">
+        <header class="kbyg-section__header">
+          <p class="kbyg-section__eyebrow">HELPFUL ANSWERS</p>
+          <h2 id="kbyg-faq-title" class="kbyg-section__title">Frequently Asked Questions.</h2>
+        </header>
+        <!--
+          WEBFLOW COLLECTION LIST: KBYG Page > FAQs, preserving multi-reference order.
+          Require Block Type = FAQ and Audience Scope = Shared or Delegate. Conditionally emit
+          data-kbyg-initially-expanded="true" from the CMS switch. JavaScript assigns unique
+          trigger/panel IDs and their ARIA relationships.
+        -->
+        <div class="kbyg-faq-list">
+          <article class="kbyg-faq-item" data-kbyg-accordion data-kbyg-initially-expanded="true">
+            <h3>
+              <button
+                class="kbyg-faq-item__trigger"
+                type="button"
+                aria-expanded="true"
+                data-kbyg-accordion-trigger
+              >
+                <span class="kbyg-faq-item__question-icon" aria-hidden="true">?</span>
+                <span class="kbyg-faq-item__title">When will I receive my hotel confirmation?</span>
+                <span class="kbyg-faq-item__toggle" aria-hidden="true"></span>
+              </button>
+            </h3>
+            <div class="kbyg-faq-item__panel" data-kbyg-accordion-panel>
+              <p>
+                Hotel confirmation numbers will be provided by your Operations Lead approximately 10
+                days prior to the event.
+              </p>
+            </div>
+          </article>
+          <article class="kbyg-faq-item" data-kbyg-accordion>
+            <h3>
+              <button
+                class="kbyg-faq-item__trigger"
+                type="button"
+                aria-expanded="false"
+                data-kbyg-accordion-trigger
+              >
+                <span class="kbyg-faq-item__question-icon" aria-hidden="true">?</span>
+                <span class="kbyg-faq-item__title">What is the dress code?</span>
+                <span class="kbyg-faq-item__toggle" aria-hidden="true"></span>
+              </button>
+            </h3>
+            <div class="kbyg-faq-item__panel" data-kbyg-accordion-panel hidden>
+              <p>Please contact your Operations Lead for current event dress-code guidance.</p>
+            </div>
+          </article>
+          <article class="kbyg-faq-item" data-kbyg-accordion>
+            <h3>
+              <button
+                class="kbyg-faq-item__trigger"
+                type="button"
+                aria-expanded="false"
+                data-kbyg-accordion-trigger
+              >
+                <span class="kbyg-faq-item__question-icon" aria-hidden="true">?</span>
+                <span class="kbyg-faq-item__title"
+                  >Are guests permitted to attend the meal functions?</span
+                >
+                <span class="kbyg-faq-item__toggle" aria-hidden="true"></span>
+              </button>
+            </h3>
+            <div class="kbyg-faq-item__panel" data-kbyg-accordion-panel hidden>
+              <p>
+                Please contact your Operations Lead before making guest plans for meal functions.
+              </p>
+            </div>
+          </article>
+          <article class="kbyg-faq-item" data-kbyg-accordion>
+            <h3>
+              <button
+                class="kbyg-faq-item__trigger"
+                type="button"
+                aria-expanded="false"
+                data-kbyg-accordion-trigger
+              >
+                <span class="kbyg-faq-item__question-icon" aria-hidden="true">?</span>
+                <span class="kbyg-faq-item__title"
+                  >Am I required to participate in the Business Meetings?</span
+                >
+                <span class="kbyg-faq-item__toggle" aria-hidden="true"></span>
+              </button>
+            </h3>
+            <div class="kbyg-faq-item__panel" data-kbyg-accordion-panel hidden>
+              <p>
+                Please contact your Operations Lead with any questions about your scheduled Business
+                Meetings.
+              </p>
+            </div>
+          </article>
+          <article class="kbyg-faq-item" data-kbyg-accordion>
+            <h3>
+              <button
+                class="kbyg-faq-item__trigger"
+                type="button"
+                aria-expanded="false"
+                data-kbyg-accordion-trigger
+              >
+                <span class="kbyg-faq-item__question-icon" aria-hidden="true">?</span>
+                <span class="kbyg-faq-item__title"
+                  >Where can I access further event details and information?</span
+                >
+                <span class="kbyg-faq-item__toggle" aria-hidden="true"></span>
+              </button>
+            </h3>
+            <div class="kbyg-faq-item__panel" data-kbyg-accordion-panel hidden>
+              <p>Current event details and resources are available in the Attendee Hub.</p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- WEBFLOW CONDITION: Audience is Sponsor; omit this entire section for Delegate output. -->
+    <section
+      id="sponsor-support"
+      class="kbyg-section kbyg-section--mist kbyg-section--compact"
+      data-kbyg-section="sponsor-support"
+      data-kbyg-audience-branch="sponsor"
+      aria-labelledby="kbyg-sponsor-support-title"
+    >
+      <div class="kbyg-container kbyg-support__grid">
+        <div>
+          <header class="kbyg-section__header">
+            <p class="kbyg-section__eyebrow">NEED AN ANSWER?</p>
+            <h2 id="kbyg-sponsor-support-title" class="kbyg-section__title">
+              Sponsor Support Lives in the Hub.
+            </h2>
+          </header>
+          <!-- WEBFLOW BIND: Sponsor KBYG Page > Support Body. -->
+          <div class="kbyg-rich-text">
+            <p>
+              Visit the Sponsor Hub for a comprehensive FAQ section covering a wide range of topics,
+              including pre-event deliverables, hotel reservations, business meetings, shipping
+              instructions, onsite logistics, and post-event follow-up details.
+            </p>
+          </div>
+        </div>
+        <!-- WEBFLOW BIND: Sponsor KBYG Page > Support URL and Support CTA Label. -->
+        <a
+          class="kbyg-button kbyg-button--external"
+          href="mailto:kbrightling@ipmievents.com"
+          aria-label="Email Katrina Brightling for Sponsor Hub support"
+        >
+          VISIT THE SPONSOR HUB
+        </a>
+      </div>
+    </section>
+
+    <div class="kbyg-curve kbyg-curve--dark" data-kbyg-curve="left" aria-hidden="true">
+      <!-- WEBFLOW COMPONENT INSTANCE: Curve Left. -->
+    </div>
+
+    <section
+      id="contact"
+      class="kbyg-section kbyg-section--dark"
+      data-kbyg-section="contact"
+      aria-labelledby="kbyg-contact-title"
+    >
+      <div class="kbyg-container kbyg-contact__grid">
+        <div class="kbyg-contact__copy">
+          <p class="kbyg-section__eyebrow">YOUR OPERATIONS LEAD</p>
+          <h2 id="kbyg-contact-title" class="kbyg-contact__title">
+            Questions Before You Go?<br />We’re Here to Help.
+          </h2>
+          <!-- WEBFLOW CONDITION: Audience is Delegate. -->
+          <p class="kbyg-section__intro" data-kbyg-audience-branch="delegate">
+            Reach out for help with your Attendee Hub, hotel details, profile, or personal schedule.
+          </p>
+          <!-- WEBFLOW CONDITION: Audience is Sponsor. -->
+          <p class="kbyg-section__intro" data-kbyg-audience-branch="sponsor">
+            Reach out for help with the Sponsor Hub, attendee registrations, deliverables, hotel
+            details, or meeting selections.
+          </p>
+        </div>
+
+        <!-- WEBFLOW BIND: the same KBYG Page > Operations Lead reference used above. -->
+        <aside
+          class="kbyg-contact-card kbyg-contact-card--dark"
+          aria-label="Contact Katrina Brightling, Operations Director"
+        >
+          <div class="kbyg-contact-card__identity">
+            <img
+              class="kbyg-contact-card__photo"
+              src="https://cdn.prod.website-files.com/6312ee46f4c52faf21ee8ab5/6a2190a1fe9f7474db6cfc18_Katrina%20Brightling%20bnw%20Photo.jpg"
+              alt="Katrina Brightling, Operations Director"
+            />
+            <div>
+              <p class="kbyg-contact-card__eyebrow">YOUR OPERATIONS LEAD</p>
+              <h3 class="kbyg-contact-card__name">Katrina Brightling</h3>
+              <p class="kbyg-contact-card__title">Operations Director</p>
+              <p class="kbyg-contact-card__organization">IPMI</p>
+            </div>
+          </div>
+          <ul class="kbyg-contact-card__meta">
+            <li class="kbyg-contact-card__meta-item">
+              <a class="kbyg-contact-card__meta-link" href="tel:+16479698536">
+                <span class="kbyg-contact-card__meta-icon" aria-hidden="true">
+                  <span class="kbyg-glyph kbyg-glyph--mask kbyg-glyph--phone"></span>
+                </span>
+                <span>647.969.8536</span>
+              </a>
+            </li>
+            <li class="kbyg-contact-card__meta-item">
+              <a class="kbyg-contact-card__meta-link" href="mailto:kbrightling@ipmievents.com">
+                <span class="kbyg-contact-card__meta-icon" aria-hidden="true">
+                  <span class="kbyg-glyph kbyg-glyph--mask kbyg-glyph--mail"></span>
+                </span>
+                <span>kbrightling@ipmievents.com</span>
+              </a>
+            </li>
+          </ul>
+        </aside>
+      </div>
+    </section>
+
+    <div class="kbyg-curve kbyg-curve--light" data-kbyg-curve="right" aria-hidden="true">
+      <!-- WEBFLOW COMPONENT INSTANCE: Curve Right. -->
+    </div>
+  </main>
+
+  <!-- WEBFLOW COMPONENT INSTANCE: Footer -->
+</div>

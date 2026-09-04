@@ -1,0 +1,215 @@
+{
+  "version": 1,
+  "siteId": "62f30d583ebbed2d6d47f9a5",
+  "hashAlgorithm": "md5",
+  "assets": [
+    {
+      "name": "airplane.svg",
+      "path": "assets/kbyg/icons/airplane.svg",
+      "md5": "f4df0925a1586c83919b51e65869c494",
+      "webflowAssetId": "6a9a65cdc73b205cf5e09d2b",
+      "hostedUrl": "https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6a9a65cdc73b205cf5e09d2b_kbyg-airplane.svg",
+      "alt": ""
+    },
+    {
+      "name": "bed.svg",
+      "path": "assets/kbyg/icons/bed.svg",
+      "md5": "96067f525ef64d740e44ffb5cdc9242b",
+      "webflowAssetId": "6a9a663aaaffd3efb5e5dfac",
+      "hostedUrl": "https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6a9a663aaaffd3efb5e5dfac_kbyg-bed.svg",
+      "alt": ""
+    },
+    {
+      "name": "building.svg",
+      "path": "assets/kbyg/icons/building.svg",
+      "md5": "bbb4e6f7f36d64b6c814aff88bc0c0f8",
+      "webflowAssetId": "6a9a663baaffd3efb5e5e069",
+      "hostedUrl": "https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6a9a663baaffd3efb5e5e069_kbyg-building.svg",
+      "alt": ""
+    },
+    {
+      "name": "calendar-check.svg",
+      "path": "assets/kbyg/icons/calendar-check.svg",
+      "md5": "eec175596c6b72d9952688c7ae6319b8",
+      "webflowAssetId": "6a9a663b452b111de655235c",
+      "hostedUrl": "https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6a9a663b452b111de655235c_kbyg-calendar-check.svg",
+      "alt": ""
+    },
+    {
+      "name": "calendar-clock.svg",
+      "path": "assets/kbyg/icons/calendar-clock.svg",
+      "md5": "6979a4c466379b8f5845f0d81d8e59b9",
+      "webflowAssetId": "6a9a663c452b111de6552397",
+      "hostedUrl": "https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6a9a663c452b111de6552397_kbyg-calendar-clock.svg",
+      "alt": ""
+    },
+    {
+      "name": "calendar-plus.svg",
+      "path": "assets/kbyg/icons/calendar-plus.svg",
+      "md5": "841ba49b23f20e5dcec3923f4246687a",
+      "webflowAssetId": "6a9a663cce252381364dbcda",
+      "hostedUrl": "https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6a9a663cce252381364dbcda_kbyg-calendar-plus.svg",
+      "alt": ""
+    },
+    {
+      "name": "car.svg",
+      "path": "assets/kbyg/icons/car.svg",
+      "md5": "71d9a1fa4eb2acf3fafa3222f9fee491",
+      "webflowAssetId": "6a9a663c452b111de65523db",
+      "hostedUrl": "https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6a9a663c452b111de65523db_kbyg-car.svg",
+      "alt": ""
+    },
+    {
+      "name": "chair.svg",
+      "path": "assets/kbyg/icons/chair.svg",
+      "md5": "fca2857af2b0a6ceba9e86ad4d0918ac",
+      "webflowAssetId": "6a9a663d452b111de6552407",
+      "hostedUrl": "https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6a9a663d452b111de6552407_kbyg-chair.svg",
+      "alt": ""
+    },
+    {
+      "name": "external-link.svg",
+      "path": "assets/kbyg/icons/external-link.svg",
+      "md5": "d95724053a15bab009548c163e353b6a",
+      "webflowAssetId": "6a9a663daaffd3efb5e5e3ad",
+      "hostedUrl": "https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6a9a663daaffd3efb5e5e3ad_kbyg-external-link.svg",
+      "alt": ""
+    },
+    {
+      "name": "glasses.svg",
+      "path": "assets/kbyg/icons/glasses.svg",
+      "md5": "0f9e4a0f5ae65dd4a9fcec81a23a2d06",
+      "webflowAssetId": "6a9a663dfd883fff73e1a399",
+      "hostedUrl": "https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6a9a663dfd883fff73e1a399_kbyg-glasses.svg",
+      "alt": ""
+    },
+    {
+      "name": "group.svg",
+      "path": "assets/kbyg/icons/group.svg",
+      "md5": "c0170d3c93acf8ebfa6e4723ef9aca00",
+      "webflowAssetId": "6a9a663efd883fff73e1a469",
+      "hostedUrl": "https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6a9a663efd883fff73e1a469_kbyg-group.svg",
+      "alt": ""
+    },
+    {
+      "name": "handshake.svg",
+      "path": "assets/kbyg/icons/handshake.svg",
+      "md5": "1a92e92bcf31a1f67bba073ef1afc99a",
+      "webflowAssetId": "6a9a663faaffd3efb5e5e562",
+      "hostedUrl": "https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6a9a663faaffd3efb5e5e562_kbyg-handshake.svg",
+      "alt": ""
+    },
+    {
+      "name": "heartbeat.svg",
+      "path": "assets/kbyg/icons/heartbeat.svg",
+      "md5": "6e06848bb19704d2500354b74b28cf0a",
+      "webflowAssetId": "6a9a663f2837d9128fd98981",
+      "hostedUrl": "https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6a9a663f2837d9128fd98981_kbyg-heartbeat.svg",
+      "alt": ""
+    },
+    {
+      "name": "hero-attendee.webp",
+      "path": "assets/kbyg/photos/hero-attendee.webp",
+      "md5": "8ba778fe4d2469596bdebd423077eed5",
+      "webflowAssetId": "6a9a69f8fd883fff73e394fb",
+      "hostedUrl": "https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6a9a69f8fd883fff73e394fb_kbyg-hero-attendee-clean.webp",
+      "alt": "Attendee viewing the Know Before You Go event app in a hotel lobby"
+    },
+    {
+      "name": "hero-orlando-skyline.webp",
+      "path": "assets/kbyg/photos/hero-orlando-skyline.webp",
+      "md5": "c74328d288224b88ae38b1fec05d763a",
+      "webflowAssetId": "6a9a6b00eb4c917e35e13982",
+      "hostedUrl": "https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6a9a6b00eb4c917e35e13982_kbyg-hero-orlando-skyline.webp",
+      "alt": ""
+    },
+    {
+      "name": "hotel.svg",
+      "path": "assets/kbyg/icons/hotel.svg",
+      "md5": "458df18247c1082f61aed6ce1f97c754",
+      "webflowAssetId": "6a9a663fb3881ff63c87e119",
+      "hostedUrl": "https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6a9a663fb3881ff63c87e119_kbyg-hotel.svg",
+      "alt": ""
+    },
+    {
+      "name": "hub-attendee.webp",
+      "path": "assets/kbyg/photos/hub-attendee.webp",
+      "md5": "64fe29d753a3929b78686468f99a4d52",
+      "webflowAssetId": "6a9a6644c73b205cf5e0cf83",
+      "hostedUrl": "https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6a9a6644c73b205cf5e0cf83_kbyg-hub-attendee.webp",
+      "alt": "Attendee using a tablet while colleagues meet in a hotel lounge"
+    },
+    {
+      "name": "mail.svg",
+      "path": "assets/kbyg/icons/mail.svg",
+      "md5": "f8c513ebdaaa1f4741709b86dae76be3",
+      "webflowAssetId": "6a9a664059caf5a850137017",
+      "hostedUrl": "https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6a9a664059caf5a850137017_kbyg-mail.svg",
+      "alt": ""
+    },
+    {
+      "name": "people.svg",
+      "path": "assets/kbyg/icons/people.svg",
+      "md5": "6fa37971ea04ea59649a82ae05647367",
+      "webflowAssetId": "6a9a664059caf5a850137080",
+      "hostedUrl": "https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6a9a664059caf5a850137080_kbyg-people.svg",
+      "alt": ""
+    },
+    {
+      "name": "phone.svg",
+      "path": "assets/kbyg/icons/phone.svg",
+      "md5": "63c17db739c280ce00c385b840a16495",
+      "webflowAssetId": "6a9a66414b76f8336b80a612",
+      "hostedUrl": "https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6a9a66414b76f8336b80a612_kbyg-phone.svg",
+      "alt": ""
+    },
+    {
+      "name": "podium.svg",
+      "path": "assets/kbyg/icons/podium.svg",
+      "md5": "79df115729482bb372c68eb53f53e43c",
+      "webflowAssetId": "6a9a6641ec11449c643c5bfe",
+      "hostedUrl": "https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6a9a6641ec11449c643c5bfe_kbyg-podium.svg",
+      "alt": ""
+    },
+    {
+      "name": "profile.svg",
+      "path": "assets/kbyg/icons/profile.svg",
+      "md5": "f938aa2822fe036853efcd3ae498ec9d",
+      "webflowAssetId": "6a9a6642fd883fff73e1a664",
+      "hostedUrl": "https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6a9a6642fd883fff73e1a664_kbyg-profile.svg",
+      "alt": ""
+    },
+    {
+      "name": "prohibited.svg",
+      "path": "assets/kbyg/icons/prohibited.svg",
+      "md5": "a01fc538a41ea3154e1abac95e4b6682",
+      "webflowAssetId": "6a9a6642e375a810fc4cdef1",
+      "hostedUrl": "https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6a9a6642e375a810fc4cdef1_kbyg-prohibited.svg",
+      "alt": ""
+    },
+    {
+      "name": "question.svg",
+      "path": "assets/kbyg/icons/question.svg",
+      "md5": "317c290e5752eeb0c6b186b10b51265a",
+      "webflowAssetId": "6a9a66432837d9128fd98cc3",
+      "hostedUrl": "https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6a9a66432837d9128fd98cc3_kbyg-question.svg",
+      "alt": ""
+    },
+    {
+      "name": "ritz-carlton-exterior.webp",
+      "path": "assets/kbyg/photos/ritz-carlton-exterior.webp",
+      "md5": "bb2c965d1b2945f7ae27e787320bc4cd",
+      "webflowAssetId": "6a9a66444b76f8336b80a7b3",
+      "hostedUrl": "https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6a9a66444b76f8336b80a7b3_kbyg-ritz-carlton-exterior.webp",
+      "alt": "The Ritz-Carlton Orlando, Grande Lakes exterior at twilight"
+    },
+    {
+      "name": "ritz-carlton-pool.webp",
+      "path": "assets/kbyg/photos/ritz-carlton-pool.webp",
+      "md5": "f9132d3dbcc8a56dd02955b116cfdc51",
+      "webflowAssetId": "6a9a6644ce252381364dc0c2",
+      "hostedUrl": "https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6a9a6644ce252381364dc0c2_kbyg-ritz-carlton-pool.webp",
+      "alt": "Aerial view of the pool at The Ritz-Carlton Orlando, Grande Lakes"
+    }
+  ]
+}

@@ -2,20 +2,32 @@
   "name": "ipmi-webflow",
   "version": "1.0.0",
   "description": "Custom Webflow theme for International Performance Management Institute.",
+  "keywords": [],
+  "license": "ISC",
+  "author": "Bryan Watson - info@bryantwatson.ca",
   "main": "index.js",
   "scripts": {
-		"fmt": "oxfmt",
+    "build:kbyg": "vp exec node scripts/build-kbyg.mjs",
+    "check:kbyg:scope": "vp exec node scripts/check-kbyg-scope.mjs",
+    "check:kbyg:global": "vp exec node scripts/check-kbyg-global-css.mjs",
+    "check:kbyg:markup": "vp exec node scripts/check-kbyg-markup.mjs",
+    "check:kbyg": "vp run build:kbyg && vp run check:kbyg:scope && vp run check:kbyg:global && vp run check:kbyg:markup && vp fmt --check ipmi-kbyg.js scripts tests 'Page HTML/KBYG Pages' assets/kbyg/*.json assets/kbyg/**/*.md && vp lint ipmi-kbyg.js scripts tests && vp test --run tests && vp run validate:kbyg",
+    "fmt": "oxfmt",
     "fmt:check": "oxfmt --check",
-		"lint": "oxlint",
-    "lint:fix": "oxlint --fix"
-	},
-  "keywords": [],
-  "author": "Bryan Watson - info@bryantwatson.ca",
-  "license": "ISC",
-  "packageManager": "pnpm@10.30.3",
+    "lint": "oxlint",
+    "lint:fix": "oxlint --fix",
+    "test:kbyg": "vp test --run tests",
+    "validate:kbyg": "vp exec node scripts/validate-kbyg.mjs tests/fixtures/kbyg-cms-model.json"
+  },
   "devDependencies": {
+    "autoprefixer": "10.5.4",
     "oxfmt": "^0.36.0",
     "oxlint": "^1.51.0",
-    "oxlint-tsgolint": "^0.16.0"
-  }
+    "oxlint-tsgolint": "^0.16.0",
+    "postcss": "8.5.28",
+    "postcss-selector-parser": "7.1.6",
+    "sass": "1.104.0",
+    "vite-plus": "0.3.0"
+  },
+  "packageManager": "pnpm@10.30.3"
 }
