@@ -125,10 +125,16 @@
           </span>
           <!-- WEBFLOW CONDITION: Audience is Sponsor. -->
           <span class="kbyg-hero__badge" data-kbyg-audience-branch="sponsor" aria-hidden="true">
-            <!-- Sponsor badge: uploaded heart/health glyph. -->
-            <span
-              class="kbyg-glyph kbyg-glyph--mask kbyg-glyph--heartbeat kbyg-hero__badge-glyph"
-            ></span>
+            <!--
+              Industry artwork uses the existing IPMI branded SVGs, never Font Awesome.
+              WEBFLOW BIND: data-kbyg-industry = Referenced Institute > Global - Institute Category.
+              Runtime selects the matching category artwork; this is the Healthcare fallback.
+            -->
+            <img
+              data-kbyg-industry-icon
+              src="https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/638989f462c2a24e78ab5665_IPMI-Healthcare-Icon.svg"
+              alt=""
+            />
           </span>
         </div>
       </div>
@@ -673,8 +679,15 @@
             </article>
           </div>
           <div class="kbyg-section__actions">
-            <!-- WEBFLOW BIND: Delegate KBYG Page > Hub URL. -->
-            <a class="kbyg-button kbyg-button--calendar-link" href="#hub">VIEW ALL KEY DATES</a>
+            <!-- Runtime reveals all CMS dates; keep the CMS list unpaginated and unlimited. -->
+            <button
+              class="kbyg-button kbyg-button--calendar-link"
+              type="button"
+              data-kbyg-dates-toggle
+              aria-expanded="false"
+            >
+              VIEW ALL KEY DATES
+            </button>
           </div>
         </div>
 
@@ -813,8 +826,15 @@
             </article>
           </div>
           <div class="kbyg-section__actions">
-            <!-- WEBFLOW BIND: Sponsor KBYG Page > Hub URL. -->
-            <a class="kbyg-button kbyg-button--calendar-link" href="#hub">VIEW ALL KEY DATES</a>
+            <!-- Runtime hides this control when all available dates are already visible. -->
+            <button
+              class="kbyg-button kbyg-button--calendar-link"
+              type="button"
+              data-kbyg-dates-toggle
+              aria-expanded="false"
+            >
+              VIEW ALL KEY DATES
+            </button>
           </div>
         </div>
       </div>
@@ -1017,11 +1037,13 @@
               </p>
             </div>
             <div class="kbyg-section__actions">
-              <!-- WEBFLOW BIND: Sponsor KBYG Page > Hub URL. -->
+              <!-- WEBFLOW BIND: Sponsor KBYG Page > Hub URL. Replace placeholder before launch. -->
               <a
                 class="kbyg-button kbyg-button--external"
-                href="mailto:kbrightling@ipmievents.com"
-                aria-label="Email Katrina Brightling to open the Sponsor Hub"
+                href="https://example.com/sponsor-hub"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="Open Sponsor Hub in a new tab"
               >
                 OPEN SPONSOR HUB
               </a>
@@ -1060,17 +1082,33 @@
         </header>
         <div class="kbyg-travel-grid">
           <div class="kbyg-travel-gallery">
-            <!-- WEBFLOW BIND: Referenced Institute > Venue Gallery, preserving image order. -->
-            <img
-              class="kbyg-travel-gallery__image"
-              src="https://cdn.prod.website-files.com/6312ee46f4c52faf21ee8ab5/6a9a66fceb4c917e35dec429_6a9a66444b76f8336b80a7b3_kbyg-ritz-carlton-exterior.webp"
-              alt="Exterior of The Ritz-Carlton Orlando, Grande Lakes"
-            />
-            <img
-              class="kbyg-travel-gallery__image"
-              src="https://cdn.prod.website-files.com/6312ee46f4c52faf21ee8ab5/6a9a66fceb4c917e35dec431_6a9a6644ce252381364dc0c2_kbyg-ritz-carlton-pool.webp"
-              alt="Aerial view of The Ritz-Carlton Orlando, Grande Lakes"
-            />
+            <!--
+              WEBFLOW NATIVE LIGHTBOX: use real Lightbox elements so Webflow includes its gallery
+              module. Runtime populates .w-json from each image in the shared kbyg-venue group.
+              WEBFLOW BIND: Referenced Institute > Venue Gallery, preserving image order.
+            -->
+            <a
+              class="kbyg-travel-gallery__lightbox w-lightbox"
+              href="https://cdn.prod.website-files.com/6312ee46f4c52faf21ee8ab5/6a9a66fceb4c917e35dec429_6a9a66444b76f8336b80a7b3_kbyg-ritz-carlton-exterior.webp"
+              data-kbyg-lightbox
+            >
+              <img
+                class="kbyg-travel-gallery__image"
+                src="https://cdn.prod.website-files.com/6312ee46f4c52faf21ee8ab5/6a9a66fceb4c917e35dec429_6a9a66444b76f8336b80a7b3_kbyg-ritz-carlton-exterior.webp"
+                alt="Exterior of The Ritz-Carlton Orlando, Grande Lakes"
+              />
+            </a>
+            <a
+              class="kbyg-travel-gallery__lightbox w-lightbox"
+              href="https://cdn.prod.website-files.com/6312ee46f4c52faf21ee8ab5/6a9a66fceb4c917e35dec431_6a9a6644ce252381364dc0c2_kbyg-ritz-carlton-pool.webp"
+              data-kbyg-lightbox
+            >
+              <img
+                class="kbyg-travel-gallery__image"
+                src="https://cdn.prod.website-files.com/6312ee46f4c52faf21ee8ab5/6a9a66fceb4c917e35dec431_6a9a6644ce252381364dc0c2_kbyg-ritz-carlton-pool.webp"
+                alt="Aerial view of The Ritz-Carlton Orlando, Grande Lakes"
+              />
+            </a>
             <!-- WEBFLOW EMBED: map query = Referenced Institute > Map Query. -->
             <iframe
               class="kbyg-travel-gallery__map"
@@ -1114,7 +1152,14 @@
                       />
                     </svg>
                   </span>
-                  <span>4012 Central Florida Parkway, Orlando, FL 32837</span>
+                  <a
+                    class="kbyg-travel-card__meta-link"
+                    href="https://www.google.com/maps/search/?api=1&amp;query=4012%20Central%20Florida%20Parkway%2C%20Orlando%2C%20FL%2032837"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    data-kbyg-address
+                    >4012 Central Florida Parkway, Orlando, FL 32837</a
+                  >
                 </p>
                 <p class="kbyg-travel-card__meta-line">
                   <a class="kbyg-travel-card__meta-link" href="tel:+14072062400">
@@ -1603,11 +1648,13 @@
             </p>
           </div>
         </div>
-        <!-- WEBFLOW BIND: Sponsor KBYG Page > Support URL and Support CTA Label. -->
+        <!-- WEBFLOW BIND: Sponsor KBYG Page > Support URL and CTA Label. Replace placeholder before launch. -->
         <a
           class="kbyg-button kbyg-button--external"
-          href="mailto:kbrightling@ipmievents.com"
-          aria-label="Email Katrina Brightling for Sponsor Hub support"
+          href="https://example.com/sponsor-hub"
+          target="_blank"
+          rel="noopener noreferrer"
+          aria-label="Open Sponsor Hub support in a new tab"
         >
           VISIT THE SPONSOR HUB
         </a>

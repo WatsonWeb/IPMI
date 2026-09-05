@@ -268,11 +268,6 @@
       });
     });
 
-    queryAll(page, ".kbyg-hero__badge").forEach(function (badge) {
-      clearChildren(badge);
-      appendFontAwesomeIcon(badge, documentRef, "heart-pulse", "fa-light");
-    });
-
     queryAll(page, ".kbyg-travel-gallery__map, .kbyg-travel-gallery iframe").forEach(
       function (map) {
         setAttribute(map, "loading", "eager");
@@ -1777,6 +1772,275 @@
     return { controls: controls };
   }
 
+  function setupIndustryIcons(page, documentRef) {
+    var eventTitle = query(page, ".kbyg-hero__event");
+    var industryMeta = query(documentRef, 'meta[name="kbyg-industry"]');
+    var assetRoot = "https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/";
+    var industryIcons = {
+      healthcare: assetRoot + "638989f462c2a24e78ab5665_IPMI-Healthcare-Icon.svg",
+      "human resources": assetRoot + "63898af5538b8f3d9ad17d52_IPMI-HR-Icon.svg",
+      "sales & marketing": assetRoot + "638989f40e53ef633be7b449_IPMI-Sales-Icon.svg",
+      "environmental health & safety":
+        assetRoot + "638989f342ab4a19e6bc4aad_IPMI-Environmental-Icon.svg",
+      legal: assetRoot + "638989f3adcfdbfe3540efba_IPMI-Legal-Icon.svg",
+    };
+    var isSponsor = getAttribute(page, "data-audience") === "sponsor";
+
+    queryAll(page, ".kbyg-hero__badge").forEach(function (badge) {
+      if (
+        !isSponsor &&
+        !hasClass(badge, "kbyg-hero__badge--industry") &&
+        !hasAttribute(badge, "data-kbyg-industry-icon-src")
+      )
+        return;
+
+      var existing = query(badge, "img");
+      var industry = String(
+        getAttribute(badge, "data-kbyg-industry") ||
+          getAttribute(page, "data-kbyg-industry") ||
+          getAttribute(industryMeta, "content") ||
+          "",
+      )
+        .trim()
+        .toLowerCase();
+      var source =
+        getAttribute(badge, "data-kbyg-industry-icon-src") ||
+        getAttribute(page, "data-kbyg-industry-icon-src") ||
+        industryIcons[industry] ||
+        getAttribute(existing, "src") ||
+        (!industry &&
+        isSponsor &&
+        /\bhealthcare\b/i.test(String((eventTitle && eventTitle.textContent) || ""))
+          ? industryIcons.healthcare
+          : "");
+      if (!source) return;
+
+      var image = existing || documentRef.createElement("img");
+      setAttribute(image, "src", source);
+      setAttribute(image, "alt", "");
+      setAttribute(image, "aria-hidden", "true");
+      addClass(image, "kbyg-hero__industry-icon");
+      addClass(badge, "kbyg-hero__badge--industry");
+      if (!existing) {
+        clearChildren(badge);
+        badge.appendChild(image);
+      }
+    });
+  }
+
+  function setupKeyDates(page, pageToken, documentRef, windowRef, cleanups) {
+    var section = query(page, "#key-dates");
+    var claimedIds = new Set();
+    var compactQuery =
+      windowRef && typeof windowRef.matchMedia === "function"
+        ? windowRef.matchMedia("(max-width: 991px)")
+        : null;
+    var records = queryAll(section, ".kbyg-dates-grid")
+      .map(function (grid, index) {
+        var branch = (grid.closest && grid.closest("[data-kbyg-audience-branch]")) || section;
+        var control = query(branch, ".kbyg-button--calendar-link, [data-kbyg-dates-toggle]");
+        var cards = queryAll(grid, ".kbyg-date-card");
+        if (!control || !cards.length) return null;
+
+        var items = cards.map(function (card) {
+          return hasClass(card.parentNode, "w-dyn-item") ? card.parentNode : card;
+        });
+        var id = claimId(
+          grid,
+          "kbyg-dates-" + pageToken + "-" + (index + 1),
+          claimedIds,
+          documentRef,
+        );
+        var label = documentRef.createElement("span");
+        addClass(label, "kbyg-button__label");
+        clearChildren(control);
+        control.appendChild(label);
+        setAttribute(control, "data-kbyg-dates-toggle", "");
+        setAttribute(control, "aria-controls", id);
+        if (isNativeButton(control)) setAttribute(control, "type", "button");
+        else {
+          setAttribute(control, "role", "button");
+          setAttribute(control, "href", "#" + id);
+        }
+
+        var record = { grid: grid, control: control, cards: cards, items: items, expanded: false };
+
+        function previewCount() {
+          return compactQuery && compactQuery.matches ? 3 : 4;
+        }
+
+        function update() {
+          var limit = previewCount();
+          setAttribute(grid, "data-kbyg-dates-expanded", record.expanded ? "true" : "false");
+          setAttribute(control, "aria-expanded", record.expanded ? "true" : "false");
+          label.textContent = record.expanded ? "SHOW FEWER KEY DATES" : "VIEW ALL KEY DATES";
+          control.hidden = items.length <= limit;
+          items.forEach(function (item, itemIndex) {
+            item.hidden = !record.expanded && itemIndex >= limit;
+          });
+        }
+
+        function toggle(event) {
+          if (isModifiedClick(event)) return;
+          if (event && typeof event.preventDefault === "function") event.preventDefault();
+          var firstRevealed = record.cards[previewCount()];
+          record.expanded = !record.expanded;
+          update();
+
+          if (record.expanded && firstRevealed) {
+            setAttribute(firstRevealed, "tabindex", "-1");
+            if (typeof firstRevealed.focus === "function")
+              firstRevealed.focus({ preventScroll: true });
+            scrollToSection(
+              page,
+              firstRevealed,
+              windowRef,
+              prefersReducedMotion(windowRef) ? "auto" : "smooth",
+            );
+          } else if (typeof control.focus === "function") {
+            control.focus({ preventScroll: true });
+          }
+        }
+
+        addListener(control, "click", toggle, false, cleanups);
+        installKeyboardActivation(control, toggle, cleanups);
+        addListener(windowRef, "resize", update, false, cleanups);
+        update();
+        return record;
+      })
+      .filter(Boolean);
+
+    return { records: records };
+  }
+
+  function externalHttpUrl(value) {
+    var normalized = String(value || "").trim();
+    if (!/^https?:\/\//i.test(normalized)) return "";
+    try {
+      return new URL(normalized).href;
+    } catch {
+      return "";
+    }
+  }
+
+  function setupVenueLinks(page, documentRef) {
+    var links = [];
+    queryAll(
+      page,
+      "[data-kbyg-address], .kbyg-travel-card__meta-line > span:not(.kbyg-glyph)",
+    ).forEach(function (address) {
+      var text = String(address.textContent || "").trim();
+      if (!text) return;
+      var link = address;
+      if (tagName(address) !== "A") {
+        if (!address.parentNode || typeof address.parentNode.replaceChild !== "function") return;
+        link = documentRef.createElement("a");
+        link.textContent = text;
+        address.parentNode.replaceChild(link, address);
+      }
+      setAttribute(link, "data-kbyg-address", "");
+      addClass(link, "kbyg-travel-card__address-link");
+      setAttribute(
+        link,
+        "href",
+        "https://www.google.com/maps/search/?api=1&query=" + encodeURIComponent(text),
+      );
+      setAttribute(link, "target", "_blank");
+      setAttribute(link, "rel", "noopener noreferrer");
+      setAttribute(link, "aria-label", text + " (opens in Google Maps in a new tab)");
+      links.push(link);
+    });
+    return { links: links };
+  }
+
+  function setupHubLinks(page) {
+    if (getAttribute(page, "data-audience") !== "sponsor") return { links: [] };
+    var links = queryAll(
+      page,
+      "#hub .kbyg-button--external, #sponsor-support .kbyg-button--external",
+    );
+    links.forEach(function (link) {
+      var explicitUrl =
+        externalHttpUrl(getAttribute(link, "data-kbyg-hub-url")) ||
+        externalHttpUrl(getAttribute(page, "data-kbyg-hub-url"));
+      var url =
+        explicitUrl ||
+        externalHttpUrl(getAttribute(link, "href")) ||
+        "https://example.com/sponsor-hub";
+      setAttribute(link, "href", url);
+      setAttribute(link, "target", "_blank");
+      setAttribute(link, "rel", "noopener noreferrer");
+      setAttribute(
+        link,
+        "aria-label",
+        String(link.textContent || "Sponsor Hub").trim() + " (opens in a new tab)",
+      );
+    });
+    return { links: links };
+  }
+
+  function setupVenueLightboxes(page, pageToken, documentRef, windowRef, cleanups) {
+    var links = [];
+    queryAll(page, ".kbyg-travel-gallery__image").forEach(function (image) {
+      var source = externalHttpUrl(getAttribute(image, "src"));
+      if (!source || !image.parentNode) return;
+      var link = image.closest && image.closest("a.w-lightbox");
+      if (!link) {
+        link = documentRef.createElement("a");
+        image.parentNode.replaceChild(link, image);
+        link.appendChild(image);
+      }
+      var data = query(link, ".w-json");
+      if (!data) {
+        data = documentRef.createElement("script");
+        link.appendChild(data);
+      }
+      var configuration = {};
+      try {
+        configuration = JSON.parse(data.textContent || "{}") || {};
+      } catch {
+        // A native empty Lightbox still needs its CMS image configured.
+      }
+      if (!Array.isArray(configuration.items) || !configuration.items.length) {
+        configuration.items = [
+          { url: source, type: "image", caption: getAttribute(image, "alt") || "" },
+        ];
+      }
+      configuration.group = configuration.group || "KBYG Venue Images " + pageToken;
+      setAttribute(data, "type", "application/json");
+      addClass(data, "w-json");
+      data.textContent = JSON.stringify(configuration);
+      addClasses(link, "kbyg-travel-gallery__lightbox w-inline-block w-lightbox");
+      setAttribute(link, "href", source);
+      setAttribute(link, "target", "_blank");
+      setAttribute(link, "rel", "noopener noreferrer");
+      setAttribute(
+        link,
+        "aria-label",
+        "Open photo: " + (getAttribute(image, "alt") || "Event venue"),
+      );
+      setAttribute(link, "aria-haspopup", "dialog");
+      links.push(link);
+    });
+
+    if (links.length && windowRef) {
+      var destroyed = false;
+      cleanups.push(function () {
+        destroyed = true;
+      });
+      var webflow = (windowRef.Webflow = windowRef.Webflow || []);
+      function initialize() {
+        if (destroyed || typeof webflow.require !== "function") return;
+        var lightbox = webflow.require("lightbox");
+        if (lightbox && typeof lightbox.ready === "function") lightbox.ready();
+      }
+      if (typeof webflow.push === "function") webflow.push(initialize);
+      else initialize();
+    }
+
+    return { links: links };
+  }
+
   function initPage(page, options) {
     if (!page || typeof page.querySelectorAll !== "function") return null;
     if (page[INSTANCE_KEY]) return page[INSTANCE_KEY];
@@ -1796,12 +2060,33 @@
     );
     var accordions = setupAccordions(page, pageToken, environment.document, cleanups);
     var calendars = setupCalendars(page, environment.document, environment.window, cleanups);
+    var keyDates = setupKeyDates(
+      page,
+      pageToken,
+      environment.document,
+      environment.window,
+      cleanups,
+    );
+    var venueLinks = setupVenueLinks(page, environment.document);
+    var hubLinks = setupHubLinks(page);
+    var venueLightboxes = setupVenueLightboxes(
+      page,
+      pageToken,
+      environment.document,
+      environment.window,
+      cleanups,
+    );
+    setupIndustryIcons(page, environment.document);
     var fontAwesome = setupFontAwesome(page, environment.document, environment.window);
     var instance = {
       page: page,
       navigation: navigation,
       accordions: accordions,
       calendars: calendars,
+      keyDates: keyDates,
+      venueLinks: venueLinks,
+      hubLinks: hubLinks,
+      venueLightboxes: venueLightboxes,
       fontAwesome: fontAwesome,
       audience: audience,
       responsiveWelcomeTitle: responsiveWelcomeTitle,

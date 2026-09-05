@@ -165,6 +165,10 @@ class FakeElement extends FakeTarget {
     this.clicked = true;
   }
 
+  focus() {
+    this.focused = true;
+  }
+
   closest(selector) {
     let candidate = this;
     while (candidate) {
@@ -175,6 +179,19 @@ class FakeElement extends FakeTarget {
         return candidate;
       }
       if (selector === ".kbyg-date-card" && candidate.classList.contains("kbyg-date-card")) {
+        return candidate;
+      }
+      if (
+        selector === "a.w-lightbox" &&
+        candidate.tagName === "A" &&
+        candidate.classList.contains("w-lightbox")
+      ) {
+        return candidate;
+      }
+      if (
+        selector === "[data-kbyg-audience-branch]" &&
+        candidate.hasAttribute("data-kbyg-audience-branch")
+      ) {
         return candidate;
       }
       candidate = candidate.parentNode;
@@ -190,10 +207,15 @@ class FakeDocument extends FakeTarget {
     this.documentElement = { scrollHeight: 3000 };
     this.readyState = "complete";
     this.pages = [];
+    this.selectorMap = new Map();
   }
 
   querySelectorAll(selector) {
-    return selector === ".kbyg-page" ? this.pages : [];
+    return selector === ".kbyg-page" ? this.pages : this.selectorMap.get(selector) || [];
+  }
+
+  querySelector(selector) {
+    return this.querySelectorAll(selector)[0] || null;
   }
 
   getElementById(id) {
@@ -243,8 +265,13 @@ class FakeWindow extends FakeTarget {
   }
 
   matchMedia(query) {
+    const windowRef = this;
     return {
-      matches: String(query).includes("max-width") ? this.mobileLayout : this.reducedMotion,
+      get matches() {
+        return String(query).includes("max-width")
+          ? windowRef.mobileLayout
+          : windowRef.reducedMotion;
+      },
     };
   }
 
@@ -547,6 +574,7 @@ test("responsive welcome heading exposes the compact mobile accessible name", ()
 test("replaces standard KBYG glyph assets with the existing Font Awesome kit convention", () => {
   const documentRef = new FakeDocument();
   const windowRef = new FakeWindow(documentRef);
+  windowRef.location.pathname = "/know-before-you-go/example-sponsor";
   documentRef.defaultView = windowRef;
   const page = new FakeElement("main", { class: "kbyg-page", "data-audience": "sponsor" });
   page.ownerDocument = documentRef;
@@ -581,6 +609,11 @@ test("replaces standard KBYG glyph assets with the existing Font Awesome kit con
   });
   travelIcon.appendChild(travelImage);
   const heroBadge = new FakeElement("span", { class: "kbyg-hero__badge" });
+  const industryIcon = new FakeElement("img", {
+    src: "https://cdn.example.test/IPMI-Healthcare-Icon.svg",
+  });
+  heroBadge.appendChild(industryIcon);
+  heroBadge.selectorMap.set("img", [industryIcon]);
   const heroTitle = new FakeElement("h1", { class: "kbyg-hero__title" });
   heroTitle.textContent = "Know Before You Go.";
   const methodTitle = new FakeElement("h4", { class: "kbyg-meeting-method__item-title" });
@@ -619,7 +652,9 @@ test("replaces standard KBYG glyph assets with the existing Font Awesome kit con
   assert.ok(leadershipParent.children[0].children[0].classList.contains("fa-keynote"));
   assert.equal(travelIcon.children.length, 1);
   assert.ok(travelIcon.children[0].classList.contains("fa-hotel"));
-  assert.ok(heroBadge.children[0].classList.contains("fa-heart-pulse"));
+  assert.equal(heroBadge.children[0], industryIcon);
+  assert.ok(industryIcon.classList.contains("kbyg-hero__industry-icon"));
+  assert.ok(heroBadge.classList.contains("kbyg-hero__badge--industry"));
   assert.ok(phoneGlyph.children[0].classList.contains("fa-solid"));
   assert.ok(phoneGlyph.children[0].classList.contains("fa-phone"));
   assert.ok(jumpLink.children[0].classList.contains("kbyg-jump__icon"));
@@ -689,4 +724,259 @@ test("calendar controls can read title and rich description text from their CMS 
   assert.match(calendar, /DTEND;VALUE=DATE:20260905\r\n/);
   assert.equal(documentRef.lastCreatedElement.download, "sponsor-arrival.ics");
   assert.equal(windowRef.revokedUrl, "blob:kbyg-test");
+});
+
+function keyDatesFixture(count = 4) {
+  const documentRef = new FakeDocument();
+  const windowRef = new FakeWindow(documentRef);
+  const page = new FakeElement("main");
+  const section = new FakeElement("section", { id: "key-dates" });
+  const grid = new FakeElement("div", { class: "kbyg-dates-grid" });
+  const control = new FakeElement("a", { class: "kbyg-button--calendar-link", href: "#hub" });
+  control.textContent = "VIEW ALL KEY DATES";
+  const cards = Array.from(
+    { length: count },
+    () => new FakeElement("article", { class: "kbyg-date-card" }),
+  );
+  const items = cards.map((card) => {
+    const item = new FakeElement("div", { class: "w-dyn-item" });
+    item.appendChild(card);
+    grid.appendChild(item);
+    return item;
+  });
+  page.selectorMap.set("#key-dates", [section]);
+  section.selectorMap.set(".kbyg-dates-grid", [grid]);
+  section.selectorMap.set(".kbyg-button--calendar-link, [data-kbyg-dates-toggle]", [control]);
+  grid.selectorMap.set(".kbyg-date-card", cards);
+  return { documentRef, windowRef, page, section, grid, control, cards, items };
+}
+
+test("key dates reveal all CMS records, manage focus, and retain expansion across breakpoints", () => {
+  const fixture = keyDatesFixture(6);
+  const { documentRef, windowRef, page, grid, control, cards, items } = fixture;
+  const instance = kbyg.initPage(page, { document: documentRef, window: windowRef });
+  assert.deepEqual(
+    items.map((item) => item.hidden),
+    [false, false, false, false, true, true],
+  );
+  assert.equal(control.getAttribute("aria-controls"), grid.id);
+  assert.equal(control.getAttribute("role"), "button");
+  assert.equal(control.getAttribute("aria-expanded"), "false");
+  assert.notEqual(control.getAttribute("href"), "#hub");
+
+  const click = control.dispatch("click");
+  assert.equal(click.defaultPrevented, true);
+  assert.ok(items.every((item) => !item.hidden));
+  assert.equal(control.getAttribute("aria-expanded"), "true");
+  assert.equal(control.children[0].textContent, "SHOW FEWER KEY DATES");
+  assert.equal(cards[4].focused, true);
+  assert.equal(cards[4].getAttribute("tabindex"), "-1");
+  assert.equal(windowRef.location.hash, "");
+
+  windowRef.mobileLayout = true;
+  windowRef.dispatch("resize");
+  assert.ok(items.every((item) => !item.hidden));
+  const key = control.dispatch("keydown", { key: " " });
+  assert.equal(key.defaultPrevented, true);
+  assert.deepEqual(
+    items.map((item) => item.hidden),
+    [false, false, false, true, true, true],
+  );
+  assert.equal(control.getAttribute("aria-expanded"), "false");
+  assert.equal(control.focused, true);
+  assert.equal(grid.getAttribute("data-kbyg-dates-expanded"), "false");
+
+  windowRef.reducedMotion = true;
+  control.dispatch("click");
+  assert.equal(windowRef.lastScroll.behavior, "auto");
+  instance.destroy();
+  assert.equal(control.listeners.get("click").length, 0);
+});
+
+test("key dates hide the disclosure when every CMS date is already visible", () => {
+  const { documentRef, windowRef, page, control, items } = keyDatesFixture();
+  kbyg.initPage(page, { document: documentRef, window: windowRef });
+  assert.equal(control.hidden, true);
+  assert.ok(items.every((item) => !item.hidden));
+  windowRef.mobileLayout = true;
+  windowRef.dispatch("resize");
+  assert.equal(control.hidden, false);
+  assert.equal(items[3].hidden, true);
+});
+
+test("venue addresses become correct external Google Maps links without changing telephone links", () => {
+  const documentRef = new FakeDocument();
+  const page = new FakeElement("main");
+  const parent = new FakeElement("p");
+  const address = new FakeElement("span");
+  const phone = new FakeElement("a", { href: "tel:+14072062400" });
+  address.textContent = "4012 Central Florida Parkway, Orlando, FL 32837";
+  parent.appendChild(address);
+  page.selectorMap.set(
+    "[data-kbyg-address], .kbyg-travel-card__meta-line > span:not(.kbyg-glyph)",
+    [address],
+  );
+
+  const instance = kbyg.initPage(page, {
+    document: documentRef,
+    window: new FakeWindow(documentRef),
+  });
+  const [link] = instance.venueLinks.links;
+  const url = new URL(link.getAttribute("href"));
+  assert.equal(link.tagName, "A");
+  assert.equal(parent.children[0], link);
+  assert.equal(url.origin, "https://www.google.com");
+  assert.equal(url.searchParams.get("query"), address.textContent);
+  assert.equal(link.getAttribute("target"), "_blank");
+  assert.equal(link.getAttribute("rel"), "noopener noreferrer");
+  assert.equal(phone.getAttribute("href"), "tel:+14072062400");
+});
+
+test("Sponsor Hub CTAs use an external placeholder while preserving real CMS destinations", () => {
+  const documentRef = new FakeDocument();
+  const windowRef = new FakeWindow(documentRef);
+  windowRef.location.pathname = "/know-before-you-go/example-sponsor";
+  const page = new FakeElement("main");
+  const placeholder = new FakeElement("a", { href: "mailto:lead@ipmievents.com" });
+  placeholder.textContent = "OPEN SPONSOR HUB";
+  const realLink = new FakeElement("a", { href: "https://hub.example.test/event?id=2026" });
+  realLink.textContent = "VISIT THE SPONSOR HUB";
+  page.selectorMap.set("#hub .kbyg-button--external, #sponsor-support .kbyg-button--external", [
+    placeholder,
+    realLink,
+  ]);
+  kbyg.initPage(page, { document: documentRef, window: windowRef });
+  assert.equal(placeholder.getAttribute("href"), "https://example.com/sponsor-hub");
+  assert.equal(realLink.getAttribute("href"), "https://hub.example.test/event?id=2026");
+  for (const link of [placeholder, realLink]) {
+    assert.equal(link.getAttribute("target"), "_blank");
+    assert.equal(link.getAttribute("rel"), "noopener noreferrer");
+    assert.doesNotMatch(link.getAttribute("aria-label"), /email/i);
+  }
+});
+
+test("venue photos form a native Webflow lightbox group and retain full-image fallback links", () => {
+  const documentRef = new FakeDocument();
+  const windowRef = new FakeWindow(documentRef);
+  let readyCalls = 0;
+  windowRef.Webflow = {
+    push: (callback) => callback(),
+    require: (name) =>
+      name === "lightbox"
+        ? {
+            ready: () => {
+              readyCalls += 1;
+            },
+          }
+        : null,
+  };
+  const page = new FakeElement("main");
+  const gallery = new FakeElement("div");
+  const photos = ["Exterior", "Pool"].map((caption) => {
+    const photo = new FakeElement("img", {
+      class: "kbyg-travel-gallery__image",
+      src: `https://cdn.example.test/${caption}.webp`,
+      alt: caption,
+    });
+    gallery.appendChild(photo);
+    return photo;
+  });
+  page.selectorMap.set(".kbyg-travel-gallery__image", photos);
+  const instance = kbyg.initPage(page, { document: documentRef, window: windowRef });
+  const [first, second] = instance.venueLightboxes.links;
+  assert.equal(readyCalls, 1);
+  assert.equal(first.children[0], photos[0]);
+  assert.ok(first.classList.contains("w-lightbox"));
+  assert.equal(first.getAttribute("href"), photos[0].getAttribute("src"));
+  assert.equal(first.getAttribute("aria-haspopup"), "dialog");
+  const firstData = JSON.parse(first.children[1].textContent);
+  const secondData = JSON.parse(second.children[1].textContent);
+  assert.equal(firstData.group, secondData.group);
+  assert.deepEqual(firstData.items[0], {
+    url: photos[0].getAttribute("src"),
+    type: "image",
+    caption: "Exterior",
+  });
+  assert.equal(kbyg.initPage(page, { document: documentRef, window: windowRef }), instance);
+  assert.equal(readyCalls, 1);
+});
+
+test("industry fallback is healthcare-specific and preserves delegate confirmation artwork", () => {
+  for (const audience of ["sponsor", "delegate"]) {
+    const documentRef = new FakeDocument();
+    const windowRef = new FakeWindow(documentRef);
+    windowRef.location.pathname = `/know-before-you-go/example-${audience}`;
+    const page = new FakeElement("main");
+    const title = new FakeElement("p");
+    title.textContent = "2026 Healthcare HR Management Institute";
+    const badge = new FakeElement("span");
+    const artwork = new FakeElement("svg");
+    badge.appendChild(artwork);
+    page.selectorMap.set(".kbyg-hero__badge", [badge]);
+    page.selectorMap.set(".kbyg-hero__event", [title]);
+    kbyg.initPage(page, { document: documentRef, window: windowRef });
+    if (audience === "sponsor") {
+      assert.match(badge.children[0].getAttribute("src"), /IPMI-Healthcare-Icon\.svg$/);
+      assert.ok(badge.classList.contains("kbyg-hero__badge--industry"));
+    } else {
+      assert.equal(badge.children[0], artwork);
+      assert.equal(badge.classList.contains("kbyg-hero__badge--industry"), false);
+    }
+  }
+});
+
+test("empty native Webflow lightboxes receive image data without duplicate wrappers", () => {
+  const documentRef = new FakeDocument();
+  const page = new FakeElement("main");
+  const link = new FakeElement("a", { class: "w-lightbox" });
+  const image = new FakeElement("img", {
+    src: "https://cdn.example.test/hotel.webp",
+    alt: "Hotel",
+  });
+  const data = new FakeElement("script", { class: "w-json", type: "application/json" });
+  data.textContent = '{"items":[],"group":""}';
+  link.appendChild(image);
+  link.appendChild(data);
+  link.selectorMap.set(".w-json", [data]);
+  page.selectorMap.set(".kbyg-travel-gallery__image", [image]);
+  const instance = kbyg.initPage(page, {
+    document: documentRef,
+    window: new FakeWindow(documentRef),
+  });
+  assert.equal(instance.venueLightboxes.links[0], link);
+  assert.equal(link.children.length, 2);
+  assert.equal(JSON.parse(data.textContent).items[0].url, image.getAttribute("src"));
+  assert.ok(JSON.parse(data.textContent).group.startsWith("KBYG Venue Images"));
+});
+
+test("CMS industry categories select the corresponding brand while explicit artwork takes precedence", () => {
+  const categories = {
+    Healthcare: "IPMI-Healthcare-Icon.svg",
+    "Human Resources": "IPMI-HR-Icon.svg",
+    "Sales & Marketing": "IPMI-Sales-Icon.svg",
+    "Environmental Health & Safety": "IPMI-Environmental-Icon.svg",
+    Legal: "IPMI-Legal-Icon.svg",
+  };
+  for (const [category, filename] of Object.entries(categories)) {
+    const documentRef = new FakeDocument();
+    const windowRef = new FakeWindow(documentRef);
+    windowRef.location.pathname = "/know-before-you-go/example-sponsor";
+    const page = new FakeElement("main");
+    const meta = new FakeElement("meta", { name: "kbyg-industry", content: category });
+    documentRef.selectorMap.set('meta[name="kbyg-industry"]', [meta]);
+    const badge = new FakeElement("span");
+    const image = new FakeElement("img", {
+      src: "https://cdn.example.test/IPMI-Healthcare-Icon.svg",
+    });
+    badge.appendChild(image);
+    badge.selectorMap.set("img", [image]);
+    page.selectorMap.set(".kbyg-hero__badge", [badge]);
+    const instance = kbyg.initPage(page, { document: documentRef, window: windowRef });
+    assert.ok(image.getAttribute("src").endsWith(filename), category);
+    instance.destroy();
+
+    badge.setAttribute("data-kbyg-industry-icon-src", "https://cdn.example.test/custom-brand.svg");
+    kbyg.initPage(page, { document: documentRef, window: windowRef });
+    assert.equal(image.getAttribute("src"), "https://cdn.example.test/custom-brand.svg");
+  }
 });
