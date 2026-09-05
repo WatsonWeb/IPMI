@@ -1065,6 +1065,10 @@
       background: var(--kbyg-card-dark);
       color: var(--kbyg-white);
 
+      .kbyg-contact-card__eyebrow {
+        color: var(--kbyg-accent-on-dark);
+      }
+
       .kbyg-contact-card__name {
         color: var(--kbyg-white);
       }
@@ -1655,7 +1659,7 @@
 
     .kbyg-experience-grid {
       grid-template-columns: repeat(6, minmax(0, 1fr));
-      grid-template-rows: 258px 231px;
+      grid-template-rows: minmax(258px, auto) minmax(231px, auto);
       column-gap: 24px;
       row-gap: 55px;
       margin-top: 53px;
@@ -1969,7 +1973,7 @@
         min-height: 520px;
 
         .kbyg-experience-grid {
-          grid-template-rows: 258px;
+          grid-template-rows: minmax(258px, auto);
         }
       }
 
@@ -1979,7 +1983,7 @@
     }
 
     &[data-audience="sponsor"] #hotel-travel .kbyg-travel-details {
-      grid-template-rows: 171px 211px 187px;
+      grid-template-rows: minmax(171px, auto) minmax(211px, auto) minmax(187px, auto);
       gap: 49px;
 
       .kbyg-travel-card {
@@ -1993,7 +1997,8 @@
     }
 
     .kbyg-contact-card--dark {
-      height: 237px;
+      min-height: 237px;
+      height: auto;
       padding: 30px;
 
       .kbyg-contact-card__identity {
@@ -2024,7 +2029,7 @@
 
   @media screen and (min-width: 1200px) {
     .kbyg-hero__content {
-      grid-template-columns: 696px 556px;
+      grid-template-columns: minmax(0, 696fr) minmax(0, 556fr);
       column-gap: 60px;
     }
 
@@ -2069,6 +2074,7 @@
 
     .kbyg-curve--hero svg {
       height: 60px !important;
+      clip-path: inset(-100px -2px 2px);
       transform: translateY(-4px) scaleX(-1.002) translateZ(0);
     }
 
@@ -2632,7 +2638,8 @@
           }
 
           .kbyg-contact-card--dark {
-            height: 237px;
+            min-height: 237px;
+            height: auto;
             padding: 30px;
 
             .kbyg-contact-card__identity {
@@ -3319,6 +3326,28 @@
     img {
       width: 100%;
       height: 100%;
+    }
+  }
+
+  @media screen and (min-width: 992px) and (max-width: 1199px) {
+    .kbyg-agenda-card__row {
+      grid-template-columns: minmax(0, 1fr);
+      gap: 4px;
+    }
+
+    .kbyg-agenda-card__time,
+    .kbyg-agenda-card__item {
+      text-align: left;
+    }
+
+    .kbyg-agenda-card__item {
+      font-size: 16px;
+      line-height: 24px;
+    }
+
+    .kbyg-agenda-card__header {
+      padding-inline: 15px;
+      font-size: 20px;
     }
   }
 

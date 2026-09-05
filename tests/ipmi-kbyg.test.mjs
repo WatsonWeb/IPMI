@@ -349,6 +349,22 @@ test("infers the audience from the item URL and removes the opposite branch", ()
   assert.equal(instance.audience, "sponsor");
   assert.equal(page.getAttribute("data-audience"), "sponsor");
   assert.deepEqual(page.children, [sponsor]);
+
+  const delegatePage = new FakeElement("main");
+  const agendaIntro = new FakeElement("p");
+  agendaIntro.textContent =
+    "Please refer to the Event Agenda in the Sponsor Hub for complete program details.";
+  delegatePage.selectorMap.set("#agenda .kbyg-section__intro", [agendaIntro]);
+  windowRef.location.pathname = "/know-before-you-go/example-delegate";
+  const delegateInstance = kbyg.initPage(delegatePage, {
+    document: documentRef,
+    window: windowRef,
+  });
+  assert.equal(delegateInstance.audience, "delegate");
+  assert.equal(
+    agendaIntro.textContent,
+    "Please refer to the Event Agenda in the Attendee Hub for complete program details.",
+  );
 });
 
 test("creates all-day events with an RFC-exclusive DTEND and stable UID", () => {

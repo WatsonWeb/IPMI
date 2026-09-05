@@ -475,6 +475,14 @@
         ]);
       }
     } else {
+      var delegateAgendaIntro = query(page, "#agenda .kbyg-section__intro");
+      if (delegateAgendaIntro) {
+        delegateAgendaIntro.textContent = String(delegateAgendaIntro.textContent || "").replace(
+          /Sponsor Hub/g,
+          "Attendee Hub",
+        );
+      }
+
       var delegatePrepareTitle = query(page, "#kbyg-prepare-title-delegate");
       if (delegatePrepareTitle) {
         setHeadingSegments(delegatePrepareTitle, documentRef, [
