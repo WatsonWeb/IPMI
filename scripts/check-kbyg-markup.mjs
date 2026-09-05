@@ -8,8 +8,12 @@ const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
 const templatePath = path.join(root, "Page HTML", "KBYG Pages", "KBYG-Template.html");
 const html = await readFile(templatePath, "utf8");
 const head = await readFile(path.join(root, "Page HTML", "KBYG Pages", "KBYG-Head.html"), "utf8");
+const stylesEmbed = await readFile(
+  path.join(root, "Page HTML", "KBYG Pages", "KBYG-Styles-Embed.html"),
+  "utf8",
+);
 const visibleText = html.replace(/<[^>]+>/g, " ").replace(/\s+/g, " ");
-const failures = validateKbygThemeContract(head, html);
+const failures = validateKbygThemeContract(head, html, stylesEmbed);
 
 const ids = [...html.matchAll(/\bid="([^"]+)"/g)].map((match) => match[1]);
 const duplicateIds = [...new Set(ids.filter((id, index) => ids.indexOf(id) !== index))];

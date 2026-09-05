@@ -1,0 +1,24 @@
+<!--
+  KBYG single stylesheet source for Designer, Preview, and published pages.
+
+  Place one native Code Embed before .kbyg-page, using the existing Custom Styles
+  class. Do not add another KBYG stylesheet link/import to Site or Page Head code.
+  Replace __KBYG_COMMIT_SHA__ with the immutable asset commit before deployment.
+
+  The tokens below document Webflow's exported CMS bindings. In the Designer's
+  Code Embed Editor, insert the two values with Connect > Institute > Global -
+  Institute Accent Color / Global - Institute Dark Accent Color. Native field
+  chips are required for the canvas: pasting exported {{wf ...}} text alone does
+  not create native bindings. Keep those chips intact when updating the URL.
+
+  CSS only: do not add scripts here. Interactions belong in KBYG-Footer.html.
+  @import must remain first, with CMS overrides after the imported defaults.
+-->
+<style>
+  @import url("https://cdn.jsdelivr.net/gh/WatsonWeb/IPMI@__KBYG_COMMIT_SHA__/ipmi-kbyg-styles.css");
+
+  .kbyg-page {
+    --kbyg-accent: {{wf {&quot;path&quot;:&quot;institute:global-institute-accent-color&quot;,&quot;type&quot;:&quot;Color&quot;\} }};
+    --kbyg-accent-dark: {{wf {&quot;path&quot;:&quot;institute:global-institute-dark-accent-color&quot;,&quot;type&quot;:&quot;Color&quot;\} }};
+  }
+</style>

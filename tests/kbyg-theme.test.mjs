@@ -5,54 +5,114 @@ import { test } from "vite-plus/test";
 
 import { validateKbygThemeContract } from "../scripts/kbyg-theme-contract.mjs";
 
-const stylesheet = '<link rel="stylesheet" href="https://cdn.example.test/ipmi-kbyg-styles.css" />';
-const cmsStyle = String.raw`<style>
+const stylesheetLink =
+  '<link rel="stylesheet" href="https://cdn.example.test/ipmi-kbyg-styles.css" />';
+const stylesheetImport = '@import url("https://cdn.example.test/ipmi-kbyg-styles.css");';
+const cmsRules = String.raw`
   .kbyg-page {
     --kbyg-accent: {{wf {&quot;path&quot;:&quot;institute:global-institute-accent-color&quot;,&quot;type&quot;:&quot;Color&quot;\} }};
     --kbyg-accent-dark: {{wf {&quot;path&quot;:&quot;institute:global-institute-dark-accent-color&quot;,&quot;type&quot;:&quot;Color&quot;\} }};
-  }
-</style>`;
-const template = '<div class="kbyg-page" data-audience="sponsor"><main></main></div>';
+  }`;
+const embed = `<style>${stylesheetImport}${cmsRules}</style>`;
+const instance =
+  "<!-- WEBFLOW CODE EMBED: one KBYG-Styles-Embed.html instance, class Custom Styles. -->";
+const root = '<div class="kbyg-page" data-audience="sponsor"><main></main></div>';
+const template = instance + root;
+const errorsFor = (head = "", scaffold = template, stylesEmbed = embed) =>
+  validateKbygThemeContract(head, scaffold, stylesEmbed).join("\n");
 
-test("the shipped KBYG head and scaffold preserve the referenced Institute accent cascade", async () => {
-  const [head, scaffold] = await Promise.all([
+test("the shipped CSS-only Styles Embed preserves the Institute accent cascade", async () => {
+  const [head, scaffold, stylesEmbed] = await Promise.all([
     readFile(new URL("../Page HTML/KBYG Pages/KBYG-Head.html", import.meta.url), "utf8"),
     readFile(new URL("../Page HTML/KBYG Pages/KBYG-Template.html", import.meta.url), "utf8"),
+    readFile(new URL("../Page HTML/KBYG Pages/KBYG-Styles-Embed.html", import.meta.url), "utf8"),
   ]);
 
-  assert.deepEqual(validateKbygThemeContract(head, scaffold), []);
+  assert.deepEqual(validateKbygThemeContract(head, scaffold, stylesEmbed), []);
 });
 
-test("CMS theme declarations must follow exactly one KBYG stylesheet", () => {
-  assert.deepEqual(validateKbygThemeContract(stylesheet + cmsStyle, template), []);
+test("exactly one KBYG import belongs in the Styles Embed, with no duplicate CSS links", () => {
+  assert.equal(errorsFor(), "");
+  assert.match(errorsFor("", template, `<style>${cmsRules}</style>`), /exactly once via @import/);
   assert.match(
-    validateKbygThemeContract(cmsStyle + stylesheet, template).join("\n"),
-    /before the CMS/,
+    errorsFor("", template, embed.replace(stylesheetImport, stylesheetImport.repeat(2))),
+    /exactly once via @import/,
   );
-  for (const links of ["", stylesheet + stylesheet]) {
-    assert.match(validateKbygThemeContract(links + cmsStyle, template).join("\n"), /exactly once/);
+  assert.match(errorsFor(`<style>${stylesheetImport}</style>`), /exactly once via @import/);
+  assert.match(
+    errorsFor("", template + `<style>${stylesheetImport}</style>`),
+    /exactly once via @import/,
+  );
+  assert.match(errorsFor(embed, template, ""), /Styles Embed only/);
+  for (const [head, scaffold, stylesEmbed] of [
+    [stylesheetLink, template, embed],
+    ["", template + stylesheetLink, embed],
+    ["", template, stylesheetLink + embed],
+  ]) {
+    assert.match(errorsFor(head, scaffold, stylesEmbed), /Remove the KBYG CSS link/);
   }
+});
+
+test("the import must precede all rules and both CMS declarations in the same style block", () => {
+  assert.match(
+    errorsFor("", template, `<style>${cmsRules}${stylesheetImport}</style>`),
+    /@import must be first/,
+  );
+  assert.match(
+    errorsFor("", template, `<style>.other { color: red; }${stylesheetImport}${cmsRules}</style>`),
+    /@import must be first/,
+  );
+  assert.match(
+    errorsFor("", template, `<style>@media screen { ${stylesheetImport} }${cmsRules}</style>`),
+    /@import must be first/,
+  );
+  assert.match(
+    errorsFor("", template, `<style>${stylesheetImport}</style><style>${cmsRules}</style>`),
+    /same Styles Embed/,
+  );
+  assert.match(
+    errorsFor(`<style>${cmsRules}</style>`, template, `<style>${stylesheetImport}</style>`),
+    /in the Styles Embed/,
+  );
+  assert.equal(
+    errorsFor(
+      "",
+      template,
+      `<style>/* Import first, ignoring comments. */${stylesheetImport}${cmsRules}</style>`,
+    ),
+    "",
+  );
 });
 
 test("both accent variables must use the matching Institute CMS Color fields", () => {
   for (const field of ["global-institute-accent-color", "global-institute-dark-accent-color"]) {
-    const wrongField = cmsStyle.replace(`institute:${field}`, `another-reference:${field}`);
     assert.match(
-      validateKbygThemeContract(stylesheet + wrongField, template).join("\n"),
+      errorsFor("", template, embed.replace(`institute:${field}`, `another-reference:${field}`)),
       /Color field/,
     );
   }
-  const wrongType = cmsStyle.replaceAll("&quot;Color&quot;", "&quot;PlainText&quot;");
   assert.match(
-    validateKbygThemeContract(stylesheet + wrongType, template).join("\n"),
+    errorsFor("", template, embed.replaceAll("&quot;Color&quot;", "&quot;PlainText&quot;")),
     /Color field/,
   );
-  assert.match(validateKbygThemeContract(stylesheet, template).join("\n"), /Color field/);
-  const unscoped = cmsStyle.replace(".kbyg-page", ":root");
+  assert.match(errorsFor("", template, `<style>${stylesheetImport}</style>`), /Color field/);
+  assert.match(errorsFor("", template, embed.replace(".kbyg-page", ":root")), /on \.kbyg-page/);
+});
+
+test("the Styles Embed must remain script-free and CSS-only for Designer", () => {
+  assert.match(errorsFor("", template, embed + "<script>void 0;</script>"), /script-free/);
+  assert.match(errorsFor("", template, `<div>${embed}</div>`), /CSS-only/);
   assert.match(
-    validateKbygThemeContract(stylesheet + unscoped, template).join("\n"),
-    /on \.kbyg-page/,
+    errorsFor("", template, embed + "<style>.extra { color: red; }</style>"),
+    /exactly one CSS-only/,
   );
+  assert.equal(errorsFor("", template, `<!-- Scripts belong in the footer. -->${embed}`), "");
+});
+
+test("the scaffold documents one Custom Styles instance before its root", () => {
+  assert.match(errorsFor("", root), /exactly one Custom Styles/);
+  assert.match(errorsFor("", instance + template), /exactly one Custom Styles/);
+  assert.match(errorsFor("", root + instance), /before the \.kbyg-page root/);
 });
 
 test("demo inline accents cannot override the CMS theme on the scaffold root", () => {
@@ -61,11 +121,8 @@ test("demo inline accents cannot override the CMS theme on the scaffold root", (
       'class="kbyg-page"',
       `class="kbyg-page" style="${property}: #25948a"`,
     );
-    assert.match(
-      validateKbygThemeContract(stylesheet + cmsStyle, hardcoded).join("\n"),
-      /Inline scaffold/,
-    );
+    assert.match(errorsFor("", hardcoded), /Inline scaffold/);
   }
   const documented = `<!-- Example: <div class="kbyg-page" style="--kbyg-accent: #25948a"> -->${template}`;
-  assert.deepEqual(validateKbygThemeContract(stylesheet + cmsStyle, documented), []);
+  assert.equal(errorsFor("", documented), "");
 });

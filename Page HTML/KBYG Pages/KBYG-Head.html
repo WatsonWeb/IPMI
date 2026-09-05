@@ -1,9 +1,9 @@
 <!--
   KBYG collection-template <head> custom code.
 
-  DEPLOYMENT: replace __KBYG_COMMIT_SHA__ with the immutable Git commit SHA that
-  contains ipmi-kbyg-styles.css. Keep this stylesheet linked once on the KBYG
-  Pages collection template, not on individual CMS items.
+  STYLES: the single stylesheet source and Institute color bindings live in
+  KBYG-Styles-Embed.html, placed before .kbyg-page as a native Custom Styles
+  Code Embed. Do not add a duplicate stylesheet link/import to head custom code.
 
   WEBFLOW CMS BINDINGS (configured in Designer, not represented as fake tokens):
   - SEO title: {Referenced Institute Name} Know Before You Go — {Audience}
@@ -19,17 +19,7 @@
   name="kbyg-industry"
   content='{{wf {"path":"institute:global-institute-category","type":"Option"\} }}'
 />
-<!-- Load defaults first so the Institute CMS colors below win the cascade. -->
-<link
-  rel="stylesheet"
-  href="https://cdn.jsdelivr.net/gh/WatsonWeb/IPMI@__KBYG_COMMIT_SHA__/ipmi-kbyg-styles.css"
-/>
 <style>
-  .kbyg-page {
-    --kbyg-accent: {{wf {&quot;path&quot;:&quot;institute:global-institute-accent-color&quot;,&quot;type&quot;:&quot;Color&quot;\} }};
-    --kbyg-accent-dark: {{wf {&quot;path&quot;:&quot;institute:global-institute-dark-accent-color&quot;,&quot;type&quot;:&quot;Color&quot;\} }};
-  }
-
   .kbyg-page[data-audience="delegate"] [data-kbyg-audience-branch="sponsor"],
   .kbyg-page[data-audience="sponsor"] [data-kbyg-audience-branch="delegate"] {
     display: none !important;

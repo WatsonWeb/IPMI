@@ -3320,12 +3320,45 @@
 
   // Branded industry SVGs include their own circle; other interface badges
   // retain the separate glyph and background treatment.
-  .kbyg-hero__badge.kbyg-hero__badge--industry {
+  .kbyg-hero__badge.kbyg-hero__badge--industry,
+  .kbyg-hero__badge[data-kbyg-audience-branch="sponsor"] {
     background: transparent;
 
     img {
       width: 100%;
       height: 100%;
+    }
+  }
+
+  // Native rich-text agenda rows remain readable before JS enhancement,
+  // including on the editable Designer canvas where scripts do not run.
+  .kbyg-agenda-card .kbyg-rich-text p:not(.kbyg-agenda-card__row):has(> strong:first-child) {
+    display: grid;
+    grid-template-columns: 146px minmax(0, 1fr);
+    gap: 16px;
+    font-size: 18px;
+    line-height: 27px;
+    overflow-wrap: anywhere;
+
+    > strong:first-child {
+      color: var(--kbyg-accent-dark);
+      font-size: 14px;
+      font-weight: 750;
+      line-height: 1.4;
+      text-align: right;
+    }
+  }
+
+  @media screen and (max-width: 1199px) {
+    .kbyg-agenda-card .kbyg-rich-text p:not(.kbyg-agenda-card__row):has(> strong:first-child) {
+      grid-template-columns: minmax(0, 1fr);
+      gap: 4px;
+      font-size: 16px;
+      line-height: 24px;
+
+      > strong:first-child {
+        text-align: left;
+      }
     }
   }
 
