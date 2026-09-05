@@ -896,6 +896,11 @@
         display: none !important;
       }
 
+      // Designer retains the hidden CMS form instead of removing its markup.
+      &:has(> [data-kbyg-jump-form].w-condition-invisible) {
+        display: none !important;
+      }
+
       > [data-kbyg-jump-form] {
         display: flex;
         width: 100%;
@@ -3327,6 +3332,50 @@
     img {
       width: 100%;
       height: 100%;
+    }
+  }
+
+  // Native CMS icon images do not have the wrapper added by the frontend.
+  // Keep the circle separate so only the glyph receives the white filter.
+  .kbyg-icon-card:has(> img.kbyg-icon-card__icon) {
+    --kbyg-native-icon-size: 88px;
+    --kbyg-native-icon-top: -45px;
+    --kbyg-native-icon-left: 27px;
+
+    &::before {
+      position: absolute;
+      top: var(--kbyg-native-icon-top);
+      left: var(--kbyg-native-icon-left);
+      width: var(--kbyg-native-icon-size);
+      height: var(--kbyg-native-icon-size);
+      border-radius: 50%;
+      background: linear-gradient(180deg, var(--kbyg-accent), var(--kbyg-accent-dark));
+      content: "";
+      pointer-events: none;
+    }
+
+    > img.kbyg-icon-card__icon {
+      padding: calc(var(--kbyg-native-icon-size) / 4);
+      background: transparent;
+      filter: brightness(0) invert(1);
+      object-fit: contain;
+    }
+  }
+
+  @media screen and (max-width: 991px) {
+    .kbyg-icon-card:has(> img.kbyg-icon-card__icon) {
+      --kbyg-native-icon-size: 70px;
+      --kbyg-native-icon-top: -35px;
+    }
+  }
+
+  @media screen and (max-width: 479px) {
+    .kbyg-icon-card:has(> img.kbyg-icon-card__icon) {
+      --kbyg-native-icon-left: 25px;
+    }
+
+    &[data-audience="sponsor"] #prepare .kbyg-icon-card:has(> img.kbyg-icon-card__icon) {
+      --kbyg-native-icon-left: 28px;
     }
   }
 
