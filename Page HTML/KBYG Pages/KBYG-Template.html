@@ -11,16 +11,15 @@
   - --kbyg-accent: Referenced Institute > Accent Color.
   - --kbyg-accent-dark: Referenced Institute > Accent Dark.
 
+  Accent variables are supplied by KBYG-Head.html after the stylesheet defaults.
+  Do not add inline demo colors here: they would override the Institute CMS values.
+
   Shared component instances must remain inside .kbyg-page so the dedicated CSS
   can apply template-only navigation/footer fixes without changing global pages.
   Decorative icons have aria-hidden="true". Meaningful image alt values bind to
   the explicit KBYG Page alt fields or the referenced Staff member's name.
 -->
-<div
-  class="kbyg-page"
-  data-audience="delegate"
-  style="--kbyg-accent: #25948a; --kbyg-accent-dark: #1f7a72"
->
+<div class="kbyg-page" data-audience="delegate">
   <!-- WEBFLOW COMPONENT INSTANCE: Desktop Navigation -->
   <!-- WEBFLOW COMPONENT INSTANCE: Mobile Navigation -->
 

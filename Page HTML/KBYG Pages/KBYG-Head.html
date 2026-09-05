@@ -19,6 +19,11 @@
   name="kbyg-industry"
   content='{{wf {"path":"institute:global-institute-category","type":"Option"\} }}'
 />
+<!-- Load defaults first so the Institute CMS colors below win the cascade. -->
+<link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/gh/WatsonWeb/IPMI@__KBYG_COMMIT_SHA__/ipmi-kbyg-styles.css"
+/>
 <style>
   .kbyg-page {
     --kbyg-accent: {{wf {&quot;path&quot;:&quot;institute:global-institute-accent-color&quot;,&quot;type&quot;:&quot;Color&quot;\} }};
@@ -58,7 +63,3 @@
     });
   })();
 </script>
-<link
-  rel="stylesheet"
-  href="https://cdn.jsdelivr.net/gh/WatsonWeb/IPMI@__KBYG_COMMIT_SHA__/ipmi-kbyg-styles.css"
-/>

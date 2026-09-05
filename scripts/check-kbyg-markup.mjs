@@ -2,11 +2,14 @@ import { readFile } from "node:fs/promises";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
 
+import { validateKbygThemeContract } from "./kbyg-theme-contract.mjs";
+
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
 const templatePath = path.join(root, "Page HTML", "KBYG Pages", "KBYG-Template.html");
 const html = await readFile(templatePath, "utf8");
+const head = await readFile(path.join(root, "Page HTML", "KBYG Pages", "KBYG-Head.html"), "utf8");
 const visibleText = html.replace(/<[^>]+>/g, " ").replace(/\s+/g, " ");
-const failures = [];
+const failures = validateKbygThemeContract(head, html);
 
 const ids = [...html.matchAll(/\bid="([^"]+)"/g)].map((match) => match[1]);
 const duplicateIds = [...new Set(ids.filter((id, index) => ids.indexOf(id) !== index))];
