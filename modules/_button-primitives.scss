@@ -1,0 +1,14 @@
+// Declaration-only button effects. Native Webflow and KBYG keep their own
+// geometry, selectors, and transition syntax; importing this emits no CSS.
+@use "../global/colors";
+
+$pill-radius: 100px;
+$overlay-color: colors.$white;
+$overlay-scale: 0.2;
+$overlay-opacity: 0.25;
+$overlay-duration: 200ms;
+
+@mixin overlay-active {
+	opacity: $overlay-opacity;
+	transform: none;
+}

@@ -1,0 +1,8 @@
+// Declaration-only typography primitives. Importing this module emits no CSS.
+// Consumers retain their own font stacks, selectors, and declaration order.
+$body-weight: 450;
+
+@mixin font-smoothing {
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}

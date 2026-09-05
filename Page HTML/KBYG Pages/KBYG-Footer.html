@@ -1,11 +1,12 @@
 <!--
   KBYG collection-template before-</body> custom code.
 
-  DEPLOYMENT: replace __KBYG_COMMIT_SHA__ with the immutable Git commit SHA that
-  contains ipmi-kbyg.js. Load this dependency-free script once on the KBYG Pages
-  collection template after Webflow's page markup.
+  DEPLOYMENT: replace __ASSET_COMMIT_SHA__ with the immutable release commit SHA
+  that includes the built dist/ipmi-kbyg.js artifact. dist/ is ignored locally;
+  vp build alone does not publish a CDN URL. Load this dependency-free script
+  once on the KBYG Pages collection template after Webflow's page markup.
 -->
 <script
-  src="https://cdn.jsdelivr.net/gh/WatsonWeb/IPMI@__KBYG_COMMIT_SHA__/ipmi-kbyg.js"
+  src="https://cdn.jsdelivr.net/gh/WatsonWeb/IPMI@__ASSET_COMMIT_SHA__/dist/ipmi-kbyg.js"
   defer
 ></script>

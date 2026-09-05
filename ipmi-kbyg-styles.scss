@@ -28,21 +28,25 @@
  * Every selector in this file is intentionally scoped beneath .kbyg-page.
  */
 
+@use "global/colors";
+@use "global/typography-primitives" as type;
+@use "modules/button-primitives" as button;
+
 .kbyg-page {
-  --kbyg-accent: var(--accent, #25948a);
-  --kbyg-accent-dark: var(--accent-dark, #1f7a72);
+  --kbyg-accent: var(--accent, #{colors.$healthcare});
+  --kbyg-accent-dark: var(--accent-dark, #{colors.$healthcare-dark});
   --kbyg-accent-deep: color-mix(in srgb, var(--kbyg-accent-dark) 82%, #0a1c1b);
-  --kbyg-accent-text: color-mix(in srgb, var(--kbyg-accent-dark) 82%, #18181b);
-  --kbyg-accent-on-dark: color-mix(in srgb, var(--kbyg-accent) 72%, #fff);
-  --kbyg-white: #fff;
-  --kbyg-paper: #f4f4f5;
-  --kbyg-mist: #e4e4e7;
+  --kbyg-accent-text: color-mix(in srgb, var(--kbyg-accent-dark) 82%, #{colors.$zinc-900});
+  --kbyg-accent-on-dark: color-mix(in srgb, var(--kbyg-accent) 72%, #{colors.$white});
+  --kbyg-white: #{colors.$white};
+  --kbyg-paper: #{colors.$zinc-100};
+  --kbyg-mist: #{colors.$zinc-200};
   --kbyg-line: #d2d2d7;
-  --kbyg-line-dark: #3f3f46;
+  --kbyg-line-dark: #{colors.$zinc-700};
   --kbyg-ink: #3f3f47;
   --kbyg-muted: #62626c;
-  --kbyg-dark: #27272a;
-  --kbyg-card-dark: #1f1f21;
+  --kbyg-dark: #{colors.$zinc-800};
+  --kbyg-card-dark: #{colors.$zinc-850};
   --kbyg-shadow: 0 12px 28px rgba(24, 24, 27, 0.1);
   --kbyg-shadow-small: 0 3px 8px rgba(24, 24, 27, 0.09);
   --kbyg-radius: 10px;
@@ -66,10 +70,9 @@
     color: var(--kbyg-ink);
     font-family: "Avenir Next Variable", "Avenir Next", Avenir, sans-serif;
     font-size: 16px;
-    font-weight: 450;
+    font-weight: type.$body-weight;
     line-height: 1.55;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
+    @include type.font-smoothing;
 
     &,
     & *,
@@ -366,7 +369,7 @@
     gap: 11px;
     padding: 15px 20px;
     border: 0;
-    border-radius: 100px;
+    border-radius: button.$pill-radius;
     background-color: var(--kbyg-accent-dark);
     background-image: linear-gradient(
       180deg,
@@ -388,20 +391,19 @@
       z-index: 2;
       inset: 0;
       border-radius: inherit;
-      background-color: #fff;
+      background-color: button.$overlay-color;
       content: "";
       mix-blend-mode: overlay;
       opacity: 0;
       pointer-events: none;
-      transform: scale(0.2);
-      transition: transform 200ms ease, opacity 200ms ease;
+      transform: scale(button.$overlay-scale);
+      transition: transform button.$overlay-duration ease, opacity button.$overlay-duration ease;
     }
 
     &:hover,
     &:focus {
       &::after {
-        opacity: 0.25;
-        transform: none;
+        @include button.overlay-active;
       }
     }
 
@@ -442,10 +444,10 @@
     &.has-error,
     &[aria-disabled="true"],
     &:disabled {
-      border-color: #a1a1aa;
-      background: #d4d4d8;
+      border-color: colors.$disabled;
+      background: colors.$zinc-300;
       box-shadow: none;
-      color: #52525b;
+      color: colors.$zinc-600;
       cursor: not-allowed;
       transform: none;
 
@@ -707,7 +709,7 @@
       align-items: center;
       gap: 8px;
       margin: 10px 0 0;
-      color: #f4f4f5;
+      color: colors.$zinc-100;
       font-size: 25px;
       font-weight: 600;
       line-height: 34px;
@@ -720,7 +722,7 @@
     &__intro {
       max-width: 540px;
       margin: 18px 0 0;
-      color: #d4d4d8;
+      color: colors.$zinc-300;
       font-size: 19px;
       line-height: 31px;
     }
@@ -980,7 +982,7 @@
       flex: 0 0 112px;
       border: 6px solid var(--kbyg-accent);
       border-radius: 50%;
-      background: #d4d4d8;
+      background: colors.$zinc-300;
       object-fit: cover;
     }
 
@@ -2153,12 +2155,12 @@
 
       &__event {
         font-size: 26px;
-        font-weight: 450;
+        font-weight: type.$body-weight;
         line-height: 34px;
       }
 
       &__venue {
-        font-weight: 450;
+        font-weight: type.$body-weight;
         line-height: 28px;
       }
 
