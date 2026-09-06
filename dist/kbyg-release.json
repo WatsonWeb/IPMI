@@ -1,0 +1,18 @@
+{
+  "sourceCommit": "bc082091681b75324a441e5993ce27012cebf193",
+  "scope": "KBYG runtime only; global scripts, CSS, CMS content and production domains are unchanged",
+  "stagingDomain": "ipmi.webflow.io",
+  "artifacts": {
+    "ipmi-kbyg.js": {
+      "bytes": 33680,
+      "sha256": "0327db5fed611aa468bda5893858e67c6404e9179605da824e61806c10a189d7"
+    },
+    "ipmi-kbyg.js.map": {
+      "bytes": 119893,
+      "sha256": "0bc3504a7501ca9e0944ce572470330c3e964e8f085680406a49099f1f5c8572"
+    }
+  },
+  "retainedStylesheet": "https://cdn.jsdelivr.net/gh/WatsonWeb/IPMI@45f76b4e2d825ad03e9c70ac46203bd79b0d4b14/ipmi-kbyg-styles.css",
+  "rollbackRuntime": "https://cdn.jsdelivr.net/gh/WatsonWeb/IPMI@1a43ab6479710e09b92991cc9cb96dfdbc6ac2eb/ipmi-kbyg.js",
+  "validation": "vp run verify: 175 tests across 13 files; build, types, lint, formatting, CSS and CMS checks passed"
+}
