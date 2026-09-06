@@ -1,5 +1,6 @@
 // @vitest-environment happy-dom
 import assert from "node:assert/strict";
+import type { Window } from "happy-dom";
 
 import { afterEach, beforeEach, expect, test, vi } from "vite-plus/test";
 
@@ -52,6 +53,12 @@ function geometry(element: HTMLElement, top: number, height = 900): void {
 
 beforeEach(() => {
   vi.useFakeTimers();
+  // Unhandled anchors must retain their native default without allowing this
+  // unit test's external-link checks to navigate or make network requests.
+  const navigation = (window as unknown as Window).happyDOM.settings.navigation;
+  navigation.disableMainFrameNavigation = true;
+  navigation.disableChildFrameNavigation = true;
+  navigation.disableChildPageNavigation = true;
   document.head.innerHTML = "";
   document.body.innerHTML = "";
   history.replaceState(null, "", "/know-before-you-go/example-delegate");
@@ -246,6 +253,205 @@ test("navigation generates unique IDs, synchronizes select/hash changes, and iso
   history.replaceState(null, "", "#agenda");
   window.dispatchEvent(new HashChangeEvent("hashchange"));
   expect(first.getAttribute("data-kbyg-active-section")).toBe(one.navigation.sections[0]?.id);
+});
+
+function stickyNavigationFixture(mobile = false, innerInset = 0) {
+  const element =
+    page(`<div class="kbyg-hero__actions"><a id="hero-agenda" href="#agenda">Agenda</a></div>
+    <a id="nav-agenda" data-kbyg-jump="agenda" href="#agenda">Agenda</a>
+    <select data-kbyg-jump><option value="welcome">Welcome</option><option value="agenda">Agenda</option></select>
+    <section id="welcome" data-kbyg-section></section>
+    <div id="agenda-curve" class="kbyg-curve"></div>
+    <nav data-kbyg-jump-nav style="position:sticky;top:${mobile ? 10 : 14}px;transform:matrix(1,0,0,1,0,${mobile ? 67 : 16})"><div class="kbyg-jump__inner"></div></nav>
+    <div hidden style="display:none" id="hidden-sibling"></div><div id="empty-sibling"></div>
+    <section id="agenda" data-kbyg-section><header class="kbyg-section__header" hidden style="display:none">Hidden header</header><header class="kbyg-section__header" id="visible-header"><h2>Agenda</h2></header></section>`);
+  element.style.setProperty("--kbyg-scroll-offset", "96px");
+  const section = get(element, "#agenda");
+  const curve = get(element, "#agenda-curve");
+  const nav = get(element, "nav");
+  const inner = get(element, ".kbyg-jump__inner");
+  const header = get(element, "#visible-header");
+  const height = mobile ? 54 : 62;
+  const stickyTop = mobile ? 77 : 30;
+  function documentGeometry(target: HTMLElement, top: number, boxHeight: number) {
+    vi.spyOn(target, "getBoundingClientRect").mockImplementation(
+      () => new DOMRect(0, top - window.scrollY, 600, boxHeight),
+    );
+  }
+  documentGeometry(get(element, "#welcome"), 0, 1000);
+  documentGeometry(curve, 1000, mobile ? 34 : 84);
+  documentGeometry(section, mobile ? 1034 : 1084, 900);
+  documentGeometry(header, mobile ? 1044 : 1160, 80);
+  documentGeometry(get(header, "h2"), mobile ? 1044 : 1160, 40);
+  geometry(get(element, "#hidden-sibling"), 0, 0);
+  geometry(get(element, "#empty-sibling"), 0, 0);
+  geometry(get(element, "header[hidden]"), 0, 0);
+  vi.spyOn(nav, "getBoundingClientRect").mockImplementation(
+    () => new DOMRect(0, window.scrollY === 0 ? 700 : stickyTop, 600, height + innerInset),
+  );
+  vi.spyOn(inner, "getBoundingClientRect").mockImplementation(
+    () => new DOMRect(0, (window.scrollY === 0 ? 700 : stickyTop) + innerInset, 600, height),
+  );
+  return { element, section, curve, nav, inner, header };
+}
+
+test.each([
+  ["desktop", false, 981],
+  ["mobile", true, 897],
+] as const)(
+  "%s anchors predict the translated sticky pill before and after it sticks",
+  (_label, mobile, expectedTop) => {
+    viewport(mobile ? 375 : 1280);
+    const { element } = stickyNavigationFixture(mobile);
+    const instance = initialize(element);
+    const ancestor = vi.fn();
+    element.addEventListener("click", ancestor);
+    const select = get<HTMLSelectElement>(element, "select");
+    for (const currentScroll of [0, 1200]) {
+      Object.defineProperty(window, "scrollY", { configurable: true, value: currentScroll });
+      expect(click(get(element, "#nav-agenda")).defaultPrevented).toBe(true);
+      expect(window.scrollTo).toHaveBeenLastCalledWith({ top: expectedTop, behavior: "smooth" });
+      expect(location.hash).toBe("#agenda");
+      expect(select.value).toBe("agenda");
+      expect(get(element, "#nav-agenda").getAttribute("aria-current")).toBe("location");
+      expect(click(get(element, "#hero-agenda")).defaultPrevented).toBe(true);
+      expect(window.scrollTo).toHaveBeenLastCalledWith({ top: expectedTop, behavior: "smooth" });
+    }
+    expect(ancestor).not.toHaveBeenCalled();
+    reducedMotion = true;
+    select.value = "agenda";
+    select.dispatchEvent(new Event("change"));
+    expect(window.scrollTo).toHaveBeenLastCalledWith({ top: expectedTop, behavior: "auto" });
+    history.replaceState(null, "", "#agenda");
+    window.dispatchEvent(new HashChangeEvent("hashchange"));
+    expect(window.scrollTo).toHaveBeenLastCalledWith({ top: expectedTop, behavior: "auto" });
+    const calls = vi.mocked(window.scrollTo).mock.calls.length;
+    instance.destroy();
+    expect(click(get(element, "#hero-agenda")).defaultPrevented).toBe(false);
+    expect(click(get(element, "#nav-agenda")).defaultPrevented).toBe(false);
+    expect(ancestor).toHaveBeenCalledTimes(2);
+    expect(vi.mocked(window.scrollTo).mock.calls).toHaveLength(calls);
+  },
+);
+
+test("sticky centering includes the inner pill's relative top and the declared offset floor", () => {
+  const { element, header } = stickyNavigationFixture(false, 8);
+  const instance = initialize(element);
+  instance.navigation.navigateTo("agenda");
+  expect(window.scrollTo).toHaveBeenLastCalledWith({ top: 973, behavior: "smooth" });
+  // With a larger explicit clearance the visible heading, not the curve, limits the scroll.
+  element.setAttribute("data-kbyg-scroll-offset", "210");
+  geometry(header, 1160, 80);
+  instance.navigation.navigateTo("agenda");
+  expect(window.scrollTo).toHaveBeenLastCalledWith({ top: 934, behavior: "smooth" });
+});
+
+test("heading clearance accounts for every sticky overlay and falls back to the first visible h2", () => {
+  const { element, header } = stickyNavigationFixture();
+  header.classList.remove("kbyg-section__header");
+  const overlay = document.createElement("div");
+  overlay.setAttribute("data-kbyg-sticky", "");
+  overlay.style.cssText = "position:fixed;top:130px";
+  element.prepend(overlay);
+  geometry(overlay, 130, 60);
+  const hiddenHeading = document.createElement("h2");
+  hiddenHeading.hidden = true;
+  hiddenHeading.style.display = "none";
+  header.prepend(hiddenHeading);
+  geometry(hiddenHeading, 0, 0);
+  initialize(element).navigation.navigateTo("agenda");
+  expect(window.scrollTo).toHaveBeenLastCalledWith({ top: 954, behavior: "smooth" });
+});
+
+test.each([
+  "missing curve",
+  "hidden curve",
+  "zero-height curve",
+  "no sticky nav",
+  "hidden nav",
+  "previous section",
+])(
+  "%s retains section-top scrolling instead of borrowing a different section's curve",
+  (condition) => {
+    const { element, curve, nav, section } = stickyNavigationFixture();
+    if (condition === "missing curve") curve.remove();
+    if (condition === "hidden curve") {
+      curve.style.display = "none";
+      geometry(curve, 0, 0);
+    }
+    if (condition === "zero-height curve") geometry(curve, 1000, 0);
+    if (condition === "no sticky nav") nav.remove();
+    if (condition === "hidden nav") {
+      nav.style.display = "none";
+      geometry(nav, 0, 0);
+    }
+    if (condition === "previous section") {
+      const preceding = document.createElement("section");
+      preceding.setAttribute("data-kbyg-section", "intervening");
+      section.before(preceding);
+      geometry(preceding, 1040, 40);
+    }
+    initialize(element).navigation.navigateTo("agenda");
+    expect(window.scrollTo).toHaveBeenLastCalledWith({ top: 988, behavior: "smooth" });
+  },
+);
+
+test("an early section cannot scroll above the document origin", () => {
+  const { element, curve, section, header } = stickyNavigationFixture();
+  geometry(curve, 0, 34);
+  geometry(section, 34, 900);
+  geometry(header, 44, 80);
+  initialize(element).navigation.navigateTo("agenda");
+  expect(window.scrollTo).toHaveBeenLastCalledWith({ top: 0, behavior: "smooth" });
+});
+
+test("hero ownership accepts same-document URLs and leaves excluded or modified links to the browser", () => {
+  const { element } = stickyNavigationFixture();
+  const hero = get(element, ".kbyg-hero__actions");
+  const sameDocument = `${location.origin}${location.pathname}`;
+  hero.insertAdjacentHTML(
+    "beforeend",
+    `<a id="absolute-hero" href="${sameDocument}#agenda">Same document</a>
+      <a id="other-page" href="/other-page#agenda">Other page</a>
+      <a id="external-page" href="https://example.test/other#agenda">External</a>
+      <a id="blank-hero" href="#agenda" target="_blank">New tab</a>
+      <a id="download-hero" href="#agenda" download>Download</a>
+      <a id="unknown-hero" href="#missing">Missing section</a>`,
+  );
+  element.insertAdjacentHTML(
+    "beforeend",
+    '<a id="unknown-nav" data-kbyg-jump="missing" href="#missing">Missing navigation</a>',
+  );
+  initialize(element);
+  const ancestor = vi.fn();
+  element.addEventListener("click", ancestor);
+  expect(click(get(element, "#absolute-hero")).defaultPrevented).toBe(true);
+  expect(window.scrollTo).toHaveBeenLastCalledWith({ top: 981, behavior: "smooth" });
+  expect(ancestor).not.toHaveBeenCalled();
+  const calls = vi.mocked(window.scrollTo).mock.calls.length;
+  for (const id of [
+    "other-page",
+    "external-page",
+    "blank-hero",
+    "download-hero",
+    "unknown-hero",
+    "unknown-nav",
+  ]) {
+    expect(click(get(element, `#${id}`)).defaultPrevented).toBe(false);
+    expect(key(get(element, `#${id}`), " ").defaultPrevented).toBe(false);
+  }
+  for (const options of [
+    { ctrlKey: true },
+    { metaKey: true },
+    { shiftKey: true },
+    { altKey: true },
+    { button: 1 },
+  ]) {
+    for (const id of ["hero-agenda", "nav-agenda"])
+      expect(click(get(element, `#${id}`), options).defaultPrevented).toBe(false);
+  }
+  expect(ancestor).toHaveBeenCalledTimes(16);
+  expect(vi.mocked(window.scrollTo).mock.calls).toHaveLength(calls);
 });
 
 test("scroll tracking selects the last section at document end and stops pending updates after destroy", () => {
@@ -444,6 +650,28 @@ test("key-date disclosure hides when all records fit, then appears on mobile", (
   viewport(768);
   expect(control.hidden).toBe(false);
   expect(items[3]?.hidden).toBe(true);
+});
+
+test("revealed date cards use sticky clearance without centering a preceding decorative curve", () => {
+  const { element, control, cards } = dateFixture(6);
+  element.style.setProperty("--kbyg-scroll-offset", "96px");
+  element.insertAdjacentHTML(
+    "afterbegin",
+    '<nav data-kbyg-jump-nav style="position:sticky;top:14px;transform:matrix(1,0,0,1,0,16)"><div class="kbyg-jump__inner"></div></nav>',
+  );
+  geometry(get(element, "nav"), 700, 62);
+  geometry(get(element, ".kbyg-jump__inner"), 700, 62);
+  const card = cards[4];
+  assert.ok(card);
+  const curve = document.createElement("div");
+  curve.className = "kbyg-curve";
+  card.before(curve);
+  geometry(curve, 1616, 84);
+  geometry(card, 1700, 240);
+  initialize(element);
+  click(control);
+  expect(window.scrollTo).toHaveBeenLastCalledWith({ top: 1604, behavior: "smooth" });
+  expect(document.activeElement).toBe(card);
 });
 
 test("addresses link to Google Maps while phone links and real Sponsor Hub URLs are preserved", () => {

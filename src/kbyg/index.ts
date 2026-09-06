@@ -765,8 +765,9 @@ function numericCssValue(value: unknown) {
   return Number.isFinite(number) && number > 0 ? number : 0;
 }
 
-function getStickyOffset(page: HTMLElement, windowRef: KbygWindow | null) {
+function getStickyGeometry(page: HTMLElement, windowRef: KbygWindow | null) {
   let offset = numericCssValue(getAttribute(page, "data-kbyg-scroll-offset"));
+  let navCenter: number | null = null;
   let getStyle =
     windowRef && typeof windowRef.getComputedStyle === "function"
       ? windowRef.getComputedStyle.bind(windowRef)
@@ -785,7 +786,7 @@ function getStickyOffset(page: HTMLElement, windowRef: KbygWindow | null) {
 
   queryAll(
     page,
-    "[data-kbyg-sticky], [data-kbyg-jump-nav], .kbyg-jump-nav, .kbyg-jump-navigation",
+    "[data-kbyg-sticky], [data-kbyg-jump-nav], .kbyg-jump, .kbyg-jump-nav, .kbyg-jump-navigation",
   ).forEach(function (element) {
     if (!element || typeof element.getBoundingClientRect !== "function") return;
 
@@ -808,18 +809,56 @@ function getStickyOffset(page: HTMLElement, windowRef: KbygWindow | null) {
       position === "sticky" ||
       position === "fixed";
 
-    if (!isSticky) return;
+    if (!isSticky || height <= 0 || style?.visibility === "hidden") return;
 
     if (position === "sticky" || position === "fixed") {
-      offset = Math.max(offset, declaredTop + height);
-    }
-
-    if (Number(rect.top) <= offset + 1 && Number(rect.bottom) > 0) {
+      // The responsive pill is translated below its sticky inset. Measure its
+      // eventual position, not its current (possibly still in-flow) viewport Y.
+      let translation = 0;
+      if (style?.transform && style.transform !== "none") {
+        try {
+          translation = new DOMMatrixReadOnly(style.transform).m42;
+        } catch {
+          // A detached document/test environment may not implement DOMMatrix.
+        }
+      }
+      let top = declaredTop + translation;
+      offset = Math.max(offset, top + height);
+      if (
+        element.matches("[data-kbyg-jump-nav], .kbyg-jump, .kbyg-jump-nav, .kbyg-jump-navigation")
+      ) {
+        let inner = query(element, ".kbyg-jump__inner");
+        let pill = inner?.getBoundingClientRect();
+        let pillTop = top + (pill && pill.height > 0 ? pill.top - rect.top : 0);
+        let pillHeight = pill && pill.height > 0 ? pill.height : height;
+        offset = Math.max(offset, pillTop + pillHeight);
+        navCenter = pillTop + pillHeight / 2;
+      }
+    } else if (Number(rect.top) <= offset + 1 && Number(rect.bottom) > 0) {
       offset = Math.max(offset, Number(rect.bottom));
     }
   });
 
-  return Math.ceil(offset);
+  return { offset: Math.ceil(offset), navCenter };
+}
+
+function getStickyOffset(page: HTMLElement, windowRef: KbygWindow | null) {
+  return getStickyGeometry(page, windowRef).offset;
+}
+
+function precedingSectionCurve(section: HTMLElement) {
+  // Welcome has the jump nav between it and the hero curve. CMS conditions can
+  // also leave hidden siblings; never borrow a curve across another section.
+  let sibling = section.previousElementSibling;
+  while (sibling) {
+    let rect = sibling.getBoundingClientRect();
+    if (rect.height > 0) {
+      if (sibling.matches(".kbyg-curve, [data-kbyg-curve]")) return rect;
+      if (sibling.matches("[data-kbyg-section]")) return null;
+    }
+    sibling = sibling.previousElementSibling;
+  }
+  return null;
 }
 
 function scrollToSection(
@@ -830,10 +869,25 @@ function scrollToSection(
 ) {
   if (!section || typeof section.getBoundingClientRect !== "function") return false;
 
-  let offset = getStickyOffset(page, windowRef);
+  let { offset, navCenter } = getStickyGeometry(page, windowRef);
   let rect = section.getBoundingClientRect();
   let currentScroll = Number((windowRef && (windowRef.scrollY || windowRef.pageYOffset)) || 0);
-  let top = Math.max(0, currentScroll + Number(rect.top || 0) - offset);
+  let top = currentScroll + Number(rect.top || 0) - offset;
+
+  // Card reveals share this helper but should not jump back to a section curve.
+  if (hasAttribute(section, "data-kbyg-section") && navCenter !== null) {
+    let curve = precedingSectionCurve(section);
+    if (curve) {
+      top = currentScroll + curve.top + curve.height / 2 - navCenter;
+      let heading = queryAll(section, ".kbyg-section__header, h2")
+        .map((element) => element.getBoundingClientRect())
+        .find((bounds) => bounds.height > 0);
+      // On narrow screens the curve can be shorter than the pill. Keep the
+      // first heading/eyebrow at least 16px below every sticky obstruction.
+      if (heading) top = Math.min(top, currentScroll + heading.top - offset - 16);
+    }
+  }
+  top = Math.max(0, top);
 
   if (windowRef && typeof windowRef.scrollTo === "function") {
     try {
@@ -972,6 +1026,28 @@ function setupNavigation(
     );
   }
 
+  function recordForLink(control: HTMLElement) {
+    let href = getAttribute(control, "href");
+    let target = getAttribute(control, "target");
+    if (hasAttribute(control, "download") || (target && target.toLowerCase() !== "_self"))
+      return null;
+    if (href) {
+      try {
+        let url = new URL(href, documentRef.baseURI);
+        let current = new URL(documentRef.URL);
+        if (
+          url.origin !== current.origin ||
+          url.pathname !== current.pathname ||
+          url.search !== current.search
+        )
+          return null;
+      } catch {
+        return null;
+      }
+    }
+    return recordForKey(readJumpValue(control));
+  }
+
   function updateControls(record: SectionRecord | null) {
     if (!record || activeRecord === record) return;
     activeRecord = record;
@@ -1072,17 +1148,23 @@ function setupNavigation(
     );
   });
 
-  links.forEach(function (control) {
+  // CMS-bound hero CTAs do not carry data-kbyg-jump in existing Webflow pages.
+  // Resolve their actual href so external guides keep their native behavior.
+  let jumpLinks = new Set([...links, ...queryAll(page, ".kbyg-hero__actions a[href]")]);
+  jumpLinks.forEach(function (control) {
     function activate(event: Event) {
       if (isModifiedClick(event)) return;
-      let record = recordForKey(readJumpValue(control));
+      let record = recordForLink(control);
       if (!record) return;
-      if (event && typeof event.preventDefault === "function") event.preventDefault();
+      event.preventDefault();
+      // Webflow delegates its smooth scrolling to document. Only owned jumps
+      // stop here, preventing a second unoffset scroll from overriding ours.
+      event.stopPropagation();
       navigate(record);
     }
 
     addListener(control, "click", activate, false, cleanups);
-    installKeyboardActivation(control, activate, cleanups);
+    if (recordForLink(control)) installKeyboardActivation(control, activate, cleanups);
   });
 
   addListener(windowRef, "scroll", scheduleUpdate, { passive: true }, cleanups);
