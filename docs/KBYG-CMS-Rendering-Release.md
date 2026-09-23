@@ -41,6 +41,16 @@ remain the source of event, staff, and content-block data.
   `YYYY-MM-DD` for all-day values and ISO timestamps for timed values. Bind
   `data-kbyg-all-day` to All-day. Explicit dates win over display copy; English
   display dates are accepted only as a fallback when no start is supplied.
+- When native date attributes omit the time, add a hidden sibling inside each
+  `.kbyg-date-card` with `data-kbyg-calendar-source` and
+  `data-kbyg-calendar-timezone="America/Toronto"` (the verified site timezone).
+  Use native Embed field chips to populate that element's `data-kbyg-start` and
+  `data-kbyg-end`, both formatted `YYYY-MM-DD H:mm`. The runtime converts these
+  local timestamps to UTC before using their UTC dates for all-day events or
+  their instants for timed events. Nonempty source values take precedence;
+  empty values retain the control's existing date. Invalid, nonexistent, or
+  ambiguous local timestamps fail the download rather than use stale dates.
+  A source value with an explicit ISO offset or `Z` is also accepted directly.
 - Bind each CTA's own `href`. A root `data-kbyg-hub-url` no longer overrides both
   Hub and Support. An optional per-link `data-kbyg-hub-url` can supply an HTTP URL.
 - The Sponsor Experience meeting-method list can render the first three items

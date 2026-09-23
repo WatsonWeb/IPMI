@@ -261,6 +261,59 @@ function parseDateTime(value: unknown) {
   };
 }
 
+export function zonedDateTimeToUtc(value: unknown, timeZone: string): string | null {
+  let text = scalarText(value || "").trim();
+  let explicit = parseDateTime(text);
+  if (explicit?.isUtc) return new Date(explicit.serial).toISOString();
+
+  let match = text.match(/^(\d{4}-\d{2}-\d{2})[T ](\d{1,2}):(\d{2})(?::(\d{2}))?$/);
+  if (!match || !timeZone.trim()) return null;
+  let local = parseDateTime(
+    match[1] + "T" + pad(Number(match[2])) + ":" + match[3] + ":" + (match[4] || "00"),
+  );
+  if (!local) return null;
+
+  try {
+    let formatter = new Intl.DateTimeFormat("en-US", {
+      timeZone: timeZone.trim(),
+      year: "numeric",
+      month: "2-digit",
+      day: "2-digit",
+      hour: "2-digit",
+      minute: "2-digit",
+      second: "2-digit",
+      hourCycle: "h23",
+    });
+    function localMilliseconds(instant: number) {
+      let parts = Object.fromEntries(
+        formatter.formatToParts(instant).map((part) => [part.type, part.value]),
+      );
+      return Date.UTC(
+        Number(parts.year),
+        Number(parts.month) - 1,
+        Number(parts.day),
+        Number(parts.hour),
+        Number(parts.minute),
+        Number(parts.second),
+      );
+    }
+
+    // Check offsets on both sides of a possible DST transition. A local time
+    // that is skipped or occurs twice cannot safely identify the CMS instant.
+    let candidates = new Set<number>();
+    [-86400000, 0, 86400000].forEach(function (delta) {
+      let sample = local.serial + delta;
+      let offset = localMilliseconds(sample) - sample;
+      let candidate = local.serial - offset;
+      if (localMilliseconds(candidate) === local.serial) candidates.add(candidate);
+    });
+    if (candidates.size !== 1) return null;
+    return new Date([...candidates][0]).toISOString();
+  } catch {
+    return null;
+  }
+}
+
 function addHour(dateTime: ParsedDateTime) {
   let parts = utcPartsFromMilliseconds(dateTime.serial + 60 * 60 * 1000);
   if (!parts) throw new TypeError("Calendar end time is out of range.");

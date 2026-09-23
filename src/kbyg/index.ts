@@ -5,6 +5,7 @@ import {
   slug,
   parseDateOnly,
   parseDisplayDate,
+  zonedDateTimeToUtc,
   escapeICalText,
   foldICalLine,
   utf8ByteLength,
@@ -1214,6 +1215,23 @@ function calendarDataFromElement(control: HTMLElement): CalendarInput {
   let allDay = field("allDay", ["data-kbyg-all-day", "data-kbyg-calendar-all-day"]);
   let start = field("start", ["data-kbyg-start", "data-kbyg-calendar-start"]);
   let end = field("end", ["data-kbyg-end", "data-kbyg-calendar-end"]);
+  let source = query(card, "[data-kbyg-calendar-source]");
+  let sourceInvalid = false;
+  function sourceDate(name: string, fallback: unknown) {
+    let value = String(getAttribute(source, "data-kbyg-" + name) || "").trim();
+    if (!value) return fallback;
+    let converted = zonedDateTimeToUtc(
+      value,
+      String(getAttribute(source, "data-kbyg-calendar-timezone") || ""),
+    );
+    if (!converted) sourceInvalid = true;
+    return converted;
+  }
+  start = sourceDate("start", start);
+  end = sourceDate("end", end);
+  // Fail the download for an invalid explicit source, including its end date,
+  // instead of silently reverting to stale attributes or a default duration.
+  if (sourceInvalid) start = "invalid-native-calendar-source";
   let displayDateElement = query(card, ".kbyg-date-card__display-date");
   let displayDate = parseDisplayDate(
     displayDateElement && (displayDateElement.textContent || displayDateElement.innerText),

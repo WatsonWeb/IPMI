@@ -556,3 +556,147 @@ test("explicit CMS calendar dates win over an outdated display date in downloads
   expect(get(element, ".kbyg-date-card__month").textContent).toBe("OCT");
   expect(get(element, ".kbyg-date-card__day").textContent).toBe("12");
 });
+
+function calendarSourcePage(options: {
+  sourceStart?: string;
+  sourceEnd?: string;
+  timezone?: string | null;
+  allDay?: boolean;
+  controlStart?: string;
+  controlEnd?: string;
+}): HTMLElement {
+  const element = page(
+    `<article class="kbyg-date-card">
+      <h3 data-kbyg-calendar-title>CMS deadline</h3>
+      <span class="kbyg-date-card__month"></span><span class="kbyg-date-card__day"></span>
+      <p class="kbyg-date-card__display-date">Friday, September 4, 2026</p>
+      <a href="#" data-kbyg-calendar>Add to calendar</a>
+    </article>`,
+  );
+  const control = get(element, "[data-kbyg-calendar]");
+  control.setAttribute("data-kbyg-start", options.controlStart ?? "2026-09-04");
+  control.setAttribute("data-kbyg-end", options.controlEnd ?? "2026-09-04");
+  control.setAttribute("data-kbyg-all-day", String(options.allDay ?? true));
+  if (options.sourceStart !== undefined) {
+    const source = document.createElement("span");
+    source.hidden = true;
+    source.setAttribute("data-kbyg-calendar-source", "");
+    source.setAttribute("data-kbyg-start", options.sourceStart);
+    source.setAttribute("data-kbyg-end", options.sourceEnd ?? options.sourceStart);
+    if (options.timezone !== null) {
+      source.setAttribute("data-kbyg-calendar-timezone", options.timezone ?? "America/Toronto");
+    }
+    control.before(source);
+  }
+  return element;
+}
+
+async function downloadCalendar(element: HTMLElement): Promise<string | null> {
+  let downloaded: Blob | undefined;
+  vi.spyOn(URL, "createObjectURL").mockImplementation((value) => {
+    assert.ok(value instanceof Blob);
+    downloaded = value;
+    return "blob:kbyg-source-calendar";
+  });
+  vi.spyOn(URL, "revokeObjectURL").mockImplementation(() => {});
+  vi.spyOn(HTMLAnchorElement.prototype, "click").mockImplementation(() => {});
+  initialize(element);
+  get(element, "[data-kbyg-calendar]").dispatchEvent(
+    new MouseEvent("click", { bubbles: true, cancelable: true }),
+  );
+  return downloaded ? downloaded.text() : null;
+}
+
+test.each([
+  ["summer", "2026-07-28 20:00", "20260729", "20260730"],
+  ["winter", "2026-01-28 19:00", "20260129", "20260130"],
+])(
+  "the native Toronto calendar source restores the next UTC date during %s",
+  async (_season, sourceStart, expectedStart, expectedEnd) => {
+    const element = calendarSourcePage({ sourceStart });
+
+    const calendar = await downloadCalendar(element);
+
+    expect(calendar).toContain(`DTSTART;VALUE=DATE:${expectedStart}\r\n`);
+    expect(calendar).toContain(`DTEND;VALUE=DATE:${expectedEnd}\r\n`);
+    expect(calendar).not.toContain("20260904");
+    expect(get(element, ".kbyg-date-card__day").textContent).toBe("29");
+  },
+);
+
+test("timed native calendar sources retain the Toronto instant across the UTC date boundary", async () => {
+  const element = calendarSourcePage({
+    sourceStart: "2026-07-28 20:00",
+    sourceEnd: "2026-07-28 21:30",
+    allDay: false,
+  });
+
+  const calendar = await downloadCalendar(element);
+
+  expect(calendar).toContain("DTSTART:20260729T000000Z\r\n");
+  expect(calendar).toContain("DTEND:20260729T013000Z\r\n");
+});
+
+test("blank native source dates fall back to valid control dates without timezone conversion", async () => {
+  const element = calendarSourcePage({ sourceStart: "  ", sourceEnd: "" });
+
+  const calendar = await downloadCalendar(element);
+
+  expect(calendar).toContain("DTSTART;VALUE=DATE:20260904\r\n");
+  expect(calendar).toContain("DTEND;VALUE=DATE:20260905\r\n");
+  expect(get(element, "[data-kbyg-calendar]").getAttribute("aria-disabled")).toBeNull();
+});
+
+test.each([
+  ["invalid start", "not-a-date", "2026-07-28 20:00"],
+  ["invalid end", "2026-07-28 20:00", "not-a-date"],
+  ["ambiguous wall time", "2026-11-01 01:30", "2026-11-01 01:30"],
+  ["nonexistent wall time", "2026-03-08 02:30", "2026-03-08 02:30"],
+])(
+  "a native Toronto source with %s disables downloads instead of reusing stale control dates",
+  async (_condition, sourceStart, sourceEnd) => {
+    const element = calendarSourcePage({ sourceStart, sourceEnd });
+
+    const calendar = await downloadCalendar(element);
+
+    expect(calendar).toBeNull();
+    const control = get(element, "[data-kbyg-calendar]");
+    expect(control.getAttribute("aria-disabled")).toBe("true");
+    expect(control.classList.contains("has-error")).toBe(true);
+  },
+);
+
+test("native wall times without a source timezone marker cannot silently become floating events", async () => {
+  const element = calendarSourcePage({
+    sourceStart: "2026-07-28 20:00",
+    sourceEnd: "2026-07-28 21:30",
+    timezone: null,
+    allDay: false,
+  });
+
+  const calendar = await downloadCalendar(element);
+
+  expect(calendar).toBeNull();
+  expect(get(element, "[data-kbyg-calendar]").getAttribute("aria-disabled")).toBe("true");
+});
+
+test.each([
+  [true, "2026-07-29", "2026-07-30", "DTSTART;VALUE=DATE:20260729", "DTEND;VALUE=DATE:20260731"],
+  [
+    false,
+    "2026-07-29T09:30:00-04:00",
+    "2026-07-29T10:30:00-04:00",
+    "DTSTART:20260729T133000Z",
+    "DTEND:20260729T143000Z",
+  ],
+] as const)(
+  "calendar controls without native sources preserve existing allDay=%s date semantics",
+  async (allDay, controlStart, controlEnd, expectedStart, expectedEnd) => {
+    const element = calendarSourcePage({ allDay, controlStart, controlEnd });
+
+    const calendar = await downloadCalendar(element);
+
+    expect(calendar).toContain(`${expectedStart}\r\n`);
+    expect(calendar).toContain(`${expectedEnd}\r\n`);
+  },
+);
