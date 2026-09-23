@@ -1,15 +1,15 @@
 {
-  "sourceCommit": "22ee18ac577ff63bc58bdb3ca9750bba90073922",
+  "sourceCommit": "1a89b7db3fd2ec6e7d03aba1af5b54dc0e8c36af",
   "scope": "KBYG CMS rendering runtime and scoped stylesheet; global stylesheet unchanged",
   "stagingDomain": "ipmi.webflow.io",
   "artifacts": {
     "dist/ipmi-kbyg.js": {
-      "bytes": 35085,
-      "sha256": "84947b10946d84b771b02919e0803f1f966c97a29d229520ccde5a72b13cb4ce"
+      "bytes": 35181,
+      "sha256": "cdb7eac2cd6aa8bd3853af19b744b2a7c64234577d75a4da19f4918d34ec23e6"
     },
     "dist/ipmi-kbyg.js.map": {
-      "bytes": 125091,
-      "sha256": "7ba8dad3938c66165c9ff4b7ba291170be8481eceaa582789201ec67dd38335d"
+      "bytes": 125488,
+      "sha256": "97cce079a897a7a7f0b79f495035c2b1b73658e071a4067cf077c2e7e856e07f"
     },
     "ipmi-kbyg-styles.css": {
       "bytes": 75353,
@@ -20,5 +20,5 @@
   "stylesheetPath": "ipmi-kbyg-styles.css",
   "rollbackRuntime": "https://cdn.jsdelivr.net/gh/WatsonWeb/IPMI@dca88619bec36d8f291376e0dc43f94c66368784/dist/ipmi-kbyg.js",
   "requiredWebflowChanges": "docs/KBYG-CMS-Rendering-Release.md",
-  "validation": "vp run verify passed: 219 tests across 14 files; all 15 builds, formatting, typed lint, CSS baselines, scope, markup, and CMS fixture checks. Final vp check and 42 focused tests passed after removing redundant test assertions."
+  "validation": "vp run verify passed: 221 tests across 14 files; all 15 builds, formatting, typed lint, CSS baselines, scope, markup, and CMS fixture checks"
 }
