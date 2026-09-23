@@ -146,6 +146,100 @@ test.each([
   expect(get(element, "section").getAttribute("data-kbyg-audience-branch")).toBe(audience);
 });
 
+const meetingMethodTitles = [
+  "Shared interests",
+  "Your top choices",
+  "Partner invitations",
+] as const;
+const experienceTitles = [
+  "Personal schedule",
+  "Evening reception",
+  "Conversation breaks",
+  "Venue activities",
+  "Departure details",
+];
+
+function experiencePage(titles: string[], audience = "sponsor"): HTMLElement {
+  return page(
+    `<section id="experience">
+      <div class="kbyg-meeting-method__list">
+        <h4 class="kbyg-meeting-method__item-title">1. Shared   interests</h4>
+        <h4 class="kbyg-meeting-method__item-title">Your\n top choices</h4>
+        <h4 class="kbyg-meeting-method__item-title">3. Partner invitations</h4>
+      </div>
+      <div class="kbyg-experience-grid w-dyn-items">
+        ${titles.map((title) => `<div class="w-dyn-item"><article class="kbyg-icon-card"><h3 class="kbyg-icon-card__title">${title}</h3><p class="kbyg-icon-card__body">Details for ${title}</p></article></div>`).join("")}
+      </div>
+    </section>`,
+    audience,
+  );
+}
+
+function renderedExperienceTitles(element: HTMLElement): string[] {
+  return [...element.querySelectorAll(".kbyg-experience-grid .kbyg-icon-card__title")].map(
+    (title) => title.textContent ?? "",
+  );
+}
+
+test("Sponsor Experience removes the three duplicated meeting methods from a full eight-item CMS list", () => {
+  const element = experiencePage([
+    "Shared interests",
+    "2. Your top choices",
+    "Partner\n invitations",
+    ...experienceTitles,
+  ]);
+
+  initialize(element);
+
+  expect(renderedExperienceTitles(element)).toEqual(experienceTitles);
+  expect(element.querySelectorAll(".kbyg-experience-grid .w-dyn-item")).toHaveLength(5);
+  expect(element.querySelectorAll(".kbyg-meeting-method__item-title")).toHaveLength(3);
+});
+
+test("an already sliced Sponsor Experience list keeps all five selected items", () => {
+  const element = experiencePage(experienceTitles);
+
+  initialize(element);
+
+  expect(renderedExperienceTitles(element)).toEqual(experienceTitles);
+});
+
+test("Sponsor Experience leaves the entire list unchanged when any leading title does not match", () => {
+  const titles = [
+    meetingMethodTitles[0],
+    meetingMethodTitles[1],
+    "A different method",
+    ...experienceTitles,
+  ];
+  const element = experiencePage(titles);
+
+  initialize(element);
+
+  expect(renderedExperienceTitles(element)).toEqual(titles);
+  expect(element.querySelectorAll(".kbyg-experience-grid .w-dyn-item")).toHaveLength(8);
+});
+
+test("Sponsor Experience duplicate removal remains idempotent after method headings are numbered", () => {
+  const element = experiencePage([...meetingMethodTitles, ...experienceTitles]);
+  const first = initialize(element);
+  expect(renderedExperienceTitles(element)).toEqual(experienceTitles);
+
+  first.destroy();
+  initialize(element);
+
+  expect(renderedExperienceTitles(element)).toEqual(experienceTitles);
+  expect(element.querySelectorAll(".kbyg-experience-grid .w-dyn-item")).toHaveLength(5);
+});
+
+test("Delegate Experience retains matching meeting-method titles", () => {
+  const titles = [...meetingMethodTitles, ...experienceTitles];
+  const element = experiencePage(titles, "delegate");
+
+  initialize(element);
+
+  expect(renderedExperienceTitles(element)).toEqual(titles);
+});
+
 test("Sponsor Hub and Support retain separate CMS destinations despite a legacy shared URL", () => {
   history.replaceState(null, "", "/know-before-you-go/example-sponsor");
   const element = page(

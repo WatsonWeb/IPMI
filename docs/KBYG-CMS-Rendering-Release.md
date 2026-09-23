@@ -43,6 +43,10 @@ remain the source of event, staff, and content-block data.
   display dates are accepted only as a fallback when no start is supplied.
 - Bind each CTA's own `href`. A root `data-kbyg-hub-url` no longer overrides both
   Hub and Support. An optional per-link `data-kbyg-hub-url` can supply an HTTP URL.
+- The Sponsor Experience meeting-method list can render the first three items
+  separately while its grid renders the complete native multi-reference list.
+  If all three leading grid titles match the method titles in order, the runtime
+  removes those duplicate grid items. An already-offset grid remains intact.
 - Empty link fields hide their CTAs; calendar and date-toggle action links remain
   available. Empty hotel-details rich text hides its optional card. Empty phone
   and email links hide the corresponding contact row. Native conditional

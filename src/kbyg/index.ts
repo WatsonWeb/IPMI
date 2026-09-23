@@ -560,6 +560,43 @@ function setupAudience(page: HTMLElement, windowRef: KbygWindow | null) {
   return audience;
 }
 
+function setupSponsorExperience(page: HTMLElement, audience: Audience) {
+  if (audience !== "sponsor") return;
+
+  function titleText(element: Element | null) {
+    return String(element?.textContent || "")
+      .trim()
+      .replace(/^\d+\.\s*/, "")
+      .replace(/\s+/g, " ");
+  }
+
+  let methodTitles = queryAll(
+    page,
+    ".kbyg-meeting-method__list .kbyg-meeting-method__item-title",
+  ).map(titleText);
+  if (methodTitles.length !== 3 || methodTitles.some((title) => !title)) return;
+
+  queryAll(page, "#experience .kbyg-experience-grid").forEach(function (grid) {
+    let cards = queryAll(grid, ".kbyg-icon-card").slice(0, 3);
+    if (
+      cards.length !== 3 ||
+      !cards.every(function (card, index) {
+        return titleText(query(card, ".kbyg-icon-card__title")) === methodTitles[index];
+      })
+    ) {
+      return;
+    }
+
+    // Webflow multi-reference lists may ignore their configured offset.
+    // Remove only the ordered prefix already rendered in the meeting-method list.
+    cards.forEach(function (card) {
+      let item = card.closest(".w-dyn-item");
+      if (item && grid.contains(item)) item.remove();
+      else card.remove();
+    });
+  });
+}
+
 function prefersReducedMotion(windowRef: KbygWindow | null) {
   if (!windowRef || typeof windowRef.matchMedia !== "function") return false;
 
@@ -1750,6 +1787,7 @@ export function initPage(page: HTMLElement | null, options?: InitOptions): KbygI
   let environment = getWindow(page, options);
   let cleanups: Cleanup[] = [];
   let audience = setupAudience(page, environment.window);
+  setupSponsorExperience(page, audience);
   setupEventTitle(page);
   let navigation = setupNavigation(
     page,
