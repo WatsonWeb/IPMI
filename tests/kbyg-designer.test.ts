@@ -39,6 +39,38 @@ function value(declarations: Map<string, Declaration>, property: string): string
   return declaration.value;
 }
 
+test("responsive welcome headings keep their CMS text visible without generated replacement copy", () => {
+  stylesheet.walkRules((rule) => {
+    if (!rule.selector.includes(".kbyg-welcome__grid .kbyg-section__title")) return;
+    rule.walkDecls((declaration) => {
+      assert.notStrictEqual(declaration.prop === "font-size" && declaration.value === "0", true);
+      assert.notStrictEqual(
+        declaration.prop === "content" && /Welcome/.test(declaration.value),
+        true,
+      );
+    });
+  });
+});
+
+test("empty CTA guards preserve calendar and date-toggle action links", () => {
+  const guards: string[] = [];
+  let reservationGuard = false;
+  stylesheet.walkRules((rule) => {
+    for (const selector of rule.selectors) {
+      if (selector.includes("a.kbyg-button") && selector.includes('[href="#"]'))
+        guards.push(selector);
+      if (selector.includes("a.kbyg-travel-card__link") && selector.includes('[href=""]'))
+        reservationGuard = true;
+    }
+  });
+  assert.isNotEmpty(guards);
+  assert.isTrue(reservationGuard);
+  for (const selector of guards) {
+    assert.include(selector, ":not([data-kbyg-calendar])");
+    assert.include(selector, ":not([data-kbyg-dates-toggle])");
+  }
+});
+
 test("the CSS-only hidden-form wrapper guard overrides the mobile flex layout", () => {
   const wrapper = ".kbyg-page .kbyg-jump__select-wrap";
   const guard = declarationsFor(`${wrapper}:has(> [data-kbyg-jump-form].w-condition-invisible)`);

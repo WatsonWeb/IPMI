@@ -56,8 +56,17 @@
   --kbyg-scroll-offset: 96px;
   --kbyg-contact-clearance: 60px;
 
-  &[data-audience="delegate"] [data-kbyg-audience-branch="sponsor"],
-  &[data-audience="sponsor"] [data-kbyg-audience-branch="delegate"] {
+  &[data-audience="delegate" i] [data-kbyg-audience-branch="sponsor"],
+  &[data-audience="sponsor" i] [data-kbyg-audience-branch="delegate"] {
+    display: none !important;
+  }
+
+  // Native optional fields must not leave dead CTAs, blank cards, or orphan icons.
+  a.kbyg-button:not([data-kbyg-calendar]):not([data-kbyg-dates-toggle]):is(.w-dyn-bind-empty, :not([href]), [href=""], [href="#"], [href="mailto:"], [href="tel:"]),
+  a.kbyg-travel-card__link:is(.w-dyn-bind-empty, :not([href]), [href=""], [href="#"], [href="mailto:"], [href="tel:"]),
+  .kbyg-travel-card:has(> :is(.kbyg-travel-card__body, .kbyg-rich-text).w-dyn-bind-empty),
+  .kbyg-contact-card__meta-item:has(> .kbyg-contact-card__meta-link:is(.w-dyn-bind-empty, :not([href]), [href=""], [href="#"], [href="mailto:"], [href="tel:"])),
+  .kbyg-contact-card__meta-item:has(> .kbyg-contact-card__meta-link > .kbyg-contact-card__meta-value.w-dyn-bind-empty) {
     display: none !important;
   }
 
@@ -2249,12 +2258,7 @@
     }
 
     .kbyg-welcome__grid .kbyg-section__title {
-      font-size: 0;
-
-      &::after {
-        content: "Welcome!";
-        font-size: 36px;
-      }
+      font-size: 36px;
     }
 
     .kbyg-contact-card--welcome {
@@ -2457,26 +2461,8 @@
       }
 
       .kbyg-welcome__grid .kbyg-section__title {
-        font-size: 0;
+        font-size: 36px;
         line-height: 38px;
-
-        &::before {
-          color: var(--kbyg-ink);
-          content: "Welcome";
-          font-size: 36px;
-        }
-
-        &::after {
-          content: none;
-        }
-
-        > span:first-child {
-          display: none;
-        }
-
-        > .kbyg-accent {
-          font-size: 36px;
-        }
       }
 
       #welcome .kbyg-section__intro {
@@ -2730,30 +2716,8 @@
       line-height: 42px;
     }
 
-    .kbyg-welcome__grid .kbyg-section__title::after {
-      font-size: 34px;
-    }
-
     .kbyg-welcome__grid .kbyg-section__title {
-      font-size: 0;
-
-      &::before {
-        color: var(--kbyg-ink);
-        content: "Welcome";
-        font-size: 34px;
-      }
-
-      &::after {
-        content: none;
-      }
-
-      > span:first-child {
-        display: none;
-      }
-
-      > .kbyg-accent {
-        font-size: 34px;
-      }
+      font-size: 34px;
     }
 
     .kbyg-section__intro {

@@ -8,6 +8,9 @@
 
   Root bindings:
   - data-audience: KBYG Page > Audience, emitted as lowercase delegate|sponsor.
+  - data-kbyg-event-year: Referenced Institute > Year; prefixes the bound title.
+  - data-kbyg-map-query: Referenced Institute > Map Query; an empty value falls
+    back to the bound address, then venue title.
   - --kbyg-accent: Referenced Institute > Accent Color.
   - --kbyg-accent-dark: Referenced Institute > Accent Dark.
 
@@ -18,6 +21,12 @@
   can apply template-only navigation/footer fixes without changing global pages.
   Decorative icons have aria-hidden="true". Meaningful image alt values bind to
   the explicit KBYG Page alt fields or the referenced Staff member's name.
+  Runtime preserves native headings, copy, CTA labels, and independent URLs.
+  Calendar Start/End attributes are authoritative; emit YYYY-MM-DD for all-day
+  dates and ISO date/time values for timed entries.
+  Every venue gallery image must use its current CMS src and alt. Runtime
+  rebuilds its lightbox item from that source; data-kbyg-full-image-src on the
+  image or lightbox link can bind a separate full-size image when required.
 -->
 <!-- WEBFLOW CODE EMBED: one KBYG-Styles-Embed.html instance, class Custom Styles. -->
 <div class="kbyg-page" data-audience="delegate">

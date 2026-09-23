@@ -20,36 +20,10 @@
   content='{{wf {"path":"institute:global-institute-category","type":"Option"\} }}'
 />
 <style>
-  .kbyg-page[data-audience="delegate"] [data-kbyg-audience-branch="sponsor"],
-  .kbyg-page[data-audience="sponsor"] [data-kbyg-audience-branch="delegate"] {
+  .kbyg-page[data-audience="delegate" i] [data-kbyg-audience-branch="sponsor"],
+  .kbyg-page[data-audience="sponsor" i] [data-kbyg-audience-branch="delegate"] {
     display: none !important;
   }
 </style>
-<script>
-  (function () {
-    var match = String(window.location.pathname || "")
-      .toLowerCase()
-      .match(/-(delegate|sponsor)\/?$/);
-    var audience = match ? match[1] : "delegate";
-
-    function applyAudience() {
-      var root = document.querySelector(".kbyg-page");
-      if (!root) return;
-      root.setAttribute("data-audience", audience);
-      root
-        .querySelectorAll(
-          '[data-kbyg-audience-branch]:not([data-kbyg-audience-branch="' + audience + '"])',
-        )
-        .forEach(function (branch) {
-          branch.remove();
-        });
-    }
-
-    var observer = new MutationObserver(applyAudience);
-    observer.observe(document.documentElement, { childList: true, subtree: true });
-    document.addEventListener("DOMContentLoaded", function () {
-      applyAudience();
-      observer.disconnect();
-    });
-  })();
-</script>
+<!-- Audience is bound natively. The deferred runtime normalizes this value;
+     do not prune branches from a URL-derived audience before it can run. -->

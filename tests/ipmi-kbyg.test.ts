@@ -106,21 +106,21 @@ test("the typed ES module exposes the API without initializing the document", ()
   expect(kbyg.initPage(null)).toBeNull();
 });
 
-test("audience inference removes only the opposite native DOM branch and adjusts delegate copy", () => {
+test("CMS audience removes only the opposite branch and preserves editorial copy", () => {
   history.replaceState(null, "", "/know-before-you-go/hchr-sept-2026-sponsor/");
   const element = page(
     '<section data-kbyg-audience-branch="delegate"></section><section data-kbyg-audience-branch="sponsor"></section>',
   );
   element.setAttribute("data-audience", "delegate");
-  expect(initialize(element).audience).toBe("sponsor");
-  expect(element.querySelector('[data-kbyg-audience-branch="delegate"]')).toBeNull();
+  expect(initialize(element).audience).toBe("delegate");
+  expect(element.querySelector('[data-kbyg-audience-branch="sponsor"]')).toBeNull();
   expect(element.children).toHaveLength(1);
   history.replaceState(null, "", "/know-before-you-go/example-delegate");
   const delegate = page(
     '<section id="agenda"><p class="kbyg-section__intro">Find details in the Sponsor Hub.</p></section>',
   );
   expect(initialize(delegate).audience).toBe("delegate");
-  expect(get(delegate, "p").textContent).toBe("Find details in the Attendee Hub.");
+  expect(get(delegate, "p").textContent).toBe("Find details in the Sponsor Hub.");
 });
 
 test("all-day calendars use exclusive DTEND, stable scoped UIDs, and CRLF line endings", () => {
@@ -508,14 +508,14 @@ test("accordions expose ARIA relationships, one-open state, and native/non-nativ
   expect(second.panel.hidden).toBe(true);
 });
 
-test("responsive welcome accessible labels update and restore their original value", () => {
+test("responsive welcome accessible labels retain their native value", () => {
   viewport(768);
   const element = page(
     '<h2 id="kbyg-welcome-title" aria-label="Original welcome">Welcome, we’re excited to see you soon!</h2>',
   );
   const instance = initialize(element);
   const title = get(element, "h2");
-  expect(title.getAttribute("aria-label")).toBe("Welcome!");
+  expect(title.getAttribute("aria-label")).toBe("Original welcome");
   viewport(1280);
   instance.responsiveWelcomeTitle?.mediaQuery.dispatchEvent(new Event("change"));
   expect(title.getAttribute("aria-label")).toBe("Original welcome");
@@ -544,7 +544,7 @@ test("standard glyphs use Font Awesome while industry artwork, heading copy, and
     true,
   );
   expect(get(element, ".kbyg-jump__icon .fa-id-card")).toBeTruthy();
-  expect(get(element, ".kbyg-hero__title .kbyg-accent").textContent).toBe(".");
+  expect(get(element, ".kbyg-hero__title").textContent).toBe("Know Before You Go.");
   expect(get(element, ".kbyg-meeting-method__item-title").textContent).toBe("1. Mutual Requests");
   expect(get(element, "iframe").getAttribute("loading")).toBe("eager");
   expect(get(element, ".kbyg-agenda-card__item").textContent).toBe("Breakfast");
@@ -552,7 +552,7 @@ test("standard glyphs use Font Awesome while industry artwork, heading copy, and
   expect(i2svg).toHaveBeenCalledWith({ node: element });
 });
 
-test("CMS calendar controls honor visible dates, download a Blob, and revoke the object URL", async () => {
+test("CMS calendar controls honor explicit dates, download a Blob, and revoke the object URL", async () => {
   const element = page(
     '<article data-kbyg-calendar-item><h3 data-kbyg-calendar-title>Sponsor arrival</h3><div data-kbyg-calendar-description>Bring ID\nand confirmation.</div><article class="kbyg-date-card"><span class="kbyg-date-card__month"></span><span class="kbyg-date-card__day"></span><p class="kbyg-date-card__display-date">Friday, September 4, 2026</p><a class="kbyg-button" href="#" data-kbyg-calendar data-kbyg-start="September 3, 2026" data-kbyg-end="September 3, 2026" data-kbyg-all-day="true">Add to calendar</a></article></article>',
   );
@@ -572,14 +572,14 @@ test("CMS calendar controls honor visible dates, download a Blob, and revoke the
   initialize(element);
   const control = get(element, "[data-kbyg-calendar]");
   expect(get(element, ".kbyg-date-card__month").textContent).toBe("SEP");
-  expect(get(element, ".kbyg-date-card__day").textContent).toBe("4");
+  expect(get(element, ".kbyg-date-card__day").textContent).toBe("3");
   expect(control.getAttribute("aria-label")).toBe("Add Sponsor arrival to calendar");
   expect(click(control).defaultPrevented).toBe(true);
   assert.ok(downloaded);
   const calendar = await downloaded.text();
   expect(calendar).toContain("SUMMARY:Sponsor arrival\r\n");
   expect(calendar).toContain("DESCRIPTION:Bring ID\\nand confirmation.\r\n");
-  expect(calendar).toContain("DTEND;VALUE=DATE:20260905\r\n");
+  expect(calendar).toContain("DTEND;VALUE=DATE:20260904\r\n");
   expect(downloads).toEqual([{ href: "blob:kbyg-test", filename: "sponsor-arrival.ics" }]);
   vi.runOnlyPendingTimers();
   expect(revoke).toHaveBeenCalledWith("blob:kbyg-test");
@@ -688,14 +688,14 @@ test("addresses link to Google Maps while phone links and real Sponsor Hub URLs 
   expect(address.getAttribute("target")).toBe("_blank");
   expect(address.getAttribute("rel")).toBe("noopener noreferrer");
   expect(get(element, 'a[href^="tel:"]').getAttribute("href")).toBe("tel:+14072062400");
-  expect(get(element, "#hub a").getAttribute("href")).toBe("https://example.com/sponsor-hub");
+  expect(get(element, "#hub a").getAttribute("href")).toBe("mailto:lead@ipmievents.com");
   expect(get(element, "#sponsor-support a").getAttribute("href")).toBe(
     "https://hub.example.test/event?id=2026",
   );
   element.setAttribute("data-kbyg-hub-url", "https://hub.example.test/cms");
   instance.destroy();
   initialize(element);
-  expect(get(element, "#hub a").getAttribute("href")).toBe("https://hub.example.test/cms");
+  expect(get(element, "#hub a").getAttribute("href")).toBe("mailto:lead@ipmievents.com");
 });
 
 function lightboxData(link: HTMLElement): { group: string; items: unknown[] } {
@@ -730,7 +730,7 @@ test("venue images form one native Webflow lightbox group with accessible full-i
   expect(ready).toHaveBeenCalledTimes(1);
 });
 
-test("existing native lightboxes are repaired without wrappers, preserve configured data, and respect destroy before queued initialization", () => {
+test("existing native lightboxes follow CMS images and respect destroy before queued initialization", () => {
   const queue: (() => void)[] = [];
   const ready = vi.fn();
   const webflow = Object.assign(queue, { require: () => ({ ready }) });
@@ -751,7 +751,7 @@ test("existing native lightboxes are repaired without wrappers, preserve configu
   assert.ok(second);
   expect(lightboxData(second)).toEqual({
     group: "Existing",
-    items: [{ url: "https://cdn.example.test/full-pool.webp", type: "image" }],
+    items: [{ url: "https://cdn.example.test/pool.webp", type: "image", caption: "Pool" }],
   });
   instance.destroy();
   queue.forEach((callback) => callback());

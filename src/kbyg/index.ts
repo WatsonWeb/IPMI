@@ -32,12 +32,6 @@ export {
   utf8ByteLength,
   stableUid,
 } from "./calendar";
-interface HeadingSegment {
-  text: string;
-  accent?: boolean;
-  breakBefore?: boolean;
-  tabletBreak?: boolean;
-}
 import { scalarText } from "./text";
 
 let VERSION = "1.0.0";
@@ -252,24 +246,6 @@ function replaceGlyphWithFontAwesome(
   return appendFontAwesomeIcon(element, documentRef, iconName, weight || "fa-light");
 }
 
-function setHeadingSegments(
-  heading: HTMLElement | null,
-  documentRef: Document,
-  segments: HeadingSegment[],
-) {
-  if (!heading || !documentRef || typeof documentRef.createElement !== "function") return;
-  clearChildren(heading);
-
-  segments.forEach(function (segment) {
-    let span = documentRef.createElement("span");
-    if (segment.accent) addClass(span, "kbyg-accent");
-    if (segment.breakBefore) addClass(span, "kbyg-title-break");
-    if (segment.tabletBreak) addClass(span, "kbyg-tablet-break");
-    span.textContent = segment.text;
-    heading.appendChild(span);
-  });
-}
-
 function setupFontAwesome(page: HTMLElement, documentRef: Document, windowRef: KbygWindow | null) {
   let replacedImages: HTMLElement[] = [];
   queryAll(page, "img.kbyg-icon, .kbyg-icon > img").forEach(function (image) {
@@ -334,18 +310,6 @@ function setupFontAwesome(page: HTMLElement, documentRef: Document, windowRef: K
       weight = "fa-regular";
     } else if (button.closest && button.closest("#agenda")) {
       iconName = "calendar-clock";
-      clearChildren(button);
-      let agendaLabel = documentRef.createElement("span");
-      addClass(agendaLabel, "kbyg-button__label");
-      agendaLabel.textContent = "VIEW ";
-      let fullLabel = documentRef.createElement("span");
-      addClass(fullLabel, "kbyg-button__desktop-word");
-      fullLabel.textContent = "FULL ";
-      agendaLabel.appendChild(fullLabel);
-      let instituteLabel = documentRef.createElement("span");
-      instituteLabel.textContent = "INSTITUTE AGENDA";
-      agendaLabel.appendChild(instituteLabel);
-      button.appendChild(agendaLabel);
     } else if (hasClass(button, "kbyg-button--external")) {
       iconName = "arrow-up-right-from-square";
     }
@@ -403,116 +367,11 @@ function setupFontAwesome(page: HTMLElement, documentRef: Document, windowRef: K
     appendFontAwesomeIcon(toggle, documentRef, "minus", "fa-light", "kbyg-fa--minus");
   });
 
-  queryAll(page, ".kbyg-contact-card__eyebrow").forEach(function (eyebrow) {
-    if (/^your operations lead$/i.test(String(eyebrow.textContent || "").trim())) {
-      eyebrow.textContent = "OPERATIONS LEAD";
-    }
-  });
-
   queryAll(page, ".kbyg-meeting-method__item-title").forEach(function (title, index) {
     if (!/^\d+\.\s/.test(String(title.textContent || "").trim())) {
       title.textContent = index + 1 + ". " + String(title.textContent || "").trim();
     }
   });
-
-  let heroTitle = query(page, ".kbyg-hero__title");
-  if (heroTitle) {
-    setHeadingSegments(heroTitle, documentRef, [
-      { text: "Know Before You Go" },
-      { accent: true, text: "." },
-    ]);
-  }
-
-  let welcomeTitle = query(page, "#kbyg-welcome-title");
-  if (welcomeTitle) {
-    setHeadingSegments(welcomeTitle, documentRef, [
-      { text: "Welcome, we’re excited to see you soon" },
-      { accent: true, text: "!" },
-    ]);
-  }
-
-  let agendaTitle = query(page, "#kbyg-agenda-title");
-  if (agendaTitle) {
-    setHeadingSegments(agendaTitle, documentRef, [
-      { text: "Agenda At-A-Glance" },
-      { accent: true, text: "." },
-    ]);
-  }
-
-  let hubTitle = query(page, "#hub .kbyg-section__title");
-  if (hubTitle) {
-    setHeadingSegments(hubTitle, documentRef, [
-      { text: String(hubTitle.textContent || "").replace(/\.$/, "") },
-      { accent: true, text: "." },
-    ]);
-  }
-
-  let supportTitle = query(page, "#sponsor-support .kbyg-section__title");
-  if (supportTitle) {
-    setHeadingSegments(supportTitle, documentRef, [
-      { accent: true, text: "Sponsor Support" },
-      { text: " Lives in the Hub." },
-    ]);
-  }
-
-  if (getAttribute(page, "data-audience") === "sponsor") {
-    let prepareTitle = query(page, "#kbyg-prepare-title-sponsor");
-    if (prepareTitle) {
-      setHeadingSegments(prepareTitle, documentRef, [
-        { text: "Preparing for your Institute is as easy as " },
-        { accent: true, text: "1-2-3." },
-      ]);
-    }
-
-    let keyDatesTitle = query(page, "#kbyg-key-dates-title-sponsor");
-    if (keyDatesTitle) {
-      setHeadingSegments(keyDatesTitle, documentRef, [
-        { text: "Key Dates & Deliverables" },
-        { accent: true, text: "." },
-      ]);
-    }
-
-    let travelTitle = query(page, "#kbyg-travel-title");
-    if (travelTitle) {
-      setHeadingSegments(travelTitle, documentRef, [
-        { text: "Hotel & Travel" },
-        { accent: true, text: "." },
-      ]);
-    }
-
-    let experienceTitle = query(page, "#kbyg-experience-title-sponsor");
-    if (experienceTitle) {
-      setHeadingSegments(experienceTitle, documentRef, [
-        { text: "Business Meetings & Onsite Experience" },
-        { accent: true, text: "." },
-      ]);
-    }
-  } else {
-    let delegateAgendaIntro = query(page, "#agenda .kbyg-section__intro");
-    if (delegateAgendaIntro) {
-      delegateAgendaIntro.textContent = String(delegateAgendaIntro.textContent || "").replace(
-        /Sponsor Hub/g,
-        "Attendee Hub",
-      );
-    }
-
-    let delegatePrepareTitle = query(page, "#kbyg-prepare-title-delegate");
-    if (delegatePrepareTitle) {
-      setHeadingSegments(delegatePrepareTitle, documentRef, [
-        { tabletBreak: true, text: "Preparing for your Institute" },
-        { text: " is as easy as " },
-        { accent: true, text: "1-2-3." },
-      ]);
-    }
-  }
-
-  let contactTitle = query(page, "#contact .kbyg-contact__title");
-  if (contactTitle) {
-    setHeadingSegments(contactTitle, documentRef, [
-      { text: "Questions Before You Go? " },
-      { accent: true, breakBefore: true, text: "We’re Here to Help." },
-    ]);
-  }
 
   let fontAwesome = windowRef && windowRef.FontAwesome;
   if (fontAwesome && fontAwesome.dom && typeof fontAwesome.dom.i2svg === "function") {
@@ -678,8 +537,8 @@ export function resolveAudience(page: HTMLElement | null, windowRef: KbygWindow 
   let pathMatch = pathname.match(/-(delegate|sponsor)$/);
 
   return (
-    normalizeAudience(pathMatch && pathMatch[1]) ||
     normalizeAudience(getAttribute(page, "data-audience")) ||
+    normalizeAudience(pathMatch && pathMatch[1]) ||
     "delegate"
   );
 }
@@ -709,55 +568,6 @@ function prefersReducedMotion(windowRef: KbygWindow | null) {
   } catch {
     return false;
   }
-}
-
-function setupResponsiveWelcomeTitle(
-  page: HTMLElement,
-  windowRef: KbygWindow | null,
-  cleanups: Cleanup[],
-) {
-  let title = query(page, "#kbyg-welcome-title");
-  if (!title || !windowRef || typeof windowRef.matchMedia !== "function") return null;
-
-  let mediaQuery: MediaQueryList;
-  try {
-    mediaQuery = windowRef.matchMedia("(max-width: 991px)");
-  } catch {
-    return null;
-  }
-
-  let originalLabel = getAttribute(title, "aria-label");
-
-  function syncLabel() {
-    if (mediaQuery.matches) {
-      setAttribute(title, "aria-label", "Welcome!");
-    } else if (originalLabel === null) {
-      removeAttribute(title, "aria-label");
-    } else {
-      setAttribute(title, "aria-label", originalLabel);
-    }
-  }
-
-  syncLabel();
-
-  if (typeof mediaQuery.addEventListener === "function") {
-    mediaQuery.addEventListener("change", syncLabel);
-    cleanups.push(function () {
-      mediaQuery.removeEventListener("change", syncLabel);
-    });
-  } else if (typeof mediaQuery.addListener === "function") {
-    mediaQuery.addListener(syncLabel);
-    cleanups.push(function () {
-      mediaQuery.removeListener(syncLabel);
-    });
-  }
-
-  cleanups.push(function () {
-    if (originalLabel === null) removeAttribute(title, "aria-label");
-    else setAttribute(title, "aria-label", originalLabel);
-  });
-
-  return { title: title, mediaQuery: mediaQuery };
 }
 
 function numericCssValue(value: unknown) {
@@ -1370,12 +1180,12 @@ function calendarDataFromElement(control: HTMLElement): CalendarInput {
     displayDateElement && (displayDateElement.textContent || displayDateElement.innerText),
   );
 
-  // Webflow serializes DateTime fields in custom attributes using the site
-  // timezone, which can shift midnight UTC values back one day. The visible
-  // CMS display date is authoritative for these all-day deadline cards.
-  if (parseBoolean(allDay, false) && displayDate) {
-    start = displayDate.iso;
-    end = displayDate.iso;
+  // Explicit CMS dates own the download. Display copy is a fallback only;
+  // editing a deadline must never silently reuse an old human-readable date.
+  if (parseBoolean(allDay, false)) {
+    start =
+      parseDateOnly(start)?.iso || parseDisplayDate(start)?.iso || start || displayDate?.iso || "";
+    end = parseDateOnly(end)?.iso || parseDisplayDate(end)?.iso || end || start;
   }
 
   return {
@@ -1713,20 +1523,16 @@ function setupVenueLinks(page: HTMLElement, documentRef: Document) {
 }
 
 function setupHubLinks(page: HTMLElement) {
-  if (getAttribute(page, "data-audience") !== "sponsor") return { links: [] };
   let links = queryAll(
     page,
     "#hub .kbyg-button--external, #sponsor-support .kbyg-button--external",
   );
   links.forEach(function (link) {
-    let explicitUrl =
-      externalHttpUrl(getAttribute(link, "data-kbyg-hub-url")) ||
-      externalHttpUrl(getAttribute(page, "data-kbyg-hub-url"));
-    let url =
-      explicitUrl ||
-      externalHttpUrl(getAttribute(link, "href")) ||
-      "https://example.com/sponsor-hub";
-    setAttribute(link, "href", url);
+    // Each native href owns its destination. An optional per-link attribute
+    // supports older embeds without conflating Hub and Support URLs.
+    let explicitUrl = externalHttpUrl(getAttribute(link, "data-kbyg-hub-url"));
+    if (explicitUrl) setAttribute(link, "href", explicitUrl);
+    if (!externalHttpUrl(getAttribute(link, "href"))) return;
     setAttribute(link, "target", "_blank");
     setAttribute(link, "rel", "noopener noreferrer");
     setAttribute(
@@ -1736,6 +1542,46 @@ function setupHubLinks(page: HTMLElement) {
     );
   });
   return { links: links };
+}
+
+function setupVenueMaps(page: HTMLElement) {
+  let address = query(page, "[data-kbyg-address]");
+  let venue = query(page, ".kbyg-travel-card__title") || query(page, ".kbyg-hero__venue");
+  queryAll(page, ".kbyg-travel-gallery__map, .kbyg-travel-gallery iframe").forEach(function (map) {
+    let mapQuery = String(
+      getAttribute(map, "data-kbyg-map-query")?.trim() ||
+        getAttribute(page, "data-kbyg-map-query")?.trim() ||
+        address?.textContent?.trim() ||
+        venue?.textContent?.trim() ||
+        "",
+    ).trim();
+    if (!mapQuery) return;
+    setAttribute(
+      map,
+      "src",
+      "https://www.google.com/maps?q=" + encodeURIComponent(mapQuery) + "&output=embed",
+    );
+    setAttribute(map, "title", "Map showing " + mapQuery);
+  });
+}
+
+function setupEventTitle(page: HTMLElement) {
+  let title = query(page, ".kbyg-hero__event");
+  let year = String(
+    getAttribute(title, "data-kbyg-event-year") || getAttribute(page, "data-kbyg-event-year") || "",
+  ).trim();
+  let text = title?.textContent?.trim();
+  if (!title || !text || !/^\d{4}$/.test(year) || text.startsWith(year + " ")) return;
+  title.textContent = year + " " + text;
+}
+
+function setupOptionalHotelDetails(page: HTMLElement) {
+  queryAll(page, ".kbyg-travel-card").forEach(function (card) {
+    let body = query(card, ".kbyg-travel-card__body, .kbyg-rich-text");
+    if (body && !body.textContent?.trim() && !query(body, "img, video, iframe")) {
+      setAttribute(card, "hidden", "");
+    }
+  });
 }
 
 function setupVenueLightboxes(
@@ -1748,7 +1594,14 @@ function setupVenueLightboxes(
   let links: HTMLElement[] = [];
   queryAll(page, ".kbyg-travel-gallery__image").forEach(function (image) {
     let source = externalHttpUrl(getAttribute(image, "src"));
-    if (!source || !image.parentNode) return;
+    if (!source || hasClass(image, "w-dyn-bind-empty")) {
+      let emptyItem = image.closest(".w-dyn-item") || image.closest("a.w-lightbox") || image;
+      // Webflow includes hidden lightboxes' JSON in shared galleries. Remove
+      // the empty native item so another thumbnail cannot open its stale photo.
+      emptyItem.remove();
+      return;
+    }
+    if (!image.parentNode) return;
     let link = image.closest<HTMLAnchorElement>("a.w-lightbox");
     if (!link) {
       link = documentRef.createElement("a");
@@ -1768,17 +1621,22 @@ function setupVenueLightboxes(
     } catch {
       // A native empty Lightbox still needs its CMS image configured.
     }
-    if (!Array.isArray(configuration.items) || !configuration.items.length) {
-      configuration.items = [
-        { url: source, type: "image", caption: getAttribute(image, "alt") || "" },
-      ];
-    }
+    // This template renders one CMS gallery image per lightbox. Always derive
+    // its full-size item from that image so an old native JSON item cannot
+    // show a different event's venue. Bind an explicit full image if needed.
+    let fullSource =
+      externalHttpUrl(getAttribute(image, "data-kbyg-full-image-src")) ||
+      externalHttpUrl(getAttribute(link, "data-kbyg-full-image-src")) ||
+      source;
+    configuration.items = [
+      { url: fullSource, type: "image", caption: getAttribute(image, "alt") || "" },
+    ];
     configuration.group = configuration.group || "KBYG Venue Images " + pageToken;
     setAttribute(data, "type", "application/json");
     addClass(data, "w-json");
     data.textContent = JSON.stringify(configuration);
     addClasses(link, "kbyg-travel-gallery__lightbox w-inline-block w-lightbox");
-    setAttribute(link, "href", source);
+    setAttribute(link, "href", fullSource);
     setAttribute(link, "target", "_blank");
     setAttribute(link, "rel", "noopener noreferrer");
     setAttribute(
@@ -1818,7 +1676,7 @@ export function initPage(page: HTMLElement | null, options?: InitOptions): KbygI
   let environment = getWindow(page, options);
   let cleanups: Cleanup[] = [];
   let audience = setupAudience(page, environment.window);
-  let responsiveWelcomeTitle = setupResponsiveWelcomeTitle(page, environment.window, cleanups);
+  setupEventTitle(page);
   let navigation = setupNavigation(
     page,
     pageToken,
@@ -1831,6 +1689,8 @@ export function initPage(page: HTMLElement | null, options?: InitOptions): KbygI
   let keyDates = setupKeyDates(page, pageToken, environment.document, environment.window, cleanups);
   let venueLinks = setupVenueLinks(page, environment.document);
   let hubLinks = setupHubLinks(page);
+  setupVenueMaps(page);
+  setupOptionalHotelDetails(page);
   let venueLightboxes = setupVenueLightboxes(
     page,
     pageToken,
@@ -1851,7 +1711,7 @@ export function initPage(page: HTMLElement | null, options?: InitOptions): KbygI
     venueLightboxes: venueLightboxes,
     fontAwesome: fontAwesome,
     audience: audience,
-    responsiveWelcomeTitle: responsiveWelcomeTitle,
+    responsiveWelcomeTitle: null,
     destroy: function () {
       navigation.destroy();
       cleanups.splice(0).forEach(function (cleanup) {

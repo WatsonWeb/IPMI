@@ -52,7 +52,14 @@
   --kbyg-scroll-offset: 96px;
   --kbyg-contact-clearance: 60px;
 }
-.kbyg-page[data-audience=delegate] [data-kbyg-audience-branch=sponsor], .kbyg-page[data-audience=sponsor] [data-kbyg-audience-branch=delegate] {
+.kbyg-page[data-audience=delegate i] [data-kbyg-audience-branch=sponsor], .kbyg-page[data-audience=sponsor i] [data-kbyg-audience-branch=delegate] {
+  display: none !important;
+}
+.kbyg-page a.kbyg-button:not([data-kbyg-calendar]):not([data-kbyg-dates-toggle]):is(.w-dyn-bind-empty, :not([href]), [href=""], [href="#"], [href="mailto:"], [href="tel:"]),
+.kbyg-page a.kbyg-travel-card__link:is(.w-dyn-bind-empty, :not([href]), [href=""], [href="#"], [href="mailto:"], [href="tel:"]),
+.kbyg-page .kbyg-travel-card:has(> :is(.kbyg-travel-card__body, .kbyg-rich-text).w-dyn-bind-empty),
+.kbyg-page .kbyg-contact-card__meta-item:has(> .kbyg-contact-card__meta-link:is(.w-dyn-bind-empty, :not([href]), [href=""], [href="#"], [href="mailto:"], [href="tel:"])),
+.kbyg-page .kbyg-contact-card__meta-item:has(> .kbyg-contact-card__meta-link > .kbyg-contact-card__meta-value.w-dyn-bind-empty) {
   display: none !important;
 }
 .kbyg-page > main {
@@ -1857,10 +1864,6 @@
     gap: 46px;
   }
   .kbyg-page .kbyg-welcome__grid .kbyg-section__title {
-    font-size: 0;
-  }
-  .kbyg-page .kbyg-welcome__grid .kbyg-section__title::after {
-    content: "Welcome!";
     font-size: 36px;
   }
   .kbyg-page .kbyg-contact-card--welcome .kbyg-contact-card__identity {
@@ -2020,22 +2023,8 @@
     gap: 4px;
   }
   .kbyg-page .kbyg-welcome__grid .kbyg-section__title {
-    font-size: 0;
+    font-size: 36px;
     line-height: 38px;
-  }
-  .kbyg-page .kbyg-welcome__grid .kbyg-section__title::before {
-    color: var(--kbyg-ink);
-    content: "Welcome";
-    font-size: 36px;
-  }
-  .kbyg-page .kbyg-welcome__grid .kbyg-section__title::after {
-    content: none;
-  }
-  .kbyg-page .kbyg-welcome__grid .kbyg-section__title > span:first-child {
-    display: none;
-  }
-  .kbyg-page .kbyg-welcome__grid .kbyg-section__title > .kbyg-accent {
-    font-size: 36px;
   }
   .kbyg-page #welcome .kbyg-section__intro {
     margin-top: 6px;
@@ -2229,24 +2218,7 @@
     font-size: 34px;
     line-height: 42px;
   }
-  .kbyg-page .kbyg-welcome__grid .kbyg-section__title::after {
-    font-size: 34px;
-  }
   .kbyg-page .kbyg-welcome__grid .kbyg-section__title {
-    font-size: 0;
-  }
-  .kbyg-page .kbyg-welcome__grid .kbyg-section__title::before {
-    color: var(--kbyg-ink);
-    content: "Welcome";
-    font-size: 34px;
-  }
-  .kbyg-page .kbyg-welcome__grid .kbyg-section__title::after {
-    content: none;
-  }
-  .kbyg-page .kbyg-welcome__grid .kbyg-section__title > span:first-child {
-    display: none;
-  }
-  .kbyg-page .kbyg-welcome__grid .kbyg-section__title > .kbyg-accent {
     font-size: 34px;
   }
   .kbyg-page .kbyg-section__intro {
