@@ -108,27 +108,11 @@
             src="https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6a9a69f8fd883fff73e394fb_kbyg-hero-attendee-clean.webp"
             alt="Attendee viewing the Know Before You Go event app in a hotel lobby"
           />
-          <!-- WEBFLOW CONDITION: Audience is Delegate. -->
-          <span class="kbyg-hero__badge" data-kbyg-audience-branch="delegate" aria-hidden="true">
-            <!-- Delegate badge: confirmation checkmark. -->
-            <svg viewBox="0 0 64 64" focusable="false">
-              <circle cx="32" cy="32" r="29" fill="none" stroke="currentColor" stroke-width="4" />
-              <path
-                d="M20 33.5 28.2 42 45 23"
-                fill="none"
-                stroke="currentColor"
-                stroke-linecap="round"
-                stroke-linejoin="round"
-                stroke-width="5"
-              />
-            </svg>
-          </span>
-          <!-- WEBFLOW CONDITION: Audience is Sponsor. -->
-          <span class="kbyg-hero__badge" data-kbyg-audience-branch="sponsor" aria-hidden="true">
+          <span class="kbyg-hero__badge kbyg-hero__badge--industry" aria-hidden="true">
             <!--
-              Industry artwork uses the existing IPMI branded SVGs, never Font Awesome.
-              WEBFLOW BIND: data-kbyg-industry = Referenced Institute > Global - Institute Category.
-              Runtime selects the matching category artwork; this is the Healthcare fallback.
+              Both audiences share the applicable IPMI industry artwork.
+              Runtime reads the CMS-bound kbyg-industry meta in KBYG-Head.html;
+              this is the Healthcare fallback.
             -->
             <img
               data-kbyg-industry-icon
@@ -155,13 +139,13 @@
             <a class="kbyg-jump__link" href="#prepare" data-kbyg-jump="prepare">PREPARE</a>
           </li>
           <li class="kbyg-jump__item">
-            <a class="kbyg-jump__link" href="#key-dates" data-kbyg-jump="key-dates">KEY DATES</a>
+            <a class="kbyg-jump__link" href="#key-dates" data-kbyg-jump="key-dates">DATES</a>
           </li>
           <li class="kbyg-jump__item">
             <a class="kbyg-jump__link" href="#agenda" data-kbyg-jump="agenda">AGENDA</a>
           </li>
           <li class="kbyg-jump__item">
-            <a class="kbyg-jump__link" href="#hub" data-kbyg-jump="hub">ATTENDEE HUB</a>
+            <a class="kbyg-jump__link" href="#hub" data-kbyg-jump="hub">HUB</a>
           </li>
           <li class="kbyg-jump__item">
             <a class="kbyg-jump__link" href="#hotel-travel" data-kbyg-jump="hotel-travel">HOTEL</a>
@@ -186,21 +170,19 @@
             <a class="kbyg-jump__link" href="#prepare" data-kbyg-jump="prepare">PREPARE</a>
           </li>
           <li class="kbyg-jump__item">
-            <a class="kbyg-jump__link" href="#key-dates" data-kbyg-jump="key-dates">KEY DATES</a>
+            <a class="kbyg-jump__link" href="#key-dates" data-kbyg-jump="key-dates">DATES</a>
           </li>
           <li class="kbyg-jump__item">
             <a class="kbyg-jump__link" href="#agenda" data-kbyg-jump="agenda">AGENDA</a>
           </li>
           <li class="kbyg-jump__item">
-            <a class="kbyg-jump__link" href="#hub" data-kbyg-jump="hub">SPONSOR HUB</a>
+            <a class="kbyg-jump__link" href="#hub" data-kbyg-jump="hub">HUB</a>
           </li>
           <li class="kbyg-jump__item">
             <a class="kbyg-jump__link" href="#hotel-travel" data-kbyg-jump="hotel-travel">HOTEL</a>
           </li>
           <li class="kbyg-jump__item">
-            <a class="kbyg-jump__link" href="#experience" data-kbyg-jump="experience"
-              >BUSINESS MEETINGS</a
-            >
+            <a class="kbyg-jump__link" href="#experience" data-kbyg-jump="experience">MEETINGS</a>
           </li>
           <li class="kbyg-jump__item">
             <a class="kbyg-jump__link" href="#sponsor-support" data-kbyg-jump="sponsor-support"
@@ -227,9 +209,9 @@
           >
             <option value="welcome">WELCOME</option>
             <option value="prepare">PREPARE</option>
-            <option value="key-dates">KEY DATES</option>
+            <option value="key-dates">DATES</option>
             <option value="agenda">AGENDA</option>
-            <option value="hub">ATTENDEE HUB</option>
+            <option value="hub">HUB</option>
             <option value="hotel-travel">HOTEL</option>
             <option value="experience">EXPERIENCE</option>
             <option value="faq">FAQ</option>
@@ -252,11 +234,11 @@
           >
             <option value="welcome">WELCOME</option>
             <option value="prepare">PREPARE</option>
-            <option value="key-dates">KEY DATES</option>
+            <option value="key-dates">DATES</option>
             <option value="agenda">AGENDA</option>
-            <option value="hub">SPONSOR HUB</option>
+            <option value="hub">HUB</option>
             <option value="hotel-travel">HOTEL</option>
-            <option value="experience">BUSINESS MEETINGS</option>
+            <option value="experience">MEETINGS</option>
             <option value="sponsor-support">SUPPORT</option>
             <option value="contact">CONTACT</option>
           </select>

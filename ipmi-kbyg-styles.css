@@ -704,12 +704,13 @@
   border-radius: 999px;
   background: var(--kbyg-accent-deep);
   color: var(--kbyg-white);
-  font-size: 11px;
+  font-size: 13px;
   font-weight: 700;
   letter-spacing: 0.045em;
   line-height: 1;
   text-decoration: none;
   text-transform: uppercase;
+  white-space: nowrap;
   transition: background-color 160ms ease, color 160ms ease;
 }
 .kbyg-page .kbyg-jump__link:hover, .kbyg-page .kbyg-jump__link.is-active, .kbyg-page .kbyg-jump__link[aria-current=location] {
@@ -1710,7 +1711,7 @@
   }
   .kbyg-page .kbyg-jump__link {
     padding-inline: 8px;
-    font-size: 10px;
+    font-size: 12px;
   }
 }
 @media screen and (max-width: 991px) {
