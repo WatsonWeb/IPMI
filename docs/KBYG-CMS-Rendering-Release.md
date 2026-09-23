@@ -57,6 +57,10 @@ remain the source of event, staff, and content-block data.
   separately while its grid renders the complete native multi-reference list.
   If all three leading grid titles match the method titles in order, the runtime
   removes those duplicate grid items. An already-offset grid remains intact.
+- Set both Key Dates Collection Lists' native Empty State text to
+  `Check back soon for Key Dates & Deliverables!`. Webflow displays this only
+  when no items are available. The runtime hides View All Key Dates for empty
+  lists, including published empty states where Webflow omits the grid.
 - Empty link fields hide their CTAs; calendar and date-toggle action links remain
   available. Empty hotel-details rich text hides its optional card. Empty phone
   and email links hide the corresponding contact row. Native conditional

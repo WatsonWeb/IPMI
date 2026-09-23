@@ -1453,6 +1453,13 @@ function setupKeyDates(
     windowRef && typeof windowRef.matchMedia === "function"
       ? windowRef.matchMedia("(max-width: 991px)")
       : null;
+  // Webflow may omit the grid entirely when its native Empty State is shown.
+  // A populated list below reveals its control only when there is more to show.
+  queryAll(section, ".kbyg-button--calendar-link, [data-kbyg-dates-toggle]").forEach(
+    function (control) {
+      control.hidden = true;
+    },
+  );
   let records = queryAll(section, ".kbyg-dates-grid")
     .map(function (grid, index) {
       let branch = (grid.closest && grid.closest("[data-kbyg-audience-branch]")) || section;

@@ -240,6 +240,31 @@ test("Delegate Experience retains matching meeting-method titles", () => {
   expect(renderedExperienceTitles(element)).toEqual(titles);
 });
 
+test.each([
+  ["delegate", '<div class="kbyg-dates-grid"></div>'],
+  ["sponsor", ""],
+])(
+  "%s Key Dates hides the disclosure for an empty native list without changing empty-state copy",
+  (audience, grid) => {
+    const emptyText = "Check back soon for Key Dates & Deliverables!";
+    const element = page(
+      `<section id="key-dates">
+        <div data-kbyg-audience-branch="${audience}">
+          <div class="w-dyn-list">${grid}<div class="w-dyn-empty">${emptyText}</div></div>
+          <a class="kbyg-button kbyg-button--calendar-link" data-kbyg-dates-toggle href="#key-dates">VIEW ALL KEY DATES</a>
+        </div>
+      </section>`,
+      audience,
+    );
+    const toggle = get(element, "[data-kbyg-dates-toggle]");
+
+    initialize(element);
+
+    expect(toggle.hidden).toBe(true);
+    expect(get(element, ".w-dyn-empty").textContent).toBe(emptyText);
+  },
+);
+
 test("Sponsor Hub and Support retain separate CMS destinations despite a legacy shared URL", () => {
   history.replaceState(null, "", "/know-before-you-go/example-sponsor");
   const element = page(
