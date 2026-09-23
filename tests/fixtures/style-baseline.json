@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "sourceCommit": "33d79645e982e5a3c0bf8e4f26ae693e791163c9",
-  "purpose": "Reviewed KBYG CMS rendering fixes; preserve the legacy and rebuilt global stylesheets.",
+  "sourceCommit": "b189ec9390c22be847351211cf0b08b9d3b5bdc9",
+  "purpose": "Reviewed KBYG CMS rendering and native gallery styles; preserve the legacy and rebuilt global stylesheets.",
   "toolchain": {
     "sass": "dart-sass\t1.104.0\t(Sass Compiler)\t[Dart]",
     "postcss": "8.5.28",
@@ -52,9 +52,9 @@
   "legacyGlobalArtifactDiffersFromModernBuild": true,
   "stylesheets": {
     "kbygArtifact": {
-      "bytes": 75561,
-      "sha256": "6e2a7167b77b0aefadf4e4280c2e7fe2bdbbe8e4332e8ed29102271784baedd9",
-      "orderedAstSha256": "d82aa84898b8478e98ff0da43c472fe40e13890a198163eb90f414897fef9c0e",
+      "bytes": 75802,
+      "sha256": "4c71b83786dc4d233b601c4d616baff2246488cfa2a164d2ea0e4f9d46fca047",
+      "orderedAstSha256": "4f1fabb9788e503a0341f202a225cc4a5e7ac21d8d30defd5a1a8e79eb18d589",
       "orderedNodeHashes": [
         "ce9b4344c329e080eaa1ad0ebcba0e329c7cb6b620f84aa45a9a7d9eb813a30e",
         "5beaf3d8b24e297b3a46ba38940df3bd1e33df3ef4d85d78db8c16ca45fbb20b",
@@ -85,6 +85,9 @@
         "7de5e0b568a74ebd85dced719314df2b0e6dbea3467124f24d21c5443d8053d9",
         "7e5d5fce54f955c92d69d20f8b06aef6b978886a04f096c18dcdb83c4ccec377",
         "0ffb556ce02166502f0cc093e515fc8b12b3df922e78ca4bfeaaa9b6f1844989",
+        "412cca5c5d074edff8a8ca249c387112ec89381f4003070c25ce80a11cace8de",
+        "e99972bbcb4d2ecfbf86096af9796a99e99804da8115f25720c74d4dd2336e25",
+        "64c239fac47a24ae1875a2d03667c6f0e7b845e6f1610521d4181fe628fdb9c4",
         "e253090353fecf6f4c36c3c01639694e59ace39a2eae0cff5a26dff29e5bdffa",
         "33d22e822c71a4a60620bbc66de9816f36f909f8d0e1185be068f19c85d3d0f0",
         "bf005c6f373145b094311bb3b19a5f2db0e26b8cd53be570a2cf1fc7df16a3cf",
@@ -355,9 +358,9 @@
       ]
     },
     "kbygBuild": {
-      "bytes": 75561,
-      "sha256": "6e2a7167b77b0aefadf4e4280c2e7fe2bdbbe8e4332e8ed29102271784baedd9",
-      "orderedAstSha256": "d82aa84898b8478e98ff0da43c472fe40e13890a198163eb90f414897fef9c0e",
+      "bytes": 75802,
+      "sha256": "4c71b83786dc4d233b601c4d616baff2246488cfa2a164d2ea0e4f9d46fca047",
+      "orderedAstSha256": "4f1fabb9788e503a0341f202a225cc4a5e7ac21d8d30defd5a1a8e79eb18d589",
       "orderedNodeHashes": [
         "ce9b4344c329e080eaa1ad0ebcba0e329c7cb6b620f84aa45a9a7d9eb813a30e",
         "5beaf3d8b24e297b3a46ba38940df3bd1e33df3ef4d85d78db8c16ca45fbb20b",
@@ -388,6 +391,9 @@
         "7de5e0b568a74ebd85dced719314df2b0e6dbea3467124f24d21c5443d8053d9",
         "7e5d5fce54f955c92d69d20f8b06aef6b978886a04f096c18dcdb83c4ccec377",
         "0ffb556ce02166502f0cc093e515fc8b12b3df922e78ca4bfeaaa9b6f1844989",
+        "412cca5c5d074edff8a8ca249c387112ec89381f4003070c25ce80a11cace8de",
+        "e99972bbcb4d2ecfbf86096af9796a99e99804da8115f25720c74d4dd2336e25",
+        "64c239fac47a24ae1875a2d03667c6f0e7b845e6f1610521d4181fe628fdb9c4",
         "e253090353fecf6f4c36c3c01639694e59ace39a2eae0cff5a26dff29e5bdffa",
         "33d22e822c71a4a60620bbc66de9816f36f909f8d0e1185be068f19c85d3d0f0",
         "bf005c6f373145b094311bb3b19a5f2db0e26b8cd53be570a2cf1fc7df16a3cf",
