@@ -239,6 +239,20 @@
     color: var(--kbyg-muted);
     font-size: 18px;
     line-height: 29px;
+
+    p {
+      margin: 0 0 1em;
+      font-size: inherit;
+      line-height: inherit;
+    }
+
+    > :first-child {
+      margin-top: 0;
+    }
+
+    > :last-child {
+      margin-bottom: 0;
+    }
   }
 
   .kbyg-rich-text {

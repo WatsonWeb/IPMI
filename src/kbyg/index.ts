@@ -1584,6 +1584,71 @@ function setupOptionalHotelDetails(page: HTMLElement) {
   });
 }
 
+function setupCmsVenueGalleries(page: HTMLElement, pageToken: number, documentRef: Document) {
+  let links: HTMLElement[] = [];
+  queryAll(page, '[data-kbyg-cms-gallery="true"]').forEach(function (source, index) {
+    let galleryId =
+      getAttribute(source, "data-kbyg-gallery-id") || "kbyg-gallery-" + pageToken + "-" + index;
+    setAttribute(source, "data-kbyg-gallery-id", galleryId);
+    queryAll(page, "[data-kbyg-cms-gallery-item]").forEach(function (item) {
+      if (getAttribute(item, "data-kbyg-cms-gallery-item") === galleryId) item.remove();
+    });
+
+    // Keep Webflow's bound MultiImage JSON intact as the source of truth. It
+    // cannot remain a native lightbox itself or its items duplicate the group.
+    removeClass(source, "w-lightbox");
+    setAttribute(source, "hidden", "");
+    let configuration: Record<string, unknown> = {};
+    try {
+      const parsed: unknown = JSON.parse(query(source, ".w-json")?.textContent || "{}");
+      if (parsed && typeof parsed === "object" && !Array.isArray(parsed))
+        configuration = parsed as Record<string, unknown>;
+    } catch {
+      return;
+    }
+    if (!Array.isArray(configuration.items) || !source.parentNode) return;
+
+    configuration.items.forEach(function (item: unknown) {
+      if (!item || typeof item !== "object" || Array.isArray(item)) return;
+      let media = item as Record<string, unknown>;
+      let url = externalHttpUrl(media.url);
+      if (!url || (media.type && media.type !== "image")) return;
+      let link = documentRef.createElement("a");
+      addClasses(link, "kbyg-travel-gallery__lightbox w-inline-block w-lightbox");
+      setAttribute(link, "data-kbyg-cms-gallery-item", galleryId);
+      setAttribute(link, "href", url);
+      setAttribute(link, "target", "_blank");
+      setAttribute(link, "rel", "noopener noreferrer");
+      setAttribute(link, "aria-haspopup", "dialog");
+      let image = documentRef.createElement("img");
+      addClass(image, "kbyg-travel-gallery__image");
+      setAttribute(image, "src", externalHttpUrl(media.thumbnailUrl) || url);
+      let alt =
+        typeof media.alt === "string"
+          ? media.alt
+          : typeof media.caption === "string"
+            ? media.caption
+            : "Event venue";
+      setAttribute(image, "alt", alt);
+      setAttribute(image, "loading", "lazy");
+      setAttribute(link, "aria-label", "Open photo: " + (alt || "Event venue"));
+      link.appendChild(image);
+      let data = documentRef.createElement("script");
+      setAttribute(data, "type", "application/json");
+      addClass(data, "w-json");
+      data.textContent = JSON.stringify({
+        ...configuration,
+        items: [{ ...media, type: "image" }],
+        group: configuration.group || "KBYG Venue Images " + pageToken,
+      });
+      link.appendChild(data);
+      source.parentNode?.insertBefore(link, source);
+      links.push(link);
+    });
+  });
+  return links;
+}
+
 function setupVenueLightboxes(
   page: HTMLElement,
   pageToken: number,
@@ -1591,8 +1656,9 @@ function setupVenueLightboxes(
   windowRef: KbygWindow | null,
   cleanups: Cleanup[],
 ) {
-  let links: HTMLElement[] = [];
+  let links = setupCmsVenueGalleries(page, pageToken, documentRef);
   queryAll(page, ".kbyg-travel-gallery__image").forEach(function (image) {
+    if (image.closest("[data-kbyg-cms-gallery], [data-kbyg-cms-gallery-item]")) return;
     let source = externalHttpUrl(getAttribute(image, "src"));
     if (!source || hasClass(image, "w-dyn-bind-empty")) {
       let emptyItem = image.closest(".w-dyn-item") || image.closest("a.w-lightbox") || image;

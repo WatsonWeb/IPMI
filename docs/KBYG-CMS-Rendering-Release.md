@@ -27,7 +27,13 @@ remain the source of event, staff, and content-block data.
 - Bind root `data-kbyg-map-query` to Institute Map Query. If it is blank, the
   runtime uses `[data-kbyg-address]` text, then the first hotel-card venue title.
   A per-iframe `data-kbyg-map-query` overrides the root query.
-- Each venue gallery item must bind `.kbyg-travel-gallery__image` `src` and `alt`.
+- A native Lightbox with `data-kbyg-cms-gallery="true"` can bind its Media directly
+  to Institute Venue Image Thumbnails (MultiImage). Its published `.w-json` is
+  authoritative. Runtime leaves that source JSON intact, hides its source link
+  outside native lightbox grouping, and creates one ordered thumbnail/lightbox per
+  image with its caption, alt text, metadata, and group. An empty CMS gallery
+  produces no thumbnails. Remove static thumbnail children and extra demo links.
+- Alternatively, each venue gallery item can bind `.kbyg-travel-gallery__image` `src` and `alt`.
   Its lightbox uses that current image, replacing stale native JSON. Optionally
   bind `data-kbyg-full-image-src` on the image or enclosing lightbox link for a
   different full image. Empty native images are hidden and excluded.

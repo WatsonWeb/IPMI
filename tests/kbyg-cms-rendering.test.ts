@@ -251,6 +251,105 @@ test.each(["native lightbox", "unwrapped image"])(
   },
 );
 
+test.each(["no thumbnail", "a stale thumbnail"])(
+  "an authoritative native CMS gallery with %s expands its ordered items without rewriting source JSON",
+  (thumbnail) => {
+    const ready = vi.fn();
+    (window as KbygWindow).Webflow = { push: (callback) => callback(), require: () => ({ ready }) };
+    const items = [
+      {
+        _id: "lake-photo",
+        type: "image",
+        url: "https://cdn.example.test/lake-full.webp",
+        thumbnailUrl: "https://cdn.example.test/lake-thumb.webp",
+        caption: "Our lakeside setting",
+        alt: "Lake viewed from the venue terrace",
+        width: 1800,
+        height: 1200,
+        fileName: "lake-full.webp",
+      },
+      {
+        _id: "lobby-photo",
+        type: "image",
+        url: "https://cdn.example.test/lobby.webp",
+        caption: "The main lobby",
+        alt: "Bright lobby with a central staircase",
+        width: 1600,
+        height: 1000,
+        fileName: "lobby.webp",
+      },
+    ];
+    const sourceJson = JSON.stringify({ items, group: "Venue" }, null, 2);
+    const element = page(
+      `<div class="kbyg-travel-gallery">
+        <a class="w-lightbox" data-kbyg-cms-gallery="true">
+          ${thumbnail === "a stale thumbnail" ? '<img class="kbyg-travel-gallery__image" src="https://cdn.example.test/stale-venue.webp" alt="Previous venue">' : ""}
+          <script class="w-json" type="application/json">${sourceJson}</script>
+        </a>
+      </div>`,
+    );
+    const source = get(element, "[data-kbyg-cms-gallery]");
+    const data = get(source, ".w-json");
+
+    function expectGallery(instance: KbygInstance) {
+      expect(instance.venueLightboxes.links).toHaveLength(items.length);
+      expect(element.querySelectorAll(".w-lightbox")).toHaveLength(items.length);
+      expect(data.textContent).toBe(sourceJson);
+      expect(!source.isConnected || !source.matches(".w-lightbox")).toBe(true);
+      expect(
+        !source.isConnected ||
+          source.closest("[hidden]") !== null ||
+          getComputedStyle(source).display === "none",
+      ).toBe(true);
+      instance.venueLightboxes.links.forEach((link, index) => {
+        const item = items[index];
+        assert.ok(item);
+        const image = get<HTMLImageElement>(link, "img");
+        expect(image.src).toBe(item.thumbnailUrl || item.url);
+        expect(image.alt).toBe(item.alt);
+        expect(link.getAttribute("href")).toBe(item.url);
+        expect(lightboxItems(link)).toEqual([item]);
+        const configuration: unknown = JSON.parse(get(link, ".w-json").textContent ?? "{}");
+        expect(configuration).toMatchObject({ group: "Venue" });
+      });
+    }
+
+    const first = initialize(element);
+    expectGallery(first);
+    expect(ready).toHaveBeenCalledTimes(1);
+    expect(kbyg.initPage(element)).toBe(first);
+    expect(ready).toHaveBeenCalledTimes(1);
+
+    first.destroy();
+    const second = initialize(element);
+    expectGallery(second);
+    expect(ready).toHaveBeenCalledTimes(2);
+  },
+);
+
+test("an empty authoritative CMS gallery hides its source and creates no lightboxes", () => {
+  const ready = vi.fn();
+  (window as KbygWindow).Webflow = { push: (callback) => callback(), require: () => ({ ready }) };
+  const sourceJson = '{"items":[],"group":"Venue"}';
+  const element = page(
+    `<div class="kbyg-travel-gallery"><a class="w-lightbox" data-kbyg-cms-gallery="true"><script class="w-json" type="application/json">${sourceJson}</script></a></div>`,
+  );
+  const source = get(element, "[data-kbyg-cms-gallery]");
+  const data = get(source, ".w-json");
+
+  const instance = initialize(element);
+
+  expect(instance.venueLightboxes.links).toHaveLength(0);
+  expect(element.querySelectorAll(".w-lightbox")).toHaveLength(0);
+  expect(data.textContent).toBe(sourceJson);
+  expect(
+    !source.isConnected ||
+      source.closest("[hidden]") !== null ||
+      getComputedStyle(source).display === "none",
+  ).toBe(true);
+  expect(ready).not.toHaveBeenCalled();
+});
+
 test("explicit CMS calendar dates win over an outdated display date in downloads", async () => {
   const element = page(
     `<article data-kbyg-calendar-item>

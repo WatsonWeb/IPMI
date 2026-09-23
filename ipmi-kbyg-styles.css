@@ -207,6 +207,17 @@
   font-size: 18px;
   line-height: 29px;
 }
+.kbyg-page .kbyg-section__intro p {
+  margin: 0 0 1em;
+  font-size: inherit;
+  line-height: inherit;
+}
+.kbyg-page .kbyg-section__intro > :first-child {
+  margin-top: 0;
+}
+.kbyg-page .kbyg-section__intro > :last-child {
+  margin-bottom: 0;
+}
 .kbyg-page .kbyg-rich-text {
   color: var(--kbyg-muted);
 }
