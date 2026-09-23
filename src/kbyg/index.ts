@@ -1160,8 +1160,12 @@ function calendarDataFromElement(control: HTMLElement): CalendarInput {
     control && typeof control.closest === "function"
       ? control.closest("[data-kbyg-calendar-item]")
       : null;
+  let card =
+    control && typeof control.closest === "function" ? control.closest(".kbyg-date-card") : null;
   let titleElement = query(item, "[data-kbyg-calendar-title]");
-  let descriptionElement = query(item, "[data-kbyg-calendar-description]");
+  let descriptionElement =
+    query(card, "[data-kbyg-calendar-description]") ||
+    query(item, "[data-kbyg-calendar-description]");
   let fallbackTitle = String(
     (titleElement && (titleElement.textContent || titleElement.innerText)) ||
       (control && (control.textContent || control.innerText)) ||
@@ -1173,8 +1177,6 @@ function calendarDataFromElement(control: HTMLElement): CalendarInput {
   let allDay = field("allDay", ["data-kbyg-all-day", "data-kbyg-calendar-all-day"]);
   let start = field("start", ["data-kbyg-start", "data-kbyg-calendar-start"]);
   let end = field("end", ["data-kbyg-end", "data-kbyg-calendar-end"]);
-  let card =
-    control && typeof control.closest === "function" ? control.closest(".kbyg-date-card") : null;
   let displayDateElement = query(card, ".kbyg-date-card__display-date");
   let displayDate = parseDisplayDate(
     displayDateElement && (displayDateElement.textContent || displayDateElement.innerText),
@@ -1578,7 +1580,12 @@ function setupEventTitle(page: HTMLElement) {
 function setupOptionalHotelDetails(page: HTMLElement) {
   queryAll(page, ".kbyg-travel-card").forEach(function (card) {
     let body = query(card, ".kbyg-travel-card__body, .kbyg-rich-text");
-    if (body && !body.textContent?.trim() && !query(body, "img, video, iframe")) {
+    if (
+      body &&
+      (body.closest(".w-condition-invisible") ||
+        hasClass(body, "w-dyn-bind-empty") ||
+        (!body.textContent?.trim() && !query(body, "img, video, iframe")))
+    ) {
       setAttribute(card, "hidden", "");
     }
   });
@@ -1598,6 +1605,7 @@ function setupCmsVenueGalleries(page: HTMLElement, pageToken: number, documentRe
     // cannot remain a native lightbox itself or its items duplicate the group.
     removeClass(source, "w-lightbox");
     setAttribute(source, "hidden", "");
+    if (source.closest(".w-condition-invisible")) return;
     let configuration: Record<string, unknown> = {};
     try {
       const parsed: unknown = JSON.parse(query(source, ".w-json")?.textContent || "{}");

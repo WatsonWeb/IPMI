@@ -350,6 +350,85 @@ test("an empty authoritative CMS gallery hides its source and creates no lightbo
   expect(ready).not.toHaveBeenCalled();
 });
 
+test.each(["source", "ancestor"])(
+  "a CMS gallery with a conditionally invisible %s retains JSON without generating links",
+  (hiddenElement) => {
+    const sourceJson = JSON.stringify({
+      items: [{ url: "https://cdn.example.test/conditional-venue.webp", type: "image" }],
+      group: "Venue",
+    });
+    const element = page(
+      `<div class="kbyg-travel-gallery ${hiddenElement === "ancestor" ? "w-condition-invisible" : ""}">
+        <a class="w-lightbox ${hiddenElement === "source" ? "w-condition-invisible" : ""}" data-kbyg-cms-gallery="true">
+          <script class="w-json" type="application/json">${sourceJson}</script>
+        </a>
+      </div>`,
+    );
+    const data = get(element, "[data-kbyg-cms-gallery] .w-json");
+
+    const instance = initialize(element);
+
+    expect(data.textContent).toBe(sourceJson);
+    expect(instance.venueLightboxes.links).toHaveLength(0);
+    expect(element.querySelectorAll("[data-kbyg-cms-gallery-item]")).toHaveLength(0);
+  },
+);
+
+test.each([
+  ["w-condition-invisible", true],
+  ["w-dyn-bind-empty", true],
+  ["", false],
+] as const)(
+  "optional hotel details with CMS state '%s' set card visibility despite retained text",
+  (state, hidden) => {
+    const element = page(
+      `<article class="kbyg-travel-card">
+        <h3 class="kbyg-travel-card__title">Transportation</h3>
+        <div class="kbyg-rich-text ${state}"><p>Transportation details from the template.</p></div>
+      </article>`,
+    );
+
+    initialize(element);
+
+    const card = get(element, ".kbyg-travel-card");
+    expect(card.hidden || getComputedStyle(card).display === "none").toBe(hidden);
+  },
+);
+
+test.each(["native rich text", "explicit description"])(
+  "calendar downloads use %s without a calendar-item wrapper",
+  async (source) => {
+    const element = page(
+      `<article class="kbyg-date-card">
+        <h3 data-kbyg-calendar-title>Registration deadline</h3>
+        <div class="kbyg-rich-text" data-kbyg-calendar-description><p>Bring <strong>your confirmation</strong> and photo ID.</p></div>
+        <a href="#" data-kbyg-calendar data-kbyg-start="2027-04-16" data-kbyg-all-day="true" ${source === "explicit description" ? 'data-kbyg-description="Use the confirmed CMS instructions."' : ""}>Add to calendar</a>
+      </article>`,
+    );
+    let downloaded: Blob | undefined;
+    vi.spyOn(URL, "createObjectURL").mockImplementation((value) => {
+      assert.ok(value instanceof Blob);
+      downloaded = value;
+      return "blob:kbyg-native-description";
+    });
+    vi.spyOn(URL, "revokeObjectURL").mockImplementation(() => {});
+    vi.spyOn(HTMLAnchorElement.prototype, "click").mockImplementation(() => {});
+
+    initialize(element);
+    get(element, "[data-kbyg-calendar]").dispatchEvent(
+      new MouseEvent("click", { bubbles: true, cancelable: true }),
+    );
+
+    assert.ok(downloaded);
+    const calendar = await downloaded.text();
+    const expected =
+      source === "explicit description"
+        ? "Use the confirmed CMS instructions."
+        : "Bring your confirmation and photo ID.";
+    expect(calendar).toContain(`DESCRIPTION:${expected}\r\n`);
+  },
+);
+
 test("explicit CMS calendar dates win over an outdated display date in downloads", async () => {
   const element = page(
     `<article data-kbyg-calendar-item>

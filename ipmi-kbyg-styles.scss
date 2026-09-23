@@ -286,10 +286,6 @@
     margin-top: 28px;
   }
 
-  #welcome .kbyg-section__eyebrow {
-    display: none;
-  }
-
   #welcome .kbyg-rich-text {
     font-size: 18px;
     line-height: 30px;
@@ -1617,7 +1613,7 @@
     }
 
     &__link {
-      display: none;
+      display: inline-flex;
       align-items: center;
       gap: 7px;
       margin-top: 18px;
@@ -1696,13 +1692,12 @@
       margin-top: 53px;
 
       > .kbyg-icon-card:nth-child(-n + 3),
-      > .w-dyn-item:nth-child(-n + 3) > .kbyg-icon-card,
-      > .w-dyn-item:nth-child(n + 4):nth-child(-n + 6) > .kbyg-icon-card {
+      > .w-dyn-item:nth-child(-n + 3) > .kbyg-icon-card {
         grid-column: span 2;
       }
 
       > .kbyg-icon-card:nth-child(n + 4),
-      > .w-dyn-item:nth-child(n + 7) > .kbyg-icon-card {
+      > .w-dyn-item:nth-child(n + 4) > .kbyg-icon-card {
         grid-column: span 3;
       }
 
@@ -1884,16 +1879,6 @@
 
   .kbyg-contact__title {
     color: var(--kbyg-white);
-  }
-
-  &[data-audience="sponsor"] #experience .kbyg-experience-grid {
-    > .w-dyn-item:nth-child(-n + 3) {
-      display: none;
-    }
-  }
-
-  &[data-audience="delegate"] #hotel-travel .kbyg-section__intro {
-    display: none;
   }
 
   @media screen and (min-width: 992px) {
@@ -3141,10 +3126,6 @@
       min-height: 50px;
       padding-inline: 20px;
       font-size: 13px;
-    }
-
-    #agenda .kbyg-button__desktop-word {
-      display: none;
     }
 
     .kbyg-hero__content {

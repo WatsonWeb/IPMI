@@ -243,9 +243,6 @@
   justify-content: center;
   margin-top: 28px;
 }
-.kbyg-page #welcome .kbyg-section__eyebrow {
-  display: none;
-}
 .kbyg-page #welcome .kbyg-rich-text {
   font-size: 18px;
   line-height: 30px;
@@ -1351,7 +1348,7 @@
   color: inherit;
 }
 .kbyg-page .kbyg-travel-card__link {
-  display: none;
+  display: inline-flex;
   align-items: center;
   gap: 7px;
   margin-top: 18px;
@@ -1419,12 +1416,11 @@
   margin-top: 53px;
 }
 .kbyg-page #experience .kbyg-experience-grid > .kbyg-icon-card:nth-child(-n+3),
-.kbyg-page #experience .kbyg-experience-grid > .w-dyn-item:nth-child(-n+3) > .kbyg-icon-card,
-.kbyg-page #experience .kbyg-experience-grid > .w-dyn-item:nth-child(n+4):nth-child(-n+6) > .kbyg-icon-card {
+.kbyg-page #experience .kbyg-experience-grid > .w-dyn-item:nth-child(-n+3) > .kbyg-icon-card {
   grid-column: span 2;
 }
 .kbyg-page #experience .kbyg-experience-grid > .kbyg-icon-card:nth-child(n+4),
-.kbyg-page #experience .kbyg-experience-grid > .w-dyn-item:nth-child(n+7) > .kbyg-icon-card {
+.kbyg-page #experience .kbyg-experience-grid > .w-dyn-item:nth-child(n+4) > .kbyg-icon-card {
   grid-column: span 3;
 }
 .kbyg-page #experience .kbyg-experience-grid .kbyg-icon-card {
@@ -1566,12 +1562,6 @@
 }
 .kbyg-page .kbyg-contact__title {
   color: var(--kbyg-white);
-}
-.kbyg-page[data-audience=sponsor] #experience .kbyg-experience-grid > .w-dyn-item:nth-child(-n+3) {
-  display: none;
-}
-.kbyg-page[data-audience=delegate] #hotel-travel .kbyg-section__intro {
-  display: none;
 }
 @media screen and (min-width: 992px) {
   .kbyg-page .kbyg-hero__copy {
@@ -2546,9 +2536,6 @@
     min-height: 50px;
     padding-inline: 20px;
     font-size: 13px;
-  }
-  .kbyg-page #agenda .kbyg-button__desktop-word {
-    display: none;
   }
   .kbyg-page .kbyg-hero__content {
     padding-top: 126px;
