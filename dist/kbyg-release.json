@@ -1,18 +1,24 @@
 {
-  "sourceCommit": "bc082091681b75324a441e5993ce27012cebf193",
-  "scope": "KBYG runtime only; global scripts, CSS, CMS content and production domains are unchanged",
+  "sourceCommit": "33d79645e982e5a3c0bf8e4f26ae693e791163c9",
+  "scope": "KBYG CMS rendering runtime and scoped stylesheet; global stylesheet unchanged",
   "stagingDomain": "ipmi.webflow.io",
   "artifacts": {
-    "ipmi-kbyg.js": {
-      "bytes": 33680,
-      "sha256": "0327db5fed611aa468bda5893858e67c6404e9179605da824e61806c10a189d7"
+    "dist/ipmi-kbyg.js": {
+      "bytes": 31809,
+      "sha256": "ee4df0510503635fedb13d3596718ddbe07ea8e6bb91fcb53111ab380d098434"
     },
-    "ipmi-kbyg.js.map": {
-      "bytes": 119893,
-      "sha256": "0bc3504a7501ca9e0944ce572470330c3e964e8f085680406a49099f1f5c8572"
+    "dist/ipmi-kbyg.js.map": {
+      "bytes": 113893,
+      "sha256": "48cbbf1c501654ec4abc35942fd2ac28560051432e4700917c7432cb5658f9de"
+    },
+    "ipmi-kbyg-styles.css": {
+      "bytes": 75561,
+      "sha256": "6e2a7167b77b0aefadf4e4280c2e7fe2bdbbe8e4332e8ed29102271784baedd9"
     }
   },
-  "retainedStylesheet": "https://cdn.jsdelivr.net/gh/WatsonWeb/IPMI@45f76b4e2d825ad03e9c70ac46203bd79b0d4b14/ipmi-kbyg-styles.css",
-  "rollbackRuntime": "https://cdn.jsdelivr.net/gh/WatsonWeb/IPMI@1a43ab6479710e09b92991cc9cb96dfdbc6ac2eb/ipmi-kbyg.js",
-  "validation": "vp run verify: 175 tests across 13 files; build, types, lint, formatting, CSS and CMS checks passed"
+  "runtimePath": "dist/ipmi-kbyg.js",
+  "stylesheetPath": "ipmi-kbyg-styles.css",
+  "rollbackRuntime": "https://cdn.jsdelivr.net/gh/WatsonWeb/IPMI@dca88619bec36d8f291376e0dc43f94c66368784/dist/ipmi-kbyg.js",
+  "requiredWebflowChanges": "docs/KBYG-CMS-Rendering-Release.md",
+  "validation": "vp run verify passed: 193 tests across 14 files; all 15 builds, formatting, typed lint, CSS baselines, scope, markup, and CMS fixture checks"
 }

@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "sourceCommit": "45f76b4e2d825ad03e9c70ac46203bd79b0d4b14",
-  "purpose": "No-render-change shared Sass cleanup; never regenerate the legacy global artifact.",
+  "sourceCommit": "33d79645e982e5a3c0bf8e4f26ae693e791163c9",
+  "purpose": "Reviewed KBYG CMS rendering fixes; preserve the legacy and rebuilt global stylesheets.",
   "toolchain": {
     "sass": "dart-sass\t1.104.0\t(Sass Compiler)\t[Dart]",
     "postcss": "8.5.28",
@@ -40,7 +40,7 @@
       "samsung 30",
       "samsung 29"
     ],
-    "lockfileSha256": "d45cf6b00401000df38c1a626c7ac893d1dbdff25c5bd373ec04dcd3d4130dd1"
+    "lockfileSha256": "36efc4f84bda578459c3622980947316e1de6ff87d2dc6d756561ad38ae45117"
   },
   "compilerOptions": {
     "charset": false,
@@ -52,12 +52,13 @@
   "legacyGlobalArtifactDiffersFromModernBuild": true,
   "stylesheets": {
     "kbygArtifact": {
-      "bytes": 75834,
-      "sha256": "b2803027817a71838a2251c16a2916f68e08c82c2c5bcd73d2a805ca92a60fa7",
-      "orderedAstSha256": "951e8ac4df838a2f5724dc6dd722b493e2835d8ae7d1c1d2f6ccdcf6606d48df",
+      "bytes": 75561,
+      "sha256": "6e2a7167b77b0aefadf4e4280c2e7fe2bdbbe8e4332e8ed29102271784baedd9",
+      "orderedAstSha256": "d82aa84898b8478e98ff0da43c472fe40e13890a198163eb90f414897fef9c0e",
       "orderedNodeHashes": [
         "ce9b4344c329e080eaa1ad0ebcba0e329c7cb6b620f84aa45a9a7d9eb813a30e",
-        "0f159a9858a0e507b9378edb28207b9845519546e6507c76f50556eee2f60734",
+        "5beaf3d8b24e297b3a46ba38940df3bd1e33df3ef4d85d78db8c16ca45fbb20b",
+        "9ad8a4bec5be4d67e8fafdb1cb94bf63a74eb43395aa432fae4e717c2e928fce",
         "c856a52efb0d6cceb3694287ad3f98f93580909f0c99cef0e1551de483c8d759",
         "7fe86569927d5adf1ff5e1b046c56892f684b29537e8f6ba7a291086c1dcd2b2",
         "3ee2446f42004595e81acd41e5ad63aade3fcd216207cb501bff4ad533e38e9f",
@@ -164,7 +165,7 @@
         "e614ebc6dc7d135bc8a4cb42c41d9f038523ea88fd8ec9b04a388e8f7976421a",
         "535548e8cec0c1863410af8d4c8b5787f4815d1799d2e2a534b180fd8f5205d4",
         "83dfbfd1fea08313f393e67ad14cabadd56db070c068131e2f5d911a34ba6cfc",
-        "82faffa3ef26992e01c33d93a3aaa728a38f3e4f0981d933462f93d9730ecbde",
+        "49474434879d1e1bc1f41b4c9ed31cb713f245c7c795a1ed3c6654eb5ed43a3d",
         "659e807ed7fa2d61f54f01711cbdf1ae4e5bce931dd966c29bf1795ab6feb642",
         "c0fffa3371337f930b4a602e9f45a4abb174bc19747bb23a32a38696cdd37da7",
         "088dae4e8fa336fd592974ecdf0d4a6a26cdb1bf026e04655a95ce4bea5a862a",
@@ -327,10 +328,10 @@
         "22413e7814ea9a2fffb4feb33bc661feb4b97719b3759c981c87a2e47a0c20e5",
         "5c81d2592626308043be73d100d237db55facba01e79dc5560c025079a9fffc2",
         "b6ede5fff7f9f4250cec20ffd2dda3481b728ff2ef9cdbeb044f0e5eb36556f2",
-        "24937c43fea3125b27326588a1d1b69611e6a2c8c6e94fcdc39411caffd0e962",
-        "74ff330a277b9e039a88e7ef40cbe9594b2d01f55ec64db9d0d0e3111539799b",
-        "cb09d4f2e6be05edc6aa3a50b24e6257147724e39853d9e810a740e1e1279d95",
-        "7c8ee12e4129838e332844ad1787492ad3ac014e455adf987e1760c74562542d",
+        "3fd9b5a8cf31d7089cbd872ef553d60a36cf95f6d92858b9d50b4b2ec93e8010",
+        "adacaf880585fde2c5742d91ed6ba3584213727be1c4927428283fad88ed9f06",
+        "346c10131a651bebadfa77915a5463ddd1d3fdedf9a33805afed417f1395d3a6",
+        "87a3fef62830f69ec4f1814a8efc42d52f7628aed2a136edd3146f4f8f470707",
         "0040b6a891ee6a0c30f3c15bfe64ae1ced34843984301ac596c96f84f8a2021a",
         "8cf2a0de73e27d60213588b3aadef16c98139468bdb595283d974905cd0bc108",
         "396d7cd3cbd2d1729aa739377d8647b7d805ae712afaacbf9578d31774bc5ab7",
@@ -354,12 +355,13 @@
       ]
     },
     "kbygBuild": {
-      "bytes": 75834,
-      "sha256": "b2803027817a71838a2251c16a2916f68e08c82c2c5bcd73d2a805ca92a60fa7",
-      "orderedAstSha256": "951e8ac4df838a2f5724dc6dd722b493e2835d8ae7d1c1d2f6ccdcf6606d48df",
+      "bytes": 75561,
+      "sha256": "6e2a7167b77b0aefadf4e4280c2e7fe2bdbbe8e4332e8ed29102271784baedd9",
+      "orderedAstSha256": "d82aa84898b8478e98ff0da43c472fe40e13890a198163eb90f414897fef9c0e",
       "orderedNodeHashes": [
         "ce9b4344c329e080eaa1ad0ebcba0e329c7cb6b620f84aa45a9a7d9eb813a30e",
-        "0f159a9858a0e507b9378edb28207b9845519546e6507c76f50556eee2f60734",
+        "5beaf3d8b24e297b3a46ba38940df3bd1e33df3ef4d85d78db8c16ca45fbb20b",
+        "9ad8a4bec5be4d67e8fafdb1cb94bf63a74eb43395aa432fae4e717c2e928fce",
         "c856a52efb0d6cceb3694287ad3f98f93580909f0c99cef0e1551de483c8d759",
         "7fe86569927d5adf1ff5e1b046c56892f684b29537e8f6ba7a291086c1dcd2b2",
         "3ee2446f42004595e81acd41e5ad63aade3fcd216207cb501bff4ad533e38e9f",
@@ -466,7 +468,7 @@
         "e614ebc6dc7d135bc8a4cb42c41d9f038523ea88fd8ec9b04a388e8f7976421a",
         "535548e8cec0c1863410af8d4c8b5787f4815d1799d2e2a534b180fd8f5205d4",
         "83dfbfd1fea08313f393e67ad14cabadd56db070c068131e2f5d911a34ba6cfc",
-        "82faffa3ef26992e01c33d93a3aaa728a38f3e4f0981d933462f93d9730ecbde",
+        "49474434879d1e1bc1f41b4c9ed31cb713f245c7c795a1ed3c6654eb5ed43a3d",
         "659e807ed7fa2d61f54f01711cbdf1ae4e5bce931dd966c29bf1795ab6feb642",
         "c0fffa3371337f930b4a602e9f45a4abb174bc19747bb23a32a38696cdd37da7",
         "088dae4e8fa336fd592974ecdf0d4a6a26cdb1bf026e04655a95ce4bea5a862a",
@@ -629,10 +631,10 @@
         "22413e7814ea9a2fffb4feb33bc661feb4b97719b3759c981c87a2e47a0c20e5",
         "5c81d2592626308043be73d100d237db55facba01e79dc5560c025079a9fffc2",
         "b6ede5fff7f9f4250cec20ffd2dda3481b728ff2ef9cdbeb044f0e5eb36556f2",
-        "24937c43fea3125b27326588a1d1b69611e6a2c8c6e94fcdc39411caffd0e962",
-        "74ff330a277b9e039a88e7ef40cbe9594b2d01f55ec64db9d0d0e3111539799b",
-        "cb09d4f2e6be05edc6aa3a50b24e6257147724e39853d9e810a740e1e1279d95",
-        "7c8ee12e4129838e332844ad1787492ad3ac014e455adf987e1760c74562542d",
+        "3fd9b5a8cf31d7089cbd872ef553d60a36cf95f6d92858b9d50b4b2ec93e8010",
+        "adacaf880585fde2c5742d91ed6ba3584213727be1c4927428283fad88ed9f06",
+        "346c10131a651bebadfa77915a5463ddd1d3fdedf9a33805afed417f1395d3a6",
+        "87a3fef62830f69ec4f1814a8efc42d52f7628aed2a136edd3146f4f8f470707",
         "0040b6a891ee6a0c30f3c15bfe64ae1ced34843984301ac596c96f84f8a2021a",
         "8cf2a0de73e27d60213588b3aadef16c98139468bdb595283d974905cd0bc108",
         "396d7cd3cbd2d1729aa739377d8647b7d805ae712afaacbf9578d31774bc5ab7",
