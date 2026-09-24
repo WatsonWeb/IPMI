@@ -114,11 +114,15 @@ Every source request has an implementation task or an explicit input handoff. Mu
 ## Confirmed decisions
 
 - Use repository Markdown, grouped by page or feature. Photo swaps on a page are individual checklist rows in one document.
-- Keep IPMI-owned items as dependencies with a clear implementation handoff. A missing asset, address, date, quote, or permission to use content is not filled in speculatively.
+- Keep IPMI-owned items as dependencies with a clear implementation handoff. Under Bryan's later instruction below, missing content may use documented staging placeholders; final facts, permissions, and delivery verification remain pending.
 - Phone fields are optional. Public general-contact email becomes `info@ipmievents.com`; notification routing is a separate concern.
 - Calendar uses a month grid, includes ongoing/upcoming Institutes through December 2027, and has a selected-day detail list. All Horizon entries are non-registering inside this calendar. Existing HIT 2027 pre-registration outside the calendar remains available.
 - MeetMax work consists of links after IPMI supplies event/audience-specific URLs. It does not include a new API or authentication integration.
 - Final website delivery is staging ready for review. Production publication is a separate task.
+
+### September 23 implementation instruction: placeholders
+
+Bryan subsequently instructed: “For anything missing, use placeholder content and make a doc containing the placeholder content that will need to be updated with real content.” This overrides earlier no-placeholder directions in the numbered task documents for staging content. Use the supplied approved copy/assets where available; use clearly identified placeholders for missing content and record the exact applied values, locations, and needed replacements in [the placeholder replacement register](PLACEHOLDERS.md). Preserve existing verified facts and useful content. Provider access, safe staging isolation, domain verification, and actual delivery remain evidence requirements, not content placeholders. Mark a placeholder-backed outcome as provisional rather than final content approval.
 
 ## Agent architecture and sequential execution
 
