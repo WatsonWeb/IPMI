@@ -45,6 +45,7 @@ export function browserEnvironments(root = projectRoot): Record<string, Environm
             formats: ["iife"],
             name: `IPMI_${entry.name.replaceAll("-", "_")}`,
             fileName: () => entry.fileName,
+            cssFileName: entry.name,
           },
         },
       } satisfies EnvironmentOptions,

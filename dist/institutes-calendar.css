@@ -1,0 +1,161 @@
+#ipmi-calendar-data {
+  display: none !important;
+}
+[data-ipmi-calendar-shell] {
+  text-align: center;
+  margin: 2rem 0;
+}
+[data-ipmi-calendar-open] {
+  padding: 0.85rem 1.5rem;
+  border: 0;
+  border-radius: 2rem;
+  background: #007daf;
+  color: white;
+  font: inherit;
+  font-weight: 700;
+  cursor: pointer;
+}
+[data-ipmi-calendar-open][hidden] {
+  display: none;
+}
+[data-ipmi-calendar-dialog] {
+  box-sizing: border-box;
+  width: min(44rem, calc(100% - 1rem));
+  max-width: calc(100% - 1rem);
+  max-height: calc(100dvh - 1rem);
+  padding: 1.5rem;
+  border: 0;
+  border-radius: 1rem;
+  background: #fff;
+  color: #30363c;
+  text-align: left;
+  overflow: auto;
+  overscroll-behavior: contain;
+}
+[data-ipmi-calendar-dialog]::backdrop {
+  background: #001e33bd;
+}
+[data-ipmi-calendar-dialog] * {
+  box-sizing: border-box;
+}
+[data-ipmi-calendar-dialog] header {
+  display: flex;
+  gap: 1rem;
+  align-items: start;
+  justify-content: space-between;
+}
+[data-ipmi-calendar-dialog] h2 {
+  font-size: 1.5rem;
+  margin: 0;
+  line-height: 1.3;
+}
+[data-ipmi-calendar-dialog] h3 {
+  font-size: 1.15rem;
+  line-height: 1.4;
+  margin: 0.5rem 0;
+}
+[data-ipmi-calendar-dialog] h4 {
+  font-size: 1.1rem;
+  line-height: 1.4;
+  margin: 0 0 0.4rem;
+}
+[data-ipmi-calendar-dialog] p {
+  font-size: 0.95rem;
+  line-height: 1.5;
+  margin: 0.5rem 0;
+}
+[data-ipmi-calendar-dialog] button {
+  font: inherit;
+  color: #164e63;
+  background: #edf7fb;
+  border: 1px solid #bdd5e0;
+  border-radius: 0.4rem;
+  min-height: 44px;
+  cursor: pointer;
+}
+[data-ipmi-calendar-dialog] button:disabled {
+  opacity: 0.4;
+  cursor: default;
+}
+[data-ipmi-calendar-dialog] :focus-visible,
+[data-ipmi-calendar-open]:focus-visible {
+  outline: 3px solid #082f49;
+  outline-offset: 2px;
+}
+[data-ipmi-calendar-close] {
+  padding: 0.4rem 0.65rem;
+}
+[data-ipmi-calendar-nav] {
+  display: grid;
+  grid-template-columns: 44px minmax(0, 1fr) 44px;
+  align-items: center;
+  text-align: center;
+  gap: 0.5rem;
+  margin: 1rem 0;
+}
+[data-ipmi-calendar-grid] [role="row"] {
+  display: grid;
+  grid-template-columns: repeat(7, minmax(0, 1fr));
+  gap: 4px;
+  margin: 4px 0;
+}
+[data-ipmi-calendar-grid] [role="columnheader"] {
+  text-align: center;
+  font-size: 0.8rem;
+}
+[data-ipmi-calendar-grid] button {
+  width: 100%;
+  min-width: 0;
+  padding: 0.2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+[data-ipmi-calendar-grid] button[data-has-events] {
+  font-weight: 700;
+  border-color: #007daf;
+}
+[data-ipmi-calendar-grid] button[aria-pressed="true"] {
+  background: #007daf;
+  color: #fff;
+  border-color: #007daf;
+}
+[data-ipmi-calendar-grid] button[aria-current="date"] {
+  box-shadow: inset 0 0 0 2px currentColor;
+}
+[data-ipmi-calendar-grid] small {
+  font-size: 0.6rem;
+  line-height: 1;
+}
+[data-ipmi-calendar-details] {
+  margin-top: 1.25rem;
+  padding-top: 1rem;
+  border-top: 1px solid #d6e1e7;
+  overflow-wrap: anywhere;
+}
+[data-ipmi-calendar-details] ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+[data-ipmi-calendar-details] li {
+  padding: 1rem 0;
+  border-bottom: 1px solid #d6e1e7;
+}
+[data-ipmi-calendar-details] a {
+  color: #006c98;
+  text-decoration: underline;
+}
+@media (max-width: 390px) {
+  [data-ipmi-calendar-dialog] {
+    padding: 0.8rem;
+  }
+  [data-ipmi-calendar-grid] [role="row"] {
+    gap: 2px;
+  }
+  [data-ipmi-calendar-dialog] h2 {
+    font-size: 1.25rem;
+  }
+}
+/*$vite$:1*/
