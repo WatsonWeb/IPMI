@@ -1,0 +1,42 @@
+[
+  {
+    "alt": "A speaker seated on stage during an IPMI Institute session",
+    "complete": true,
+    "currentSrc": "https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4b6be6f37170719534329_P12-HRMI-Central-2024-Session-2-p-500.jpg",
+    "fit": "fill",
+    "height": 400,
+    "src": "https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4b6be6f37170719534329_P12-HRMI-Central-2024-Session-2.jpg",
+    "width": 400,
+    "z": "auto"
+  },
+  {
+    "alt": "Attendees smiling and raising a hand at an IPMI networking reception",
+    "complete": true,
+    "currentSrc": "https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4b6bc009285801122e517_P11-HCHR-Mar-2025-Dinner-20-p-500.jpg",
+    "fit": "fill",
+    "height": 400,
+    "src": "https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4b6bc009285801122e517_P11-HCHR-Mar-2025-Dinner-20.jpg",
+    "width": 400,
+    "z": "2"
+  },
+  {
+    "alt": "Attendees networking beside a rooftop pool among city towers",
+    "complete": true,
+    "currentSrc": "https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4b6be655ed43be067d947_P14-SOI-2024-Dinner-p-500.jpg",
+    "fit": "fill",
+    "height": 400,
+    "src": "https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4b6be655ed43be067d947_P14-SOI-2024-Dinner.jpg",
+    "width": 400,
+    "z": "auto"
+  },
+  {
+    "alt": "Fountains and palm trees beside a lake at an Institute venue",
+    "complete": true,
+    "currentSrc": "https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4b6beeae4404f8475938c_P13-HIT-2024-Scenic-p-500.jpg",
+    "fit": "fill",
+    "height": 400,
+    "src": "https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4b6beeae4404f8475938c_P13-HIT-2024-Scenic.jpg",
+    "width": 400,
+    "z": "2"
+  }
+]

@@ -1,0 +1,66 @@
+[
+  {
+    "attrs": {
+      "alt": "A speaker seated on stage during an IPMI Institute session",
+      "class": "bubble-photo top right circle shadow-xl",
+      "data-w-id": "45fc8c33-bacb-f7cf-8979-02789931e0b7",
+      "data-wf-id": "[\"45fc8c33-bacb-f7cf-8979-02789931e0b7\"]",
+      "height": "400",
+      "loading": "eager",
+      "src": "https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4b6be6f37170719534329_P12-HRMI-Central-2024-Session-2.jpg",
+      "width": "400"
+    },
+    "fit": "fill",
+    "position": "50% 50%",
+    "radius": "50%",
+    "zIndex": "auto"
+  },
+  {
+    "attrs": {
+      "alt": "Attendees smiling and raising a hand at an IPMI networking reception",
+      "class": "bubble-photo bottom left circle front shadow-xl",
+      "data-w-id": "45fc8c33-bacb-f7cf-8979-02789931e0b8",
+      "data-wf-id": "[\"45fc8c33-bacb-f7cf-8979-02789931e0b8\"]",
+      "height": "400",
+      "loading": "eager",
+      "src": "https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4b6bc009285801122e517_P11-HCHR-Mar-2025-Dinner-20.jpg",
+      "width": "400"
+    },
+    "fit": "fill",
+    "position": "50% 50%",
+    "radius": "50%",
+    "zIndex": "2"
+  },
+  {
+    "attrs": {
+      "alt": "Attendees networking beside a rooftop pool among city towers",
+      "class": "bubble-photo circle shadow-xl top left",
+      "data-w-instance-of": "fda1d534-ccfd-d9bf-3f28-572b82388c8d",
+      "data-wf-id": "[\"eceaf85b-916a-39ec-50df-b41d96a79261\",\"fda1d534-ccfd-d9bf-3f28-572b82388c8d\"]",
+      "height": "400",
+      "loading": "lazy",
+      "src": "https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4b6be655ed43be067d947_P14-SOI-2024-Dinner.jpg",
+      "width": "400"
+    },
+    "fit": "fill",
+    "position": "50% 50%",
+    "radius": "50%",
+    "zIndex": "auto"
+  },
+  {
+    "attrs": {
+      "alt": "Fountains and palm trees beside a lake at an Institute venue",
+      "class": "bubble-photo circle shadow-xl bottom right front",
+      "data-w-instance-of": "fda1d534-ccfd-d9bf-3f28-572b82388c8e",
+      "data-wf-id": "[\"eceaf85b-916a-39ec-50df-b41d96a79261\",\"fda1d534-ccfd-d9bf-3f28-572b82388c8e\"]",
+      "height": "400",
+      "loading": "lazy",
+      "src": "https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4b6beeae4404f8475938c_P13-HIT-2024-Scenic.jpg",
+      "width": "400"
+    },
+    "fit": "fill",
+    "position": "50% 50%",
+    "radius": "50%",
+    "zIndex": "2"
+  }
+]

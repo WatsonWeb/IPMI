@@ -2,7 +2,7 @@
 
 Owner: Webflow implementer. Asset owner: IPMI.
 
-Status: Ready for implementation, subject to source-image access and placement verification. Documentation only; no website edits performed.
+Status: Staged for review. Four approved feature photos and their descriptions are verified on staging; production remains unchanged.
 
 [Back to master](README.md)
 
@@ -16,7 +16,7 @@ Replace the Gallery hero pair and the source's additional front/back pair using 
 
 ## Current state and asset mapping
 
-The source identifies the hero front/back pair and a second front/back pair annotated to use recent cover images. The second pair's exact section/Designer elements have not been definitively recorded; match its source screenshot before editing. These four feature replacements are separate from the full gallery content supply.
+The source identifies the hero front/back pair and the lower Upcoming Institutes CTA pair headed ‘Leveraging On-Site Connections to Advance Organizational Objectives.’ The source screenshots match both placements. These four feature replacements are separate from the full gallery content supply.
 
 | Source row | Source page / row | Destination                                                                      | Supplied asset or instruction                                                                                                                |
 | ---------- | ----------------- | -------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -43,17 +43,68 @@ No new CMS collection or field is required solely for these replacements. Existi
 
 ## Acceptance checks
 
-- [ ] P11: the approved asset is visible at the destination specified in the mapping table.
-- [ ] P12: the approved asset is visible at the destination specified in the mapping table.
-- [ ] P13: the approved asset is visible at the destination specified in the mapping table.
-- [ ] P14: the approved asset is visible at the destination specified in the mapping table.
-- [ ] Every row has an actual Designer/CMS destination and previous asset recorded; unresolved placement guesses are closed before marking complete.
-- [ ] Front/back layering and source-intended composition are correct at desktop, tablet, and mobile sizes.
-- [ ] Images load from Webflow-managed assets with no broken or authenticated SharePoint image URLs.
-- [ ] Informative/decorative treatment and alternative text are verified for the new images.
-- [ ] Unrelated content, links, collections, and interaction behavior remain correct.
-- [ ] Staging URLs and comparison screenshots are recorded.
+- [x] P11: the approved asset is visible at the destination specified in the mapping table.
+- [x] P12: the approved asset is visible at the destination specified in the mapping table.
+- [x] P13: the approved asset is visible at the destination specified in the mapping table.
+- [x] P14: the approved asset is visible at the destination specified in the mapping table.
+- [x] Every row has an actual Designer/CMS destination and previous asset recorded; unresolved placement guesses are closed before marking complete.
+- [x] Front/back layering and source-intended composition are correct at desktop, tablet, and mobile sizes.
+- [x] Images load from Webflow-managed assets with no broken or authenticated SharePoint image URLs.
+- [x] Informative/decorative treatment and alternative text are verified for the new images.
+- [x] Unrelated content, links, collections, and interaction behavior remain correct.
+- [x] Staging URLs and comparison screenshots are recorded.
+
+## Implementation evidence — September 24, 2026
+
+Editor: Codex task 08 worker, Chrome Designer account **IPMI Webmaster**, site **IPMI**, Gallery page `63bf184b8646db7268e9ce29`. All website changes used the Designer UI. [Hero source screenshot](evidence/task08/source-p11-p12.png) and [lower CTA source screenshot](evidence/task08/source-p12-p14.png) positively identify the two pairs and their front/back directions.
+
+### Source retrieval
+
+All four supplied links opened and were visually inspected. The supported image-locator `downloadMedia()` retrieved official SharePoint preview derivatives through fresh viewer tabs, following the successful task 05/06 method. These are clean source photographs, not screenshots, placeholders, or a claim of original-byte retrieval. P11–P13 are 2560 × 2560 JPEGs; P14 is 2268 × 2268. Observed blob filenames in `C:/Users/Bryan/Downloads/` were copied into `.webflow/task08-photos/` and uploaded as four new assets through the Designer file chooser. Existing asset bytes and metadata were preserved.
+
+| Row | Observed download filename                 | Bytes  | Uploaded filename                     |
+| --- | ------------------------------------------ | ------ | ------------------------------------- |
+| P11 | `5b8d3dc8-f86b-4c1b-a73e-a95648c932e8.jpg` | 342417 | `P11-HCHR-Mar-2025-Dinner-20.jpg`     |
+| P12 | `c373cb0c-9e0d-49e5-b6ff-a98c5abe3d2e.jpg` | 420008 | `P12-HRMI-Central-2024-Session-2.jpg` |
+| P13 | `211aca02-7a18-4098-aa4e-6d2a7b81bb03.jpg` | 776220 | `P13-HIT-2024-Scenic.jpg`             |
+| P14 | `c1912ced-031e-44fa-a885-37204be822e7.jpg` | 567227 | `P14-SOI-2024-Dinner.jpg`             |
+
+### Exact mapping and accessibility
+
+| Row | Designer destination / element ID                                                                                                                                         | Previous asset / alt                                                                                                                                                    | New asset / exact custom alt                                                                                                                                                                                                    |
+| --- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| P11 | Hero Section → Hero Container → Hero Wrap → Bubble Photos → lower-left front; `45fc8c33-bacb-f7cf-8979-02789931e0b8`                                                      | [Gallery-Bubble-1.webp](https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/63bf554c1f11b192f08972f9_Gallery-Bubble-1.webp); `IPMI Institute Keynote Speaker`   | [P11-HCHR-Mar-2025-Dinner-20.jpg](https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4b6bc009285801122e517_P11-HCHR-Mar-2025-Dinner-20.jpg); `Attendees smiling and raising a hand at an IPMI networking reception` |
+| P12 | Same hero pair → upper-right back; `45fc8c33-bacb-f7cf-8979-02789931e0b7`                                                                                                 | [Gallery-Bubble-2.webp](https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/63bf554d5b35230affd3164e_Gallery-Bubble-2.webp); `IPMI Institute Dinner Lobby`      | [P12-HRMI-Central-2024-Session-2.jpg](https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4b6be6f37170719534329_P12-HRMI-Central-2024-Session-2.jpg); `A speaker seated on stage during an IPMI Institute session`   |
+| P13 | Institutes CTA Section → Institutes Section → Container → Bubbles Columns → Recap Column Left → Bubble Photos → lower-right front; `fda1d534-ccfd-d9bf-3f28-572b82388c8e` | [Institutes-Bubble-5.webp](https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/63cf344ad75e97ad6d8d7066_Institutes-Bubble-5.webp); `IPMI Institute Destination` | [P13-HIT-2024-Scenic.jpg](https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4b6beeae4404f8475938c_P13-HIT-2024-Scenic.jpg); `Fountains and palm trees beside a lake at an Institute venue`                         |
+| P14 | Same CTA pair → upper-left back; `fda1d534-ccfd-d9bf-3f28-572b82388c8d`                                                                                                   | [Institutes-Bubble-6.webp](https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/63cf344a033565aa03ae94b7_Institutes-Bubble-6.webp); `IPMI Institute Destination` | [P14-SOI-2024-Dinner.jpg](https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4b6be655ed43be067d947_P14-SOI-2024-Dinner.jpg); `Attendees networking beside a rooftop pool among city towers`                         |
+
+All four are informative photos with descriptions based on visible content. No people or venue identities were inferred. Each retains 400 × 400 attributes, centered `object-fit: fill`, 50% circular mask, shadows, and front z-index 2/back auto. Hero images load eagerly; CTA images load lazily. No class, focal position, breakpoint style, text, link, CMS item or custom code was changed. [Original fields](evidence/task08/original-elements.json), [edited fields](evidence/task08/edited-elements.json), and [published loading checks](evidence/task08/desktop-checks.json) record the references and styles. The original Designer DOM carried a stale P10 srcset on the hero back image from prior page navigation; its original `src`, source screenshot, and independent production baseline identify Gallery-Bubble-2 correctly. Published new responsive sources were verified separately.
+
+### Shared component isolation
+
+**Institutes CTA Section** has five instances: Gallery, Frequently Asked Questions, Insights, Recaps, and Testimonials. [Consumer dialog](evidence/task08/component-consumers.png) records this scope. Four native properties were added: **Front photo**, **Front photo description**, **Back photo**, and **Back photo description**. [Defaults](evidence/task08/component-defaults.png) preserve Institutes-Bubble-5/6 and **Use alt text from asset** for both descriptions. Only Gallery instance `eceaf85b-916a-39ec-50df-b41d96a79261` receives P13/P14 and descriptions through [instance overrides](evidence/task08/component-overrides.png). The component was not unlinked, and child IDs were preserved.
+
+Independent lead checks after publication confirmed `/faq`, `/testimonials`, `/recaps`, and `/insights` still have both original CTA image tags byte-identical to production, including alt text. There is no shared-default leakage.
+
+### Staging verification
+
+- Published once with only **ipmi.webflow.io** selected and **www.ipmievents.com** unchecked; [domain evidence](evidence/task08/staging-only-publish.png). Completion showed staging “Published a few seconds ago” and production “Published 2 hours ago.”
+- [Gallery hero](https://ipmi.webflow.io/gallery#hero) and [Upcoming Institutes CTA](https://ipmi.webflow.io/gallery#institutes) passed at **1912 × 970**, **768 × 1024**, and **390 × 844**. Subject visibility, circular crops, front/back layering, adjacent headings, and CTA readability were retained.
+- All four photos load from Webflow-managed assets with nonzero natural dimensions, exact custom alts, and responsive variants. Lazy CTA images were checked after scrolling into view.
+- Independent lead comparison found all **40 gallery-image tags byte-identical** to the pre-edit baseline. Production Gallery bubble tags remain unchanged. Task 29 CMS gallery supply was not touched.
+- The Institute Sessions slider advances and enables Previous; an existing image opens the lightbox, its thumbnail navigation selects another item, and Close dismisses it. [Lightbox evidence](evidence/task08/gallery-lightbox.png). The four existing category lists (10/10/9/11 items), captions and lightbox data remain intact. Hero CTA retains `#gallery`; lower CTA retains `/institutes`.
+- Desktop/mobile document widths equal viewport widths. At 768px the shared navigation still yields 790px document width, the existing baseline limitation tracked by task 37. Photo layout itself remains within the viewport.
+- No placeholders were needed. No application build was required for browser-only photo replacements. Changed Markdown/JSON was formatted and checked with `vp fmt`; Git whitespace checks passed.
+- Temporary viewport overrides were reset. Source tabs were closed, staging retained as a review deliverable, and Designer left on Gallery at Desktop with no dialog. Chrome control was released at handoff.
+
+| Viewport         | Hero                                              | Lower CTA                                       |
+| ---------------- | ------------------------------------------------- | ----------------------------------------------- |
+| Desktop          | [Hero](evidence/task08/desktop-hero.png)          | [CTA](evidence/task08/desktop-cta.png)          |
+| Tablet           | [Hero](evidence/task08/tablet-hero.png)           | [CTA](evidence/task08/tablet-cta.png)           |
+| Mobile           | [Hero](evidence/task08/mobile-hero.png)           | [CTA](evidence/task08/mobile-cta.png)           |
+| Original desktop | [Hero](evidence/task08/original-desktop-hero.png) | [CTA](evidence/task08/original-desktop-cta.png) |
+| Original mobile  | [Hero](evidence/task08/original-mobile-hero.png)  | [CTA](evidence/task08/original-mobile-cta.png)  |
 
 ## Rollback
 
-Restore the captured previous asset references and their original crop, focal position, and alternative-text values in the same static/component/CMS fields. Republish staging and verify every affected placement, including dependent component instances. Keep both old and new assets available through review; do not delete an asset that another page may use.
+Restore the captured previous hero asset references and their original alt values. Reset this Gallery instance’s four CTA overrides to their preserved defaults; retain the native properties and other instances. Republish staging and verify every affected placement, including dependent component instances. Keep both old and new assets available through review; do not delete an asset that another page may use.

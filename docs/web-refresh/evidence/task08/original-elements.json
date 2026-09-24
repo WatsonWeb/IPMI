@@ -1,0 +1,68 @@
+[
+  {
+    "attrs": {
+      "alt": "IPMI Institute Dinner Lobby",
+      "class": "bubble-photo top right circle shadow-xl",
+      "data-w-id": "45fc8c33-bacb-f7cf-8979-02789931e0b7",
+      "data-wf-id": "[\"45fc8c33-bacb-f7cf-8979-02789931e0b7\"]",
+      "height": "400",
+      "loading": "eager",
+      "sizes": "(max-width: 479px) 100vw, 400px",
+      "src": "https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/63bf554d5b35230affd3164e_Gallery-Bubble-2.webp",
+      "srcset": "https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4b4b02a5eb1c3401b943c_P10-HRMI-Central-2024-Session-1-p-500.jpg 500w, https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4b4b02a5eb1c3401b943c_P10-HRMI-Central-2024-Session-1-p-800.jpg 800w, https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4b4b02a5eb1c3401b943c_P10-HRMI-Central-2024-Session-1-p-1080.jpg 1080w, https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4b4b02a5eb1c3401b943c_P10-HRMI-Central-2024-Session-1-p-1600.jpg 1600w, https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4b4b02a5eb1c3401b943c_P10-HRMI-Central-2024-Session-1.jpg 2560w",
+      "width": "400"
+    },
+    "fit": "fill",
+    "position": "50% 50%",
+    "radius": "50%",
+    "zIndex": "auto"
+  },
+  {
+    "attrs": {
+      "alt": "IPMI Institute Keynote Speaker",
+      "class": "bubble-photo bottom left circle front shadow-xl",
+      "data-w-id": "45fc8c33-bacb-f7cf-8979-02789931e0b8",
+      "data-wf-id": "[\"45fc8c33-bacb-f7cf-8979-02789931e0b8\"]",
+      "height": "400",
+      "loading": "eager",
+      "src": "https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/63bf554c1f11b192f08972f9_Gallery-Bubble-1.webp",
+      "width": "400"
+    },
+    "fit": "fill",
+    "position": "50% 50%",
+    "radius": "50%",
+    "zIndex": "2"
+  },
+  {
+    "attrs": {
+      "alt": "IPMI Institute Destination",
+      "class": "bubble-photo circle shadow-xl top left",
+      "data-w-instance-of": "fda1d534-ccfd-d9bf-3f28-572b82388c8d",
+      "data-wf-id": "[\"eceaf85b-916a-39ec-50df-b41d96a79261\",\"fda1d534-ccfd-d9bf-3f28-572b82388c8d\"]",
+      "height": "400",
+      "loading": "lazy",
+      "src": "https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/63cf344a033565aa03ae94b7_Institutes-Bubble-6.webp",
+      "width": "400"
+    },
+    "fit": "fill",
+    "position": "50% 50%",
+    "radius": "50%",
+    "zIndex": "auto"
+  },
+  {
+    "attrs": {
+      "alt": "IPMI Institute Destination",
+      "class": "bubble-photo circle shadow-xl bottom right front",
+      "data-w-instance-of": "fda1d534-ccfd-d9bf-3f28-572b82388c8e",
+      "data-wf-id": "[\"eceaf85b-916a-39ec-50df-b41d96a79261\",\"fda1d534-ccfd-d9bf-3f28-572b82388c8e\"]",
+      "height": "400",
+      "loading": "lazy",
+      "src": "https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/63cf344ad75e97ad6d8d7066_Institutes-Bubble-5.webp",
+      "width": "400"
+    },
+    "fit": "fill",
+    "position": "50% 50%",
+    "radius": "50%",
+    "zIndex": "2"
+  }
+]
