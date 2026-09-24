@@ -2,7 +2,7 @@
 
 [Back to master](README.md)
 
-**Owner:** IPMI account/domain administrator; BWC records the result and checks affected forms. **Status:** Awaiting IPMI verification evidence; no domain or integration changes performed.
+**Owner:** IPMI account/domain administrator; BWC records the result and checks affected forms. **Status:** Read-only investigation complete; account/domain acceptance pending authenticated evidence. No domain or integration changes performed.
 
 ## Source and target
 
@@ -37,6 +37,28 @@ This is a client verification dependency, not evidence of a broken domain. IPMI 
 - [ ] Any reported account/domain requirement has an evidenced resolution or remains explicitly pending.
 - [ ] Affected Webflow integrations have been identified; unrelated forms are not changed speculatively.
 - [ ] Agreed form test evidence is available where an actual integration was affected.
+
+## September 24, 2026 investigation and pending replacement
+
+Fresh Chrome inspection of [the account admin](https://ipmionline81168.activehosted.com/admin/) displayed `IPMIONLINE81168 Email Marketing` with username/password inputs, Remember my username, Forgot? and Login. No authenticated settings were accessible. No credential entry, login attempt, account creation, DNS change, sender change, campaign, email or form submission occurred. This establishes an access limit, not a failed domain verification.
+
+[DORN Think Tank on staging](https://ipmi.webflow.io/thinktanks/dorn-vtt-2026) currently renders the Request Invite form with Full Name, Company Name and Email. Its live DOM confirms script `https://ipmionline81168.activehosted.com/f/embed.php?id=412`, POST action `https://ipmionline81168.activehosted.com/proc.php`, and field names `fullname`, `customer_account`, `email`. The account hostname identifies the observed integration; it does not establish the intended sender or tracking domain, verification status, list/automation destination, or delivery. Form 412's optional Phone gap remains owned by [task 15](evidence/task15/README.md).
+
+The four native inquiry sources (Contact, Attend, Horizon and Institutes template) use Webflow, email notifications and `https://ipmi-express-server.vercel.app/webhooks/webflow/forms`, as captured in task 15. That backend uses Resend downstream; it is separate from the observed ActiveCampaign embed. Task 16's public `info@ipmievents.com` is not evidence of ActiveCampaign sender authentication. No website mapping change was demonstrated necessary, so no Webflow edit or publication was made.
+
+The exact interim record is **`Pending account/domain verification`**. It is documentation-only; no public placeholder or substitute credential/domain was installed. Replace this record using the checklist below, retaining the dated evidence. Both owned research tabs were closed; no viewport override was applied and existing tabs were preserved.
+
+| Required replacement / verification | Current evidence or missing value | Responsible owner |
+| --- | --- | --- |
+| Confirm account and responsible administrator | Observed account admin URL above; administrator name/role pending | IPMI account administrator |
+| Identify the requested domain function | Pending: sender authentication, tracking/link domain, or another named function; do not infer from public website/email | IPMI account administrator |
+| Record exact configured and intended domains | Both pending, with the associated settings page name/URL | IPMI account/domain administrator |
+| Capture dated provider status | Pending authenticated screenshot/export showing the relevant domain and exact status/requirements; redact secrets | IPMI account administrator |
+| Resolve only an evidenced requirement | Pending only if provider reports one; capture administrator's before/after status and retest date, without inventing DNS records | IPMI domain administrator |
+| Confirm integration scope | Form 412 observed; account-side list, automation, notification, additional form IDs and affected domains pending | IPMI account administrator + implementation |
+| Verify any affected path safely | Establish isolated form/test routing and agreed recipient before a controlled test; record receipt and unchanged unrelated mappings if remediation affects integration | IPMI + implementation; coordinate 15/37 |
+
+Acceptance remains open. The observed integration is identified for the sampled page, but account-wide inventory and any affected-path delivery remain unverified. No unresolved account status is represented as a staging pass.
 
 ## Rollback
 

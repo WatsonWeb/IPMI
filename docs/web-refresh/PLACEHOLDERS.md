@@ -43,6 +43,8 @@ Workers must record concrete attempts and remaining limits in their numbered tas
 
 Task 15 (September 24, 2026): no content placeholders applied. Four native phone fields are staged. ActiveCampaign form 412 admin presented a login screen; authenticated access and safe isolation remain pending. A tested backend mapping patch is supplied but undeployed; actual payload/notification delivery awaits a controlled destination. See [task 15 evidence](evidence/task15/README.md). Existing HIT recipient `scolquhoun@ipmievents.com` was preserved, not replaced with a placeholder.
 
+Task 28 (September 24, 2026): documentation-only interim value **`Pending account/domain verification`**; no website placeholder applied. A fresh Chrome visit to `https://ipmionline81168.activehosted.com/admin/` presented Login, so authenticated verification remains unavailable. Staging DORN uses form 412 from that account; its account hostname is not an authenticated sender/tracking-domain result. Replace this interim record with the administrator, precise domain function, configured/intended domains, dated provider status and any affected-path test evidence using the [task 28 replacement checklist](28-activecampaign-domain.md#september-24-2026-investigation-and-pending-replacement). No domain, DNS, provider or website configuration was changed.
+
 ## Before production publication
 
 Resolve every applied row, remove temporary demonstration records and labels, confirm final event/audience destinations and routing, and repeat the affected staging checks. Production publication remains a separate task under the master plan.
