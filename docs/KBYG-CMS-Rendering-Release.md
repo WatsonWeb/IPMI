@@ -61,10 +61,31 @@ remain the source of event, staff, and content-block data.
   `Check back soon for Key Dates & Deliverables!`. Webflow displays this only
   when no items are available. The runtime hides View All Key Dates for empty
   lists, including published empty states where Webflow omits the grid.
+- Bind both Reservation Details rich text elements to the current KBYG Page's
+  `KBYG Reservation Details`, so Delegate and Sponsor copy can be edited
+  independently. Reservation URL, hotel intro, and transportation remain on
+  the referenced Institute.
+- For body-based sections, add `data-kbyg-empty-message` with the desired notice
+  text to an always-present container. Mark only meaningful fields inside it
+  with `data-kbyg-content`: a bound rich text body, the Operations Lead name,
+  or a CTA whose destination can serve as the available content. Any populated
+  marked field suppresses the notice. Empty, conditionally hidden, or blank
+  rich text and links without a destination do not count. The generated
+  `.kbyg-empty-notice` inherits the section's text color. Apply this contract to
+  Welcome copy, Hub copy, hotel/reservation/transport details, Support copy,
+  and Operations Lead cards as appropriate. Leave optional photos and contact
+  channels unmarked so they do not generate individual notices.
+- Keep native Collection List Empty States for Preparation, Key Dates, Agenda,
+  Experience, and FAQ. To avoid duplicate Sponsor Experience notices, mark its
+  two native Empty State wrappers with `data-kbyg-empty-notice` and the same
+  `data-kbyg-empty-group="sponsor-experience"`. The runtime retains the first
+  visible notice and hides additional notices in that group. Native empty
+  states hidden because their lists are populated remain hidden.
 - Empty link fields hide their CTAs; calendar and date-toggle action links remain
-  available. Empty hotel-details rich text hides its optional card. Empty phone
-  and email links hide the corresponding contact row. Native conditional
-  visibility may also be used for these optional fields.
+  available. Empty hotel-details rich text hides its optional card unless the
+  card carries `data-kbyg-empty-message`, in which case it displays its notice.
+  Empty phone and email links hide the corresponding contact row. Native
+  conditional visibility may also be used for these optional fields.
 
 ## Build and validation
 

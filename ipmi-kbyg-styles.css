@@ -57,10 +57,21 @@
 }
 .kbyg-page a.kbyg-button:not([data-kbyg-calendar]):not([data-kbyg-dates-toggle]):is(.w-dyn-bind-empty, :not([href]), [href=""], [href="#"], [href="mailto:"], [href="tel:"]),
 .kbyg-page a.kbyg-travel-card__link:is(.w-dyn-bind-empty, :not([href]), [href=""], [href="#"], [href="mailto:"], [href="tel:"]),
-.kbyg-page .kbyg-travel-card:has(> :is(.kbyg-travel-card__body, .kbyg-rich-text).w-dyn-bind-empty),
+.kbyg-page .kbyg-travel-card:not([data-kbyg-empty-message]):has(> :is(.kbyg-travel-card__body, .kbyg-rich-text).w-dyn-bind-empty),
 .kbyg-page .kbyg-contact-card__meta-item:has(> .kbyg-contact-card__meta-link:is(.w-dyn-bind-empty, :not([href]), [href=""], [href="#"], [href="mailto:"], [href="tel:"])),
 .kbyg-page .kbyg-contact-card__meta-item:has(> .kbyg-contact-card__meta-link > .kbyg-contact-card__meta-value.w-dyn-bind-empty) {
   display: none !important;
+}
+.kbyg-page .kbyg-empty-notice {
+  grid-column: 1/-1;
+  width: 100%;
+  margin: 16px 0 0;
+  padding: 16px 20px;
+  border: 1px dashed currentColor;
+  border-radius: 8px;
+  color: inherit;
+  font-size: 16px;
+  line-height: 1.55;
 }
 .kbyg-page > main {
   position: relative;

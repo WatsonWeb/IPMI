@@ -514,6 +514,145 @@ test.each([
   },
 );
 
+test("marked Hub groups with only invalid CTA destinations show one Coming Soon notice", () => {
+  const hrefs = ["", "#", "mailto:", "tel:"];
+  const element = page(
+    hrefs
+      .map(
+        (href, index) =>
+          `<section id="empty-hub-${index}" data-kbyg-empty-message="Check back soon for Hub resources!"><a data-kbyg-content href="${href}">Open your resources</a></section>`,
+      )
+      .join(""),
+  );
+
+  initialize(element);
+
+  hrefs.forEach((_href, index) => {
+    const group = get(element, `#empty-hub-${index}`);
+    expect(group.querySelectorAll("[data-kbyg-generated-empty-notice]")).toHaveLength(1);
+    expect(get(group, ".kbyg-empty-notice").textContent).toBe("Check back soon for Hub resources!");
+  });
+});
+
+test("valid marked Hub CTA destinations suppress fallback even without body copy", () => {
+  const element = page(
+    `<section data-kbyg-empty-message="Check back soon for Hub resources!"><a data-kbyg-content href="https://resources.example.test/event">Open resources</a></section>
+    <section data-kbyg-empty-message="Check back soon for Support!"><a data-kbyg-content href="mailto:lead@example.test">Contact your lead</a></section>`,
+  );
+  const links = [...element.querySelectorAll("a")];
+  const destinations = links.map((link) => link.getAttribute("href"));
+
+  initialize(element);
+
+  expect(element.querySelectorAll("[data-kbyg-generated-empty-notice]")).toHaveLength(0);
+  expect(links.map((link) => link.getAttribute("href"))).toEqual(destinations);
+});
+
+test("blank and native-hidden marked rich text produces fallback despite retained template copy", () => {
+  const element = page(
+    `<section id="blank-copy" data-kbyg-empty-message="Check back soon for Welcome!"><div class="kbyg-rich-text" data-kbyg-content> \n<br><p> &nbsp; </p></div></section>
+    <section id="conditional-copy" data-kbyg-empty-message="Check back soon for Agenda!"><div class="kbyg-rich-text w-condition-invisible" data-kbyg-content>Previous event agenda</div></section>
+    <section id="empty-binding" data-kbyg-empty-message="Check back soon for Experience!"><div class="kbyg-rich-text w-dyn-bind-empty" data-kbyg-content>Previous event experience</div></section>`,
+  );
+
+  initialize(element);
+
+  ["blank-copy", "conditional-copy", "empty-binding"].forEach((id) => {
+    const group = get(element, `#${id}`);
+    expect(group.querySelectorAll("[data-kbyg-generated-empty-notice]")).toHaveLength(1);
+    expect(get(group, ".kbyg-empty-notice").textContent).toBe(
+      group.getAttribute("data-kbyg-empty-message"),
+    );
+  });
+});
+
+test("marked optional hotel cards remain visible for fallback while unmarked empty cards stay hidden", () => {
+  const element = page(
+    `<article id="marked-hotel" class="kbyg-travel-card" data-kbyg-empty-message="Check back soon for Transportation!"><h3>Transportation</h3><div class="kbyg-rich-text w-dyn-bind-empty" data-kbyg-content>Template directions</div></article>
+    <article id="unmarked-hotel" class="kbyg-travel-card"><h3>Reservation details</h3><div class="kbyg-rich-text w-dyn-bind-empty"></div></article>`,
+  );
+
+  initialize(element);
+
+  const marked = get(element, "#marked-hotel");
+  expect(marked.hidden).toBe(false);
+  expect(getComputedStyle(marked).display).not.toBe("none");
+  expect(get(marked, ".kbyg-empty-notice").textContent).toBe("Check back soon for Transportation!");
+  const unmarked = get(element, "#unmarked-hotel");
+  expect(unmarked.hidden).toBe(true);
+  expect(unmarked.querySelector(".kbyg-empty-notice")).toBeNull();
+});
+
+test("native Sponsor Experience notices deduplicate only visible notices, ignoring a hidden first notice", () => {
+  const element = page(
+    `<div id="hidden-experience-notice" class="w-dyn-empty w-condition-invisible" data-kbyg-empty-notice data-kbyg-empty-group="sponsor-experience">Hidden native notice</div>
+    <div id="first-experience-notice" class="w-dyn-empty" data-kbyg-empty-notice data-kbyg-empty-group="sponsor-experience">Check back soon for Experience!</div>
+    <div id="second-experience-notice" class="w-dyn-empty" data-kbyg-empty-notice data-kbyg-empty-group="sponsor-experience">Check back soon for Experience!</div>`,
+    "sponsor",
+  );
+  const hidden = get(element, "#hidden-experience-notice");
+  const first = get(element, "#first-experience-notice");
+  const second = get(element, "#second-experience-notice");
+
+  initialize(element);
+
+  expect(hidden.textContent).toBe("Hidden native notice");
+  expect(first.isConnected).toBe(true);
+  expect(first.hidden).toBe(false);
+  expect(getComputedStyle(first).display).not.toBe("none");
+  expect(
+    !second.isConnected ||
+      second.hidden ||
+      second.classList.contains("w-condition-invisible") ||
+      getComputedStyle(second).display === "none",
+  ).toBe(true);
+});
+
+test("Coming Soon fallback preserves populated CMS markup and media across reinitialization", () => {
+  const element = page(
+    `<section id="populated-copy" data-kbyg-empty-message="Check back soon for Welcome!"><div data-kbyg-content class="kbyg-rich-text"><p>Welcome to <strong>our next Institute</strong>.</p></div></section>
+    <section id="populated-media" data-kbyg-empty-message="Check back soon for Agenda!"><div data-kbyg-content class="kbyg-rich-text"><img src="https://cdn.example.test/program.webp" alt="Institute program"></div></section>
+    <section id="empty-content" data-kbyg-empty-message="Check back soon for Resources!"></section>
+    <div id="unmarked-content"><span class="w-dyn-bind-empty"></span></div>`,
+  );
+  const copy = get(element, "#populated-copy [data-kbyg-content]");
+  const markup = copy.innerHTML;
+  const image = get(element, "#populated-media img");
+
+  const first = initialize(element);
+  first.destroy();
+  initialize(element);
+
+  expect(get(element, "#populated-copy [data-kbyg-content]")).toBe(copy);
+  expect(copy.innerHTML).toBe(markup);
+  expect(get(element, "#populated-media img")).toBe(image);
+  expect(element.querySelectorAll("[data-kbyg-generated-empty-notice]")).toHaveLength(1);
+  expect(get(element, "#empty-content .kbyg-empty-notice").textContent).toBe(
+    "Check back soon for Resources!",
+  );
+  expect(get(element, "#unmarked-content").querySelector(".kbyg-empty-notice")).toBeNull();
+});
+
+test("a missing marked contact name produces one group notice without photo or phone placeholders", () => {
+  const element = page(
+    `<article class="kbyg-contact-card" data-kbyg-empty-message="Check back soon for your Operations Lead!">
+      <h3 data-kbyg-content class="w-dyn-bind-empty"></h3>
+      <img class="kbyg-contact-card__image" src="https://cdn.example.test/old-lead.webp" alt="">
+      <ul><li class="kbyg-contact-card__meta-item"><a class="kbyg-contact-card__meta-link" href="tel:"><span class="kbyg-contact-card__meta-value w-dyn-bind-empty"></span></a></li></ul>
+    </article>`,
+  );
+
+  initialize(element);
+
+  expect(element.querySelectorAll("[data-kbyg-generated-empty-notice]")).toHaveLength(1);
+  expect(get(element, ".kbyg-empty-notice").textContent).toBe(
+    "Check back soon for your Operations Lead!",
+  );
+  expect(
+    get(element, ".kbyg-contact-card__meta-item").querySelector(".kbyg-empty-notice"),
+  ).toBeNull();
+});
+
 test.each(["native rich text", "explicit description"])(
   "calendar downloads use %s without a calendar-item wrapper",
   async (source) => {

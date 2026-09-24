@@ -1641,6 +1641,7 @@ function setupEventTitle(page: HTMLElement) {
 
 function setupOptionalHotelDetails(page: HTMLElement) {
   queryAll(page, ".kbyg-travel-card").forEach(function (card) {
+    if (hasAttribute(card, "data-kbyg-empty-message")) return;
     let body = query(card, ".kbyg-travel-card__body, .kbyg-rich-text");
     if (
       body &&
@@ -1650,6 +1651,65 @@ function setupOptionalHotelDetails(page: HTMLElement) {
     ) {
       setAttribute(card, "hidden", "");
     }
+  });
+}
+
+function setupEmptyContent(page: HTMLElement, documentRef: Document, windowRef: KbygWindow | null) {
+  function isVisible(element: Element) {
+    for (let node: Element | null = element; node && node !== page; node = node.parentElement) {
+      if (node.matches("[hidden], .w-condition-invisible, .w-dyn-bind-empty")) return false;
+      if (windowRef?.getComputedStyle(node).display === "none") return false;
+    }
+    return true;
+  }
+
+  function hasContent(element: HTMLElement) {
+    if (!isVisible(element)) return false;
+    if (tagName(element) === "A") {
+      let href = String(getAttribute(element, "href") || "")
+        .trim()
+        .toLowerCase();
+      return !["", "#", "mailto:", "tel:"].includes(href);
+    }
+    let copy = element.cloneNode(true) as HTMLElement;
+    queryAll(
+      copy,
+      "[hidden], .w-condition-invisible, .w-dyn-bind-empty, [data-kbyg-empty-notice], script, style, template, .kbyg-fa",
+    ).forEach((child) => child.remove());
+    if (copy.textContent?.trim()) return true;
+    return queryAll(copy, "img, video, audio, iframe, source").some((media) =>
+      Boolean(getAttribute(media, "src")?.trim()),
+    );
+  }
+
+  queryAll(page, "[data-kbyg-generated-empty-notice]").forEach((notice) => notice.remove());
+  queryAll(page, "[data-kbyg-empty-duplicate]").forEach(function (notice) {
+    removeAttribute(notice, "hidden");
+    removeAttribute(notice, "data-kbyg-empty-duplicate");
+  });
+  queryAll(page, "[data-kbyg-empty-message]").forEach(function (container) {
+    let message = String(getAttribute(container, "data-kbyg-empty-message") || "").trim();
+    if (!message || !isVisible(container)) return;
+    let fields = queryAll(container, "[data-kbyg-content]").filter(
+      (field) => field.closest("[data-kbyg-empty-message]") === container,
+    );
+    if (fields.some(hasContent)) return;
+    let notice = documentRef.createElement("p");
+    addClass(notice, "kbyg-empty-notice");
+    setAttribute(notice, "data-kbyg-empty-notice", "");
+    setAttribute(notice, "data-kbyg-generated-empty-notice", "");
+    notice.textContent = message;
+    container.appendChild(notice);
+  });
+
+  let visibleGroups = new Set<string>();
+  queryAll(page, "[data-kbyg-empty-notice][data-kbyg-empty-group]").forEach(function (notice) {
+    let group = String(getAttribute(notice, "data-kbyg-empty-group") || "").trim();
+    if (!group || !isVisible(notice)) return;
+    if (visibleGroups.has(group)) {
+      setAttribute(notice, "data-kbyg-empty-duplicate", "");
+      setAttribute(notice, "hidden", "");
+    } else visibleGroups.add(group);
   });
 }
 
@@ -1828,6 +1888,7 @@ export function initPage(page: HTMLElement | null, options?: InitOptions): KbygI
   let hubLinks = setupHubLinks(page);
   setupVenueMaps(page);
   setupOptionalHotelDetails(page);
+  setupEmptyContent(page, environment.document, environment.window);
   let venueLightboxes = setupVenueLightboxes(
     page,
     pageToken,
