@@ -1,0 +1,103 @@
+{
+  "images": [
+    {
+      "currentSrc": "https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4c1a589ec77159551d436_P21-HRMI-Can-2025-Dinner-1-p-500.jpg",
+      "fit": "fill",
+      "html": "<img src=\"https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4c1a589ec77159551d436_P21-HRMI-Can-2025-Dinner-1.jpg\" loading=\"eager\" width=\"400\" height=\"400\" alt=\"Attendees wearing sunglasses share smiles around an outdoor dinner table\" srcset=\"https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4c1a589ec77159551d436_P21-HRMI-Can-2025-Dinner-1-p-500.jpg 500w, https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4c1a589ec77159551d436_P21-HRMI-Can-2025-Dinner-1-p-800.jpg 800w, https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4c1a589ec77159551d436_P21-HRMI-Can-2025-Dinner-1-p-1080.jpg 1080w, https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4c1a589ec77159551d436_P21-HRMI-Can-2025-Dinner-1-p-1600.jpg 1600w, https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4c1a589ec77159551d436_P21-HRMI-Can-2025-Dinner-1.jpg 2560w\" sizes=\"(max-width: 479px) 100vw, 400px\" class=\"bubble-photo top right circle shadow-xl\">",
+      "loaded": true,
+      "position": "50% 50%",
+      "rect": {
+        "bottom": 570.265625,
+        "height": 333.859375,
+        "left": 1278.140625,
+        "right": 1612,
+        "top": 236.40625,
+        "width": 333.859375,
+        "x": 1278.140625,
+        "y": 236.40625
+      },
+      "zIndex": "auto"
+    },
+    {
+      "currentSrc": "https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4c1a566358d7a1d925a5b_P20-HFI-2026-Casino-Night-p-500.jpg",
+      "fit": "fill",
+      "html": "<img src=\"https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4c1a566358d7a1d925a5b_P20-HFI-2026-Casino-Night.jpg\" loading=\"eager\" width=\"400\" height=\"400\" alt=\"Participants smiling with drinks at an outdoor IPMI gathering\" srcset=\"https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4c1a566358d7a1d925a5b_P20-HFI-2026-Casino-Night-p-500.jpg 500w, https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4c1a566358d7a1d925a5b_P20-HFI-2026-Casino-Night-p-800.jpg 800w, https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4c1a566358d7a1d925a5b_P20-HFI-2026-Casino-Night-p-1080.jpg 1080w, https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4c1a566358d7a1d925a5b_P20-HFI-2026-Casino-Night-p-1600.jpg 1600w, https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4c1a566358d7a1d925a5b_P20-HFI-2026-Casino-Night.jpg 2560w\" sizes=\"(max-width: 479px) 100vw, 400px\" class=\"bubble-photo bottom left circle front shadow-xl\">",
+      "loaded": true,
+      "position": "50% 50%",
+      "rect": {
+        "bottom": 653.71875,
+        "height": 333.859375,
+        "left": 1055.546875,
+        "right": 1389.40625,
+        "top": 319.859375,
+        "width": 333.859375,
+        "x": 1055.546875,
+        "y": 319.859375
+      },
+      "zIndex": "2"
+    },
+    {
+      "currentSrc": "https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/63c27702dd3beb27124ed648_Testimonial-Hero-BG.webp",
+      "fit": "cover",
+      "html": "<img srcset=\"https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/63c27702dd3beb27124ed648_Testimonial-Hero-BG-p-500.webp 500w, https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/63c27702dd3beb27124ed648_Testimonial-Hero-BG-p-800.webp 800w, https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/63c27702dd3beb27124ed648_Testimonial-Hero-BG-p-1080.webp 1080w, https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/63c27702dd3beb27124ed648_Testimonial-Hero-BG.webp 1280w\" loading=\"eager\" sizes=\"(max-width: 1279px) 100vw, 1280px\" src=\"https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/63c27702dd3beb27124ed648_Testimonial-Hero-BG.webp\" alt=\"\" class=\"hero-bg-image\">",
+      "loaded": true,
+      "position": "50% 50%",
+      "rect": {
+        "bottom": 830.140625,
+        "height": 830.140625,
+        "left": 0,
+        "right": 1912,
+        "top": 0,
+        "width": 1912,
+        "x": 0,
+        "y": 0
+      },
+      "zIndex": "auto"
+    },
+    {
+      "currentSrc": "",
+      "fit": "fill",
+      "html": "<img src=\"https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/63cf344a033565aa03ae94b7_Institutes-Bubble-6.webp\" loading=\"lazy\" width=\"400\" height=\"400\" alt=\"IPMI Institute Destination\" class=\"bubble-photo circle shadow-xl top left\">",
+      "loaded": false,
+      "position": "50% 50%",
+      "rect": {
+        "bottom": 3960.125,
+        "height": 315.9375,
+        "left": 300,
+        "right": 615.9375,
+        "top": 3644.1875,
+        "width": 315.9375,
+        "x": 300,
+        "y": 3644.1875
+      },
+      "zIndex": "auto"
+    },
+    {
+      "currentSrc": "",
+      "fit": "fill",
+      "html": "<img src=\"https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/63cf344ad75e97ad6d8d7066_Institutes-Bubble-5.webp\" loading=\"lazy\" width=\"400\" height=\"400\" alt=\"IPMI Institute Destination\" class=\"bubble-photo circle shadow-xl bottom right front\">",
+      "loaded": false,
+      "position": "50% 50%",
+      "rect": {
+        "bottom": 4039.109375,
+        "height": 315.9375,
+        "left": 510.640625,
+        "right": 826.578125,
+        "top": 3723.171875,
+        "width": 315.9375,
+        "x": 510.640625,
+        "y": 3723.171875
+      },
+      "zIndex": "2"
+    }
+  ],
+  "testimonials": {
+    "buttons": [],
+    "quotes": 22
+  },
+  "viewport": {
+    "documentWidth": 1912,
+    "height": 970,
+    "width": 1912
+  }
+}

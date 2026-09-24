@@ -2,7 +2,7 @@
 
 Owner: Webflow implementer. Asset owner: IPMI.
 
-Status: Ready for implementation, subject to source-image access and placement verification. Documentation only; no website edits performed.
+Status: Staged for review. P20/P21 applied and verified September 24, 2026; production remains unchanged.
 
 [Back to master](README.md)
 
@@ -41,15 +41,55 @@ No new CMS collection or field is required solely for these replacements. Existi
 
 ## Acceptance checks
 
-- [ ] P20: the approved asset is visible at the destination specified in the mapping table.
-- [ ] P21: the approved asset is visible at the destination specified in the mapping table.
-- [ ] Every row has an actual Designer/CMS destination and previous asset recorded; unresolved placement guesses are closed before marking complete.
-- [ ] Front/back layering and source-intended composition are correct at desktop, tablet, and mobile sizes.
-- [ ] Images load from Webflow-managed assets with no broken or authenticated SharePoint image URLs.
-- [ ] Informative/decorative treatment and alternative text are verified for the new images.
-- [ ] Unrelated content, links, collections, and interaction behavior remain correct.
-- [ ] Staging URLs and comparison screenshots are recorded.
+- [x] P20: the approved asset is visible at the destination specified in the mapping table.
+- [x] P21: the approved asset is visible at the destination specified in the mapping table.
+- [x] Every row has an actual Designer/CMS destination and previous asset recorded; unresolved placement guesses are closed before marking complete.
+- [x] Front/back layering and source-intended composition are correct at desktop, tablet, and mobile sizes.
+- [x] Images load from Webflow-managed assets with no broken or authenticated SharePoint image URLs.
+- [x] Informative/decorative treatment and alternative text are verified for the new images.
+- [x] Unrelated content, links, collections, and interaction behavior remain correct.
+- [x] Staging URLs and comparison screenshots are recorded.
 
 ## Rollback
 
 Restore the captured previous asset references and their original crop, focal position, and alternative-text values in the same static/component/CMS fields. Republish staging and verify every affected placement, including dependent component instances. Keep both old and new assets available through review; do not delete an asset that another page may use.
+
+## Applied implementation and evidence
+
+Editor: Codex task 11 worker using the observed Webflow account **IPMI Webmaster**. Verified September 24, 2026 UTC. Staging: [Testimonials](https://ipmi.webflow.io/testimonials), page `63c262bb4553f61ffeb42593`.
+
+[Source placement screenshot](evidence/task11/source-placements.png) confirms the hero pair beneath **Feedback from our Spectacular Guests**: P20 is the lower-left front circle and P21 is the upper-right back circle. Both are static image elements, with no CMS or shared component binding.
+
+### Source files and applied values
+
+The approved SharePoint images were opened separately in Chrome, visually inspected, and downloaded through the preview image's native media download. These are official JPEG preview derivatives, not claimed original-file bytes or screenshots used as photos. Both are 2560 × 2560. The downloaded bytes remain in ignored `.webflow/task11-photos/`. Asset search found no exact pre-existing matches; both were uploaded as new assets, preserving original assets and metadata.
+
+| Row | File / bytes / source evidence                                                                  | Element / previous asset / previous asset alt                                                                                                    | New Webflow asset / exact custom alt                                                                                                                                                                                                          |
+| --- | ----------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------ | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| P20 | `P20-HFI-2026-Casino-Night.jpg`, 492471 bytes; [viewed source](evidence/task11/source-p20.png)  | `45fc8c33-bacb-f7cf-8979-02789931e0b8`; `63c277018fc675995986cce8_Testimonial-Bubble-3.webp`; `IPMI Institute guests at a Happy Hour Roundtable` | [P20 JPEG](https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4c1a566358d7a1d925a5b_P20-HFI-2026-Casino-Night.jpg), asset `6ab4c1a566358d7a1d925a5b`; `Participants smiling with drinks at an outdoor IPMI gathering`             |
+| P21 | `P21-HRMI-Can-2025-Dinner-1.jpg`, 408340 bytes; [viewed source](evidence/task11/source-p21.png) | `45fc8c33-bacb-f7cf-8979-02789931e0b7`; `63c277019428274dbbd2de14_Testimonial-Bubble-4.webp`; `IPMI Institute attendees laughing`                | [P21 JPEG](https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4c1a589ec77159551d436_P21-HRMI-Can-2025-Dinner-1.jpg), asset `6ab4c1a589ec77159551d436`; `Attendees wearing sunglasses share smiles around an outdoor dinner table` |
+
+Original asset URLs use prefix `https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/`. [Original element capture](evidence/task11/original-elements.json), [Designer baseline](evidence/task11/original-designer.png), [desktop baseline](evidence/task11/original-desktop.png), [mobile baseline](evidence/task11/original-mobile.png).
+
+Both elements retain 400 × 400 HTML dimensions, eager loading, responsive variants, centered object position, `object-fit: fill`, 50% circle mask and shadow. P20 retains `bubble-photo bottom left circle front shadow-xl`, z-index 2; P21 retains `bubble-photo top right circle shadow-xl`, z-index auto. No CSS, class, size, focal, crop, breakpoint or interaction changes were needed. Webflow enabled its normal HiDPI treatment for the larger assets while preserving the 400 × 400 attributes. Alt mode changed from **Use alt text from asset** to **Custom description**, leaving old asset metadata intact. No placeholders were needed.
+
+### Verification
+
+Only `ipmi.webflow.io` was checked in the native publish dialog; the sole listed custom domain `www.ipmievents.com` was unchecked. [Domain selection](evidence/task11/staging-only-publish.png), [publish completion](evidence/task11/publish-completed.png). No CMS Publish now action was used.
+
+| Viewport           | Result / evidence                                                                                                                                                                                                                                 |
+| ------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Desktop 1912 × 970 | [Hero](evidence/task11/desktop-hero.png), [checks](evidence/task11/desktop-checks.json): new sources loaded, 333.86px square circles, intended overlap, faces visible, no page overflow.                                                          |
+| Tablet 768 × 1024  | [Hero](evidence/task11/tablet-hero.png), [checks](evidence/task11/tablet-checks.json): 250px square circles, existing vertical overlap and foreground preserved. Existing navigation extends document width to 790px; already tracked in task 37. |
+| Mobile 390 × 844   | [Hero](evidence/task11/mobile-hero.png), [checks](evidence/task11/mobile-checks.json): photos fit the existing horizontal mobile pair, centered crops and faces visible, document width 390px.                                                    |
+
+- The hero **View Testimonials** anchor reaches `#testimonials` on desktop and mobile. [Desktop cards](evidence/task11/desktop-testimonials.png), [mobile cards](evidence/task11/mobile-testimonials.png). All 22 quote cards render; this section exposes no slider, filter, recording or other interactive control requiring a separate action test. No message was submitted.
+- The lower shared Institutes CTA remains unchanged, with original assets `63cf344a033565aa03ae94b7_Institutes-Bubble-6.webp` and `63cf344ad75e97ad6d8d7066_Institutes-Bubble-5.webp`. Both lazy images load when brought into view; [mobile CTA](evidence/task11/preserved-cta.png).
+- Independent root read-only HTTP comparison: 51 image tags before/after; the other 49 image tags are byte-identical. All 70 anchor opening tags and normalized source text (6328 characters) are unchanged, preserving quotations, names, headshots, logos, links and CMS output. Production retains all 51 baseline image tags and contains neither replacement asset.
+- No custom code, stylesheet, CMS item, collection, schema, shared component definition, existing asset bytes or metadata changed. Task 33's testimonial additions remain separate. Task 19 receives the two audited informative alt descriptions here; broader accessibility and integrated checks remain with tasks 19/37.
+- Browser viewport overrides were reset; source tabs closed; staging retained for review. Designer remains on Testimonials at Desktop with no dialog open.
+- `vp fmt --check docs/web-refresh/11-testimonials-photos.md docs/web-refresh/README.md` and `git diff --check` passed. No local runtime code changed, so no app build was required.
+
+### Exact rollback
+
+On the same two static elements, restore the previous asset references above and alt mode **Use alt text from asset**. Preserve their existing dimensions, loading, classes, masks and positions. Both prior assets remain available. Republish staging only with custom domains unchecked and verify both hero circles and the unchanged lower Institutes CTA. Do not delete the new assets or restore a whole-site backup over other tasks.

@@ -1,0 +1,35 @@
+[
+  {
+    "html": "<img src=\"https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/63c277019428274dbbd2de14_Testimonial-Bubble-4.webp\" loading=\"eager\" width=\"400\" height=\"400\" alt=\"IPMI Institute attendees laughing\" data-w-id=\"45fc8c33-bacb-f7cf-8979-02789931e0b7\" data-wf-id=\"[&quot;45fc8c33-bacb-f7cf-8979-02789931e0b7&quot;]\" class=\"bubble-photo top right circle shadow-xl\">",
+    "style": {
+      "borderRadius": "50%",
+      "height": "303.734px",
+      "objectFit": "fill",
+      "objectPosition": "50% 50%",
+      "width": "303.734px",
+      "zIndex": "auto"
+    }
+  },
+  {
+    "html": "<img src=\"https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/63c277018fc675995986cce8_Testimonial-Bubble-3.webp\" loading=\"eager\" width=\"400\" height=\"400\" alt=\"IPMI Institute guests at a Happy Hour Roundtable\" data-w-id=\"45fc8c33-bacb-f7cf-8979-02789931e0b8\" data-wf-id=\"[&quot;45fc8c33-bacb-f7cf-8979-02789931e0b8&quot;]\" class=\"bubble-photo bottom left circle front shadow-xl\">",
+    "style": {
+      "borderRadius": "50%",
+      "height": "303.734px",
+      "objectFit": "fill",
+      "objectPosition": "50% 50%",
+      "width": "303.734px",
+      "zIndex": "2"
+    }
+  },
+  {
+    "html": "<img data-w-id=\"2b8dd0d9-8af4-ddc1-3613-866c8af082e1\" loading=\"eager\" data-wf-id=\"[&quot;2b8dd0d9-8af4-ddc1-3613-866c8af082e1&quot;]\" src=\"https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/63c27702dd3beb27124ed648_Testimonial-Hero-BG.webp\" alt=\"\" class=\"hero-bg-image\">",
+    "style": {
+      "borderRadius": "0px",
+      "height": "757.766px",
+      "objectFit": "cover",
+      "objectPosition": "50% 50%",
+      "width": "1279px",
+      "zIndex": "auto"
+    }
+  }
+]
