@@ -1,0 +1,20 @@
+{
+  "documentWidth": 375,
+  "links": [
+    {
+      "href": "mailto:info@ipmievents.com",
+      "rect": {
+        "bottom": 564.171875,
+        "height": 30,
+        "left": 124.609375,
+        "right": 288.375,
+        "top": 534.171875,
+        "width": 163.765625,
+        "x": 124.609375,
+        "y": 534.171875
+      },
+      "text": "info@ipmievents.com"
+    }
+  ],
+  "width": 375
+}

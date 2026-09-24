@@ -1,0 +1,211 @@
+{
+  "checkedAtUtc": "2026-09-24T07:40:57.8800294Z",
+  "scope": "Independent root read-only HTTP scan; no email sent",
+  "staging": [
+    {
+      "path": "/",
+      "oldPublicGeneralLinks": 0,
+      "newExactGeneralLinks": 1,
+      "expected": 1,
+      "passed": true
+    },
+    {
+      "path": "/about",
+      "oldPublicGeneralLinks": 0,
+      "newExactGeneralLinks": 1,
+      "expected": 1,
+      "passed": true
+    },
+    {
+      "path": "/contact",
+      "oldPublicGeneralLinks": 0,
+      "newExactGeneralLinks": 2,
+      "expected": 2,
+      "passed": true
+    },
+    {
+      "path": "/attend",
+      "oldPublicGeneralLinks": 0,
+      "newExactGeneralLinks": 1,
+      "expected": 1,
+      "passed": true
+    },
+    {
+      "path": "/faq",
+      "oldPublicGeneralLinks": 0,
+      "newExactGeneralLinks": 1,
+      "expected": 1,
+      "passed": true
+    },
+    {
+      "path": "/institutes",
+      "oldPublicGeneralLinks": 0,
+      "newExactGeneralLinks": 1,
+      "expected": 1,
+      "passed": true
+    },
+    {
+      "path": "/recent-institutes",
+      "oldPublicGeneralLinks": 0,
+      "newExactGeneralLinks": 1,
+      "expected": 1,
+      "passed": true
+    },
+    {
+      "path": "/institutes-on-the-horizon",
+      "oldPublicGeneralLinks": 0,
+      "newExactGeneralLinks": 1,
+      "expected": 1,
+      "passed": true
+    },
+    {
+      "path": "/gallery",
+      "oldPublicGeneralLinks": 0,
+      "newExactGeneralLinks": 1,
+      "expected": 1,
+      "passed": true
+    },
+    {
+      "path": "/thinktanks",
+      "oldPublicGeneralLinks": 0,
+      "newExactGeneralLinks": 1,
+      "expected": 1,
+      "passed": true
+    },
+    {
+      "path": "/testimonials",
+      "oldPublicGeneralLinks": 0,
+      "newExactGeneralLinks": 1,
+      "expected": 1,
+      "passed": true
+    },
+    {
+      "path": "/recaps",
+      "oldPublicGeneralLinks": 0,
+      "newExactGeneralLinks": 1,
+      "expected": 1,
+      "passed": true
+    },
+    {
+      "path": "/insights",
+      "oldPublicGeneralLinks": 0,
+      "newExactGeneralLinks": 1,
+      "expected": 1,
+      "passed": true
+    },
+    {
+      "path": "/institutes/hit-2027",
+      "oldPublicGeneralLinks": 0,
+      "newExactGeneralLinks": 1,
+      "expected": 1,
+      "passed": true
+    },
+    {
+      "path": "/institutes/healthcare-gci-oct-2026",
+      "oldPublicGeneralLinks": 0,
+      "newExactGeneralLinks": 1,
+      "expected": 1,
+      "passed": true
+    },
+    {
+      "path": "/thinktanks/dorn-vtt-2026",
+      "oldPublicGeneralLinks": 0,
+      "newExactGeneralLinks": 1,
+      "expected": 1,
+      "passed": true
+    },
+    {
+      "path": "/recaps/healthcare-hrmi-sept-2025",
+      "oldPublicGeneralLinks": 0,
+      "newExactGeneralLinks": 1,
+      "expected": 1,
+      "passed": true
+    },
+    {
+      "path": "/know-before-you-go/hchr-sept-2026-delegate",
+      "oldPublicGeneralLinks": 0,
+      "newExactGeneralLinks": 1,
+      "expected": 1,
+      "passed": true
+    },
+    {
+      "path": "/know-before-you-go/hchr-sept-2026-sponsor",
+      "oldPublicGeneralLinks": 0,
+      "newExactGeneralLinks": 1,
+      "expected": 1,
+      "passed": true
+    },
+    {
+      "path": "/know-before-you-go/ehs-jan-2027-delegate",
+      "oldPublicGeneralLinks": 0,
+      "newExactGeneralLinks": 1,
+      "expected": 1,
+      "passed": true
+    },
+    {
+      "path": "/know-before-you-go/ehs-jan-2027-sponsor",
+      "oldPublicGeneralLinks": 0,
+      "newExactGeneralLinks": 1,
+      "expected": 1,
+      "passed": true
+    },
+    {
+      "path": "/terms",
+      "oldPublicGeneralLinks": 0,
+      "newExactGeneralLinks": 1,
+      "expected": 1,
+      "passed": true
+    },
+    {
+      "path": "/privacy",
+      "oldPublicGeneralLinks": 0,
+      "newExactGeneralLinks": 2,
+      "expected": 2,
+      "passed": true
+    }
+  ],
+  "forms": [
+    {
+      "path": "/contact",
+      "formByteIdentical": true,
+      "phonePreserved": true
+    },
+    {
+      "path": "/attend",
+      "formByteIdentical": true,
+      "phonePreserved": true
+    },
+    {
+      "path": "/institutes-on-the-horizon",
+      "formByteIdentical": true,
+      "phonePreserved": true
+    },
+    {
+      "path": "/institutes/hit-2027",
+      "formByteIdentical": true,
+      "phonePreserved": true
+    }
+  ],
+  "production": [
+    {
+      "path": "/",
+      "oldGeneralLinks": 1,
+      "newGeneralLinks": 0
+    },
+    {
+      "path": "/contact",
+      "oldGeneralLinks": 2,
+      "newGeneralLinks": 0
+    },
+    {
+      "path": "/attend",
+      "oldGeneralLinks": 1,
+      "newGeneralLinks": 0
+    },
+    {
+      "path": "/institutes/hit-2027",
+      "oldGeneralLinks": 1,
+      "newGeneralLinks": 0
+    }
+  ]
+}
