@@ -35,6 +35,8 @@ const footers = {
   faq: "Page HTML/FAQ/FAQ-Footer.html",
   horizon: "Page HTML/Institutes on the Horizon/Horizon-Footer.html",
   "hit-inquiry-routing": "Page HTML/Institutes on the Horizon/HIT-Routing-Supplement.html",
+  "photo-accessibility": "Page HTML/Global/Photo-Accessibility-Supplement.html",
+  "institutes-calendar": "Page HTML/Institutes/Calendar-Supplement.html",
   institute: "Page HTML/Institute Single/Institute-Footer.html",
   institutes: "Page HTML/Institutes/Institutes-Footer.html",
   recap: "Page HTML/Recap Single/Recap-Footer.html",
@@ -118,6 +120,7 @@ test("public entry dependency graphs exclude the separately authorized redirect 
     );
     if (visited.has(filename)) return;
     visited.add(filename);
+    if (path.extname(filename) === ".css") return;
     const source = readFileSync(filename, "utf8");
     // Follow literal ES imports/re-exports, dynamic imports and CommonJS requires.
     // This is intentionally conservative; build tests separately verify actual bundled code.
@@ -128,7 +131,9 @@ test("public entry dependency graphs exclude the separately authorized redirect 
       const specifier = match[1];
       if (!specifier.startsWith(".")) continue;
       const base = path.resolve(path.dirname(filename), specifier).replace(/\.(?:js|ts)$/, "");
-      const resolved = [`${base}.ts`, path.join(base, "index.ts")].find(existsSync);
+      const resolved = [base, `${base}.ts`, path.join(base, "index.ts")].find(
+        (candidate) => existsSync(candidate) && /\.(?:ts|css)$/.test(candidate),
+      );
       expect(resolved, `Unresolved local import ${specifier} in ${filename}`).toBeDefined();
       if (resolved) visit(resolved);
     }
