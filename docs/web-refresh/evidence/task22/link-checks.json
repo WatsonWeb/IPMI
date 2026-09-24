@@ -1,0 +1,214 @@
+{
+  "checkedAt": "2026-09-24T15:11:26.739Z",
+  "method": "Read-only anonymous HTTP GET; response status/final URL/page title, not form or provider tests",
+  "results": [
+    {
+      "id": "689a4db462964a1e231e1fbb",
+      "url": "https://ipmi.webflow.io/institutes/healthcare-gci-oct-2026",
+      "status": 200,
+      "finalUrl": "https://ipmi.webflow.io/institutes/healthcare-gci-oct-2026",
+      "title": "Healthcare Law &amp; Compliance Institute 2026 - IPMI",
+      "pass": true
+    },
+    {
+      "id": "68ed913448c9b512bb7abeae",
+      "url": "https://ipmi.webflow.io/institutes/hrmi-oct-2026",
+      "status": 200,
+      "finalUrl": "https://ipmi.webflow.io/institutes/hrmi-oct-2026",
+      "title": "HR Management Institute 2026 - IPMI",
+      "pass": true
+    },
+    {
+      "id": "68d55b267c9b7466cf7f635e",
+      "url": "https://ipmi.webflow.io/institutes/iplmi-2026",
+      "status": 200,
+      "finalUrl": "https://ipmi.webflow.io/institutes/iplmi-2026",
+      "title": "IP Law &amp; Management Institute 2026 - IPMI",
+      "pass": true
+    },
+    {
+      "id": "68ee5828523be4d7c19ad78b",
+      "url": "https://ipmi.webflow.io/institutes/cni-2026",
+      "status": 200,
+      "finalUrl": "https://ipmi.webflow.io/institutes/cni-2026",
+      "title": "Chief Nursing Institute 2026 - IPMI",
+      "pass": true
+    },
+    {
+      "id": "68f13f6b14773d35b80ea18f",
+      "url": "https://ipmi.webflow.io/institutes/cwi-2026",
+      "status": 200,
+      "finalUrl": "https://ipmi.webflow.io/institutes/cwi-2026",
+      "title": "Corporate Wellness Institute 2026 - IPMI",
+      "pass": true
+    },
+    {
+      "id": "68ed935044ff3bb50a197a5e",
+      "url": "https://ipmi.webflow.io/institutes/hrmi-canada-nov-2026",
+      "status": 200,
+      "finalUrl": "https://ipmi.webflow.io/institutes/hrmi-canada-nov-2026",
+      "title": "HR Management Institute Canada 2026 - IPMI",
+      "pass": true
+    },
+    {
+      "id": "6a46ac429cad4c03adc65259",
+      "url": "https://ipmi.webflow.io/institutes/ehs-jan-2027",
+      "status": 200,
+      "finalUrl": "https://ipmi.webflow.io/institutes/ehs-jan-2027",
+      "title": "EHS Management Institute 2027 - IPMI",
+      "pass": true
+    },
+    {
+      "id": "6a062c48ceedbb1f5325d842",
+      "url": "https://ipmi.webflow.io/institutes/hgc-feb-2027",
+      "status": 200,
+      "finalUrl": "https://ipmi.webflow.io/institutes/hgc-feb-2027",
+      "title": "Healthcare Law &amp; Compliance Institute 2027 - IPMI",
+      "pass": true
+    },
+    {
+      "id": "6a04879eb7bb1f4b01d2f85d",
+      "url": "https://ipmi.webflow.io/institutes/hrmi-feb-2027",
+      "status": 200,
+      "finalUrl": "https://ipmi.webflow.io/institutes/hrmi-feb-2027",
+      "title": "HR Management Institute 2027 - IPMI",
+      "pass": true
+    },
+    {
+      "id": "6a048e03a3a8842d897b0a7b",
+      "url": "https://ipmi.webflow.io/institutes/cldi-march-2027",
+      "status": 200,
+      "finalUrl": "https://ipmi.webflow.io/institutes/cldi-march-2027",
+      "title": "Corporate Learning Development Institute 2027 - IPMI",
+      "pass": true
+    },
+    {
+      "id": "69c4204f2ea7175dc8c7bcc2",
+      "url": "https://ipmi.webflow.io/institutes/hchrmi-march-2027",
+      "status": 200,
+      "finalUrl": "https://ipmi.webflow.io/institutes/hchrmi-march-2027",
+      "title": "Healthcare HR Management Institute 2027 - IPMI",
+      "pass": true
+    },
+    {
+      "id": "69c4214fdb29400f554e0aa3",
+      "url": "https://ipmi.webflow.io/institutes/hfi-2027",
+      "status": 200,
+      "finalUrl": "https://ipmi.webflow.io/institutes/hfi-2027",
+      "title": "Healthcare Finance Institute 2027 - IPMI",
+      "pass": true
+    },
+    {
+      "id": "6a625aa509d2114b6c18f823",
+      "url": "https://ipmi.webflow.io/institutes/hr-can-april-2027",
+      "status": 200,
+      "finalUrl": "https://ipmi.webflow.io/institutes/hr-can-april-2027",
+      "title": "HR Management Institute Canada 2027 - IPMI",
+      "pass": true
+    },
+    {
+      "id": "6a6b7c84b3f42f1434486fe4",
+      "url": "https://ipmi.webflow.io/institutes/28-tai-us-2027",
+      "status": 200,
+      "finalUrl": "https://ipmi.webflow.io/institutes/28-tai-us-2027",
+      "title": "Talent Acquisition Institute 2027 - IPMI",
+      "pass": true
+    },
+    {
+      "id": "6a734f7e0f9ec23790927eb3",
+      "url": "https://ipmi.webflow.io/institutes/29-taeei-can",
+      "status": 200,
+      "finalUrl": "https://ipmi.webflow.io/institutes/29-taeei-can",
+      "title": "Talent Acquisition &amp; Employee Experience Institute Canada 2027 - IPMI",
+      "pass": true
+    },
+    {
+      "id": "6a735243aa7b56372e436f6d",
+      "url": "https://ipmi.webflow.io/institutes/211-hrmi-june-2027",
+      "status": 200,
+      "finalUrl": "https://ipmi.webflow.io/institutes/211-hrmi-june-2027",
+      "title": "HR Management Institute 2027 - IPMI",
+      "pass": true
+    },
+    {
+      "id": "6a062fba0e49a14badf21c95",
+      "url": "https://ipmi.webflow.io/institutes/hit-2027",
+      "status": 200,
+      "finalUrl": "https://ipmi.webflow.io/institutes/hit-2027",
+      "title": "Healthcare IT Institute 2027 - IPMI",
+      "pass": true
+    },
+    {
+      "id": "6a46b02076a8aaadc4a60eb3",
+      "url": "https://ipmi.webflow.io/institutes/ehs-july-2027",
+      "status": 200,
+      "finalUrl": "https://ipmi.webflow.io/institutes/ehs-july-2027",
+      "title": "EHS Management Institute 2027 - IPMI",
+      "pass": true
+    },
+    {
+      "id": "6a7353d54b2d405c8281c2e3",
+      "url": "https://ipmi.webflow.io/institutes/213-cldi-sept-2027",
+      "status": 200,
+      "finalUrl": "https://ipmi.webflow.io/institutes/213-cldi-sept-2027",
+      "title": "Corporate Learning &amp; Development Institute 2027 - IPMI",
+      "pass": true
+    },
+    {
+      "id": "6a7355fe6cf8f06fdda1ba83",
+      "url": "https://ipmi.webflow.io/institutes/214-hgc-sept-2027",
+      "status": 200,
+      "finalUrl": "https://ipmi.webflow.io/institutes/214-hgc-sept-2027",
+      "title": "Healthcare Law &amp; Compliance Institute 2027 - IPMI",
+      "pass": true
+    },
+    {
+      "id": "6a7356e511519b165c9814e1",
+      "url": "https://ipmi.webflow.io/institutes/215-hchr-sept-2027",
+      "status": 200,
+      "finalUrl": "https://ipmi.webflow.io/institutes/215-hchr-sept-2027",
+      "title": "Healthcare HR Management Institute 2027 - IPMI",
+      "pass": true
+    },
+    {
+      "id": "6a735736f63007d8a10f8aa7",
+      "url": "https://ipmi.webflow.io/institutes/216-ip-law-2027",
+      "status": 200,
+      "finalUrl": "https://ipmi.webflow.io/institutes/216-ip-law-2027",
+      "title": "IP Law &amp; Management Institute 2027 - IPMI",
+      "pass": true
+    },
+    {
+      "id": "6a73581d396dde8a1eac912f",
+      "url": "https://ipmi.webflow.io/institutes/217-hrmi-oct-2027",
+      "status": 200,
+      "finalUrl": "https://ipmi.webflow.io/institutes/217-hrmi-oct-2027",
+      "title": "HR Management Institute 2027 - IPMI",
+      "pass": true
+    },
+    {
+      "id": "6a7359850566a260d07c29ea",
+      "url": "https://ipmi.webflow.io/institutes/218-cni-2027",
+      "status": 200,
+      "finalUrl": "https://ipmi.webflow.io/institutes/218-cni-2027",
+      "title": "Chief Nursing Institute  2027 - IPMI",
+      "pass": true
+    },
+    {
+      "id": "6a7359c09abe3b890a523cb3",
+      "url": "https://ipmi.webflow.io/institutes/219-cwi-2027",
+      "status": 200,
+      "finalUrl": "https://ipmi.webflow.io/institutes/219-cwi-2027",
+      "title": "Corporate Wellness Institute 2027 - IPMI",
+      "pass": true
+    },
+    {
+      "id": "6a735ad6e34946d6f730bc28",
+      "url": "https://ipmi.webflow.io/institutes/220-hr-can-2027",
+      "status": 200,
+      "finalUrl": "https://ipmi.webflow.io/institutes/220-hr-can-2027",
+      "title": "HR Management Institute Canada 2027 - IPMI",
+      "pass": true
+    }
+  ]
+}

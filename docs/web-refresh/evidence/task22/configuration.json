@@ -1,0 +1,66 @@
+{
+  "applied": false,
+  "isolatedProject": null,
+  "owner": "Bryan / IPMI chatbot account owner; specific future refresh operator pending designation",
+  "companyDescription": "IPMI is the International Performance Management Institute. An IPMI Institute is a curated, executive-level event that brings together senior leaders from across industries to share insights, exchange best practices, and collaborate on real world challenges in a focused, immersive setting. Institutes bring together CxOs from organizations across North America in an intimate and luxury setting for two-and-a-half days of networking, information exchange, and collaboration. Institutes are executed with an unwavering commitment to quality and excellence, allowing you to curate a valuable and productive experience.",
+  "aliases": [
+    {
+      "terms": ["HR Canada", "HRMI Can", "HRMI Canada"],
+      "title": "HR Management Institute Canada",
+      "region": "Canada",
+      "basis": "Supplied task22 examples and matching native titles"
+    },
+    {
+      "terms": ["HRMI"],
+      "title": "HR Management Institute",
+      "region": null,
+      "action": "Ask Canada or United States"
+    },
+    {
+      "terms": ["EHS", "EHS institute"],
+      "title": "EHS Management Institute",
+      "basis": "Supplied example/native title"
+    },
+    {
+      "terms": ["Health IT Institute", "Healthcare IT Institute"],
+      "title": "Healthcare IT Institute",
+      "action": "Ask year for policies and additional attendees"
+    },
+    {
+      "terms": ["HGC"],
+      "title": null,
+      "action": "Ask full name and region; approval pending"
+    }
+  ],
+  "selection": {
+    "timezone": "America/Toronto",
+    "today": "Runtime current local calendar date, never frozen ingestion date",
+    "rule": "Exclude draft/archived and end < today; require confirmed discipline and region; ongoing start <= today <= end first, otherwise ascending start then slug; no candidate => say no verified upcoming record; never invent a later event",
+    "horizon": "Information only in calendar; no registration action; HIT direct pre-registration remains independently present but not delivery-verified"
+  },
+  "guidance": [
+    "Use only approved excerpts and retained native event facts, labeling pending schedule approval in review.",
+    "Give the shortest complete answer. Include at most one event-specific link, plus attendance link only when it adds an action. Do not append generic FAQ, LinkedIn or unrelated discipline links.",
+    "Use Institute and Virtual Think Tank definitions exactly as supplied; preserve legitimate navigation wording.",
+    "Ask for geography when HRMI is ambiguous and full name/region for HGC. Do not infer alias from slug alone.",
+    "Do not invent prices, complimentary access, eligibility, attire, approval of extra attendees or promised response time. Use labeled local placeholders pending approval.",
+    "Never infer chatbot recipient from public info@ipmievents.com. HIT native scolquhoun@ipmievents.com is not delivery or ownership approval.",
+    "Do not expose internal CMS IDs or approval registers in final approved customer replies.",
+    "Replace these local placeholders only after owner approval; do not activate this pack on shared project."
+  ],
+  "refresh": {
+    "trigger": "After each approved page/event change and before every regression/release; review currentness at least daily for active next-event answers",
+    "steps": [
+      "Verify existing isolated project, independent settings/widget and non-sending test channel. Capture source bodies, toggles, guidance and timestamps before changes.",
+      "Reconcile all 26 event IDs against native snapshot; obtain missing schedule and alias approvals. Remove ended events from next-event selection without deleting history.",
+      "In isolated project only, add curated Q&A/excerpts via native Data sources. Do not crawl staging wholesale. Preserve source provenance; supersede conflicting old Q&A/URLs only after rollback capture.",
+      "Use native refresh for the exact changed source, wait for ingestion ready and record timestamp/status. Do not enable unverified automatic sync.",
+      "Execute all 16 cases with Reset test between independent cases; verify links and follow-up Canada/US context. Never send actual handoff until task23 safe route exists.",
+      "Prove refresh in isolated test only: temporarily change a dedicated test answer to a unique review marker, ingest, query and capture; restore approved answer, ingest and query again. Never perform marker test in shared configuration.",
+      "Record operator, approver, versions, before/after hashes and transcripts. Release only after approval and final regression."
+    ],
+    "automaticSyncObserved": false,
+    "automaticSyncNote": "No synchronization control observed in inspected current general/settings views; not asserted disabled or enabled",
+    "proofStatus": "Blocked by isolation; no source refreshed"
+  }
+}

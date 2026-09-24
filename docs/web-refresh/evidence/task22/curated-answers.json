@@ -1,0 +1,156 @@
+{
+  "status": "prepared-not-imported",
+  "asOf": "2026-09-24",
+  "dateWarning": "These exact answers are dated review examples, not a verified provider runtime date-selection feature. Recompute and review before import or every next-event test. HGC conditional mapping remains approval-pending.",
+  "answers": [
+    {
+      "id": "R01",
+      "prompt": "What is IPMI?",
+      "sourceIssue": "General brand messaging and irrelevant links (page 1); operational prompt chosen because source is an issue, not a verbatim question",
+      "answer": "IPMI is the International Performance Management Institute. An IPMI Institute is a curated, executive-level event that brings together senior leaders from across industries to share insights, exchange best practices, and collaborate on real world challenges in a focused, immersive setting.",
+      "links": ["https://ipmi.webflow.io/about"],
+      "criteria": ["Accurate concise brand explanation", "Only relevant IPMI links; no LinkedIn"]
+    },
+    {
+      "id": "R02",
+      "prompt": "Want to attend HR Canada",
+      "answer": "HR Management Institute Canada is scheduled for 2026-11-08 to 2026-11-10 at Fairmont Banff Springs, Banff, AB. Pending confirmation — Dates and venues are retained from current Webflow records and await final IPMI schedule approval. Review its individual Institute page for attendance information; an inquiry does not confirm acceptance.",
+      "links": [
+        "https://ipmi.webflow.io/institutes/hrmi-canada-nov-2026",
+        "https://ipmi.webflow.io/attend#attend"
+      ],
+      "criteria": [
+        "Next Canadian HR event November 8–10, 2026, Banff",
+        "Event-specific link and attendance inquiry, no acceptance promise"
+      ]
+    },
+    {
+      "id": "R03",
+      "prompt": "the next HRMI Can",
+      "answer": "HR Management Institute Canada is scheduled for 2026-11-08 to 2026-11-10 at Fairmont Banff Springs, Banff, AB. Pending confirmation — Dates and venues are retained from current Webflow records and await final IPMI schedule approval. Review its individual Institute page for attendance information; an inquiry does not confirm acceptance.",
+      "links": ["https://ipmi.webflow.io/institutes/hrmi-canada-nov-2026"],
+      "criteria": [
+        "Recognizes supplied abbreviation in Canada context",
+        "No April 2026 past-event recommendation"
+      ]
+    },
+    {
+      "id": "R04",
+      "prompt": "Are Institutes roundtables?",
+      "sourceIssue": "Institute descriptions refer to roundtable (page 2); operational prompt chosen for issue",
+      "answer": "An IPMI Institute is a curated, executive-level event that brings together senior leaders from across industries to share insights, exchange best practices, and collaborate on real world challenges in a focused, immersive setting. Institutes and Virtual Think Tanks are distinct offerings. IPMI's Virtual Think Tanks are online bespoke gatherings for sharing insights, tools, and resources to help drive organizational success, and are the go-to outlet for dealing with changing priorities and perspectives, as well as continued challenges at the macroeconomic and organizational levels.",
+      "links": [],
+      "criteria": [
+        "Approved Institute and Think Tank definitions",
+        "Do not rename legitimate Think Tanks & Roundtables navigation"
+      ]
+    },
+    {
+      "id": "R05",
+      "prompt": "How can I attend the EHS institute",
+      "answer": "EHS Management Institute is scheduled for 2027-01-24 to 2027-01-26 at Four Seasons Hotel, Austin, TX. Pending confirmation — Dates and venues are retained from current Webflow records and await final IPMI schedule approval. This is an On the Horizon listing; the calendar does not offer registration. Placeholder — Attendance cost and eligibility guidance is pending IPMI approval. Which Institute and attendee role are you asking about?",
+      "links": ["https://ipmi.webflow.io/institutes/ehs-jan-2027"],
+      "criteria": [
+        "January 24–26, 2027, Austin",
+        "No CLDI/HCHR recommendations",
+        "No Horizon calendar registration; verified inquiry route pending"
+      ]
+    },
+    {
+      "id": "R06",
+      "prompt": "Where is the next HRMI",
+      "answer": "Do you mean HR Management Institute in Canada or the United States?",
+      "links": [],
+      "criteria": [
+        "Clarify region before choosing event",
+        "After Canada answer use November Banff; after US use October Orlando"
+      ]
+    },
+    {
+      "id": "R07",
+      "prompt": "What is the cost to attend an institute",
+      "answer": "Placeholder — Attendance cost and eligibility guidance is pending IPMI approval. Which Institute and attendee role are you asking about?",
+      "links": [],
+      "criteria": [
+        "No invented price, complimentary claim or eligibility",
+        "Ask event and role; verified human route pending task23"
+      ]
+    },
+    {
+      "id": "R08",
+      "prompt": "Talk to a person",
+      "answer": "Placeholder — Human handoff is not configured for this review. No message has been sent and no response time is promised.",
+      "links": [],
+      "criteria": [
+        "Verified task23 handoff required for final pass",
+        "No guessed recipient or actual test send"
+      ]
+    },
+    {
+      "id": "R09",
+      "prompt": "How do institutes work?",
+      "answer": "Institutes bring together CxOs from organizations across North America in an intimate and luxury setting for two-and-a-half days of networking, information exchange, and collaboration. Institutes are executed with an unwavering commitment to quality and excellence, allowing you to curate a valuable and productive experience. IPMI Institute Attendees receive a unique and unparalleled experience. With a range of engaging opportunities to connect with senior industry executives, encounter the latest strategies, and forge valuable business relationships, attendees customize their event experience by selecting thought leadership sessions, business meetings, and networking functions that directly relate to their goals and objectives.",
+      "links": ["https://ipmi.webflow.io/attend#attend"],
+      "criteria": ["Approved overview and attendance experience", "No LinkedIn explanation"]
+    },
+    {
+      "id": "R10",
+      "prompt": "What is a think tank?",
+      "answer": "IPMI's Virtual Think Tanks are online bespoke gatherings for sharing insights, tools, and resources to help drive organizational success, and are the go-to outlet for dealing with changing priorities and perspectives, as well as continued challenges at the macroeconomic and organizational levels.",
+      "links": [],
+      "criteria": ["Matches approved FAQ definition", "No redundant generic FAQ Read more"]
+    },
+    {
+      "id": "R11",
+      "prompt": "what should i wear to the Health IT Institute",
+      "answer": "Placeholder — Approved attire guidance for the Healthcare IT Institute is pending. Please confirm the event year so the event team can provide the correct guidance.",
+      "links": [],
+      "criteria": ["No invented attire", "Ask event year; approved guidance/route pending"]
+    },
+    {
+      "id": "R12",
+      "prompt": "what do the business meetings entail?",
+      "answer": "An integral part of your event agenda is the one-on-one business meetings with leading Service Providers. These private, pre-selected meetings provide an opportunity to engage with senior-level specialists who can address your current business challenges and priorities during a 30-minute strategic conversation. Prior to the Institute, you will be able to assess the Service Providers who will be attending and select those that offer solutions to match your priorities and initiatives.",
+      "links": [],
+      "criteria": [
+        "Private pre-selected meetings, senior specialists, 30 minutes, pre-event assessment",
+        "No stale 3–5 requirement or redundant FAQ link"
+      ]
+    },
+    {
+      "id": "R13",
+      "prompt": "can i bring my senior manager to the Health IT institute with me",
+      "answer": "Placeholder — An additional attendee requires review by the Institute team. Please identify the Institute and year; I cannot confirm your senior manager’s eligibility.",
+      "links": [],
+      "criteria": [
+        "Do not assert eligibility",
+        "Confirm event/year and route to approved owner once verified"
+      ]
+    },
+    {
+      "id": "R14",
+      "prompt": "where is the next HGC institute",
+      "answer": "Placeholder — Please confirm the full Institute name and region you mean by HGC so I can identify the correct event.",
+      "links": [],
+      "criteria": [
+        "Clarify full name/region until alias approved",
+        "If confirmed Healthcare Law & Compliance then February 21–23, 2027, Nashville",
+        "No HCHR substitution"
+      ]
+    },
+    {
+      "id": "R15",
+      "prompt": "Where is the next HRMI? Canada, not the US.",
+      "answer": "HR Management Institute Canada is scheduled for 2026-11-08 to 2026-11-10 at Fairmont Banff Springs, Banff, AB. Pending confirmation — Dates and venues are retained from current Webflow records and await final IPMI schedule approval. Review its individual Institute page for attendance information; an inquiry does not confirm acceptance.",
+      "links": ["https://ipmi.webflow.io/institutes/hrmi-canada-nov-2026"],
+      "criteria": ["Respects explicitly supplied region", "Selects Banff, not US or past Canada"]
+    },
+    {
+      "id": "R16",
+      "prompt": "Is HRMI Canada April 2026 the next HR Canada event?",
+      "answer": "No. April 2026 has ended. HR Management Institute Canada is scheduled for 2026-11-08 to 2026-11-10 at Fairmont Banff Springs, Banff, AB. Pending confirmation — Dates and venues are retained from current Webflow records and await final IPMI schedule approval. Review its individual Institute page for attendance information; an inquiry does not confirm acceptance.",
+      "links": ["https://ipmi.webflow.io/institutes/hrmi-canada-nov-2026"],
+      "criteria": ["Rejects ended event using America/Toronto date", "Next Canada November 2026"]
+    }
+  ]
+}

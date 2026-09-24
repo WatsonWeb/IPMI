@@ -1,0 +1,218 @@
+{
+  "environment": "Existing shared Tidio project https://www.ipmievents.com; Lyro Playground > Live chat only",
+  "url": "https://www.tidio.com/panel/lyro-ai/playground/live-chat",
+  "executedDate": "2026-09-24",
+  "method": "Reset test before each independent prompt. Actual reply prose transcribed from Chrome accessibility output; whitespace and list formatting normalized. Links recorded separately, including Read more citations. UI-only source-review cards and initial Hi/greeting excluded. Displayed clock timezone is not asserted. No training or settings changed.",
+  "cases": [
+    {
+      "id": "R01",
+      "prompt": "What is IPMI?",
+      "executed": true,
+      "executedDate": "2026-09-24",
+      "displayedTime": "9:58",
+      "actualAnswer": "IPMI stands for the International Performance Management Institute. It is a privately held organization operating in the events services industry. IPMI hosts exclusive, high-impact conferences called \"Institutes\" designed for senior executives, focusing on:\nLearning and knowledge transfer\nBest practice sharing among CxOs from across North America\nNetworking in intimate, luxury venue settings over two and a half days\nOur mission is to revitalize the way interactions and knowledge transfer take place by fostering face-to-face, meaningful, and impactful environments — an alternative to the isolated, digital exchange of information.\nYou can learn more at www.ipmievents.com/about.\nIs there anything else I can assist you with?\nRead more here",
+      "links": [
+        "https://www.ipmievents.com/about",
+        "https://www.linkedin.com/company/international-performance-management-institute-ipmi-/?originalSubdomain=ca"
+      ],
+      "result": "fail",
+      "reason": "Core explanation is relevant but appends LinkedIn rather than limiting links to relevant approved IPMI sources."
+    },
+    {
+      "id": "R02",
+      "prompt": "Want to attend HR Canada",
+      "executed": true,
+      "executedDate": "2026-09-24",
+      "displayedTime": "9:58",
+      "actualAnswer": "The HR Management Institute Canada, which took place from April 26 - April 29, 2026, has now passed.\nIf you are interested in attending a future edition, you can submit your details through the Request an Invitation form on our website. The form requires the following information:\nFull Name\nE-mail Address\nTitle\nCompany/Organization\nCompany Size\nYou can access the form here: https://www.ipmievents.com/institutes/\nIs there anything else I can assist you with?\nRead more here and here",
+      "links": [
+        "https://www.ipmievents.com/institutes/",
+        "https://www.ipmievents.com/institutes",
+        "https://www.ipmievents.com/institutes/hrmi-can-april-2026"
+      ],
+      "result": "fail",
+      "reason": "Does not identify November 8–10 Banff event or its individual destination; cites past April event."
+    },
+    {
+      "id": "R03",
+      "prompt": "the next HRMI Can",
+      "executed": true,
+      "executedDate": "2026-09-24",
+      "displayedTime": "9:59",
+      "actualAnswer": "It seems your message may be incomplete. Could you please elaborate on your question so I can assist you properly?",
+      "links": [],
+      "result": "fail",
+      "reason": "Does not recognize supplied HRMI Can alias or choose Canadian event."
+    },
+    {
+      "id": "R04",
+      "prompt": "Are Institutes roundtables?",
+      "executed": true,
+      "executedDate": "2026-09-24",
+      "displayedTime": "9:59",
+      "actualAnswer": "Institutes and Think Tanks & Roundtables are two distinct offerings from IPMI.\nInstitutes feature dynamic panel discussions, keynote presentations, practical case studies, and interactive think tanks, complemented by pre-scheduled private business meetings. They bring together CxOs from across North America in an intimate, luxury setting over two-and-a-half days.\nThink Tanks & Roundtables, on the other hand, provide a platform for sharing insights, tools, and resources to help drive organizational success, serving as a go-to outlet for addressing changing priorities and perspectives.\nSo while Institutes may include interactive think tank elements, they are not the same as roundtables. Is there anything else I can assist you with?\nRead more here and here",
+      "links": [
+        "https://www.linkedin.com/company/international-performance-management-institute-ipmi-/?originalSubdomain=ca",
+        "https://www.ipmievents.com/thinktanks"
+      ],
+      "result": "fail",
+      "reason": "Correct distinction but legacy definitions and unrelated LinkedIn citation; not aligned with complete revised FAQ source."
+    },
+    {
+      "id": "R05",
+      "prompt": "How can I attend the EHS institute",
+      "executed": true,
+      "executedDate": "2026-09-24",
+      "displayedTime": "10:00",
+      "actualAnswer": "To attend an IPMI Institute as an audience member, you can learn more and register at www.ipmievents.com/attend.\nPlease note that the EHS Management Institute 2026, which took place January 25–27, 2026 in New Orleans, has already passed. If you are interested in future institutes, you can submit your details via the request form to be reached out about upcoming events. The form requires:\nFull Name\nE-mail Address\nTitle\nCompany / Organization\nCompany Size\nComments\nIs there anything else I can assist you with?\nRead more here and here",
+      "links": [
+        "https://www.ipmievents.com/attend",
+        "https://www.ipmievents.com/institutes/ehs-institute-2026",
+        "https://www.ipmievents.com/faq"
+      ],
+      "result": "fail",
+      "reason": "Does not select January 24–26 2027 Austin; gives old EHS page and generic FAQ."
+    },
+    {
+      "id": "R06",
+      "prompt": "Where is the next HRMI",
+      "executed": true,
+      "executedDate": "2026-09-24",
+      "displayedTime": "10:00",
+      "actualAnswer": "Based on the available knowledge, the most recent upcoming HR Management Institutes have all passed as of today (September 24, 2026). The last known ones were:\nHR Management Institute — June 7–9, 2026, at Park Hyatt Aviara, Carlsbad, CA\nHR Management Institute Canada — April 26–29, 2026, at JW Marriott The Rosseau Muskoka Resort & Spa, ON\nFor information on future institutes, you can submit your details through the Request an Invitation form at https://www.ipmievents.com/institutes/.\nIs there anything else I can assist you with?\nRead more here and here",
+      "links": [
+        "https://www.ipmievents.com/institutes/",
+        "https://www.ipmievents.com/institutes/hrmi-june-2026",
+        "https://www.ipmievents.com/institutes/hrmi-can-april-2026"
+      ],
+      "result": "fail",
+      "reason": "No region clarification; missing known October US and November Canada future events."
+    },
+    {
+      "id": "R07",
+      "prompt": "What is the cost to attend an institute",
+      "executed": true,
+      "executedDate": "2026-09-24",
+      "displayedTime": "10:03",
+      "actualAnswer": "I do not have specific pricing information for attending an institute. I would recommend visiting www.ipmievents.com/attend or reaching out to our team directly at www.ipmievents.com/contact for accurate cost details.\nRead more here",
+      "links": [
+        "https://www.ipmievents.com/attend",
+        "https://www.ipmievents.com/contact",
+        "https://www.ipmievents.com/about"
+      ],
+      "result": "fail",
+      "reason": "Avoids invented price, but unnecessary About citation and no event/role clarification or confirmed inquiry owner. Provider additionally displayed No relevant information found and a Create answer control, neither clicked."
+    },
+    {
+      "id": "R08",
+      "prompt": "Talk to a person",
+      "executed": false,
+      "executedDate": null,
+      "actualAnswer": null,
+      "links": [],
+      "result": "blocked",
+      "reason": "Observed handoff transfers to agent both online and offline. UI/documentation identify Playground as testing but do not establish suppressed human notifications for escalation. No prompt/button submitted; controlled task23 delivery arrangement required."
+    },
+    {
+      "id": "R09",
+      "prompt": "How do institutes work?",
+      "executed": true,
+      "executedDate": "2026-09-24",
+      "displayedTime": "10:03",
+      "actualAnswer": "Our Institutes bring together CxOs from organizations across North America in an intimate, luxury setting for two-and-a-half days of collaborative exchange and leadership development. Here is how they work:\nFormat: Each Institute features dynamic panel discussions, keynote presentations, practical case studies, and interactive think tanks, all complemented by pre-scheduled, private business meetings with leading industry solution providers.\nContent: Developed by Executives, for Executives, in partnership with an exclusive Advisory Committee for each Institute to ensure relevant and topical content.\nSpeakers: Experienced practitioners and executives who share thought leadership, best practices, and lessons learned.\nPartners: Leading service providers contribute cutting-edge thinking, research, and expertise.\nAccreditation: Institutes are trusted and accredited with industry-leading certification providers.\nOutcome: Attendees gain strategies and tactics that can be implemented immediately upon returning to work.\nYou can get involved as an attendee, speaker, or expert partner. Would you like to know more about a specific Institute or how to request an invitation?\nRead more here",
+      "links": [
+        "https://www.linkedin.com/company/international-performance-management-institute-ipmi-/?originalSubdomain=ca"
+      ],
+      "result": "fail",
+      "reason": "Legacy overview, generalized accreditation claim and LinkedIn explanation link instead of revised approved overview/Attend content."
+    },
+    {
+      "id": "R10",
+      "prompt": "What is a think tank?",
+      "executed": true,
+      "executedDate": "2026-09-24",
+      "displayedTime": "10:04",
+      "actualAnswer": "An IPMI Virtual Think Tank is a platform for sharing insights, tools, and resources to help drive organizational success. Think Tanks serve as the go-to outlet for dealing with changing priorities, perspectives, and continued challenges at both the macroeconomic and organizational levels.\nThey are typically interactive sessions featured alongside panel discussions, keynote presentations, and practical case studies — all designed to facilitate critical information exchange and knowledge sharing among executives.\nIs there anything else I can assist you with?\nRead more here",
+      "links": ["https://www.ipmievents.com/faq"],
+      "result": "fail",
+      "reason": "Omits online bespoke gathering definition, conflates virtual offering with Institute sessions and adds redundant generic FAQ citation."
+    },
+    {
+      "id": "R11",
+      "prompt": "what should i wear to the Health IT Institute",
+      "executed": true,
+      "executedDate": "2026-09-24",
+      "displayedTime": "10:06",
+      "actualAnswer": "The dress code for our events is business casual. We encourage a casual and comfortable atmosphere for all event sessions and networking functions.\nRead more here",
+      "links": ["https://www.ipmievents.com/faq"],
+      "result": "fail",
+      "reason": "Matches retained generic FAQ attire wording but HIT/year applicability is not approved, and the redundant FAQ citation repeats its complete answer."
+    },
+    {
+      "id": "R12",
+      "prompt": "what do the business meetings entail?",
+      "executed": true,
+      "executedDate": "2026-09-24",
+      "displayedTime": "10:07",
+      "actualAnswer": "The one-on-one business meetings at our Institutes are a core part of your personalized event agenda. Here is what you can expect:\nSelection process: Prior to the Institute, you will have the opportunity to review attending Service Providers and select 3–5 whose solutions align with your initiatives, interests, and priorities.\nCustomized agenda: Your selections are incorporated into a customized agenda tailored to your goals.\nPrivate meetings: These are private, one-on-one sessions with senior-level specialists.\nDuration: Each meeting is a 30-minute strategic conversation.\nPurpose: They are designed to address your current business challenges and priorities, and to help you gain customer insight and secure lasting partnerships.\nThese meetings complement other sessions such as panel discussions, keynote presentations, and interactive think tanks throughout the event.\nIs there anything else I can assist you with?\nRead more here and here",
+      "links": ["https://www.ipmievents.com/faq", "https://www.ipmievents.com/attend"],
+      "result": "fail",
+      "reason": "Retains superseded 3–5 selection requirement and redundant links rather than approved task04 answer."
+    },
+    {
+      "id": "R13",
+      "prompt": "can i bring my senior manager to the Health IT institute with me",
+      "executed": true,
+      "executedDate": "2026-09-24",
+      "displayedTime": "10:07",
+      "actualAnswer": "I do not have specific information about the Health IT Institute's guest policy. However, for IPMI events in general, guests are welcome to attend the Monday evening dinner function but are asked to refrain from joining the Sunday evening Welcome Dinner and other group meal functions.\nFor details specific to the Health IT Institute, I would recommend reaching out to the IPMI team directly or visiting www.ipmievents.com/attend for more information.\nIs there anything else I can assist you with?\nRead more here",
+      "links": ["https://www.ipmievents.com/attend", "https://www.ipmievents.com/faq"],
+      "result": "fail",
+      "reason": "Treats prospective senior-manager attendance as a social guest question; no event/year clarification or approved attendance owner, and redundant FAQ citation."
+    },
+    {
+      "id": "R14",
+      "prompt": "where is the next HGC institute",
+      "executed": true,
+      "executedDate": "2026-09-24",
+      "displayedTime": "10:09",
+      "actualAnswer": "I was not able to find specific information about an \"HGC institute.\" However, you can view all upcoming institutes at www.ipmievents.com/institutes.\nIf you would like to be notified about future relevant institutes, you can submit your details via the contact form on the website. The form requires your Full Name, Email Address, Title, Company/Organization, and Company Size.\nIs there anything else I can assist you with?\nRead more here",
+      "links": [
+        "https://www.ipmievents.com/institutes",
+        "https://www.ipmievents.com/institutes/talent-acquisition-2026"
+      ],
+      "result": "fail",
+      "reason": "Does not ask full name/region and cites unrelated Talent Acquisition. Provider displayed No relevant information found; Create answer and Talk to a person were not clicked."
+    },
+    {
+      "id": "R15",
+      "prompt": "Where is the next HRMI? Canada, not the US.",
+      "executed": true,
+      "executedDate": "2026-09-24",
+      "displayedTime": "10:10",
+      "actualAnswer": "The HR Management Institute Canada that was scheduled for April 26–29, 2026, at the JW Marriott The Rosseau Muskoka Resort & Spa, ON, has now passed.\nIf you are interested in attending a future institute, you can submit your details through the Request an Invitation form at https://www.ipmievents.com/institutes/. You will need to provide your Full Name, Email Address, Title, Company/Organization, and Company Size.\nRead more here and here",
+      "links": [
+        "https://www.ipmievents.com/institutes/",
+        "https://www.ipmievents.com/institutes/hrmi-can-april-2026",
+        "https://www.ipmievents.com/institutes"
+      ],
+      "result": "fail",
+      "reason": "Respects Canada but still lacks next November Banff event and individual link."
+    },
+    {
+      "id": "R16",
+      "prompt": "Is HRMI Canada April 2026 the next HR Canada event?",
+      "executed": true,
+      "executedDate": "2026-09-24",
+      "displayedTime": "10:11",
+      "actualAnswer": "The HR Management Institute Canada (April 26–29, 2026) has already passed as of today's date, September 24, 2026. If you are interested in future institutes, you can submit your details through the Request an Invitation section at https://www.ipmievents.com/institutes/.\nIs there anything else I can assist you with?\nRead more here and here",
+      "links": [
+        "https://www.ipmievents.com/institutes/",
+        "https://www.ipmievents.com/institutes/hrmi-can-april-2026",
+        "https://www.ipmievents.com/institutes"
+      ],
+      "result": "fail",
+      "reason": "Correctly rejects ended event, but fails the complete criterion by not identifying the known next November Banff event or its individual link."
+    }
+  ]
+}

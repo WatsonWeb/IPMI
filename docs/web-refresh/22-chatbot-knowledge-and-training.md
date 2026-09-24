@@ -3,13 +3,13 @@
 [Back to master](README.md)
 
 - **Owner:** Bryan / chatbot configuration; IPMI marketing and event owners approve factual answers and event routing.
-- **Status:** Documented; provider access, training changes and regression execution are outstanding.
+- **Status:** Prepared; actual Playground baseline executed. Training and staging acceptance remain blocked by missing verified provider isolation; human-handoff case awaits task23.
 - **Sources:** [Web Refresh Master To-Do](https://ipmionline.sharepoint.com/:w:/s/IPMIExternal/IQDcMcTdU_t5RrSMF4cpizzbAYhFRwKUScDDaC1bx0vQCBI), chatbot request; [Chatbot feedback](https://ipmionline.sharepoint.com/:w:/s/IPMIExternal/IQA1MDBRp2t9TrR2Y7DpU2W9AdjD13l41gLegMHfs3xM9ms?e=GFhegT), pages 1–9.
 - **Depends on:** Provider access/test configuration from [21](21-chatbot-appearance-and-installation.md), approved copy from [01](01-homepage-and-institute-overview-copy.md), [03](03-attend-page-copy.md) and [04](04-faq-copy.md), and confirmed event details from [35](35-calendar-content-through-2027.md). Coordinate routing with [23](23-chatbot-handoff.md); only handoff-dependent regression cases await that task. Run final regression in [37](37-staging-verification.md).
 
 ## Target and current evidence
 
-Target the existing Lyro knowledge sources, curated answers and any provider-supported response guidance. The source screenshots identify Lyro; account access and current training configuration remain unverified. The feedback documents responses observed by IPMI, not results reproduced in this documentation pass.
+Target the existing Lyro knowledge sources, curated answers and any provider-supported response guidance. Existing Tidio/Lyro account access and current knowledge/guidance were inspected September 24, 2026; see the implementation evidence below. The feedback documents responses observed by IPMI, not results reproduced in this documentation pass.
 
 The feedback reports unclear brand messaging, irrelevant recommendations, inaccurate event links, stale or contradictory event chronology and repetitive FAQ links. Train against the revised approved website content and event records after their staging updates are ready. Do not infer pricing, eligibility, invitation status or event details from unrelated Institutes.
 
@@ -70,3 +70,13 @@ Required IPMI inputs are approved cost/eligibility and attire guidance, current 
 ## Rollback
 
 Restore the captured source list, curated answers and guidance in the isolated test configuration. Re-ingest the previous approved source set if the provider requires it, then rerun the affected prompts. Preserve test transcripts and failed cases so the issue can be corrected before another staging review.
+
+## September 24, 2026 implementation record
+
+**Prepared, not trained or installed.** [Evidence and exact handoff](evidence/task22/README.md) records the authenticated existing project's 16 website sources, guidance, company description and handoff state. All sources displayed February 19, 2026 timestamps and include seven older event pages plus LinkedIn. There were no manual Q&A entries in the unfiltered inventory. Shared all-domain provider targeting remains an isolation blocker, not an account-access blocker. No provider configuration or website content changed.
+
+The [curated source pack](evidence/task22/sources.json), [26 native event facts](evidence/task22/events.json), [16 exact review answers and criteria](evidence/task22/curated-answers.json), [alias/guidance/refresh proposal](evidence/task22/configuration.json) and [six replacement entries](evidence/task22/replacement-register.json) are complete local preparation. Approved task01/03/04 prose is preserved; placeholder FAQ/testimonial/chair/KBYG content is excluded. Native event facts are provisional pending final schedule approval. Dated next-event examples require recalculation before import; no dynamic date selection or automatic refresh is claimed in the provider.
+
+Actual [Playground transcripts](evidence/task22/baseline-transcripts.json) retain the old bot's answers, links and verdicts. Reset test was used between independent prompts. The handoff case is deliberately unexecuted because observed online/offline rules transfer to agents and suppression of human notifications in that case was not established. No visitor widget, email, form or real human route was exercised. A failed baseline is evidence of the requested repair, not final acceptance. No Add answer/Create answer or shared-source save was used.
+
+The original implementation/acceptance checkboxes remain open where training, refresh proof, verified routing or isolated staging behavior is required. Task23 receives the exact observed transfer settings and unresolved owner/recipient dependencies. Task37 must rerun all cases after isolated training. The local verifier covers chronology boundaries, exclusions, aliases, Horizon behavior and complete transcript status coverage; it does not convert provider failures to passes.

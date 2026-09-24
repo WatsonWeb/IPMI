@@ -1,0 +1,65 @@
+{
+  "status": "local-only",
+  "placeholders": [
+    {
+      "id": "22-cost",
+      "text": "Placeholder — Attendance cost and eligibility guidance is pending IPMI approval. Which Institute and attendee role are you asking about?",
+      "owner": "IPMI event owner",
+      "replacement": "Approved event/audience-specific cost, inclusions, eligibility and inquiry route",
+      "location": "Local curated-answers.json only; not uploaded",
+      "priorValue": null,
+      "applied": false,
+      "approval": null
+    },
+    {
+      "id": "22-attire",
+      "text": "Placeholder — Approved attire guidance for the Healthcare IT Institute is pending. Please confirm the event year so the event team can provide the correct guidance.",
+      "owner": "IPMI Operations / HIT owner",
+      "replacement": "Approved HIT attire guidance with event/date applicability and verified inquiry route",
+      "location": "Local curated-answers.json only; not uploaded",
+      "priorValue": null,
+      "applied": false,
+      "approval": null
+    },
+    {
+      "id": "22-additional-attendee",
+      "text": "Placeholder — An additional attendee requires review by the Institute team. Please identify the Institute and year; I cannot confirm your senior manager’s eligibility.",
+      "owner": "IPMI attendance / HIT owner",
+      "replacement": "Approved additional-attendee policy and recipient; task34 ownership and delivery proof",
+      "location": "Local curated-answers.json only; not uploaded",
+      "priorValue": null,
+      "applied": false,
+      "approval": null
+    },
+    {
+      "id": "22-handoff",
+      "text": "Placeholder — Human handoff is not configured for this review. No message has been sent and no response time is promised.",
+      "owner": "IPMI chatbot owner / task23",
+      "replacement": "Verified recipient, channel, consent copy, operating hours and safe controlled delivery evidence",
+      "location": "Local curated-answers.json only; not uploaded",
+      "priorValue": null,
+      "applied": false,
+      "approval": null
+    },
+    {
+      "id": "22-hgc",
+      "text": "Placeholder — Please confirm the full Institute name and region you mean by HGC so I can identify the correct event.",
+      "owner": "IPMI marketing / event owner",
+      "replacement": "Approved HGC alias mapping; CMS slug alone does not approve acronym expansion",
+      "location": "Local curated-answers.json only; not uploaded",
+      "priorValue": null,
+      "applied": false,
+      "approval": null
+    },
+    {
+      "id": "22-event-approval",
+      "text": "Pending confirmation — Dates and venues are retained from current Webflow records and await final IPMI schedule approval.",
+      "owner": "IPMI event owners / task35",
+      "replacement": "Per-event approval for all 26 IDs in events.json",
+      "location": "Local curated-answers.json only; not uploaded",
+      "priorValue": null,
+      "applied": false,
+      "approval": null
+    }
+  ]
+}

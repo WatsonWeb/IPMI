@@ -1,0 +1,292 @@
+{
+  "source": "Native Webflow read-only snapshot institutes-after-external-agenda-clarification.json",
+  "items": [
+    {
+      "id": "6a735ad6e34946d6f730bc28",
+      "lastUpdated": "2026-08-05T15:46:33.252Z",
+      "fieldData": {
+        "slug": "220-hr-can-2027",
+        "global-start-date": "2027-11-21T00:00:00Z",
+        "location": "JW Marriott Parq, Vancouver, BC",
+        "global-end-date": "2027-11-23T00:00:00Z",
+        "global-institute-title-no-year": "HR Management Institute Canada"
+      }
+    },
+    {
+      "id": "6a7359c09abe3b890a523cb3",
+      "lastUpdated": "2026-08-05T15:44:05.088Z",
+      "fieldData": {
+        "slug": "219-cwi-2027",
+        "global-start-date": "2027-11-07T00:00:00Z",
+        "location": "Park Hyatt Aviara Resort, Carlsbad, CA",
+        "global-end-date": "2027-11-09T00:00:00Z",
+        "global-institute-title-no-year": "Corporate Wellness Institute"
+      }
+    },
+    {
+      "id": "6a7359850566a260d07c29ea",
+      "lastUpdated": "2026-08-05T15:40:57.818Z",
+      "fieldData": {
+        "slug": "218-cni-2027",
+        "global-start-date": "2027-11-07T00:00:00Z",
+        "location": "Four Seasons Hotel Westlake Village, CA",
+        "global-end-date": "2027-11-09T00:00:00Z",
+        "global-institute-title-no-year": "Chief Nursing Institute "
+      }
+    },
+    {
+      "id": "6a73581d396dde8a1eac912f",
+      "lastUpdated": "2026-08-05T15:37:24.318Z",
+      "fieldData": {
+        "slug": "217-hrmi-oct-2027",
+        "global-start-date": "2027-10-17T00:00:00Z",
+        "location": "The Ritz-Carlton, Amelia Island, FL",
+        "global-end-date": "2027-10-19T00:00:00Z",
+        "global-institute-title-no-year": "HR Management Institute"
+      }
+    },
+    {
+      "id": "6a735736f63007d8a10f8aa7",
+      "lastUpdated": "2026-08-05T15:35:41.03Z",
+      "fieldData": {
+        "slug": "216-ip-law-2027",
+        "global-start-date": "2027-10-17T00:00:00Z",
+        "location": "Four Seasons Hotel Westlake Village, CA",
+        "global-end-date": "2027-10-19T00:00:00Z",
+        "global-institute-title-no-year": "IP Law & Management Institute"
+      }
+    },
+    {
+      "id": "6a7356e511519b165c9814e1",
+      "lastUpdated": "2026-08-05T15:29:44.003Z",
+      "fieldData": {
+        "slug": "215-hchr-sept-2027",
+        "global-start-date": "2027-09-19T00:00:00Z",
+        "location": "The Ritz-Carlton, Amelia Island, FL",
+        "global-end-date": "2027-09-21T00:00:00Z",
+        "global-institute-title-no-year": "Healthcare HR Management Institute"
+      }
+    },
+    {
+      "id": "6a7355fe6cf8f06fdda1ba83",
+      "lastUpdated": "2026-08-05T15:25:58.506Z",
+      "fieldData": {
+        "slug": "214-hgc-sept-2027",
+        "global-start-date": "2027-09-12T00:00:00Z",
+        "location": "Four Seasons Hotel Westlake Village, CA",
+        "global-end-date": "2027-09-14T00:00:00Z",
+        "global-institute-title-no-year": "Healthcare Law & Compliance Institute"
+      }
+    },
+    {
+      "id": "6a7353d54b2d405c8281c2e3",
+      "lastUpdated": "2026-08-05T15:19:58.286Z",
+      "fieldData": {
+        "slug": "213-cldi-sept-2027",
+        "global-start-date": "2027-09-12T00:00:00Z",
+        "location": "The Ritz-Carlton Orlando, Grande Lakes, FL",
+        "global-end-date": "2027-09-14T00:00:00Z",
+        "global-institute-title-no-year": "Corporate Learning & Development Institute"
+      }
+    },
+    {
+      "id": "6a735243aa7b56372e436f6d",
+      "lastUpdated": "2026-08-05T15:15:12.659Z",
+      "fieldData": {
+        "slug": "211-hrmi-june-2027",
+        "global-start-date": "2027-06-06T00:00:00Z",
+        "location": "Fairmont Miramar Hotel, Santa Monica, CA",
+        "global-end-date": "2027-06-08T00:00:00Z",
+        "global-institute-title-no-year": "HR Management Institute"
+      }
+    },
+    {
+      "id": "6a734f7e0f9ec23790927eb3",
+      "lastUpdated": "2026-08-05T15:07:24.624Z",
+      "fieldData": {
+        "slug": "29-taeei-can",
+        "global-start-date": "2027-05-30T00:00:00Z",
+        "location": "JW Marriott The Rosseau Muskoka Resort & Spa, ON",
+        "global-end-date": "2027-06-01T00:00:00Z",
+        "global-institute-title-no-year": "Talent Acquisition & Employee Experience Institute Canada"
+      }
+    },
+    {
+      "id": "6a6b7c84b3f42f1434486fe4",
+      "lastUpdated": "2026-07-30T19:34:56.546Z",
+      "fieldData": {
+        "slug": "28-tai-us-2027",
+        "global-start-date": "2027-05-16T00:00:00Z",
+        "location": "The Ritz-Carlton, New Orleans, LA",
+        "global-end-date": "2027-05-18T00:00:00Z",
+        "global-institute-title-no-year": "Talent Acquisition Institute"
+      }
+    },
+    {
+      "id": "6a625aa509d2114b6c18f823",
+      "lastUpdated": "2026-07-23T18:17:13.665Z",
+      "fieldData": {
+        "slug": "hr-can-april-2027",
+        "global-start-date": "2027-04-25T00:00:00Z",
+        "location": "JW Marriott The Rosseau Muskoka Resort & Spa, ON",
+        "global-end-date": "2027-04-27T00:00:00Z",
+        "global-institute-title-no-year": "HR Management Institute Canada"
+      }
+    },
+    {
+      "id": "6a46b02076a8aaadc4a60eb3",
+      "lastUpdated": "2026-09-23T18:33:22.201Z",
+      "fieldData": {
+        "slug": "ehs-july-2027",
+        "global-start-date": "2027-07-25T00:00:00Z",
+        "location": "JW Marriott, Anaheim Resort, CA",
+        "global-end-date": "2027-07-27T00:00:00Z",
+        "global-institute-title-no-year": "EHS Management Institute"
+      }
+    },
+    {
+      "id": "6a46ac429cad4c03adc65259",
+      "lastUpdated": "2026-09-24T13:37:07.398Z",
+      "fieldData": {
+        "slug": "ehs-jan-2027",
+        "global-start-date": "2027-01-24T00:00:00Z",
+        "location": "Four Seasons Hotel, Austin, TX",
+        "global-end-date": "2027-01-26T00:00:00Z",
+        "global-institute-title-no-year": "EHS Management Institute"
+      }
+    },
+    {
+      "id": "6a062fba0e49a14badf21c95",
+      "lastUpdated": "2026-05-28T19:31:18.319Z",
+      "fieldData": {
+        "slug": "hit-2027",
+        "global-start-date": "2027-06-06T00:00:00Z",
+        "location": "The Ritz-Carlton, New Orleans, LA",
+        "global-end-date": "2027-06-08T00:00:00Z",
+        "global-institute-title-no-year": "Healthcare IT Institute"
+      }
+    },
+    {
+      "id": "6a062c48ceedbb1f5325d842",
+      "lastUpdated": "2026-05-14T20:18:46.896Z",
+      "fieldData": {
+        "slug": "hgc-feb-2027",
+        "global-start-date": "2027-02-21T00:00:00Z",
+        "location": "Four Seasons Hotel, Nashville, TN",
+        "global-end-date": "2027-02-23T00:00:00Z",
+        "global-institute-title-no-year": "Healthcare Law & Compliance Institute"
+      }
+    },
+    {
+      "id": "6a048e03a3a8842d897b0a7b",
+      "lastUpdated": "2026-05-13T14:43:15.218Z",
+      "fieldData": {
+        "slug": "cldi-march-2027",
+        "global-start-date": "2027-03-21T00:00:00Z",
+        "location": "Four Seasons Hotel, Las Vegas, NV",
+        "global-end-date": "2027-03-23T00:00:00Z",
+        "global-institute-title-no-year": "Corporate Learning Development Institute"
+      }
+    },
+    {
+      "id": "6a04879eb7bb1f4b01d2f85d",
+      "lastUpdated": "2026-05-13T14:15:58.021Z",
+      "fieldData": {
+        "slug": "hrmi-feb-2027",
+        "global-start-date": "2027-02-21T00:00:00Z",
+        "location": "The Ritz-Carlton Orlando, Grande Lakes, FL",
+        "global-end-date": "2027-02-23T00:00:00Z",
+        "global-institute-title-no-year": "HR Management Institute"
+      }
+    },
+    {
+      "id": "69c4214fdb29400f554e0aa3",
+      "lastUpdated": "2026-03-25T17:54:23.749Z",
+      "fieldData": {
+        "slug": "hfi-2027",
+        "global-start-date": "2027-04-11T00:00:00Z",
+        "location": "Omni Barton Creek, Austin, TX",
+        "global-end-date": "2027-04-13T00:00:00Z",
+        "global-institute-title-no-year": "Healthcare Finance Institute"
+      }
+    },
+    {
+      "id": "69c4204f2ea7175dc8c7bcc2",
+      "lastUpdated": "2026-03-25T17:50:07.234Z",
+      "fieldData": {
+        "slug": "hchrmi-march-2027",
+        "global-start-date": "2027-03-21T00:00:00Z",
+        "location": "The Langham Huntington, Pasadena, CA",
+        "global-end-date": "2027-03-23T00:00:00Z",
+        "global-institute-title-no-year": "Healthcare HR Management Institute"
+      }
+    },
+    {
+      "id": "68f13f6b14773d35b80ea18f",
+      "lastUpdated": "2026-07-21T19:24:39.089Z",
+      "fieldData": {
+        "slug": "cwi-2026",
+        "global-start-date": "2026-11-08T00:00:00Z",
+        "location": "The Ritz-Carlton, Amelia Island, FL",
+        "global-end-date": "2026-11-10T00:00:00Z",
+        "global-institute-title-no-year": "Corporate Wellness Institute"
+      }
+    },
+    {
+      "id": "68ee5828523be4d7c19ad78b",
+      "lastUpdated": "2026-07-02T13:30:38.707Z",
+      "fieldData": {
+        "slug": "cni-2026",
+        "global-start-date": "2026-11-08T00:00:00Z",
+        "location": "Four Seasons, Nashville, TN",
+        "global-end-date": "2026-11-10T00:00:00Z",
+        "global-institute-title-no-year": "Chief Nursing Institute"
+      }
+    },
+    {
+      "id": "68ed935044ff3bb50a197a5e",
+      "lastUpdated": "2026-07-20T15:00:30.965Z",
+      "fieldData": {
+        "slug": "hrmi-canada-nov-2026",
+        "global-start-date": "2026-11-08T00:00:00Z",
+        "location": "Fairmont Banff Springs, Banff, AB",
+        "global-end-date": "2026-11-10T00:00:00Z",
+        "global-institute-title-no-year": "HR Management Institute Canada"
+      }
+    },
+    {
+      "id": "68ed913448c9b512bb7abeae",
+      "lastUpdated": "2026-07-21T19:09:48.951Z",
+      "fieldData": {
+        "slug": "hrmi-oct-2026",
+        "global-start-date": "2026-10-18T00:00:00Z",
+        "location": "The Ritz-Carlton, Orlando, FL",
+        "global-end-date": "2026-10-20T00:00:00Z",
+        "global-institute-title-no-year": "HR Management Institute"
+      }
+    },
+    {
+      "id": "68d55b267c9b7466cf7f635e",
+      "lastUpdated": "2026-06-18T18:07:01.579Z",
+      "fieldData": {
+        "slug": "iplmi-2026",
+        "global-start-date": "2026-10-18T00:00:00Z",
+        "location": "The Fairmont Century Plaza, Los Angeles, CA",
+        "global-end-date": "2026-10-20T00:00:00Z",
+        "global-institute-title-no-year": "IP Law & Management Institute"
+      }
+    },
+    {
+      "id": "689a4db462964a1e231e1fbb",
+      "lastUpdated": "2026-09-24T10:59:43.193Z",
+      "fieldData": {
+        "slug": "healthcare-gci-oct-2026",
+        "global-start-date": "2026-10-04T00:00:00Z",
+        "location": "Park Hyatt Aviara, San Diego, CA",
+        "global-end-date": "2026-10-06T00:00:00Z",
+        "global-institute-title-no-year": "Healthcare Law & Compliance Institute"
+      }
+    }
+  ],
+  "observedDate": "2026-09-24"
+}

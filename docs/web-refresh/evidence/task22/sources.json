@@ -1,0 +1,49 @@
+{
+  "status": "prepared-not-imported",
+  "sources": [
+    {
+      "id": "overview",
+      "source": "01-homepage-and-institute-overview-copy.md",
+      "url": "https://ipmi.webflow.io/institutes",
+      "scope": "Approved overview paragraph only",
+      "text": "Institutes bring together CxOs from organizations across North America in an intimate and luxury setting for two-and-a-half days of networking, information exchange, and collaboration. Institutes are executed with an unwavering commitment to quality and excellence, allowing you to curate a valuable and productive experience."
+    },
+    {
+      "id": "attend",
+      "source": "03-attend-page-copy.md",
+      "url": "https://ipmi.webflow.io/attend#attend",
+      "scope": "Approved attendee-experience paragraph only",
+      "text": "IPMI Institute Attendees receive a unique and unparalleled experience. With a range of engaging opportunities to connect with senior industry executives, encounter the latest strategies, and forge valuable business relationships, attendees customize their event experience by selecting thought leadership sessions, business meetings, and networking functions that directly relate to their goals and objectives."
+    },
+    {
+      "id": "institute",
+      "source": "04-faq-copy.md",
+      "url": "https://ipmi.webflow.io/faq#what-is-an-institute",
+      "scope": "Approved answer body only; exclude retained trailing generic links",
+      "text": "An IPMI Institute is a curated, executive-level event that brings together senior leaders from across industries to share insights, exchange best practices, and collaborate on real world challenges in a focused, immersive setting."
+    },
+    {
+      "id": "thinkTank",
+      "source": "04-faq-copy.md",
+      "url": "https://ipmi.webflow.io/faq#what-is-a-think-tank",
+      "scope": "Approved answer body only; exclude retained trailing generic links",
+      "text": "IPMI's Virtual Think Tanks are online bespoke gatherings for sharing insights, tools, and resources to help drive organizational success, and are the go-to outlet for dealing with changing priorities and perspectives, as well as continued challenges at the macroeconomic and organizational levels."
+    },
+    {
+      "id": "businessMeetings",
+      "source": "04-faq-copy.md",
+      "url": "https://ipmi.webflow.io/faq#what-do-the-business-meetings-look-like",
+      "scope": "Approved answer body only; exclude retained trailing generic links",
+      "text": "An integral part of your event agenda is the one-on-one business meetings with leading Service Providers. These private, pre-selected meetings provide an opportunity to engage with senior-level specialists who can address your current business challenges and priorities during a 30-minute strategic conversation. Prior to the Institute, you will be able to assess the Service Providers who will be attending and select those that offer solutions to match your priorities and initiatives."
+    }
+  ],
+  "excluded": [
+    "Placeholder FAQ 6ab4dcb7c6fcf3d14c3706d1",
+    "Placeholder testimonial 6ab4e34be2c912b57c47208b",
+    "All unapproved testimonial/chair-sponsor/KBYG prose and MeetMax placeholders",
+    "LinkedIn",
+    "Past events as current recommendations",
+    "Unapproved cost, eligibility and attire guidance"
+  ],
+  "importMode": "Curated text/Q&A only until isolated configuration and source approval. Do not crawl whole staging pages that contain placeholders."
+}
