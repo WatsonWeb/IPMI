@@ -7,7 +7,7 @@ export function initStatistics(options: {
 }): void {
   const { countUp, CircularProgressBar } = statisticsVendors();
   const stats = [
-    ["institutes", 17],
+    ["institutes", 20],
     ["cxos", 2000],
     ["speakers", 300],
     ["partners", 200],

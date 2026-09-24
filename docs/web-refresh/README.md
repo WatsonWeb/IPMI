@@ -2,7 +2,7 @@
 
 This package turns the Web Refresh Master To-Do and its supporting documents into 37 independently reviewable implementation tasks. Each task contains its sources, edit targets, steps, dependencies, acceptance checks, and rollback instructions. Start with the catalog below; follow its links for the actual copy, photo mappings, and feature details.
 
-**Package owner:** Bryan / implementation team. **Client content owner:** IPMI. **Prepared:** September 23, 2026, America/Chicago (browser observations continued September 24 UTC). **Delivery status:** Implementation underway; task 01 is staged for review, with its evidence in the task document. Remaining website implementation and integrated staging acceptance remain outstanding. A source request that already appears satisfied is a verification task, not a claim that this refresh implemented it.
+**Package owner:** Bryan / implementation team. **Client content owner:** IPMI. **Prepared:** September 23, 2026, America/Chicago (browser observations continued September 24 UTC). **Delivery status:** Implementation underway; tasks 01–02 are staged for review, with evidence in their task documents. Remaining website implementation and integrated staging acceptance remain outstanding. A source request that already appears satisfied is a verification task, not a claim that this refresh implemented it.
 
 ## Sources and evidence
 
@@ -19,7 +19,7 @@ Source page numbers refer to the browser-rendered documents during this review a
 
 ### Verified baseline
 
-- Before task 01, Home and `/institutes` contained the earlier Institute overview paragraph and homepage feature-card copy. Task 01 also found and updated the repeated overview on `/recent-institutes`; see its staging evidence. The homepage Institute counter remains a task 02 target and resolved to 17 in the baseline.
+- Before task 01, Home and `/institutes` contained the earlier Institute overview paragraph and homepage feature-card copy. Task 01 also found and updated the repeated overview on `/recent-institutes`; see its staging evidence. The homepage Institute counter resolved to 17 in the baseline; task 02 staged Home/About static and animated targets of 20.
 - The general email is `Info@IPMIOnline.com` in the shared footer and Contact page. The public Contact form lacks a phone field.
 - CMS `210. HIT 2027`, slug `hit-2027`, item ID `6a062fba0e49a14badf21c95`, has `On the Horizon` enabled. Its public page already presents pre-registration wording. The CMS attendee-request recipient field was blank; delivery behavior was not tested.
 - CMS counts observed: Institutes 103, Partners 571, Gallery Photos 77, Testimonials 68, FAQs 7, KBYG Pages 4, and KBYG Content Blocks 43. These counts are dated observations, not limits or acceptance targets.
@@ -34,7 +34,7 @@ Status describes **implementation progress**, not whether the Markdown file exis
 | ID  | Task document                                                                               | Owner                            | Implementation status | Dependencies or coordination                                                                    |
 | --- | ------------------------------------------------------------------------------------------- | -------------------------------- | --------------------- | ----------------------------------------------------------------------------------------------- |
 | 01  | [Homepage and repeated Institute overview copy](01-homepage-and-institute-overview-copy.md) | Implementation                   | Staged for review     | Five text values on Home, Upcoming and Recent Institutes; viewport and exact-copy checks passed |
-| 02  | [Institute statistics changed to 20](02-institute-statistics.md)                            | Implementation                   | Ready                 | Verify live static and animation sources                                                        |
+| 02  | [Institute statistics changed to 20](02-institute-statistics.md)                            | Implementation                   | Staged for review     | Home/About static and inline targets 20; responsive, reload, fallback checks passed              |
 | 03  | [Attend page attendee-experience copy](03-attend-page-copy.md)                              | Implementation                   | Ready                 | Source C                                                                                        |
 | 04  | [FAQ answers](04-faq-copy.md)                                                               | Implementation                   | Ready                 | Coordinate 30; informs 22                                                                       |
 | 05  | [Homepage photos](05-homepage-photos.md)                                                    | Implementation                   | Ready                 | Source P01–P04; 19                                                                              |

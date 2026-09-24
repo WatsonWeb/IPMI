@@ -206,7 +206,7 @@ test("Home and About retain their distinct slider configurations and statistical
   );
   assert.deepEqual(
     counters.map((item) => item.value),
-    [17, 2000, 300, 200],
+    [20, 2000, 300, 200],
   );
   assert.equal(started.length, 4);
   swipers.length = counters.length = started.length = circles.length = 0;
@@ -220,7 +220,7 @@ test("Home and About retain their distinct slider configurations and statistical
   );
   assert.deepEqual(
     counters.map((item) => item.value),
-    [17, 2000, 300, 200],
+    [20, 2000, 300, 200],
   );
 });
 
