@@ -34,7 +34,7 @@ const footers = {
   gallery: "Page HTML/Gallery/Gallery-Footer.html",
   faq: "Page HTML/FAQ/FAQ-Footer.html",
   horizon: "Page HTML/Institutes on the Horizon/Horizon-Footer.html",
-  "horizon-routing": "Page HTML/Institutes on the Horizon/Horizon-Routing-Supplement.html",
+  "hit-inquiry-routing": "Page HTML/Institutes on the Horizon/HIT-Routing-Supplement.html",
   institute: "Page HTML/Institute Single/Institute-Footer.html",
   institutes: "Page HTML/Institutes/Institutes-Footer.html",
   recap: "Page HTML/Recap Single/Recap-Footer.html",

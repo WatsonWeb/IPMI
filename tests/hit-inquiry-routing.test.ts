@@ -4,8 +4,8 @@ import { readFileSync } from "node:fs";
 import { runInNewContext } from "node:vm";
 import { beforeEach, test } from "vite-plus/test";
 import { initHorizon } from "../src/site/horizon";
-import { initCategoryForms } from "../src/site/forms";
-import { initHorizonRouting } from "../src/site/horizon-routing";
+import { initCategoryForms, populateUpcomingInstitutes } from "../src/site/forms";
+import { initHitInquiryRouting } from "../src/site/hit-inquiry-routing";
 
 beforeEach(() => {
   document.body.innerHTML = `<div class="horizon-card-inner-wrap"><a href="#invite">HIT</a><div class="event-info" data-slug="hit-2027" data-label="HIT" data-attend-recipient="canonical@example.test"></div></div>
@@ -25,7 +25,7 @@ function choose(value: string) {
 
 test("query selection uses CMS route; dropdown transitions restore baseline and preserve Phone", () => {
   initHorizon(document, "?i=hit-2027");
-  initHorizonRouting();
+  initHitInquiryRouting();
   assert.equal(recipient(), "canonical@example.test");
   const data = new FormData(document.querySelector("form")!);
   assert.equal(data.get("Recipient"), "canonical@example.test");
@@ -40,7 +40,7 @@ test("query selection uses CMS route; dropdown transitions restore baseline and 
 test("legacy card clicks without change events and category transitions cannot retain HIT recipient", () => {
   initHorizon(document, "");
   initCategoryForms();
-  initHorizonRouting();
+  initHitInquiryRouting();
   document.querySelector<HTMLElement>(".horizon-card-inner-wrap a")!.click();
   assert.equal(recipient(), "canonical@example.test");
   const categories = document.querySelectorAll<HTMLElement>(".form-category-link");
@@ -57,7 +57,7 @@ test("legacy card clicks without change events and category transitions cannot r
 test("missing canonical address blocks offline submit propagation and recovers on empty selection", () => {
   document.querySelector(".event-info")!.removeAttribute("data-attend-recipient");
   initHorizon(document, "?i=hit-2027");
-  initHorizonRouting();
+  initHitInquiryRouting();
   assert.equal(recipient(), "");
   assert.equal(select().validity.customError, true);
   const form = document.querySelector("form")!;
@@ -76,8 +76,8 @@ test("missing canonical address blocks offline submit propagation and recovers o
 
 test("reset restores baseline and repeated initialization adds no options", async () => {
   initHorizon(document, "?i=hit-2027");
-  initHorizonRouting();
-  initHorizonRouting();
+  initHitInquiryRouting();
+  initHitInquiryRouting();
   assert.equal(select().options.length, 3);
   document.querySelector("form")!.reset();
   await Promise.resolve();
@@ -103,12 +103,13 @@ test("captured live selector and deferred bundle run in DOMContentLoaded order",
     },
     URLSearchParams,
     Element,
+    MutationObserver,
     queueMicrotask,
   };
   runInNewContext(readFileSync("tests/fixtures/horizon-published-selector.js", "utf8"), context);
   // Simulate a deferred script, for which interactive is before DOMContentLoaded.
   Object.defineProperty(document, "readyState", { configurable: true, value: "interactive" });
-  runInNewContext(readFileSync("dist/horizon-routing.js", "utf8"), context);
+  runInNewContext(readFileSync("dist/hit-inquiry-routing.js", "utf8"), context);
   assert.equal(select().options.length, 1);
   document.dispatchEvent(new Event("DOMContentLoaded"));
   assert.equal(select().options.length, 3);
@@ -119,4 +120,45 @@ test("captured live selector and deferred bundle run in DOMContentLoaded order",
   assert.equal(recipient(), "canonical@example.test");
   choose("");
   assert.equal(recipient(), "baseline@example.test");
+});
+
+test("generic Attend maps native CMS identity after delayed option creation and restores Speaker/Partner", async () => {
+  document.querySelectorAll(".horizon-card-inner-wrap").forEach((card) => card.remove());
+  document.body.insertAdjacentHTML(
+    "beforeend",
+    `<div id="upcoming-institutes">
+    <div class="upcoming-institute" data-slug="hit-2027" data-attend-recipient="canonical@example.test"><div class="upcoming-institute-name">Same title</div><div class="upcoming-institute-date">Jun 6</div></div>
+    <div class="upcoming-institute" data-slug="different-year" data-attend-recipient="other@example.test"><div class="upcoming-institute-name">Same title</div><div class="upcoming-institute-date">Jun 6</div></div>
+  </div>`,
+  );
+  initCategoryForms({ speakAsSpeaker: true });
+  initHitInquiryRouting();
+  populateUpcomingInstitutes();
+  select().selectedIndex = 1;
+  select().dispatchEvent(new Event("change"));
+  assert.equal(recipient(), "canonical@example.test");
+  select().selectedIndex = 2;
+  select().dispatchEvent(new Event("change"));
+  assert.equal(
+    recipient(),
+    "baseline@example.test",
+    "duplicate labels must follow native CMS row identity",
+  );
+  select().selectedIndex = 1;
+  select().dispatchEvent(new Event("change"));
+  document.querySelectorAll<HTMLElement>(".form-category-link")[1]!.click();
+  assert.equal(recipient(), "speaker@example.test");
+  document.querySelectorAll<HTMLElement>(".form-category-link")[2]!.click();
+  assert.equal(recipient(), "partner@example.test");
+  document.querySelectorAll<HTMLElement>(".form-category-link")[0]!.click();
+  assert.equal(recipient(), "canonical@example.test");
+  choose("");
+  assert.equal(recipient(), "baseline@example.test");
+  select().selectedIndex = 1;
+  select().options[1]!.text = "unexpected replacement";
+  select().options[1]!.value = "unexpected replacement";
+  select().dispatchEvent(new Event("change"));
+  assert.equal(select().validity.customError, true);
+  assert.equal(recipient(), "");
+  await Promise.resolve();
 });
