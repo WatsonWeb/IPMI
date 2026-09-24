@@ -1,0 +1,50 @@
+{
+  "checkedAt": "2026-09-24T12:39:11.127Z",
+  "pages": 54,
+  "blocks": 43,
+  "pageChanges": [
+    {
+      "id": "6ab427151e2a1d57f6652add",
+      "slug": "ehs-jan-2027-sponsor",
+      "field": "agenda-title",
+      "before": "Agenda At-A-Glance.",
+      "after": "Institute Agenda"
+    },
+    {
+      "id": "6ab419ab01801a6514d9c07a",
+      "slug": "ehs-jan-2027-delegate",
+      "field": "agenda-title",
+      "before": "Agenda At-A-Glance.",
+      "after": "Institute Agenda"
+    },
+    {
+      "id": "6a9a6378aaffd3efb5e46338",
+      "slug": "hchr-sept-2026-sponsor",
+      "field": "agenda-title",
+      "before": "Agenda At-A-Glance.",
+      "after": "Institute Agenda"
+    },
+    {
+      "id": "6a9a6378aaffd3efb5e46338",
+      "slug": "hchr-sept-2026-sponsor",
+      "field": "agenda-intro",
+      "before": "Times are approximate and subject to change. Please refer to the Event Agenda in the Sponsor Hub for complete program details.",
+      "after": "View the full Institute agenda for program details."
+    },
+    {
+      "id": "6a9a6378aaffd3efb5e46336",
+      "slug": "hchr-sept-2026-delegate",
+      "field": "agenda-title",
+      "before": "Agenda At-A-Glance.",
+      "after": "Institute Agenda"
+    },
+    {
+      "id": "6a9a6378aaffd3efb5e46336",
+      "slug": "hchr-sept-2026-delegate",
+      "field": "agenda-intro",
+      "before": "Times are approximate and subject to change. Please refer to the Event Agenda in the Sponsor Hub for complete program details.",
+      "after": "View the full Institute agenda for program details."
+    }
+  ],
+  "blockChanges": []
+}

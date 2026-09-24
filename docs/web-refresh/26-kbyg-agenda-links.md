@@ -3,7 +3,7 @@
 [Back to master](README.md)
 
 - **Owner:** Bryan / Webflow implementation; IPMI Operations supplies event agenda destinations and approved copy.
-- **Status:** Documented; Webflow implementation and staging acceptance are not started in this documentation pass.
+- **Status:** Provisionally staged for review — compact presentation and navigation verified September 24, 2026; 20 event agenda destinations remain pending Operations.
 - **Sources:** [Web Refresh Master To-Do](https://ipmionline.sharepoint.com/:w:/s/IPMIExternal/IQDcMcTdU_t5RrSMF4cpizzbAYhFRwKUScDDaC1bx0vQCBI), KBYG request to replace Agenda At-A-Glance with agenda links; accepted documentation plan.
 - **Depends on:** The existing shared KBYG template and approved event-specific Agenda Link values. Coordinate added-page coverage with [25](25-kbyg-page-coverage.md) and missing content with [36](36-kbyg-operations-content.md); the existing-page presentation change can proceed before new pages are complete. Validate with [37 — staging verification](37-staging-verification.md).
 
@@ -26,15 +26,15 @@ The local `scripts/check-kbyg-markup.ts` currently requires the literal `Agenda 
 
 ## Ordered Chrome implementation checklist
 
-1. [ ] Open the correct IPMI site in Webflow Designer in **Chrome**, then the KBYG Pages Collection Template. Capture the agenda section, native binding, old copy and current custom-code pins before editing.
-2. [ ] Preview a Delegate and Sponsor record. Confirm whether both use this shared agenda section, and verify the actual linked Institute and Agenda Link field on each.
-3. [ ] Confirm approved agenda destinations against the event/audience matrix in [36](36-kbyg-operations-content.md). Record missing destinations as blocked rows.
-4. [ ] Remove the rendered Agenda Days Collection List/grid through Designer, leaving its CMS data untouched. Keep the existing section, heading ID, navigation anchor and full-agenda CTA.
-5. [ ] Set the heading to `Institute Agenda`; remove obsolete At-A-Glance copy. Keep the CTA connected through the native Webflow field selector to the referenced Institute's Agenda Link.
-6. [ ] Preserve native conditional visibility and the existing empty-content pattern for missing agenda URLs. Verify the empty state is useful and is not duplicated.
-7. [ ] Synchronize only the maintained source corresponding to the actual template. Adjust markup and content checks to require the compact heading, `#agenda` section and bound full-agenda CTA and to reject the obsolete grid. Remove the old presentation's requirement for nonempty `agendaDays` without deleting CMS data or weakening unrelated assertions.
-8. [ ] If runtime or CSS changes prove necessary, publish a separate immutable asset version and select that pin in Webflow. Never overwrite the unversioned shared global CSS URL used by production.
-9. [ ] Publish only to **ipmi.webflow.io**, then complete the checks below. Record staging URLs, screenshots and any unresolved event rows in [37](37-staging-verification.md).
+1. [x] Open the correct IPMI site in Webflow Designer in **Chrome**, then the KBYG Pages Collection Template. Capture the agenda section, native binding, old copy and current custom-code pins before editing.
+2. [x] Preview a Delegate and Sponsor record. Confirm whether both use this shared agenda section, and verify the actual linked Institute and Agenda Link field on each.
+3. [x] Reconcile existing agenda destinations and pending Operations approval against the event/audience matrix in [36](36-kbyg-operations-content.md). Record missing destinations as blocked rows.
+4. [x] Remove the rendered Agenda Days Collection List/grid through Designer, leaving its CMS data untouched. Keep the existing section, heading ID, navigation anchor and full-agenda CTA.
+5. [x] Set the heading to `Institute Agenda`; remove obsolete At-A-Glance copy. Keep the CTA connected through the native Webflow field selector to the referenced Institute's Agenda Link.
+6. [x] Preserve native conditional visibility and the existing empty-content pattern for missing agenda URLs. Verify the empty state is useful and is not duplicated.
+7. [x] Synchronize only the maintained source corresponding to the actual template. Adjust markup and content checks to require the compact heading, `#agenda` section and bound full-agenda CTA and to reject the obsolete grid. Remove the old presentation's requirement for nonempty `agendaDays` without deleting CMS data or weakening unrelated assertions.
+8. [x] If runtime or CSS changes prove necessary, publish a separate immutable asset version and select that pin in Webflow. Never overwrite the unversioned shared global CSS URL used by production.
+9. [x] Publish only to **ipmi.webflow.io**, then complete the checks below. Record staging URLs, screenshots and any unresolved event rows in [37](37-staging-verification.md).
 
 ## Required inputs and dependencies
 
@@ -46,14 +46,32 @@ The local `scripts/check-kbyg-markup.ts` currently requires the literal `Agenda 
 
 ## Acceptance checks
 
-- [ ] Both audience variants show the compact Institute Agenda section and the correct event's agenda document.
-- [ ] Agenda At-A-Glance day cards and obsolete title text are absent from the rendered page.
-- [ ] Desktop pill navigation, mobile navigation and a direct `#agenda` URL reach the visible agenda heading without overlap.
-- [ ] A record with no agenda URL preserves its established empty-content behavior and has no dead or unrelated CTA.
-- [ ] Existing Agenda Days references and records remain available for rollback.
-- [ ] If maintained code changes, run its configured `vp check`, `vp build`, relevant KBYG tests and markup checks; use `vp run verify` when that is the verified checkout's aggregate gate.
-- [ ] At desktop, tablet and mobile widths, the shorter section has correct spacing, readable links and no overflow; indexing behavior is unchanged.
+- [x] Both audience variants show the compact Institute Agenda section and the correct event's agenda document.
+- [x] Agenda At-A-Glance day cards and obsolete title text are absent from the rendered page.
+- [x] Desktop pill navigation, mobile navigation and a direct `#agenda` URL reach the visible agenda heading without overlap.
+- [x] A record with no agenda URL preserves its established empty-content behavior and has no dead or unrelated CTA.
+- [x] Existing Agenda Days references and records remain available for rollback.
+- [x] If maintained code changes, run its configured `vp check`, `vp build`, relevant KBYG tests and markup checks; use `vp run verify` when that is the verified checkout's aggregate gate.
+- [x] At desktop, tablet and mobile widths, the shorter section has correct spacing, readable links and no overflow; indexing behavior is unchanged.
 
 ## Rollback
 
 Restore the captured agenda section and its native Collection List binding in Designer, along with the previous title/intro and asset pins if changed. Reuse retained Agenda Days references; do not recreate or duplicate records. Republish only staging and verify `#agenda` navigation and the correct event link.
+
+## September 24, 2026 completion
+
+Implemented through native Chrome Designer/CMS as IPMI Webmaster. [Evidence](evidence/task26/README.md) includes original fields, exact applied delta, native binding/visibility, staging publication destinations, all-54 HTTP reconciliation, 54-page/43-block preservation, four-width screenshots and measured navigation.
+
+The shared Agenda Days Collection List Wrapper is now **Hidden**, with **Keep in HTML when hidden off**. This deliberately removes the rendered grid and its duplicate empty notice while retaining the native list binding, all Agenda Days references and all 43 blocks for rollback. The `agenda` section and `kbyg-agenda-title` remain. All 54 headings read **Institute Agenda**. Only six CMS fields changed: four original `agenda-title` values and both HCHR `agenda-intro` values, now `View the full Institute agenda for program details.` Existing pending intros remain unchanged.
+
+The CTA retains the native referenced Institute `targets-section-institute-agenda-link` binding. Seven distinct existing Institute URLs serve 14 pages; 20 Institutes / 40 pages have empty destinations and no visible/focusable CTA. Existing empty-link handling remains; no fake destination was authored. The [54-row agenda register](evidence/task26/agenda-register.json) identifies actual page/event IDs, exact URLs/intro text and pending replacements. Final Operations approval remains separate from presentation acceptance.
+
+A reload after a viewport change reproduced browser scroll restoration overriding initial hash alignment: HCHR Delegate at 768px initially aligned, then returned to the prior mobile scrollY 4014, leaving its heading at -522.516px. The scoped runtime re-aligns the initial hash after `pageshow` in an animation frame, skips persisted history restoration and cancels on visitor wheel/touch/pointer/key/change/hash intent. Eight regression cases cover restoration and noninterference. Immutable runtime pin is `1afeaaadea5b1f0a1e5d87819d2443b224e37a06/dist/ipmi-kbyg.js`; CSS pin remains `0bee9be0be82a5cbd03eab614bada158b88957c1/ipmi-kbyg-styles.css`. The exact reload sequence now settles at heading 186.484px, nav bottom 133px, scrollY 3305, active agenda. Original task25 click symptom did not recur in the settled pointer/keyboard/select matrix.
+
+Staging only was published three times, with every displayed production choice unchecked. Native site metadata confirms all four custom-domain timestamps remain unchanged. No CMS Publish now, production publish, forms, email or messages were used.
+
+Validation: targeted runtime/validator 64 tests pass; lint, TypeScript, build, markup, CMS fixture, scope, global CSS and style baseline pass. Full suite is 249/250: the pre-existing task24 calendar entry inventory failure remains task37. Aggregate `vp run verify` stops on accumulated formatting issues (149 files before final scoped formatting), so no full-gate pass is claimed. Protected global CSS SHA256 remains `80EF3C254BEF30F97398B63B0888A934085BB9B371CE4EE74E2E6B20BEFE4496`.
+
+The obsolete Sponsor tablet agenda minimum height (1222px) is overridden only at 768–991px by the six-line supplement `b469ddcbe2f81466fa450a1d187a68ef0739b10c/ipmi-kbyg-agenda.css`. Frozen base CSS and its baseline remain unchanged. Affected sections now measure 287px pending / 342.594px linked. Eighteen additional measured checks cover all three Sponsor examples at 768/991, boundary preservation at 767/992 and reload/navigation.
+
+Task-specific rollback: remove the supplement link; set only the retained agenda wrapper Visible; restore the four title/two intro values from the native verification delta and, if needed, prior runtime pin `298d6f6925b4c91cb7e35bccae0dd3cd790cbbef`. Do not restore whole-site backups or recreate/delete CMS records. Republish staging only and recheck event-specific links/navigation.

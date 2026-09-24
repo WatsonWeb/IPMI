@@ -1,0 +1,814 @@
+- button "Add element":
+- button "Add element":
+- generic: Desktop
+- generic: Affects all resolutions
+- iframe [id="site-iframe-next"]:
+  - banner:
+    - link "home":
+      - /url: /
+      - img "International Performance Management Institute."
+    - navigation:
+      - link "Institutes ":
+        - /url: /institutes
+      - link "Upcoming Institutes":
+        - /url: /institutes
+      - link "Institute Insights":
+        - /url: /insights
+      - link "Recent Institutes":
+        - /url: /recent-institutes
+      - link "Institute Gallery":
+        - /url: /gallery
+      - link "What is an Institute?":
+        - /url: /faq#what-is-an-institute
+      - link "Think Tanks & Roundtables ":
+        - /url: /thinktanks
+      - link "Upcoming Think Tanks & Roundtables":
+        - /url: /thinktanks
+      - link "Recent Think Tanks & Roundtables":
+        - /url: /thinktanks#recent
+      - link "What is a Think Tank?":
+        - /url: /faq#what-is-a-think-tank
+      - link "About IPMI ":
+        - /url: /about
+      - link "About IPMI":
+        - /url: /about
+      - link "Testimonials":
+        - /url: /testimonials
+      - link "FAQ":
+        - /url: /faq
+      - link "Attend an Institute":
+        - /url: /attend
+      - link "Speak at an Institute":
+        - /url: /attend#speak
+      - link "Partner with IPMI":
+        - /url: /attend#partner
+      - link "Contact Us":
+        - /url: /contact
+      - link "Attend an institute":
+        - /url: /attend
+  - main:
+    - generic "Know Before You Go.":
+      - paragraph: 2027-11-21 – 2027-11-23
+      - heading "Know Before You Go." [level=1]:
+        - text: Know Before You
+        - strong: Go.
+      - paragraph: HR Management Institute Canada
+      - paragraph: JW Marriott Parq, Vancouver, BC
+      - paragraph: Placeholder — This Sponsor guide is awaiting Operations confirmation.
+      - link "VIEW INSTITUTE GUIDE":
+        - /url: "#welcome"
+    - navigation "On this page":
+      - list:
+        - link "WELCOME":
+          - /url: "#welcome"
+        - link "PREPARE":
+          - /url: "#prepare"
+        - link "DATES":
+          - /url: "#key-dates"
+        - link "AGENDA":
+          - /url: "#agenda"
+        - link "HUB":
+          - /url: "#hub"
+        - link "HOTEL":
+          - /url: "#hotel-travel"
+        - link "MEETINGS":
+          - /url: "#experience"
+        - link "SUPPORT":
+          - /url: "#sponsor-support"
+        - link "CONTACT":
+          - /url: "#contact"
+      - text: ▾ ▾
+    - region "Your Sponsor guide.":
+      - paragraph: WELCOME
+      - heading "Your Sponsor guide." [level=2]
+      - paragraph: Placeholder — Event arrangements and instructions are awaiting Operations confirmation.
+      - paragraph: Placeholder — Sponsor welcome information is awaiting Operations confirmation.
+      - complementary "Operations lead":
+        - paragraph: YOUR OPERATIONS LEAD
+        - paragraph: IPMI
+        - list
+    - paragraph: BEFORE YOU ARRIVE
+    - heading "Preparing for your Institute." [level=2]
+    - paragraph: Placeholder — Sponsor preparation instructions are awaiting Operations confirmation.
+    - generic: Check back soon for preparation details!
+    - paragraph: MARK YOUR CALENDAR
+    - heading "Key Dates & Deliverables." [level=2]
+    - paragraph: Placeholder — Sponsor deadlines are awaiting Operations confirmation.
+    - link "VIEW ALL KEY DATES":
+      - /url: "#hub"
+    - generic: Check back soon for Key Dates & Deliverables!
+    - region "Institute Agenda":
+      - paragraph: EVENT PROGRAM
+      - heading "Institute Agenda" [level=2]
+      - paragraph: Placeholder — The event agenda is awaiting Operations confirmation.
+      - text: This collection does not contain any items
+    - paragraph: EVENT ACCESS
+    - heading "Sponsor Hub." [level=2]
+    - paragraph: Placeholder — Sponsor MeetMax access and login instructions are awaiting Operations confirmation.
+    - region "Hotel & Travel.":
+      - paragraph: HOTEL & TRAVEL
+      - heading "Hotel & Travel." [level=2]
+      - iframe
+      - article:
+        - heading "JW Marriott Parq, Vancouver, BC" [level=3]
+        - paragraph: 39 Smithe St, Vancouver BC V6B 0R3
+      - article:
+        - heading "Hotel Reservations" [level=3]
+        - paragraph: Placeholder — Sponsor reservation instructions, eligibility, rates and deadlines are awaiting Operations confirmation.
+      - article:
+        - heading "Transportation" [level=3]
+    - paragraph: YOUR EXPERIENCE
+    - heading "Your Institute Experience." [level=2]
+    - paragraph: Placeholder — Sponsor experience details are awaiting Operations confirmation.
+    - complementary "How Meetings Are Scheduled":
+      - heading "How Meetings Are Scheduled" [level=3]
+      - generic: Check back soon for business meetings and onsite experience details!
+    - generic: Check back soon for business meetings and onsite experience details!
+    - region "Sponsor Support.":
+      - paragraph: SPONSOR SUPPORT
+      - heading "Sponsor Support." [level=2]
+      - paragraph: Placeholder — Sponsor support instructions and destination are awaiting Operations confirmation.
+    - region "Questions Before You Go?":
+      - paragraph: OPERATIONS CONTACT
+      - heading "Questions Before You Go?" [level=2]
+      - paragraph: Placeholder — The Operations contact is awaiting confirmation.
+      - complementary "Contact your Operations Lead":
+        - paragraph: YOUR OPERATIONS LEAD
+        - list
+  - contentinfo:
+    - link "Back To Top":
+      - /url: "#top"
+      - generic: 
+    - link "International Performance Management Institute.":
+      - /url: /
+      - img "International Performance Management Institute."
+    - list:
+      - generic: 
+      - link "info@ipmievents.com":
+        - /url: mailto:info@ipmievents.com
+      - generic: 
+      - link "(416) 628-4058":
+        - /url: tel:+14166284058
+      - generic: 
+      - text: 151 Bloor Street W.
+      - text: Toronto, ON
+      - text: Canada M5S1S4
+    - heading "Institutes" [level=6]:
+      - link "Institutes":
+        - /url: /institutes
+    - list:
+      - link "Upcoming Institutes":
+        - /url: /institutes
+      - link "Institute Insights":
+        - /url: /insights
+      - link "Recent Institutes":
+        - /url: /recent-institutes
+      - link "Institute Gallery":
+        - /url: /gallery
+      - link "What is an Institute?":
+        - /url: /faq#what-is-an-institute
+    - heading "Think Tanks & Roundtables" [level=6]:
+      - link "Think Tanks & Roundtables":
+        - /url: /thinktanks
+        - text: Think Tanks &
+        - text: Roundtables
+    - list:
+      - link "Upcoming Think Tanks":
+        - /url: /thinktanks
+      - link "Recent Think Tanks":
+        - /url: /thinktanks#recent
+      - link "What is a Think Tank?":
+        - /url: /faq#what-is-a-virtual-think-tank
+    - heading "About IPMI" [level=6]:
+      - link "About IPMI":
+        - /url: /about
+    - list:
+      - link "About IPMI":
+        - /url: /about
+      - link "Testimonials":
+        - /url: /testimonials
+      - link "FAQ":
+        - /url: /faq
+      - link "Attend an Institute":
+        - /url: /attend
+      - link "Speak at an Institute":
+        - /url: /attend#speak
+      - link "Partner with IPMI":
+        - /url: /attend#partner
+    - heading "Contact Us" [level=6]:
+      - link "Contact Us":
+        - /url: /contact
+    - list:
+      - link "Contact Us":
+        - /url: /contact
+    - heading "Connect" [level=6]
+    - list:
+      - link "IPMI LinkedIn":
+        - /url: https://www.linkedin.com/company/international-performance-management-institute-ipmi-/?originalSubdomain=ca
+        - generic: 
+  - generic: © International Performance Management Institute. All Rights Reserved.
+  - link "Privacy Policy":
+    - /url: /privacy
+  - text: "|"
+  - link "Terms and Conditions":
+    - /url: /terms
+- iframe [id="responsive-images-iframe"]:
+  - banner:
+    - link "home":
+      - /url: /
+      - img "International Performance Management Institute."
+    - link "Menu":
+      - /url: "#"
+  - main:
+    - generic "Know Before You Go.":
+      - paragraph: 2027-11-21 – 2027-11-23
+      - heading "Know Before You Go." [level=1]:
+        - text: Know Before You
+        - strong: Go.
+      - paragraph: HR Management Institute Canada
+      - paragraph: JW Marriott Parq, Vancouver, BC
+      - paragraph: Placeholder — This Sponsor guide is awaiting Operations confirmation.
+      - link "VIEW INSTITUTE GUIDE":
+        - /url: "#welcome"
+    - navigation "On this page":
+      - text: ▾
+      - form "Html Form":
+        - generic: "JUMP TO:"
+        - combobox "JUMP TO:":
+          - option "WELCOME" [selected]
+          - option "PREPARE"
+          - option "DATES"
+          - option "AGENDA"
+          - option "HUB"
+          - option "HOTEL"
+          - option "MEETINGS"
+          - option "SUPPORT"
+          - option "CONTACT"
+      - text: ▾
+    - region "Your Sponsor guide.":
+      - paragraph: WELCOME
+      - heading "Your Sponsor guide." [level=2]
+      - paragraph: Placeholder — Event arrangements and instructions are awaiting Operations confirmation.
+      - paragraph: Placeholder — Sponsor welcome information is awaiting Operations confirmation.
+      - complementary "Operations lead":
+        - paragraph: YOUR OPERATIONS LEAD
+        - paragraph: IPMI
+        - list
+    - paragraph: BEFORE YOU ARRIVE
+    - heading "Preparing for your Institute." [level=2]
+    - paragraph: Placeholder — Sponsor preparation instructions are awaiting Operations confirmation.
+    - generic: Check back soon for preparation details!
+    - paragraph: MARK YOUR CALENDAR
+    - heading "Key Dates & Deliverables." [level=2]
+    - paragraph: Placeholder — Sponsor deadlines are awaiting Operations confirmation.
+    - link "VIEW ALL KEY DATES":
+      - /url: "#hub"
+    - generic: Check back soon for Key Dates & Deliverables!
+    - region "Institute Agenda":
+      - paragraph: EVENT PROGRAM
+      - heading "Institute Agenda" [level=2]
+      - paragraph: Placeholder — The event agenda is awaiting Operations confirmation.
+    - paragraph: EVENT ACCESS
+    - heading "Sponsor Hub." [level=2]
+    - paragraph: Placeholder — Sponsor MeetMax access and login instructions are awaiting Operations confirmation.
+    - region "Hotel & Travel.":
+      - paragraph: HOTEL & TRAVEL
+      - heading "Hotel & Travel." [level=2]
+      - iframe
+      - article:
+        - heading "JW Marriott Parq, Vancouver, BC" [level=3]
+        - paragraph: 39 Smithe St, Vancouver BC V6B 0R3
+      - article:
+        - heading "Hotel Reservations" [level=3]
+        - paragraph: Placeholder — Sponsor reservation instructions, eligibility, rates and deadlines are awaiting Operations confirmation.
+      - article:
+        - heading "Transportation" [level=3]
+    - paragraph: YOUR EXPERIENCE
+    - heading "Your Institute Experience." [level=2]
+    - paragraph: Placeholder — Sponsor experience details are awaiting Operations confirmation.
+    - complementary "How Meetings Are Scheduled":
+      - heading "How Meetings Are Scheduled" [level=3]
+      - generic: Check back soon for business meetings and onsite experience details!
+    - generic: Check back soon for business meetings and onsite experience details!
+    - region "Sponsor Support.":
+      - paragraph: SPONSOR SUPPORT
+      - heading "Sponsor Support." [level=2]
+      - paragraph: Placeholder — Sponsor support instructions and destination are awaiting Operations confirmation.
+    - region "Questions Before You Go?":
+      - paragraph: OPERATIONS CONTACT
+      - heading "Questions Before You Go?" [level=2]
+      - paragraph: Placeholder — The Operations contact is awaiting confirmation.
+      - complementary "Contact your Operations Lead":
+        - paragraph: YOUR OPERATIONS LEAD
+        - list
+  - contentinfo:
+    - link "Back To Top":
+      - /url: "#top"
+    - link "International Performance Management Institute.":
+      - /url: /
+      - img "International Performance Management Institute."
+    - list:
+      - link "info@ipmievents.com":
+        - /url: mailto:info@ipmievents.com
+      - link "(416) 628-4058":
+        - /url: tel:+14166284058
+      - text: 151 Bloor Street W.
+      - text: Toronto, ON
+      - text: Canada M5S1S4
+    - link "View sitemap":
+      - /url: "#"
+    - link "Close sitemap":
+      - /url: "#"
+  - generic: © International Performance Management Institute. All Rights Reserved.
+  - link "Privacy Policy":
+    - /url: /privacy
+  - text: "|"
+  - link "Terms and Conditions":
+    - /url: /terms
+  - link "Close Menu":
+    - /url: "#"
+    - text: CLOSE
+  - button "Institutes":
+    - generic: Institutes
+  - button "Think Tanks & Roundtables":
+    - generic: Think Tanks & Roundtables
+  - button "About IPMI":
+    - generic: About IPMI
+  - link "Contact Us":
+    - /url: /contact
+  - link "Attend an Institute":
+    - /url: /attend
+- button "File menu button":
+- button "Design" [pressed]:
+  - generic: Design
+- button "CMS":
+  - generic: CMS
+- button "Insights":
+  - generic: Insights
+- button "Select a locale" [disabled]:
+  - generic: EN-US
+- separator
+- button "220. HR Can 2027 Sponsor":
+  - generic: 220. HR Can 2027 Sponsor
+- button "Published":
+  - generic: Published
+- button "IPMI Webmaster (active) on page KBYG Pages Template":
+  - generic: IPMI Webmaster
+  - generic: IW
+- button "Comments (C)":
+- button "Preview (Alt + P)":
+- button "Share":
+  - generic: Share
+- button "Publish":
+  - button "Publish":
+    - generic: Publish
+- button "Add Elements (A)":
+- button "Pages (P)" [pressed]:
+- button "Navigator (Z)":
+- separator
+- button "Components (Shift A)":
+- button "Variables (V)":
+- button "Style selectors (G)":
+- button "Assets (J)":
+- button "Libraries (L)":
+- button "Instructions":
+- separator
+- button "Apps (E)":
+- button "Localize":
+- button "Settings":
+- button "Learning Assistant":
+- button "Audits (U)":
+- button "Find anything (CTRL + E)":
+- button "Video tutorials":
+- heading "Navigator" [level=2]
+- button "Collapse all":
+- button "Unpin the Navigator":
+- generic: Body
+- generic: Custom Styles
+- generic: kbyg-page
+- generic: Desktop Navigation
+- generic: Main
+- generic: kbyg-hero
+- generic: kbyg-hero__backdrop
+- generic: KBYG Orlando skyline
+- generic: kbyg-container
+- generic: kbyg-hero__copy
+- generic: kbyg-hero__actions
+- generic: kbyg-hero__media
+- generic: kbyg-curve
+- generic: kbyg-jump
+- generic: kbyg-section
+- generic: kbyg-curve
+- generic: kbyg-section
+- generic: kbyg-curve
+- generic: kbyg-section
+- generic: kbyg-curve
+- generic: kbyg-section
+- generic: kbyg-container
+- generic: kbyg-section__header
+- generic: kbyg-section__eyebrow
+- generic: kbyg-section__title
+- generic: kbyg-section__intro
+- generic: Collection List Wrapper
+- generic: kbyg-section__actions
+- generic: kbyg-curve
+- generic: kbyg-section
+- generic: kbyg-curve
+- generic: kbyg-section
+- generic: kbyg-curve
+- generic: kbyg-section
+- generic: kbyg-curve
+- generic: kbyg-section
+- generic: kbyg-section
+- generic: kbyg-curve
+- generic: kbyg-button
+- generic: kbyg-button
+- button "Create component":
+- generic: Style
+- generic: Settings
+- generic: Interactions
+- generic: ID
+- textbox "ID attribute input":
+  - /placeholder: For in-page linking
+- button:
+- generic: Visibility
+- radiogroup:
+  - radio "Visible" [checked]:
+    - generic: Visible
+  - radio "Hidden":
+    - generic: Hidden
+- button:
+- generic "Link Settings":
+  - generic: Link settings
+- generic: Link
+- generic: Targets Section - Institute Agenda Link
+- button "Go to CMS":
+- generic: Text
+- generic: Agenda CTA Label
+- button "Go to CMS":
+- text: Get URL from
+- text: KBYG Pages
+- note:
+  - generic: This is disabled as the element is already connected to a component property
+- generic: Dynamic Style Settings
+- text: Get Text Color from
+- text: KBYG Pages
+- text: Get BG Image from
+- text: KBYG Pages
+- text: Get BG Color from
+- text: KBYG Pages
+- text: Get Border Color from
+- text: KBYG Pages
+- generic "Custom attributes":
+  - generic: Custom attributes
+  - generic: Attributes
+  - button "Add new attribute":
+  - generic "Attributes Add new attribute"
+- generic: Advanced
+- checkbox "Keep in HTML when hidden"
+- generic: Keep in HTML when hidden
+- checkbox "Exclude Link’s content from site search results"
+- generic: Exclude Link’s content from site search results
+- button "Undo":
+- button "Redo" [disabled]:
+- separator
+- button "Body":
+  - generic: Body
+- button "kbyg-container":
+  - generic: kbyg-container
+- button "kbyg-section__actions":
+  - generic: kbyg-section__actions
+- button "kbyg-button":
+  - generic: kbyg-button
+- button "Canvas settings. Current viewport width is 1279px.":
+  - generic: 1279px
+- button "1920px and up":
+- button "1440px and up":
+- button "1280px and up":
+- 'button "Desktop: Base breakpoint" [pressed]':
+- 'button "Tablet: 991px and down"':
+- 'button "Mobile (L): 767px and down"':
+- 'button "Mobile: 479px and down"':
+- button "Expand canvas":
+- heading "Pages" [level=2]
+- button "Create folder":
+- button "Add page":
+- textbox "Search pages and folders"
+- button "Search CMS collections":
+- text: Pages
+- generic: Home
+- generic: Upcoming Institutes
+- generic: Insights
+- generic: Recent Institutes
+- generic: Institutes on the Horizon
+- generic: Gallery
+- generic: Think Tanks & Roundtables
+- generic: About IPMI
+- generic: Download Events App
+- generic: Testimonials
+- generic: Frequently Asked Questions
+- generic: Contact Us
+- generic: Attend an Institute
+- generic: Privacy Policy
+- generic: Terms and Conditions
+- generic: Recaps
+- generic: Upcoming Institutes - Agents
+- generic: Private
+- generic: Style Guide
+- text: CMS collection pages
+- generic: KBYG Content Blocks Template
+- generic: KBYG Pages Template
+- button "Search CMS collection":
+- button "Add page":
+- generic "Users currently viewing this page":
+  - generic: IPMI Webmaster
+  - generic: I
+- button "220. HR Can 2027 Sponsor":
+  - generic: 220. HR Can 2027 Sponsor
+- button "View all pages in this Collection":
+  - generic: View all pages in this Collection
+- separator
+- generic: Institutes Template
+- generic: Recaps Template
+- generic: Think Tanks Template
+- generic: Staff Template
+- generic: Speakers Template
+- generic: Partners Template
+- generic: Accreditations Template
+- generic: Testimonials Template
+- generic: Downloads Template
+- generic: Gallery Photos Template
+- generic: FAQs Template
+- text: Utility pages
+- generic: Password
+- generic: "404"
+- text: Static page templates
+- generic: No static page templates
+- generic: Create a template and then select it when setting up a new static page.
+- text: Ecommerce pages
+- heading "KBYG Pages Template settings" [level=2]
+- button "Close":
+  - generic: Close
+- button "Save":
+  - generic: Save
+- note:
+  - generic: You’re editing a Collection Template. Changes here will affect all pages that use this template.
+- generic: General
+- region:
+  - generic: Parent folder
+  - combobox:
+    - generic: None
+  - generic: www.ipmievents.com/
+  - generic: know-before-you-go
+  - generic: /item-slug
+- generic: Access control
+- region:
+  - generic: Restrict access
+  - text: Manage who can access this page when it's published.
+  - radiogroup:
+    - generic "Public":
+      - generic: Public
+    - generic "Anyone with the password":
+      - generic: Anyone with the password
+  - note:
+    - generic: Anyone on the internet can access this page.
+- generic: Publish settings
+- region:
+  - generic: Publish this Collection Template page
+  - text: Switch this off to prevent this Collection's item pages from being published.
+  - checkbox "ON" [checked]
+  - generic: "ON"
+- generic: SEO settings
+- region:
+  - generic: Define a template for page titles and descriptions using Collection fields. You can see how they'll look in search engine results pages (SERPs) in the preview below.
+  - generic: Search result preview (showing 20 items)
+  - button "Previous":
+  - button "Next":
+  - generic: IP Law & Management Institute Know Before You Go — sponsor
+  - generic: www.ipmievents.com/know-before-you-go/216-ip-law-2027-sponsor
+  - generic: Placeholder — This Sponsor guide is awaiting Operations confirmation.
+  - note:
+    - generic: This preview uses the typical character limits for Google search result pages on desktop. Search engines do experiment with their character limits, and may decide to show different content.
+  - generic: Title tag
+  - button:
+  - button "+ Add field":
+    - generic: + Add field
+  - button "Clear the field to generate again." [disabled]:
+    - generic: Generate
+  - textbox
+  - text: "Institute: Global - Institute Title (No Year)"
+  - text: Know Before You Go —
+  - text: Audience
+  - generic: Meta description
+  - button:
+  - button "+ Add field":
+    - generic: + Add field
+  - button "Clear the field to generate again." [disabled]:
+    - generic: Generate
+  - textbox
+  - text: Hero Intro
+- generic: Open Graph settings
+- region:
+  - generic: The info that shows up when sharing content on Facebook, X (Twitter), LinkedIn, and Pinterest.
+  - generic: Open Graph preview (showing 20 items)
+  - button "Previous":
+  - button "Next":
+  - generic: IP Law & Management Institute Know Before You Go — sponsor
+  - generic: Placeholder — This Sponsor guide is awaiting Operations confirmation.
+  - generic: www.ipmievents.com/know-before-you-go/216-ip-law-2027-sponsor
+  - generic: Open Graph title
+  - button "+ Add field":
+    - generic: + Add field
+  - textbox
+  - text: "Institute: Global - Institute Title (No Year)"
+  - text: Know Before You Go —
+  - text: Audience
+  - checkbox "Same as SEO title tag": x
+  - generic: Same as SEO title tag
+  - generic: Open Graph description
+  - button "+ Add field":
+    - generic: + Add field
+  - textbox
+  - text: Hero Intro
+  - checkbox "Same as SEO meta description": x
+  - generic: Same as SEO meta description
+  - generic: Open Graph image
+  - combobox "Open Graph image":
+    - generic: "Institute: Global - Institute Thumbnail"
+- generic: Site search settings
+- region:
+  - generic: The information that is presented in site search results. After making changes here, republish your site, then start a re-index of your site in search settings.
+  - checkbox "Exclude these pages from site search results": x
+  - generic: Exclude these pages from site search results
+  - generic: Search title
+  - textbox [disabled]
+  - generic: "Institute: Global - Institute Title (No Year)"
+  - text: Know Before You Go —
+  - generic: Audience
+  - checkbox "Same as SEO title tag" [checked]: x
+  - generic: Same as SEO title tag
+  - generic: Search description
+  - textbox [disabled]
+  - generic: Hero Intro
+  - checkbox "Same as SEO description tag" [checked]: x
+  - generic: Same as SEO description tag
+  - generic: Search image
+  - generic: "Institute: Global - Institute Thumbnail"
+  - checkbox "Same as Open Graph image URL" [checked]: x
+  - generic: Same as Open Graph image URL
+- generic: RSS feed settings
+- region:
+  - generic: Publish a feed so RSS reader users can subscribe and get updates when you publish new KBYG Pages.
+  - generic: Enable RSS 2.0 feed for KBYG Page pages
+  - checkbox
+- generic: Schema markup
+- region:
+  - text: Add schema markup to help search and answer engines understand and display your content.
+  - link "Learn more":
+    - /url: https://help.webflow.com/hc/en-us/articles/45766917223955-Add-schema-markup-in-Webflow-to-improve-SEO-and-AEO#h_01K85MQH1W7D9JVNYC3NNARHWR
+    - text: Learn more
+  - generic: JSON-LD schema
+  - button "Add field":
+    - generic: Add field
+  - button "Generate with AI":
+    - generic: Generate schema markup
+  - button "Search":
+  - button "Expand editor":
+  - generic: "1"
+  - textbox
+  - button "Prettify":
+    - generic: Prettify
+  - checkbox "Line wrapping" [checked]: x
+  - generic: Line wrapping
+- generic: Custom code
+- region:
+  - text: Code here applies to this page only, after site-wide custom code, and goes live when published.
+  - generic: Inside <head> tag
+  - button "Add field":
+    - generic: Add field
+  - button "Search":
+  - button "Expand editor":
+  - generic: "1"
+  - generic: "2"
+  - generic: "3"
+  - generic: "4"
+  - generic: "5"
+  - generic: "6"
+  - generic: "7"
+  - generic: "8"
+  - generic: "9"
+  - generic: "10"
+  - generic: "11"
+  - generic: "12"
+  - generic: "13"
+  - generic: "14"
+  - generic: "15"
+  - generic: "16"
+  - generic: "17"
+  - generic: "18"
+  - generic: "19"
+  - generic: "20"
+  - generic: "21"
+  - generic: "22"
+  - generic: "23"
+  - generic: "24"
+  - generic: "25"
+  - generic: "26"
+  - generic: "27"
+  - generic: "28"
+  - generic: "29"
+  - generic: "30"
+  - generic: "31"
+  - generic: "32"
+  - generic: "33"
+  - generic: "34"
+  - generic: "35"
+  - generic: "36"
+  - generic: "37"
+  - generic: "38"
+  - generic: "39"
+  - generic: "40"
+  - generic: "41"
+  - generic: "42"
+  - generic: "43"
+  - generic: "44"
+  - generic: "45"
+  - generic: "46"
+  - generic: "47"
+  - generic: "48"
+  - generic: "49"
+  - generic: "50"
+  - generic: "51"
+  - generic: "52"
+  - textbox:
+    - generic: <!--
+    - generic: KBYG collection-template <head> custom code.
+    - generic: "STYLES: the single stylesheet source and Institute color bindings live in"
+    - generic: the native Custom Styles embed before .kbyg-page. This CSS-only embed also
+    - generic: renders in Designer. Do not add a duplicate KBYG link/import to custom head code.
+    - generic: "WEBFLOW CMS BINDINGS (configured in Designer, not represented as fake tokens):"
+    - generic: "- SEO title: {Referenced Institute Name} Know Before You Go — {Audience}"
+    - generic: "- Meta description: KBYG Page > Hero Intro"
+    - generic: "- Open Graph image: Referenced Institute > Thumbnail"
+    - generic: "- The .kbyg-page root in KBYG-Template.html:"
+    - generic: data-audience <- KBYG Page > Audience, normalized to lowercase
+    - generic: "--kbyg-accent <- Referenced Institute > Accent Color"
+    - generic: "--kbyg-accent-dark <- Referenced Institute > Accent Dark"
+    - generic: "-->"
+    - generic: <meta name="robots" content="noindex,follow" />
+    - text: <meta name="kbyg-industry" content="
+    - 'button "Institute: Global - Institute Category"':
+      - text: "Institute: Global - Institute Category"
+    - text: "\" />"
+    - generic: <style>
+    - generic: .kbyg-page[data-audience="delegate"] [data-kbyg-audience-branch="sponsor"],
+    - generic: ".kbyg-page[data-audience=\"sponsor\"] [data-kbyg-audience-branch=\"delegate\"] {"
+    - generic: "display: none !important;"
+    - generic: "}"
+    - generic: </style>
+    - generic: <script>
+    - generic: "(function () {"
+    - generic: var match = String(window.location.pathname || "")
+    - generic: .toLowerCase()
+    - generic: .match(/-(delegate|sponsor)\/?$/);
+    - generic: "var audience = match ? match[1] : \"delegate\";"
+    - generic: "function applyAudience() {"
+    - generic: var root = document.querySelector(".kbyg-page");
+    - generic: if (!root) return;
+    - generic: root.setAttribute("data-audience", audience);
+    - generic: root
+    - generic: .querySelectorAll(
+    - generic: "'[data-kbyg-audience-branch]:not([data-kbyg-audience-branch=\"' + audience + '\"])',"
+    - generic: )
+    - generic: ".forEach(function (branch) {"
+    - generic: branch.remove();
+    - generic: "});"
+    - generic: "}"
+    - generic: var observer = new MutationObserver(applyAudience);
+    - generic: "observer.observe(document.documentElement, { childList: true, subtree: true });"
+    - generic: "document.addEventListener(\"DOMContentLoaded\", function () {"
+    - generic: applyAudience();
+    - generic: observer.disconnect();
+    - generic: "});"
+    - generic: "})();"
+    - generic: </script>
+  - button "Prettify":
+    - generic: Prettify
+  - checkbox "Line wrapping" [checked]: x
+  - generic: Line wrapping
+  - generic: Before </body> tag
+  - button "Add field":
+    - generic: Add field
+  - button "Search":
+  - button "Expand editor":
+  - generic: "1"
+  - generic: "2"
+  - textbox:
+    - generic: <!-- KBYG CMS rendering and automatic empty-content notices -->
+    - generic: <script src="https://cdn.jsdelivr.net/gh/WatsonWeb/IPMI@298d6f6925b4c91cb7e35bccae0dd3cd790cbbef/dist/ipmi-kbyg.js" defer></script>
+  - button "Prettify":
+    - generic: Prettify
+  - checkbox "Line wrapping": x
+  - generic: Line wrapping
+- region "Notifications Alt+T"
+- status: 1Password menu is available. Press down arrow to select.

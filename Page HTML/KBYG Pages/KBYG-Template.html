@@ -854,109 +854,12 @@
         <header class="kbyg-section__header">
           <!-- WEBFLOW BIND: KBYG Page > Agenda Eyebrow/Title/Intro. -->
           <p class="kbyg-section__eyebrow">PLAN YOUR DAILY SCHEDULE</p>
-          <h2 id="kbyg-agenda-title" class="kbyg-section__title">Agenda At-A-Glance.</h2>
-          <p class="kbyg-section__intro">
-            Times are approximate and subject to change. Please refer to the Event Agenda in the
-            Sponsor Hub for complete program details.
-          </p>
+          <h2 id="kbyg-agenda-title" class="kbyg-section__title">Institute Agenda</h2>
+          <p class="kbyg-section__intro">View the full Institute agenda for program details.</p>
         </header>
-        <!--
-          WEBFLOW COLLECTION LIST: KBYG Page > Agenda Days, preserving multi-reference order.
-          Require Block Type = Agenda Day and Audience Scope = Shared or the current audience.
-        -->
-        <div class="kbyg-agenda-grid">
-          <article class="kbyg-agenda-card">
-            <h3 class="kbyg-agenda-card__header">
-              <span class="kbyg-agenda-card__icon" aria-hidden="true">
-                <img
-                  src="https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6a9a663c452b111de6552397_kbyg-calendar-clock.svg"
-                  alt=""
-                  loading="lazy"
-                  decoding="async"
-                />
-              </span>
-              DAY 1 - SUNDAY
-            </h3>
-            <ul class="kbyg-agenda-card__list">
-              <li class="kbyg-agenda-card__row">
-                <time class="kbyg-agenda-card__time">12:00 PM - 1:00 PM</time>
-                <span class="kbyg-agenda-card__item">Registration &amp; Welcome</span>
-              </li>
-              <li class="kbyg-agenda-card__row">
-                <time class="kbyg-agenda-card__time">1:00 PM - 6:30 PM</time>
-                <span class="kbyg-agenda-card__item"
-                  >Conference Sessions, Think Tanks &amp; Business Meetings</span
-                >
-              </li>
-              <li class="kbyg-agenda-card__row">
-                <time class="kbyg-agenda-card__time">6:30 PM - 8:00 PM</time>
-                <span class="kbyg-agenda-card__item">Welcome Reception &amp; Dinner</span>
-              </li>
-            </ul>
-          </article>
-          <article class="kbyg-agenda-card">
-            <h3 class="kbyg-agenda-card__header">
-              <span class="kbyg-agenda-card__icon" aria-hidden="true">
-                <img
-                  src="https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6a9a663c452b111de6552397_kbyg-calendar-clock.svg"
-                  alt=""
-                  loading="lazy"
-                  decoding="async"
-                />
-              </span>
-              DAY 2 - MONDAY
-            </h3>
-            <ul class="kbyg-agenda-card__list">
-              <li class="kbyg-agenda-card__row">
-                <time class="kbyg-agenda-card__time">7:30 AM - 8:30 AM</time>
-                <span class="kbyg-agenda-card__item">Breakfast</span>
-              </li>
-              <li class="kbyg-agenda-card__row">
-                <time class="kbyg-agenda-card__time">8:30 AM - 6:30 PM</time>
-                <span class="kbyg-agenda-card__item"
-                  >Event Programming, Breakouts &amp; Business Meetings</span
-                >
-              </li>
-              <li class="kbyg-agenda-card__row">
-                <time class="kbyg-agenda-card__time">12:00 PM - 1:00 PM</time>
-                <span class="kbyg-agenda-card__item">Networking Lunch</span>
-              </li>
-              <li class="kbyg-agenda-card__row">
-                <time class="kbyg-agenda-card__time">6:30 PM - 8:00 PM</time>
-                <span class="kbyg-agenda-card__item">Dinner &amp; Evening Entertainment</span>
-              </li>
-            </ul>
-          </article>
-          <article class="kbyg-agenda-card">
-            <h3 class="kbyg-agenda-card__header">
-              <span class="kbyg-agenda-card__icon" aria-hidden="true">
-                <img
-                  src="https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6a9a663c452b111de6552397_kbyg-calendar-clock.svg"
-                  alt=""
-                  loading="lazy"
-                  decoding="async"
-                />
-              </span>
-              DAY 3 - TUESDAY
-            </h3>
-            <ul class="kbyg-agenda-card__list">
-              <li class="kbyg-agenda-card__row">
-                <time class="kbyg-agenda-card__time">7:30 AM - 8:30 AM</time>
-                <span class="kbyg-agenda-card__item">Breakfast</span>
-              </li>
-              <li class="kbyg-agenda-card__row">
-                <time class="kbyg-agenda-card__time">8:30 AM - 12:00 PM</time>
-                <span class="kbyg-agenda-card__item"
-                  >Conference Sessions, Think Tanks &amp; Business Meetings</span
-                >
-              </li>
-              <li class="kbyg-agenda-card__row">
-                <time class="kbyg-agenda-card__time">12:00 PM</time>
-                <span class="kbyg-agenda-card__item">Closing Remarks &amp; Event Conclusion</span>
-              </li>
-            </ul>
-          </article>
-        </div>
+        <!-- WEBFLOW: Agenda Days Collection List Wrapper is Hidden, with Keep in HTML
+          when hidden off. Native binding, multi-references, and blocks remain for rollback.
+          Empty agenda URLs retain the page's existing pending intro without a duplicate notice. -->
         <div class="kbyg-section__actions">
           <!-- WEBFLOW BIND: href = Referenced Institute > Agenda Link. -->
           <a

@@ -1,0 +1,58 @@
+Browser tab: 1953600721, Title: "Webflow - IPMI", URL: "https://ipmi.design.webflow.com/?locale=en-US&pageId=6a9a5f7c77769cbf46ce29ec&itemId=6ab50d5f9c872074f0aeff9a&workflow=canvas".
+0 AXWebArea Webflow - IPMI, URL: ipmi.design.webflow.com/?locale=en-US&pageId=6a9a5f7c77769cbf46ce29ec&itemId=6ab50d5f9c872074f0aeff9a&workflow=canvas
+	55 container designer-app-react-mount
+		56 container
+			57 pop up button (collapsed) Description: File menu button, Secondary Actions: Expand
+			58 checkbox Design, Value: 1
+				59 text Design
+			60 checkbox CMS, Value: 0
+				61 text CMS
+			62 checkbox Insights, Value: 0
+				63 text Insights
+			64 checkbox Description: Select a locale, Value: 0
+				65 text EN-US
+			66 checkbox 220. HR Can 2027 Sponsor, Value: 0
+				67 text 220. HR Can 2027 Sponsor
+			68 button Published
+			69 container
+				70 button IPMI Webmaster (active) on page KBYG Pages Template
+					71 text IPMI Webmaster
+				72 checkbox Description: Comments (C), Value: 0, ID: annotations-button
+			73 checkbox Description: Preview (Alt + P), Value: 0, ID: preview-mode-button
+			74 button Share
+			75 pop up button (expanded) Publish, Secondary Actions: Collapse
+				76 button Publish
+		77 container publish-targets
+			78 text Choose publish destination
+			79 container
+				80 heading Staging, Value: 2
+					81 text Staging
+				82 content list
+					83 container
+						84 checkbox (settable, integer) Description: ipmi.webflow.io Open in new tab, Value: 1, ID: r7sq
+						85 text ipmi.webflow.io
+						86 link Description: Open in new tab, Value: ipmi.webflow.io/know-before-you-go/220-hr-can-2027-sponsor
+						87 text Published 17 minutes ago •
+						88 link Description: Unpublish domain, Value: ipmi.design.webflow.com/?locale=en-US&pageId=6a9a5f7c77769cbf46ce29ec&itemId=6ab50d5f9c872074f0aeff9a&workflow=canvas#
+				89 heading Production, Value: 2
+					90 text Production
+				91 content list
+					92 container
+						93 checkbox (settable, integer) Description: www.ipmievents.com Open in new tab, Value: 0, ID: r7sr
+						94 text www.ipmievents.com
+						95 link Description: Open in new tab, Value: ipmievents.com/know-before-you-go/220-hr-can-2027-sponsor
+						96 text Published 9 hours ago •
+						97 link Description: Unpublish domain, Value: ipmi.design.webflow.com/?locale=en-US&pageId=6a9a5f7c77769cbf46ce29ec&itemId=6ab50d5f9c872074f0aeff9a&workflow=canvas#
+			98 text Advanced publishing options
+			99 button 10 issues to improve on this page
+				100 text 10
+				101 text issue
+				102 text s
+				103 text  to improve on this page
+			104 button Close
+			105 button Publish to selected domains
+	52 container grammarly-integration
+		53 text {"mode":"full","isActive":true,"isUserDisabled":false}
+	54 container grammarly-global-assistant-notch
+
+The focused UI element is 84 checkbox (settable, integer) Description: ipmi.webflow.io Open in new tab, Value: 1, ID: r7sq

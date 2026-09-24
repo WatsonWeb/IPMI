@@ -488,7 +488,7 @@ export function validateKbygModel(model: unknown = {}): string[] {
         errors.push(`Page ${id} field ${listName} must be an ordered array.`);
         continue;
       }
-      if (listName !== "faqs" && references.length === 0) {
+      if (listName !== "faqs" && listName !== "agendaDays" && references.length === 0) {
         errors.push(`Page ${id} field ${listName} must reference at least one block.`);
       }
       if (listName === "faqs") faqReferences = references;

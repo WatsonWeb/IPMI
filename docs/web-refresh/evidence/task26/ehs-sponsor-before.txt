@@ -1,0 +1,625 @@
+- button "Add element":
+- button "Add element":
+- generic: Desktop
+- generic: Affects all resolutions
+- iframe [id="site-iframe-next"]:
+  - banner:
+    - link "home":
+      - /url: /
+      - img "International Performance Management Institute."
+    - navigation:
+      - link "Institutes ":
+        - /url: /institutes
+      - link "Upcoming Institutes":
+        - /url: /institutes
+      - link "Institute Insights":
+        - /url: /insights
+      - link "Recent Institutes":
+        - /url: /recent-institutes
+      - link "Institute Gallery":
+        - /url: /gallery
+      - link "What is an Institute?":
+        - /url: /faq#what-is-an-institute
+      - link "Think Tanks & Roundtables ":
+        - /url: /thinktanks
+      - link "Upcoming Think Tanks & Roundtables":
+        - /url: /thinktanks
+      - link "Recent Think Tanks & Roundtables":
+        - /url: /thinktanks#recent
+      - link "What is a Think Tank?":
+        - /url: /faq#what-is-a-think-tank
+      - link "About IPMI ":
+        - /url: /about
+      - link "About IPMI":
+        - /url: /about
+      - link "Testimonials":
+        - /url: /testimonials
+      - link "FAQ":
+        - /url: /faq
+      - link "Attend an Institute":
+        - /url: /attend
+      - link "Speak at an Institute":
+        - /url: /attend#speak
+      - link "Partner with IPMI":
+        - /url: /attend#partner
+      - link "Contact Us":
+        - /url: /contact
+      - link "Attend an institute":
+        - /url: /attend
+  - main:
+    - generic "Know Before You Go.":
+      - paragraph: 2027-11-21 – 2027-11-23
+      - heading "Know Before You Go." [level=1]:
+        - text: Know Before You
+        - strong: Go.
+      - paragraph: HR Management Institute Canada
+      - paragraph: JW Marriott Parq, Vancouver, BC
+      - paragraph: Placeholder — This Sponsor guide is awaiting Operations confirmation.
+      - link "VIEW INSTITUTE GUIDE":
+        - /url: "#welcome"
+    - navigation "On this page":
+      - list:
+        - link "WELCOME":
+          - /url: "#welcome"
+        - link "PREPARE":
+          - /url: "#prepare"
+        - link "DATES":
+          - /url: "#key-dates"
+        - link "AGENDA":
+          - /url: "#agenda"
+        - link "HUB":
+          - /url: "#hub"
+        - link "HOTEL":
+          - /url: "#hotel-travel"
+        - link "MEETINGS":
+          - /url: "#experience"
+        - link "SUPPORT":
+          - /url: "#sponsor-support"
+        - link "CONTACT":
+          - /url: "#contact"
+      - text: ▾ ▾
+    - region "Your Sponsor guide.":
+      - paragraph: WELCOME
+      - heading "Your Sponsor guide." [level=2]
+      - paragraph: Placeholder — Event arrangements and instructions are awaiting Operations confirmation.
+      - paragraph: Placeholder — Sponsor welcome information is awaiting Operations confirmation.
+      - complementary "Operations lead":
+        - paragraph: YOUR OPERATIONS LEAD
+        - paragraph: IPMI
+        - list
+    - paragraph: BEFORE YOU ARRIVE
+    - heading "Preparing for your Institute." [level=2]
+    - paragraph: Placeholder — Sponsor preparation instructions are awaiting Operations confirmation.
+    - generic: Check back soon for preparation details!
+    - paragraph: MARK YOUR CALENDAR
+    - heading "Key Dates & Deliverables." [level=2]
+    - paragraph: Placeholder — Sponsor deadlines are awaiting Operations confirmation.
+    - link "VIEW ALL KEY DATES":
+      - /url: "#hub"
+    - generic: Check back soon for Key Dates & Deliverables!
+    - region "Institute Agenda":
+      - paragraph: EVENT PROGRAM
+      - heading "Institute Agenda" [level=2]
+      - paragraph: Placeholder — The event agenda is awaiting Operations confirmation.
+      - text: This collection does not contain any items
+    - paragraph: EVENT ACCESS
+    - heading "Sponsor Hub." [level=2]
+    - paragraph: Placeholder — Sponsor MeetMax access and login instructions are awaiting Operations confirmation.
+    - region "Hotel & Travel.":
+      - paragraph: HOTEL & TRAVEL
+      - heading "Hotel & Travel." [level=2]
+      - iframe
+      - article:
+        - heading "JW Marriott Parq, Vancouver, BC" [level=3]
+        - paragraph: 39 Smithe St, Vancouver BC V6B 0R3
+      - article:
+        - heading "Hotel Reservations" [level=3]
+        - paragraph: Placeholder — Sponsor reservation instructions, eligibility, rates and deadlines are awaiting Operations confirmation.
+      - article:
+        - heading "Transportation" [level=3]
+    - paragraph: YOUR EXPERIENCE
+    - heading "Your Institute Experience." [level=2]
+    - paragraph: Placeholder — Sponsor experience details are awaiting Operations confirmation.
+    - complementary "How Meetings Are Scheduled":
+      - heading "How Meetings Are Scheduled" [level=3]
+      - generic: Check back soon for business meetings and onsite experience details!
+    - generic: Check back soon for business meetings and onsite experience details!
+    - region "Sponsor Support.":
+      - paragraph: SPONSOR SUPPORT
+      - heading "Sponsor Support." [level=2]
+      - paragraph: Placeholder — Sponsor support instructions and destination are awaiting Operations confirmation.
+    - region "Questions Before You Go?":
+      - paragraph: OPERATIONS CONTACT
+      - heading "Questions Before You Go?" [level=2]
+      - paragraph: Placeholder — The Operations contact is awaiting confirmation.
+      - complementary "Contact your Operations Lead":
+        - paragraph: YOUR OPERATIONS LEAD
+        - list
+  - contentinfo:
+    - link "Back To Top":
+      - /url: "#top"
+      - generic: 
+    - link "International Performance Management Institute.":
+      - /url: /
+      - img "International Performance Management Institute."
+    - list:
+      - generic: 
+      - link "info@ipmievents.com":
+        - /url: mailto:info@ipmievents.com
+      - generic: 
+      - link "(416) 628-4058":
+        - /url: tel:+14166284058
+      - generic: 
+      - text: 151 Bloor Street W.
+      - text: Toronto, ON
+      - text: Canada M5S1S4
+    - heading "Institutes" [level=6]:
+      - link "Institutes":
+        - /url: /institutes
+    - list:
+      - link "Upcoming Institutes":
+        - /url: /institutes
+      - link "Institute Insights":
+        - /url: /insights
+      - link "Recent Institutes":
+        - /url: /recent-institutes
+      - link "Institute Gallery":
+        - /url: /gallery
+      - link "What is an Institute?":
+        - /url: /faq#what-is-an-institute
+    - heading "Think Tanks & Roundtables" [level=6]:
+      - link "Think Tanks & Roundtables":
+        - /url: /thinktanks
+        - text: Think Tanks &
+        - text: Roundtables
+    - list:
+      - link "Upcoming Think Tanks":
+        - /url: /thinktanks
+      - link "Recent Think Tanks":
+        - /url: /thinktanks#recent
+      - link "What is a Think Tank?":
+        - /url: /faq#what-is-a-virtual-think-tank
+    - heading "About IPMI" [level=6]:
+      - link "About IPMI":
+        - /url: /about
+    - list:
+      - link "About IPMI":
+        - /url: /about
+      - link "Testimonials":
+        - /url: /testimonials
+      - link "FAQ":
+        - /url: /faq
+      - link "Attend an Institute":
+        - /url: /attend
+      - link "Speak at an Institute":
+        - /url: /attend#speak
+      - link "Partner with IPMI":
+        - /url: /attend#partner
+    - heading "Contact Us" [level=6]:
+      - link "Contact Us":
+        - /url: /contact
+    - list:
+      - link "Contact Us":
+        - /url: /contact
+    - heading "Connect" [level=6]
+    - list:
+      - link "IPMI LinkedIn":
+        - /url: https://www.linkedin.com/company/international-performance-management-institute-ipmi-/?originalSubdomain=ca
+        - generic: 
+  - generic: © International Performance Management Institute. All Rights Reserved.
+  - link "Privacy Policy":
+    - /url: /privacy
+  - text: "|"
+  - link "Terms and Conditions":
+    - /url: /terms
+- iframe [id="responsive-images-iframe"]:
+  - banner:
+    - link "home":
+      - /url: /
+      - img "International Performance Management Institute."
+    - link "Menu":
+      - /url: "#"
+  - main:
+    - generic "Know Before You Go.":
+      - paragraph: 2027-11-21 – 2027-11-23
+      - heading "Know Before You Go." [level=1]:
+        - text: Know Before You
+        - strong: Go.
+      - paragraph: HR Management Institute Canada
+      - paragraph: JW Marriott Parq, Vancouver, BC
+      - paragraph: Placeholder — This Sponsor guide is awaiting Operations confirmation.
+      - link "VIEW INSTITUTE GUIDE":
+        - /url: "#welcome"
+    - navigation "On this page":
+      - text: ▾
+      - form "Html Form":
+        - generic: "JUMP TO:"
+        - combobox "JUMP TO:":
+          - option "WELCOME" [selected]
+          - option "PREPARE"
+          - option "DATES"
+          - option "AGENDA"
+          - option "HUB"
+          - option "HOTEL"
+          - option "MEETINGS"
+          - option "SUPPORT"
+          - option "CONTACT"
+      - text: ▾
+    - region "Your Sponsor guide.":
+      - paragraph: WELCOME
+      - heading "Your Sponsor guide." [level=2]
+      - paragraph: Placeholder — Event arrangements and instructions are awaiting Operations confirmation.
+      - paragraph: Placeholder — Sponsor welcome information is awaiting Operations confirmation.
+      - complementary "Operations lead":
+        - paragraph: YOUR OPERATIONS LEAD
+        - paragraph: IPMI
+        - list
+    - paragraph: BEFORE YOU ARRIVE
+    - heading "Preparing for your Institute." [level=2]
+    - paragraph: Placeholder — Sponsor preparation instructions are awaiting Operations confirmation.
+    - generic: Check back soon for preparation details!
+    - paragraph: MARK YOUR CALENDAR
+    - heading "Key Dates & Deliverables." [level=2]
+    - paragraph: Placeholder — Sponsor deadlines are awaiting Operations confirmation.
+    - link "VIEW ALL KEY DATES":
+      - /url: "#hub"
+    - generic: Check back soon for Key Dates & Deliverables!
+    - region "Institute Agenda":
+      - paragraph: EVENT PROGRAM
+      - heading "Institute Agenda" [level=2]
+      - paragraph: Placeholder — The event agenda is awaiting Operations confirmation.
+    - paragraph: EVENT ACCESS
+    - heading "Sponsor Hub." [level=2]
+    - paragraph: Placeholder — Sponsor MeetMax access and login instructions are awaiting Operations confirmation.
+    - region "Hotel & Travel.":
+      - paragraph: HOTEL & TRAVEL
+      - heading "Hotel & Travel." [level=2]
+      - iframe
+      - article:
+        - heading "JW Marriott Parq, Vancouver, BC" [level=3]
+        - paragraph: 39 Smithe St, Vancouver BC V6B 0R3
+      - article:
+        - heading "Hotel Reservations" [level=3]
+        - paragraph: Placeholder — Sponsor reservation instructions, eligibility, rates and deadlines are awaiting Operations confirmation.
+      - article:
+        - heading "Transportation" [level=3]
+    - paragraph: YOUR EXPERIENCE
+    - heading "Your Institute Experience." [level=2]
+    - paragraph: Placeholder — Sponsor experience details are awaiting Operations confirmation.
+    - complementary "How Meetings Are Scheduled":
+      - heading "How Meetings Are Scheduled" [level=3]
+      - generic: Check back soon for business meetings and onsite experience details!
+    - generic: Check back soon for business meetings and onsite experience details!
+    - region "Sponsor Support.":
+      - paragraph: SPONSOR SUPPORT
+      - heading "Sponsor Support." [level=2]
+      - paragraph: Placeholder — Sponsor support instructions and destination are awaiting Operations confirmation.
+    - region "Questions Before You Go?":
+      - paragraph: OPERATIONS CONTACT
+      - heading "Questions Before You Go?" [level=2]
+      - paragraph: Placeholder — The Operations contact is awaiting confirmation.
+      - complementary "Contact your Operations Lead":
+        - paragraph: YOUR OPERATIONS LEAD
+        - list
+  - contentinfo:
+    - link "Back To Top":
+      - /url: "#top"
+    - link "International Performance Management Institute.":
+      - /url: /
+      - img "International Performance Management Institute."
+    - list:
+      - link "info@ipmievents.com":
+        - /url: mailto:info@ipmievents.com
+      - link "(416) 628-4058":
+        - /url: tel:+14166284058
+      - text: 151 Bloor Street W.
+      - text: Toronto, ON
+      - text: Canada M5S1S4
+    - link "View sitemap":
+      - /url: "#"
+    - link "Close sitemap":
+      - /url: "#"
+  - generic: © International Performance Management Institute. All Rights Reserved.
+  - link "Privacy Policy":
+    - /url: /privacy
+  - text: "|"
+  - link "Terms and Conditions":
+    - /url: /terms
+  - link "Close Menu":
+    - /url: "#"
+    - text: CLOSE
+  - button "Institutes":
+    - generic: Institutes
+  - button "Think Tanks & Roundtables":
+    - generic: Think Tanks & Roundtables
+  - button "About IPMI":
+    - generic: About IPMI
+  - link "Contact Us":
+    - /url: /contact
+  - link "Attend an Institute":
+    - /url: /attend
+- button "File menu button":
+- button "Design":
+  - generic: Design
+- button "CMS" [pressed]:
+  - generic: CMS
+- button "Insights":
+  - generic: Insights
+- generic: IPMI
+- button "IPMI Webmaster (active) on page KBYG Pages Template":
+  - generic: IPMI Webmaster
+  - generic: IW
+- button "Preview (Alt + P)":
+- button "Share":
+  - generic: Share
+- heading "CMS Collections" [level=2]
+- button "More menu":
+- button "Create collection":
+- textbox "Search Collections":
+  - /placeholder: Search Collections...
+- status
+- button:
+- button "KBYG Content Blocks 43 items":
+  - generic: KBYG Content Blocks
+  - generic: 43 items
+- button:
+- button "KBYG Pages 54 items":
+  - generic: KBYG Pages
+  - generic: 54 items
+- button:
+- button "Institutes 103 items":
+  - generic: Institutes
+  - generic: 103 items
+- button:
+- button "Recaps 78 items":
+  - generic: Recaps
+  - generic: 78 items
+- button:
+- button "Think Tanks 36 items":
+  - generic: Think Tanks
+  - generic: 36 items
+- button:
+- button "Staff 12 items":
+  - generic: Staff
+  - generic: 12 items
+- button:
+- button "Speakers 2710 items":
+  - generic: Speakers
+  - generic: 2710 items
+- button:
+- button "Partners 572 items":
+  - generic: Partners
+  - generic: 572 items
+- button:
+- button "Accreditations 7 items":
+  - generic: Accreditations
+  - generic: 7 items
+- button:
+- button "Testimonials 69 items":
+  - generic: Testimonials
+  - generic: 69 items
+- button:
+- button "Downloads 967 items":
+  - generic: Downloads
+  - generic: 967 items
+- button:
+- button "Gallery Photos 79 items":
+  - generic: Gallery Photos
+  - generic: 79 items
+- button:
+- button "FAQs 8 items":
+  - generic: FAQs
+  - generic: 8 items
+- status
+- separator
+- heading "Ecommerce" [level=2]
+- button "Open":
+- heading "KBYG Pages New item" [level=2]:
+  - heading "KBYG Pages New item" [level=2]:
+    - heading "KBYG Pages" [level=2]
+    - button "New item":
+- table:
+  - columnheader "Name":
+    - button "Name":
+      - generic: Name
+  - rowgroup:
+    - row "EHS Jan 2027 Sponsor Users currently viewing this cms item":
+      - generic: EHS Jan 2027 Sponsor
+      - generic "Users currently viewing this cms item":
+        - generic: IPMI Webmaster
+        - generic: I
+    - row "EHS Jan 2027 Delegate":
+      - generic: EHS Jan 2027 Delegate
+- button:
+- heading "EHS Jan 2027 Sponsor" [level=2]
+- generic: Published
+- separator
+- button "View content on page":
+- button "Publish now":
+  - generic: Publish now
+- button "More":
+- generic: Basic info
+- generic: Name
+- textbox: EHS Jan 2027 Sponsor
+- generic: Slug
+- textbox: ehs-jan-2027-sponsor
+- generic: www.ipmievents.com/know-before-you-go/
+- generic: ehs-jan-2027-sponsor
+- button "Custom fields More options" [expanded]:
+  - generic: Custom fields
+  - button "More options":
+- generic: Institute
+- generic: 21. EHS Jan 2027
+- button:
+- generic: Audience
+- generic: sponsor
+- generic: Operations Lead
+- generic: Tori Di Clemente
+- button:
+- generic: Hero Image
+- generic: KBYG Header Image 1.webp
+- generic: 1280 x 720 • 245.4 kB
+- link "Preview file":
+  - /url: https://cdn.prod.website-files.com/6312ee46f4c52faf21ee8ab5/6ab42c78b94c2e08f98100ff_KBYG%20Header%20Image%201.webp
+- generic: Replace
+- button "Choose File"
+- button "Delete":
+  - generic: Delete
+- generic: Hero Image Alt
+- textbox: Attendee viewing the Know Before You Go event app in a hotel lobby
+- generic: Hub Image
+- generic: KBYG Sponsor Hub Photo.webp
+- generic: 600 x 430 • 127 kB
+- link "Preview file":
+  - /url: https://cdn.prod.website-files.com/6312ee46f4c52faf21ee8ab5/6ab42e451e2a1d57f6682720_KBYG%20Sponsor%20Hub%20Photo.webp
+- generic: Replace
+- button "Choose File"
+- button "Delete":
+  - generic: Delete
+- generic: Hub Image Alt
+- textbox: Attendee using a tablet while colleagues meet in a hotel lounge
+- generic: Preparation
+- combobox
+- generic: Pick KBYG Content Blocks...
+- button "Toggle options":
+- button "Add":
+- generic: Key Dates
+- combobox
+- generic: Pick KBYG Content Blocks...
+- button "Toggle options":
+- button "Add":
+- generic: Agenda Days
+- combobox
+- generic: Pick KBYG Content Blocks...
+- button "Toggle options":
+- button "Add":
+- generic: Experience
+- combobox
+- generic: Pick KBYG Content Blocks...
+- button "Toggle options":
+- button "Add":
+- generic: FAQs
+- combobox
+- generic: Pick KBYG Content Blocks...
+- button "Toggle options":
+- button "Add":
+- generic: Hero Eyebrow
+- textbox: JANUARY 24-26, 2027
+- generic: Hero Intro
+- textbox: Your essential guide to key deliverables, team preparation, business meetings, travel, and everything you need for a smooth, successful onsite experience.
+- generic: Hero CTA Label
+- textbox: VIEW INSTITUTE GUIDE
+- generic: Hero CTA URL
+- textbox: "#welcome"
+- generic: Welcome Eyebrow
+- textbox: WELCOME
+- generic: Welcome Title
+- textbox: Welcome, we’re excited to see you soon!
+- generic: Welcome Intro
+- paragraph: Everything you need to prepare, travel, and arrive ready is gathered here in one focused guide, making the weeks before the Institute feel clear, organized, and manageable.
+- generic: Welcome Body
+- paragraph: Welcome to the 2027 EHS Management Institute—an exclusive opportunity to connect with senior EHS executives, gain valuable industry insights, and build meaningful business relationships.
+- paragraph: To help you maximize your experience and ensure a successful event, there are a few important pre-event steps to complete in the weeks ahead. This guide outlines everything you need to know, including key deadlines, deliverables, and event details.
+- paragraph: Your Operations Lead, Tori Di Clemente, will be available throughout the planning process to answer questions, provide support, and ensure you are fully prepared for a productive and successful event experience.
+- generic: Preparation Eyebrow
+- textbox: BEFORE YOU ARRIVE
+- generic: Preparation Title
+- textbox: Preparing for your Institute.
+- generic: Preparation Intro
+- textbox: Placeholder — Sponsor preparation instructions are awaiting Operations confirmation.
+- generic: Key Dates Eyebrow
+- textbox: MARK YOUR CALENDAR
+- generic: Key Dates Title
+- textbox: Key Dates & Deliverables.
+- generic: Key Dates Intro
+- textbox: Company, attendee, and business-meeting milestones—sequenced from profiling through arrival.
+- generic: Agenda Eyebrow
+- textbox: PLAN YOUR DAILY SCHEDULE
+- generic: Agenda Title
+- textbox: Agenda At-A-Glance.
+- generic: Agenda Intro
+- textbox: Placeholder — The event agenda is awaiting Operations confirmation.
+- generic: Agenda CTA Label
+- textbox: VIEW FULL INSTITUTE AGENDA
+- generic: Hub Eyebrow
+- textbox: YOUR DIGITAL HOME BASE
+- generic: Hub Title
+- textbox: Sponsor Hub.
+- generic: Hub Body
+- paragraph: The Sponsor Hub is the central resource for managing your organization’s participation in the event. Through the Hub, you can submit a custom Delegate Profiling Question, update your company information, register your onsite attendees, complete the business meeting selection process, review key dates and deliverables, and access important event information and resources.
+- paragraph: Sponsor Hub login credentials are provided by your Operations Lead in their welcome email, which is typically sent 8–10 weeks prior to the event start date.
+- generic: Hub URL
+- textbox: https://example.com/sponsor-hub
+- generic: Hub CTA Label
+- textbox: OPEN SPONSOR HUB
+- generic: Hotel Eyebrow
+- textbox: ARRIVE WITH CONFIDENCE
+- generic: Hotel Title
+- textbox: Hotel & Travel.
+- generic: Experience Eyebrow
+- textbox: MAKE EVERY CONVERSATION COUNT
+- generic: Experience Title
+- textbox: Business Meetings & Onsite Experience.
+- generic: Experience Intro
+- textbox: Placeholder — Sponsor experience and meeting details are awaiting Operations confirmation.
+- generic: Support Eyebrow
+- textbox: NEED AN ANSWER?
+- generic: Support Title
+- textbox: Sponsor Support Lives in the Hub.
+- generic: Support Body
+- paragraph: Visit the Sponsor Hub for a comprehensive FAQ section covering a wide range of topics, including pre-event deliverables, hotel reservations, business meetings, shipping instructions, onsite logistics, and post-event follow-up details.
+- generic: Support URL
+- textbox: https://example.com/sponsor-hub
+- generic: Support CTA Label
+- textbox: VISIT THE SPONSOR HUB
+- generic: Contact Eyebrow
+- textbox: YOUR OPERATIONS LEAD
+- generic: Contact Title
+- textbox: Questions Before You Go? We’re Here to Help.
+- generic: Contact Intro
+- textbox: Reach out for help with the Sponsor Hub, attendee registrations, deliverables, hotel details, or meeting selections.
+- generic: KBYG Reservation Details
+- text: Hotel reservation instructions for this KBYG page and audience. Leave blank to show a Coming Soon notice.
+- table:
+  - rowgroup:
+    - row "Locale Status":
+      - columnheader "Locale"
+      - columnheader "Status"
+  - rowgroup:
+    - row "English Published":
+      - cell "English"
+      - cell "Published":
+        - generic: Published
+- heading "Item details" [level=4]
+- generic: Sitemap Indexing
+- generic "More info":
+- paragraph:
+  - text: This setting controls whether search engines can return this page in search results.
+  - link "Learn more":
+    - /url: https://help.webflow.com/hc/en-us/articles/33961368603539-Disable-search-engine-indexing#01JGPQHKRP9ZWWTWW11Y447SAE
+- switch [checked]
+- generic: "On"
+- generic: Item ID
+- generic: 6ab427151e2a1d57f6652add
+- heading "Activity" [level=4]
+- text: Item created
+- generic: September 23, 2026, 2:23pm by Zoe Stefura
+- generic: I
+- text: Last edited
+- generic: September 24, 2026, 5:24am by IPMI Webmaster
+- generic: I
+- text: Last published
+- generic: September 24, 2026, 5:26am by IPMI Webmaster
+- button "Archive":
+  - generic: Archive
+- button "Delete":
+  - generic: Delete
+- button "Duplicate":
+  - generic: Duplicate
+- region "Notifications Alt+T"
+- status: 1Password menu is available. Press down arrow to select.
+- status
+- status
+- status
+- status
+- status

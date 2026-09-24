@@ -1,0 +1,43 @@
+
+ RUN  v4.1.11 D:/Sites/clients/ipmievents.com/webflow-frontend
+
+ ❯ tests/toolchain-contract.test.ts (21 tests | 1 failed) 33ms
+   × all maintained browser entries remain present 6ms
+
+⎯⎯⎯⎯⎯⎯⎯ Failed Tests 1 ⎯⎯⎯⎯⎯⎯⎯
+
+ FAIL  tests/toolchain-contract.test.ts > all maintained browser entries remain present
+AssertionError: expected [ 'about', 'attend', 'contact', …(14) ] to deeply equal [ 'about', 'attend', 'contact', …(13) ]
+
+- Expected
++ Received
+
+@@ -7,10 +7,11 @@
+    "hit-inquiry-routing",
+    "home",
+    "horizon",
+    "institute",
+    "institutes",
++   "institutes-calendar",
+    "ipmi-kbyg",
+    "recap",
+    "recaps",
+    "site",
+    "vtt",
+
+ ❯ tests/toolchain-contract.test.ts:63:26
+     61|     .filter((name) => name.endsWith(".ts") && !name.endsWith(".d.ts"))
+     62|     .map((name) => name.slice(0, -3));
+     63|   expect(entries.sort()).toEqual(Object.keys(footers).sort());
+       |                          ^
+     64| });
+     65|
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[1/1]⎯
+
+
+ Test Files  1 failed | 15 passed (16)
+      Tests  1 failed | 249 passed (250)
+   Start at  07:30:37
+   Duration  2.53s (transform 517ms, setup 0ms, import 3.34s, tests 3.01s, environment 3.09s)
+

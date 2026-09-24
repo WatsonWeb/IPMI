@@ -98,7 +98,7 @@ describe("validateKbygModel", () => {
     expect(errors).toContain("must define allDay as a boolean");
   });
 
-  it("requires non-empty preparation, key-date, agenda, and experience references", () => {
+  it("requires non-empty preparation, key-date, and experience references", () => {
     const model = validModel();
     model.pages[0].preparation = [];
     model.pages[0].keyDates = [];
@@ -108,8 +108,16 @@ describe("validateKbygModel", () => {
     const errors = errorsFor(model);
     expect(errors).toContain("field preparation must reference at least one block");
     expect(errors).toContain("field keyDates must reference at least one block");
-    expect(errors).toContain("field agendaDays must reference at least one block");
+    expect(errors).not.toContain("field agendaDays must reference at least one block");
     expect(errors).toContain("field experience must reference at least one block");
+  });
+
+  it("allows no rendered agenda days while validating retained references", () => {
+    const model = validModel();
+    model.pages[0].agendaDays = [];
+    expect(errorsFor(model)).toBe("");
+    model.pages[0].agendaDays = ["missing-agenda-block"];
+    expect(errorsFor(model)).toContain("missing-agenda-block");
   });
 
   it("allows at most one expanded delegate FAQ and forbids sponsor FAQ references", () => {

@@ -1,0 +1,1750 @@
+{
+  "checkedAt": "2026-09-24T12:39:21.848Z",
+  "pages": 54,
+  "linked": 14,
+  "pending": 40,
+  "failures": [],
+  "preservationDifferences": [
+    {
+      "slug": "211-hrmi-june-2027-delegate",
+      "images": true,
+      "links": true,
+      "pins": false
+    },
+    {
+      "slug": "211-hrmi-june-2027-sponsor",
+      "images": true,
+      "links": true,
+      "pins": false
+    },
+    {
+      "slug": "213-cldi-sept-2027-delegate",
+      "images": true,
+      "links": true,
+      "pins": false
+    },
+    {
+      "slug": "213-cldi-sept-2027-sponsor",
+      "images": true,
+      "links": true,
+      "pins": false
+    },
+    {
+      "slug": "214-hgc-sept-2027-delegate",
+      "images": true,
+      "links": true,
+      "pins": false
+    },
+    {
+      "slug": "214-hgc-sept-2027-sponsor",
+      "images": true,
+      "links": true,
+      "pins": false
+    },
+    {
+      "slug": "215-hchr-sept-2027-delegate",
+      "images": true,
+      "links": true,
+      "pins": false
+    },
+    {
+      "slug": "215-hchr-sept-2027-sponsor",
+      "images": true,
+      "links": true,
+      "pins": false
+    },
+    {
+      "slug": "216-ip-law-2027-delegate",
+      "images": true,
+      "links": true,
+      "pins": false
+    },
+    {
+      "slug": "216-ip-law-2027-sponsor",
+      "images": true,
+      "links": true,
+      "pins": false
+    },
+    {
+      "slug": "217-hrmi-oct-2027-delegate",
+      "images": true,
+      "links": true,
+      "pins": false
+    },
+    {
+      "slug": "217-hrmi-oct-2027-sponsor",
+      "images": true,
+      "links": true,
+      "pins": false
+    },
+    {
+      "slug": "218-cni-2027-delegate",
+      "images": true,
+      "links": true,
+      "pins": false
+    },
+    {
+      "slug": "218-cni-2027-sponsor",
+      "images": true,
+      "links": true,
+      "pins": false
+    },
+    {
+      "slug": "219-cwi-2027-delegate",
+      "images": true,
+      "links": true,
+      "pins": false
+    },
+    {
+      "slug": "219-cwi-2027-sponsor",
+      "images": true,
+      "links": true,
+      "pins": false
+    },
+    {
+      "slug": "220-hr-can-2027-delegate",
+      "images": true,
+      "links": true,
+      "pins": false
+    },
+    {
+      "slug": "220-hr-can-2027-sponsor",
+      "images": true,
+      "links": true,
+      "pins": false
+    },
+    {
+      "slug": "28-tai-us-2027-delegate",
+      "images": true,
+      "links": true,
+      "pins": false
+    },
+    {
+      "slug": "28-tai-us-2027-sponsor",
+      "images": true,
+      "links": true,
+      "pins": false
+    },
+    {
+      "slug": "29-taeei-can-delegate",
+      "images": true,
+      "links": true,
+      "pins": false
+    },
+    {
+      "slug": "29-taeei-can-sponsor",
+      "images": true,
+      "links": true,
+      "pins": false
+    },
+    {
+      "slug": "cldi-march-2027-delegate",
+      "images": true,
+      "links": true,
+      "pins": false
+    },
+    {
+      "slug": "cldi-march-2027-sponsor",
+      "images": true,
+      "links": true,
+      "pins": false
+    },
+    {
+      "slug": "cni-2026-delegate",
+      "images": true,
+      "links": true,
+      "pins": false
+    },
+    {
+      "slug": "cni-2026-sponsor",
+      "images": true,
+      "links": true,
+      "pins": false
+    },
+    {
+      "slug": "cwi-2026-delegate",
+      "images": true,
+      "links": true,
+      "pins": false
+    },
+    {
+      "slug": "cwi-2026-sponsor",
+      "images": true,
+      "links": true,
+      "pins": false
+    },
+    {
+      "slug": "ehs-jan-2027-delegate",
+      "images": true,
+      "links": true,
+      "pins": false
+    },
+    {
+      "slug": "ehs-jan-2027-sponsor",
+      "images": true,
+      "links": true,
+      "pins": false
+    },
+    {
+      "slug": "ehs-july-2027-delegate",
+      "images": true,
+      "links": true,
+      "pins": false
+    },
+    {
+      "slug": "ehs-july-2027-sponsor",
+      "images": true,
+      "links": true,
+      "pins": false
+    },
+    {
+      "slug": "hchr-sept-2026-delegate",
+      "images": true,
+      "links": true,
+      "pins": false
+    },
+    {
+      "slug": "hchr-sept-2026-sponsor",
+      "images": true,
+      "links": true,
+      "pins": false
+    },
+    {
+      "slug": "hchrmi-march-2027-delegate",
+      "images": true,
+      "links": true,
+      "pins": false
+    },
+    {
+      "slug": "hchrmi-march-2027-sponsor",
+      "images": true,
+      "links": true,
+      "pins": false
+    },
+    {
+      "slug": "healthcare-gci-oct-2026-delegate",
+      "images": true,
+      "links": true,
+      "pins": false
+    },
+    {
+      "slug": "healthcare-gci-oct-2026-sponsor",
+      "images": true,
+      "links": true,
+      "pins": false
+    },
+    {
+      "slug": "hfi-2027-delegate",
+      "images": true,
+      "links": true,
+      "pins": false
+    },
+    {
+      "slug": "hfi-2027-sponsor",
+      "images": true,
+      "links": true,
+      "pins": false
+    },
+    {
+      "slug": "hgc-feb-2027-delegate",
+      "images": true,
+      "links": true,
+      "pins": false
+    },
+    {
+      "slug": "hgc-feb-2027-sponsor",
+      "images": true,
+      "links": true,
+      "pins": false
+    },
+    {
+      "slug": "hit-2027-delegate",
+      "images": true,
+      "links": true,
+      "pins": false
+    },
+    {
+      "slug": "hit-2027-sponsor",
+      "images": true,
+      "links": true,
+      "pins": false
+    },
+    {
+      "slug": "hr-can-april-2027-delegate",
+      "images": true,
+      "links": true,
+      "pins": false
+    },
+    {
+      "slug": "hr-can-april-2027-sponsor",
+      "images": true,
+      "links": true,
+      "pins": false
+    },
+    {
+      "slug": "hrmi-canada-nov-2026-delegate",
+      "images": true,
+      "links": true,
+      "pins": false
+    },
+    {
+      "slug": "hrmi-canada-nov-2026-sponsor",
+      "images": true,
+      "links": true,
+      "pins": false
+    },
+    {
+      "slug": "hrmi-feb-2027-delegate",
+      "images": true,
+      "links": true,
+      "pins": false
+    },
+    {
+      "slug": "hrmi-feb-2027-sponsor",
+      "images": true,
+      "links": true,
+      "pins": false
+    },
+    {
+      "slug": "hrmi-oct-2026-delegate",
+      "images": true,
+      "links": true,
+      "pins": false
+    },
+    {
+      "slug": "hrmi-oct-2026-sponsor",
+      "images": true,
+      "links": true,
+      "pins": false
+    },
+    {
+      "slug": "iplmi-2026-delegate",
+      "images": true,
+      "links": true,
+      "pins": false
+    },
+    {
+      "slug": "iplmi-2026-sponsor",
+      "images": true,
+      "links": true,
+      "pins": false
+    }
+  ],
+  "results": [
+    {
+      "slug": "211-hrmi-june-2027-delegate",
+      "status": 200,
+      "heading": "Institute Agenda",
+      "grid": 0,
+      "collections": 0,
+      "expectedUrl": null,
+      "rawCta": [
+        {
+          "href": "#",
+          "text": "VIEW FULL INSTITUTE AGENDA",
+          "class": "kbyg-button kbyg-button--external"
+        }
+      ],
+      "noindex": true,
+      "outsideImagesPreserved": true,
+      "outsideLinksPreserved": true,
+      "pinsPreserved": false,
+      "failures": []
+    },
+    {
+      "slug": "211-hrmi-june-2027-sponsor",
+      "status": 200,
+      "heading": "Institute Agenda",
+      "grid": 0,
+      "collections": 0,
+      "expectedUrl": null,
+      "rawCta": [
+        {
+          "href": "#",
+          "text": "VIEW FULL INSTITUTE AGENDA",
+          "class": "kbyg-button kbyg-button--external"
+        }
+      ],
+      "noindex": true,
+      "outsideImagesPreserved": true,
+      "outsideLinksPreserved": true,
+      "pinsPreserved": false,
+      "failures": []
+    },
+    {
+      "slug": "213-cldi-sept-2027-delegate",
+      "status": 200,
+      "heading": "Institute Agenda",
+      "grid": 0,
+      "collections": 0,
+      "expectedUrl": null,
+      "rawCta": [
+        {
+          "href": "#",
+          "text": "VIEW FULL INSTITUTE AGENDA",
+          "class": "kbyg-button kbyg-button--external"
+        }
+      ],
+      "noindex": true,
+      "outsideImagesPreserved": true,
+      "outsideLinksPreserved": true,
+      "pinsPreserved": false,
+      "failures": []
+    },
+    {
+      "slug": "213-cldi-sept-2027-sponsor",
+      "status": 200,
+      "heading": "Institute Agenda",
+      "grid": 0,
+      "collections": 0,
+      "expectedUrl": null,
+      "rawCta": [
+        {
+          "href": "#",
+          "text": "VIEW FULL INSTITUTE AGENDA",
+          "class": "kbyg-button kbyg-button--external"
+        }
+      ],
+      "noindex": true,
+      "outsideImagesPreserved": true,
+      "outsideLinksPreserved": true,
+      "pinsPreserved": false,
+      "failures": []
+    },
+    {
+      "slug": "214-hgc-sept-2027-delegate",
+      "status": 200,
+      "heading": "Institute Agenda",
+      "grid": 0,
+      "collections": 0,
+      "expectedUrl": null,
+      "rawCta": [
+        {
+          "href": "#",
+          "text": "VIEW FULL INSTITUTE AGENDA",
+          "class": "kbyg-button kbyg-button--external"
+        }
+      ],
+      "noindex": true,
+      "outsideImagesPreserved": true,
+      "outsideLinksPreserved": true,
+      "pinsPreserved": false,
+      "failures": []
+    },
+    {
+      "slug": "214-hgc-sept-2027-sponsor",
+      "status": 200,
+      "heading": "Institute Agenda",
+      "grid": 0,
+      "collections": 0,
+      "expectedUrl": null,
+      "rawCta": [
+        {
+          "href": "#",
+          "text": "VIEW FULL INSTITUTE AGENDA",
+          "class": "kbyg-button kbyg-button--external"
+        }
+      ],
+      "noindex": true,
+      "outsideImagesPreserved": true,
+      "outsideLinksPreserved": true,
+      "pinsPreserved": false,
+      "failures": []
+    },
+    {
+      "slug": "215-hchr-sept-2027-delegate",
+      "status": 200,
+      "heading": "Institute Agenda",
+      "grid": 0,
+      "collections": 0,
+      "expectedUrl": null,
+      "rawCta": [
+        {
+          "href": "#",
+          "text": "VIEW FULL INSTITUTE AGENDA",
+          "class": "kbyg-button kbyg-button--external"
+        }
+      ],
+      "noindex": true,
+      "outsideImagesPreserved": true,
+      "outsideLinksPreserved": true,
+      "pinsPreserved": false,
+      "failures": []
+    },
+    {
+      "slug": "215-hchr-sept-2027-sponsor",
+      "status": 200,
+      "heading": "Institute Agenda",
+      "grid": 0,
+      "collections": 0,
+      "expectedUrl": null,
+      "rawCta": [
+        {
+          "href": "#",
+          "text": "VIEW FULL INSTITUTE AGENDA",
+          "class": "kbyg-button kbyg-button--external"
+        }
+      ],
+      "noindex": true,
+      "outsideImagesPreserved": true,
+      "outsideLinksPreserved": true,
+      "pinsPreserved": false,
+      "failures": []
+    },
+    {
+      "slug": "216-ip-law-2027-delegate",
+      "status": 200,
+      "heading": "Institute Agenda",
+      "grid": 0,
+      "collections": 0,
+      "expectedUrl": null,
+      "rawCta": [
+        {
+          "href": "#",
+          "text": "VIEW FULL INSTITUTE AGENDA",
+          "class": "kbyg-button kbyg-button--external"
+        }
+      ],
+      "noindex": true,
+      "outsideImagesPreserved": true,
+      "outsideLinksPreserved": true,
+      "pinsPreserved": false,
+      "failures": []
+    },
+    {
+      "slug": "216-ip-law-2027-sponsor",
+      "status": 200,
+      "heading": "Institute Agenda",
+      "grid": 0,
+      "collections": 0,
+      "expectedUrl": null,
+      "rawCta": [
+        {
+          "href": "#",
+          "text": "VIEW FULL INSTITUTE AGENDA",
+          "class": "kbyg-button kbyg-button--external"
+        }
+      ],
+      "noindex": true,
+      "outsideImagesPreserved": true,
+      "outsideLinksPreserved": true,
+      "pinsPreserved": false,
+      "failures": []
+    },
+    {
+      "slug": "217-hrmi-oct-2027-delegate",
+      "status": 200,
+      "heading": "Institute Agenda",
+      "grid": 0,
+      "collections": 0,
+      "expectedUrl": null,
+      "rawCta": [
+        {
+          "href": "#",
+          "text": "VIEW FULL INSTITUTE AGENDA",
+          "class": "kbyg-button kbyg-button--external"
+        }
+      ],
+      "noindex": true,
+      "outsideImagesPreserved": true,
+      "outsideLinksPreserved": true,
+      "pinsPreserved": false,
+      "failures": []
+    },
+    {
+      "slug": "217-hrmi-oct-2027-sponsor",
+      "status": 200,
+      "heading": "Institute Agenda",
+      "grid": 0,
+      "collections": 0,
+      "expectedUrl": null,
+      "rawCta": [
+        {
+          "href": "#",
+          "text": "VIEW FULL INSTITUTE AGENDA",
+          "class": "kbyg-button kbyg-button--external"
+        }
+      ],
+      "noindex": true,
+      "outsideImagesPreserved": true,
+      "outsideLinksPreserved": true,
+      "pinsPreserved": false,
+      "failures": []
+    },
+    {
+      "slug": "218-cni-2027-delegate",
+      "status": 200,
+      "heading": "Institute Agenda",
+      "grid": 0,
+      "collections": 0,
+      "expectedUrl": null,
+      "rawCta": [
+        {
+          "href": "#",
+          "text": "VIEW FULL INSTITUTE AGENDA",
+          "class": "kbyg-button kbyg-button--external"
+        }
+      ],
+      "noindex": true,
+      "outsideImagesPreserved": true,
+      "outsideLinksPreserved": true,
+      "pinsPreserved": false,
+      "failures": []
+    },
+    {
+      "slug": "218-cni-2027-sponsor",
+      "status": 200,
+      "heading": "Institute Agenda",
+      "grid": 0,
+      "collections": 0,
+      "expectedUrl": null,
+      "rawCta": [
+        {
+          "href": "#",
+          "text": "VIEW FULL INSTITUTE AGENDA",
+          "class": "kbyg-button kbyg-button--external"
+        }
+      ],
+      "noindex": true,
+      "outsideImagesPreserved": true,
+      "outsideLinksPreserved": true,
+      "pinsPreserved": false,
+      "failures": []
+    },
+    {
+      "slug": "219-cwi-2027-delegate",
+      "status": 200,
+      "heading": "Institute Agenda",
+      "grid": 0,
+      "collections": 0,
+      "expectedUrl": null,
+      "rawCta": [
+        {
+          "href": "#",
+          "text": "VIEW FULL INSTITUTE AGENDA",
+          "class": "kbyg-button kbyg-button--external"
+        }
+      ],
+      "noindex": true,
+      "outsideImagesPreserved": true,
+      "outsideLinksPreserved": true,
+      "pinsPreserved": false,
+      "failures": []
+    },
+    {
+      "slug": "219-cwi-2027-sponsor",
+      "status": 200,
+      "heading": "Institute Agenda",
+      "grid": 0,
+      "collections": 0,
+      "expectedUrl": null,
+      "rawCta": [
+        {
+          "href": "#",
+          "text": "VIEW FULL INSTITUTE AGENDA",
+          "class": "kbyg-button kbyg-button--external"
+        }
+      ],
+      "noindex": true,
+      "outsideImagesPreserved": true,
+      "outsideLinksPreserved": true,
+      "pinsPreserved": false,
+      "failures": []
+    },
+    {
+      "slug": "220-hr-can-2027-delegate",
+      "status": 200,
+      "heading": "Institute Agenda",
+      "grid": 0,
+      "collections": 0,
+      "expectedUrl": null,
+      "rawCta": [
+        {
+          "href": "#",
+          "text": "VIEW FULL INSTITUTE AGENDA",
+          "class": "kbyg-button kbyg-button--external"
+        }
+      ],
+      "noindex": true,
+      "outsideImagesPreserved": true,
+      "outsideLinksPreserved": true,
+      "pinsPreserved": false,
+      "failures": []
+    },
+    {
+      "slug": "220-hr-can-2027-sponsor",
+      "status": 200,
+      "heading": "Institute Agenda",
+      "grid": 0,
+      "collections": 0,
+      "expectedUrl": null,
+      "rawCta": [
+        {
+          "href": "#",
+          "text": "VIEW FULL INSTITUTE AGENDA",
+          "class": "kbyg-button kbyg-button--external"
+        }
+      ],
+      "noindex": true,
+      "outsideImagesPreserved": true,
+      "outsideLinksPreserved": true,
+      "pinsPreserved": false,
+      "failures": []
+    },
+    {
+      "slug": "28-tai-us-2027-delegate",
+      "status": 200,
+      "heading": "Institute Agenda",
+      "grid": 0,
+      "collections": 0,
+      "expectedUrl": null,
+      "rawCta": [
+        {
+          "href": "#",
+          "text": "VIEW FULL INSTITUTE AGENDA",
+          "class": "kbyg-button kbyg-button--external"
+        }
+      ],
+      "noindex": true,
+      "outsideImagesPreserved": true,
+      "outsideLinksPreserved": true,
+      "pinsPreserved": false,
+      "failures": []
+    },
+    {
+      "slug": "28-tai-us-2027-sponsor",
+      "status": 200,
+      "heading": "Institute Agenda",
+      "grid": 0,
+      "collections": 0,
+      "expectedUrl": null,
+      "rawCta": [
+        {
+          "href": "#",
+          "text": "VIEW FULL INSTITUTE AGENDA",
+          "class": "kbyg-button kbyg-button--external"
+        }
+      ],
+      "noindex": true,
+      "outsideImagesPreserved": true,
+      "outsideLinksPreserved": true,
+      "pinsPreserved": false,
+      "failures": []
+    },
+    {
+      "slug": "29-taeei-can-delegate",
+      "status": 200,
+      "heading": "Institute Agenda",
+      "grid": 0,
+      "collections": 0,
+      "expectedUrl": null,
+      "rawCta": [
+        {
+          "href": "#",
+          "text": "VIEW FULL INSTITUTE AGENDA",
+          "class": "kbyg-button kbyg-button--external"
+        }
+      ],
+      "noindex": true,
+      "outsideImagesPreserved": true,
+      "outsideLinksPreserved": true,
+      "pinsPreserved": false,
+      "failures": []
+    },
+    {
+      "slug": "29-taeei-can-sponsor",
+      "status": 200,
+      "heading": "Institute Agenda",
+      "grid": 0,
+      "collections": 0,
+      "expectedUrl": null,
+      "rawCta": [
+        {
+          "href": "#",
+          "text": "VIEW FULL INSTITUTE AGENDA",
+          "class": "kbyg-button kbyg-button--external"
+        }
+      ],
+      "noindex": true,
+      "outsideImagesPreserved": true,
+      "outsideLinksPreserved": true,
+      "pinsPreserved": false,
+      "failures": []
+    },
+    {
+      "slug": "cldi-march-2027-delegate",
+      "status": 200,
+      "heading": "Institute Agenda",
+      "grid": 0,
+      "collections": 0,
+      "expectedUrl": null,
+      "rawCta": [
+        {
+          "href": "#",
+          "text": "VIEW FULL INSTITUTE AGENDA",
+          "class": "kbyg-button kbyg-button--external"
+        }
+      ],
+      "noindex": true,
+      "outsideImagesPreserved": true,
+      "outsideLinksPreserved": true,
+      "pinsPreserved": false,
+      "failures": []
+    },
+    {
+      "slug": "cldi-march-2027-sponsor",
+      "status": 200,
+      "heading": "Institute Agenda",
+      "grid": 0,
+      "collections": 0,
+      "expectedUrl": null,
+      "rawCta": [
+        {
+          "href": "#",
+          "text": "VIEW FULL INSTITUTE AGENDA",
+          "class": "kbyg-button kbyg-button--external"
+        }
+      ],
+      "noindex": true,
+      "outsideImagesPreserved": true,
+      "outsideLinksPreserved": true,
+      "pinsPreserved": false,
+      "failures": []
+    },
+    {
+      "slug": "cni-2026-delegate",
+      "status": 200,
+      "heading": "Institute Agenda",
+      "grid": 0,
+      "collections": 0,
+      "expectedUrl": "https://ipmionline.sharepoint.com/:b:/s/IPMIExternal/IQAPfagdftYGRpZBwoWLQNmwASmhdeWqAQGp1E3PN55Phnw?e=bRxpMy",
+      "rawCta": [
+        {
+          "href": "https://ipmionline.sharepoint.com/:b:/s/IPMIExternal/IQAPfagdftYGRpZBwoWLQNmwASmhdeWqAQGp1E3PN55Phnw?e=bRxpMy",
+          "text": "VIEW FULL INSTITUTE AGENDA",
+          "class": "kbyg-button kbyg-button--external"
+        }
+      ],
+      "noindex": true,
+      "outsideImagesPreserved": true,
+      "outsideLinksPreserved": true,
+      "pinsPreserved": false,
+      "failures": []
+    },
+    {
+      "slug": "cni-2026-sponsor",
+      "status": 200,
+      "heading": "Institute Agenda",
+      "grid": 0,
+      "collections": 0,
+      "expectedUrl": "https://ipmionline.sharepoint.com/:b:/s/IPMIExternal/IQAPfagdftYGRpZBwoWLQNmwASmhdeWqAQGp1E3PN55Phnw?e=bRxpMy",
+      "rawCta": [
+        {
+          "href": "https://ipmionline.sharepoint.com/:b:/s/IPMIExternal/IQAPfagdftYGRpZBwoWLQNmwASmhdeWqAQGp1E3PN55Phnw?e=bRxpMy",
+          "text": "VIEW FULL INSTITUTE AGENDA",
+          "class": "kbyg-button kbyg-button--external"
+        }
+      ],
+      "noindex": true,
+      "outsideImagesPreserved": true,
+      "outsideLinksPreserved": true,
+      "pinsPreserved": false,
+      "failures": []
+    },
+    {
+      "slug": "cwi-2026-delegate",
+      "status": 200,
+      "heading": "Institute Agenda",
+      "grid": 0,
+      "collections": 0,
+      "expectedUrl": "https://ipmionline.sharepoint.com/:b:/s/IPMIExternal/IQAGsZctcm4RTaQ0z8WwlN-QAUV1qgUgNFGDHXkJ-WfGvaQ",
+      "rawCta": [
+        {
+          "href": "https://ipmionline.sharepoint.com/:b:/s/IPMIExternal/IQAGsZctcm4RTaQ0z8WwlN-QAUV1qgUgNFGDHXkJ-WfGvaQ",
+          "text": "VIEW FULL INSTITUTE AGENDA",
+          "class": "kbyg-button kbyg-button--external"
+        }
+      ],
+      "noindex": true,
+      "outsideImagesPreserved": true,
+      "outsideLinksPreserved": true,
+      "pinsPreserved": false,
+      "failures": []
+    },
+    {
+      "slug": "cwi-2026-sponsor",
+      "status": 200,
+      "heading": "Institute Agenda",
+      "grid": 0,
+      "collections": 0,
+      "expectedUrl": "https://ipmionline.sharepoint.com/:b:/s/IPMIExternal/IQAGsZctcm4RTaQ0z8WwlN-QAUV1qgUgNFGDHXkJ-WfGvaQ",
+      "rawCta": [
+        {
+          "href": "https://ipmionline.sharepoint.com/:b:/s/IPMIExternal/IQAGsZctcm4RTaQ0z8WwlN-QAUV1qgUgNFGDHXkJ-WfGvaQ",
+          "text": "VIEW FULL INSTITUTE AGENDA",
+          "class": "kbyg-button kbyg-button--external"
+        }
+      ],
+      "noindex": true,
+      "outsideImagesPreserved": true,
+      "outsideLinksPreserved": true,
+      "pinsPreserved": false,
+      "failures": []
+    },
+    {
+      "slug": "ehs-jan-2027-delegate",
+      "status": 200,
+      "heading": "Institute Agenda",
+      "grid": 0,
+      "collections": 0,
+      "expectedUrl": null,
+      "rawCta": [
+        {
+          "href": "#",
+          "text": "VIEW FULL INSTITUTE AGENDA",
+          "class": "kbyg-button kbyg-button--external"
+        }
+      ],
+      "noindex": true,
+      "outsideImagesPreserved": true,
+      "outsideLinksPreserved": true,
+      "pinsPreserved": false,
+      "failures": []
+    },
+    {
+      "slug": "ehs-jan-2027-sponsor",
+      "status": 200,
+      "heading": "Institute Agenda",
+      "grid": 0,
+      "collections": 0,
+      "expectedUrl": null,
+      "rawCta": [
+        {
+          "href": "#",
+          "text": "VIEW FULL INSTITUTE AGENDA",
+          "class": "kbyg-button kbyg-button--external"
+        }
+      ],
+      "noindex": true,
+      "outsideImagesPreserved": true,
+      "outsideLinksPreserved": true,
+      "pinsPreserved": false,
+      "failures": []
+    },
+    {
+      "slug": "ehs-july-2027-delegate",
+      "status": 200,
+      "heading": "Institute Agenda",
+      "grid": 0,
+      "collections": 0,
+      "expectedUrl": null,
+      "rawCta": [
+        {
+          "href": "#",
+          "text": "VIEW FULL INSTITUTE AGENDA",
+          "class": "kbyg-button kbyg-button--external"
+        }
+      ],
+      "noindex": true,
+      "outsideImagesPreserved": true,
+      "outsideLinksPreserved": true,
+      "pinsPreserved": false,
+      "failures": []
+    },
+    {
+      "slug": "ehs-july-2027-sponsor",
+      "status": 200,
+      "heading": "Institute Agenda",
+      "grid": 0,
+      "collections": 0,
+      "expectedUrl": null,
+      "rawCta": [
+        {
+          "href": "#",
+          "text": "VIEW FULL INSTITUTE AGENDA",
+          "class": "kbyg-button kbyg-button--external"
+        }
+      ],
+      "noindex": true,
+      "outsideImagesPreserved": true,
+      "outsideLinksPreserved": true,
+      "pinsPreserved": false,
+      "failures": []
+    },
+    {
+      "slug": "hchr-sept-2026-delegate",
+      "status": 200,
+      "heading": "Institute Agenda",
+      "grid": 0,
+      "collections": 0,
+      "expectedUrl": "https://ipmionline.sharepoint.com/:b:/s/IPMIExternal/IQDhY6Ng2S5QQ4ydRO30tLytAd2eoi55aaOvVa0DMGPXDKw",
+      "rawCta": [
+        {
+          "href": "https://ipmionline.sharepoint.com/:b:/s/IPMIExternal/IQDhY6Ng2S5QQ4ydRO30tLytAd2eoi55aaOvVa0DMGPXDKw",
+          "text": "VIEW FULL INSTITUTE AGENDA",
+          "class": "kbyg-button kbyg-button--external"
+        }
+      ],
+      "noindex": true,
+      "outsideImagesPreserved": true,
+      "outsideLinksPreserved": true,
+      "pinsPreserved": false,
+      "failures": []
+    },
+    {
+      "slug": "hchr-sept-2026-sponsor",
+      "status": 200,
+      "heading": "Institute Agenda",
+      "grid": 0,
+      "collections": 0,
+      "expectedUrl": "https://ipmionline.sharepoint.com/:b:/s/IPMIExternal/IQDhY6Ng2S5QQ4ydRO30tLytAd2eoi55aaOvVa0DMGPXDKw",
+      "rawCta": [
+        {
+          "href": "https://ipmionline.sharepoint.com/:b:/s/IPMIExternal/IQDhY6Ng2S5QQ4ydRO30tLytAd2eoi55aaOvVa0DMGPXDKw",
+          "text": "VIEW FULL INSTITUTE AGENDA",
+          "class": "kbyg-button kbyg-button--external"
+        }
+      ],
+      "noindex": true,
+      "outsideImagesPreserved": true,
+      "outsideLinksPreserved": true,
+      "pinsPreserved": false,
+      "failures": []
+    },
+    {
+      "slug": "hchrmi-march-2027-delegate",
+      "status": 200,
+      "heading": "Institute Agenda",
+      "grid": 0,
+      "collections": 0,
+      "expectedUrl": null,
+      "rawCta": [
+        {
+          "href": "#",
+          "text": "VIEW FULL INSTITUTE AGENDA",
+          "class": "kbyg-button kbyg-button--external"
+        }
+      ],
+      "noindex": true,
+      "outsideImagesPreserved": true,
+      "outsideLinksPreserved": true,
+      "pinsPreserved": false,
+      "failures": []
+    },
+    {
+      "slug": "hchrmi-march-2027-sponsor",
+      "status": 200,
+      "heading": "Institute Agenda",
+      "grid": 0,
+      "collections": 0,
+      "expectedUrl": null,
+      "rawCta": [
+        {
+          "href": "#",
+          "text": "VIEW FULL INSTITUTE AGENDA",
+          "class": "kbyg-button kbyg-button--external"
+        }
+      ],
+      "noindex": true,
+      "outsideImagesPreserved": true,
+      "outsideLinksPreserved": true,
+      "pinsPreserved": false,
+      "failures": []
+    },
+    {
+      "slug": "healthcare-gci-oct-2026-delegate",
+      "status": 200,
+      "heading": "Institute Agenda",
+      "grid": 0,
+      "collections": 0,
+      "expectedUrl": "https://ipmionline.sharepoint.com/:b:/s/IPMIExternal/IQCnURRTX3f_TqKKCJ8GokBWAXTt-7rJg2f6LYq_dpYaYok",
+      "rawCta": [
+        {
+          "href": "https://ipmionline.sharepoint.com/:b:/s/IPMIExternal/IQCnURRTX3f_TqKKCJ8GokBWAXTt-7rJg2f6LYq_dpYaYok",
+          "text": "VIEW FULL INSTITUTE AGENDA",
+          "class": "kbyg-button kbyg-button--external"
+        }
+      ],
+      "noindex": true,
+      "outsideImagesPreserved": true,
+      "outsideLinksPreserved": true,
+      "pinsPreserved": false,
+      "failures": []
+    },
+    {
+      "slug": "healthcare-gci-oct-2026-sponsor",
+      "status": 200,
+      "heading": "Institute Agenda",
+      "grid": 0,
+      "collections": 0,
+      "expectedUrl": "https://ipmionline.sharepoint.com/:b:/s/IPMIExternal/IQCnURRTX3f_TqKKCJ8GokBWAXTt-7rJg2f6LYq_dpYaYok",
+      "rawCta": [
+        {
+          "href": "https://ipmionline.sharepoint.com/:b:/s/IPMIExternal/IQCnURRTX3f_TqKKCJ8GokBWAXTt-7rJg2f6LYq_dpYaYok",
+          "text": "VIEW FULL INSTITUTE AGENDA",
+          "class": "kbyg-button kbyg-button--external"
+        }
+      ],
+      "noindex": true,
+      "outsideImagesPreserved": true,
+      "outsideLinksPreserved": true,
+      "pinsPreserved": false,
+      "failures": []
+    },
+    {
+      "slug": "hfi-2027-delegate",
+      "status": 200,
+      "heading": "Institute Agenda",
+      "grid": 0,
+      "collections": 0,
+      "expectedUrl": null,
+      "rawCta": [
+        {
+          "href": "#",
+          "text": "VIEW FULL INSTITUTE AGENDA",
+          "class": "kbyg-button kbyg-button--external"
+        }
+      ],
+      "noindex": true,
+      "outsideImagesPreserved": true,
+      "outsideLinksPreserved": true,
+      "pinsPreserved": false,
+      "failures": []
+    },
+    {
+      "slug": "hfi-2027-sponsor",
+      "status": 200,
+      "heading": "Institute Agenda",
+      "grid": 0,
+      "collections": 0,
+      "expectedUrl": null,
+      "rawCta": [
+        {
+          "href": "#",
+          "text": "VIEW FULL INSTITUTE AGENDA",
+          "class": "kbyg-button kbyg-button--external"
+        }
+      ],
+      "noindex": true,
+      "outsideImagesPreserved": true,
+      "outsideLinksPreserved": true,
+      "pinsPreserved": false,
+      "failures": []
+    },
+    {
+      "slug": "hgc-feb-2027-delegate",
+      "status": 200,
+      "heading": "Institute Agenda",
+      "grid": 0,
+      "collections": 0,
+      "expectedUrl": null,
+      "rawCta": [
+        {
+          "href": "#",
+          "text": "VIEW FULL INSTITUTE AGENDA",
+          "class": "kbyg-button kbyg-button--external"
+        }
+      ],
+      "noindex": true,
+      "outsideImagesPreserved": true,
+      "outsideLinksPreserved": true,
+      "pinsPreserved": false,
+      "failures": []
+    },
+    {
+      "slug": "hgc-feb-2027-sponsor",
+      "status": 200,
+      "heading": "Institute Agenda",
+      "grid": 0,
+      "collections": 0,
+      "expectedUrl": null,
+      "rawCta": [
+        {
+          "href": "#",
+          "text": "VIEW FULL INSTITUTE AGENDA",
+          "class": "kbyg-button kbyg-button--external"
+        }
+      ],
+      "noindex": true,
+      "outsideImagesPreserved": true,
+      "outsideLinksPreserved": true,
+      "pinsPreserved": false,
+      "failures": []
+    },
+    {
+      "slug": "hit-2027-delegate",
+      "status": 200,
+      "heading": "Institute Agenda",
+      "grid": 0,
+      "collections": 0,
+      "expectedUrl": null,
+      "rawCta": [
+        {
+          "href": "#",
+          "text": "VIEW FULL INSTITUTE AGENDA",
+          "class": "kbyg-button kbyg-button--external"
+        }
+      ],
+      "noindex": true,
+      "outsideImagesPreserved": true,
+      "outsideLinksPreserved": true,
+      "pinsPreserved": false,
+      "failures": []
+    },
+    {
+      "slug": "hit-2027-sponsor",
+      "status": 200,
+      "heading": "Institute Agenda",
+      "grid": 0,
+      "collections": 0,
+      "expectedUrl": null,
+      "rawCta": [
+        {
+          "href": "#",
+          "text": "VIEW FULL INSTITUTE AGENDA",
+          "class": "kbyg-button kbyg-button--external"
+        }
+      ],
+      "noindex": true,
+      "outsideImagesPreserved": true,
+      "outsideLinksPreserved": true,
+      "pinsPreserved": false,
+      "failures": []
+    },
+    {
+      "slug": "hr-can-april-2027-delegate",
+      "status": 200,
+      "heading": "Institute Agenda",
+      "grid": 0,
+      "collections": 0,
+      "expectedUrl": null,
+      "rawCta": [
+        {
+          "href": "#",
+          "text": "VIEW FULL INSTITUTE AGENDA",
+          "class": "kbyg-button kbyg-button--external"
+        }
+      ],
+      "noindex": true,
+      "outsideImagesPreserved": true,
+      "outsideLinksPreserved": true,
+      "pinsPreserved": false,
+      "failures": []
+    },
+    {
+      "slug": "hr-can-april-2027-sponsor",
+      "status": 200,
+      "heading": "Institute Agenda",
+      "grid": 0,
+      "collections": 0,
+      "expectedUrl": null,
+      "rawCta": [
+        {
+          "href": "#",
+          "text": "VIEW FULL INSTITUTE AGENDA",
+          "class": "kbyg-button kbyg-button--external"
+        }
+      ],
+      "noindex": true,
+      "outsideImagesPreserved": true,
+      "outsideLinksPreserved": true,
+      "pinsPreserved": false,
+      "failures": []
+    },
+    {
+      "slug": "hrmi-canada-nov-2026-delegate",
+      "status": 200,
+      "heading": "Institute Agenda",
+      "grid": 0,
+      "collections": 0,
+      "expectedUrl": "https://ipmionline.sharepoint.com/:b:/s/IPMIExternal/IQAZysPAFHolTJCZ3k-lutGYAZXzePjsG-rYVxViK6DMV9I",
+      "rawCta": [
+        {
+          "href": "https://ipmionline.sharepoint.com/:b:/s/IPMIExternal/IQAZysPAFHolTJCZ3k-lutGYAZXzePjsG-rYVxViK6DMV9I",
+          "text": "VIEW FULL INSTITUTE AGENDA",
+          "class": "kbyg-button kbyg-button--external"
+        }
+      ],
+      "noindex": true,
+      "outsideImagesPreserved": true,
+      "outsideLinksPreserved": true,
+      "pinsPreserved": false,
+      "failures": []
+    },
+    {
+      "slug": "hrmi-canada-nov-2026-sponsor",
+      "status": 200,
+      "heading": "Institute Agenda",
+      "grid": 0,
+      "collections": 0,
+      "expectedUrl": "https://ipmionline.sharepoint.com/:b:/s/IPMIExternal/IQAZysPAFHolTJCZ3k-lutGYAZXzePjsG-rYVxViK6DMV9I",
+      "rawCta": [
+        {
+          "href": "https://ipmionline.sharepoint.com/:b:/s/IPMIExternal/IQAZysPAFHolTJCZ3k-lutGYAZXzePjsG-rYVxViK6DMV9I",
+          "text": "VIEW FULL INSTITUTE AGENDA",
+          "class": "kbyg-button kbyg-button--external"
+        }
+      ],
+      "noindex": true,
+      "outsideImagesPreserved": true,
+      "outsideLinksPreserved": true,
+      "pinsPreserved": false,
+      "failures": []
+    },
+    {
+      "slug": "hrmi-feb-2027-delegate",
+      "status": 200,
+      "heading": "Institute Agenda",
+      "grid": 0,
+      "collections": 0,
+      "expectedUrl": null,
+      "rawCta": [
+        {
+          "href": "#",
+          "text": "VIEW FULL INSTITUTE AGENDA",
+          "class": "kbyg-button kbyg-button--external"
+        }
+      ],
+      "noindex": true,
+      "outsideImagesPreserved": true,
+      "outsideLinksPreserved": true,
+      "pinsPreserved": false,
+      "failures": []
+    },
+    {
+      "slug": "hrmi-feb-2027-sponsor",
+      "status": 200,
+      "heading": "Institute Agenda",
+      "grid": 0,
+      "collections": 0,
+      "expectedUrl": null,
+      "rawCta": [
+        {
+          "href": "#",
+          "text": "VIEW FULL INSTITUTE AGENDA",
+          "class": "kbyg-button kbyg-button--external"
+        }
+      ],
+      "noindex": true,
+      "outsideImagesPreserved": true,
+      "outsideLinksPreserved": true,
+      "pinsPreserved": false,
+      "failures": []
+    },
+    {
+      "slug": "hrmi-oct-2026-delegate",
+      "status": 200,
+      "heading": "Institute Agenda",
+      "grid": 0,
+      "collections": 0,
+      "expectedUrl": "https://ipmionline.sharepoint.com/:b:/s/IPMIExternal/IQBBX5dimTflRJiqu1HyqESrATIapd5rWf33JJz1mmVDFRE",
+      "rawCta": [
+        {
+          "href": "https://ipmionline.sharepoint.com/:b:/s/IPMIExternal/IQBBX5dimTflRJiqu1HyqESrATIapd5rWf33JJz1mmVDFRE",
+          "text": "VIEW FULL INSTITUTE AGENDA",
+          "class": "kbyg-button kbyg-button--external"
+        }
+      ],
+      "noindex": true,
+      "outsideImagesPreserved": true,
+      "outsideLinksPreserved": true,
+      "pinsPreserved": false,
+      "failures": []
+    },
+    {
+      "slug": "hrmi-oct-2026-sponsor",
+      "status": 200,
+      "heading": "Institute Agenda",
+      "grid": 0,
+      "collections": 0,
+      "expectedUrl": "https://ipmionline.sharepoint.com/:b:/s/IPMIExternal/IQBBX5dimTflRJiqu1HyqESrATIapd5rWf33JJz1mmVDFRE",
+      "rawCta": [
+        {
+          "href": "https://ipmionline.sharepoint.com/:b:/s/IPMIExternal/IQBBX5dimTflRJiqu1HyqESrATIapd5rWf33JJz1mmVDFRE",
+          "text": "VIEW FULL INSTITUTE AGENDA",
+          "class": "kbyg-button kbyg-button--external"
+        }
+      ],
+      "noindex": true,
+      "outsideImagesPreserved": true,
+      "outsideLinksPreserved": true,
+      "pinsPreserved": false,
+      "failures": []
+    },
+    {
+      "slug": "iplmi-2026-delegate",
+      "status": 200,
+      "heading": "Institute Agenda",
+      "grid": 0,
+      "collections": 0,
+      "expectedUrl": "https://ipmionline.sharepoint.com/:b:/s/IPMIExternal/IQBBdbLOC-q9R4DG2UzdykjYAU_khagQNZcfbWRYrqQJ9I0",
+      "rawCta": [
+        {
+          "href": "https://ipmionline.sharepoint.com/:b:/s/IPMIExternal/IQBBdbLOC-q9R4DG2UzdykjYAU_khagQNZcfbWRYrqQJ9I0",
+          "text": "VIEW FULL INSTITUTE AGENDA",
+          "class": "kbyg-button kbyg-button--external"
+        }
+      ],
+      "noindex": true,
+      "outsideImagesPreserved": true,
+      "outsideLinksPreserved": true,
+      "pinsPreserved": false,
+      "failures": []
+    },
+    {
+      "slug": "iplmi-2026-sponsor",
+      "status": 200,
+      "heading": "Institute Agenda",
+      "grid": 0,
+      "collections": 0,
+      "expectedUrl": "https://ipmionline.sharepoint.com/:b:/s/IPMIExternal/IQBBdbLOC-q9R4DG2UzdykjYAU_khagQNZcfbWRYrqQJ9I0",
+      "rawCta": [
+        {
+          "href": "https://ipmionline.sharepoint.com/:b:/s/IPMIExternal/IQBBdbLOC-q9R4DG2UzdykjYAU_khagQNZcfbWRYrqQJ9I0",
+          "text": "VIEW FULL INSTITUTE AGENDA",
+          "class": "kbyg-button kbyg-button--external"
+        }
+      ],
+      "noindex": true,
+      "outsideImagesPreserved": true,
+      "outsideLinksPreserved": true,
+      "pinsPreserved": false,
+      "failures": []
+    }
+  ],
+  "expectedAssetRelease": {
+    "runtime": "https://cdn.jsdelivr.net/gh/WatsonWeb/IPMI@1afeaaadea5b1f0a1e5d87819d2443b224e37a06/dist/ipmi-kbyg.js",
+    "styles": "https://cdn.jsdelivr.net/gh/WatsonWeb/IPMI@0bee9be0be82a5cbd03eab614bada158b88957c1/ipmi-kbyg-styles.css",
+    "agendaSupplement": "https://cdn.jsdelivr.net/gh/WatsonWeb/IPMI@b469ddcbe2f81466fa450a1d187a68ef0739b10c/ipmi-kbyg-agenda.css",
+    "runtimeSha256": "127A461E21249AC292736E101FE9869CAC42C0DB28F81E7B2BFC262C85159FA0",
+    "agendaSupplementSha256": "013CD209FFD025BD9A5CAA7AA887A67A4DCAD7407E426341AA5C8B1374475453",
+    "note": "All 54 pin preservation differences are intentional immutable runtime and Agenda supplement releases; base styles, outside-agenda images and links remain unchanged.",
+    "failures": [],
+    "checks": [
+      {
+        "slug": "211-hrmi-june-2027-delegate",
+        "expectedRuntimePresent": true,
+        "expectedStylesPresent": true,
+        "agendaSupplementPresent": true
+      },
+      {
+        "slug": "211-hrmi-june-2027-sponsor",
+        "expectedRuntimePresent": true,
+        "expectedStylesPresent": true,
+        "agendaSupplementPresent": true
+      },
+      {
+        "slug": "213-cldi-sept-2027-delegate",
+        "expectedRuntimePresent": true,
+        "expectedStylesPresent": true,
+        "agendaSupplementPresent": true
+      },
+      {
+        "slug": "213-cldi-sept-2027-sponsor",
+        "expectedRuntimePresent": true,
+        "expectedStylesPresent": true,
+        "agendaSupplementPresent": true
+      },
+      {
+        "slug": "214-hgc-sept-2027-delegate",
+        "expectedRuntimePresent": true,
+        "expectedStylesPresent": true,
+        "agendaSupplementPresent": true
+      },
+      {
+        "slug": "214-hgc-sept-2027-sponsor",
+        "expectedRuntimePresent": true,
+        "expectedStylesPresent": true,
+        "agendaSupplementPresent": true
+      },
+      {
+        "slug": "215-hchr-sept-2027-delegate",
+        "expectedRuntimePresent": true,
+        "expectedStylesPresent": true,
+        "agendaSupplementPresent": true
+      },
+      {
+        "slug": "215-hchr-sept-2027-sponsor",
+        "expectedRuntimePresent": true,
+        "expectedStylesPresent": true,
+        "agendaSupplementPresent": true
+      },
+      {
+        "slug": "216-ip-law-2027-delegate",
+        "expectedRuntimePresent": true,
+        "expectedStylesPresent": true,
+        "agendaSupplementPresent": true
+      },
+      {
+        "slug": "216-ip-law-2027-sponsor",
+        "expectedRuntimePresent": true,
+        "expectedStylesPresent": true,
+        "agendaSupplementPresent": true
+      },
+      {
+        "slug": "217-hrmi-oct-2027-delegate",
+        "expectedRuntimePresent": true,
+        "expectedStylesPresent": true,
+        "agendaSupplementPresent": true
+      },
+      {
+        "slug": "217-hrmi-oct-2027-sponsor",
+        "expectedRuntimePresent": true,
+        "expectedStylesPresent": true,
+        "agendaSupplementPresent": true
+      },
+      {
+        "slug": "218-cni-2027-delegate",
+        "expectedRuntimePresent": true,
+        "expectedStylesPresent": true,
+        "agendaSupplementPresent": true
+      },
+      {
+        "slug": "218-cni-2027-sponsor",
+        "expectedRuntimePresent": true,
+        "expectedStylesPresent": true,
+        "agendaSupplementPresent": true
+      },
+      {
+        "slug": "219-cwi-2027-delegate",
+        "expectedRuntimePresent": true,
+        "expectedStylesPresent": true,
+        "agendaSupplementPresent": true
+      },
+      {
+        "slug": "219-cwi-2027-sponsor",
+        "expectedRuntimePresent": true,
+        "expectedStylesPresent": true,
+        "agendaSupplementPresent": true
+      },
+      {
+        "slug": "220-hr-can-2027-delegate",
+        "expectedRuntimePresent": true,
+        "expectedStylesPresent": true,
+        "agendaSupplementPresent": true
+      },
+      {
+        "slug": "220-hr-can-2027-sponsor",
+        "expectedRuntimePresent": true,
+        "expectedStylesPresent": true,
+        "agendaSupplementPresent": true
+      },
+      {
+        "slug": "28-tai-us-2027-delegate",
+        "expectedRuntimePresent": true,
+        "expectedStylesPresent": true,
+        "agendaSupplementPresent": true
+      },
+      {
+        "slug": "28-tai-us-2027-sponsor",
+        "expectedRuntimePresent": true,
+        "expectedStylesPresent": true,
+        "agendaSupplementPresent": true
+      },
+      {
+        "slug": "29-taeei-can-delegate",
+        "expectedRuntimePresent": true,
+        "expectedStylesPresent": true,
+        "agendaSupplementPresent": true
+      },
+      {
+        "slug": "29-taeei-can-sponsor",
+        "expectedRuntimePresent": true,
+        "expectedStylesPresent": true,
+        "agendaSupplementPresent": true
+      },
+      {
+        "slug": "cldi-march-2027-delegate",
+        "expectedRuntimePresent": true,
+        "expectedStylesPresent": true,
+        "agendaSupplementPresent": true
+      },
+      {
+        "slug": "cldi-march-2027-sponsor",
+        "expectedRuntimePresent": true,
+        "expectedStylesPresent": true,
+        "agendaSupplementPresent": true
+      },
+      {
+        "slug": "cni-2026-delegate",
+        "expectedRuntimePresent": true,
+        "expectedStylesPresent": true,
+        "agendaSupplementPresent": true
+      },
+      {
+        "slug": "cni-2026-sponsor",
+        "expectedRuntimePresent": true,
+        "expectedStylesPresent": true,
+        "agendaSupplementPresent": true
+      },
+      {
+        "slug": "cwi-2026-delegate",
+        "expectedRuntimePresent": true,
+        "expectedStylesPresent": true,
+        "agendaSupplementPresent": true
+      },
+      {
+        "slug": "cwi-2026-sponsor",
+        "expectedRuntimePresent": true,
+        "expectedStylesPresent": true,
+        "agendaSupplementPresent": true
+      },
+      {
+        "slug": "ehs-jan-2027-delegate",
+        "expectedRuntimePresent": true,
+        "expectedStylesPresent": true,
+        "agendaSupplementPresent": true
+      },
+      {
+        "slug": "ehs-jan-2027-sponsor",
+        "expectedRuntimePresent": true,
+        "expectedStylesPresent": true,
+        "agendaSupplementPresent": true
+      },
+      {
+        "slug": "ehs-july-2027-delegate",
+        "expectedRuntimePresent": true,
+        "expectedStylesPresent": true,
+        "agendaSupplementPresent": true
+      },
+      {
+        "slug": "ehs-july-2027-sponsor",
+        "expectedRuntimePresent": true,
+        "expectedStylesPresent": true,
+        "agendaSupplementPresent": true
+      },
+      {
+        "slug": "hchr-sept-2026-delegate",
+        "expectedRuntimePresent": true,
+        "expectedStylesPresent": true,
+        "agendaSupplementPresent": true
+      },
+      {
+        "slug": "hchr-sept-2026-sponsor",
+        "expectedRuntimePresent": true,
+        "expectedStylesPresent": true,
+        "agendaSupplementPresent": true
+      },
+      {
+        "slug": "hchrmi-march-2027-delegate",
+        "expectedRuntimePresent": true,
+        "expectedStylesPresent": true,
+        "agendaSupplementPresent": true
+      },
+      {
+        "slug": "hchrmi-march-2027-sponsor",
+        "expectedRuntimePresent": true,
+        "expectedStylesPresent": true,
+        "agendaSupplementPresent": true
+      },
+      {
+        "slug": "healthcare-gci-oct-2026-delegate",
+        "expectedRuntimePresent": true,
+        "expectedStylesPresent": true,
+        "agendaSupplementPresent": true
+      },
+      {
+        "slug": "healthcare-gci-oct-2026-sponsor",
+        "expectedRuntimePresent": true,
+        "expectedStylesPresent": true,
+        "agendaSupplementPresent": true
+      },
+      {
+        "slug": "hfi-2027-delegate",
+        "expectedRuntimePresent": true,
+        "expectedStylesPresent": true,
+        "agendaSupplementPresent": true
+      },
+      {
+        "slug": "hfi-2027-sponsor",
+        "expectedRuntimePresent": true,
+        "expectedStylesPresent": true,
+        "agendaSupplementPresent": true
+      },
+      {
+        "slug": "hgc-feb-2027-delegate",
+        "expectedRuntimePresent": true,
+        "expectedStylesPresent": true,
+        "agendaSupplementPresent": true
+      },
+      {
+        "slug": "hgc-feb-2027-sponsor",
+        "expectedRuntimePresent": true,
+        "expectedStylesPresent": true,
+        "agendaSupplementPresent": true
+      },
+      {
+        "slug": "hit-2027-delegate",
+        "expectedRuntimePresent": true,
+        "expectedStylesPresent": true,
+        "agendaSupplementPresent": true
+      },
+      {
+        "slug": "hit-2027-sponsor",
+        "expectedRuntimePresent": true,
+        "expectedStylesPresent": true,
+        "agendaSupplementPresent": true
+      },
+      {
+        "slug": "hr-can-april-2027-delegate",
+        "expectedRuntimePresent": true,
+        "expectedStylesPresent": true,
+        "agendaSupplementPresent": true
+      },
+      {
+        "slug": "hr-can-april-2027-sponsor",
+        "expectedRuntimePresent": true,
+        "expectedStylesPresent": true,
+        "agendaSupplementPresent": true
+      },
+      {
+        "slug": "hrmi-canada-nov-2026-delegate",
+        "expectedRuntimePresent": true,
+        "expectedStylesPresent": true,
+        "agendaSupplementPresent": true
+      },
+      {
+        "slug": "hrmi-canada-nov-2026-sponsor",
+        "expectedRuntimePresent": true,
+        "expectedStylesPresent": true,
+        "agendaSupplementPresent": true
+      },
+      {
+        "slug": "hrmi-feb-2027-delegate",
+        "expectedRuntimePresent": true,
+        "expectedStylesPresent": true,
+        "agendaSupplementPresent": true
+      },
+      {
+        "slug": "hrmi-feb-2027-sponsor",
+        "expectedRuntimePresent": true,
+        "expectedStylesPresent": true,
+        "agendaSupplementPresent": true
+      },
+      {
+        "slug": "hrmi-oct-2026-delegate",
+        "expectedRuntimePresent": true,
+        "expectedStylesPresent": true,
+        "agendaSupplementPresent": true
+      },
+      {
+        "slug": "hrmi-oct-2026-sponsor",
+        "expectedRuntimePresent": true,
+        "expectedStylesPresent": true,
+        "agendaSupplementPresent": true
+      },
+      {
+        "slug": "iplmi-2026-delegate",
+        "expectedRuntimePresent": true,
+        "expectedStylesPresent": true,
+        "agendaSupplementPresent": true
+      },
+      {
+        "slug": "iplmi-2026-sponsor",
+        "expectedRuntimePresent": true,
+        "expectedStylesPresent": true,
+        "agendaSupplementPresent": true
+      }
+    ]
+  }
+}

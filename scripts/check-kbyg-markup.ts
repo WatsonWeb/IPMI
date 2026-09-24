@@ -52,7 +52,10 @@ const requiredFragments = [
   'data-kbyg-audience-branch="sponsor"',
   "Preparing for your Institute is as easy as 1-2-3.",
   "Key Dates &amp; Deliverables.",
-  "Agenda At-A-Glance.",
+  'id="kbyg-agenda-title"',
+  "Institute Agenda",
+  "VIEW FULL INSTITUTE AGENDA",
+  "href = Referenced Institute > Agenda Link",
   "The Ritz-Carlton Orlando, Grande Lakes",
   "Katrina Brightling",
   "kbrightling@ipmievents.com",
@@ -61,6 +64,10 @@ const requiredFragments = [
 ];
 for (const fragment of requiredFragments) {
   if (!html.includes(fragment)) failures.push(`Missing markup contract fragment: ${fragment}`);
+}
+
+if (/kbyg-agenda-(?:grid|card)|Agenda At-A-Glance/.test(html)) {
+  failures.push("Obsolete agenda grid or heading remains in the rendered scaffold.");
 }
 
 if (!visibleText.includes("Know Before You Go.")) {
