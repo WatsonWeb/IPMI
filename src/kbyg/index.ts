@@ -1030,12 +1030,51 @@ function setupNavigation(
 
   let hashRecord = recordForKey(windowRef && windowRef.location && windowRef.location.hash);
   if (hashRecord) {
+    let initialAlignmentPending = true;
+    function cancelInitialAlignment() {
+      initialAlignmentPending = false;
+    }
+    function alignInitialHash() {
+      if (!destroyed && initialAlignmentPending) {
+        navigate(hashRecord, { updateHash: false, behavior: "auto" });
+      }
+    }
+    // Reload can restore the old viewport's scrollY after DOMContentLoaded.
+    // Re-align once after pageshow's restoration phase, without taking ownership
+    // of subsequent history traversal or overriding a visitor's scrolling.
+    (["wheel", "touchstart", "pointerdown", "keydown", "change", "hashchange"] as const).forEach(
+      function (type) {
+        addListener(
+          windowRef,
+          type,
+          cancelInitialAlignment,
+          { capture: true, passive: true },
+          cleanups,
+        );
+      },
+    );
+    addListener(
+      windowRef,
+      "pageshow",
+      function (event) {
+        if ("persisted" in event && event.persisted) {
+          cancelInitialAlignment();
+          return;
+        }
+        if (windowRef && typeof windowRef.requestAnimationFrame === "function") {
+          windowRef.requestAnimationFrame(function () {
+            alignInitialHash();
+            cancelInitialAlignment();
+          });
+        }
+      },
+      false,
+      cleanups,
+    );
     if (windowRef && typeof windowRef.requestAnimationFrame === "function") {
-      windowRef.requestAnimationFrame(function () {
-        if (!destroyed) navigate(hashRecord, { updateHash: false, behavior: "auto" });
-      });
+      windowRef.requestAnimationFrame(alignInitialHash);
     } else {
-      navigate(hashRecord, { updateHash: false, behavior: "auto" });
+      alignInitialHash();
     }
   } else {
     updateFromScroll();

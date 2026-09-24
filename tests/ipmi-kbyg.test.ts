@@ -334,6 +334,47 @@ test.each([
   },
 );
 
+test("initial hash realigns after reload restoration at pageshow", () => {
+  history.replaceState(null, "", "#agenda");
+  const { element } = stickyNavigationFixture(false);
+  initialize(element);
+  vi.runOnlyPendingTimers();
+  expect(window.scrollTo).toHaveBeenLastCalledWith({ top: 981, behavior: "auto" });
+  Object.defineProperty(window, "scrollY", { configurable: true, value: 4014 });
+  vi.mocked(window.scrollTo).mockClear();
+  window.dispatchEvent(new Event("pageshow"));
+  vi.runOnlyPendingTimers();
+  expect(window.scrollTo).toHaveBeenLastCalledWith({ top: 981, behavior: "auto" });
+});
+
+test.each(["wheel", "touchstart", "pointerdown", "keydown", "change", "hashchange"])(
+  "initial hash correction respects visitor %s intent",
+  (type) => {
+    history.replaceState(null, "", "#agenda");
+    const { element } = stickyNavigationFixture(false);
+    initialize(element);
+    vi.runOnlyPendingTimers();
+    window.dispatchEvent(new Event(type));
+    vi.mocked(window.scrollTo).mockClear();
+    window.dispatchEvent(new Event("pageshow"));
+    vi.runOnlyPendingTimers();
+    expect(window.scrollTo).not.toHaveBeenCalled();
+  },
+);
+
+test("initial hash correction leaves persisted history restoration alone", () => {
+  history.replaceState(null, "", "#agenda");
+  const { element } = stickyNavigationFixture(false);
+  initialize(element);
+  vi.runOnlyPendingTimers();
+  vi.mocked(window.scrollTo).mockClear();
+  const event = new Event("pageshow");
+  Object.defineProperty(event, "persisted", { value: true });
+  window.dispatchEvent(event);
+  vi.runOnlyPendingTimers();
+  expect(window.scrollTo).not.toHaveBeenCalled();
+});
+
 test("sticky centering includes the inner pill's relative top and the declared offset floor", () => {
   const { element, header } = stickyNavigationFixture(false, 8);
   const instance = initialize(element);
