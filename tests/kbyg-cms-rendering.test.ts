@@ -1,5 +1,6 @@
 // @vitest-environment happy-dom
 import assert from "node:assert/strict";
+import { readFileSync } from "node:fs";
 import type { Window } from "happy-dom";
 
 import { afterEach, beforeEach, expect, test, vi } from "vite-plus/test";
@@ -651,6 +652,46 @@ test("a missing marked contact name produces one group notice without photo or p
   expect(
     get(element, ".kbyg-contact-card__meta-item").querySelector(".kbyg-empty-notice"),
   ).toBeNull();
+});
+
+test("compiled contact styles hide empty identity and metadata only while a generated notice is present", () => {
+  const stylesheet = document.createElement("style");
+  stylesheet.textContent = readFileSync("ipmi-kbyg-styles.css", "utf8");
+  document.head.append(stylesheet);
+  const element = page(
+    `<article id="missing-contact" class="kbyg-contact-card" data-kbyg-empty-message="Check back soon for your Operations Lead!">
+      <div class="kbyg-contact-card__identity"><h3 data-kbyg-content class="w-dyn-bind-empty"></h3></div>
+      <ul class="kbyg-contact-card__meta"><li>Template contact details</li></ul>
+    </article>
+    <article id="populated-contact" class="kbyg-contact-card" data-kbyg-empty-message="Check back soon for your Operations Lead!">
+      <div class="kbyg-contact-card__identity"><h3 data-kbyg-content>Tori Di Clemente</h3></div>
+      <ul class="kbyg-contact-card__meta"><li>Selected lead contact details</li></ul>
+    </article>`,
+  );
+
+  const first = initialize(element);
+
+  const missing = get(element, "#missing-contact");
+  const populated = get(element, "#populated-contact");
+  [".kbyg-contact-card__identity", ".kbyg-contact-card__meta"].forEach((selector) => {
+    expect(getComputedStyle(get(missing, selector)).display).toBe("none");
+    expect(getComputedStyle(get(populated, selector)).display).not.toBe("none");
+  });
+  expect(getComputedStyle(get(missing, "[data-kbyg-generated-empty-notice]")).display).not.toBe(
+    "none",
+  );
+  expect(populated.querySelector("[data-kbyg-generated-empty-notice]")).toBeNull();
+
+  first.destroy();
+  const name = get(missing, "[data-kbyg-content]");
+  name.classList.remove("w-dyn-bind-empty");
+  name.textContent = "Tori Di Clemente";
+  initialize(element);
+
+  expect(missing.querySelector("[data-kbyg-generated-empty-notice]")).toBeNull();
+  expect(getComputedStyle(get(missing, ".kbyg-contact-card__identity")).display).not.toBe("none");
+  expect(getComputedStyle(get(missing, ".kbyg-contact-card__meta")).display).not.toBe("none");
+  stylesheet.remove();
 });
 
 test.each(["native rich text", "explicit description"])(

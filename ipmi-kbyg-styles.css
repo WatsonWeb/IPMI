@@ -73,6 +73,9 @@
   font-size: 16px;
   line-height: 1.55;
 }
+.kbyg-page .kbyg-contact-card[data-kbyg-empty-message]:has(> .kbyg-empty-notice[data-kbyg-generated-empty-notice]:not([hidden])) > :is(.kbyg-contact-card__identity, .kbyg-contact-card__meta) {
+  display: none;
+}
 .kbyg-page > main {
   position: relative;
   isolation: isolate;

@@ -74,7 +74,10 @@ remain the source of event, staff, and content-block data.
   `.kbyg-empty-notice` inherits the section's text color. Apply this contract to
   Welcome copy, Hub copy, hotel/reservation/transport details, Support copy,
   and Operations Lead cards as appropriate. Leave optional photos and contact
-  channels unmarked so they do not generate individual notices.
+  channels unmarked so they do not generate individual notices. A contact card
+  showing its generated notice hides its identity and contact-meta rows, avoiding
+  a blank portrait, static organization label, or empty divider. Populated cards
+  retain those rows.
 - Keep native Collection List Empty States for Preparation, Key Dates, Agenda,
   Experience, and FAQ. To avoid duplicate Sponsor Experience notices, mark its
   two native Empty State wrappers with `data-kbyg-empty-notice` and the same
