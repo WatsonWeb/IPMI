@@ -1,0 +1,137 @@
+{
+  "items": [
+    {
+      "id": "63c4d3e93b2b761c70ba1244",
+      "cmsLocaleId": "653ad7c5e882f528b349ce21",
+      "lastPublished": "2023-01-16T04:34:49.764Z",
+      "lastUpdated": "2023-01-16T04:34:49.764Z",
+      "createdOn": "2023-01-16T04:34:49.764Z",
+      "isArchived": false,
+      "isDraft": false,
+      "fieldData": {
+        "faq-answer": "<p id=\"\">Yes, for many of our events, continuing education credits are available. Credit types include CLE, CPE, HRCI, and SHRM. Take a look at our Institutes or Contact Us for further information about what is available for each event.</p>",
+        "slider-images-sourced-from-gallery": null,
+        "sort-order": 8,
+        "name": "Are continuing education credits provided",
+        "slug": "are-continuing-education-credits-provided"
+      }
+    },
+    {
+      "id": "63c4d3b39bcbb478d8954342",
+      "cmsLocaleId": "653ad7c5e882f528b349ce21",
+      "lastPublished": "2026-09-24T04:46:38.730Z",
+      "lastUpdated": "2026-09-24T04:46:03.957Z",
+      "createdOn": "2023-01-16T04:33:55.594Z",
+      "isArchived": false,
+      "isDraft": false,
+      "fieldData": {
+        "faq-answer": "<p>An integral part of your event agenda is the one-on-one business meetings with leading Service Providers. These private, pre-selected meetings provide an opportunity to engage with senior-level specialists who can address your current business challenges and priorities during a 30-minute strategic conversation. Prior to the Institute, you will be able to assess the Service Providers who will be attending and select those that offer solutions to match your priorities and initiatives.</p>",
+        "slider-images-sourced-from-gallery": [
+          "63bf5a7b7ca5634db06c312a",
+          "63bf5ac584c6a1b584a099ed",
+          "63c24e3023be3c5080d8daf1",
+          "63bf5afe035bf7050dfdb6e8",
+          "63bf5aa65756495e53d8004c"
+        ],
+        "sort-order": 7,
+        "name": "What do the business meetings look like",
+        "slug": "what-do-the-business-meetings-look-like"
+      }
+    },
+    {
+      "id": "63c4d2bf0a00609c3eea1105",
+      "cmsLocaleId": "653ad7c5e882f528b349ce21",
+      "lastPublished": "2023-01-16T04:29:51.273Z",
+      "lastUpdated": "2023-01-16T04:29:51.273Z",
+      "createdOn": "2023-01-16T04:29:51.273Z",
+      "isArchived": false,
+      "isDraft": false,
+      "fieldData": {
+        "faq-answer": "<p id=\"\">Guests are welcome and invited to attend the Monday evening dinner function, however are asked to refrain from joining the Sunday evening Welcome Dinner function and other group meal functions.</p>",
+        "slider-images-sourced-from-gallery": null,
+        "sort-order": 6,
+        "name": "Can I bring a guest",
+        "slug": "can-i-bring-a-guest"
+      }
+    },
+    {
+      "id": "63c4d2567204b6c89c62ef2a",
+      "cmsLocaleId": "653ad7c5e882f528b349ce21",
+      "lastPublished": "2023-01-16T12:50:39.559Z",
+      "lastUpdated": "2023-01-16T12:40:10.069Z",
+      "createdOn": "2023-01-16T04:28:06.421Z",
+      "isArchived": false,
+      "isDraft": false,
+      "fieldData": {
+        "faq-answer": "<p id=\"\">Business casual. We encourage a casual &amp; comfortable atmosphere for all event sessions &amp; networking functions.</p>",
+        "slider-images-sourced-from-gallery": [],
+        "sort-order": 4,
+        "name": "What is the Dress Code",
+        "slug": "what-is-the-dress-code"
+      }
+    },
+    {
+      "id": "63c4d14195a3b8e9397cc1a8",
+      "cmsLocaleId": "653ad7c5e882f528b349ce21",
+      "lastPublished": "2023-01-16T12:50:39.559Z",
+      "lastUpdated": "2023-01-16T12:41:00.096Z",
+      "createdOn": "2023-01-16T04:23:29.986Z",
+      "isArchived": false,
+      "isDraft": false,
+      "fieldData": {
+        "faq-answer": "<p id=\"\">Please reach out to our team; we would be happy to connect with you about attending one of our events!<br><br><a href=\"/attend\"><strong id=\"\">Attend an Institute ➜</strong></a></p>",
+        "slider-images-sourced-from-gallery": null,
+        "sort-order": 3,
+        "name": "How can I attend an Institute",
+        "slug": "how-can-i-attend"
+      }
+    },
+    {
+      "id": "63c246da17b0ed6758030c71",
+      "cmsLocaleId": "653ad7c5e882f528b349ce21",
+      "lastPublished": "2026-09-24T04:46:38.730Z",
+      "lastUpdated": "2026-09-24T04:45:26.127Z",
+      "createdOn": "2023-01-14T06:08:26.645Z",
+      "isArchived": false,
+      "isDraft": false,
+      "fieldData": {
+        "faq-answer": "<p>IPMI's Virtual Think Tanks are online bespoke gatherings for sharing insights, tools, and resources to help drive organizational success, and are the go-to outlet for dealing with changing priorities and perspectives, as well as continued challenges at the macroeconomic and organizational levels.<br><br><a href=\"/thinktanks\"><strong>View Upcoming Think Tanks ➜</strong></a></p>",
+        "slider-images-sourced-from-gallery": [
+          "63c4de5c9f1b455325cdd32b",
+          "63c4deba7204b614e6639e1a",
+          "63c4dedf0d5e92ef7102ff16"
+        ],
+        "sort-order": 2,
+        "name": "What is a Think Tank",
+        "slug": "what-is-a-think-tank"
+      }
+    },
+    {
+      "id": "63c105510d96681c49d7b93a",
+      "cmsLocaleId": "653ad7c5e882f528b349ce21",
+      "lastPublished": "2026-09-24T04:46:38.730Z",
+      "lastUpdated": "2026-09-24T04:44:53.460Z",
+      "createdOn": "2023-01-13T07:16:33.302Z",
+      "isArchived": false,
+      "isDraft": false,
+      "fieldData": {
+        "faq-answer": "<p>An IPMI Institute is a curated, executive-level event that brings together senior leaders from across industries to share insights, exchange best practices, and collaborate on real world challenges in a focused, immersive setting.<br><br><a href=\"/institutes\"><strong>View Upcoming Institutes ➜</strong></a></p>",
+        "slider-images-sourced-from-gallery": [
+          "63c24d6d8fc67542548531e3",
+          "63c24d9207fffe129466b42d",
+          "63c24e3023be3c5080d8daf1",
+          "63c24e708ef8c5a3f3784e6a",
+          "63bf5b69d00b3fdd3923e9df"
+        ],
+        "sort-order": 1,
+        "name": "What is an Institute",
+        "slug": "what-is-an-institute"
+      }
+    }
+  ],
+  "pagination": {
+    "limit": 100,
+    "offset": 0,
+    "total": 7
+  }
+}

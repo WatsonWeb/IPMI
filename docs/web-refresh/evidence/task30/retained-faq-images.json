@@ -1,0 +1,411 @@
+{
+  "date": "2026-09-24",
+  "status": "Provisional retained images; final IPMI approval pending",
+  "url": "https://ipmi.webflow.io/faq",
+  "collectionId": "63bf18a0654be0fa16c240ad",
+  "rows": [
+    {
+      "faqId": "63c105510d96681c49d7b93a",
+      "faqName": "What is an Institute",
+      "faqSlug": "what-is-an-institute",
+      "faqOrder": 1,
+      "referencePosition": 1,
+      "galleryId": "63c24d6d8fc67542548531e3",
+      "galleryName": "Healthcare Finance Institute 2022 - Panel Session",
+      "gallerySlug": "healthcare-finance-institute-2022-panel-session",
+      "caption": "Healthcare Finance Institute 2022",
+      "gallerySortOrder": 9,
+      "cmsAsset": {
+        "fileId": "63c24d6c7239e976223cfc3b",
+        "url": "https://uploads-ssl.webflow.com/6312ee46f4c52faf21ee8ab5/63c24d6c7239e976223cfc3b_Healthcare%20Finance%20Institute%202022%20-%20Panel%20Session.webp",
+        "alt": null
+      },
+      "renderedAssetUrl": "https://cdn.prod.website-files.com/6312ee46f4c52faf21ee8ab5/63c24d6c7239e976223cfc3b_Healthcare%20Finance%20Institute%202022%20-%20Panel%20Session.webp",
+      "renderedAlt": "Healthcare Finance Institute 2022",
+      "lightbox": {
+        "items": [
+          {
+            "url": "https://cdn.prod.website-files.com/6312ee46f4c52faf21ee8ab5/63c24d6c7239e976223cfc3b_Healthcare%20Finance%20Institute%202022%20-%20Panel%20Session.webp",
+            "type": "image"
+          }
+        ],
+        "group": "FAQ"
+      },
+      "previousValue": "Identical retained values; no mutation",
+      "neededReplacement": "IPMI: approve retention or supply original asset, rights, FAQ association, caption/alt, display order and exact replacement gallery record",
+      "rollback": "No image rollback required: references and assets retained"
+    },
+    {
+      "faqId": "63c105510d96681c49d7b93a",
+      "faqName": "What is an Institute",
+      "faqSlug": "what-is-an-institute",
+      "faqOrder": 1,
+      "referencePosition": 2,
+      "galleryId": "63c24d9207fffe129466b42d",
+      "galleryName": "Healthcare Law and Compliance Institute Feb 2022 - Think Tank",
+      "gallerySlug": "heathcare-law-and-compliance-institute-feb-2022-think-tank",
+      "caption": "Healthcare Law & Compliance Institute February 2022",
+      "gallerySortOrder": 9,
+      "cmsAsset": {
+        "fileId": "63c24d8d74f93439fb9fcd8c",
+        "url": "https://uploads-ssl.webflow.com/6312ee46f4c52faf21ee8ab5/63c24d8d74f93439fb9fcd8c_Heathcare%20Law%20and%20Compliance%20Institute%20Feb%202022%20-%20Think%20Tank.webp",
+        "alt": null
+      },
+      "renderedAssetUrl": "https://cdn.prod.website-files.com/6312ee46f4c52faf21ee8ab5/63c24d8d74f93439fb9fcd8c_Heathcare%20Law%20and%20Compliance%20Institute%20Feb%202022%20-%20Think%20Tank.webp",
+      "renderedAlt": "Healthcare Law & Compliance Institute February 2022",
+      "lightbox": {
+        "items": [
+          {
+            "url": "https://cdn.prod.website-files.com/6312ee46f4c52faf21ee8ab5/63c24d8d74f93439fb9fcd8c_Heathcare%20Law%20and%20Compliance%20Institute%20Feb%202022%20-%20Think%20Tank.webp",
+            "type": "image"
+          }
+        ],
+        "group": "FAQ"
+      },
+      "previousValue": "Identical retained values; no mutation",
+      "neededReplacement": "IPMI: approve retention or supply original asset, rights, FAQ association, caption/alt, display order and exact replacement gallery record",
+      "rollback": "No image rollback required: references and assets retained"
+    },
+    {
+      "faqId": "63c105510d96681c49d7b93a",
+      "faqName": "What is an Institute",
+      "faqSlug": "what-is-an-institute",
+      "faqOrder": 1,
+      "referencePosition": 3,
+      "galleryId": "63c24e3023be3c5080d8daf1",
+      "galleryName": "HR East 2022 - Business Meeting",
+      "gallerySlug": "hr-east-2022-business-meeting",
+      "caption": "HR Management Institute East 2022",
+      "gallerySortOrder": 9,
+      "cmsAsset": {
+        "fileId": "63c24e2dfd09f3265ef4eaeb",
+        "url": "https://uploads-ssl.webflow.com/6312ee46f4c52faf21ee8ab5/63c24e2dfd09f3265ef4eaeb_HR%20East%202022%20-%20Business%20Meeting.webp",
+        "alt": null
+      },
+      "renderedAssetUrl": "https://cdn.prod.website-files.com/6312ee46f4c52faf21ee8ab5/63c24e2dfd09f3265ef4eaeb_HR%20East%202022%20-%20Business%20Meeting.webp",
+      "renderedAlt": "HR Management Institute East 2022",
+      "lightbox": {
+        "items": [
+          {
+            "url": "https://cdn.prod.website-files.com/6312ee46f4c52faf21ee8ab5/63c24e2dfd09f3265ef4eaeb_HR%20East%202022%20-%20Business%20Meeting.webp",
+            "type": "image"
+          }
+        ],
+        "group": "FAQ"
+      },
+      "previousValue": "Identical retained values; no mutation",
+      "neededReplacement": "IPMI: approve retention or supply original asset, rights, FAQ association, caption/alt, display order and exact replacement gallery record",
+      "rollback": "No image rollback required: references and assets retained"
+    },
+    {
+      "faqId": "63c105510d96681c49d7b93a",
+      "faqName": "What is an Institute",
+      "faqSlug": "what-is-an-institute",
+      "faqOrder": 1,
+      "referencePosition": 4,
+      "galleryId": "63c24e708ef8c5a3f3784e6a",
+      "galleryName": "TAI Canada 2022 - General Session Room",
+      "gallerySlug": "tai-canada-2022-general-session-room",
+      "caption": "Talent Acquisition & Employee Experience Canada 2022",
+      "gallerySortOrder": 9,
+      "cmsAsset": {
+        "fileId": "63c24e6df3d9c5216a2c1857",
+        "url": "https://uploads-ssl.webflow.com/6312ee46f4c52faf21ee8ab5/63c24e6df3d9c5216a2c1857_TAI%20Canada%202022%20-%20General%20Session%20Room.webp",
+        "alt": null
+      },
+      "renderedAssetUrl": "https://cdn.prod.website-files.com/6312ee46f4c52faf21ee8ab5/63c24e6df3d9c5216a2c1857_TAI%20Canada%202022%20-%20General%20Session%20Room.webp",
+      "renderedAlt": "Talent Acquisition & Employee Experience Canada 2022",
+      "lightbox": {
+        "items": [
+          {
+            "url": "https://cdn.prod.website-files.com/6312ee46f4c52faf21ee8ab5/63c24e6df3d9c5216a2c1857_TAI%20Canada%202022%20-%20General%20Session%20Room.webp",
+            "type": "image"
+          }
+        ],
+        "group": "FAQ"
+      },
+      "previousValue": "Identical retained values; no mutation",
+      "neededReplacement": "IPMI: approve retention or supply original asset, rights, FAQ association, caption/alt, display order and exact replacement gallery record",
+      "rollback": "No image rollback required: references and assets retained"
+    },
+    {
+      "faqId": "63c105510d96681c49d7b93a",
+      "faqName": "What is an Institute",
+      "faqSlug": "what-is-an-institute",
+      "faqOrder": 1,
+      "referencePosition": 5,
+      "galleryId": "63bf5b69d00b3fdd3923e9df",
+      "galleryName": "Healthcare Law and Compliance Institute Feb 2022 - Networking",
+      "gallerySlug": "heathcare-law-and-compliance-institute-feb-2022-networking",
+      "caption": "Healthcare Law & Compliance Institute February 2022",
+      "gallerySortOrder": 3,
+      "cmsAsset": {
+        "fileId": "63bf5b685bf1fa0adc361d15",
+        "url": "https://uploads-ssl.webflow.com/6312ee46f4c52faf21ee8ab5/63bf5b685bf1fa0adc361d15_Heathcare%20Law%20and%20Compliance%20Institute%20Feb%202022%20-%20Networking.webp",
+        "alt": null
+      },
+      "renderedAssetUrl": "https://cdn.prod.website-files.com/6312ee46f4c52faf21ee8ab5/63bf5b685bf1fa0adc361d15_Heathcare%20Law%20and%20Compliance%20Institute%20Feb%202022%20-%20Networking.webp",
+      "renderedAlt": "Healthcare Law & Compliance Institute February 2022",
+      "lightbox": {
+        "items": [
+          {
+            "url": "https://cdn.prod.website-files.com/6312ee46f4c52faf21ee8ab5/63bf5b685bf1fa0adc361d15_Heathcare%20Law%20and%20Compliance%20Institute%20Feb%202022%20-%20Networking.webp",
+            "type": "image"
+          }
+        ],
+        "group": "FAQ"
+      },
+      "previousValue": "Identical retained values; no mutation",
+      "neededReplacement": "IPMI: approve retention or supply original asset, rights, FAQ association, caption/alt, display order and exact replacement gallery record",
+      "rollback": "No image rollback required: references and assets retained"
+    },
+    {
+      "faqId": "63c246da17b0ed6758030c71",
+      "faqName": "What is a Think Tank",
+      "faqSlug": "what-is-a-think-tank",
+      "faqOrder": 2,
+      "referencePosition": 1,
+      "galleryId": "63c4de5c9f1b455325cdd32b",
+      "galleryName": "VTT Screencap 1",
+      "gallerySlug": "vtt-screencap-1",
+      "caption": "ServiceNow VTT December 2021",
+      "gallerySortOrder": 1,
+      "cmsAsset": {
+        "fileId": "63c4de027204b67a1263955c",
+        "url": "https://uploads-ssl.webflow.com/6312ee46f4c52faf21ee8ab5/63c4de027204b67a1263955c_1639681565247.jpg",
+        "alt": null
+      },
+      "renderedAssetUrl": "https://cdn.prod.website-files.com/6312ee46f4c52faf21ee8ab5/63c4de027204b67a1263955c_1639681565247.jpg",
+      "renderedAlt": "ServiceNow VTT December 2021",
+      "lightbox": {
+        "items": [
+          {
+            "url": "https://cdn.prod.website-files.com/6312ee46f4c52faf21ee8ab5/63c4de027204b67a1263955c_1639681565247.jpg",
+            "type": "image"
+          }
+        ],
+        "group": "FAQ"
+      },
+      "previousValue": "Identical retained values; no mutation",
+      "neededReplacement": "IPMI: approve retention or supply original asset, rights, FAQ association, caption/alt, display order and exact replacement gallery record",
+      "rollback": "No image rollback required: references and assets retained"
+    },
+    {
+      "faqId": "63c246da17b0ed6758030c71",
+      "faqName": "What is a Think Tank",
+      "faqSlug": "what-is-a-think-tank",
+      "faqOrder": 2,
+      "referencePosition": 2,
+      "galleryId": "63c4deba7204b614e6639e1a",
+      "galleryName": "VTT Screencap 2",
+      "gallerySlug": "vtt-screencap-2",
+      "caption": "ServiceNow VTT November 2022",
+      "gallerySortOrder": 2,
+      "cmsAsset": {
+        "fileId": "63c4de8395a3b825527d96ea",
+        "url": "https://uploads-ssl.webflow.com/6312ee46f4c52faf21ee8ab5/63c4de8395a3b825527d96ea_1666278303820.jpg",
+        "alt": null
+      },
+      "renderedAssetUrl": "https://cdn.prod.website-files.com/6312ee46f4c52faf21ee8ab5/63c4de8395a3b825527d96ea_1666278303820.jpg",
+      "renderedAlt": "ServiceNow VTT November 2022",
+      "lightbox": {
+        "items": [
+          {
+            "url": "https://cdn.prod.website-files.com/6312ee46f4c52faf21ee8ab5/63c4de8395a3b825527d96ea_1666278303820.jpg",
+            "type": "image"
+          }
+        ],
+        "group": "FAQ"
+      },
+      "previousValue": "Identical retained values; no mutation",
+      "neededReplacement": "IPMI: approve retention or supply original asset, rights, FAQ association, caption/alt, display order and exact replacement gallery record",
+      "rollback": "No image rollback required: references and assets retained"
+    },
+    {
+      "faqId": "63c246da17b0ed6758030c71",
+      "faqName": "What is a Think Tank",
+      "faqSlug": "what-is-a-think-tank",
+      "faqOrder": 2,
+      "referencePosition": 3,
+      "galleryId": "63c4dedf0d5e92ef7102ff16",
+      "galleryName": "VTT Screencap 3",
+      "gallerySlug": "vtt-screencap-3",
+      "caption": "ServiceNow VTT September 2022",
+      "gallerySortOrder": 3,
+      "cmsAsset": {
+        "fileId": "63c4decc95a3b8285e7d9b47",
+        "url": "https://uploads-ssl.webflow.com/6312ee46f4c52faf21ee8ab5/63c4decc95a3b8285e7d9b47_1663109431950.jpg",
+        "alt": null
+      },
+      "renderedAssetUrl": "https://cdn.prod.website-files.com/6312ee46f4c52faf21ee8ab5/63c4decc95a3b8285e7d9b47_1663109431950.jpg",
+      "renderedAlt": "ServiceNow VTT September 2022",
+      "lightbox": {
+        "items": [
+          {
+            "url": "https://cdn.prod.website-files.com/6312ee46f4c52faf21ee8ab5/63c4decc95a3b8285e7d9b47_1663109431950.jpg",
+            "type": "image"
+          }
+        ],
+        "group": "FAQ"
+      },
+      "previousValue": "Identical retained values; no mutation",
+      "neededReplacement": "IPMI: approve retention or supply original asset, rights, FAQ association, caption/alt, display order and exact replacement gallery record",
+      "rollback": "No image rollback required: references and assets retained"
+    },
+    {
+      "faqId": "63c4d3b39bcbb478d8954342",
+      "faqName": "What do the business meetings look like",
+      "faqSlug": "what-do-the-business-meetings-look-like",
+      "faqOrder": 7,
+      "referencePosition": 1,
+      "galleryId": "63bf5a7b7ca5634db06c312a",
+      "galleryName": "HCHR 2022 - Business Meeting 2",
+      "gallerySlug": "hchr-2022-business-meeting-2",
+      "caption": "Healthcare HR Management Institute 2022",
+      "gallerySortOrder": 8,
+      "cmsAsset": {
+        "fileId": "63bf5a6361bff2b8d90fd812",
+        "url": "https://uploads-ssl.webflow.com/6312ee46f4c52faf21ee8ab5/63bf5a6361bff2b8d90fd812_HCHR%202022%20-%20Buisness%20Meeting%202.webp",
+        "alt": null
+      },
+      "renderedAssetUrl": "https://cdn.prod.website-files.com/6312ee46f4c52faf21ee8ab5/63bf5a6361bff2b8d90fd812_HCHR%202022%20-%20Buisness%20Meeting%202.webp",
+      "renderedAlt": "Healthcare HR Management Institute 2022",
+      "lightbox": {
+        "items": [
+          {
+            "url": "https://cdn.prod.website-files.com/6312ee46f4c52faf21ee8ab5/63bf5a6361bff2b8d90fd812_HCHR%202022%20-%20Buisness%20Meeting%202.webp",
+            "type": "image"
+          }
+        ],
+        "group": "FAQ"
+      },
+      "previousValue": "Identical retained values; no mutation",
+      "neededReplacement": "IPMI: approve retention or supply original asset, rights, FAQ association, caption/alt, display order and exact replacement gallery record",
+      "rollback": "No image rollback required: references and assets retained"
+    },
+    {
+      "faqId": "63c4d3b39bcbb478d8954342",
+      "faqName": "What do the business meetings look like",
+      "faqSlug": "what-do-the-business-meetings-look-like",
+      "faqOrder": 7,
+      "referencePosition": 2,
+      "galleryId": "63bf5ac584c6a1b584a099ed",
+      "galleryName": "Healthcare Law and Compliance Institute Feb 2022 - Business Meetings",
+      "gallerySlug": "heathcare-law-and-compliance-institute-feb-2022-business-meetings",
+      "caption": "Healthcare Law and Compliance Institute February 2022",
+      "gallerySortOrder": 4,
+      "cmsAsset": {
+        "fileId": "63bf5ab861bff224b50fe6b7",
+        "url": "https://uploads-ssl.webflow.com/6312ee46f4c52faf21ee8ab5/63bf5ab861bff224b50fe6b7_Heathcare%20Law%20and%20Compliance%20Institute%20Feb%202022%20-%20Business%20Meetings.webp",
+        "alt": null
+      },
+      "renderedAssetUrl": "https://cdn.prod.website-files.com/6312ee46f4c52faf21ee8ab5/63bf5ab861bff224b50fe6b7_Heathcare%20Law%20and%20Compliance%20Institute%20Feb%202022%20-%20Business%20Meetings.webp",
+      "renderedAlt": "Healthcare Law and Compliance Institute February 2022",
+      "lightbox": {
+        "items": [
+          {
+            "url": "https://cdn.prod.website-files.com/6312ee46f4c52faf21ee8ab5/63bf5ab861bff224b50fe6b7_Heathcare%20Law%20and%20Compliance%20Institute%20Feb%202022%20-%20Business%20Meetings.webp",
+            "type": "image"
+          }
+        ],
+        "group": "FAQ"
+      },
+      "previousValue": "Identical retained values; no mutation",
+      "neededReplacement": "IPMI: approve retention or supply original asset, rights, FAQ association, caption/alt, display order and exact replacement gallery record",
+      "rollback": "No image rollback required: references and assets retained"
+    },
+    {
+      "faqId": "63c4d3b39bcbb478d8954342",
+      "faqName": "What do the business meetings look like",
+      "faqSlug": "what-do-the-business-meetings-look-like",
+      "faqOrder": 7,
+      "referencePosition": 3,
+      "galleryId": "63c24e3023be3c5080d8daf1",
+      "galleryName": "HR East 2022 - Business Meeting",
+      "gallerySlug": "hr-east-2022-business-meeting",
+      "caption": "HR Management Institute East 2022",
+      "gallerySortOrder": 9,
+      "cmsAsset": {
+        "fileId": "63c24e2dfd09f3265ef4eaeb",
+        "url": "https://uploads-ssl.webflow.com/6312ee46f4c52faf21ee8ab5/63c24e2dfd09f3265ef4eaeb_HR%20East%202022%20-%20Business%20Meeting.webp",
+        "alt": null
+      },
+      "renderedAssetUrl": "https://cdn.prod.website-files.com/6312ee46f4c52faf21ee8ab5/63c24e2dfd09f3265ef4eaeb_HR%20East%202022%20-%20Business%20Meeting.webp",
+      "renderedAlt": "HR Management Institute East 2022",
+      "lightbox": {
+        "items": [
+          {
+            "url": "https://cdn.prod.website-files.com/6312ee46f4c52faf21ee8ab5/63c24e2dfd09f3265ef4eaeb_HR%20East%202022%20-%20Business%20Meeting.webp",
+            "type": "image"
+          }
+        ],
+        "group": "FAQ"
+      },
+      "previousValue": "Identical retained values; no mutation",
+      "neededReplacement": "IPMI: approve retention or supply original asset, rights, FAQ association, caption/alt, display order and exact replacement gallery record",
+      "rollback": "No image rollback required: references and assets retained"
+    },
+    {
+      "faqId": "63c4d3b39bcbb478d8954342",
+      "faqName": "What do the business meetings look like",
+      "faqSlug": "what-do-the-business-meetings-look-like",
+      "faqOrder": 7,
+      "referencePosition": 4,
+      "galleryId": "63bf5afe035bf7050dfdb6e8",
+      "galleryName": "HR July 2022 - Business Meeting",
+      "gallerySlug": "hr-july-2022-business-meeting-3",
+      "caption": "HR Management Institute July 2022",
+      "gallerySortOrder": 7,
+      "cmsAsset": {
+        "fileId": "63bf5afab44d4583765268de",
+        "url": "https://uploads-ssl.webflow.com/6312ee46f4c52faf21ee8ab5/63bf5afab44d4583765268de_HR%20July%202022%20-%20Business%20Meeting.webp",
+        "alt": null
+      },
+      "renderedAssetUrl": "https://cdn.prod.website-files.com/6312ee46f4c52faf21ee8ab5/63bf5afab44d4583765268de_HR%20July%202022%20-%20Business%20Meeting.webp",
+      "renderedAlt": "HR Management Institute July 2022",
+      "lightbox": {
+        "items": [
+          {
+            "url": "https://cdn.prod.website-files.com/6312ee46f4c52faf21ee8ab5/63bf5afab44d4583765268de_HR%20July%202022%20-%20Business%20Meeting.webp",
+            "type": "image"
+          }
+        ],
+        "group": "FAQ"
+      },
+      "previousValue": "Identical retained values; no mutation",
+      "neededReplacement": "IPMI: approve retention or supply original asset, rights, FAQ association, caption/alt, display order and exact replacement gallery record",
+      "rollback": "No image rollback required: references and assets retained"
+    },
+    {
+      "faqId": "63c4d3b39bcbb478d8954342",
+      "faqName": "What do the business meetings look like",
+      "faqSlug": "what-do-the-business-meetings-look-like",
+      "faqOrder": 7,
+      "referencePosition": 5,
+      "galleryId": "63bf5aa65756495e53d8004c",
+      "galleryName": "HCHR 2022 - Business Meeting 3",
+      "gallerySlug": "hchr-2022-business-meeting-3",
+      "caption": "Healthcare HR Management Institute 2022",
+      "gallerySortOrder": 1,
+      "cmsAsset": {
+        "fileId": "63bf5a949a4bb9e7a29f8df2",
+        "url": "https://uploads-ssl.webflow.com/6312ee46f4c52faf21ee8ab5/63bf5a949a4bb9e7a29f8df2_HCHR%202022%20-%20Buisness%20Meeting%203.webp",
+        "alt": null
+      },
+      "renderedAssetUrl": "https://cdn.prod.website-files.com/6312ee46f4c52faf21ee8ab5/63bf5a949a4bb9e7a29f8df2_HCHR%202022%20-%20Buisness%20Meeting%203.webp",
+      "renderedAlt": "Healthcare HR Management Institute 2022",
+      "lightbox": {
+        "items": [
+          {
+            "url": "https://cdn.prod.website-files.com/6312ee46f4c52faf21ee8ab5/63bf5a949a4bb9e7a29f8df2_HCHR%202022%20-%20Buisness%20Meeting%203.webp",
+            "type": "image"
+          }
+        ],
+        "group": "FAQ"
+      },
+      "previousValue": "Identical retained values; no mutation",
+      "neededReplacement": "IPMI: approve retention or supply original asset, rights, FAQ association, caption/alt, display order and exact replacement gallery record",
+      "rollback": "No image rollback required: references and assets retained"
+    }
+  ]
+}

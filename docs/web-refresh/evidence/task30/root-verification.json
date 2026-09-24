@@ -1,0 +1,37 @@
+{
+  "checkedAt": "2026-09-24T03:20:10.0214792-05:00",
+  "url": "https://ipmi.webflow.io/faq",
+  "status": 200,
+  "tagChecks": [
+    {
+      "tag": "img",
+      "beforeCount": 20,
+      "afterCount": 20,
+      "unchanged": true
+    },
+    {
+      "tag": "a",
+      "beforeCount": 107,
+      "afterCount": 108,
+      "unchanged": false
+    },
+    {
+      "tag": "script",
+      "beforeCount": 29,
+      "afterCount": 29,
+      "unchanged": true
+    }
+  ],
+  "allSevenOriginalAnchorsPresent": true,
+  "placeholderQuestionPresent": true,
+  "placeholderAnswerPresent": true,
+  "productionHasNoPlaceholder": true,
+  "scope": "Independent HTTP markup preservation check; interactive checks by worker",
+  "existingSevenCmsFieldsUnchanged": true,
+  "anchorDelta": [
+    {
+      "InputObject": "<a rel=\"nofollow\" href=\"/faq/placeholder-question-replace-with-approved-faq\" class=\"faq-link hidden\">",
+      "SideIndicator": "=>"
+    }
+  ]
+}

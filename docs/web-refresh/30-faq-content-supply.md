@@ -2,7 +2,7 @@
 
 [Back to master](README.md)
 
-**Owner:** IPMI supplies/approves content; BWC enters the approved updates. **Status:** Awaiting additional client content; website changes not performed.
+**Owner:** IPMI supplies/approves content; BWC enters the approved updates. **Status:** Provisional staging example and image handoff complete; final IPMI content approval pending.
 
 ## Source and target
 
@@ -21,7 +21,7 @@
 
 ## Current state and intended result
 
-Extend the existing FAQ content only with supplied, approved material. Preserve current anchor IDs, accordion behavior, and approved changes from task 04. Photos must link to their intended gallery destination rather than a guessed event or generic URL chosen without source support.
+Use approved material where supplied. Bryan's September 23 placeholder instruction permits a visibly temporary staging example for missing additional copy. Preserve current anchor IDs, accordion behavior, and approved changes from task 04. Photos must retain verified destinations until replacement assets and associations are approved.
 
 ## Chrome / Webflow implementation checklist
 
@@ -33,12 +33,18 @@ Extend the existing FAQ content only with supplied, approved material. Preserve 
 
 ## Acceptance checks
 
-- [ ] Every approved copy row maps to its intended existing/new FAQ without duplicate questions.
-- [ ] Existing public anchors and the task 04 rewrites remain correct.
-- [ ] Every additional photo matches its approved position and opens the specified gallery destination.
-- [ ] Images and question/answer layout work responsively; accessible link and accordion names remain useful.
-- [ ] Missing copy/assets/destinations remain explicitly pending rather than filled with speculative content.
+- [x] Seven existing FAQ field sets preserved exactly; one explicitly temporary example appended at order 999.
+- [x] Existing public anchors and task 04 rewrites preserved; task 12 hero image tags unchanged.
+- [x] Existing 5/3/5 gallery references retained and mapped to exact assets/captions/lightbox URLs.
+- [x] New example works at desktop, tablet and mobile sizes and with keyboard; existing accordion/lightbox checks passed.
+- [ ] Final additional copy, imagery, associations and rights approved by IPMI. Existing generic lightbox names and full-size alt limitations remain task 19; inherited tablet navigation overflow remains task 37.
 
 ## Rollback
 
 Save old FAQ text, order, slugs/anchors, image assets, and destinations. Restore only the affected fields; keep newly added items unpublished if rolled back and preserve unrelated task 04/12 updates.
+
+## September 24, 2026 staging completion
+
+Created FAQ `6ab4dcb7c6fcf3d14c3706d1` through Chrome CMS, queued it for the next site publish, then published only `ipmi.webflow.io` after verifying the custom-domain checkbox was unchecked. No immediate CMS Publish now action was used. Exact new fields and rollback are in [task evidence](evidence/task30/README.md), [before/after snapshots](evidence/task30/faq-items-after.json), and the [placeholder register](PLACEHOLDERS.md). The visible question is `Placeholder question — replace with approved FAQ?` (the existing template adds the question mark); answer is `Placeholder: the approved answer will be added here.`
+
+The existing 13 gallery placements remain provisional: [exact 5/3/5 reference manifest](evidence/task30/retained-faq-images.json). No photo, gallery record, approved answer, original order or anchor was replaced. Independent CMS and HTTP checks confirm preservation and absence of the placeholder on production. Final client content acceptance remains pending.
