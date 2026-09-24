@@ -1,0 +1,16 @@
+[
+  {
+    "url": "https://cdn.jsdelivr.net/gh/WatsonWeb/IPMI@a3103da593efd7afeed2ba7f6b92a0ec0bb46e9b/dist/photo-accessibility.js",
+    "file": "photo-accessibility.js",
+    "localSha256": "9DB9BAE255C3E7A00F3791CAE32BFED2C6B81905AAC80E7E8F6496B3B7FC98C3",
+    "cdnSha256": "9DB9BAE255C3E7A00F3791CAE32BFED2C6B81905AAC80E7E8F6496B3B7FC98C3",
+    "bytesMatch": true
+  },
+  {
+    "url": "https://cdn.jsdelivr.net/gh/WatsonWeb/IPMI@a3103da593efd7afeed2ba7f6b92a0ec0bb46e9b/dist/photo-accessibility.css",
+    "file": "photo-accessibility.css",
+    "localSha256": "CE7C5AC1B91A41A45F0E8CB53001880DA5D41767AC5F5336FC1F7C03F5B5F8FF",
+    "cdnSha256": "CE7C5AC1B91A41A45F0E8CB53001880DA5D41767AC5F5336FC1F7C03F5B5F8FF",
+    "bytesMatch": true
+  }
+]

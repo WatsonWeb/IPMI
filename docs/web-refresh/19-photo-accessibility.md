@@ -2,7 +2,7 @@
 
 [Back to master](README.md)
 
-**Owner:** BWC / Webflow implementer; IPMI confirms uncertain people/event identities. **Status:** Audit and implementation pending.
+**Owner:** BWC / Webflow implementer; IPMI confirms uncertain people/event identities. **Status:** Staged for review September 24, 2026. P01–P27 and all 67 active Gallery Photos records / 97 placements audited; native descriptions, linked names, full-size viewer alternatives and focus verified. [Exact audit and evidence](evidence/task19/README.md). Later supplied images require the same audit; three concurrent KBYG image-description follow-ups are assigned to task 37.
 
 ## Source and target
 
@@ -28,11 +28,13 @@ Approved photo mappings and final asset selection are dependencies. IPMI must co
 
 ## Acceptance checks
 
-- [ ] Every changed informative image has accurate alt text matching the final image and context.
-- [ ] Decorative images have empty alt text and do not add redundant announcements.
-- [ ] Linked images/cards have a meaningful accessible name; visible text and alt do not unnecessarily repeat.
-- [ ] No stale person/event names, filenames, or guessed identities remain in changed images.
-- [ ] Responsive variants and CMS-rendered gallery images receive the same audit.
+- [x] Every changed informative image has accurate alt text matching the final image and context.
+- [x] Decorative images have empty alt text and do not add redundant announcements.
+- [x] Linked images/cards have a meaningful accessible name; visible text and alt do not unnecessarily repeat.
+- [x] No stale person/event names, filenames, or guessed identities remain in changed images.
+- [x] Responsive variants and CMS-rendered gallery images receive the same audit.
+
+These checks cover the approved P01–P27 set and retained active Gallery Photos inventory. Tasks 29–32 still require final content approval; this accessibility pass does not approve those assets as new supplied content. The chair demonstration remains an explicitly labeled placeholder. Concurrent external KBYG edits are preserved, with exact remaining descriptions in the evidence handoff.
 
 ## Rollback
 

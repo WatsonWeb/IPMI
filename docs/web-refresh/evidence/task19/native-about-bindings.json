@@ -1,0 +1,38 @@
+[
+  {
+    "alt": "Two participants smiling together at an IPMI event",
+    "group": "{\n  \"items\": [\n    {\n      \"url\": \"https://cdn.prod.website-files.com/6312ee46f4c52faf21ee8ab5/6ab4bd1fbf52ddc3481af066_P18-HRMI-Apr-2025-Staff-1-1920.jpg\",\n      \"type\": \"image\"\n    }\n  ],\n  \"group\": \"About\"\n}",
+    "image": "https://cdn.prod.website-files.com/6312ee46f4c52faf21ee8ab5/6ab4bd1fbf52ddc3481af066_P18-HRMI-Apr-2025-Staff-1-1920.jpg",
+    "role": null
+  },
+  {
+    "alt": "Four IPMI team members smiling together at an outdoor event",
+    "group": "{\n  \"items\": [\n    {\n      \"url\": \"https://cdn.prod.website-files.com/6312ee46f4c52faf21ee8ab5/6ab4bd741859cfc75a33edf7_P19-HFI-2026-Staff-1920.jpg\",\n      \"type\": \"image\"\n    }\n  ],\n  \"group\": \"About\"\n}",
+    "image": "https://cdn.prod.website-files.com/6312ee46f4c52faf21ee8ab5/6ab4bd741859cfc75a33edf7_P19-HFI-2026-Staff-1920.jpg",
+    "role": null
+  },
+  {
+    "alt": "Attendees listening in a conference room with rows of tables",
+    "group": "{\n  \"items\": [\n    {\n      \"url\": \"https://cdn.prod.website-files.com/6312ee46f4c52faf21ee8ab5/63bf5bdb10f3fdd90423cc01_HR%20July%202022%20-%20Session%20Room.webp\",\n      \"type\": \"image\"\n    }\n  ],\n  \"group\": \"About\"\n}",
+    "image": "https://cdn.prod.website-files.com/6312ee46f4c52faf21ee8ab5/63bf5bdb10f3fdd90423cc01_HR%20July%202022%20-%20Session%20Room.webp",
+    "role": "link"
+  },
+  {
+    "alt": "A speaker in a yellow suit addressing an audience with a handheld microphone",
+    "group": "{\n  \"items\": [\n    {\n      \"url\": \"https://cdn.prod.website-files.com/6312ee46f4c52faf21ee8ab5/63c9bbafd6abd0ea3863461b_HCHR%202022%20-%20Nas.jpg\",\n      \"type\": \"image\"\n    }\n  ],\n  \"group\": \"About\"\n}",
+    "image": "https://cdn.prod.website-files.com/6312ee46f4c52faf21ee8ab5/63c9bbafd6abd0ea3863461b_HCHR%202022%20-%20Nas.jpg",
+    "role": "link"
+  },
+  {
+    "alt": "Two attendees talking at a cocktail table near a registration sign",
+    "group": "{\n  \"items\": [\n    {\n      \"url\": \"https://cdn.prod.website-files.com/6312ee46f4c52faf21ee8ab5/63c532c4e9a211c81899cf01_HCHR%202022%20-%20Networking.webp\",\n      \"type\": \"image\"\n    }\n  ],\n  \"group\": \"About\"\n}",
+    "image": "https://cdn.prod.website-files.com/6312ee46f4c52faf21ee8ab5/63c532c4e9a211c81899cf01_HCHR%202022%20-%20Networking.webp",
+    "role": "link"
+  },
+  {
+    "alt": "A speaker holding a microphone and tablet on stage",
+    "group": "{\n  \"items\": [\n    {\n      \"url\": \"https://cdn.prod.website-files.com/6312ee46f4c52faf21ee8ab5/63c9bc955b64c559b02d1363_SOI%202022%20Jenny.webp\",\n      \"type\": \"image\"\n    }\n  ],\n  \"group\": \"About\"\n}",
+    "image": "https://cdn.prod.website-files.com/6312ee46f4c52faf21ee8ab5/63c9bc955b64c559b02d1363_SOI%202022%20Jenny.webp",
+    "role": "link"
+  }
+]

@@ -1,0 +1,70 @@
+[
+  {
+    "page": "gallery",
+    "logs": [
+      {
+        "level": "warn",
+        "message": "[DEFAULT]: WARN : Using DEFAULT root logger",
+        "timestamp": "2026-09-24T14:31:48.287Z",
+        "url": "chrome-extension://kbfnbcaeplbcioakkpcpgfkobkghlhen/src/js/8631.libs.chunk.js"
+      },
+      {
+        "level": "warn",
+        "message": "[DEFAULT]: WARN : Using DEFAULT root logger",
+        "timestamp": "2026-09-24T14:32:23.969Z",
+        "url": "chrome-extension://kbfnbcaeplbcioakkpcpgfkobkghlhen/src/js/8631.libs.chunk.js"
+      }
+    ]
+  },
+  {
+    "page": "faq",
+    "logs": [
+      {
+        "level": "warn",
+        "message": "[DEFAULT]: WARN : Using DEFAULT root logger",
+        "timestamp": "2026-09-24T14:31:48.287Z",
+        "url": "chrome-extension://kbfnbcaeplbcioakkpcpgfkobkghlhen/src/js/8631.libs.chunk.js"
+      },
+      {
+        "level": "warn",
+        "message": "[DEFAULT]: WARN : Using DEFAULT root logger",
+        "timestamp": "2026-09-24T14:32:23.969Z",
+        "url": "chrome-extension://kbfnbcaeplbcioakkpcpgfkobkghlhen/src/js/8631.libs.chunk.js"
+      }
+    ]
+  },
+  {
+    "page": "about",
+    "logs": [
+      {
+        "level": "warn",
+        "message": "[DEFAULT]: WARN : Using DEFAULT root logger",
+        "timestamp": "2026-09-24T14:31:48.287Z",
+        "url": "chrome-extension://kbfnbcaeplbcioakkpcpgfkobkghlhen/src/js/8631.libs.chunk.js"
+      },
+      {
+        "level": "warn",
+        "message": "[DEFAULT]: WARN : Using DEFAULT root logger",
+        "timestamp": "2026-09-24T14:32:23.969Z",
+        "url": "chrome-extension://kbfnbcaeplbcioakkpcpgfkobkghlhen/src/js/8631.libs.chunk.js"
+      }
+    ]
+  },
+  {
+    "page": "attend",
+    "logs": [
+      {
+        "level": "warn",
+        "message": "[DEFAULT]: WARN : Using DEFAULT root logger",
+        "timestamp": "2026-09-24T14:31:48.287Z",
+        "url": "chrome-extension://kbfnbcaeplbcioakkpcpgfkobkghlhen/src/js/8631.libs.chunk.js"
+      },
+      {
+        "level": "warn",
+        "message": "[DEFAULT]: WARN : Using DEFAULT root logger",
+        "timestamp": "2026-09-24T14:32:23.969Z",
+        "url": "chrome-extension://kbfnbcaeplbcioakkpcpgfkobkghlhen/src/js/8631.libs.chunk.js"
+      }
+    ]
+  }
+]

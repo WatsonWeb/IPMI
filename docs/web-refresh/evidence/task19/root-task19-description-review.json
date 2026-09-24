@@ -1,0 +1,14 @@
+{
+  "date": "2026-09-24",
+  "reviewer": "root",
+  "reviewedEvidence": "docs/web-refresh/evidence/task19/visual-01.png through visual-12.png",
+  "proposedDescriptionFile": "docs/web-refresh/evidence/task19/gallery-audit.json",
+  "proposedDescriptionFileSha256": "841F7BFC51C54191BC913541807A23A7D6F235B27CFCD37837EC1898A99E9505",
+  "visualReview": "All 67 scenes reviewed; descriptions match visible activity without invented identities. P18/P19 approved descriptions retained. Two conservative wording refinements for rows 5 and 33 incorporated.",
+  "auditRows": 67,
+  "uniqueIds": 67,
+  "activeIds": 67,
+  "assetAndCaptionMappingsPreserved": true,
+  "maximumDescriptionCharacters": 82,
+  "scope": "Review of proposed descriptions and mappings only; native saved values, bindings, dynamic behavior and staging acceptance require separate checks."
+}

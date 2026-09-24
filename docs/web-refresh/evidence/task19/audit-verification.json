@@ -1,0 +1,12 @@
+{
+  "approved": 27,
+  "activeCms": 67,
+  "bindings": 97,
+  "widths": [
+    390,
+    768,
+    1440
+  ],
+  "pageWidthChecks": 30,
+  "result": "pass"
+}

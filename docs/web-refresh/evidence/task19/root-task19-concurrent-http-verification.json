@@ -1,0 +1,466 @@
+{
+  "checkedAt": "2026-09-24T14:09:51.801Z",
+  "nativeSummary": {
+    "before": 79,
+    "after": 79,
+    "active": 67,
+    "imageHostNormalizations": 65,
+    "unexpectedDeltas": []
+  },
+  "pages": 11,
+  "results": [
+    {
+      "name": "home",
+      "url": "https://ipmi.webflow.io/",
+      "status": 200,
+      "imageCount": {
+        "before": 73,
+        "after": 73
+      },
+      "imageAssetsPreserved": true,
+      "anchorDestinationsPreserved": true,
+      "formsPreserved": true,
+      "lightboxDataPreserved": true,
+      "originalPinsPreserved": true,
+      "addedPins": [],
+      "originalInlineScriptsPreserved": true,
+      "altChanges": []
+    },
+    {
+      "name": "institutes",
+      "url": "https://ipmi.webflow.io/institutes",
+      "status": 200,
+      "imageCount": {
+        "before": 44,
+        "after": 44
+      },
+      "imageAssetsPreserved": true,
+      "anchorDestinationsPreserved": true,
+      "formsPreserved": true,
+      "lightboxDataPreserved": true,
+      "originalPinsPreserved": true,
+      "addedPins": [],
+      "originalInlineScriptsPreserved": true,
+      "altChanges": []
+    },
+    {
+      "name": "recent",
+      "url": "https://ipmi.webflow.io/recent-institutes",
+      "status": 200,
+      "imageCount": {
+        "before": 62,
+        "after": 62
+      },
+      "imageAssetsPreserved": true,
+      "anchorDestinationsPreserved": true,
+      "formsPreserved": true,
+      "lightboxDataPreserved": true,
+      "originalPinsPreserved": true,
+      "addedPins": [],
+      "originalInlineScriptsPreserved": true,
+      "altChanges": []
+    },
+    {
+      "name": "gallery",
+      "url": "https://ipmi.webflow.io/gallery",
+      "status": 200,
+      "imageCount": {
+        "before": 47,
+        "after": 47
+      },
+      "imageAssetsPreserved": true,
+      "anchorDestinationsPreserved": true,
+      "formsPreserved": true,
+      "lightboxDataPreserved": true,
+      "originalPinsPreserved": true,
+      "addedPins": [],
+      "originalInlineScriptsPreserved": true,
+      "altChanges": [
+        {
+          "index": 4,
+          "src": "https://cdn.prod.website-files.com/6312ee46f4c52faf21ee8ab5/63bf5beed00b3f8c1523f4fa_TAI%20Canada%202022%20-%20Panel.webp",
+          "before": "Talent Acquisition & Employee Experience Canada 2022",
+          "after": "Three panelists seated on stools during a stage discussion"
+        },
+        {
+          "index": 5,
+          "src": "https://cdn.prod.website-files.com/6312ee46f4c52faf21ee8ab5/63bf5ba4884ff50603342e01_CLDI%202022%20-%20Panel%20Session.webp",
+          "before": "Corporate Learning & Development Institute 2022",
+          "after": "Three panelists discussing ideas on stage in front of an audience"
+        },
+        {
+          "index": 6,
+          "src": "https://cdn.prod.website-files.com/6312ee46f4c52faf21ee8ab5/63bf5bdb10f3fdd90423cc01_HR%20July%202022%20-%20Session%20Room.webp",
+          "before": "HR Management Institute July 2022",
+          "after": "Attendees listening in a conference room with rows of tables"
+        },
+        {
+          "index": 7,
+          "src": "https://cdn.prod.website-files.com/6312ee46f4c52faf21ee8ab5/63bf5bd1035bf75b9cfdcd62_HR%20July%202022%20-%20Panel%20Session.webp",
+          "before": "HR Management Institute July 2022",
+          "after": "Two panelists seated together on stage during a discussion"
+        },
+        {
+          "index": 8,
+          "src": "https://cdn.prod.website-files.com/6312ee46f4c52faf21ee8ab5/63bf5bc616b555b7eb3ffb28_HR%20East%202022%20-%20Speaking%20Session%201.webp",
+          "before": "HR Management Institute East 2022",
+          "after": "A speaker gesturing while holding a presentation remote"
+        },
+        {
+          "index": 9,
+          "src": "https://cdn.prod.website-files.com/6312ee46f4c52faf21ee8ab5/63bf5bbc5bf1fa5ad9361f42_HIT%202022%20-%20Panel%20Session.webp",
+          "before": "Healthcare IT Institute 2022",
+          "after": "Four panelists conversing on a stage lit in green"
+        },
+        {
+          "index": 10,
+          "src": "https://cdn.prod.website-files.com/6312ee46f4c52faf21ee8ab5/63bf5bae1f11b1b07989ff25_Healthcare%20Finance%20Institute%202022%20-%20Session.webp",
+          "before": "Healthcare Finance Institute 2022",
+          "after": "A speaker presenting beside a screen to attendees seated at tables"
+        },
+        {
+          "index": 11,
+          "src": "https://cdn.prod.website-files.com/6312ee46f4c52faf21ee8ab5/63c24d6c7239e976223cfc3b_Healthcare%20Finance%20Institute%202022%20-%20Panel%20Session.webp",
+          "before": "Healthcare Finance Institute 2022",
+          "after": "Two panelists in conversation on a green-lit stage"
+        },
+        {
+          "index": 12,
+          "src": "https://cdn.prod.website-files.com/6312ee46f4c52faf21ee8ab5/63c24e49f3d9c559e02c15df_TAI%202022%20-%20Panel%20Session.webp",
+          "before": "Talent Acquisition Institute 2022",
+          "after": "Five panelists seated on stage for a discussion"
+        },
+        {
+          "index": 13,
+          "src": "https://cdn.prod.website-files.com/6312ee46f4c52faf21ee8ab5/63c24e6df3d9c5216a2c1857_TAI%20Canada%202022%20-%20General%20Session%20Room.webp",
+          "before": "Talent Acquisition & Employee Experience Canada 2022",
+          "after": "Attendees entering a conference room beside a General Session sign"
+        },
+        {
+          "index": 14,
+          "src": "https://cdn.prod.website-files.com/6312ee46f4c52faf21ee8ab5/63bf5a949a4bb9e7a29f8df2_HCHR%202022%20-%20Buisness%20Meeting%203.webp",
+          "before": "Healthcare HR Management Institute 2022",
+          "after": "Three participants discussing business around a table with a laptop"
+        },
+        {
+          "index": 15,
+          "src": "https://cdn.prod.website-files.com/6312ee46f4c52faf21ee8ab5/63bf5ae410f3fd91bb23b3ec_HR%20July%202022%20-%20Business%20Meeting%202.webp",
+          "before": "HR Management Institute July 2022",
+          "after": "Three participants smiling during a meeting at a round table"
+        },
+        {
+          "index": 16,
+          "src": "https://cdn.prod.website-files.com/6312ee46f4c52faf21ee8ab5/63bf5ab12e82727627993894_HCHR%202022-%20Business%20Meeting.webp",
+          "before": "Healthcare HR Management Institute 2022",
+          "after": "Three participants talking at a blue-covered table with a tablet and laptop"
+        },
+        {
+          "index": 17,
+          "src": "https://cdn.prod.website-files.com/6312ee46f4c52faf21ee8ab5/63bf5ab861bff224b50fe6b7_Heathcare%20Law%20and%20Compliance%20Institute%20Feb%202022%20-%20Business%20Meetings.webp",
+          "before": "Healthcare Law and Compliance Institute February 2022",
+          "after": "Participants holding one-to-one conversations at small round tables"
+        },
+        {
+          "index": 18,
+          "src": "https://cdn.prod.website-files.com/6312ee46f4c52faf21ee8ab5/63bf5ad55756497f50d80184_HR%20Can%20April%202022%20-%20Business%20Meeting.webp",
+          "before": "HR Management Institute Canada April 2022",
+          "after": "Three participants talking around a table"
+        },
+        {
+          "index": 19,
+          "src": "https://cdn.prod.website-files.com/6312ee46f4c52faf21ee8ab5/63bf5b083c28a67f56df17a8_TAI%20Canada%202022%20-%20Business%20Meeting.webp",
+          "before": "Talent Acquisition & Employee Experience Institute Canada 2022",
+          "after": "Participants meeting at a small table in a curtained lounge area"
+        },
+        {
+          "index": 20,
+          "src": "https://cdn.prod.website-files.com/6312ee46f4c52faf21ee8ab5/63bf5afab44d4583765268de_HR%20July%202022%20-%20Business%20Meeting.webp",
+          "before": "HR Management Institute July 2022",
+          "after": "A participant gesturing while discussing business with a colleague beside a laptop"
+        },
+        {
+          "index": 21,
+          "src": "https://cdn.prod.website-files.com/6312ee46f4c52faf21ee8ab5/63bf5a6361bff2b8d90fd812_HCHR%202022%20-%20Buisness%20Meeting%202.webp",
+          "before": "Healthcare HR Management Institute 2022",
+          "after": "Two participants meeting at a blue-covered table with an open laptop"
+        },
+        {
+          "index": 22,
+          "src": "https://cdn.prod.website-files.com/6312ee46f4c52faf21ee8ab5/63c24e2dfd09f3265ef4eaeb_HR%20East%202022%20-%20Business%20Meeting.webp",
+          "before": "HR Management Institute East 2022",
+          "after": "Two participants talking across a small meeting table"
+        },
+        {
+          "index": 23,
+          "src": "https://cdn.prod.website-files.com/6312ee46f4c52faf21ee8ab5/6408fcfde3d751b642d2289d_HGC%20Oct%202022%20-%20Business%20Meeting%201.webp",
+          "before": "Healthcare Law & Compliance Institute October 2022",
+          "after": "Three participants discussing business while seated together on a sofa"
+        },
+        {
+          "index": 24,
+          "src": "https://cdn.prod.website-files.com/6312ee46f4c52faf21ee8ab5/63bf5c0741a543a9429f0cc5_CLDI%202022%20-%20Think%20Tank.webp",
+          "before": "Corporate Learning & Development Institute 2022",
+          "after": "A facilitator leading a discussion around U-shaped tables with flip charts"
+        },
+        {
+          "index": 25,
+          "src": "https://cdn.prod.website-files.com/6312ee46f4c52faf21ee8ab5/63bf5c2f7b8f6ccbc33d7ed8_HR%20East%202022%20-%20Think%20Tank.webp",
+          "before": "HR Management Institute East 2022",
+          "after": "Participants listening to a presenter in a small meeting room"
+        },
+        {
+          "index": 26,
+          "src": "https://cdn.prod.website-files.com/6312ee46f4c52faf21ee8ab5/63bf5c513c28a69c13df27d3_TAI%202022%20-%20Think%20Tank%202.webp",
+          "before": "Talent Acquisition Institute 2022",
+          "after": "Two participants listening during a discussion"
+        },
+        {
+          "index": 27,
+          "src": "https://cdn.prod.website-files.com/6312ee46f4c52faf21ee8ab5/63bf5c445bf1fa76b03624f4_TAI%202022%20-%20Think%20Tank%201.webp",
+          "before": "Talent Acquisition Institute 2022",
+          "after": "Participants in a discussion around U-shaped meeting tables"
+        },
+        {
+          "index": 28,
+          "src": "https://cdn.prod.website-files.com/6312ee46f4c52faf21ee8ab5/63bf5c38b44d4582ee528b92_HR%20July%202022%20-%20Roundtable.webp",
+          "before": "HR Management Institute July 2022",
+          "after": "A facilitator addressing participants around a large U-shaped table arrangement"
+        },
+        {
+          "index": 29,
+          "src": "https://cdn.prod.website-files.com/6312ee46f4c52faf21ee8ab5/63bf5c2561bff2587b100269_HR%20Can%20April%202022%20-%20Roundtable.webp",
+          "before": "HR Management Institute Canada April 2022",
+          "after": "A presenter addressing participants seated around U-shaped tables"
+        },
+        {
+          "index": 30,
+          "src": "https://cdn.prod.website-files.com/6312ee46f4c52faf21ee8ab5/63bf5c1a41a5436a7e9f0d43_HIT%202022%20-%20Think%20Tank%20.webp",
+          "before": "Healthcare IT Institute 2022",
+          "after": "A participant sharing ideas with colleagues seated around a table"
+        },
+        {
+          "index": 31,
+          "src": "https://cdn.prod.website-files.com/6312ee46f4c52faf21ee8ab5/63bf5c109924f49b1f1d1056_Heathcare%20Law%20and%20Compliance%20Institute%20Feb%202022%20-%20Think%20Tank%20Close%20Up.webp",
+          "before": "Healthcare Law & Compliance Institute February 2022",
+          "after": "A participant gesturing while colleagues listen during a discussion"
+        },
+        {
+          "index": 32,
+          "src": "https://cdn.prod.website-files.com/6312ee46f4c52faf21ee8ab5/63c24d8d74f93439fb9fcd8c_Heathcare%20Law%20and%20Compliance%20Institute%20Feb%202022%20-%20Think%20Tank.webp",
+          "before": "Healthcare Law & Compliance Institute February 2022",
+          "after": "Participants discussing ideas around U-shaped tables beneath chandeliers"
+        },
+        {
+          "index": 33,
+          "src": "https://cdn.prod.website-files.com/6312ee46f4c52faf21ee8ab5/63bf5b7b61bff2a6cd0fef40_HR%20July%202022%20-%20Dinner%20Networking.webp",
+          "before": "HR Management Institute July 2022",
+          "after": "Attendees chatting around an outdoor cocktail table overlooking the water"
+        },
+        {
+          "index": 34,
+          "src": "https://cdn.prod.website-files.com/6312ee46f4c52faf21ee8ab5/63bf5b469a4bb972949f9374_HCHR%202022%20-%20Lobby.webp",
+          "before": "Healthcare HR Management Institute 2022",
+          "after": "Attendees gathering around tables in a sunlit conference lobby"
+        },
+        {
+          "index": 35,
+          "src": "https://cdn.prod.website-files.com/6312ee46f4c52faf21ee8ab5/63bf5b685bf1fa0adc361d15_Heathcare%20Law%20and%20Compliance%20Institute%20Feb%202022%20-%20Networking.webp",
+          "before": "Healthcare Law & Compliance Institute February 2022",
+          "after": "Three attendees talking around a cocktail table outdoors"
+        },
+        {
+          "index": 36,
+          "src": "https://cdn.prod.website-files.com/6312ee46f4c52faf21ee8ab5/63bf5b30d00b3fabe123e653_HCHR%202022%20-%20Dinner.webp",
+          "before": "Healthcare HR Management Institute 2022",
+          "after": "Attendees chatting around round tables in a reception room"
+        },
+        {
+          "index": 37,
+          "src": "https://cdn.prod.website-files.com/6312ee46f4c52faf21ee8ab5/63bf5b3cb44d4563ba526c62_HCHR%202022%20-%20Keynote%20Dinner.webp",
+          "before": "Healthcare HR Management Institute 2022",
+          "after": "A seated audience listening during a dinner presentation"
+        },
+        {
+          "index": 38,
+          "src": "https://cdn.prod.website-files.com/6312ee46f4c52faf21ee8ab5/63bf5b51035bf71f5dfdc431_HCHR%202022%20-%20Marlee%20Matlin%20Keynote.webp",
+          "before": "Healthcare HR Management Institute 2022 - Marlee Matlin",
+          "after": "Two presenters gesturing beside lecterns on stage"
+        },
+        {
+          "index": 39,
+          "src": "https://cdn.prod.website-files.com/6312ee46f4c52faf21ee8ab5/63bf5b5e07ea126a3b81fe85_Healthcare%20Finance%20Institute%202022%20-%20Dinner%20and%20Keynote.webp",
+          "before": "Healthcare Finance Institute 2022",
+          "after": "A presenter addressing attendees seated at dinner tables"
+        },
+        {
+          "index": 40,
+          "src": "https://cdn.prod.website-files.com/6312ee46f4c52faf21ee8ab5/63bf5b7107ea1232be81fef4_HR%20East%202022%20-%20Networking.webp",
+          "before": "HR Management Institute East 2022",
+          "after": "Smiling attendees walking together outside a building"
+        },
+        {
+          "index": 41,
+          "src": "https://cdn.prod.website-files.com/6312ee46f4c52faf21ee8ab5/63bf5b8fb44d45fac55274ab_TAI%20Canada%202022%20-%20Networking.webp",
+          "before": "Talent Acquisition Institute Canada 2022",
+          "after": "Participants talking at small tables in a bright meeting room"
+        },
+        {
+          "index": 42,
+          "src": "https://cdn.prod.website-files.com/6312ee46f4c52faf21ee8ab5/63c24f7c2fbe55b6f2f60e98_TAI%20Canada%202022%20-%20Happy%20Hour%20Roundtables.webp",
+          "before": "Talent Acquisition & Employee Experience Canada 2022",
+          "after": "Participants chatting around meeting tables with notebooks and drinks"
+        },
+        {
+          "index": 43,
+          "src": "https://cdn.prod.website-files.com/6312ee46f4c52faf21ee8ab5/63bf5b84eec8b7124d2126d9_HR%20July%202022%20-%20Dinner.webp",
+          "before": "HR Management Institute July 2022",
+          "after": "A seafood buffet with crab legs, shrimp, citrus and flowers"
+        }
+      ]
+    },
+    {
+      "name": "thinktanks",
+      "url": "https://ipmi.webflow.io/thinktanks",
+      "status": 200,
+      "imageCount": {
+        "before": 37,
+        "after": 37
+      },
+      "imageAssetsPreserved": true,
+      "anchorDestinationsPreserved": true,
+      "formsPreserved": true,
+      "lightboxDataPreserved": true,
+      "originalPinsPreserved": true,
+      "addedPins": [],
+      "originalInlineScriptsPreserved": true,
+      "altChanges": []
+    },
+    {
+      "name": "about",
+      "url": "https://ipmi.webflow.io/about",
+      "status": 200,
+      "imageCount": {
+        "before": 20,
+        "after": 20
+      },
+      "imageAssetsPreserved": true,
+      "anchorDestinationsPreserved": true,
+      "formsPreserved": true,
+      "lightboxDataPreserved": true,
+      "originalPinsPreserved": true,
+      "addedPins": [],
+      "originalInlineScriptsPreserved": true,
+      "altChanges": [
+        {
+          "index": 6,
+          "src": "https://cdn.prod.website-files.com/6312ee46f4c52faf21ee8ab5/63bf5bdb10f3fdd90423cc01_HR%20July%202022%20-%20Session%20Room.webp",
+          "before": "",
+          "after": "Attendees listening in a conference room with rows of tables"
+        },
+        {
+          "index": 7,
+          "src": "https://cdn.prod.website-files.com/6312ee46f4c52faf21ee8ab5/63c9bbafd6abd0ea3863461b_HCHR%202022%20-%20Nas.jpg",
+          "before": "",
+          "after": "A speaker in a yellow suit addressing an audience with a handheld microphone"
+        },
+        {
+          "index": 8,
+          "src": "https://cdn.prod.website-files.com/6312ee46f4c52faf21ee8ab5/63c532c4e9a211c81899cf01_HCHR%202022%20-%20Networking.webp",
+          "before": "",
+          "after": "Two attendees talking at a cocktail table near a registration sign"
+        },
+        {
+          "index": 9,
+          "src": "https://cdn.prod.website-files.com/6312ee46f4c52faf21ee8ab5/63c9bc955b64c559b02d1363_SOI%202022%20Jenny.webp",
+          "before": "",
+          "after": "A speaker holding a microphone and tablet on stage"
+        }
+      ]
+    },
+    {
+      "name": "testimonials",
+      "url": "https://ipmi.webflow.io/testimonials",
+      "status": 200,
+      "imageCount": {
+        "before": 53,
+        "after": 53
+      },
+      "imageAssetsPreserved": true,
+      "anchorDestinationsPreserved": true,
+      "formsPreserved": true,
+      "lightboxDataPreserved": true,
+      "originalPinsPreserved": true,
+      "addedPins": [],
+      "originalInlineScriptsPreserved": true,
+      "altChanges": []
+    },
+    {
+      "name": "faq",
+      "url": "https://ipmi.webflow.io/faq",
+      "status": 200,
+      "imageCount": {
+        "before": 20,
+        "after": 20
+      },
+      "imageAssetsPreserved": true,
+      "anchorDestinationsPreserved": true,
+      "formsPreserved": true,
+      "lightboxDataPreserved": true,
+      "originalPinsPreserved": true,
+      "addedPins": [],
+      "originalInlineScriptsPreserved": true,
+      "altChanges": []
+    },
+    {
+      "name": "attend",
+      "url": "https://ipmi.webflow.io/attend",
+      "status": 200,
+      "imageCount": {
+        "before": 43,
+        "after": 43
+      },
+      "imageAssetsPreserved": true,
+      "anchorDestinationsPreserved": true,
+      "formsPreserved": true,
+      "lightboxDataPreserved": true,
+      "originalPinsPreserved": true,
+      "addedPins": [],
+      "originalInlineScriptsPreserved": true,
+      "altChanges": []
+    },
+    {
+      "name": "contact",
+      "url": "https://ipmi.webflow.io/contact",
+      "status": 200,
+      "imageCount": {
+        "before": 5,
+        "after": 5
+      },
+      "imageAssetsPreserved": true,
+      "anchorDestinationsPreserved": true,
+      "formsPreserved": true,
+      "lightboxDataPreserved": true,
+      "originalPinsPreserved": true,
+      "addedPins": [],
+      "originalInlineScriptsPreserved": true,
+      "altChanges": []
+    },
+    {
+      "name": "gci",
+      "url": "https://ipmi.webflow.io/institutes/healthcare-gci-oct-2026",
+      "status": 200,
+      "imageCount": {
+        "before": 120,
+        "after": 120
+      },
+      "imageAssetsPreserved": true,
+      "anchorDestinationsPreserved": true,
+      "formsPreserved": true,
+      "lightboxDataPreserved": true,
+      "originalPinsPreserved": true,
+      "addedPins": [],
+      "originalInlineScriptsPreserved": true,
+      "altChanges": []
+    }
+  ]
+}

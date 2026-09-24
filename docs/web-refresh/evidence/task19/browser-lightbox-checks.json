@@ -1,0 +1,305 @@
+[
+  {
+    "label": "Gallery open",
+    "active": "close lightbox",
+    "images": [
+      {
+        "alt": "Three panelists seated on stools during a stage discussion",
+        "src": "https://cdn.prod.website-files.com/6312ee46f4c52faf21ee8ab5/63bf5beed00b3f8c1523f4fa_TAI%20Canada%202022%20-%20Panel.webp"
+      }
+    ],
+    "tabs": [
+      "show item 1 of 10: Three panelists seated on stools during a stage discussion",
+      "show item 2 of 10: Three panelists discussing ideas on stage in front of an audience",
+      "show item 3 of 10: Attendees listening in a conference room with rows of tables",
+      "show item 4 of 10: Two panelists seated together on stage during a discussion",
+      "show item 5 of 10: A speaker gesturing while holding a presentation remote",
+      "show item 6 of 10: Four panelists conversing on a stage lit in green",
+      "show item 7 of 10: A speaker presenting beside a screen to attendees seated at tables",
+      "show item 8 of 10: Two panelists in conversation on a green-lit stage",
+      "show item 9 of 10: Five panelists seated on stage for a discussion",
+      "show item 10 of 10: Attendees entering a conference room beside a General Session sign"
+    ]
+  },
+  {
+    "label": "Gallery keyboard next",
+    "active": "close lightbox",
+    "images": [
+      {
+        "alt": "Three panelists discussing ideas on stage in front of an audience",
+        "src": "https://cdn.prod.website-files.com/6312ee46f4c52faf21ee8ab5/63bf5ba4884ff50603342e01_CLDI%202022%20-%20Panel%20Session.webp"
+      }
+    ],
+    "tabs": [
+      "show item 1 of 10: Three panelists seated on stools during a stage discussion",
+      "show item 2 of 10: Three panelists discussing ideas on stage in front of an audience",
+      "show item 3 of 10: Attendees listening in a conference room with rows of tables",
+      "show item 4 of 10: Two panelists seated together on stage during a discussion",
+      "show item 5 of 10: A speaker gesturing while holding a presentation remote",
+      "show item 6 of 10: Four panelists conversing on a stage lit in green",
+      "show item 7 of 10: A speaker presenting beside a screen to attendees seated at tables",
+      "show item 8 of 10: Two panelists in conversation on a green-lit stage",
+      "show item 9 of 10: Five panelists seated on stage for a discussion",
+      "show item 10 of 10: Attendees entering a conference room beside a General Session sign"
+    ]
+  },
+  {
+    "label": "Gallery keyboard previous",
+    "active": "close lightbox",
+    "images": [
+      {
+        "alt": "Three panelists seated on stools during a stage discussion",
+        "src": "https://cdn.prod.website-files.com/6312ee46f4c52faf21ee8ab5/63bf5beed00b3f8c1523f4fa_TAI%20Canada%202022%20-%20Panel.webp"
+      }
+    ],
+    "tabs": [
+      "show item 1 of 10: Three panelists seated on stools during a stage discussion",
+      "show item 2 of 10: Three panelists discussing ideas on stage in front of an audience",
+      "show item 3 of 10: Attendees listening in a conference room with rows of tables",
+      "show item 4 of 10: Two panelists seated together on stage during a discussion",
+      "show item 5 of 10: A speaker gesturing while holding a presentation remote",
+      "show item 6 of 10: Four panelists conversing on a stage lit in green",
+      "show item 7 of 10: A speaker presenting beside a screen to attendees seated at tables",
+      "show item 8 of 10: Two panelists in conversation on a green-lit stage",
+      "show item 9 of 10: Five panelists seated on stage for a discussion",
+      "show item 10 of 10: Attendees entering a conference room beside a General Session sign"
+    ]
+  },
+  {
+    "label": "Gallery Escape focus return",
+    "active": "View photo: Three panelists seated on stools during a stage discussion",
+    "images": [],
+    "tabs": []
+  },
+  {
+    "label": "About Mission tablet open",
+    "active": "close lightbox",
+    "images": [
+      {
+        "alt": "Two participants smiling together at an IPMI event",
+        "src": "https://cdn.prod.website-files.com/6312ee46f4c52faf21ee8ab5/6ab4bd1fbf52ddc3481af066_P18-HRMI-Apr-2025-Staff-1-1920.jpg"
+      }
+    ],
+    "tabs": [
+      "show item 1 of 6: Two participants smiling together at an IPMI event",
+      "show item 2 of 6: Four IPMI team members smiling together at an outdoor event",
+      "show item 3 of 6: Attendees listening in a conference room with rows of tables",
+      "show item 4 of 6: A speaker in a yellow suit addressing an audience with a handheld microphone",
+      "show item 5 of 6: Two attendees talking at a cocktail table near a registration sign",
+      "show item 6 of 6: A speaker holding a microphone and tablet on stage"
+    ]
+  },
+  {
+    "label": "About tablet focus return",
+    "active": "View photo: Two participants smiling together at an IPMI event",
+    "images": [],
+    "tabs": []
+  },
+  {
+    "label": "Attend mobile open",
+    "active": "close lightbox",
+    "images": [
+      {
+        "alt": "A speaker at a lectern addressing attendees in a purple-lit conference room",
+        "src": "https://cdn.prod.website-files.com/6312ee46f4c52faf21ee8ab5/63c4eeb0273781eec27fd727_HR%20Can%20April%202022%20-%20Session.webp"
+      }
+    ],
+    "tabs": [
+      "show item 1 of 6: A speaker at a lectern addressing attendees in a purple-lit conference room",
+      "show item 2 of 6: Attendees gathering outdoors in a garden beside a house with a wraparound porch",
+      "show item 3 of 6: A facilitator presenting to participants seated around U-shaped tables",
+      "show item 4 of 6: Participants painting wooden paddles at a table with art supplies",
+      "show item 5 of 6: Two participants smiling during a meeting at a small round table",
+      "show item 6 of 6: An attendee holding a phone displaying an event questionnaire"
+    ]
+  },
+  {
+    "label": "Attend mobile next",
+    "active": "close lightbox",
+    "images": [
+      {
+        "alt": "Attendees gathering outdoors in a garden beside a house with a wraparound porch",
+        "src": "https://cdn.prod.website-files.com/6312ee46f4c52faf21ee8ab5/63c4ee7b95a3b883fe7eb14a_Healthcare%20Finance%20Institute%202022%20-%20Thomas%20Bennett%20House%20Dinner.webp"
+      }
+    ],
+    "tabs": [
+      "show item 1 of 6: A speaker at a lectern addressing attendees in a purple-lit conference room",
+      "show item 2 of 6: Attendees gathering outdoors in a garden beside a house with a wraparound porch",
+      "show item 3 of 6: A facilitator presenting to participants seated around U-shaped tables",
+      "show item 4 of 6: Participants painting wooden paddles at a table with art supplies",
+      "show item 5 of 6: Two participants smiling during a meeting at a small round table",
+      "show item 6 of 6: An attendee holding a phone displaying an event questionnaire"
+    ]
+  },
+  {
+    "label": "Attend mobile Escape focus return",
+    "active": "View photo: A speaker at a lectern addressing attendees in a purple-lit conference room",
+    "images": [],
+    "tabs": []
+  },
+  {
+    "label": "FAQ mobile open",
+    "active": "close lightbox",
+    "images": [
+      {
+        "alt": "Two panelists in conversation on a green-lit stage",
+        "src": "https://cdn.prod.website-files.com/6312ee46f4c52faf21ee8ab5/63c24d6c7239e976223cfc3b_Healthcare%20Finance%20Institute%202022%20-%20Panel%20Session.webp"
+      }
+    ],
+    "tabs": [
+      "show item 1 of 13: Two panelists in conversation on a green-lit stage",
+      "show item 2 of 13: Participants discussing ideas around U-shaped tables beneath chandeliers",
+      "show item 3 of 13: Two participants talking across a small meeting table",
+      "show item 4 of 13: Attendees entering a conference room beside a General Session sign",
+      "show item 5 of 13: Three attendees talking around a cocktail table outdoors",
+      "show item 6 of 13: Nine participants joining a virtual discussion in a video-call grid",
+      "show item 7 of 13: Eight participants displayed in a virtual discussion surrounded by IPMI logos",
+      "show item 8 of 13: Ten participants joining a virtual discussion in a video-call grid",
+      "show item 9 of 13: Two participants meeting at a blue-covered table with an open laptop",
+      "show item 10 of 13: Participants holding one-to-one conversations at small round tables",
+      "show item 11 of 13: Two participants talking across a small meeting table",
+      "show item 12 of 13: A participant gesturing while discussing business with a colleague beside a laptop",
+      "show item 13 of 13: Three participants discussing business around a table with a laptop"
+    ]
+  },
+  {
+    "label": "FAQ Escape focus return",
+    "active": "View photo: Two panelists in conversation on a green-lit stage",
+    "images": [],
+    "tabs": []
+  },
+  {
+    "label": "Attend desktop Speak group",
+    "active": "close lightbox",
+    "images": [
+      {
+        "alt": "A smiling speaker gesturing with arms extended on stage",
+        "src": "https://cdn.prod.website-files.com/6312ee46f4c52faf21ee8ab5/63c4ef0f3b2b764510bbdc9e_CLDI%202022%20-%20Speaking%20Session.webp"
+      }
+    ],
+    "tabs": []
+  },
+  {
+    "label": "Attend desktop Speak focus return",
+    "active": "View photo: A smiling speaker gesturing with arms extended on stage",
+    "images": [],
+    "tabs": []
+  },
+  {
+    "label": "Attend desktop Partner",
+    "active": "close lightbox",
+    "images": [
+      {
+        "alt": "Three participants discussing business at a round table with a laptop",
+        "src": "https://cdn.prod.website-files.com/6312ee46f4c52faf21ee8ab5/63c4efdd3b2b761212bbeb68_HR%20July%202022%20-%20Business%20Meeting%203.webp"
+      }
+    ],
+    "tabs": [
+      "show item 1 of 7: Three participants discussing business at a round table with a laptop",
+      "show item 2 of 7: Two presenters addressing an audience on a purple-lit stage",
+      "show item 3 of 7: Three attendees smiling and talking around a cocktail table",
+      "show item 4 of 7: Two pairs of participants holding meetings at small round tables",
+      "show item 5 of 7: A facilitator leading a discussion beside a flip chart in a meeting room",
+      "show item 6 of 7: Attendees networking around cocktail tables on a covered terrace",
+      "show item 7 of 7: A smiling speaker holding a microphone on stage"
+    ]
+  },
+  {
+    "label": "About tablet carousel keyboard Next",
+    "activeSlides": [
+      "A speaker in a yellow suit addressing an audience with a handheld microphone"
+    ],
+    "status": [
+      {
+        "clip": "inset(50%)",
+        "live": "assertive",
+        "text": "Next slide"
+      },
+      {
+        "clip": "inset(50%)",
+        "live": "assertive",
+        "text": ""
+      }
+    ]
+  },
+  {
+    "label": "Outside scope: home keyboard Next",
+    "status": [
+      {
+        "clip": "none",
+        "live": "assertive",
+        "rect": {
+          "bottom": 681.5,
+          "height": 22,
+          "left": 40,
+          "right": 180.90625,
+          "top": 659.5,
+          "width": 140.90625,
+          "x": 40,
+          "y": 659.5
+        },
+        "text": "This is the last slide"
+      },
+      {
+        "clip": "none",
+        "live": "assertive",
+        "rect": {
+          "bottom": 3003.796875,
+          "height": 0,
+          "left": 40,
+          "right": 40,
+          "top": 3003.796875,
+          "width": 0,
+          "x": 40,
+          "y": 3003.796875
+        },
+        "text": ""
+      },
+      {
+        "clip": "none",
+        "live": "assertive",
+        "rect": {
+          "bottom": 0,
+          "height": 0,
+          "left": 0,
+          "right": 0,
+          "top": 0,
+          "width": 0,
+          "x": 0,
+          "y": 0
+        },
+        "text": ""
+      },
+      {
+        "clip": "none",
+        "live": "assertive",
+        "rect": {
+          "bottom": 4790.28125,
+          "height": 0,
+          "left": 40,
+          "right": 40,
+          "top": 4790.28125,
+          "width": 0,
+          "x": 40,
+          "y": 4790.28125
+        },
+        "text": ""
+      },
+      {
+        "clip": "none",
+        "live": "assertive",
+        "rect": {
+          "bottom": 6157.984375,
+          "height": 0,
+          "left": 40,
+          "right": 40,
+          "top": 6157.984375,
+          "width": 0,
+          "x": 40,
+          "y": 6157.984375
+        },
+        "text": ""
+      }
+    ]
+  }
+]

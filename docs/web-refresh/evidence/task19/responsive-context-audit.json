@@ -1,0 +1,3167 @@
+[
+  {
+    "page": "faq",
+    "width": 390,
+    "lightboxes": [
+      {
+        "alt": "Two panelists in conversation on a green-lit stage",
+        "name": "View photo: Two panelists in conversation on a green-lit stage",
+        "role": null,
+        "visible": true
+      },
+      {
+        "alt": "Participants discussing ideas around U-shaped tables beneath chandeliers",
+        "name": "View photo: Participants discussing ideas around U-shaped tables beneath chandeliers",
+        "role": null,
+        "visible": true
+      },
+      {
+        "alt": "Two participants talking across a small meeting table",
+        "name": "View photo: Two participants talking across a small meeting table",
+        "role": null,
+        "visible": true
+      },
+      {
+        "alt": "Attendees entering a conference room beside a General Session sign",
+        "name": "View photo: Attendees entering a conference room beside a General Session sign",
+        "role": null,
+        "visible": true
+      },
+      {
+        "alt": "Three attendees talking around a cocktail table outdoors",
+        "name": "View photo: Three attendees talking around a cocktail table outdoors",
+        "role": null,
+        "visible": false
+      },
+      {
+        "alt": "Nine participants joining a virtual discussion in a video-call grid",
+        "name": "View photo: Nine participants joining a virtual discussion in a video-call grid",
+        "role": null,
+        "visible": false
+      },
+      {
+        "alt": "Eight participants displayed in a virtual discussion surrounded by IPMI logos",
+        "name": "View photo: Eight participants displayed in a virtual discussion surrounded by IPMI logos",
+        "role": null,
+        "visible": false
+      },
+      {
+        "alt": "Ten participants joining a virtual discussion in a video-call grid",
+        "name": "View photo: Ten participants joining a virtual discussion in a video-call grid",
+        "role": null,
+        "visible": false
+      },
+      {
+        "alt": "Two participants meeting at a blue-covered table with an open laptop",
+        "name": "View photo: Two participants meeting at a blue-covered table with an open laptop",
+        "role": null,
+        "visible": false
+      },
+      {
+        "alt": "Participants holding one-to-one conversations at small round tables",
+        "name": "View photo: Participants holding one-to-one conversations at small round tables",
+        "role": null,
+        "visible": false
+      },
+      {
+        "alt": "Two participants talking across a small meeting table",
+        "name": "View photo: Two participants talking across a small meeting table",
+        "role": null,
+        "visible": false
+      },
+      {
+        "alt": "A participant gesturing while discussing business with a colleague beside a laptop",
+        "name": "View photo: A participant gesturing while discussing business with a colleague beside a laptop",
+        "role": null,
+        "visible": false
+      },
+      {
+        "alt": "Three participants discussing business around a table with a laptop",
+        "name": "View photo: Three participants discussing business around a table with a laptop",
+        "role": null,
+        "visible": false
+      }
+    ],
+    "photos": [
+      {
+        "alt": "Seated panelist holding a microphone and notes during an IPMI session",
+        "currentSrc": "https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4c494e4410c930e2e090d_P23-HIT-Jun-2025-Session-3-p-500.jpg",
+        "section": "FREQUENTLY ASKED QUESTIONS\nGot Questions?\nWe have the Answers.\nWe're happy to share everything you need to know about our Institutes, Virtual Think Tanks, and the overall IPMI experience.\nVIEW QUESTIONS",
+        "sizes": "(max-width: 479px) 100vw, 400px",
+        "src": "https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4c494e4410c930e2e090d_P23-HIT-Jun-2025-Session-3.jpg",
+        "srcset": "https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4c494e4410c930e2e090d_P23-HIT-Jun-2025-Session-3-p-500.jpg 500w, https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4c494e4410c930e2e090d_P23-HIT-Jun-2025-Session-3-p-800.jpg 800w, https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4c494e4410c930e2e090d_P23-HIT-Jun-2025-Session-3-p-1080.jpg 1080w, https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4c494e4410c930e2e090d_P23-HIT-Jun-2025-Session-3-p-1600.jpg 1600w, https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4c494e4410c930e2e090d_P23-HIT-Jun-2025-Session-3.jpg 2560w",
+        "visible": true
+      },
+      {
+        "alt": "Seated speaker wearing a headset microphone during an IPMI session",
+        "currentSrc": "https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4c438118f040f8b2c7ec0_P22-HRMI-West-2025-Session-6-p-500.jpg",
+        "section": "FREQUENTLY ASKED QUESTIONS\nGot Questions?\nWe have the Answers.\nWe're happy to share everything you need to know about our Institutes, Virtual Think Tanks, and the overall IPMI experience.\nVIEW QUESTIONS",
+        "sizes": "(max-width: 479px) 100vw, 400px",
+        "src": "https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4c438118f040f8b2c7ec0_P22-HRMI-West-2025-Session-6.jpg",
+        "srcset": "https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4c438118f040f8b2c7ec0_P22-HRMI-West-2025-Session-6-p-500.jpg 500w, https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4c438118f040f8b2c7ec0_P22-HRMI-West-2025-Session-6-p-800.jpg 800w, https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4c438118f040f8b2c7ec0_P22-HRMI-West-2025-Session-6-p-1080.jpg 1080w, https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4c438118f040f8b2c7ec0_P22-HRMI-West-2025-Session-6-p-1600.jpg 1600w, https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4c438118f040f8b2c7ec0_P22-HRMI-West-2025-Session-6.jpg 2560w",
+        "visible": true
+      }
+    ],
+    "statuses": [
+      {
+        "clip": "inset(50%)",
+        "live": "assertive",
+        "text": ""
+      },
+      {
+        "clip": "inset(50%)",
+        "live": "assertive",
+        "text": ""
+      },
+      {
+        "clip": "inset(50%)",
+        "live": "assertive",
+        "text": ""
+      },
+      {
+        "clip": "inset(50%)",
+        "live": "assertive",
+        "text": ""
+      },
+      {
+        "clip": "inset(50%)",
+        "live": "assertive",
+        "text": ""
+      },
+      {
+        "clip": "inset(50%)",
+        "live": "assertive",
+        "text": ""
+      },
+      {
+        "clip": "inset(50%)",
+        "live": "assertive",
+        "text": ""
+      },
+      {
+        "clip": "inset(50%)",
+        "live": "assertive",
+        "text": ""
+      }
+    ],
+    "url": "https://ipmi.webflow.io/faq"
+  },
+  {
+    "page": "home",
+    "width": 390,
+    "lightboxes": [],
+    "photos": [
+      {
+        "alt": "A participant discussing ideas at a Think Tank table",
+        "currentSrc": "https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4ad4e118f040f8b24dd68_P02-HIT-Jun-2025-Think-Tank-9-p-500.jpg",
+        "section": "IPMI INSTITUTES\nSharing Innovative Ideas and Solutions across Industry Verticals.\n\nInstitutes feature dynamic panel discussions, thought provoking keynote presentations, practical case studies and interactive think tanks that compliment pre-scheduled, private business meetings, all of which provide critical information exchange and knowledge sharing to improve the performance of your organizations",
+        "sizes": "(max-width: 479px) 100vw, 400px",
+        "src": "https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4ad4e118f040f8b24dd68_P02-HIT-Jun-2025-Think-Tank-9.jpg",
+        "srcset": "https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4ad4e118f040f8b24dd68_P02-HIT-Jun-2025-Think-Tank-9-p-500.jpg 500w, https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4ad4e118f040f8b24dd68_P02-HIT-Jun-2025-Think-Tank-9-p-800.jpg 800w, https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4ad4e118f040f8b24dd68_P02-HIT-Jun-2025-Think-Tank-9-p-1080.jpg 1080w, https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4ad4e118f040f8b24dd68_P02-HIT-Jun-2025-Think-Tank-9-p-1600.jpg 1600w, https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4ad4e118f040f8b24dd68_P02-HIT-Jun-2025-Think-Tank-9.jpg 2560w",
+        "visible": true
+      },
+      {
+        "alt": "Two panelists sharing ideas on stage at an IPMI Institute",
+        "currentSrc": "https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4ad4da11c8b3bd07ffa38_P01-Innovative-Ideas-Front-Bubble-p-500.jpg",
+        "section": "IPMI INSTITUTES\nSharing Innovative Ideas and Solutions across Industry Verticals.\n\nInstitutes feature dynamic panel discussions, thought provoking keynote presentations, practical case studies and interactive think tanks that compliment pre-scheduled, private business meetings, all of which provide critical information exchange and knowledge sharing to improve the performance of your organizations",
+        "sizes": "(max-width: 479px) 100vw, 400px",
+        "src": "https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4ad4da11c8b3bd07ffa38_P01-Innovative-Ideas-Front-Bubble.jpg",
+        "srcset": "https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4ad4da11c8b3bd07ffa38_P01-Innovative-Ideas-Front-Bubble-p-500.jpg 500w, https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4ad4da11c8b3bd07ffa38_P01-Innovative-Ideas-Front-Bubble-p-800.jpg 800w, https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4ad4da11c8b3bd07ffa38_P01-Innovative-Ideas-Front-Bubble-p-1080.jpg 1080w, https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4ad4da11c8b3bd07ffa38_P01-Innovative-Ideas-Front-Bubble-p-1600.jpg 1600w, https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4ad4da11c8b3bd07ffa38_P01-Innovative-Ideas-Front-Bubble.jpg 2560w",
+        "visible": true
+      },
+      {
+        "alt": "A participant contributing to a Think Tank discussion",
+        "currentSrc": "",
+        "section": "SEE INSTITUTE INSIGHTS\nINSTITUTE INSIGHTS\nRecaps and Insights from our Recent Institutes.\n\nWe are delighted to capture and share the key moments from our various Institutes, including the topics areas, discussions, and ideas that resonated the most.",
+        "sizes": "(max-width: 479px) 100vw, 400px",
+        "src": "https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4ad4dbce50bba4e8f79d4_P04-HRMI-West-2025-Think-Tank-7.jpg",
+        "srcset": "https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4ad4dbce50bba4e8f79d4_P04-HRMI-West-2025-Think-Tank-7-p-500.jpg 500w, https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4ad4dbce50bba4e8f79d4_P04-HRMI-West-2025-Think-Tank-7-p-800.jpg 800w, https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4ad4dbce50bba4e8f79d4_P04-HRMI-West-2025-Think-Tank-7-p-1080.jpg 1080w, https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4ad4dbce50bba4e8f79d4_P04-HRMI-West-2025-Think-Tank-7-p-1600.jpg 1600w, https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4ad4dbce50bba4e8f79d4_P04-HRMI-West-2025-Think-Tank-7.jpg 2560w",
+        "visible": true
+      },
+      {
+        "alt": "Two speakers in conversation on stage at an IPMI Institute",
+        "currentSrc": "",
+        "section": "SEE INSTITUTE INSIGHTS\nINSTITUTE INSIGHTS\nRecaps and Insights from our Recent Institutes.\n\nWe are delighted to capture and share the key moments from our various Institutes, including the topics areas, discussions, and ideas that resonated the most.",
+        "sizes": "(max-width: 479px) 100vw, 400px",
+        "src": "https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4ad4e67be61a871ef0885_P03-HCHR-Mar-2025-Session-22.jpg",
+        "srcset": "https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4ad4e67be61a871ef0885_P03-HCHR-Mar-2025-Session-22-p-500.jpg 500w, https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4ad4e67be61a871ef0885_P03-HCHR-Mar-2025-Session-22-p-800.jpg 800w, https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4ad4e67be61a871ef0885_P03-HCHR-Mar-2025-Session-22-p-1080.jpg 1080w, https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4ad4e67be61a871ef0885_P03-HCHR-Mar-2025-Session-22-p-1600.jpg 1600w, https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4ad4e67be61a871ef0885_P03-HCHR-Mar-2025-Session-22.jpg 2560w",
+        "visible": true
+      }
+    ],
+    "statuses": [
+      {
+        "clip": "none",
+        "live": "assertive",
+        "text": ""
+      },
+      {
+        "clip": "none",
+        "live": "assertive",
+        "text": ""
+      },
+      {
+        "clip": "none",
+        "live": "assertive",
+        "text": ""
+      },
+      {
+        "clip": "none",
+        "live": "assertive",
+        "text": ""
+      },
+      {
+        "clip": "none",
+        "live": "assertive",
+        "text": ""
+      }
+    ],
+    "url": "https://ipmi.webflow.io/"
+  },
+  {
+    "page": "institutes",
+    "width": 390,
+    "lightboxes": [],
+    "photos": [
+      {
+        "alt": "Attendees networking over dinner at an IPMI Institute",
+        "currentSrc": "https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4b14c3c45253949502846_P06-HR-Central-2024-Dinner-p-500.jpg",
+        "section": "UPCOMING INSTITUTES\nTop Executives.\n‍Industry-Leading Ideas.\n‍Luxury Settings.\nInstitutes bring together CXOs from organizations across North America to share industry-leading ideas and solutions to meet business priorities.\nVIEW UPCOMING INSTITUTES",
+        "sizes": "(max-width: 479px) 100vw, 400px",
+        "src": "https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4b14c3c45253949502846_P06-HR-Central-2024-Dinner.jpg",
+        "srcset": "https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4b14c3c45253949502846_P06-HR-Central-2024-Dinner-p-500.jpg 500w, https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4b14c3c45253949502846_P06-HR-Central-2024-Dinner-p-800.jpg 800w, https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4b14c3c45253949502846_P06-HR-Central-2024-Dinner-p-1080.jpg 1080w, https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4b14c3c45253949502846_P06-HR-Central-2024-Dinner-p-1600.jpg 1600w, https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4b14c3c45253949502846_P06-HR-Central-2024-Dinner.jpg 2560w",
+        "visible": true
+      },
+      {
+        "alt": "",
+        "currentSrc": "https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4b14b89ec7715954bd6d1_P05-HR-East-2026-Session-2-p-500.jpg",
+        "section": "UPCOMING INSTITUTES\nTop Executives.\n‍Industry-Leading Ideas.\n‍Luxury Settings.\nInstitutes bring together CXOs from organizations across North America to share industry-leading ideas and solutions to meet business priorities.\nVIEW UPCOMING INSTITUTES",
+        "sizes": "(max-width: 2560px) 100vw, 2560px",
+        "src": "https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4b14b89ec7715954bd6d1_P05-HR-East-2026-Session-2.jpg",
+        "srcset": "https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4b14b89ec7715954bd6d1_P05-HR-East-2026-Session-2-p-500.jpg 500w, https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4b14b89ec7715954bd6d1_P05-HR-East-2026-Session-2-p-800.jpg 800w, https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4b14b89ec7715954bd6d1_P05-HR-East-2026-Session-2-p-1080.jpg 1080w, https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4b14b89ec7715954bd6d1_P05-HR-East-2026-Session-2-p-1600.jpg 1600w, https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4b14b89ec7715954bd6d1_P05-HR-East-2026-Session-2.jpg 2560w",
+        "visible": true
+      },
+      {
+        "alt": "A participant listening during a Think Tank session",
+        "currentSrc": "",
+        "section": "SEE INSTITUTE INSIGHTS\nINSTITUTE INSIGHTS\nRecaps and Insights from our Recent Institutes.\n\nWe are delighted to capture and share the key moments from our various Institutes, including the topics areas, discussions, and ideas that resonated the most.",
+        "sizes": "(max-width: 400px) 100vw, 400px",
+        "src": "https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4b14b10198c9b1043170a_P08-HRMI-West-2025-Think-Tank-5.jpg",
+        "srcset": "https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4b14b10198c9b1043170a_P08-HRMI-West-2025-Think-Tank-5-p-500.jpg 500w, https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4b14b10198c9b1043170a_P08-HRMI-West-2025-Think-Tank-5-p-800.jpg 800w, https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4b14b10198c9b1043170a_P08-HRMI-West-2025-Think-Tank-5-p-1080.jpg 1080w, https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4b14b10198c9b1043170a_P08-HRMI-West-2025-Think-Tank-5-p-1600.jpg 1600w, https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4b14b10198c9b1043170a_P08-HRMI-West-2025-Think-Tank-5.jpg 2560w",
+        "visible": true
+      },
+      {
+        "alt": "A speaker presenting on stage at an IPMI Institute",
+        "currentSrc": "",
+        "section": "SEE INSTITUTE INSIGHTS\nINSTITUTE INSIGHTS\nRecaps and Insights from our Recent Institutes.\n\nWe are delighted to capture and share the key moments from our various Institutes, including the topics areas, discussions, and ideas that resonated the most.",
+        "sizes": "(max-width: 400px) 100vw, 400px",
+        "src": "https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4b14cda6412ca2ac37a85_P07-HR-East-2026-Session-9.jpg",
+        "srcset": "https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4b14cda6412ca2ac37a85_P07-HR-East-2026-Session-9-p-500.jpg 500w, https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4b14cda6412ca2ac37a85_P07-HR-East-2026-Session-9-p-800.jpg 800w, https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4b14cda6412ca2ac37a85_P07-HR-East-2026-Session-9-p-1080.jpg 1080w, https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4b14cda6412ca2ac37a85_P07-HR-East-2026-Session-9-p-1600.jpg 1600w, https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4b14cda6412ca2ac37a85_P07-HR-East-2026-Session-9.jpg 2560w",
+        "visible": true
+      },
+      {
+        "alt": "A facilitator leading a Think Tank discussion with participants seated in a circle",
+        "currentSrc": "",
+        "section": "WHAT IS AN INSTITUTE?\nBringing CXOs together for Intimate and Interactive Events.\n\nInstitutes bring together CxOs from organizations across North America in an intimate and luxury setting for two-and-a-half days of networking, information exchange, and collaboration. Institutes are executed with an unwavering commitment to quality and excellence, allowing you to curate a valuable and productive ex",
+        "sizes": "(max-width: 767px) 100vw, 768px",
+        "src": "https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4b14b065ea59f68522cca_P09-CLDI-Apr-2025-Think-Tank-9.jpg",
+        "srcset": "https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4b14b065ea59f68522cca_P09-CLDI-Apr-2025-Think-Tank-9-p-500.jpg 500w, https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4b14b065ea59f68522cca_P09-CLDI-Apr-2025-Think-Tank-9-p-800.jpg 800w, https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4b14b065ea59f68522cca_P09-CLDI-Apr-2025-Think-Tank-9-p-1080.jpg 1080w, https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4b14b065ea59f68522cca_P09-CLDI-Apr-2025-Think-Tank-9-p-1600.jpg 1600w, https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4b14b065ea59f68522cca_P09-CLDI-Apr-2025-Think-Tank-9.jpg 2560w",
+        "visible": true
+      }
+    ],
+    "statuses": [],
+    "url": "https://ipmi.webflow.io/institutes"
+  },
+  {
+    "page": "recent-institutes",
+    "width": 390,
+    "lightboxes": [],
+    "photos": [
+      {
+        "alt": "Attendees listening and smiling during an IPMI Institute session",
+        "currentSrc": "https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4b4b02a5eb1c3401b943c_P10-HRMI-Central-2024-Session-1-p-500.jpg",
+        "section": "RECENT INSTITUTES\nIncredible Institutes That Deliver Immediate Impact.\nBrowse through our recent Institutes, which outline key themes and feature our amazing Advisory Committees, Speakers, and Partners.  Click on 'Institute Recaps' to see event highlights, insights, and experiences.\nVIEW UPCOMING INSTITUTES",
+        "sizes": "(max-width: 479px) 100vw, 400px",
+        "src": "https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4b4b02a5eb1c3401b943c_P10-HRMI-Central-2024-Session-1.jpg",
+        "srcset": "https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4b4b02a5eb1c3401b943c_P10-HRMI-Central-2024-Session-1-p-500.jpg 500w, https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4b4b02a5eb1c3401b943c_P10-HRMI-Central-2024-Session-1-p-800.jpg 800w, https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4b4b02a5eb1c3401b943c_P10-HRMI-Central-2024-Session-1-p-1080.jpg 1080w, https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4b4b02a5eb1c3401b943c_P10-HRMI-Central-2024-Session-1-p-1600.jpg 1600w, https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4b4b02a5eb1c3401b943c_P10-HRMI-Central-2024-Session-1.jpg 2560w",
+        "visible": true
+      }
+    ],
+    "statuses": [],
+    "url": "https://ipmi.webflow.io/recent-institutes"
+  },
+  {
+    "page": "gallery",
+    "width": 390,
+    "lightboxes": [
+      {
+        "alt": "Three panelists seated on stools during a stage discussion",
+        "name": "View photo: Three panelists seated on stools during a stage discussion",
+        "role": null,
+        "visible": true
+      },
+      {
+        "alt": "Three panelists discussing ideas on stage in front of an audience",
+        "name": "View photo: Three panelists discussing ideas on stage in front of an audience",
+        "role": null,
+        "visible": true
+      },
+      {
+        "alt": "Attendees listening in a conference room with rows of tables",
+        "name": "View photo: Attendees listening in a conference room with rows of tables",
+        "role": null,
+        "visible": true
+      },
+      {
+        "alt": "Two panelists seated together on stage during a discussion",
+        "name": "View photo: Two panelists seated together on stage during a discussion",
+        "role": null,
+        "visible": true
+      },
+      {
+        "alt": "A speaker gesturing while holding a presentation remote",
+        "name": "View photo: A speaker gesturing while holding a presentation remote",
+        "role": null,
+        "visible": true
+      },
+      {
+        "alt": "Four panelists conversing on a stage lit in green",
+        "name": "View photo: Four panelists conversing on a stage lit in green",
+        "role": null,
+        "visible": true
+      },
+      {
+        "alt": "A speaker presenting beside a screen to attendees seated at tables",
+        "name": "View photo: A speaker presenting beside a screen to attendees seated at tables",
+        "role": null,
+        "visible": true
+      },
+      {
+        "alt": "Two panelists in conversation on a green-lit stage",
+        "name": "View photo: Two panelists in conversation on a green-lit stage",
+        "role": null,
+        "visible": true
+      },
+      {
+        "alt": "Five panelists seated on stage for a discussion",
+        "name": "View photo: Five panelists seated on stage for a discussion",
+        "role": null,
+        "visible": true
+      },
+      {
+        "alt": "Attendees entering a conference room beside a General Session sign",
+        "name": "View photo: Attendees entering a conference room beside a General Session sign",
+        "role": null,
+        "visible": true
+      },
+      {
+        "alt": "Three participants discussing business around a table with a laptop",
+        "name": "View photo: Three participants discussing business around a table with a laptop",
+        "role": null,
+        "visible": true
+      },
+      {
+        "alt": "Three participants smiling during a meeting at a round table",
+        "name": "View photo: Three participants smiling during a meeting at a round table",
+        "role": null,
+        "visible": true
+      },
+      {
+        "alt": "Three participants talking at a blue-covered table with a tablet and laptop",
+        "name": "View photo: Three participants talking at a blue-covered table with a tablet and laptop",
+        "role": null,
+        "visible": true
+      },
+      {
+        "alt": "Participants holding one-to-one conversations at small round tables",
+        "name": "View photo: Participants holding one-to-one conversations at small round tables",
+        "role": null,
+        "visible": true
+      },
+      {
+        "alt": "Three participants talking around a table",
+        "name": "View photo: Three participants talking around a table",
+        "role": null,
+        "visible": true
+      },
+      {
+        "alt": "Participants meeting at a small table in a curtained lounge area",
+        "name": "View photo: Participants meeting at a small table in a curtained lounge area",
+        "role": null,
+        "visible": true
+      },
+      {
+        "alt": "A participant gesturing while discussing business with a colleague beside a laptop",
+        "name": "View photo: A participant gesturing while discussing business with a colleague beside a laptop",
+        "role": null,
+        "visible": true
+      },
+      {
+        "alt": "Two participants meeting at a blue-covered table with an open laptop",
+        "name": "View photo: Two participants meeting at a blue-covered table with an open laptop",
+        "role": null,
+        "visible": true
+      },
+      {
+        "alt": "Two participants talking across a small meeting table",
+        "name": "View photo: Two participants talking across a small meeting table",
+        "role": null,
+        "visible": true
+      },
+      {
+        "alt": "Three participants discussing business while seated together on a sofa",
+        "name": "View photo: Three participants discussing business while seated together on a sofa",
+        "role": null,
+        "visible": true
+      },
+      {
+        "alt": "A facilitator leading a discussion around U-shaped tables with flip charts",
+        "name": "View photo: A facilitator leading a discussion around U-shaped tables with flip charts",
+        "role": null,
+        "visible": true
+      },
+      {
+        "alt": "Participants listening to a presenter in a small meeting room",
+        "name": "View photo: Participants listening to a presenter in a small meeting room",
+        "role": null,
+        "visible": true
+      },
+      {
+        "alt": "Two participants listening during a discussion",
+        "name": "View photo: Two participants listening during a discussion",
+        "role": null,
+        "visible": true
+      },
+      {
+        "alt": "Participants in a discussion around U-shaped meeting tables",
+        "name": "View photo: Participants in a discussion around U-shaped meeting tables",
+        "role": null,
+        "visible": true
+      },
+      {
+        "alt": "A facilitator addressing participants around a large U-shaped table arrangement",
+        "name": "View photo: A facilitator addressing participants around a large U-shaped table arrangement",
+        "role": null,
+        "visible": true
+      },
+      {
+        "alt": "A presenter addressing participants seated around U-shaped tables",
+        "name": "View photo: A presenter addressing participants seated around U-shaped tables",
+        "role": null,
+        "visible": true
+      },
+      {
+        "alt": "A participant sharing ideas with colleagues seated around a table",
+        "name": "View photo: A participant sharing ideas with colleagues seated around a table",
+        "role": null,
+        "visible": true
+      },
+      {
+        "alt": "A participant gesturing while colleagues listen during a discussion",
+        "name": "View photo: A participant gesturing while colleagues listen during a discussion",
+        "role": null,
+        "visible": true
+      },
+      {
+        "alt": "Participants discussing ideas around U-shaped tables beneath chandeliers",
+        "name": "View photo: Participants discussing ideas around U-shaped tables beneath chandeliers",
+        "role": null,
+        "visible": true
+      },
+      {
+        "alt": "Attendees chatting around an outdoor cocktail table overlooking the water",
+        "name": "View photo: Attendees chatting around an outdoor cocktail table overlooking the water",
+        "role": null,
+        "visible": true
+      },
+      {
+        "alt": "Attendees gathering around tables in a sunlit conference lobby",
+        "name": "View photo: Attendees gathering around tables in a sunlit conference lobby",
+        "role": null,
+        "visible": true
+      },
+      {
+        "alt": "Three attendees talking around a cocktail table outdoors",
+        "name": "View photo: Three attendees talking around a cocktail table outdoors",
+        "role": null,
+        "visible": true
+      },
+      {
+        "alt": "Attendees chatting around round tables in a reception room",
+        "name": "View photo: Attendees chatting around round tables in a reception room",
+        "role": null,
+        "visible": true
+      },
+      {
+        "alt": "A seated audience listening during a dinner presentation",
+        "name": "View photo: A seated audience listening during a dinner presentation",
+        "role": null,
+        "visible": true
+      },
+      {
+        "alt": "Two presenters gesturing beside lecterns on stage",
+        "name": "View photo: Two presenters gesturing beside lecterns on stage",
+        "role": null,
+        "visible": true
+      },
+      {
+        "alt": "A presenter addressing attendees seated at dinner tables",
+        "name": "View photo: A presenter addressing attendees seated at dinner tables",
+        "role": null,
+        "visible": true
+      },
+      {
+        "alt": "Smiling attendees walking together outside a building",
+        "name": "View photo: Smiling attendees walking together outside a building",
+        "role": null,
+        "visible": true
+      },
+      {
+        "alt": "Participants talking at small tables in a bright meeting room",
+        "name": "View photo: Participants talking at small tables in a bright meeting room",
+        "role": null,
+        "visible": true
+      },
+      {
+        "alt": "Participants chatting around meeting tables with notebooks and drinks",
+        "name": "View photo: Participants chatting around meeting tables with notebooks and drinks",
+        "role": null,
+        "visible": true
+      },
+      {
+        "alt": "A seafood buffet with crab legs, shrimp, citrus and flowers",
+        "name": "View photo: A seafood buffet with crab legs, shrimp, citrus and flowers",
+        "role": null,
+        "visible": true
+      }
+    ],
+    "photos": [
+      {
+        "alt": "A speaker seated on stage during an IPMI Institute session",
+        "currentSrc": "https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4b6be6f37170719534329_P12-HRMI-Central-2024-Session-2-p-500.jpg",
+        "section": "INSTITUTE GALLERY\nShowcasing the IPMI Institute Experience.\nThey say a picture is worth a thousand words. These images from our various Institutes capture the unique on-site experiences of our attendees and the value of their involvement.\nVIEW GALLERIES",
+        "sizes": "(max-width: 479px) 100vw, 400px",
+        "src": "https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4b6be6f37170719534329_P12-HRMI-Central-2024-Session-2.jpg",
+        "srcset": "https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4b6be6f37170719534329_P12-HRMI-Central-2024-Session-2-p-500.jpg 500w, https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4b6be6f37170719534329_P12-HRMI-Central-2024-Session-2-p-800.jpg 800w, https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4b6be6f37170719534329_P12-HRMI-Central-2024-Session-2-p-1080.jpg 1080w, https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4b6be6f37170719534329_P12-HRMI-Central-2024-Session-2-p-1600.jpg 1600w, https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4b6be6f37170719534329_P12-HRMI-Central-2024-Session-2.jpg 2560w",
+        "visible": true
+      },
+      {
+        "alt": "Attendees smiling and raising a hand at an IPMI networking reception",
+        "currentSrc": "https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4b6bc009285801122e517_P11-HCHR-Mar-2025-Dinner-20-p-500.jpg",
+        "section": "INSTITUTE GALLERY\nShowcasing the IPMI Institute Experience.\nThey say a picture is worth a thousand words. These images from our various Institutes capture the unique on-site experiences of our attendees and the value of their involvement.\nVIEW GALLERIES",
+        "sizes": "(max-width: 479px) 100vw, 400px",
+        "src": "https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4b6bc009285801122e517_P11-HCHR-Mar-2025-Dinner-20.jpg",
+        "srcset": "https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4b6bc009285801122e517_P11-HCHR-Mar-2025-Dinner-20-p-500.jpg 500w, https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4b6bc009285801122e517_P11-HCHR-Mar-2025-Dinner-20-p-800.jpg 800w, https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4b6bc009285801122e517_P11-HCHR-Mar-2025-Dinner-20-p-1080.jpg 1080w, https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4b6bc009285801122e517_P11-HCHR-Mar-2025-Dinner-20-p-1600.jpg 1600w, https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4b6bc009285801122e517_P11-HCHR-Mar-2025-Dinner-20.jpg 2560w",
+        "visible": true
+      },
+      {
+        "alt": "Attendees networking beside a rooftop pool among city towers",
+        "currentSrc": "",
+        "section": "VIEW UPCOMING INSTITUTES\nUPCOMING INSTITUTES\nLeveraging On-Site Connections to Advance Organizational Objectives.\n\nInstitutes bring together CXOs from organizations across North America to share industry-leading ideas and solutions to meet business priorities.",
+        "sizes": "(max-width: 400px) 100vw, 400px",
+        "src": "https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4b6be655ed43be067d947_P14-SOI-2024-Dinner.jpg",
+        "srcset": "https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4b6be655ed43be067d947_P14-SOI-2024-Dinner-p-500.jpg 500w, https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4b6be655ed43be067d947_P14-SOI-2024-Dinner-p-800.jpg 800w, https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4b6be655ed43be067d947_P14-SOI-2024-Dinner-p-1080.jpg 1080w, https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4b6be655ed43be067d947_P14-SOI-2024-Dinner-p-1600.jpg 1600w, https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4b6be655ed43be067d947_P14-SOI-2024-Dinner.jpg 2268w",
+        "visible": true
+      },
+      {
+        "alt": "Fountains and palm trees beside a lake at an Institute venue",
+        "currentSrc": "",
+        "section": "VIEW UPCOMING INSTITUTES\nUPCOMING INSTITUTES\nLeveraging On-Site Connections to Advance Organizational Objectives.\n\nInstitutes bring together CXOs from organizations across North America to share industry-leading ideas and solutions to meet business priorities.",
+        "sizes": "(max-width: 400px) 100vw, 400px",
+        "src": "https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4b6beeae4404f8475938c_P13-HIT-2024-Scenic.jpg",
+        "srcset": "https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4b6beeae4404f8475938c_P13-HIT-2024-Scenic-p-500.jpg 500w, https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4b6beeae4404f8475938c_P13-HIT-2024-Scenic-p-800.jpg 800w, https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4b6beeae4404f8475938c_P13-HIT-2024-Scenic-p-1080.jpg 1080w, https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4b6beeae4404f8475938c_P13-HIT-2024-Scenic-p-1600.jpg 1600w, https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4b6beeae4404f8475938c_P13-HIT-2024-Scenic-p-2000.jpg 2000w, https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4b6beeae4404f8475938c_P13-HIT-2024-Scenic.jpg 2560w",
+        "visible": true
+      }
+    ],
+    "statuses": [
+      {
+        "clip": "inset(50%)",
+        "live": "assertive",
+        "text": ""
+      },
+      {
+        "clip": "inset(50%)",
+        "live": "assertive",
+        "text": ""
+      },
+      {
+        "clip": "inset(50%)",
+        "live": "assertive",
+        "text": ""
+      },
+      {
+        "clip": "inset(50%)",
+        "live": "assertive",
+        "text": ""
+      }
+    ],
+    "url": "https://ipmi.webflow.io/gallery"
+  },
+  {
+    "page": "thinktanks",
+    "width": 390,
+    "lightboxes": [],
+    "photos": [
+      {
+        "alt": "A participant speaking to seated colleagues during an IPMI roundtable",
+        "currentSrc": "https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4b990eae4404f847681a0_P15-Indeed-Pasta-Making-Roundtable-p-500.jpg",
+        "section": "THINK TANKS & ROUNDTABLES\nA Relatable, Responsive, and Real-Time Platform.\nIPMI‘s Think Tanks & Roundtables provide a platform for sharing insights, tools and resources to help drive organizational success, and are the go-to outlet for dealing with changing priorities and perspectives.\nVIEW THINK TANKS",
+        "sizes": "(max-width: 479px) 100vw, 400px",
+        "src": "https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4b990eae4404f847681a0_P15-Indeed-Pasta-Making-Roundtable.jpg",
+        "srcset": "https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4b990eae4404f847681a0_P15-Indeed-Pasta-Making-Roundtable-p-500.jpg 500w, https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4b990eae4404f847681a0_P15-Indeed-Pasta-Making-Roundtable-p-800.jpg 800w, https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4b990eae4404f847681a0_P15-Indeed-Pasta-Making-Roundtable-p-1080.jpg 1080w, https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4b990eae4404f847681a0_P15-Indeed-Pasta-Making-Roundtable-p-1600.jpg 1600w, https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4b990eae4404f847681a0_P15-Indeed-Pasta-Making-Roundtable.jpg 2068w",
+        "visible": true
+      }
+    ],
+    "statuses": [
+      {
+        "clip": "none",
+        "live": "assertive",
+        "text": ""
+      }
+    ],
+    "url": "https://ipmi.webflow.io/thinktanks"
+  },
+  {
+    "page": "about",
+    "width": 390,
+    "lightboxes": [
+      {
+        "alt": "Two participants smiling together at an IPMI event",
+        "name": "View photo: Two participants smiling together at an IPMI event",
+        "role": null,
+        "visible": true
+      },
+      {
+        "alt": "Four IPMI team members smiling together at an outdoor event",
+        "name": "View photo: Four IPMI team members smiling together at an outdoor event",
+        "role": null,
+        "visible": true
+      },
+      {
+        "alt": "Attendees listening in a conference room with rows of tables",
+        "name": "View photo: Attendees listening in a conference room with rows of tables",
+        "role": "link",
+        "visible": true
+      },
+      {
+        "alt": "A speaker in a yellow suit addressing an audience with a handheld microphone",
+        "name": "View photo: A speaker in a yellow suit addressing an audience with a handheld microphone",
+        "role": "link",
+        "visible": true
+      },
+      {
+        "alt": "Two attendees talking at a cocktail table near a registration sign",
+        "name": "View photo: Two attendees talking at a cocktail table near a registration sign",
+        "role": "link",
+        "visible": true
+      },
+      {
+        "alt": "A speaker holding a microphone and tablet on stage",
+        "name": "View photo: A speaker holding a microphone and tablet on stage",
+        "role": "link",
+        "visible": true
+      }
+    ],
+    "photos": [
+      {
+        "alt": "A smiling participant wearing a striped shirt and event lanyard at an IPMI gathering",
+        "currentSrc": "https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4bc32bce50bba4e943d27_P17-HCHR-March-2024-Staff-1-p-500.jpg",
+        "section": "ABOUT IPMI\nInternational Performance\nManagement Institute.\nGet to know our team, our vision, and our mission.\nEXPERIENCE AN INSTITUTE",
+        "sizes": "(max-width: 479px) 100vw, 400px",
+        "src": "https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4bc32bce50bba4e943d27_P17-HCHR-March-2024-Staff-1.jpg",
+        "srcset": "https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4bc32bce50bba4e943d27_P17-HCHR-March-2024-Staff-1-p-500.jpg 500w, https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4bc32bce50bba4e943d27_P17-HCHR-March-2024-Staff-1-p-800.jpg 800w, https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4bc32bce50bba4e943d27_P17-HCHR-March-2024-Staff-1-p-1080.jpg 1080w, https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4bc32bce50bba4e943d27_P17-HCHR-March-2024-Staff-1-p-1600.jpg 1600w, https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4bc32bce50bba4e943d27_P17-HCHR-March-2024-Staff-1.jpg 2560w",
+        "visible": true
+      },
+      {
+        "alt": "A speaker holding a microphone and notes during an IPMI session",
+        "currentSrc": "https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4bc33655ed43be069d72e_P16-HCHR-Mar-2025-Session-16-p-500.jpg",
+        "section": "ABOUT IPMI\nInternational Performance\nManagement Institute.\nGet to know our team, our vision, and our mission.\nEXPERIENCE AN INSTITUTE",
+        "sizes": "(max-width: 479px) 100vw, 400px",
+        "src": "https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4bc33655ed43be069d72e_P16-HCHR-Mar-2025-Session-16.jpg",
+        "srcset": "https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4bc33655ed43be069d72e_P16-HCHR-Mar-2025-Session-16-p-500.jpg 500w, https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4bc33655ed43be069d72e_P16-HCHR-Mar-2025-Session-16-p-800.jpg 800w, https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4bc33655ed43be069d72e_P16-HCHR-Mar-2025-Session-16-p-1080.jpg 1080w, https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4bc33655ed43be069d72e_P16-HCHR-Mar-2025-Session-16-p-1600.jpg 1600w, https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4bc33655ed43be069d72e_P16-HCHR-Mar-2025-Session-16.jpg 2560w",
+        "visible": true
+      },
+      {
+        "alt": "Two participants smiling together at an IPMI event",
+        "currentSrc": "https://cdn.prod.website-files.com/6312ee46f4c52faf21ee8ab5/6ab4bd1fbf52ddc3481af066_P18-HRMI-Apr-2025-Staff-1-1920-p-500.jpg",
+        "link": "View photo: Two participants smiling together at an IPMI event",
+        "sizes": "(max-width: 1919px) 100vw, 1920px",
+        "src": "https://cdn.prod.website-files.com/6312ee46f4c52faf21ee8ab5/6ab4bd1fbf52ddc3481af066_P18-HRMI-Apr-2025-Staff-1-1920.jpg",
+        "srcset": "https://cdn.prod.website-files.com/6312ee46f4c52faf21ee8ab5/6ab4bd1fbf52ddc3481af066_P18-HRMI-Apr-2025-Staff-1-1920-p-500.jpg 500w, https://cdn.prod.website-files.com/6312ee46f4c52faf21ee8ab5/6ab4bd1fbf52ddc3481af066_P18-HRMI-Apr-2025-Staff-1-1920-p-800.jpg 800w, https://cdn.prod.website-files.com/6312ee46f4c52faf21ee8ab5/6ab4bd1fbf52ddc3481af066_P18-HRMI-Apr-2025-Staff-1-1920-p-1080.jpg 1080w, https://cdn.prod.website-files.com/6312ee46f4c52faf21ee8ab5/6ab4bd1fbf52ddc3481af066_P18-HRMI-Apr-2025-Staff-1-1920-p-1600.jpg 1600w, https://cdn.prod.website-files.com/6312ee46f4c52faf21ee8ab5/6ab4bd1fbf52ddc3481af066_P18-HRMI-Apr-2025-Staff-1-1920.jpg 1920w",
+        "visible": true
+      },
+      {
+        "alt": "Four IPMI team members smiling together at an outdoor event",
+        "currentSrc": "https://cdn.prod.website-files.com/6312ee46f4c52faf21ee8ab5/6ab4bd741859cfc75a33edf7_P19-HFI-2026-Staff-1920-p-500.jpg",
+        "link": "View photo: Four IPMI team members smiling together at an outdoor event",
+        "sizes": "(max-width: 1919px) 100vw, 1920px",
+        "src": "https://cdn.prod.website-files.com/6312ee46f4c52faf21ee8ab5/6ab4bd741859cfc75a33edf7_P19-HFI-2026-Staff-1920.jpg",
+        "srcset": "https://cdn.prod.website-files.com/6312ee46f4c52faf21ee8ab5/6ab4bd741859cfc75a33edf7_P19-HFI-2026-Staff-1920-p-500.jpg 500w, https://cdn.prod.website-files.com/6312ee46f4c52faf21ee8ab5/6ab4bd741859cfc75a33edf7_P19-HFI-2026-Staff-1920-p-800.jpg 800w, https://cdn.prod.website-files.com/6312ee46f4c52faf21ee8ab5/6ab4bd741859cfc75a33edf7_P19-HFI-2026-Staff-1920-p-1080.jpg 1080w, https://cdn.prod.website-files.com/6312ee46f4c52faf21ee8ab5/6ab4bd741859cfc75a33edf7_P19-HFI-2026-Staff-1920-p-1600.jpg 1600w, https://cdn.prod.website-files.com/6312ee46f4c52faf21ee8ab5/6ab4bd741859cfc75a33edf7_P19-HFI-2026-Staff-1920.jpg 1920w",
+        "visible": true
+      }
+    ],
+    "statuses": [
+      {
+        "clip": "inset(50%)",
+        "live": "assertive",
+        "text": ""
+      },
+      {
+        "clip": "inset(50%)",
+        "live": "assertive",
+        "text": ""
+      }
+    ],
+    "url": "https://ipmi.webflow.io/about"
+  },
+  {
+    "page": "testimonials",
+    "width": 390,
+    "lightboxes": [],
+    "photos": [
+      {
+        "alt": "Attendees wearing sunglasses share smiles around an outdoor dinner table",
+        "currentSrc": "https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4c1a589ec77159551d436_P21-HRMI-Can-2025-Dinner-1-p-500.jpg",
+        "section": "ATTENDEE TESTIMONIALS\nFeedback from our Spectacular Guests.\nDon't just take our word for it — Hear firsthand from our amazing attendees about their experiences with IPMI Institutes!\nVIEW TESTIMONIALS",
+        "sizes": "(max-width: 479px) 100vw, 400px",
+        "src": "https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4c1a589ec77159551d436_P21-HRMI-Can-2025-Dinner-1.jpg",
+        "srcset": "https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4c1a589ec77159551d436_P21-HRMI-Can-2025-Dinner-1-p-500.jpg 500w, https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4c1a589ec77159551d436_P21-HRMI-Can-2025-Dinner-1-p-800.jpg 800w, https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4c1a589ec77159551d436_P21-HRMI-Can-2025-Dinner-1-p-1080.jpg 1080w, https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4c1a589ec77159551d436_P21-HRMI-Can-2025-Dinner-1-p-1600.jpg 1600w, https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4c1a589ec77159551d436_P21-HRMI-Can-2025-Dinner-1.jpg 2560w",
+        "visible": true
+      },
+      {
+        "alt": "Participants smiling with drinks at an outdoor IPMI gathering",
+        "currentSrc": "https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4c1a566358d7a1d925a5b_P20-HFI-2026-Casino-Night-p-500.jpg",
+        "section": "ATTENDEE TESTIMONIALS\nFeedback from our Spectacular Guests.\nDon't just take our word for it — Hear firsthand from our amazing attendees about their experiences with IPMI Institutes!\nVIEW TESTIMONIALS",
+        "sizes": "(max-width: 479px) 100vw, 400px",
+        "src": "https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4c1a566358d7a1d925a5b_P20-HFI-2026-Casino-Night.jpg",
+        "srcset": "https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4c1a566358d7a1d925a5b_P20-HFI-2026-Casino-Night-p-500.jpg 500w, https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4c1a566358d7a1d925a5b_P20-HFI-2026-Casino-Night-p-800.jpg 800w, https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4c1a566358d7a1d925a5b_P20-HFI-2026-Casino-Night-p-1080.jpg 1080w, https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4c1a566358d7a1d925a5b_P20-HFI-2026-Casino-Night-p-1600.jpg 1600w, https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4c1a566358d7a1d925a5b_P20-HFI-2026-Casino-Night.jpg 2560w",
+        "visible": true
+      }
+    ],
+    "statuses": [],
+    "url": "https://ipmi.webflow.io/testimonials"
+  },
+  {
+    "page": "attend",
+    "width": 390,
+    "lightboxes": [
+      {
+        "alt": "A speaker at a lectern addressing attendees in a purple-lit conference room",
+        "name": "View photo: A speaker at a lectern addressing attendees in a purple-lit conference room",
+        "role": null,
+        "visible": true
+      },
+      {
+        "alt": "Attendees gathering outdoors in a garden beside a house with a wraparound porch",
+        "name": "View photo: Attendees gathering outdoors in a garden beside a house with a wraparound porch",
+        "role": null,
+        "visible": true
+      },
+      {
+        "alt": "A facilitator presenting to participants seated around U-shaped tables",
+        "name": "View photo: A facilitator presenting to participants seated around U-shaped tables",
+        "role": null,
+        "visible": true
+      },
+      {
+        "alt": "Participants painting wooden paddles at a table with art supplies",
+        "name": "View photo: Participants painting wooden paddles at a table with art supplies",
+        "role": null,
+        "visible": true
+      },
+      {
+        "alt": "Two participants smiling during a meeting at a small round table",
+        "name": "View photo: Two participants smiling during a meeting at a small round table",
+        "role": null,
+        "visible": true
+      },
+      {
+        "alt": "An attendee holding a phone displaying an event questionnaire",
+        "name": "View photo: An attendee holding a phone displaying an event questionnaire",
+        "role": null,
+        "visible": true
+      },
+      {
+        "alt": "A speaker at a lectern addressing attendees in a purple-lit conference room",
+        "name": "View photo: A speaker at a lectern addressing attendees in a purple-lit conference room",
+        "role": null,
+        "visible": false
+      },
+      {
+        "alt": "Attendees gathering outdoors in a garden beside a house with a wraparound porch",
+        "name": "View photo: Attendees gathering outdoors in a garden beside a house with a wraparound porch",
+        "role": null,
+        "visible": false
+      },
+      {
+        "alt": "A facilitator presenting to participants seated around U-shaped tables",
+        "name": "View photo: A facilitator presenting to participants seated around U-shaped tables",
+        "role": null,
+        "visible": false
+      },
+      {
+        "alt": "Participants painting wooden paddles at a table with art supplies",
+        "name": "View photo: Participants painting wooden paddles at a table with art supplies",
+        "role": null,
+        "visible": false
+      },
+      {
+        "alt": "Two participants smiling during a meeting at a small round table",
+        "name": "View photo: Two participants smiling during a meeting at a small round table",
+        "role": null,
+        "visible": false
+      },
+      {
+        "alt": "An attendee holding a phone displaying an event questionnaire",
+        "name": "View photo: An attendee holding a phone displaying an event questionnaire",
+        "role": null,
+        "visible": false
+      },
+      {
+        "alt": "A smiling speaker gesturing with arms extended on stage",
+        "name": "View photo: A smiling speaker gesturing with arms extended on stage",
+        "role": null,
+        "visible": false
+      },
+      {
+        "alt": "Four panelists seated on a green-lit stage for a discussion",
+        "name": "View photo: Four panelists seated on a green-lit stage for a discussion",
+        "role": null,
+        "visible": false
+      },
+      {
+        "alt": "A speaker addressing an audience with a handheld microphone and notes",
+        "name": "View photo: A speaker addressing an audience with a handheld microphone and notes",
+        "role": null,
+        "visible": false
+      },
+      {
+        "alt": "Two panelists talking while seated on a purple-lit stage",
+        "name": "View photo: Two panelists talking while seated on a purple-lit stage",
+        "role": null,
+        "visible": false
+      },
+      {
+        "alt": "A speaker gesturing beside a lectern and presentation screen",
+        "name": "View photo: A speaker gesturing beside a lectern and presentation screen",
+        "role": null,
+        "visible": false
+      },
+      {
+        "alt": "A facilitator leading a discussion with participants seated around U-shaped tables",
+        "name": "View photo: A facilitator leading a discussion with participants seated around U-shaped tables",
+        "role": null,
+        "visible": false
+      },
+      {
+        "alt": "A smiling speaker gesturing with arms extended on stage",
+        "name": "View photo: A smiling speaker gesturing with arms extended on stage",
+        "role": null,
+        "visible": true
+      },
+      {
+        "alt": "Four panelists seated on a green-lit stage for a discussion",
+        "name": "View photo: Four panelists seated on a green-lit stage for a discussion",
+        "role": null,
+        "visible": true
+      },
+      {
+        "alt": "A speaker addressing an audience with a handheld microphone and notes",
+        "name": "View photo: A speaker addressing an audience with a handheld microphone and notes",
+        "role": null,
+        "visible": true
+      },
+      {
+        "alt": "Two panelists talking while seated on a purple-lit stage",
+        "name": "View photo: Two panelists talking while seated on a purple-lit stage",
+        "role": null,
+        "visible": true
+      },
+      {
+        "alt": "A speaker gesturing beside a lectern and presentation screen",
+        "name": "View photo: A speaker gesturing beside a lectern and presentation screen",
+        "role": null,
+        "visible": true
+      },
+      {
+        "alt": "A facilitator leading a discussion with participants seated around U-shaped tables",
+        "name": "View photo: A facilitator leading a discussion with participants seated around U-shaped tables",
+        "role": null,
+        "visible": true
+      },
+      {
+        "alt": "Three participants discussing business at a round table with a laptop",
+        "name": "View photo: Three participants discussing business at a round table with a laptop",
+        "role": null,
+        "visible": true
+      },
+      {
+        "alt": "Two presenters addressing an audience on a purple-lit stage",
+        "name": "View photo: Two presenters addressing an audience on a purple-lit stage",
+        "role": null,
+        "visible": true
+      },
+      {
+        "alt": "Three attendees smiling and talking around a cocktail table",
+        "name": "View photo: Three attendees smiling and talking around a cocktail table",
+        "role": null,
+        "visible": true
+      },
+      {
+        "alt": "Two pairs of participants holding meetings at small round tables",
+        "name": "View photo: Two pairs of participants holding meetings at small round tables",
+        "role": null,
+        "visible": true
+      },
+      {
+        "alt": "A facilitator leading a discussion beside a flip chart in a meeting room",
+        "name": "View photo: A facilitator leading a discussion beside a flip chart in a meeting room",
+        "role": null,
+        "visible": true
+      },
+      {
+        "alt": "Attendees networking around cocktail tables on a covered terrace",
+        "name": "View photo: Attendees networking around cocktail tables on a covered terrace",
+        "role": null,
+        "visible": true
+      },
+      {
+        "alt": "A smiling speaker holding a microphone on stage",
+        "name": "View photo: A smiling speaker holding a microphone on stage",
+        "role": null,
+        "visible": true
+      },
+      {
+        "alt": "Three participants discussing business at a round table with a laptop",
+        "name": "View photo: Three participants discussing business at a round table with a laptop",
+        "role": null,
+        "visible": false
+      },
+      {
+        "alt": "Two presenters addressing an audience on a purple-lit stage",
+        "name": "View photo: Two presenters addressing an audience on a purple-lit stage",
+        "role": null,
+        "visible": false
+      },
+      {
+        "alt": "Three attendees smiling and talking around a cocktail table",
+        "name": "View photo: Three attendees smiling and talking around a cocktail table",
+        "role": null,
+        "visible": false
+      },
+      {
+        "alt": "Two pairs of participants holding meetings at small round tables",
+        "name": "View photo: Two pairs of participants holding meetings at small round tables",
+        "role": null,
+        "visible": false
+      },
+      {
+        "alt": "A facilitator leading a discussion beside a flip chart in a meeting room",
+        "name": "View photo: A facilitator leading a discussion beside a flip chart in a meeting room",
+        "role": null,
+        "visible": false
+      },
+      {
+        "alt": "Attendees networking around cocktail tables on a covered terrace",
+        "name": "View photo: Attendees networking around cocktail tables on a covered terrace",
+        "role": null,
+        "visible": false
+      },
+      {
+        "alt": "A smiling speaker holding a microphone on stage",
+        "name": "View photo: A smiling speaker holding a microphone on stage",
+        "role": null,
+        "visible": false
+      }
+    ],
+    "photos": [
+      {
+        "alt": "Speaker wearing a headset microphone and holding a presentation remote",
+        "currentSrc": "https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4c776b9f31bbef1a63b13_P25-HR-East-2026-Session-6-p-500.jpg",
+        "section": "ATTEND AN INSTITUTE\nTake part in a Unique and Unparalleled Experience.\nSee what it's like to participate in our events, and learn everything you need to know about attending, speaking at, and sponsoring an IPMI Institute!\nEXPERIENCE AN INSTITUTE",
+        "sizes": "(max-width: 479px) 100vw, 400px",
+        "src": "https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4c776b9f31bbef1a63b13_P25-HR-East-2026-Session-6.jpg",
+        "srcset": "https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4c776b9f31bbef1a63b13_P25-HR-East-2026-Session-6-p-500.jpg 500w, https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4c776b9f31bbef1a63b13_P25-HR-East-2026-Session-6-p-800.jpg 800w, https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4c776b9f31bbef1a63b13_P25-HR-East-2026-Session-6-p-1080.jpg 1080w, https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4c776b9f31bbef1a63b13_P25-HR-East-2026-Session-6-p-1600.jpg 1600w, https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4c776b9f31bbef1a63b13_P25-HR-East-2026-Session-6.jpg 2560w",
+        "visible": true
+      },
+      {
+        "alt": "Attendees networking outdoors around a cocktail table at sunset",
+        "currentSrc": "https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4c705655ed43be06ebd36_P24-CLDI-Apr-2025-Dinner-12-p-500.jpg",
+        "section": "ATTEND AN INSTITUTE\nTake part in a Unique and Unparalleled Experience.\nSee what it's like to participate in our events, and learn everything you need to know about attending, speaking at, and sponsoring an IPMI Institute!\nEXPERIENCE AN INSTITUTE",
+        "sizes": "(max-width: 479px) 100vw, 400px",
+        "src": "https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4c705655ed43be06ebd36_P24-CLDI-Apr-2025-Dinner-12.jpg",
+        "srcset": "https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4c705655ed43be06ebd36_P24-CLDI-Apr-2025-Dinner-12-p-500.jpg 500w, https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4c705655ed43be06ebd36_P24-CLDI-Apr-2025-Dinner-12-p-800.jpg 800w, https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4c705655ed43be06ebd36_P24-CLDI-Apr-2025-Dinner-12-p-1080.jpg 1080w, https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4c705655ed43be06ebd36_P24-CLDI-Apr-2025-Dinner-12-p-1600.jpg 1600w, https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4c705655ed43be06ebd36_P24-CLDI-Apr-2025-Dinner-12.jpg 2560w",
+        "visible": true
+      }
+    ],
+    "statuses": [
+      {
+        "clip": "inset(50%)",
+        "live": "assertive",
+        "text": ""
+      },
+      {
+        "clip": "inset(50%)",
+        "live": "assertive",
+        "text": ""
+      },
+      {
+        "clip": "inset(50%)",
+        "live": "assertive",
+        "text": ""
+      },
+      {
+        "clip": "inset(50%)",
+        "live": "assertive",
+        "text": ""
+      },
+      {
+        "clip": "inset(50%)",
+        "live": "assertive",
+        "text": ""
+      },
+      {
+        "clip": "inset(50%)",
+        "live": "assertive",
+        "text": ""
+      }
+    ],
+    "url": "https://ipmi.webflow.io/attend"
+  },
+  {
+    "page": "contact",
+    "width": 390,
+    "lightboxes": [],
+    "photos": [
+      {
+        "alt": "Two attendees smiling and holding drinks at the HIT 2024 dinner",
+        "currentSrc": "https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4ca6019adb9f0df002db6_P27-HIT-2024-Dinner-p-500.jpg",
+        "section": "CONTACT IPMI\nCome say \"Hello!\"\nWe're excited to hear from you.\nIf you want to learn more about Institutes, Virtual Think Tanks, or just have a general inquiry, our expert staff are eager to be of assistance!\nGET IN TOUCH",
+        "sizes": "(max-width: 479px) 100vw, 400px",
+        "src": "https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4ca6019adb9f0df002db6_P27-HIT-2024-Dinner.jpg",
+        "srcset": "https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4ca6019adb9f0df002db6_P27-HIT-2024-Dinner-p-500.jpg 500w, https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4ca6019adb9f0df002db6_P27-HIT-2024-Dinner-p-800.jpg 800w, https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4ca6019adb9f0df002db6_P27-HIT-2024-Dinner-p-1080.jpg 1080w, https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4ca6019adb9f0df002db6_P27-HIT-2024-Dinner-p-1600.jpg 1600w, https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4ca6019adb9f0df002db6_P27-HIT-2024-Dinner.jpg 2560w",
+        "visible": true
+      },
+      {
+        "alt": "IPMI Staff assisting Attendees",
+        "currentSrc": "https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/63c4d1501c2178619dd30322_Contact-Bubble-3.webp",
+        "section": "CONTACT IPMI\nCome say \"Hello!\"\nWe're excited to hear from you.\nIf you want to learn more about Institutes, Virtual Think Tanks, or just have a general inquiry, our expert staff are eager to be of assistance!\nGET IN TOUCH",
+        "sizes": "",
+        "src": "https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/63c4d1501c2178619dd30322_Contact-Bubble-3.webp",
+        "srcset": "",
+        "visible": true
+      }
+    ],
+    "statuses": [],
+    "url": "https://ipmi.webflow.io/contact"
+  },
+  {
+    "page": "home",
+    "width": 768,
+    "lightboxes": [],
+    "photos": [
+      {
+        "alt": "A participant discussing ideas at a Think Tank table",
+        "currentSrc": "https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4ad4e118f040f8b24dd68_P02-HIT-Jun-2025-Think-Tank-9-p-500.jpg",
+        "section": "IPMI INSTITUTES\nSharing Innovative Ideas and Solutions across Industry Verticals.\n\nInstitutes feature dynamic panel discussions, thought provoking keynote presentations, practical case studies and interactive think tanks that compliment pre-scheduled, private business meetings, all of which provide critical information exchange and knowledge sharing to improve the performance of your organizations",
+        "sizes": "(max-width: 479px) 100vw, 400px",
+        "src": "https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4ad4e118f040f8b24dd68_P02-HIT-Jun-2025-Think-Tank-9.jpg",
+        "srcset": "https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4ad4e118f040f8b24dd68_P02-HIT-Jun-2025-Think-Tank-9-p-500.jpg 500w, https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4ad4e118f040f8b24dd68_P02-HIT-Jun-2025-Think-Tank-9-p-800.jpg 800w, https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4ad4e118f040f8b24dd68_P02-HIT-Jun-2025-Think-Tank-9-p-1080.jpg 1080w, https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4ad4e118f040f8b24dd68_P02-HIT-Jun-2025-Think-Tank-9-p-1600.jpg 1600w, https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4ad4e118f040f8b24dd68_P02-HIT-Jun-2025-Think-Tank-9.jpg 2560w",
+        "visible": true
+      },
+      {
+        "alt": "Two panelists sharing ideas on stage at an IPMI Institute",
+        "currentSrc": "https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4ad4da11c8b3bd07ffa38_P01-Innovative-Ideas-Front-Bubble-p-500.jpg",
+        "section": "IPMI INSTITUTES\nSharing Innovative Ideas and Solutions across Industry Verticals.\n\nInstitutes feature dynamic panel discussions, thought provoking keynote presentations, practical case studies and interactive think tanks that compliment pre-scheduled, private business meetings, all of which provide critical information exchange and knowledge sharing to improve the performance of your organizations",
+        "sizes": "(max-width: 479px) 100vw, 400px",
+        "src": "https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4ad4da11c8b3bd07ffa38_P01-Innovative-Ideas-Front-Bubble.jpg",
+        "srcset": "https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4ad4da11c8b3bd07ffa38_P01-Innovative-Ideas-Front-Bubble-p-500.jpg 500w, https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4ad4da11c8b3bd07ffa38_P01-Innovative-Ideas-Front-Bubble-p-800.jpg 800w, https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4ad4da11c8b3bd07ffa38_P01-Innovative-Ideas-Front-Bubble-p-1080.jpg 1080w, https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4ad4da11c8b3bd07ffa38_P01-Innovative-Ideas-Front-Bubble-p-1600.jpg 1600w, https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4ad4da11c8b3bd07ffa38_P01-Innovative-Ideas-Front-Bubble.jpg 2560w",
+        "visible": true
+      },
+      {
+        "alt": "A participant contributing to a Think Tank discussion",
+        "currentSrc": "",
+        "section": "INSTITUTE INSIGHTS\nRecaps and Insights from our Recent Institutes.\n\nWe are delighted to capture and share the key moments from our various Institutes, including the topics areas, discussions, and ideas that resonated the most.\n\nSEE INSTITUTE INSIGHTS",
+        "sizes": "(max-width: 479px) 100vw, 400px",
+        "src": "https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4ad4dbce50bba4e8f79d4_P04-HRMI-West-2025-Think-Tank-7.jpg",
+        "srcset": "https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4ad4dbce50bba4e8f79d4_P04-HRMI-West-2025-Think-Tank-7-p-500.jpg 500w, https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4ad4dbce50bba4e8f79d4_P04-HRMI-West-2025-Think-Tank-7-p-800.jpg 800w, https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4ad4dbce50bba4e8f79d4_P04-HRMI-West-2025-Think-Tank-7-p-1080.jpg 1080w, https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4ad4dbce50bba4e8f79d4_P04-HRMI-West-2025-Think-Tank-7-p-1600.jpg 1600w, https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4ad4dbce50bba4e8f79d4_P04-HRMI-West-2025-Think-Tank-7.jpg 2560w",
+        "visible": true
+      },
+      {
+        "alt": "Two speakers in conversation on stage at an IPMI Institute",
+        "currentSrc": "",
+        "section": "INSTITUTE INSIGHTS\nRecaps and Insights from our Recent Institutes.\n\nWe are delighted to capture and share the key moments from our various Institutes, including the topics areas, discussions, and ideas that resonated the most.\n\nSEE INSTITUTE INSIGHTS",
+        "sizes": "(max-width: 479px) 100vw, 400px",
+        "src": "https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4ad4e67be61a871ef0885_P03-HCHR-Mar-2025-Session-22.jpg",
+        "srcset": "https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4ad4e67be61a871ef0885_P03-HCHR-Mar-2025-Session-22-p-500.jpg 500w, https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4ad4e67be61a871ef0885_P03-HCHR-Mar-2025-Session-22-p-800.jpg 800w, https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4ad4e67be61a871ef0885_P03-HCHR-Mar-2025-Session-22-p-1080.jpg 1080w, https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4ad4e67be61a871ef0885_P03-HCHR-Mar-2025-Session-22-p-1600.jpg 1600w, https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4ad4e67be61a871ef0885_P03-HCHR-Mar-2025-Session-22.jpg 2560w",
+        "visible": true
+      }
+    ],
+    "statuses": [
+      {
+        "clip": "none",
+        "live": "assertive",
+        "text": ""
+      },
+      {
+        "clip": "none",
+        "live": "assertive",
+        "text": ""
+      },
+      {
+        "clip": "none",
+        "live": "assertive",
+        "text": ""
+      },
+      {
+        "clip": "none",
+        "live": "assertive",
+        "text": ""
+      },
+      {
+        "clip": "none",
+        "live": "assertive",
+        "text": ""
+      }
+    ],
+    "url": "https://ipmi.webflow.io/"
+  },
+  {
+    "page": "institutes",
+    "width": 768,
+    "lightboxes": [],
+    "photos": [
+      {
+        "alt": "Attendees networking over dinner at an IPMI Institute",
+        "currentSrc": "https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4b14c3c45253949502846_P06-HR-Central-2024-Dinner-p-500.jpg",
+        "section": "UPCOMING INSTITUTES\nTop Executives.\n‍Industry-Leading Ideas.\n‍Luxury Settings.\nInstitutes bring together CXOs from organizations across North America to share industry-leading ideas and solutions to meet business priorities.\nVIEW UPCOMING INSTITUTES",
+        "sizes": "(max-width: 479px) 100vw, 400px",
+        "src": "https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4b14c3c45253949502846_P06-HR-Central-2024-Dinner.jpg",
+        "srcset": "https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4b14c3c45253949502846_P06-HR-Central-2024-Dinner-p-500.jpg 500w, https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4b14c3c45253949502846_P06-HR-Central-2024-Dinner-p-800.jpg 800w, https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4b14c3c45253949502846_P06-HR-Central-2024-Dinner-p-1080.jpg 1080w, https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4b14c3c45253949502846_P06-HR-Central-2024-Dinner-p-1600.jpg 1600w, https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4b14c3c45253949502846_P06-HR-Central-2024-Dinner.jpg 2560w",
+        "visible": true
+      },
+      {
+        "alt": "",
+        "currentSrc": "https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4b14b89ec7715954bd6d1_P05-HR-East-2026-Session-2-p-800.jpg",
+        "section": "UPCOMING INSTITUTES\nTop Executives.\n‍Industry-Leading Ideas.\n‍Luxury Settings.\nInstitutes bring together CXOs from organizations across North America to share industry-leading ideas and solutions to meet business priorities.\nVIEW UPCOMING INSTITUTES",
+        "sizes": "(max-width: 2560px) 100vw, 2560px",
+        "src": "https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4b14b89ec7715954bd6d1_P05-HR-East-2026-Session-2.jpg",
+        "srcset": "https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4b14b89ec7715954bd6d1_P05-HR-East-2026-Session-2-p-500.jpg 500w, https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4b14b89ec7715954bd6d1_P05-HR-East-2026-Session-2-p-800.jpg 800w, https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4b14b89ec7715954bd6d1_P05-HR-East-2026-Session-2-p-1080.jpg 1080w, https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4b14b89ec7715954bd6d1_P05-HR-East-2026-Session-2-p-1600.jpg 1600w, https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4b14b89ec7715954bd6d1_P05-HR-East-2026-Session-2.jpg 2560w",
+        "visible": true
+      },
+      {
+        "alt": "A participant listening during a Think Tank session",
+        "currentSrc": "",
+        "section": "INSTITUTE INSIGHTS\nRecaps and Insights from our Recent Institutes.\n\nWe are delighted to capture and share the key moments from our various Institutes, including the topics areas, discussions, and ideas that resonated the most.\n\nSEE INSTITUTE INSIGHTS",
+        "sizes": "(max-width: 400px) 100vw, 400px",
+        "src": "https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4b14b10198c9b1043170a_P08-HRMI-West-2025-Think-Tank-5.jpg",
+        "srcset": "https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4b14b10198c9b1043170a_P08-HRMI-West-2025-Think-Tank-5-p-500.jpg 500w, https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4b14b10198c9b1043170a_P08-HRMI-West-2025-Think-Tank-5-p-800.jpg 800w, https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4b14b10198c9b1043170a_P08-HRMI-West-2025-Think-Tank-5-p-1080.jpg 1080w, https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4b14b10198c9b1043170a_P08-HRMI-West-2025-Think-Tank-5-p-1600.jpg 1600w, https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4b14b10198c9b1043170a_P08-HRMI-West-2025-Think-Tank-5.jpg 2560w",
+        "visible": true
+      },
+      {
+        "alt": "A speaker presenting on stage at an IPMI Institute",
+        "currentSrc": "",
+        "section": "INSTITUTE INSIGHTS\nRecaps and Insights from our Recent Institutes.\n\nWe are delighted to capture and share the key moments from our various Institutes, including the topics areas, discussions, and ideas that resonated the most.\n\nSEE INSTITUTE INSIGHTS",
+        "sizes": "(max-width: 400px) 100vw, 400px",
+        "src": "https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4b14cda6412ca2ac37a85_P07-HR-East-2026-Session-9.jpg",
+        "srcset": "https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4b14cda6412ca2ac37a85_P07-HR-East-2026-Session-9-p-500.jpg 500w, https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4b14cda6412ca2ac37a85_P07-HR-East-2026-Session-9-p-800.jpg 800w, https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4b14cda6412ca2ac37a85_P07-HR-East-2026-Session-9-p-1080.jpg 1080w, https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4b14cda6412ca2ac37a85_P07-HR-East-2026-Session-9-p-1600.jpg 1600w, https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4b14cda6412ca2ac37a85_P07-HR-East-2026-Session-9.jpg 2560w",
+        "visible": true
+      },
+      {
+        "alt": "A facilitator leading a Think Tank discussion with participants seated in a circle",
+        "currentSrc": "",
+        "section": "WHAT IS AN INSTITUTE?\nBringing CXOs together for Intimate and Interactive Events.\n\nInstitutes bring together CxOs from organizations across North America in an intimate and luxury setting for two-and-a-half days of networking, information exchange, and collaboration. Institutes are executed with an unwavering commitment to quality and excellence, allowing you to curate a valuable and productive ex",
+        "sizes": "(max-width: 767px) 100vw, 768px",
+        "src": "https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4b14b065ea59f68522cca_P09-CLDI-Apr-2025-Think-Tank-9.jpg",
+        "srcset": "https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4b14b065ea59f68522cca_P09-CLDI-Apr-2025-Think-Tank-9-p-500.jpg 500w, https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4b14b065ea59f68522cca_P09-CLDI-Apr-2025-Think-Tank-9-p-800.jpg 800w, https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4b14b065ea59f68522cca_P09-CLDI-Apr-2025-Think-Tank-9-p-1080.jpg 1080w, https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4b14b065ea59f68522cca_P09-CLDI-Apr-2025-Think-Tank-9-p-1600.jpg 1600w, https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4b14b065ea59f68522cca_P09-CLDI-Apr-2025-Think-Tank-9.jpg 2560w",
+        "visible": true
+      }
+    ],
+    "statuses": [],
+    "url": "https://ipmi.webflow.io/institutes"
+  },
+  {
+    "page": "recent-institutes",
+    "width": 768,
+    "lightboxes": [],
+    "photos": [
+      {
+        "alt": "Attendees listening and smiling during an IPMI Institute session",
+        "currentSrc": "https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4b4b02a5eb1c3401b943c_P10-HRMI-Central-2024-Session-1-p-500.jpg",
+        "section": "RECENT INSTITUTES\nIncredible Institutes That Deliver Immediate Impact.\nBrowse through our recent Institutes, which outline key themes and feature our amazing Advisory Committees, Speakers, and Partners.  Click on 'Institute Recaps' to see event highlights, insights, and experiences.\nRECENT INSTITUTES\nINSTITUTE INSIGHTS",
+        "sizes": "(max-width: 479px) 100vw, 400px",
+        "src": "https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4b4b02a5eb1c3401b943c_P10-HRMI-Central-2024-Session-1.jpg",
+        "srcset": "https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4b4b02a5eb1c3401b943c_P10-HRMI-Central-2024-Session-1-p-500.jpg 500w, https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4b4b02a5eb1c3401b943c_P10-HRMI-Central-2024-Session-1-p-800.jpg 800w, https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4b4b02a5eb1c3401b943c_P10-HRMI-Central-2024-Session-1-p-1080.jpg 1080w, https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4b4b02a5eb1c3401b943c_P10-HRMI-Central-2024-Session-1-p-1600.jpg 1600w, https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4b4b02a5eb1c3401b943c_P10-HRMI-Central-2024-Session-1.jpg 2560w",
+        "visible": true
+      }
+    ],
+    "statuses": [],
+    "url": "https://ipmi.webflow.io/recent-institutes"
+  },
+  {
+    "page": "gallery",
+    "width": 768,
+    "lightboxes": [
+      {
+        "alt": "Three panelists seated on stools during a stage discussion",
+        "name": "View photo: Three panelists seated on stools during a stage discussion",
+        "role": null,
+        "visible": true
+      },
+      {
+        "alt": "Three panelists discussing ideas on stage in front of an audience",
+        "name": "View photo: Three panelists discussing ideas on stage in front of an audience",
+        "role": null,
+        "visible": true
+      },
+      {
+        "alt": "Attendees listening in a conference room with rows of tables",
+        "name": "View photo: Attendees listening in a conference room with rows of tables",
+        "role": null,
+        "visible": true
+      },
+      {
+        "alt": "Two panelists seated together on stage during a discussion",
+        "name": "View photo: Two panelists seated together on stage during a discussion",
+        "role": null,
+        "visible": true
+      },
+      {
+        "alt": "A speaker gesturing while holding a presentation remote",
+        "name": "View photo: A speaker gesturing while holding a presentation remote",
+        "role": null,
+        "visible": true
+      },
+      {
+        "alt": "Four panelists conversing on a stage lit in green",
+        "name": "View photo: Four panelists conversing on a stage lit in green",
+        "role": null,
+        "visible": true
+      },
+      {
+        "alt": "A speaker presenting beside a screen to attendees seated at tables",
+        "name": "View photo: A speaker presenting beside a screen to attendees seated at tables",
+        "role": null,
+        "visible": true
+      },
+      {
+        "alt": "Two panelists in conversation on a green-lit stage",
+        "name": "View photo: Two panelists in conversation on a green-lit stage",
+        "role": null,
+        "visible": true
+      },
+      {
+        "alt": "Five panelists seated on stage for a discussion",
+        "name": "View photo: Five panelists seated on stage for a discussion",
+        "role": null,
+        "visible": true
+      },
+      {
+        "alt": "Attendees entering a conference room beside a General Session sign",
+        "name": "View photo: Attendees entering a conference room beside a General Session sign",
+        "role": null,
+        "visible": true
+      },
+      {
+        "alt": "Three participants discussing business around a table with a laptop",
+        "name": "View photo: Three participants discussing business around a table with a laptop",
+        "role": null,
+        "visible": true
+      },
+      {
+        "alt": "Three participants smiling during a meeting at a round table",
+        "name": "View photo: Three participants smiling during a meeting at a round table",
+        "role": null,
+        "visible": true
+      },
+      {
+        "alt": "Three participants talking at a blue-covered table with a tablet and laptop",
+        "name": "View photo: Three participants talking at a blue-covered table with a tablet and laptop",
+        "role": null,
+        "visible": true
+      },
+      {
+        "alt": "Participants holding one-to-one conversations at small round tables",
+        "name": "View photo: Participants holding one-to-one conversations at small round tables",
+        "role": null,
+        "visible": true
+      },
+      {
+        "alt": "Three participants talking around a table",
+        "name": "View photo: Three participants talking around a table",
+        "role": null,
+        "visible": true
+      },
+      {
+        "alt": "Participants meeting at a small table in a curtained lounge area",
+        "name": "View photo: Participants meeting at a small table in a curtained lounge area",
+        "role": null,
+        "visible": true
+      },
+      {
+        "alt": "A participant gesturing while discussing business with a colleague beside a laptop",
+        "name": "View photo: A participant gesturing while discussing business with a colleague beside a laptop",
+        "role": null,
+        "visible": true
+      },
+      {
+        "alt": "Two participants meeting at a blue-covered table with an open laptop",
+        "name": "View photo: Two participants meeting at a blue-covered table with an open laptop",
+        "role": null,
+        "visible": true
+      },
+      {
+        "alt": "Two participants talking across a small meeting table",
+        "name": "View photo: Two participants talking across a small meeting table",
+        "role": null,
+        "visible": true
+      },
+      {
+        "alt": "Three participants discussing business while seated together on a sofa",
+        "name": "View photo: Three participants discussing business while seated together on a sofa",
+        "role": null,
+        "visible": true
+      },
+      {
+        "alt": "A facilitator leading a discussion around U-shaped tables with flip charts",
+        "name": "View photo: A facilitator leading a discussion around U-shaped tables with flip charts",
+        "role": null,
+        "visible": true
+      },
+      {
+        "alt": "Participants listening to a presenter in a small meeting room",
+        "name": "View photo: Participants listening to a presenter in a small meeting room",
+        "role": null,
+        "visible": true
+      },
+      {
+        "alt": "Two participants listening during a discussion",
+        "name": "View photo: Two participants listening during a discussion",
+        "role": null,
+        "visible": true
+      },
+      {
+        "alt": "Participants in a discussion around U-shaped meeting tables",
+        "name": "View photo: Participants in a discussion around U-shaped meeting tables",
+        "role": null,
+        "visible": true
+      },
+      {
+        "alt": "A facilitator addressing participants around a large U-shaped table arrangement",
+        "name": "View photo: A facilitator addressing participants around a large U-shaped table arrangement",
+        "role": null,
+        "visible": true
+      },
+      {
+        "alt": "A presenter addressing participants seated around U-shaped tables",
+        "name": "View photo: A presenter addressing participants seated around U-shaped tables",
+        "role": null,
+        "visible": true
+      },
+      {
+        "alt": "A participant sharing ideas with colleagues seated around a table",
+        "name": "View photo: A participant sharing ideas with colleagues seated around a table",
+        "role": null,
+        "visible": true
+      },
+      {
+        "alt": "A participant gesturing while colleagues listen during a discussion",
+        "name": "View photo: A participant gesturing while colleagues listen during a discussion",
+        "role": null,
+        "visible": true
+      },
+      {
+        "alt": "Participants discussing ideas around U-shaped tables beneath chandeliers",
+        "name": "View photo: Participants discussing ideas around U-shaped tables beneath chandeliers",
+        "role": null,
+        "visible": true
+      },
+      {
+        "alt": "Attendees chatting around an outdoor cocktail table overlooking the water",
+        "name": "View photo: Attendees chatting around an outdoor cocktail table overlooking the water",
+        "role": null,
+        "visible": true
+      },
+      {
+        "alt": "Attendees gathering around tables in a sunlit conference lobby",
+        "name": "View photo: Attendees gathering around tables in a sunlit conference lobby",
+        "role": null,
+        "visible": true
+      },
+      {
+        "alt": "Three attendees talking around a cocktail table outdoors",
+        "name": "View photo: Three attendees talking around a cocktail table outdoors",
+        "role": null,
+        "visible": true
+      },
+      {
+        "alt": "Attendees chatting around round tables in a reception room",
+        "name": "View photo: Attendees chatting around round tables in a reception room",
+        "role": null,
+        "visible": true
+      },
+      {
+        "alt": "A seated audience listening during a dinner presentation",
+        "name": "View photo: A seated audience listening during a dinner presentation",
+        "role": null,
+        "visible": true
+      },
+      {
+        "alt": "Two presenters gesturing beside lecterns on stage",
+        "name": "View photo: Two presenters gesturing beside lecterns on stage",
+        "role": null,
+        "visible": true
+      },
+      {
+        "alt": "A presenter addressing attendees seated at dinner tables",
+        "name": "View photo: A presenter addressing attendees seated at dinner tables",
+        "role": null,
+        "visible": true
+      },
+      {
+        "alt": "Smiling attendees walking together outside a building",
+        "name": "View photo: Smiling attendees walking together outside a building",
+        "role": null,
+        "visible": true
+      },
+      {
+        "alt": "Participants talking at small tables in a bright meeting room",
+        "name": "View photo: Participants talking at small tables in a bright meeting room",
+        "role": null,
+        "visible": true
+      },
+      {
+        "alt": "Participants chatting around meeting tables with notebooks and drinks",
+        "name": "View photo: Participants chatting around meeting tables with notebooks and drinks",
+        "role": null,
+        "visible": true
+      },
+      {
+        "alt": "A seafood buffet with crab legs, shrimp, citrus and flowers",
+        "name": "View photo: A seafood buffet with crab legs, shrimp, citrus and flowers",
+        "role": null,
+        "visible": true
+      }
+    ],
+    "photos": [
+      {
+        "alt": "A speaker seated on stage during an IPMI Institute session",
+        "currentSrc": "https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4b6be6f37170719534329_P12-HRMI-Central-2024-Session-2-p-500.jpg",
+        "section": "INSTITUTE GALLERY\nShowcasing the IPMI Institute Experience.\nThey say a picture is worth a thousand words. These images from our various Institutes capture the unique on-site experiences of our attendees and the value of their involvement.\nVIEW GALLERIES",
+        "sizes": "(max-width: 479px) 100vw, 400px",
+        "src": "https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4b6be6f37170719534329_P12-HRMI-Central-2024-Session-2.jpg",
+        "srcset": "https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4b6be6f37170719534329_P12-HRMI-Central-2024-Session-2-p-500.jpg 500w, https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4b6be6f37170719534329_P12-HRMI-Central-2024-Session-2-p-800.jpg 800w, https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4b6be6f37170719534329_P12-HRMI-Central-2024-Session-2-p-1080.jpg 1080w, https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4b6be6f37170719534329_P12-HRMI-Central-2024-Session-2-p-1600.jpg 1600w, https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4b6be6f37170719534329_P12-HRMI-Central-2024-Session-2.jpg 2560w",
+        "visible": true
+      },
+      {
+        "alt": "Attendees smiling and raising a hand at an IPMI networking reception",
+        "currentSrc": "https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4b6bc009285801122e517_P11-HCHR-Mar-2025-Dinner-20-p-500.jpg",
+        "section": "INSTITUTE GALLERY\nShowcasing the IPMI Institute Experience.\nThey say a picture is worth a thousand words. These images from our various Institutes capture the unique on-site experiences of our attendees and the value of their involvement.\nVIEW GALLERIES",
+        "sizes": "(max-width: 479px) 100vw, 400px",
+        "src": "https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4b6bc009285801122e517_P11-HCHR-Mar-2025-Dinner-20.jpg",
+        "srcset": "https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4b6bc009285801122e517_P11-HCHR-Mar-2025-Dinner-20-p-500.jpg 500w, https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4b6bc009285801122e517_P11-HCHR-Mar-2025-Dinner-20-p-800.jpg 800w, https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4b6bc009285801122e517_P11-HCHR-Mar-2025-Dinner-20-p-1080.jpg 1080w, https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4b6bc009285801122e517_P11-HCHR-Mar-2025-Dinner-20-p-1600.jpg 1600w, https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4b6bc009285801122e517_P11-HCHR-Mar-2025-Dinner-20.jpg 2560w",
+        "visible": true
+      },
+      {
+        "alt": "Attendees networking beside a rooftop pool among city towers",
+        "currentSrc": "",
+        "section": "UPCOMING INSTITUTES\nLeveraging On-Site Connections to Advance Organizational Objectives.\n\nInstitutes bring together CXOs from organizations across North America to share industry-leading ideas and solutions to meet business priorities.\n\nVIEW UPCOMING INSTITUTES",
+        "sizes": "(max-width: 400px) 100vw, 400px",
+        "src": "https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4b6be655ed43be067d947_P14-SOI-2024-Dinner.jpg",
+        "srcset": "https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4b6be655ed43be067d947_P14-SOI-2024-Dinner-p-500.jpg 500w, https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4b6be655ed43be067d947_P14-SOI-2024-Dinner-p-800.jpg 800w, https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4b6be655ed43be067d947_P14-SOI-2024-Dinner-p-1080.jpg 1080w, https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4b6be655ed43be067d947_P14-SOI-2024-Dinner-p-1600.jpg 1600w, https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4b6be655ed43be067d947_P14-SOI-2024-Dinner.jpg 2268w",
+        "visible": true
+      },
+      {
+        "alt": "Fountains and palm trees beside a lake at an Institute venue",
+        "currentSrc": "",
+        "section": "UPCOMING INSTITUTES\nLeveraging On-Site Connections to Advance Organizational Objectives.\n\nInstitutes bring together CXOs from organizations across North America to share industry-leading ideas and solutions to meet business priorities.\n\nVIEW UPCOMING INSTITUTES",
+        "sizes": "(max-width: 400px) 100vw, 400px",
+        "src": "https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4b6beeae4404f8475938c_P13-HIT-2024-Scenic.jpg",
+        "srcset": "https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4b6beeae4404f8475938c_P13-HIT-2024-Scenic-p-500.jpg 500w, https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4b6beeae4404f8475938c_P13-HIT-2024-Scenic-p-800.jpg 800w, https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4b6beeae4404f8475938c_P13-HIT-2024-Scenic-p-1080.jpg 1080w, https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4b6beeae4404f8475938c_P13-HIT-2024-Scenic-p-1600.jpg 1600w, https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4b6beeae4404f8475938c_P13-HIT-2024-Scenic-p-2000.jpg 2000w, https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4b6beeae4404f8475938c_P13-HIT-2024-Scenic.jpg 2560w",
+        "visible": true
+      }
+    ],
+    "statuses": [
+      {
+        "clip": "inset(50%)",
+        "live": "assertive",
+        "text": ""
+      },
+      {
+        "clip": "inset(50%)",
+        "live": "assertive",
+        "text": ""
+      },
+      {
+        "clip": "inset(50%)",
+        "live": "assertive",
+        "text": ""
+      },
+      {
+        "clip": "inset(50%)",
+        "live": "assertive",
+        "text": ""
+      }
+    ],
+    "url": "https://ipmi.webflow.io/gallery"
+  },
+  {
+    "page": "thinktanks",
+    "width": 768,
+    "lightboxes": [],
+    "photos": [
+      {
+        "alt": "A participant speaking to seated colleagues during an IPMI roundtable",
+        "currentSrc": "https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4b990eae4404f847681a0_P15-Indeed-Pasta-Making-Roundtable-p-500.jpg",
+        "section": "THINK TANKS & ROUNDTABLES\nA Relatable, Responsive, and Real-Time Platform.\nIPMI‘s Think Tanks & Roundtables provide a platform for sharing insights, tools and resources to help drive organizational success, and are the go-to outlet for dealing with changing priorities and perspectives.\nVIEW THINK TANKS & ROUNDTABLES",
+        "sizes": "(max-width: 479px) 100vw, 400px",
+        "src": "https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4b990eae4404f847681a0_P15-Indeed-Pasta-Making-Roundtable.jpg",
+        "srcset": "https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4b990eae4404f847681a0_P15-Indeed-Pasta-Making-Roundtable-p-500.jpg 500w, https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4b990eae4404f847681a0_P15-Indeed-Pasta-Making-Roundtable-p-800.jpg 800w, https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4b990eae4404f847681a0_P15-Indeed-Pasta-Making-Roundtable-p-1080.jpg 1080w, https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4b990eae4404f847681a0_P15-Indeed-Pasta-Making-Roundtable-p-1600.jpg 1600w, https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4b990eae4404f847681a0_P15-Indeed-Pasta-Making-Roundtable.jpg 2068w",
+        "visible": true
+      }
+    ],
+    "statuses": [
+      {
+        "clip": "none",
+        "live": "assertive",
+        "text": ""
+      }
+    ],
+    "url": "https://ipmi.webflow.io/thinktanks"
+  },
+  {
+    "page": "about",
+    "width": 768,
+    "lightboxes": [
+      {
+        "alt": "Two participants smiling together at an IPMI event",
+        "name": "View photo: Two participants smiling together at an IPMI event",
+        "role": null,
+        "visible": true
+      },
+      {
+        "alt": "Four IPMI team members smiling together at an outdoor event",
+        "name": "View photo: Four IPMI team members smiling together at an outdoor event",
+        "role": null,
+        "visible": true
+      },
+      {
+        "alt": "Attendees listening in a conference room with rows of tables",
+        "name": "View photo: Attendees listening in a conference room with rows of tables",
+        "role": "link",
+        "visible": true
+      },
+      {
+        "alt": "A speaker in a yellow suit addressing an audience with a handheld microphone",
+        "name": "View photo: A speaker in a yellow suit addressing an audience with a handheld microphone",
+        "role": "link",
+        "visible": true
+      },
+      {
+        "alt": "Two attendees talking at a cocktail table near a registration sign",
+        "name": "View photo: Two attendees talking at a cocktail table near a registration sign",
+        "role": "link",
+        "visible": true
+      },
+      {
+        "alt": "A speaker holding a microphone and tablet on stage",
+        "name": "View photo: A speaker holding a microphone and tablet on stage",
+        "role": "link",
+        "visible": true
+      }
+    ],
+    "photos": [
+      {
+        "alt": "A smiling participant wearing a striped shirt and event lanyard at an IPMI gathering",
+        "currentSrc": "https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4bc32bce50bba4e943d27_P17-HCHR-March-2024-Staff-1-p-500.jpg",
+        "section": "ABOUT IPMI\nInternational Performance\nManagement Institute.\nGet to know our team, our vision, and our mission.\nLEARN ABOUT IPMI",
+        "sizes": "(max-width: 479px) 100vw, 400px",
+        "src": "https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4bc32bce50bba4e943d27_P17-HCHR-March-2024-Staff-1.jpg",
+        "srcset": "https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4bc32bce50bba4e943d27_P17-HCHR-March-2024-Staff-1-p-500.jpg 500w, https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4bc32bce50bba4e943d27_P17-HCHR-March-2024-Staff-1-p-800.jpg 800w, https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4bc32bce50bba4e943d27_P17-HCHR-March-2024-Staff-1-p-1080.jpg 1080w, https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4bc32bce50bba4e943d27_P17-HCHR-March-2024-Staff-1-p-1600.jpg 1600w, https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4bc32bce50bba4e943d27_P17-HCHR-March-2024-Staff-1.jpg 2560w",
+        "visible": true
+      },
+      {
+        "alt": "A speaker holding a microphone and notes during an IPMI session",
+        "currentSrc": "https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4bc33655ed43be069d72e_P16-HCHR-Mar-2025-Session-16-p-500.jpg",
+        "section": "ABOUT IPMI\nInternational Performance\nManagement Institute.\nGet to know our team, our vision, and our mission.\nLEARN ABOUT IPMI",
+        "sizes": "(max-width: 479px) 100vw, 400px",
+        "src": "https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4bc33655ed43be069d72e_P16-HCHR-Mar-2025-Session-16.jpg",
+        "srcset": "https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4bc33655ed43be069d72e_P16-HCHR-Mar-2025-Session-16-p-500.jpg 500w, https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4bc33655ed43be069d72e_P16-HCHR-Mar-2025-Session-16-p-800.jpg 800w, https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4bc33655ed43be069d72e_P16-HCHR-Mar-2025-Session-16-p-1080.jpg 1080w, https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4bc33655ed43be069d72e_P16-HCHR-Mar-2025-Session-16-p-1600.jpg 1600w, https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4bc33655ed43be069d72e_P16-HCHR-Mar-2025-Session-16.jpg 2560w",
+        "visible": true
+      },
+      {
+        "alt": "Two participants smiling together at an IPMI event",
+        "currentSrc": "https://cdn.prod.website-files.com/6312ee46f4c52faf21ee8ab5/6ab4bd1fbf52ddc3481af066_P18-HRMI-Apr-2025-Staff-1-1920-p-800.jpg",
+        "link": "View photo: Two participants smiling together at an IPMI event",
+        "sizes": "(max-width: 1919px) 100vw, 1920px",
+        "src": "https://cdn.prod.website-files.com/6312ee46f4c52faf21ee8ab5/6ab4bd1fbf52ddc3481af066_P18-HRMI-Apr-2025-Staff-1-1920.jpg",
+        "srcset": "https://cdn.prod.website-files.com/6312ee46f4c52faf21ee8ab5/6ab4bd1fbf52ddc3481af066_P18-HRMI-Apr-2025-Staff-1-1920-p-500.jpg 500w, https://cdn.prod.website-files.com/6312ee46f4c52faf21ee8ab5/6ab4bd1fbf52ddc3481af066_P18-HRMI-Apr-2025-Staff-1-1920-p-800.jpg 800w, https://cdn.prod.website-files.com/6312ee46f4c52faf21ee8ab5/6ab4bd1fbf52ddc3481af066_P18-HRMI-Apr-2025-Staff-1-1920-p-1080.jpg 1080w, https://cdn.prod.website-files.com/6312ee46f4c52faf21ee8ab5/6ab4bd1fbf52ddc3481af066_P18-HRMI-Apr-2025-Staff-1-1920-p-1600.jpg 1600w, https://cdn.prod.website-files.com/6312ee46f4c52faf21ee8ab5/6ab4bd1fbf52ddc3481af066_P18-HRMI-Apr-2025-Staff-1-1920.jpg 1920w",
+        "visible": true
+      },
+      {
+        "alt": "Four IPMI team members smiling together at an outdoor event",
+        "currentSrc": "https://cdn.prod.website-files.com/6312ee46f4c52faf21ee8ab5/6ab4bd741859cfc75a33edf7_P19-HFI-2026-Staff-1920-p-800.jpg",
+        "link": "View photo: Four IPMI team members smiling together at an outdoor event",
+        "sizes": "(max-width: 1919px) 100vw, 1920px",
+        "src": "https://cdn.prod.website-files.com/6312ee46f4c52faf21ee8ab5/6ab4bd741859cfc75a33edf7_P19-HFI-2026-Staff-1920.jpg",
+        "srcset": "https://cdn.prod.website-files.com/6312ee46f4c52faf21ee8ab5/6ab4bd741859cfc75a33edf7_P19-HFI-2026-Staff-1920-p-500.jpg 500w, https://cdn.prod.website-files.com/6312ee46f4c52faf21ee8ab5/6ab4bd741859cfc75a33edf7_P19-HFI-2026-Staff-1920-p-800.jpg 800w, https://cdn.prod.website-files.com/6312ee46f4c52faf21ee8ab5/6ab4bd741859cfc75a33edf7_P19-HFI-2026-Staff-1920-p-1080.jpg 1080w, https://cdn.prod.website-files.com/6312ee46f4c52faf21ee8ab5/6ab4bd741859cfc75a33edf7_P19-HFI-2026-Staff-1920-p-1600.jpg 1600w, https://cdn.prod.website-files.com/6312ee46f4c52faf21ee8ab5/6ab4bd741859cfc75a33edf7_P19-HFI-2026-Staff-1920.jpg 1920w",
+        "visible": true
+      }
+    ],
+    "statuses": [
+      {
+        "clip": "inset(50%)",
+        "live": "assertive",
+        "text": ""
+      },
+      {
+        "clip": "inset(50%)",
+        "live": "assertive",
+        "text": ""
+      }
+    ],
+    "url": "https://ipmi.webflow.io/about"
+  },
+  {
+    "page": "testimonials",
+    "width": 768,
+    "lightboxes": [],
+    "photos": [
+      {
+        "alt": "Attendees wearing sunglasses share smiles around an outdoor dinner table",
+        "currentSrc": "https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4c1a589ec77159551d436_P21-HRMI-Can-2025-Dinner-1-p-500.jpg",
+        "section": "ATTENDEE TESTIMONIALS\nFeedback from our Spectacular Guests.\nDon't just take our word for it — Hear firsthand from our amazing attendees about their experiences with IPMI Institutes!\nVIEW TESTIMONIALS",
+        "sizes": "(max-width: 479px) 100vw, 400px",
+        "src": "https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4c1a589ec77159551d436_P21-HRMI-Can-2025-Dinner-1.jpg",
+        "srcset": "https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4c1a589ec77159551d436_P21-HRMI-Can-2025-Dinner-1-p-500.jpg 500w, https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4c1a589ec77159551d436_P21-HRMI-Can-2025-Dinner-1-p-800.jpg 800w, https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4c1a589ec77159551d436_P21-HRMI-Can-2025-Dinner-1-p-1080.jpg 1080w, https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4c1a589ec77159551d436_P21-HRMI-Can-2025-Dinner-1-p-1600.jpg 1600w, https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4c1a589ec77159551d436_P21-HRMI-Can-2025-Dinner-1.jpg 2560w",
+        "visible": true
+      },
+      {
+        "alt": "Participants smiling with drinks at an outdoor IPMI gathering",
+        "currentSrc": "https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4c1a566358d7a1d925a5b_P20-HFI-2026-Casino-Night-p-500.jpg",
+        "section": "ATTENDEE TESTIMONIALS\nFeedback from our Spectacular Guests.\nDon't just take our word for it — Hear firsthand from our amazing attendees about their experiences with IPMI Institutes!\nVIEW TESTIMONIALS",
+        "sizes": "(max-width: 479px) 100vw, 400px",
+        "src": "https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4c1a566358d7a1d925a5b_P20-HFI-2026-Casino-Night.jpg",
+        "srcset": "https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4c1a566358d7a1d925a5b_P20-HFI-2026-Casino-Night-p-500.jpg 500w, https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4c1a566358d7a1d925a5b_P20-HFI-2026-Casino-Night-p-800.jpg 800w, https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4c1a566358d7a1d925a5b_P20-HFI-2026-Casino-Night-p-1080.jpg 1080w, https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4c1a566358d7a1d925a5b_P20-HFI-2026-Casino-Night-p-1600.jpg 1600w, https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4c1a566358d7a1d925a5b_P20-HFI-2026-Casino-Night.jpg 2560w",
+        "visible": true
+      }
+    ],
+    "statuses": [],
+    "url": "https://ipmi.webflow.io/testimonials"
+  },
+  {
+    "page": "faq",
+    "width": 768,
+    "lightboxes": [
+      {
+        "alt": "Two panelists in conversation on a green-lit stage",
+        "name": "View photo: Two panelists in conversation on a green-lit stage",
+        "role": null,
+        "visible": false
+      },
+      {
+        "alt": "Participants discussing ideas around U-shaped tables beneath chandeliers",
+        "name": "View photo: Participants discussing ideas around U-shaped tables beneath chandeliers",
+        "role": null,
+        "visible": false
+      },
+      {
+        "alt": "Two participants talking across a small meeting table",
+        "name": "View photo: Two participants talking across a small meeting table",
+        "role": null,
+        "visible": false
+      },
+      {
+        "alt": "Attendees entering a conference room beside a General Session sign",
+        "name": "View photo: Attendees entering a conference room beside a General Session sign",
+        "role": null,
+        "visible": false
+      },
+      {
+        "alt": "Three attendees talking around a cocktail table outdoors",
+        "name": "View photo: Three attendees talking around a cocktail table outdoors",
+        "role": null,
+        "visible": false
+      },
+      {
+        "alt": "Nine participants joining a virtual discussion in a video-call grid",
+        "name": "View photo: Nine participants joining a virtual discussion in a video-call grid",
+        "role": null,
+        "visible": false
+      },
+      {
+        "alt": "Eight participants displayed in a virtual discussion surrounded by IPMI logos",
+        "name": "View photo: Eight participants displayed in a virtual discussion surrounded by IPMI logos",
+        "role": null,
+        "visible": false
+      },
+      {
+        "alt": "Ten participants joining a virtual discussion in a video-call grid",
+        "name": "View photo: Ten participants joining a virtual discussion in a video-call grid",
+        "role": null,
+        "visible": false
+      },
+      {
+        "alt": "Two participants meeting at a blue-covered table with an open laptop",
+        "name": "View photo: Two participants meeting at a blue-covered table with an open laptop",
+        "role": null,
+        "visible": false
+      },
+      {
+        "alt": "Participants holding one-to-one conversations at small round tables",
+        "name": "View photo: Participants holding one-to-one conversations at small round tables",
+        "role": null,
+        "visible": false
+      },
+      {
+        "alt": "Two participants talking across a small meeting table",
+        "name": "View photo: Two participants talking across a small meeting table",
+        "role": null,
+        "visible": false
+      },
+      {
+        "alt": "A participant gesturing while discussing business with a colleague beside a laptop",
+        "name": "View photo: A participant gesturing while discussing business with a colleague beside a laptop",
+        "role": null,
+        "visible": false
+      },
+      {
+        "alt": "Three participants discussing business around a table with a laptop",
+        "name": "View photo: Three participants discussing business around a table with a laptop",
+        "role": null,
+        "visible": false
+      }
+    ],
+    "photos": [
+      {
+        "alt": "Seated panelist holding a microphone and notes during an IPMI session",
+        "currentSrc": "https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4c494e4410c930e2e090d_P23-HIT-Jun-2025-Session-3-p-500.jpg",
+        "section": "FREQUENTLY ASKED QUESTIONS\nGot Questions?\nWe have the Answers.\nWe're happy to share everything you need to know about our Institutes, Virtual Think Tanks, and the overall IPMI experience.\nVIEW QUESTIONS",
+        "sizes": "(max-width: 479px) 100vw, 400px",
+        "src": "https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4c494e4410c930e2e090d_P23-HIT-Jun-2025-Session-3.jpg",
+        "srcset": "https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4c494e4410c930e2e090d_P23-HIT-Jun-2025-Session-3-p-500.jpg 500w, https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4c494e4410c930e2e090d_P23-HIT-Jun-2025-Session-3-p-800.jpg 800w, https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4c494e4410c930e2e090d_P23-HIT-Jun-2025-Session-3-p-1080.jpg 1080w, https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4c494e4410c930e2e090d_P23-HIT-Jun-2025-Session-3-p-1600.jpg 1600w, https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4c494e4410c930e2e090d_P23-HIT-Jun-2025-Session-3.jpg 2560w",
+        "visible": true
+      },
+      {
+        "alt": "Seated speaker wearing a headset microphone during an IPMI session",
+        "currentSrc": "https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4c438118f040f8b2c7ec0_P22-HRMI-West-2025-Session-6-p-500.jpg",
+        "section": "FREQUENTLY ASKED QUESTIONS\nGot Questions?\nWe have the Answers.\nWe're happy to share everything you need to know about our Institutes, Virtual Think Tanks, and the overall IPMI experience.\nVIEW QUESTIONS",
+        "sizes": "(max-width: 479px) 100vw, 400px",
+        "src": "https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4c438118f040f8b2c7ec0_P22-HRMI-West-2025-Session-6.jpg",
+        "srcset": "https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4c438118f040f8b2c7ec0_P22-HRMI-West-2025-Session-6-p-500.jpg 500w, https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4c438118f040f8b2c7ec0_P22-HRMI-West-2025-Session-6-p-800.jpg 800w, https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4c438118f040f8b2c7ec0_P22-HRMI-West-2025-Session-6-p-1080.jpg 1080w, https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4c438118f040f8b2c7ec0_P22-HRMI-West-2025-Session-6-p-1600.jpg 1600w, https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4c438118f040f8b2c7ec0_P22-HRMI-West-2025-Session-6.jpg 2560w",
+        "visible": true
+      }
+    ],
+    "statuses": [
+      {
+        "clip": "inset(50%)",
+        "live": "assertive",
+        "text": ""
+      },
+      {
+        "clip": "inset(50%)",
+        "live": "assertive",
+        "text": ""
+      },
+      {
+        "clip": "inset(50%)",
+        "live": "assertive",
+        "text": ""
+      },
+      {
+        "clip": "inset(50%)",
+        "live": "assertive",
+        "text": ""
+      },
+      {
+        "clip": "inset(50%)",
+        "live": "assertive",
+        "text": ""
+      },
+      {
+        "clip": "inset(50%)",
+        "live": "assertive",
+        "text": ""
+      },
+      {
+        "clip": "inset(50%)",
+        "live": "assertive",
+        "text": ""
+      },
+      {
+        "clip": "inset(50%)",
+        "live": "assertive",
+        "text": ""
+      }
+    ],
+    "url": "https://ipmi.webflow.io/faq"
+  },
+  {
+    "page": "attend",
+    "width": 768,
+    "lightboxes": [
+      {
+        "alt": "A speaker at a lectern addressing attendees in a purple-lit conference room",
+        "name": "View photo: A speaker at a lectern addressing attendees in a purple-lit conference room",
+        "role": null,
+        "visible": true
+      },
+      {
+        "alt": "Attendees gathering outdoors in a garden beside a house with a wraparound porch",
+        "name": "View photo: Attendees gathering outdoors in a garden beside a house with a wraparound porch",
+        "role": null,
+        "visible": true
+      },
+      {
+        "alt": "A facilitator presenting to participants seated around U-shaped tables",
+        "name": "View photo: A facilitator presenting to participants seated around U-shaped tables",
+        "role": null,
+        "visible": true
+      },
+      {
+        "alt": "Participants painting wooden paddles at a table with art supplies",
+        "name": "View photo: Participants painting wooden paddles at a table with art supplies",
+        "role": null,
+        "visible": true
+      },
+      {
+        "alt": "Two participants smiling during a meeting at a small round table",
+        "name": "View photo: Two participants smiling during a meeting at a small round table",
+        "role": null,
+        "visible": true
+      },
+      {
+        "alt": "An attendee holding a phone displaying an event questionnaire",
+        "name": "View photo: An attendee holding a phone displaying an event questionnaire",
+        "role": null,
+        "visible": true
+      },
+      {
+        "alt": "A speaker at a lectern addressing attendees in a purple-lit conference room",
+        "name": "View photo: A speaker at a lectern addressing attendees in a purple-lit conference room",
+        "role": null,
+        "visible": false
+      },
+      {
+        "alt": "Attendees gathering outdoors in a garden beside a house with a wraparound porch",
+        "name": "View photo: Attendees gathering outdoors in a garden beside a house with a wraparound porch",
+        "role": null,
+        "visible": false
+      },
+      {
+        "alt": "A facilitator presenting to participants seated around U-shaped tables",
+        "name": "View photo: A facilitator presenting to participants seated around U-shaped tables",
+        "role": null,
+        "visible": false
+      },
+      {
+        "alt": "Participants painting wooden paddles at a table with art supplies",
+        "name": "View photo: Participants painting wooden paddles at a table with art supplies",
+        "role": null,
+        "visible": false
+      },
+      {
+        "alt": "Two participants smiling during a meeting at a small round table",
+        "name": "View photo: Two participants smiling during a meeting at a small round table",
+        "role": null,
+        "visible": false
+      },
+      {
+        "alt": "An attendee holding a phone displaying an event questionnaire",
+        "name": "View photo: An attendee holding a phone displaying an event questionnaire",
+        "role": null,
+        "visible": false
+      },
+      {
+        "alt": "A smiling speaker gesturing with arms extended on stage",
+        "name": "View photo: A smiling speaker gesturing with arms extended on stage",
+        "role": null,
+        "visible": false
+      },
+      {
+        "alt": "Four panelists seated on a green-lit stage for a discussion",
+        "name": "View photo: Four panelists seated on a green-lit stage for a discussion",
+        "role": null,
+        "visible": false
+      },
+      {
+        "alt": "A speaker addressing an audience with a handheld microphone and notes",
+        "name": "View photo: A speaker addressing an audience with a handheld microphone and notes",
+        "role": null,
+        "visible": false
+      },
+      {
+        "alt": "Two panelists talking while seated on a purple-lit stage",
+        "name": "View photo: Two panelists talking while seated on a purple-lit stage",
+        "role": null,
+        "visible": false
+      },
+      {
+        "alt": "A speaker gesturing beside a lectern and presentation screen",
+        "name": "View photo: A speaker gesturing beside a lectern and presentation screen",
+        "role": null,
+        "visible": false
+      },
+      {
+        "alt": "A facilitator leading a discussion with participants seated around U-shaped tables",
+        "name": "View photo: A facilitator leading a discussion with participants seated around U-shaped tables",
+        "role": null,
+        "visible": false
+      },
+      {
+        "alt": "A smiling speaker gesturing with arms extended on stage",
+        "name": "View photo: A smiling speaker gesturing with arms extended on stage",
+        "role": null,
+        "visible": true
+      },
+      {
+        "alt": "Four panelists seated on a green-lit stage for a discussion",
+        "name": "View photo: Four panelists seated on a green-lit stage for a discussion",
+        "role": null,
+        "visible": true
+      },
+      {
+        "alt": "A speaker addressing an audience with a handheld microphone and notes",
+        "name": "View photo: A speaker addressing an audience with a handheld microphone and notes",
+        "role": null,
+        "visible": true
+      },
+      {
+        "alt": "Two panelists talking while seated on a purple-lit stage",
+        "name": "View photo: Two panelists talking while seated on a purple-lit stage",
+        "role": null,
+        "visible": true
+      },
+      {
+        "alt": "A speaker gesturing beside a lectern and presentation screen",
+        "name": "View photo: A speaker gesturing beside a lectern and presentation screen",
+        "role": null,
+        "visible": true
+      },
+      {
+        "alt": "A facilitator leading a discussion with participants seated around U-shaped tables",
+        "name": "View photo: A facilitator leading a discussion with participants seated around U-shaped tables",
+        "role": null,
+        "visible": true
+      },
+      {
+        "alt": "Three participants discussing business at a round table with a laptop",
+        "name": "View photo: Three participants discussing business at a round table with a laptop",
+        "role": null,
+        "visible": true
+      },
+      {
+        "alt": "Two presenters addressing an audience on a purple-lit stage",
+        "name": "View photo: Two presenters addressing an audience on a purple-lit stage",
+        "role": null,
+        "visible": true
+      },
+      {
+        "alt": "Three attendees smiling and talking around a cocktail table",
+        "name": "View photo: Three attendees smiling and talking around a cocktail table",
+        "role": null,
+        "visible": true
+      },
+      {
+        "alt": "Two pairs of participants holding meetings at small round tables",
+        "name": "View photo: Two pairs of participants holding meetings at small round tables",
+        "role": null,
+        "visible": true
+      },
+      {
+        "alt": "A facilitator leading a discussion beside a flip chart in a meeting room",
+        "name": "View photo: A facilitator leading a discussion beside a flip chart in a meeting room",
+        "role": null,
+        "visible": true
+      },
+      {
+        "alt": "Attendees networking around cocktail tables on a covered terrace",
+        "name": "View photo: Attendees networking around cocktail tables on a covered terrace",
+        "role": null,
+        "visible": true
+      },
+      {
+        "alt": "A smiling speaker holding a microphone on stage",
+        "name": "View photo: A smiling speaker holding a microphone on stage",
+        "role": null,
+        "visible": true
+      },
+      {
+        "alt": "Three participants discussing business at a round table with a laptop",
+        "name": "View photo: Three participants discussing business at a round table with a laptop",
+        "role": null,
+        "visible": false
+      },
+      {
+        "alt": "Two presenters addressing an audience on a purple-lit stage",
+        "name": "View photo: Two presenters addressing an audience on a purple-lit stage",
+        "role": null,
+        "visible": false
+      },
+      {
+        "alt": "Three attendees smiling and talking around a cocktail table",
+        "name": "View photo: Three attendees smiling and talking around a cocktail table",
+        "role": null,
+        "visible": false
+      },
+      {
+        "alt": "Two pairs of participants holding meetings at small round tables",
+        "name": "View photo: Two pairs of participants holding meetings at small round tables",
+        "role": null,
+        "visible": false
+      },
+      {
+        "alt": "A facilitator leading a discussion beside a flip chart in a meeting room",
+        "name": "View photo: A facilitator leading a discussion beside a flip chart in a meeting room",
+        "role": null,
+        "visible": false
+      },
+      {
+        "alt": "Attendees networking around cocktail tables on a covered terrace",
+        "name": "View photo: Attendees networking around cocktail tables on a covered terrace",
+        "role": null,
+        "visible": false
+      },
+      {
+        "alt": "A smiling speaker holding a microphone on stage",
+        "name": "View photo: A smiling speaker holding a microphone on stage",
+        "role": null,
+        "visible": false
+      }
+    ],
+    "photos": [
+      {
+        "alt": "Speaker wearing a headset microphone and holding a presentation remote",
+        "currentSrc": "https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4c776b9f31bbef1a63b13_P25-HR-East-2026-Session-6-p-500.jpg",
+        "section": "ATTEND AN INSTITUTE\nTake part in a Unique and Unparalleled Experience.\nSee what it's like to participate in our events, and learn everything you need to know about attending, speaking at, and sponsoring an IPMI Institute!\nEXPERIENCE AN INSTITUTE",
+        "sizes": "(max-width: 479px) 100vw, 400px",
+        "src": "https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4c776b9f31bbef1a63b13_P25-HR-East-2026-Session-6.jpg",
+        "srcset": "https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4c776b9f31bbef1a63b13_P25-HR-East-2026-Session-6-p-500.jpg 500w, https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4c776b9f31bbef1a63b13_P25-HR-East-2026-Session-6-p-800.jpg 800w, https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4c776b9f31bbef1a63b13_P25-HR-East-2026-Session-6-p-1080.jpg 1080w, https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4c776b9f31bbef1a63b13_P25-HR-East-2026-Session-6-p-1600.jpg 1600w, https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4c776b9f31bbef1a63b13_P25-HR-East-2026-Session-6.jpg 2560w",
+        "visible": true
+      },
+      {
+        "alt": "Attendees networking outdoors around a cocktail table at sunset",
+        "currentSrc": "https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4c705655ed43be06ebd36_P24-CLDI-Apr-2025-Dinner-12-p-500.jpg",
+        "section": "ATTEND AN INSTITUTE\nTake part in a Unique and Unparalleled Experience.\nSee what it's like to participate in our events, and learn everything you need to know about attending, speaking at, and sponsoring an IPMI Institute!\nEXPERIENCE AN INSTITUTE",
+        "sizes": "(max-width: 479px) 100vw, 400px",
+        "src": "https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4c705655ed43be06ebd36_P24-CLDI-Apr-2025-Dinner-12.jpg",
+        "srcset": "https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4c705655ed43be06ebd36_P24-CLDI-Apr-2025-Dinner-12-p-500.jpg 500w, https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4c705655ed43be06ebd36_P24-CLDI-Apr-2025-Dinner-12-p-800.jpg 800w, https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4c705655ed43be06ebd36_P24-CLDI-Apr-2025-Dinner-12-p-1080.jpg 1080w, https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4c705655ed43be06ebd36_P24-CLDI-Apr-2025-Dinner-12-p-1600.jpg 1600w, https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4c705655ed43be06ebd36_P24-CLDI-Apr-2025-Dinner-12.jpg 2560w",
+        "visible": true
+      }
+    ],
+    "statuses": [
+      {
+        "clip": "inset(50%)",
+        "live": "assertive",
+        "text": ""
+      },
+      {
+        "clip": "inset(50%)",
+        "live": "assertive",
+        "text": ""
+      },
+      {
+        "clip": "inset(50%)",
+        "live": "assertive",
+        "text": ""
+      },
+      {
+        "clip": "inset(50%)",
+        "live": "assertive",
+        "text": ""
+      },
+      {
+        "clip": "inset(50%)",
+        "live": "assertive",
+        "text": ""
+      },
+      {
+        "clip": "inset(50%)",
+        "live": "assertive",
+        "text": ""
+      }
+    ],
+    "url": "https://ipmi.webflow.io/attend"
+  },
+  {
+    "page": "contact",
+    "width": 768,
+    "lightboxes": [],
+    "photos": [
+      {
+        "alt": "Two attendees smiling and holding drinks at the HIT 2024 dinner",
+        "currentSrc": "https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4ca6019adb9f0df002db6_P27-HIT-2024-Dinner-p-500.jpg",
+        "section": "CONTACT IPMI\nCome say \"Hello!\"\nWe're excited to hear from you.\nIf you want to learn more about Institutes, Virtual Think Tanks, or just have a general inquiry, our expert staff are eager to be of assistance!\nGET IN TOUCH",
+        "sizes": "(max-width: 479px) 100vw, 400px",
+        "src": "https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4ca6019adb9f0df002db6_P27-HIT-2024-Dinner.jpg",
+        "srcset": "https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4ca6019adb9f0df002db6_P27-HIT-2024-Dinner-p-500.jpg 500w, https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4ca6019adb9f0df002db6_P27-HIT-2024-Dinner-p-800.jpg 800w, https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4ca6019adb9f0df002db6_P27-HIT-2024-Dinner-p-1080.jpg 1080w, https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4ca6019adb9f0df002db6_P27-HIT-2024-Dinner-p-1600.jpg 1600w, https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4ca6019adb9f0df002db6_P27-HIT-2024-Dinner.jpg 2560w",
+        "visible": true
+      },
+      {
+        "alt": "IPMI Staff assisting Attendees",
+        "currentSrc": "https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/63c4d1501c2178619dd30322_Contact-Bubble-3.webp",
+        "section": "CONTACT IPMI\nCome say \"Hello!\"\nWe're excited to hear from you.\nIf you want to learn more about Institutes, Virtual Think Tanks, or just have a general inquiry, our expert staff are eager to be of assistance!\nGET IN TOUCH",
+        "sizes": "",
+        "src": "https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/63c4d1501c2178619dd30322_Contact-Bubble-3.webp",
+        "srcset": "",
+        "visible": true
+      }
+    ],
+    "statuses": [],
+    "url": "https://ipmi.webflow.io/contact"
+  },
+  {
+    "page": "home",
+    "width": 1440,
+    "lightboxes": [],
+    "photos": [
+      {
+        "alt": "A participant discussing ideas at a Think Tank table",
+        "currentSrc": "https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4ad4e118f040f8b24dd68_P02-HIT-Jun-2025-Think-Tank-9-p-500.jpg",
+        "section": "IPMI INSTITUTES\nSharing Innovative Ideas and Solutions across Industry Verticals.\n\nInstitutes feature dynamic panel discussions, thought provoking keynote presentations, practical case studies and interactive think tanks that compliment pre-scheduled, private business meetings, all of which provide critical information exchange and knowledge sharing to improve the performance of your organizations",
+        "sizes": "(max-width: 479px) 100vw, 400px",
+        "src": "https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4ad4e118f040f8b24dd68_P02-HIT-Jun-2025-Think-Tank-9.jpg",
+        "srcset": "https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4ad4e118f040f8b24dd68_P02-HIT-Jun-2025-Think-Tank-9-p-500.jpg 500w, https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4ad4e118f040f8b24dd68_P02-HIT-Jun-2025-Think-Tank-9-p-800.jpg 800w, https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4ad4e118f040f8b24dd68_P02-HIT-Jun-2025-Think-Tank-9-p-1080.jpg 1080w, https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4ad4e118f040f8b24dd68_P02-HIT-Jun-2025-Think-Tank-9-p-1600.jpg 1600w, https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4ad4e118f040f8b24dd68_P02-HIT-Jun-2025-Think-Tank-9.jpg 2560w",
+        "visible": true
+      },
+      {
+        "alt": "Two panelists sharing ideas on stage at an IPMI Institute",
+        "currentSrc": "https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4ad4da11c8b3bd07ffa38_P01-Innovative-Ideas-Front-Bubble-p-500.jpg",
+        "section": "IPMI INSTITUTES\nSharing Innovative Ideas and Solutions across Industry Verticals.\n\nInstitutes feature dynamic panel discussions, thought provoking keynote presentations, practical case studies and interactive think tanks that compliment pre-scheduled, private business meetings, all of which provide critical information exchange and knowledge sharing to improve the performance of your organizations",
+        "sizes": "(max-width: 479px) 100vw, 400px",
+        "src": "https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4ad4da11c8b3bd07ffa38_P01-Innovative-Ideas-Front-Bubble.jpg",
+        "srcset": "https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4ad4da11c8b3bd07ffa38_P01-Innovative-Ideas-Front-Bubble-p-500.jpg 500w, https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4ad4da11c8b3bd07ffa38_P01-Innovative-Ideas-Front-Bubble-p-800.jpg 800w, https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4ad4da11c8b3bd07ffa38_P01-Innovative-Ideas-Front-Bubble-p-1080.jpg 1080w, https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4ad4da11c8b3bd07ffa38_P01-Innovative-Ideas-Front-Bubble-p-1600.jpg 1600w, https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4ad4da11c8b3bd07ffa38_P01-Innovative-Ideas-Front-Bubble.jpg 2560w",
+        "visible": true
+      },
+      {
+        "alt": "A participant contributing to a Think Tank discussion",
+        "currentSrc": "",
+        "section": "INSTITUTE INSIGHTS\nRecaps and Insights from our Recent Institutes.\n\nWe are delighted to capture and share the key moments from our various Institutes, including the topics areas, discussions, and ideas that resonated the most.\n\nSEE INSTITUTE INSIGHTS",
+        "sizes": "(max-width: 479px) 100vw, 400px",
+        "src": "https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4ad4dbce50bba4e8f79d4_P04-HRMI-West-2025-Think-Tank-7.jpg",
+        "srcset": "https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4ad4dbce50bba4e8f79d4_P04-HRMI-West-2025-Think-Tank-7-p-500.jpg 500w, https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4ad4dbce50bba4e8f79d4_P04-HRMI-West-2025-Think-Tank-7-p-800.jpg 800w, https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4ad4dbce50bba4e8f79d4_P04-HRMI-West-2025-Think-Tank-7-p-1080.jpg 1080w, https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4ad4dbce50bba4e8f79d4_P04-HRMI-West-2025-Think-Tank-7-p-1600.jpg 1600w, https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4ad4dbce50bba4e8f79d4_P04-HRMI-West-2025-Think-Tank-7.jpg 2560w",
+        "visible": true
+      },
+      {
+        "alt": "Two speakers in conversation on stage at an IPMI Institute",
+        "currentSrc": "",
+        "section": "INSTITUTE INSIGHTS\nRecaps and Insights from our Recent Institutes.\n\nWe are delighted to capture and share the key moments from our various Institutes, including the topics areas, discussions, and ideas that resonated the most.\n\nSEE INSTITUTE INSIGHTS",
+        "sizes": "(max-width: 479px) 100vw, 400px",
+        "src": "https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4ad4e67be61a871ef0885_P03-HCHR-Mar-2025-Session-22.jpg",
+        "srcset": "https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4ad4e67be61a871ef0885_P03-HCHR-Mar-2025-Session-22-p-500.jpg 500w, https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4ad4e67be61a871ef0885_P03-HCHR-Mar-2025-Session-22-p-800.jpg 800w, https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4ad4e67be61a871ef0885_P03-HCHR-Mar-2025-Session-22-p-1080.jpg 1080w, https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4ad4e67be61a871ef0885_P03-HCHR-Mar-2025-Session-22-p-1600.jpg 1600w, https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4ad4e67be61a871ef0885_P03-HCHR-Mar-2025-Session-22.jpg 2560w",
+        "visible": true
+      }
+    ],
+    "statuses": [
+      {
+        "clip": "none",
+        "live": "assertive",
+        "text": ""
+      },
+      {
+        "clip": "none",
+        "live": "assertive",
+        "text": ""
+      },
+      {
+        "clip": "none",
+        "live": "assertive",
+        "text": ""
+      },
+      {
+        "clip": "none",
+        "live": "assertive",
+        "text": ""
+      },
+      {
+        "clip": "none",
+        "live": "assertive",
+        "text": ""
+      }
+    ],
+    "url": "https://ipmi.webflow.io/"
+  },
+  {
+    "page": "institutes",
+    "width": 1440,
+    "lightboxes": [],
+    "photos": [
+      {
+        "alt": "Attendees networking over dinner at an IPMI Institute",
+        "currentSrc": "https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4b14c3c45253949502846_P06-HR-Central-2024-Dinner-p-500.jpg",
+        "section": "UPCOMING INSTITUTES\nTop Executives.\n‍Industry-Leading Ideas.\n‍Luxury Settings.\nInstitutes bring together CXOs from organizations across North America to share industry-leading ideas and solutions to meet business priorities.\nVIEW UPCOMING INSTITUTES",
+        "sizes": "(max-width: 479px) 100vw, 400px",
+        "src": "https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4b14c3c45253949502846_P06-HR-Central-2024-Dinner.jpg",
+        "srcset": "https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4b14c3c45253949502846_P06-HR-Central-2024-Dinner-p-500.jpg 500w, https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4b14c3c45253949502846_P06-HR-Central-2024-Dinner-p-800.jpg 800w, https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4b14c3c45253949502846_P06-HR-Central-2024-Dinner-p-1080.jpg 1080w, https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4b14c3c45253949502846_P06-HR-Central-2024-Dinner-p-1600.jpg 1600w, https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4b14c3c45253949502846_P06-HR-Central-2024-Dinner.jpg 2560w",
+        "visible": true
+      },
+      {
+        "alt": "",
+        "currentSrc": "",
+        "section": "UPCOMING INSTITUTES\nTop Executives.\n‍Industry-Leading Ideas.\n‍Luxury Settings.\nInstitutes bring together CXOs from organizations across North America to share industry-leading ideas and solutions to meet business priorities.\nVIEW UPCOMING INSTITUTES",
+        "sizes": "(max-width: 2560px) 100vw, 2560px",
+        "src": "https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4b14b89ec7715954bd6d1_P05-HR-East-2026-Session-2.jpg",
+        "srcset": "https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4b14b89ec7715954bd6d1_P05-HR-East-2026-Session-2-p-500.jpg 500w, https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4b14b89ec7715954bd6d1_P05-HR-East-2026-Session-2-p-800.jpg 800w, https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4b14b89ec7715954bd6d1_P05-HR-East-2026-Session-2-p-1080.jpg 1080w, https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4b14b89ec7715954bd6d1_P05-HR-East-2026-Session-2-p-1600.jpg 1600w, https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4b14b89ec7715954bd6d1_P05-HR-East-2026-Session-2.jpg 2560w",
+        "visible": true
+      },
+      {
+        "alt": "A participant listening during a Think Tank session",
+        "currentSrc": "",
+        "section": "INSTITUTE INSIGHTS\nRecaps and Insights from our Recent Institutes.\n\nWe are delighted to capture and share the key moments from our various Institutes, including the topics areas, discussions, and ideas that resonated the most.\n\nSEE INSTITUTE INSIGHTS",
+        "sizes": "(max-width: 400px) 100vw, 400px",
+        "src": "https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4b14b10198c9b1043170a_P08-HRMI-West-2025-Think-Tank-5.jpg",
+        "srcset": "https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4b14b10198c9b1043170a_P08-HRMI-West-2025-Think-Tank-5-p-500.jpg 500w, https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4b14b10198c9b1043170a_P08-HRMI-West-2025-Think-Tank-5-p-800.jpg 800w, https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4b14b10198c9b1043170a_P08-HRMI-West-2025-Think-Tank-5-p-1080.jpg 1080w, https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4b14b10198c9b1043170a_P08-HRMI-West-2025-Think-Tank-5-p-1600.jpg 1600w, https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4b14b10198c9b1043170a_P08-HRMI-West-2025-Think-Tank-5.jpg 2560w",
+        "visible": true
+      },
+      {
+        "alt": "A speaker presenting on stage at an IPMI Institute",
+        "currentSrc": "",
+        "section": "INSTITUTE INSIGHTS\nRecaps and Insights from our Recent Institutes.\n\nWe are delighted to capture and share the key moments from our various Institutes, including the topics areas, discussions, and ideas that resonated the most.\n\nSEE INSTITUTE INSIGHTS",
+        "sizes": "(max-width: 400px) 100vw, 400px",
+        "src": "https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4b14cda6412ca2ac37a85_P07-HR-East-2026-Session-9.jpg",
+        "srcset": "https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4b14cda6412ca2ac37a85_P07-HR-East-2026-Session-9-p-500.jpg 500w, https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4b14cda6412ca2ac37a85_P07-HR-East-2026-Session-9-p-800.jpg 800w, https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4b14cda6412ca2ac37a85_P07-HR-East-2026-Session-9-p-1080.jpg 1080w, https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4b14cda6412ca2ac37a85_P07-HR-East-2026-Session-9-p-1600.jpg 1600w, https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4b14cda6412ca2ac37a85_P07-HR-East-2026-Session-9.jpg 2560w",
+        "visible": true
+      },
+      {
+        "alt": "A facilitator leading a Think Tank discussion with participants seated in a circle",
+        "currentSrc": "",
+        "section": "WHAT IS AN INSTITUTE?\nBringing CXOs together for Intimate and Interactive Events.\n\nInstitutes bring together CxOs from organizations across North America in an intimate and luxury setting for two-and-a-half days of networking, information exchange, and collaboration. Institutes are executed with an unwavering commitment to quality and excellence, allowing you to curate a valuable and productive ex",
+        "sizes": "(max-width: 767px) 100vw, 768px",
+        "src": "https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4b14b065ea59f68522cca_P09-CLDI-Apr-2025-Think-Tank-9.jpg",
+        "srcset": "https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4b14b065ea59f68522cca_P09-CLDI-Apr-2025-Think-Tank-9-p-500.jpg 500w, https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4b14b065ea59f68522cca_P09-CLDI-Apr-2025-Think-Tank-9-p-800.jpg 800w, https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4b14b065ea59f68522cca_P09-CLDI-Apr-2025-Think-Tank-9-p-1080.jpg 1080w, https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4b14b065ea59f68522cca_P09-CLDI-Apr-2025-Think-Tank-9-p-1600.jpg 1600w, https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4b14b065ea59f68522cca_P09-CLDI-Apr-2025-Think-Tank-9.jpg 2560w",
+        "visible": true
+      }
+    ],
+    "statuses": [],
+    "url": "https://ipmi.webflow.io/institutes"
+  },
+  {
+    "page": "recent-institutes",
+    "width": 1440,
+    "lightboxes": [],
+    "photos": [
+      {
+        "alt": "Attendees listening and smiling during an IPMI Institute session",
+        "currentSrc": "https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4b4b02a5eb1c3401b943c_P10-HRMI-Central-2024-Session-1-p-500.jpg",
+        "section": "RECENT INSTITUTES\nIncredible Institutes That Deliver Immediate Impact.\nBrowse through our recent Institutes, which outline key themes and feature our amazing Advisory Committees, Speakers, and Partners.  Click on 'Institute Recaps' to see event highlights, insights, and experiences.\nRECENT INSTITUTES\nINSTITUTE INSIGHTS",
+        "sizes": "(max-width: 479px) 100vw, 400px",
+        "src": "https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4b4b02a5eb1c3401b943c_P10-HRMI-Central-2024-Session-1.jpg",
+        "srcset": "https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4b4b02a5eb1c3401b943c_P10-HRMI-Central-2024-Session-1-p-500.jpg 500w, https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4b4b02a5eb1c3401b943c_P10-HRMI-Central-2024-Session-1-p-800.jpg 800w, https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4b4b02a5eb1c3401b943c_P10-HRMI-Central-2024-Session-1-p-1080.jpg 1080w, https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4b4b02a5eb1c3401b943c_P10-HRMI-Central-2024-Session-1-p-1600.jpg 1600w, https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4b4b02a5eb1c3401b943c_P10-HRMI-Central-2024-Session-1.jpg 2560w",
+        "visible": true
+      }
+    ],
+    "statuses": [],
+    "url": "https://ipmi.webflow.io/recent-institutes"
+  },
+  {
+    "page": "gallery",
+    "width": 1440,
+    "lightboxes": [
+      {
+        "alt": "Three panelists seated on stools during a stage discussion",
+        "name": "View photo: Three panelists seated on stools during a stage discussion",
+        "role": null,
+        "visible": true
+      },
+      {
+        "alt": "Three panelists discussing ideas on stage in front of an audience",
+        "name": "View photo: Three panelists discussing ideas on stage in front of an audience",
+        "role": null,
+        "visible": true
+      },
+      {
+        "alt": "Attendees listening in a conference room with rows of tables",
+        "name": "View photo: Attendees listening in a conference room with rows of tables",
+        "role": null,
+        "visible": true
+      },
+      {
+        "alt": "Two panelists seated together on stage during a discussion",
+        "name": "View photo: Two panelists seated together on stage during a discussion",
+        "role": null,
+        "visible": true
+      },
+      {
+        "alt": "A speaker gesturing while holding a presentation remote",
+        "name": "View photo: A speaker gesturing while holding a presentation remote",
+        "role": null,
+        "visible": true
+      },
+      {
+        "alt": "Four panelists conversing on a stage lit in green",
+        "name": "View photo: Four panelists conversing on a stage lit in green",
+        "role": null,
+        "visible": true
+      },
+      {
+        "alt": "A speaker presenting beside a screen to attendees seated at tables",
+        "name": "View photo: A speaker presenting beside a screen to attendees seated at tables",
+        "role": null,
+        "visible": true
+      },
+      {
+        "alt": "Two panelists in conversation on a green-lit stage",
+        "name": "View photo: Two panelists in conversation on a green-lit stage",
+        "role": null,
+        "visible": true
+      },
+      {
+        "alt": "Five panelists seated on stage for a discussion",
+        "name": "View photo: Five panelists seated on stage for a discussion",
+        "role": null,
+        "visible": true
+      },
+      {
+        "alt": "Attendees entering a conference room beside a General Session sign",
+        "name": "View photo: Attendees entering a conference room beside a General Session sign",
+        "role": null,
+        "visible": true
+      },
+      {
+        "alt": "Three participants discussing business around a table with a laptop",
+        "name": "View photo: Three participants discussing business around a table with a laptop",
+        "role": null,
+        "visible": true
+      },
+      {
+        "alt": "Three participants smiling during a meeting at a round table",
+        "name": "View photo: Three participants smiling during a meeting at a round table",
+        "role": null,
+        "visible": true
+      },
+      {
+        "alt": "Three participants talking at a blue-covered table with a tablet and laptop",
+        "name": "View photo: Three participants talking at a blue-covered table with a tablet and laptop",
+        "role": null,
+        "visible": true
+      },
+      {
+        "alt": "Participants holding one-to-one conversations at small round tables",
+        "name": "View photo: Participants holding one-to-one conversations at small round tables",
+        "role": null,
+        "visible": true
+      },
+      {
+        "alt": "Three participants talking around a table",
+        "name": "View photo: Three participants talking around a table",
+        "role": null,
+        "visible": true
+      },
+      {
+        "alt": "Participants meeting at a small table in a curtained lounge area",
+        "name": "View photo: Participants meeting at a small table in a curtained lounge area",
+        "role": null,
+        "visible": true
+      },
+      {
+        "alt": "A participant gesturing while discussing business with a colleague beside a laptop",
+        "name": "View photo: A participant gesturing while discussing business with a colleague beside a laptop",
+        "role": null,
+        "visible": true
+      },
+      {
+        "alt": "Two participants meeting at a blue-covered table with an open laptop",
+        "name": "View photo: Two participants meeting at a blue-covered table with an open laptop",
+        "role": null,
+        "visible": true
+      },
+      {
+        "alt": "Two participants talking across a small meeting table",
+        "name": "View photo: Two participants talking across a small meeting table",
+        "role": null,
+        "visible": true
+      },
+      {
+        "alt": "Three participants discussing business while seated together on a sofa",
+        "name": "View photo: Three participants discussing business while seated together on a sofa",
+        "role": null,
+        "visible": true
+      },
+      {
+        "alt": "A facilitator leading a discussion around U-shaped tables with flip charts",
+        "name": "View photo: A facilitator leading a discussion around U-shaped tables with flip charts",
+        "role": null,
+        "visible": true
+      },
+      {
+        "alt": "Participants listening to a presenter in a small meeting room",
+        "name": "View photo: Participants listening to a presenter in a small meeting room",
+        "role": null,
+        "visible": true
+      },
+      {
+        "alt": "Two participants listening during a discussion",
+        "name": "View photo: Two participants listening during a discussion",
+        "role": null,
+        "visible": true
+      },
+      {
+        "alt": "Participants in a discussion around U-shaped meeting tables",
+        "name": "View photo: Participants in a discussion around U-shaped meeting tables",
+        "role": null,
+        "visible": true
+      },
+      {
+        "alt": "A facilitator addressing participants around a large U-shaped table arrangement",
+        "name": "View photo: A facilitator addressing participants around a large U-shaped table arrangement",
+        "role": null,
+        "visible": true
+      },
+      {
+        "alt": "A presenter addressing participants seated around U-shaped tables",
+        "name": "View photo: A presenter addressing participants seated around U-shaped tables",
+        "role": null,
+        "visible": true
+      },
+      {
+        "alt": "A participant sharing ideas with colleagues seated around a table",
+        "name": "View photo: A participant sharing ideas with colleagues seated around a table",
+        "role": null,
+        "visible": true
+      },
+      {
+        "alt": "A participant gesturing while colleagues listen during a discussion",
+        "name": "View photo: A participant gesturing while colleagues listen during a discussion",
+        "role": null,
+        "visible": true
+      },
+      {
+        "alt": "Participants discussing ideas around U-shaped tables beneath chandeliers",
+        "name": "View photo: Participants discussing ideas around U-shaped tables beneath chandeliers",
+        "role": null,
+        "visible": true
+      },
+      {
+        "alt": "Attendees chatting around an outdoor cocktail table overlooking the water",
+        "name": "View photo: Attendees chatting around an outdoor cocktail table overlooking the water",
+        "role": null,
+        "visible": true
+      },
+      {
+        "alt": "Attendees gathering around tables in a sunlit conference lobby",
+        "name": "View photo: Attendees gathering around tables in a sunlit conference lobby",
+        "role": null,
+        "visible": true
+      },
+      {
+        "alt": "Three attendees talking around a cocktail table outdoors",
+        "name": "View photo: Three attendees talking around a cocktail table outdoors",
+        "role": null,
+        "visible": true
+      },
+      {
+        "alt": "Attendees chatting around round tables in a reception room",
+        "name": "View photo: Attendees chatting around round tables in a reception room",
+        "role": null,
+        "visible": true
+      },
+      {
+        "alt": "A seated audience listening during a dinner presentation",
+        "name": "View photo: A seated audience listening during a dinner presentation",
+        "role": null,
+        "visible": true
+      },
+      {
+        "alt": "Two presenters gesturing beside lecterns on stage",
+        "name": "View photo: Two presenters gesturing beside lecterns on stage",
+        "role": null,
+        "visible": true
+      },
+      {
+        "alt": "A presenter addressing attendees seated at dinner tables",
+        "name": "View photo: A presenter addressing attendees seated at dinner tables",
+        "role": null,
+        "visible": true
+      },
+      {
+        "alt": "Smiling attendees walking together outside a building",
+        "name": "View photo: Smiling attendees walking together outside a building",
+        "role": null,
+        "visible": true
+      },
+      {
+        "alt": "Participants talking at small tables in a bright meeting room",
+        "name": "View photo: Participants talking at small tables in a bright meeting room",
+        "role": null,
+        "visible": true
+      },
+      {
+        "alt": "Participants chatting around meeting tables with notebooks and drinks",
+        "name": "View photo: Participants chatting around meeting tables with notebooks and drinks",
+        "role": null,
+        "visible": true
+      },
+      {
+        "alt": "A seafood buffet with crab legs, shrimp, citrus and flowers",
+        "name": "View photo: A seafood buffet with crab legs, shrimp, citrus and flowers",
+        "role": null,
+        "visible": true
+      }
+    ],
+    "photos": [
+      {
+        "alt": "A speaker seated on stage during an IPMI Institute session",
+        "currentSrc": "https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4b6be6f37170719534329_P12-HRMI-Central-2024-Session-2-p-500.jpg",
+        "section": "INSTITUTE GALLERY\nShowcasing the IPMI Institute Experience.\nThey say a picture is worth a thousand words. These images from our various Institutes capture the unique on-site experiences of our attendees and the value of their involvement.\nVIEW GALLERIES",
+        "sizes": "(max-width: 479px) 100vw, 400px",
+        "src": "https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4b6be6f37170719534329_P12-HRMI-Central-2024-Session-2.jpg",
+        "srcset": "https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4b6be6f37170719534329_P12-HRMI-Central-2024-Session-2-p-500.jpg 500w, https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4b6be6f37170719534329_P12-HRMI-Central-2024-Session-2-p-800.jpg 800w, https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4b6be6f37170719534329_P12-HRMI-Central-2024-Session-2-p-1080.jpg 1080w, https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4b6be6f37170719534329_P12-HRMI-Central-2024-Session-2-p-1600.jpg 1600w, https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4b6be6f37170719534329_P12-HRMI-Central-2024-Session-2.jpg 2560w",
+        "visible": true
+      },
+      {
+        "alt": "Attendees smiling and raising a hand at an IPMI networking reception",
+        "currentSrc": "https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4b6bc009285801122e517_P11-HCHR-Mar-2025-Dinner-20-p-500.jpg",
+        "section": "INSTITUTE GALLERY\nShowcasing the IPMI Institute Experience.\nThey say a picture is worth a thousand words. These images from our various Institutes capture the unique on-site experiences of our attendees and the value of their involvement.\nVIEW GALLERIES",
+        "sizes": "(max-width: 479px) 100vw, 400px",
+        "src": "https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4b6bc009285801122e517_P11-HCHR-Mar-2025-Dinner-20.jpg",
+        "srcset": "https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4b6bc009285801122e517_P11-HCHR-Mar-2025-Dinner-20-p-500.jpg 500w, https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4b6bc009285801122e517_P11-HCHR-Mar-2025-Dinner-20-p-800.jpg 800w, https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4b6bc009285801122e517_P11-HCHR-Mar-2025-Dinner-20-p-1080.jpg 1080w, https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4b6bc009285801122e517_P11-HCHR-Mar-2025-Dinner-20-p-1600.jpg 1600w, https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4b6bc009285801122e517_P11-HCHR-Mar-2025-Dinner-20.jpg 2560w",
+        "visible": true
+      },
+      {
+        "alt": "Attendees networking beside a rooftop pool among city towers",
+        "currentSrc": "",
+        "section": "UPCOMING INSTITUTES\nLeveraging On-Site Connections to Advance Organizational Objectives.\n\nInstitutes bring together CXOs from organizations across North America to share industry-leading ideas and solutions to meet business priorities.\n\nVIEW UPCOMING INSTITUTES",
+        "sizes": "(max-width: 400px) 100vw, 400px",
+        "src": "https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4b6be655ed43be067d947_P14-SOI-2024-Dinner.jpg",
+        "srcset": "https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4b6be655ed43be067d947_P14-SOI-2024-Dinner-p-500.jpg 500w, https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4b6be655ed43be067d947_P14-SOI-2024-Dinner-p-800.jpg 800w, https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4b6be655ed43be067d947_P14-SOI-2024-Dinner-p-1080.jpg 1080w, https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4b6be655ed43be067d947_P14-SOI-2024-Dinner-p-1600.jpg 1600w, https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4b6be655ed43be067d947_P14-SOI-2024-Dinner.jpg 2268w",
+        "visible": true
+      },
+      {
+        "alt": "Fountains and palm trees beside a lake at an Institute venue",
+        "currentSrc": "",
+        "section": "UPCOMING INSTITUTES\nLeveraging On-Site Connections to Advance Organizational Objectives.\n\nInstitutes bring together CXOs from organizations across North America to share industry-leading ideas and solutions to meet business priorities.\n\nVIEW UPCOMING INSTITUTES",
+        "sizes": "(max-width: 400px) 100vw, 400px",
+        "src": "https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4b6beeae4404f8475938c_P13-HIT-2024-Scenic.jpg",
+        "srcset": "https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4b6beeae4404f8475938c_P13-HIT-2024-Scenic-p-500.jpg 500w, https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4b6beeae4404f8475938c_P13-HIT-2024-Scenic-p-800.jpg 800w, https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4b6beeae4404f8475938c_P13-HIT-2024-Scenic-p-1080.jpg 1080w, https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4b6beeae4404f8475938c_P13-HIT-2024-Scenic-p-1600.jpg 1600w, https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4b6beeae4404f8475938c_P13-HIT-2024-Scenic-p-2000.jpg 2000w, https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4b6beeae4404f8475938c_P13-HIT-2024-Scenic.jpg 2560w",
+        "visible": true
+      }
+    ],
+    "statuses": [
+      {
+        "clip": "inset(50%)",
+        "live": "assertive",
+        "text": ""
+      },
+      {
+        "clip": "inset(50%)",
+        "live": "assertive",
+        "text": ""
+      },
+      {
+        "clip": "inset(50%)",
+        "live": "assertive",
+        "text": ""
+      },
+      {
+        "clip": "inset(50%)",
+        "live": "assertive",
+        "text": ""
+      }
+    ],
+    "url": "https://ipmi.webflow.io/gallery"
+  },
+  {
+    "page": "thinktanks",
+    "width": 1440,
+    "lightboxes": [],
+    "photos": [
+      {
+        "alt": "A participant speaking to seated colleagues during an IPMI roundtable",
+        "currentSrc": "https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4b990eae4404f847681a0_P15-Indeed-Pasta-Making-Roundtable-p-500.jpg",
+        "section": "THINK TANKS & ROUNDTABLES\nA Relatable, Responsive, and Real-Time Platform.\nIPMI‘s Think Tanks & Roundtables provide a platform for sharing insights, tools and resources to help drive organizational success, and are the go-to outlet for dealing with changing priorities and perspectives.\nVIEW THINK TANKS & ROUNDTABLES",
+        "sizes": "(max-width: 479px) 100vw, 400px",
+        "src": "https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4b990eae4404f847681a0_P15-Indeed-Pasta-Making-Roundtable.jpg",
+        "srcset": "https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4b990eae4404f847681a0_P15-Indeed-Pasta-Making-Roundtable-p-500.jpg 500w, https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4b990eae4404f847681a0_P15-Indeed-Pasta-Making-Roundtable-p-800.jpg 800w, https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4b990eae4404f847681a0_P15-Indeed-Pasta-Making-Roundtable-p-1080.jpg 1080w, https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4b990eae4404f847681a0_P15-Indeed-Pasta-Making-Roundtable-p-1600.jpg 1600w, https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4b990eae4404f847681a0_P15-Indeed-Pasta-Making-Roundtable.jpg 2068w",
+        "visible": true
+      }
+    ],
+    "statuses": [
+      {
+        "clip": "none",
+        "live": "assertive",
+        "text": ""
+      }
+    ],
+    "url": "https://ipmi.webflow.io/thinktanks"
+  },
+  {
+    "page": "about",
+    "width": 1440,
+    "lightboxes": [
+      {
+        "alt": "Two participants smiling together at an IPMI event",
+        "name": "View photo: Two participants smiling together at an IPMI event",
+        "role": null,
+        "visible": true
+      },
+      {
+        "alt": "Four IPMI team members smiling together at an outdoor event",
+        "name": "View photo: Four IPMI team members smiling together at an outdoor event",
+        "role": null,
+        "visible": true
+      },
+      {
+        "alt": "Attendees listening in a conference room with rows of tables",
+        "name": "View photo: Attendees listening in a conference room with rows of tables",
+        "role": "link",
+        "visible": true
+      },
+      {
+        "alt": "A speaker in a yellow suit addressing an audience with a handheld microphone",
+        "name": "View photo: A speaker in a yellow suit addressing an audience with a handheld microphone",
+        "role": "link",
+        "visible": true
+      },
+      {
+        "alt": "Two attendees talking at a cocktail table near a registration sign",
+        "name": "View photo: Two attendees talking at a cocktail table near a registration sign",
+        "role": "link",
+        "visible": true
+      },
+      {
+        "alt": "A speaker holding a microphone and tablet on stage",
+        "name": "View photo: A speaker holding a microphone and tablet on stage",
+        "role": "link",
+        "visible": true
+      }
+    ],
+    "photos": [
+      {
+        "alt": "A smiling participant wearing a striped shirt and event lanyard at an IPMI gathering",
+        "currentSrc": "https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4bc32bce50bba4e943d27_P17-HCHR-March-2024-Staff-1-p-500.jpg",
+        "section": "ABOUT IPMI\nInternational Performance\nManagement Institute.\nGet to know our team, our vision, and our mission.\nLEARN ABOUT IPMI",
+        "sizes": "(max-width: 479px) 100vw, 400px",
+        "src": "https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4bc32bce50bba4e943d27_P17-HCHR-March-2024-Staff-1.jpg",
+        "srcset": "https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4bc32bce50bba4e943d27_P17-HCHR-March-2024-Staff-1-p-500.jpg 500w, https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4bc32bce50bba4e943d27_P17-HCHR-March-2024-Staff-1-p-800.jpg 800w, https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4bc32bce50bba4e943d27_P17-HCHR-March-2024-Staff-1-p-1080.jpg 1080w, https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4bc32bce50bba4e943d27_P17-HCHR-March-2024-Staff-1-p-1600.jpg 1600w, https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4bc32bce50bba4e943d27_P17-HCHR-March-2024-Staff-1.jpg 2560w",
+        "visible": true
+      },
+      {
+        "alt": "A speaker holding a microphone and notes during an IPMI session",
+        "currentSrc": "https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4bc33655ed43be069d72e_P16-HCHR-Mar-2025-Session-16-p-500.jpg",
+        "section": "ABOUT IPMI\nInternational Performance\nManagement Institute.\nGet to know our team, our vision, and our mission.\nLEARN ABOUT IPMI",
+        "sizes": "(max-width: 479px) 100vw, 400px",
+        "src": "https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4bc33655ed43be069d72e_P16-HCHR-Mar-2025-Session-16.jpg",
+        "srcset": "https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4bc33655ed43be069d72e_P16-HCHR-Mar-2025-Session-16-p-500.jpg 500w, https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4bc33655ed43be069d72e_P16-HCHR-Mar-2025-Session-16-p-800.jpg 800w, https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4bc33655ed43be069d72e_P16-HCHR-Mar-2025-Session-16-p-1080.jpg 1080w, https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4bc33655ed43be069d72e_P16-HCHR-Mar-2025-Session-16-p-1600.jpg 1600w, https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4bc33655ed43be069d72e_P16-HCHR-Mar-2025-Session-16.jpg 2560w",
+        "visible": true
+      },
+      {
+        "alt": "Two participants smiling together at an IPMI event",
+        "currentSrc": "https://cdn.prod.website-files.com/6312ee46f4c52faf21ee8ab5/6ab4bd1fbf52ddc3481af066_P18-HRMI-Apr-2025-Staff-1-1920-p-1600.jpg",
+        "link": "View photo: Two participants smiling together at an IPMI event",
+        "sizes": "(max-width: 1919px) 100vw, 1920px",
+        "src": "https://cdn.prod.website-files.com/6312ee46f4c52faf21ee8ab5/6ab4bd1fbf52ddc3481af066_P18-HRMI-Apr-2025-Staff-1-1920.jpg",
+        "srcset": "https://cdn.prod.website-files.com/6312ee46f4c52faf21ee8ab5/6ab4bd1fbf52ddc3481af066_P18-HRMI-Apr-2025-Staff-1-1920-p-500.jpg 500w, https://cdn.prod.website-files.com/6312ee46f4c52faf21ee8ab5/6ab4bd1fbf52ddc3481af066_P18-HRMI-Apr-2025-Staff-1-1920-p-800.jpg 800w, https://cdn.prod.website-files.com/6312ee46f4c52faf21ee8ab5/6ab4bd1fbf52ddc3481af066_P18-HRMI-Apr-2025-Staff-1-1920-p-1080.jpg 1080w, https://cdn.prod.website-files.com/6312ee46f4c52faf21ee8ab5/6ab4bd1fbf52ddc3481af066_P18-HRMI-Apr-2025-Staff-1-1920-p-1600.jpg 1600w, https://cdn.prod.website-files.com/6312ee46f4c52faf21ee8ab5/6ab4bd1fbf52ddc3481af066_P18-HRMI-Apr-2025-Staff-1-1920.jpg 1920w",
+        "visible": true
+      },
+      {
+        "alt": "Four IPMI team members smiling together at an outdoor event",
+        "currentSrc": "https://cdn.prod.website-files.com/6312ee46f4c52faf21ee8ab5/6ab4bd741859cfc75a33edf7_P19-HFI-2026-Staff-1920-p-1600.jpg",
+        "link": "View photo: Four IPMI team members smiling together at an outdoor event",
+        "sizes": "(max-width: 1919px) 100vw, 1920px",
+        "src": "https://cdn.prod.website-files.com/6312ee46f4c52faf21ee8ab5/6ab4bd741859cfc75a33edf7_P19-HFI-2026-Staff-1920.jpg",
+        "srcset": "https://cdn.prod.website-files.com/6312ee46f4c52faf21ee8ab5/6ab4bd741859cfc75a33edf7_P19-HFI-2026-Staff-1920-p-500.jpg 500w, https://cdn.prod.website-files.com/6312ee46f4c52faf21ee8ab5/6ab4bd741859cfc75a33edf7_P19-HFI-2026-Staff-1920-p-800.jpg 800w, https://cdn.prod.website-files.com/6312ee46f4c52faf21ee8ab5/6ab4bd741859cfc75a33edf7_P19-HFI-2026-Staff-1920-p-1080.jpg 1080w, https://cdn.prod.website-files.com/6312ee46f4c52faf21ee8ab5/6ab4bd741859cfc75a33edf7_P19-HFI-2026-Staff-1920-p-1600.jpg 1600w, https://cdn.prod.website-files.com/6312ee46f4c52faf21ee8ab5/6ab4bd741859cfc75a33edf7_P19-HFI-2026-Staff-1920.jpg 1920w",
+        "visible": true
+      }
+    ],
+    "statuses": [
+      {
+        "clip": "inset(50%)",
+        "live": "assertive",
+        "text": ""
+      },
+      {
+        "clip": "inset(50%)",
+        "live": "assertive",
+        "text": ""
+      }
+    ],
+    "url": "https://ipmi.webflow.io/about"
+  },
+  {
+    "page": "testimonials",
+    "width": 1440,
+    "lightboxes": [],
+    "photos": [
+      {
+        "alt": "Attendees wearing sunglasses share smiles around an outdoor dinner table",
+        "currentSrc": "https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4c1a589ec77159551d436_P21-HRMI-Can-2025-Dinner-1-p-500.jpg",
+        "section": "ATTENDEE TESTIMONIALS\nFeedback from our Spectacular Guests.\nDon't just take our word for it — Hear firsthand from our amazing attendees about their experiences with IPMI Institutes!\nVIEW TESTIMONIALS",
+        "sizes": "(max-width: 479px) 100vw, 400px",
+        "src": "https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4c1a589ec77159551d436_P21-HRMI-Can-2025-Dinner-1.jpg",
+        "srcset": "https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4c1a589ec77159551d436_P21-HRMI-Can-2025-Dinner-1-p-500.jpg 500w, https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4c1a589ec77159551d436_P21-HRMI-Can-2025-Dinner-1-p-800.jpg 800w, https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4c1a589ec77159551d436_P21-HRMI-Can-2025-Dinner-1-p-1080.jpg 1080w, https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4c1a589ec77159551d436_P21-HRMI-Can-2025-Dinner-1-p-1600.jpg 1600w, https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4c1a589ec77159551d436_P21-HRMI-Can-2025-Dinner-1.jpg 2560w",
+        "visible": true
+      },
+      {
+        "alt": "Participants smiling with drinks at an outdoor IPMI gathering",
+        "currentSrc": "https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4c1a566358d7a1d925a5b_P20-HFI-2026-Casino-Night-p-500.jpg",
+        "section": "ATTENDEE TESTIMONIALS\nFeedback from our Spectacular Guests.\nDon't just take our word for it — Hear firsthand from our amazing attendees about their experiences with IPMI Institutes!\nVIEW TESTIMONIALS",
+        "sizes": "(max-width: 479px) 100vw, 400px",
+        "src": "https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4c1a566358d7a1d925a5b_P20-HFI-2026-Casino-Night.jpg",
+        "srcset": "https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4c1a566358d7a1d925a5b_P20-HFI-2026-Casino-Night-p-500.jpg 500w, https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4c1a566358d7a1d925a5b_P20-HFI-2026-Casino-Night-p-800.jpg 800w, https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4c1a566358d7a1d925a5b_P20-HFI-2026-Casino-Night-p-1080.jpg 1080w, https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4c1a566358d7a1d925a5b_P20-HFI-2026-Casino-Night-p-1600.jpg 1600w, https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4c1a566358d7a1d925a5b_P20-HFI-2026-Casino-Night.jpg 2560w",
+        "visible": true
+      }
+    ],
+    "statuses": [],
+    "url": "https://ipmi.webflow.io/testimonials"
+  },
+  {
+    "page": "faq",
+    "width": 1440,
+    "lightboxes": [
+      {
+        "alt": "Two panelists in conversation on a green-lit stage",
+        "name": "View photo: Two panelists in conversation on a green-lit stage",
+        "role": null,
+        "visible": false
+      },
+      {
+        "alt": "Participants discussing ideas around U-shaped tables beneath chandeliers",
+        "name": "View photo: Participants discussing ideas around U-shaped tables beneath chandeliers",
+        "role": null,
+        "visible": false
+      },
+      {
+        "alt": "Two participants talking across a small meeting table",
+        "name": "View photo: Two participants talking across a small meeting table",
+        "role": null,
+        "visible": false
+      },
+      {
+        "alt": "Attendees entering a conference room beside a General Session sign",
+        "name": "View photo: Attendees entering a conference room beside a General Session sign",
+        "role": null,
+        "visible": false
+      },
+      {
+        "alt": "Three attendees talking around a cocktail table outdoors",
+        "name": "View photo: Three attendees talking around a cocktail table outdoors",
+        "role": null,
+        "visible": false
+      },
+      {
+        "alt": "Nine participants joining a virtual discussion in a video-call grid",
+        "name": "View photo: Nine participants joining a virtual discussion in a video-call grid",
+        "role": null,
+        "visible": false
+      },
+      {
+        "alt": "Eight participants displayed in a virtual discussion surrounded by IPMI logos",
+        "name": "View photo: Eight participants displayed in a virtual discussion surrounded by IPMI logos",
+        "role": null,
+        "visible": false
+      },
+      {
+        "alt": "Ten participants joining a virtual discussion in a video-call grid",
+        "name": "View photo: Ten participants joining a virtual discussion in a video-call grid",
+        "role": null,
+        "visible": false
+      },
+      {
+        "alt": "Two participants meeting at a blue-covered table with an open laptop",
+        "name": "View photo: Two participants meeting at a blue-covered table with an open laptop",
+        "role": null,
+        "visible": false
+      },
+      {
+        "alt": "Participants holding one-to-one conversations at small round tables",
+        "name": "View photo: Participants holding one-to-one conversations at small round tables",
+        "role": null,
+        "visible": false
+      },
+      {
+        "alt": "Two participants talking across a small meeting table",
+        "name": "View photo: Two participants talking across a small meeting table",
+        "role": null,
+        "visible": false
+      },
+      {
+        "alt": "A participant gesturing while discussing business with a colleague beside a laptop",
+        "name": "View photo: A participant gesturing while discussing business with a colleague beside a laptop",
+        "role": null,
+        "visible": false
+      },
+      {
+        "alt": "Three participants discussing business around a table with a laptop",
+        "name": "View photo: Three participants discussing business around a table with a laptop",
+        "role": null,
+        "visible": false
+      }
+    ],
+    "photos": [
+      {
+        "alt": "Seated panelist holding a microphone and notes during an IPMI session",
+        "currentSrc": "https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4c494e4410c930e2e090d_P23-HIT-Jun-2025-Session-3-p-500.jpg",
+        "section": "FREQUENTLY ASKED QUESTIONS\nGot Questions?\nWe have the Answers.\nWe're happy to share everything you need to know about our Institutes, Virtual Think Tanks, and the overall IPMI experience.\nVIEW QUESTIONS",
+        "sizes": "(max-width: 479px) 100vw, 400px",
+        "src": "https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4c494e4410c930e2e090d_P23-HIT-Jun-2025-Session-3.jpg",
+        "srcset": "https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4c494e4410c930e2e090d_P23-HIT-Jun-2025-Session-3-p-500.jpg 500w, https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4c494e4410c930e2e090d_P23-HIT-Jun-2025-Session-3-p-800.jpg 800w, https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4c494e4410c930e2e090d_P23-HIT-Jun-2025-Session-3-p-1080.jpg 1080w, https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4c494e4410c930e2e090d_P23-HIT-Jun-2025-Session-3-p-1600.jpg 1600w, https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4c494e4410c930e2e090d_P23-HIT-Jun-2025-Session-3.jpg 2560w",
+        "visible": true
+      },
+      {
+        "alt": "Seated speaker wearing a headset microphone during an IPMI session",
+        "currentSrc": "https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4c438118f040f8b2c7ec0_P22-HRMI-West-2025-Session-6-p-500.jpg",
+        "section": "FREQUENTLY ASKED QUESTIONS\nGot Questions?\nWe have the Answers.\nWe're happy to share everything you need to know about our Institutes, Virtual Think Tanks, and the overall IPMI experience.\nVIEW QUESTIONS",
+        "sizes": "(max-width: 479px) 100vw, 400px",
+        "src": "https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4c438118f040f8b2c7ec0_P22-HRMI-West-2025-Session-6.jpg",
+        "srcset": "https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4c438118f040f8b2c7ec0_P22-HRMI-West-2025-Session-6-p-500.jpg 500w, https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4c438118f040f8b2c7ec0_P22-HRMI-West-2025-Session-6-p-800.jpg 800w, https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4c438118f040f8b2c7ec0_P22-HRMI-West-2025-Session-6-p-1080.jpg 1080w, https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4c438118f040f8b2c7ec0_P22-HRMI-West-2025-Session-6-p-1600.jpg 1600w, https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4c438118f040f8b2c7ec0_P22-HRMI-West-2025-Session-6.jpg 2560w",
+        "visible": true
+      }
+    ],
+    "statuses": [
+      {
+        "clip": "inset(50%)",
+        "live": "assertive",
+        "text": ""
+      },
+      {
+        "clip": "inset(50%)",
+        "live": "assertive",
+        "text": ""
+      },
+      {
+        "clip": "inset(50%)",
+        "live": "assertive",
+        "text": ""
+      },
+      {
+        "clip": "inset(50%)",
+        "live": "assertive",
+        "text": ""
+      },
+      {
+        "clip": "inset(50%)",
+        "live": "assertive",
+        "text": ""
+      },
+      {
+        "clip": "inset(50%)",
+        "live": "assertive",
+        "text": ""
+      },
+      {
+        "clip": "inset(50%)",
+        "live": "assertive",
+        "text": ""
+      },
+      {
+        "clip": "inset(50%)",
+        "live": "assertive",
+        "text": ""
+      }
+    ],
+    "url": "https://ipmi.webflow.io/faq"
+  },
+  {
+    "page": "attend",
+    "width": 1440,
+    "lightboxes": [
+      {
+        "alt": "A speaker at a lectern addressing attendees in a purple-lit conference room",
+        "name": "View photo: A speaker at a lectern addressing attendees in a purple-lit conference room",
+        "role": null,
+        "visible": false
+      },
+      {
+        "alt": "Attendees gathering outdoors in a garden beside a house with a wraparound porch",
+        "name": "View photo: Attendees gathering outdoors in a garden beside a house with a wraparound porch",
+        "role": null,
+        "visible": false
+      },
+      {
+        "alt": "A facilitator presenting to participants seated around U-shaped tables",
+        "name": "View photo: A facilitator presenting to participants seated around U-shaped tables",
+        "role": null,
+        "visible": false
+      },
+      {
+        "alt": "Participants painting wooden paddles at a table with art supplies",
+        "name": "View photo: Participants painting wooden paddles at a table with art supplies",
+        "role": null,
+        "visible": false
+      },
+      {
+        "alt": "Two participants smiling during a meeting at a small round table",
+        "name": "View photo: Two participants smiling during a meeting at a small round table",
+        "role": null,
+        "visible": false
+      },
+      {
+        "alt": "An attendee holding a phone displaying an event questionnaire",
+        "name": "View photo: An attendee holding a phone displaying an event questionnaire",
+        "role": null,
+        "visible": false
+      },
+      {
+        "alt": "A speaker at a lectern addressing attendees in a purple-lit conference room",
+        "name": "View photo: A speaker at a lectern addressing attendees in a purple-lit conference room",
+        "role": null,
+        "visible": true
+      },
+      {
+        "alt": "Attendees gathering outdoors in a garden beside a house with a wraparound porch",
+        "name": "View photo: Attendees gathering outdoors in a garden beside a house with a wraparound porch",
+        "role": null,
+        "visible": true
+      },
+      {
+        "alt": "A facilitator presenting to participants seated around U-shaped tables",
+        "name": "View photo: A facilitator presenting to participants seated around U-shaped tables",
+        "role": null,
+        "visible": true
+      },
+      {
+        "alt": "Participants painting wooden paddles at a table with art supplies",
+        "name": "View photo: Participants painting wooden paddles at a table with art supplies",
+        "role": null,
+        "visible": true
+      },
+      {
+        "alt": "Two participants smiling during a meeting at a small round table",
+        "name": "View photo: Two participants smiling during a meeting at a small round table",
+        "role": null,
+        "visible": true
+      },
+      {
+        "alt": "An attendee holding a phone displaying an event questionnaire",
+        "name": "View photo: An attendee holding a phone displaying an event questionnaire",
+        "role": null,
+        "visible": true
+      },
+      {
+        "alt": "A smiling speaker gesturing with arms extended on stage",
+        "name": "View photo: A smiling speaker gesturing with arms extended on stage",
+        "role": null,
+        "visible": true
+      },
+      {
+        "alt": "Four panelists seated on a green-lit stage for a discussion",
+        "name": "View photo: Four panelists seated on a green-lit stage for a discussion",
+        "role": null,
+        "visible": true
+      },
+      {
+        "alt": "A speaker addressing an audience with a handheld microphone and notes",
+        "name": "View photo: A speaker addressing an audience with a handheld microphone and notes",
+        "role": null,
+        "visible": true
+      },
+      {
+        "alt": "Two panelists talking while seated on a purple-lit stage",
+        "name": "View photo: Two panelists talking while seated on a purple-lit stage",
+        "role": null,
+        "visible": true
+      },
+      {
+        "alt": "A speaker gesturing beside a lectern and presentation screen",
+        "name": "View photo: A speaker gesturing beside a lectern and presentation screen",
+        "role": null,
+        "visible": true
+      },
+      {
+        "alt": "A facilitator leading a discussion with participants seated around U-shaped tables",
+        "name": "View photo: A facilitator leading a discussion with participants seated around U-shaped tables",
+        "role": null,
+        "visible": true
+      },
+      {
+        "alt": "A smiling speaker gesturing with arms extended on stage",
+        "name": "View photo: A smiling speaker gesturing with arms extended on stage",
+        "role": null,
+        "visible": false
+      },
+      {
+        "alt": "Four panelists seated on a green-lit stage for a discussion",
+        "name": "View photo: Four panelists seated on a green-lit stage for a discussion",
+        "role": null,
+        "visible": false
+      },
+      {
+        "alt": "A speaker addressing an audience with a handheld microphone and notes",
+        "name": "View photo: A speaker addressing an audience with a handheld microphone and notes",
+        "role": null,
+        "visible": false
+      },
+      {
+        "alt": "Two panelists talking while seated on a purple-lit stage",
+        "name": "View photo: Two panelists talking while seated on a purple-lit stage",
+        "role": null,
+        "visible": false
+      },
+      {
+        "alt": "A speaker gesturing beside a lectern and presentation screen",
+        "name": "View photo: A speaker gesturing beside a lectern and presentation screen",
+        "role": null,
+        "visible": false
+      },
+      {
+        "alt": "A facilitator leading a discussion with participants seated around U-shaped tables",
+        "name": "View photo: A facilitator leading a discussion with participants seated around U-shaped tables",
+        "role": null,
+        "visible": false
+      },
+      {
+        "alt": "Three participants discussing business at a round table with a laptop",
+        "name": "View photo: Three participants discussing business at a round table with a laptop",
+        "role": null,
+        "visible": false
+      },
+      {
+        "alt": "Two presenters addressing an audience on a purple-lit stage",
+        "name": "View photo: Two presenters addressing an audience on a purple-lit stage",
+        "role": null,
+        "visible": false
+      },
+      {
+        "alt": "Three attendees smiling and talking around a cocktail table",
+        "name": "View photo: Three attendees smiling and talking around a cocktail table",
+        "role": null,
+        "visible": false
+      },
+      {
+        "alt": "Two pairs of participants holding meetings at small round tables",
+        "name": "View photo: Two pairs of participants holding meetings at small round tables",
+        "role": null,
+        "visible": false
+      },
+      {
+        "alt": "A facilitator leading a discussion beside a flip chart in a meeting room",
+        "name": "View photo: A facilitator leading a discussion beside a flip chart in a meeting room",
+        "role": null,
+        "visible": false
+      },
+      {
+        "alt": "Attendees networking around cocktail tables on a covered terrace",
+        "name": "View photo: Attendees networking around cocktail tables on a covered terrace",
+        "role": null,
+        "visible": false
+      },
+      {
+        "alt": "A smiling speaker holding a microphone on stage",
+        "name": "View photo: A smiling speaker holding a microphone on stage",
+        "role": null,
+        "visible": false
+      },
+      {
+        "alt": "Three participants discussing business at a round table with a laptop",
+        "name": "View photo: Three participants discussing business at a round table with a laptop",
+        "role": null,
+        "visible": true
+      },
+      {
+        "alt": "Two presenters addressing an audience on a purple-lit stage",
+        "name": "View photo: Two presenters addressing an audience on a purple-lit stage",
+        "role": null,
+        "visible": true
+      },
+      {
+        "alt": "Three attendees smiling and talking around a cocktail table",
+        "name": "View photo: Three attendees smiling and talking around a cocktail table",
+        "role": null,
+        "visible": true
+      },
+      {
+        "alt": "Two pairs of participants holding meetings at small round tables",
+        "name": "View photo: Two pairs of participants holding meetings at small round tables",
+        "role": null,
+        "visible": true
+      },
+      {
+        "alt": "A facilitator leading a discussion beside a flip chart in a meeting room",
+        "name": "View photo: A facilitator leading a discussion beside a flip chart in a meeting room",
+        "role": null,
+        "visible": true
+      },
+      {
+        "alt": "Attendees networking around cocktail tables on a covered terrace",
+        "name": "View photo: Attendees networking around cocktail tables on a covered terrace",
+        "role": null,
+        "visible": true
+      },
+      {
+        "alt": "A smiling speaker holding a microphone on stage",
+        "name": "View photo: A smiling speaker holding a microphone on stage",
+        "role": null,
+        "visible": true
+      }
+    ],
+    "photos": [
+      {
+        "alt": "Speaker wearing a headset microphone and holding a presentation remote",
+        "currentSrc": "https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4c776b9f31bbef1a63b13_P25-HR-East-2026-Session-6-p-500.jpg",
+        "section": "ATTEND AN INSTITUTE\nTake part in a Unique and Unparalleled Experience.\nSee what it's like to participate in our events, and learn everything you need to know about attending, speaking at, and sponsoring an IPMI Institute!\nEXPERIENCE AN INSTITUTE",
+        "sizes": "(max-width: 479px) 100vw, 400px",
+        "src": "https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4c776b9f31bbef1a63b13_P25-HR-East-2026-Session-6.jpg",
+        "srcset": "https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4c776b9f31bbef1a63b13_P25-HR-East-2026-Session-6-p-500.jpg 500w, https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4c776b9f31bbef1a63b13_P25-HR-East-2026-Session-6-p-800.jpg 800w, https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4c776b9f31bbef1a63b13_P25-HR-East-2026-Session-6-p-1080.jpg 1080w, https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4c776b9f31bbef1a63b13_P25-HR-East-2026-Session-6-p-1600.jpg 1600w, https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4c776b9f31bbef1a63b13_P25-HR-East-2026-Session-6.jpg 2560w",
+        "visible": true
+      },
+      {
+        "alt": "Attendees networking outdoors around a cocktail table at sunset",
+        "currentSrc": "https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4c705655ed43be06ebd36_P24-CLDI-Apr-2025-Dinner-12-p-500.jpg",
+        "section": "ATTEND AN INSTITUTE\nTake part in a Unique and Unparalleled Experience.\nSee what it's like to participate in our events, and learn everything you need to know about attending, speaking at, and sponsoring an IPMI Institute!\nEXPERIENCE AN INSTITUTE",
+        "sizes": "(max-width: 479px) 100vw, 400px",
+        "src": "https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4c705655ed43be06ebd36_P24-CLDI-Apr-2025-Dinner-12.jpg",
+        "srcset": "https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4c705655ed43be06ebd36_P24-CLDI-Apr-2025-Dinner-12-p-500.jpg 500w, https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4c705655ed43be06ebd36_P24-CLDI-Apr-2025-Dinner-12-p-800.jpg 800w, https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4c705655ed43be06ebd36_P24-CLDI-Apr-2025-Dinner-12-p-1080.jpg 1080w, https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4c705655ed43be06ebd36_P24-CLDI-Apr-2025-Dinner-12-p-1600.jpg 1600w, https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4c705655ed43be06ebd36_P24-CLDI-Apr-2025-Dinner-12.jpg 2560w",
+        "visible": true
+      }
+    ],
+    "statuses": [
+      {
+        "clip": "inset(50%)",
+        "live": "assertive",
+        "text": ""
+      },
+      {
+        "clip": "inset(50%)",
+        "live": "assertive",
+        "text": ""
+      },
+      {
+        "clip": "inset(50%)",
+        "live": "assertive",
+        "text": ""
+      },
+      {
+        "clip": "inset(50%)",
+        "live": "assertive",
+        "text": ""
+      },
+      {
+        "clip": "inset(50%)",
+        "live": "assertive",
+        "text": ""
+      },
+      {
+        "clip": "inset(50%)",
+        "live": "assertive",
+        "text": ""
+      }
+    ],
+    "url": "https://ipmi.webflow.io/attend"
+  },
+  {
+    "page": "contact",
+    "width": 1440,
+    "lightboxes": [],
+    "photos": [
+      {
+        "alt": "Two attendees smiling and holding drinks at the HIT 2024 dinner",
+        "currentSrc": "https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4ca6019adb9f0df002db6_P27-HIT-2024-Dinner-p-500.jpg",
+        "section": "CONTACT IPMI\nCome say \"Hello!\"\nWe're excited to hear from you.\nIf you want to learn more about Institutes, Virtual Think Tanks, or just have a general inquiry, our expert staff are eager to be of assistance!\nGET IN TOUCH",
+        "sizes": "(max-width: 479px) 100vw, 400px",
+        "src": "https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4ca6019adb9f0df002db6_P27-HIT-2024-Dinner.jpg",
+        "srcset": "https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4ca6019adb9f0df002db6_P27-HIT-2024-Dinner-p-500.jpg 500w, https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4ca6019adb9f0df002db6_P27-HIT-2024-Dinner-p-800.jpg 800w, https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4ca6019adb9f0df002db6_P27-HIT-2024-Dinner-p-1080.jpg 1080w, https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4ca6019adb9f0df002db6_P27-HIT-2024-Dinner-p-1600.jpg 1600w, https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4ca6019adb9f0df002db6_P27-HIT-2024-Dinner.jpg 2560w",
+        "visible": true
+      },
+      {
+        "alt": "IPMI Staff assisting Attendees",
+        "currentSrc": "https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/63c4d1501c2178619dd30322_Contact-Bubble-3.webp",
+        "section": "CONTACT IPMI\nCome say \"Hello!\"\nWe're excited to hear from you.\nIf you want to learn more about Institutes, Virtual Think Tanks, or just have a general inquiry, our expert staff are eager to be of assistance!\nGET IN TOUCH",
+        "sizes": "",
+        "src": "https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/63c4d1501c2178619dd30322_Contact-Bubble-3.webp",
+        "srcset": "",
+        "visible": true
+      }
+    ],
+    "statuses": [],
+    "url": "https://ipmi.webflow.io/contact"
+  }
+]

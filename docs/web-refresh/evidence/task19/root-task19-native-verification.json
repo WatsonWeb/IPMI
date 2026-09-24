@@ -1,0 +1,1747 @@
+{
+  "checkedAt": "2026-09-24T14:24:12.897Z",
+  "before": 79,
+  "after": 79,
+  "active": 67,
+  "imageHostNormalizations": 65,
+  "unexpectedDeltas": [],
+  "deltas": [
+    {
+      "id": "6ab4bd83211dc7575394d8e2",
+      "name": "P19 - HFI 2026 Staff - About Mission",
+      "field": "gallery-image-description",
+      "after": "Four IPMI team members smiling together at an outdoor event",
+      "active": true,
+      "imageHostNormalization": false
+    },
+    {
+      "id": "6ab4bd3aeae4404f8477c276",
+      "name": "P18 - HRMI Apr 2025 Staff 1 - About Mission",
+      "field": "gallery-image-description",
+      "after": "Two participants smiling together at an IPMI event",
+      "active": true,
+      "imageHostNormalization": false
+    },
+    {
+      "id": "6408fd86bf69624bc811a3e0",
+      "name": "HGC Oct 2022 - Business Meeting 1",
+      "field": "gallery-image",
+      "before": {
+        "fileId": "6408fcfde3d751b642d2289d",
+        "url": "https://uploads-ssl.webflow.com/6312ee46f4c52faf21ee8ab5/6408fcfde3d751b642d2289d_HGC%20Oct%202022%20-%20Business%20Meeting%201.webp",
+        "alt": null
+      },
+      "after": {
+        "fileId": "6408fcfde3d751b642d2289d",
+        "url": "https://cdn.prod.website-files.com/6312ee46f4c52faf21ee8ab5/6408fcfde3d751b642d2289d_HGC%20Oct%202022%20-%20Business%20Meeting%201.webp",
+        "alt": null
+      },
+      "active": true,
+      "imageHostNormalization": true
+    },
+    {
+      "id": "6408fd86bf69624bc811a3e0",
+      "name": "HGC Oct 2022 - Business Meeting 1",
+      "field": "gallery-image-description",
+      "after": "Three participants discussing business while seated together on a sofa",
+      "active": true,
+      "imageHostNormalization": false
+    },
+    {
+      "id": "63d14ceb8842ec3f1fb6d869",
+      "name": "EHS Management Institute 2023 - Josh",
+      "field": "gallery-image-description",
+      "after": null,
+      "active": false,
+      "imageHostNormalization": false
+    },
+    {
+      "id": "63c9bca7764ce25d9543c712",
+      "name": "SOI 2022 Jenny",
+      "field": "gallery-image",
+      "before": {
+        "fileId": "63c9bc955b64c559b02d1363",
+        "url": "https://uploads-ssl.webflow.com/6312ee46f4c52faf21ee8ab5/63c9bc955b64c559b02d1363_SOI%202022%20Jenny.webp",
+        "alt": null
+      },
+      "after": {
+        "fileId": "63c9bc955b64c559b02d1363",
+        "url": "https://cdn.prod.website-files.com/6312ee46f4c52faf21ee8ab5/63c9bc955b64c559b02d1363_SOI%202022%20Jenny.webp",
+        "alt": null
+      },
+      "active": true,
+      "imageHostNormalization": true
+    },
+    {
+      "id": "63c9bca7764ce25d9543c712",
+      "name": "SOI 2022 Jenny",
+      "field": "gallery-image-description",
+      "after": "A speaker holding a microphone and tablet on stage",
+      "active": true,
+      "imageHostNormalization": false
+    },
+    {
+      "id": "63c9bbce840fddd0ef67c52a",
+      "name": "HCHR 2022 - Nas",
+      "field": "gallery-image",
+      "before": {
+        "fileId": "63c9bbafd6abd0ea3863461b",
+        "url": "https://uploads-ssl.webflow.com/6312ee46f4c52faf21ee8ab5/63c9bbafd6abd0ea3863461b_HCHR%202022%20-%20Nas.jpg",
+        "alt": null
+      },
+      "after": {
+        "fileId": "63c9bbafd6abd0ea3863461b",
+        "url": "https://cdn.prod.website-files.com/6312ee46f4c52faf21ee8ab5/63c9bbafd6abd0ea3863461b_HCHR%202022%20-%20Nas.jpg",
+        "alt": null
+      },
+      "active": true,
+      "imageHostNormalization": true
+    },
+    {
+      "id": "63c9bbce840fddd0ef67c52a",
+      "name": "HCHR 2022 - Nas",
+      "field": "gallery-image-description",
+      "after": "A speaker in a yellow suit addressing an audience with a handheld microphone",
+      "active": true,
+      "imageHostNormalization": false
+    },
+    {
+      "id": "63c53313b2d3386eae96c2dc",
+      "name": "HIT 2022 - Dinner",
+      "field": "gallery-image-description",
+      "after": null,
+      "active": false,
+      "imageHostNormalization": false
+    },
+    {
+      "id": "63c532f986cd78f5eb85c4fe",
+      "name": "Healthcare Law and Compliance Institute Feb 2022 - Katrina and Nas",
+      "field": "gallery-image-description",
+      "after": null,
+      "active": false,
+      "imageHostNormalization": false
+    },
+    {
+      "id": "63c532de3b2b766fcec071e4",
+      "name": "HCHR 2022 - Networking",
+      "field": "gallery-image",
+      "before": {
+        "fileId": "63c532c4e9a211c81899cf01",
+        "url": "https://uploads-ssl.webflow.com/6312ee46f4c52faf21ee8ab5/63c532c4e9a211c81899cf01_HCHR%202022%20-%20Networking.webp",
+        "alt": null
+      },
+      "after": {
+        "fileId": "63c532c4e9a211c81899cf01",
+        "url": "https://cdn.prod.website-files.com/6312ee46f4c52faf21ee8ab5/63c532c4e9a211c81899cf01_HCHR%202022%20-%20Networking.webp",
+        "alt": null
+      },
+      "active": true,
+      "imageHostNormalization": true
+    },
+    {
+      "id": "63c532de3b2b766fcec071e4",
+      "name": "HCHR 2022 - Networking",
+      "field": "gallery-image-description",
+      "after": "Two attendees talking at a cocktail table near a registration sign",
+      "active": true,
+      "imageHostNormalization": false
+    },
+    {
+      "id": "63c4f06d4553f638dce0d28a",
+      "name": "TAI 2022 - Business Meeting Double",
+      "field": "gallery-image",
+      "before": {
+        "fileId": "63c4f058a45ec7963e157eb6",
+        "url": "https://uploads-ssl.webflow.com/6312ee46f4c52faf21ee8ab5/63c4f058a45ec7963e157eb6_TAI%202022%20-%20Business%20Meeting%20Double.webp",
+        "alt": null
+      },
+      "after": {
+        "fileId": "63c4f058a45ec7963e157eb6",
+        "url": "https://cdn.prod.website-files.com/6312ee46f4c52faf21ee8ab5/63c4f058a45ec7963e157eb6_TAI%202022%20-%20Business%20Meeting%20Double.webp",
+        "alt": null
+      },
+      "active": true,
+      "imageHostNormalization": true
+    },
+    {
+      "id": "63c4f06d4553f638dce0d28a",
+      "name": "TAI 2022 - Business Meeting Double",
+      "field": "gallery-image-description",
+      "after": "Two pairs of participants holding meetings at small round tables",
+      "active": true,
+      "imageHostNormalization": false
+    },
+    {
+      "id": "63c4f0510a0060c6eeebee0f",
+      "name": "HR July 2022 - Dinner Networking 2",
+      "field": "gallery-image",
+      "before": {
+        "fileId": "63c4f04359c35a5d43474b0e",
+        "url": "https://uploads-ssl.webflow.com/6312ee46f4c52faf21ee8ab5/63c4f04359c35a5d43474b0e_HR%20July%202022%20-%20Dinner%20Networking%202.webp",
+        "alt": null
+      },
+      "after": {
+        "fileId": "63c4f04359c35a5d43474b0e",
+        "url": "https://cdn.prod.website-files.com/6312ee46f4c52faf21ee8ab5/63c4f04359c35a5d43474b0e_HR%20July%202022%20-%20Dinner%20Networking%202.webp",
+        "alt": null
+      },
+      "active": true,
+      "imageHostNormalization": true
+    },
+    {
+      "id": "63c4f0510a0060c6eeebee0f",
+      "name": "HR July 2022 - Dinner Networking 2",
+      "field": "gallery-image-description",
+      "after": "Three attendees smiling and talking around a cocktail table",
+      "active": true,
+      "imageHostNormalization": false
+    },
+    {
+      "id": "63c4f03fd3f66927a4777f3b",
+      "name": "HR July 2022 - Business Meeting 3",
+      "field": "gallery-image",
+      "before": {
+        "fileId": "63c4efdd3b2b761212bbeb68",
+        "url": "https://uploads-ssl.webflow.com/6312ee46f4c52faf21ee8ab5/63c4efdd3b2b761212bbeb68_HR%20July%202022%20-%20Business%20Meeting%203.webp",
+        "alt": null
+      },
+      "after": {
+        "fileId": "63c4efdd3b2b761212bbeb68",
+        "url": "https://cdn.prod.website-files.com/6312ee46f4c52faf21ee8ab5/63c4efdd3b2b761212bbeb68_HR%20July%202022%20-%20Business%20Meeting%203.webp",
+        "alt": null
+      },
+      "active": true,
+      "imageHostNormalization": true
+    },
+    {
+      "id": "63c4f03fd3f66927a4777f3b",
+      "name": "HR July 2022 - Business Meeting 3",
+      "field": "gallery-image-description",
+      "after": "Three participants discussing business at a round table with a laptop",
+      "active": true,
+      "imageHostNormalization": false
+    },
+    {
+      "id": "63c4f01ea9dabe7981547074",
+      "name": "HR Can April 2022 - Think Tank 2",
+      "field": "gallery-image",
+      "before": {
+        "fileId": "63c4f00f3b2b767977bbedb6",
+        "url": "https://uploads-ssl.webflow.com/6312ee46f4c52faf21ee8ab5/63c4f00f3b2b767977bbedb6_HR%20Can%20April%202022%20-%20Think%20Tank%202.webp",
+        "alt": null
+      },
+      "after": {
+        "fileId": "63c4f00f3b2b767977bbedb6",
+        "url": "https://cdn.prod.website-files.com/6312ee46f4c52faf21ee8ab5/63c4f00f3b2b767977bbedb6_HR%20Can%20April%202022%20-%20Think%20Tank%202.webp",
+        "alt": null
+      },
+      "active": true,
+      "imageHostNormalization": true
+    },
+    {
+      "id": "63c4f01ea9dabe7981547074",
+      "name": "HR Can April 2022 - Think Tank 2",
+      "field": "gallery-image-description",
+      "after": "A facilitator leading a discussion beside a flip chart in a meeting room",
+      "active": true,
+      "imageHostNormalization": false
+    },
+    {
+      "id": "63c4f00c0a006068bbebeb69",
+      "name": "HR Can April 2022 - Speaking Session",
+      "field": "gallery-image",
+      "before": {
+        "fileId": "63c4f0057204b6718864ccce",
+        "url": "https://uploads-ssl.webflow.com/6312ee46f4c52faf21ee8ab5/63c4f0057204b6718864ccce_HR%20Can%20April%202022%20-%20Speaking%20Session.webp",
+        "alt": null
+      },
+      "after": {
+        "fileId": "63c4f0057204b6718864ccce",
+        "url": "https://cdn.prod.website-files.com/6312ee46f4c52faf21ee8ab5/63c4f0057204b6718864ccce_HR%20Can%20April%202022%20-%20Speaking%20Session.webp",
+        "alt": null
+      },
+      "active": true,
+      "imageHostNormalization": true
+    },
+    {
+      "id": "63c4f00c0a006068bbebeb69",
+      "name": "HR Can April 2022 - Speaking Session",
+      "field": "gallery-image-description",
+      "after": "Two presenters addressing an audience on a purple-lit stage",
+      "active": true,
+      "imageHostNormalization": false
+    },
+    {
+      "id": "63c4eff5afad0b0482e4f57e",
+      "name": "HIT 2022 - Networking",
+      "field": "gallery-image",
+      "before": {
+        "fileId": "63c4efe4afad0b686ae4f53b",
+        "url": "https://uploads-ssl.webflow.com/6312ee46f4c52faf21ee8ab5/63c4efe4afad0b686ae4f53b_HIT%202022%20-%20Networking.webp",
+        "alt": null
+      },
+      "after": {
+        "fileId": "63c4efe4afad0b686ae4f53b",
+        "url": "https://cdn.prod.website-files.com/6312ee46f4c52faf21ee8ab5/63c4efe4afad0b686ae4f53b_HIT%202022%20-%20Networking.webp",
+        "alt": null
+      },
+      "active": true,
+      "imageHostNormalization": true
+    },
+    {
+      "id": "63c4eff5afad0b0482e4f57e",
+      "name": "HIT 2022 - Networking",
+      "field": "gallery-image-description",
+      "after": "Attendees networking around cocktail tables on a covered terrace",
+      "active": true,
+      "imageHostNormalization": false
+    },
+    {
+      "id": "63c4efbb9bcbb4db1896ff70",
+      "name": "HCHR 2022 - Chairperson Remarks",
+      "field": "gallery-image",
+      "before": {
+        "fileId": "63c4ef9494eb39ec3d0b3e2a",
+        "url": "https://uploads-ssl.webflow.com/6312ee46f4c52faf21ee8ab5/63c4ef9494eb39ec3d0b3e2a_HCHR%202022%20-%20Chairperson%20Remarks.webp",
+        "alt": null
+      },
+      "after": {
+        "fileId": "63c4ef9494eb39ec3d0b3e2a",
+        "url": "https://cdn.prod.website-files.com/6312ee46f4c52faf21ee8ab5/63c4ef9494eb39ec3d0b3e2a_HCHR%202022%20-%20Chairperson%20Remarks.webp",
+        "alt": null
+      },
+      "active": true,
+      "imageHostNormalization": true
+    },
+    {
+      "id": "63c4efbb9bcbb4db1896ff70",
+      "name": "HCHR 2022 - Chairperson Remarks",
+      "field": "gallery-image-description",
+      "after": "A smiling speaker holding a microphone on stage",
+      "active": true,
+      "imageHostNormalization": false
+    },
+    {
+      "id": "63c4ef86afad0b5383e4f236",
+      "name": "TAI Canada 2022 - Happy Hour Roundtables",
+      "field": "gallery-image",
+      "before": {
+        "fileId": "63c4ef75a9dabe0a44546799",
+        "url": "https://uploads-ssl.webflow.com/6312ee46f4c52faf21ee8ab5/63c4ef75a9dabe0a44546799_TAI%20Canada%202022%20-%20Happy%20Hour%20Roundtables%202.webp",
+        "alt": null
+      },
+      "after": {
+        "fileId": "63c4ef75a9dabe0a44546799",
+        "url": "https://cdn.prod.website-files.com/6312ee46f4c52faf21ee8ab5/63c4ef75a9dabe0a44546799_TAI%20Canada%202022%20-%20Happy%20Hour%20Roundtables%202.webp",
+        "alt": null
+      },
+      "active": true,
+      "imageHostNormalization": true
+    },
+    {
+      "id": "63c4ef86afad0b5383e4f236",
+      "name": "TAI Canada 2022 - Happy Hour Roundtables",
+      "field": "gallery-image-description",
+      "after": "A facilitator leading a discussion with participants seated around U-shaped tables",
+      "active": true,
+      "imageHostNormalization": false
+    },
+    {
+      "id": "63c4ef704553f65b58e0c1bc",
+      "name": "TAI 2022 - Speaker Session",
+      "field": "gallery-image",
+      "before": {
+        "fileId": "63c4ef634553f64d99e0c0d5",
+        "url": "https://uploads-ssl.webflow.com/6312ee46f4c52faf21ee8ab5/63c4ef634553f64d99e0c0d5_TAI%202022%20-%20Speaker%20Session.webp",
+        "alt": null
+      },
+      "after": {
+        "fileId": "63c4ef634553f64d99e0c0d5",
+        "url": "https://cdn.prod.website-files.com/6312ee46f4c52faf21ee8ab5/63c4ef634553f64d99e0c0d5_TAI%202022%20-%20Speaker%20Session.webp",
+        "alt": null
+      },
+      "active": true,
+      "imageHostNormalization": true
+    },
+    {
+      "id": "63c4ef704553f65b58e0c1bc",
+      "name": "TAI 2022 - Speaker Session",
+      "field": "gallery-image-description",
+      "after": "A speaker gesturing beside a lectern and presentation screen",
+      "active": true,
+      "imageHostNormalization": false
+    },
+    {
+      "id": "63c4ef5ece5aa25280ea0a11",
+      "name": "HR East 2022 - Speaking Session 3",
+      "field": "gallery-image",
+      "before": {
+        "fileId": "63c4ef50ce5aa28b18ea09ee",
+        "url": "https://uploads-ssl.webflow.com/6312ee46f4c52faf21ee8ab5/63c4ef50ce5aa28b18ea09ee_HR%20East%202022%20-%20Speaking%20Session%203.webp",
+        "alt": null
+      },
+      "after": {
+        "fileId": "63c4ef50ce5aa28b18ea09ee",
+        "url": "https://cdn.prod.website-files.com/6312ee46f4c52faf21ee8ab5/63c4ef50ce5aa28b18ea09ee_HR%20East%202022%20-%20Speaking%20Session%203.webp",
+        "alt": null
+      },
+      "active": true,
+      "imageHostNormalization": true
+    },
+    {
+      "id": "63c4ef5ece5aa25280ea0a11",
+      "name": "HR East 2022 - Speaking Session 3",
+      "field": "gallery-image-description",
+      "after": "Two panelists talking while seated on a purple-lit stage",
+      "active": true,
+      "imageHostNormalization": false
+    },
+    {
+      "id": "63c4ef4c8ec26404ba5d596b",
+      "name": "HR East 2022 - Speaking Session 2",
+      "field": "gallery-image",
+      "before": {
+        "fileId": "63c4ef3a1c21782c1dd5691b",
+        "url": "https://uploads-ssl.webflow.com/6312ee46f4c52faf21ee8ab5/63c4ef3a1c21782c1dd5691b_HR%20East%202022%20-%20Speaking%20Session%202.webp",
+        "alt": null
+      },
+      "after": {
+        "fileId": "63c4ef3a1c21782c1dd5691b",
+        "url": "https://cdn.prod.website-files.com/6312ee46f4c52faf21ee8ab5/63c4ef3a1c21782c1dd5691b_HR%20East%202022%20-%20Speaking%20Session%202.webp",
+        "alt": null
+      },
+      "active": true,
+      "imageHostNormalization": true
+    },
+    {
+      "id": "63c4ef4c8ec26404ba5d596b",
+      "name": "HR East 2022 - Speaking Session 2",
+      "field": "gallery-image-description",
+      "after": "A speaker addressing an audience with a handheld microphone and notes",
+      "active": true,
+      "imageHostNormalization": false
+    },
+    {
+      "id": "63c4ef35d4a4c34ebd43930d",
+      "name": "Healthcare Law and Compliance Institute Feb 2022 - Session",
+      "field": "gallery-image",
+      "before": {
+        "fileId": "63c4ef260a006048f1ebe0ec",
+        "url": "https://uploads-ssl.webflow.com/6312ee46f4c52faf21ee8ab5/63c4ef260a006048f1ebe0ec_Heathcare%20Law%20and%20Compliance%20Institute%20Feb%202022%20-%20Session.webp",
+        "alt": null
+      },
+      "after": {
+        "fileId": "63c4ef260a006048f1ebe0ec",
+        "url": "https://cdn.prod.website-files.com/6312ee46f4c52faf21ee8ab5/63c4ef260a006048f1ebe0ec_Heathcare%20Law%20and%20Compliance%20Institute%20Feb%202022%20-%20Session.webp",
+        "alt": null
+      },
+      "active": true,
+      "imageHostNormalization": true
+    },
+    {
+      "id": "63c4ef35d4a4c34ebd43930d",
+      "name": "Healthcare Law and Compliance Institute Feb 2022 - Session",
+      "field": "gallery-image-description",
+      "after": "Four panelists seated on a green-lit stage for a discussion",
+      "active": true,
+      "imageHostNormalization": false
+    },
+    {
+      "id": "63c4ef1ece5aa2aa3bea0957",
+      "name": "CLDI 2022 - Speaking Session",
+      "field": "gallery-image",
+      "before": {
+        "fileId": "63c4ef0f3b2b764510bbdc9e",
+        "url": "https://uploads-ssl.webflow.com/6312ee46f4c52faf21ee8ab5/63c4ef0f3b2b764510bbdc9e_CLDI%202022%20-%20Speaking%20Session.webp",
+        "alt": null
+      },
+      "after": {
+        "fileId": "63c4ef0f3b2b764510bbdc9e",
+        "url": "https://cdn.prod.website-files.com/6312ee46f4c52faf21ee8ab5/63c4ef0f3b2b764510bbdc9e_CLDI%202022%20-%20Speaking%20Session.webp",
+        "alt": null
+      },
+      "active": true,
+      "imageHostNormalization": true
+    },
+    {
+      "id": "63c4ef1ece5aa2aa3bea0957",
+      "name": "CLDI 2022 - Speaking Session",
+      "field": "gallery-image-description",
+      "after": "A smiling speaker gesturing with arms extended on stage",
+      "active": true,
+      "imageHostNormalization": false
+    },
+    {
+      "id": "63c4eef9d06f101994811da3",
+      "name": "TAI 2022 - Think Tank 3",
+      "field": "gallery-image",
+      "before": {
+        "fileId": "63c4eee659c35a1685472598",
+        "url": "https://uploads-ssl.webflow.com/6312ee46f4c52faf21ee8ab5/63c4eee659c35a1685472598_TAI%202022%20-%20Think%20Tank%203.webp",
+        "alt": null
+      },
+      "after": {
+        "fileId": "63c4eee659c35a1685472598",
+        "url": "https://cdn.prod.website-files.com/6312ee46f4c52faf21ee8ab5/63c4eee659c35a1685472598_TAI%202022%20-%20Think%20Tank%203.webp",
+        "alt": null
+      },
+      "active": true,
+      "imageHostNormalization": true
+    },
+    {
+      "id": "63c4eef9d06f101994811da3",
+      "name": "TAI 2022 - Think Tank 3",
+      "field": "gallery-image-description",
+      "after": "A facilitator presenting to participants seated around U-shaped tables",
+      "active": true,
+      "imageHostNormalization": false
+    },
+    {
+      "id": "63c4eeddd3f6690dab776de2",
+      "name": "TAI 2022 - Business Meeting",
+      "field": "gallery-image",
+      "before": {
+        "fileId": "63c4eecfab4c864305c9f4a9",
+        "url": "https://uploads-ssl.webflow.com/6312ee46f4c52faf21ee8ab5/63c4eecfab4c864305c9f4a9_TAI%202022%20-%20Business%20Meeting.webp",
+        "alt": null
+      },
+      "after": {
+        "fileId": "63c4eecfab4c864305c9f4a9",
+        "url": "https://cdn.prod.website-files.com/6312ee46f4c52faf21ee8ab5/63c4eecfab4c864305c9f4a9_TAI%202022%20-%20Business%20Meeting.webp",
+        "alt": null
+      },
+      "active": true,
+      "imageHostNormalization": true
+    },
+    {
+      "id": "63c4eeddd3f6690dab776de2",
+      "name": "TAI 2022 - Business Meeting",
+      "field": "gallery-image-description",
+      "after": "Two participants smiling during a meeting at a small round table",
+      "active": true,
+      "imageHostNormalization": false
+    },
+    {
+      "id": "63c4eec3273781f5d27fd754",
+      "name": "HR Can April 2022 - Session",
+      "field": "gallery-image",
+      "before": {
+        "fileId": "63c4eeb0273781eec27fd727",
+        "url": "https://uploads-ssl.webflow.com/6312ee46f4c52faf21ee8ab5/63c4eeb0273781eec27fd727_HR%20Can%20April%202022%20-%20Session.webp",
+        "alt": null
+      },
+      "after": {
+        "fileId": "63c4eeb0273781eec27fd727",
+        "url": "https://cdn.prod.website-files.com/6312ee46f4c52faf21ee8ab5/63c4eeb0273781eec27fd727_HR%20Can%20April%202022%20-%20Session.webp",
+        "alt": null
+      },
+      "active": true,
+      "imageHostNormalization": true
+    },
+    {
+      "id": "63c4eec3273781f5d27fd754",
+      "name": "HR Can April 2022 - Session",
+      "field": "gallery-image-description",
+      "after": "A speaker at a lectern addressing attendees in a purple-lit conference room",
+      "active": true,
+      "imageHostNormalization": false
+    },
+    {
+      "id": "63c4eeaba9dabe15805457b1",
+      "name": "HR Can April 2022 - Paddle Painting",
+      "field": "gallery-image",
+      "before": {
+        "fileId": "63c4ee97afad0b478ee4e7da",
+        "url": "https://uploads-ssl.webflow.com/6312ee46f4c52faf21ee8ab5/63c4ee97afad0b478ee4e7da_HR%20Can%20April%202022%20-%20Paddle%20Painting.webp",
+        "alt": null
+      },
+      "after": {
+        "fileId": "63c4ee97afad0b478ee4e7da",
+        "url": "https://cdn.prod.website-files.com/6312ee46f4c52faf21ee8ab5/63c4ee97afad0b478ee4e7da_HR%20Can%20April%202022%20-%20Paddle%20Painting.webp",
+        "alt": null
+      },
+      "active": true,
+      "imageHostNormalization": true
+    },
+    {
+      "id": "63c4eeaba9dabe15805457b1",
+      "name": "HR Can April 2022 - Paddle Painting",
+      "field": "gallery-image-description",
+      "after": "Participants painting wooden paddles at a table with art supplies",
+      "active": true,
+      "imageHostNormalization": false
+    },
+    {
+      "id": "63c4ee8c7204b6632964a945",
+      "name": "Healthcare Finance Institute 2022 - Thomas Bennett House Dinner",
+      "field": "gallery-image",
+      "before": {
+        "fileId": "63c4ee7b95a3b883fe7eb14a",
+        "url": "https://uploads-ssl.webflow.com/6312ee46f4c52faf21ee8ab5/63c4ee7b95a3b883fe7eb14a_Healthcare%20Finance%20Institute%202022%20-%20Thomas%20Bennett%20House%20Dinner.webp",
+        "alt": null
+      },
+      "after": {
+        "fileId": "63c4ee7b95a3b883fe7eb14a",
+        "url": "https://cdn.prod.website-files.com/6312ee46f4c52faf21ee8ab5/63c4ee7b95a3b883fe7eb14a_Healthcare%20Finance%20Institute%202022%20-%20Thomas%20Bennett%20House%20Dinner.webp",
+        "alt": null
+      },
+      "active": true,
+      "imageHostNormalization": true
+    },
+    {
+      "id": "63c4ee8c7204b6632964a945",
+      "name": "Healthcare Finance Institute 2022 - Thomas Bennett House Dinner",
+      "field": "gallery-image-description",
+      "after": "Attendees gathering outdoors in a garden beside a house with a wraparound porch",
+      "active": true,
+      "imageHostNormalization": false
+    },
+    {
+      "id": "63c4ee74a45ec70f5e15606d",
+      "name": "Healthcare Finance Institute 2022 - App",
+      "field": "gallery-image",
+      "before": {
+        "fileId": "63c4ee5ac092f81e48b0c683",
+        "url": "https://uploads-ssl.webflow.com/6312ee46f4c52faf21ee8ab5/63c4ee5ac092f81e48b0c683_Healthcare%20Finance%20Institute%202022%20-%20App.webp",
+        "alt": null
+      },
+      "after": {
+        "fileId": "63c4ee5ac092f81e48b0c683",
+        "url": "https://cdn.prod.website-files.com/6312ee46f4c52faf21ee8ab5/63c4ee5ac092f81e48b0c683_Healthcare%20Finance%20Institute%202022%20-%20App.webp",
+        "alt": null
+      },
+      "active": true,
+      "imageHostNormalization": true
+    },
+    {
+      "id": "63c4ee74a45ec70f5e15606d",
+      "name": "Healthcare Finance Institute 2022 - App",
+      "field": "gallery-image-description",
+      "after": "An attendee holding a phone displaying an event questionnaire",
+      "active": true,
+      "imageHostNormalization": false
+    },
+    {
+      "id": "63c4dedf0d5e92ef7102ff16",
+      "name": "VTT Screencap 3",
+      "field": "gallery-image",
+      "before": {
+        "fileId": "63c4decc95a3b8285e7d9b47",
+        "url": "https://uploads-ssl.webflow.com/6312ee46f4c52faf21ee8ab5/63c4decc95a3b8285e7d9b47_1663109431950.jpg",
+        "alt": null
+      },
+      "after": {
+        "fileId": "63c4decc95a3b8285e7d9b47",
+        "url": "https://cdn.prod.website-files.com/6312ee46f4c52faf21ee8ab5/63c4decc95a3b8285e7d9b47_1663109431950.jpg",
+        "alt": null
+      },
+      "active": true,
+      "imageHostNormalization": true
+    },
+    {
+      "id": "63c4dedf0d5e92ef7102ff16",
+      "name": "VTT Screencap 3",
+      "field": "gallery-image-description",
+      "after": "Ten participants joining a virtual discussion in a video-call grid",
+      "active": true,
+      "imageHostNormalization": false
+    },
+    {
+      "id": "63c4deba7204b614e6639e1a",
+      "name": "VTT Screencap 2",
+      "field": "gallery-image",
+      "before": {
+        "fileId": "63c4de8395a3b825527d96ea",
+        "url": "https://uploads-ssl.webflow.com/6312ee46f4c52faf21ee8ab5/63c4de8395a3b825527d96ea_1666278303820.jpg",
+        "alt": null
+      },
+      "after": {
+        "fileId": "63c4de8395a3b825527d96ea",
+        "url": "https://cdn.prod.website-files.com/6312ee46f4c52faf21ee8ab5/63c4de8395a3b825527d96ea_1666278303820.jpg",
+        "alt": null
+      },
+      "active": true,
+      "imageHostNormalization": true
+    },
+    {
+      "id": "63c4deba7204b614e6639e1a",
+      "name": "VTT Screencap 2",
+      "field": "gallery-image-description",
+      "after": "Eight participants displayed in a virtual discussion surrounded by IPMI logos",
+      "active": true,
+      "imageHostNormalization": false
+    },
+    {
+      "id": "63c4de5c9f1b455325cdd32b",
+      "name": "VTT Screencap 1",
+      "field": "gallery-image",
+      "before": {
+        "fileId": "63c4de027204b67a1263955c",
+        "url": "https://uploads-ssl.webflow.com/6312ee46f4c52faf21ee8ab5/63c4de027204b67a1263955c_1639681565247.jpg",
+        "alt": null
+      },
+      "after": {
+        "fileId": "63c4de027204b67a1263955c",
+        "url": "https://cdn.prod.website-files.com/6312ee46f4c52faf21ee8ab5/63c4de027204b67a1263955c_1639681565247.jpg",
+        "alt": null
+      },
+      "active": true,
+      "imageHostNormalization": true
+    },
+    {
+      "id": "63c4de5c9f1b455325cdd32b",
+      "name": "VTT Screencap 1",
+      "field": "gallery-image-description",
+      "after": "Nine participants joining a virtual discussion in a video-call grid",
+      "active": true,
+      "imageHostNormalization": false
+    },
+    {
+      "id": "63c24f882fbe551965f60f9f",
+      "name": "TAI Canada 2022 - Happy Hour Roundtables",
+      "field": "gallery-image",
+      "before": {
+        "fileId": "63c24f7c2fbe55b6f2f60e98",
+        "url": "https://uploads-ssl.webflow.com/6312ee46f4c52faf21ee8ab5/63c24f7c2fbe55b6f2f60e98_TAI%20Canada%202022%20-%20Happy%20Hour%20Roundtables.webp",
+        "alt": null
+      },
+      "after": {
+        "fileId": "63c24f7c2fbe55b6f2f60e98",
+        "url": "https://cdn.prod.website-files.com/6312ee46f4c52faf21ee8ab5/63c24f7c2fbe55b6f2f60e98_TAI%20Canada%202022%20-%20Happy%20Hour%20Roundtables.webp",
+        "alt": null
+      },
+      "active": true,
+      "imageHostNormalization": true
+    },
+    {
+      "id": "63c24f882fbe551965f60f9f",
+      "name": "TAI Canada 2022 - Happy Hour Roundtables",
+      "field": "gallery-image-description",
+      "after": "Participants chatting around meeting tables with notebooks and drinks",
+      "active": true,
+      "imageHostNormalization": false
+    },
+    {
+      "id": "63c24e708ef8c5a3f3784e6a",
+      "name": "TAI Canada 2022 - General Session Room",
+      "field": "gallery-image",
+      "before": {
+        "fileId": "63c24e6df3d9c5216a2c1857",
+        "url": "https://uploads-ssl.webflow.com/6312ee46f4c52faf21ee8ab5/63c24e6df3d9c5216a2c1857_TAI%20Canada%202022%20-%20General%20Session%20Room.webp",
+        "alt": null
+      },
+      "after": {
+        "fileId": "63c24e6df3d9c5216a2c1857",
+        "url": "https://cdn.prod.website-files.com/6312ee46f4c52faf21ee8ab5/63c24e6df3d9c5216a2c1857_TAI%20Canada%202022%20-%20General%20Session%20Room.webp",
+        "alt": null
+      },
+      "active": true,
+      "imageHostNormalization": true
+    },
+    {
+      "id": "63c24e708ef8c5a3f3784e6a",
+      "name": "TAI Canada 2022 - General Session Room",
+      "field": "gallery-image-description",
+      "after": "Attendees entering a conference room beside a General Session sign",
+      "active": true,
+      "imageHostNormalization": false
+    },
+    {
+      "id": "63c24e55f449c6814598cbb6",
+      "name": "TAI 2022 - Panel Session",
+      "field": "gallery-image",
+      "before": {
+        "fileId": "63c24e49f3d9c559e02c15df",
+        "url": "https://uploads-ssl.webflow.com/6312ee46f4c52faf21ee8ab5/63c24e49f3d9c559e02c15df_TAI%202022%20-%20Panel%20Session.webp",
+        "alt": null
+      },
+      "after": {
+        "fileId": "63c24e49f3d9c559e02c15df",
+        "url": "https://cdn.prod.website-files.com/6312ee46f4c52faf21ee8ab5/63c24e49f3d9c559e02c15df_TAI%202022%20-%20Panel%20Session.webp",
+        "alt": null
+      },
+      "active": true,
+      "imageHostNormalization": true
+    },
+    {
+      "id": "63c24e55f449c6814598cbb6",
+      "name": "TAI 2022 - Panel Session",
+      "field": "gallery-image-description",
+      "after": "Five panelists seated on stage for a discussion",
+      "active": true,
+      "imageHostNormalization": false
+    },
+    {
+      "id": "63c24e3023be3c5080d8daf1",
+      "name": "HR East 2022 - Business Meeting",
+      "field": "gallery-image",
+      "before": {
+        "fileId": "63c24e2dfd09f3265ef4eaeb",
+        "url": "https://uploads-ssl.webflow.com/6312ee46f4c52faf21ee8ab5/63c24e2dfd09f3265ef4eaeb_HR%20East%202022%20-%20Business%20Meeting.webp",
+        "alt": null
+      },
+      "after": {
+        "fileId": "63c24e2dfd09f3265ef4eaeb",
+        "url": "https://cdn.prod.website-files.com/6312ee46f4c52faf21ee8ab5/63c24e2dfd09f3265ef4eaeb_HR%20East%202022%20-%20Business%20Meeting.webp",
+        "alt": null
+      },
+      "active": true,
+      "imageHostNormalization": true
+    },
+    {
+      "id": "63c24e3023be3c5080d8daf1",
+      "name": "HR East 2022 - Business Meeting",
+      "field": "gallery-image-description",
+      "after": "Two participants talking across a small meeting table",
+      "active": true,
+      "imageHostNormalization": false
+    },
+    {
+      "id": "63c24d9207fffe129466b42d",
+      "name": "Healthcare Law and Compliance Institute Feb 2022 - Think Tank",
+      "field": "gallery-image",
+      "before": {
+        "fileId": "63c24d8d74f93439fb9fcd8c",
+        "url": "https://uploads-ssl.webflow.com/6312ee46f4c52faf21ee8ab5/63c24d8d74f93439fb9fcd8c_Heathcare%20Law%20and%20Compliance%20Institute%20Feb%202022%20-%20Think%20Tank.webp",
+        "alt": null
+      },
+      "after": {
+        "fileId": "63c24d8d74f93439fb9fcd8c",
+        "url": "https://cdn.prod.website-files.com/6312ee46f4c52faf21ee8ab5/63c24d8d74f93439fb9fcd8c_Heathcare%20Law%20and%20Compliance%20Institute%20Feb%202022%20-%20Think%20Tank.webp",
+        "alt": null
+      },
+      "active": true,
+      "imageHostNormalization": true
+    },
+    {
+      "id": "63c24d9207fffe129466b42d",
+      "name": "Healthcare Law and Compliance Institute Feb 2022 - Think Tank",
+      "field": "gallery-image-description",
+      "after": "Participants discussing ideas around U-shaped tables beneath chandeliers",
+      "active": true,
+      "imageHostNormalization": false
+    },
+    {
+      "id": "63c24d6d8fc67542548531e3",
+      "name": "Healthcare Finance Institute 2022 - Panel Session",
+      "field": "gallery-image",
+      "before": {
+        "fileId": "63c24d6c7239e976223cfc3b",
+        "url": "https://uploads-ssl.webflow.com/6312ee46f4c52faf21ee8ab5/63c24d6c7239e976223cfc3b_Healthcare%20Finance%20Institute%202022%20-%20Panel%20Session.webp",
+        "alt": null
+      },
+      "after": {
+        "fileId": "63c24d6c7239e976223cfc3b",
+        "url": "https://cdn.prod.website-files.com/6312ee46f4c52faf21ee8ab5/63c24d6c7239e976223cfc3b_Healthcare%20Finance%20Institute%202022%20-%20Panel%20Session.webp",
+        "alt": null
+      },
+      "active": true,
+      "imageHostNormalization": true
+    },
+    {
+      "id": "63c24d6d8fc67542548531e3",
+      "name": "Healthcare Finance Institute 2022 - Panel Session",
+      "field": "gallery-image-description",
+      "after": "Two panelists in conversation on a green-lit stage",
+      "active": true,
+      "imageHostNormalization": false
+    },
+    {
+      "id": "63c2495074f93482ab9f957b",
+      "name": "VTT Stock 8",
+      "field": "gallery-image-description",
+      "after": null,
+      "active": false,
+      "imageHostNormalization": false
+    },
+    {
+      "id": "63c249422fbe5523e5f5d646",
+      "name": "VTT Stock 7",
+      "field": "gallery-image-description",
+      "after": null,
+      "active": false,
+      "imageHostNormalization": false
+    },
+    {
+      "id": "63c249341a1415cf6212554c",
+      "name": "VTT Stock 6",
+      "field": "gallery-image-description",
+      "after": null,
+      "active": false,
+      "imageHostNormalization": false
+    },
+    {
+      "id": "63c249244553f63faeb2f100",
+      "name": "VTT Stock 5",
+      "field": "gallery-image-description",
+      "after": null,
+      "active": false,
+      "imageHostNormalization": false
+    },
+    {
+      "id": "63c249102405e72075c4c430",
+      "name": "VTT Stock 4",
+      "field": "gallery-image-description",
+      "after": null,
+      "active": false,
+      "imageHostNormalization": false
+    },
+    {
+      "id": "63c248ff2fbe55ba73f5d3fc",
+      "name": "VTT Stock 3",
+      "field": "gallery-image-description",
+      "after": null,
+      "active": false,
+      "imageHostNormalization": false
+    },
+    {
+      "id": "63c248f11a141555381253a7",
+      "name": "VTT Stock 2",
+      "field": "gallery-image-description",
+      "after": null,
+      "active": false,
+      "imageHostNormalization": false
+    },
+    {
+      "id": "63c248bd2fbe556be3f5d345",
+      "name": "VTT Stock 1",
+      "field": "gallery-image-description",
+      "after": null,
+      "active": false,
+      "imageHostNormalization": false
+    },
+    {
+      "id": "63bf5c53035bf7167bfdd3fc",
+      "name": "TAI 2022 - Think Tank 2",
+      "field": "gallery-image",
+      "before": {
+        "fileId": "63bf5c513c28a69c13df27d3",
+        "url": "https://uploads-ssl.webflow.com/6312ee46f4c52faf21ee8ab5/63bf5c513c28a69c13df27d3_TAI%202022%20-%20Think%20Tank%202.webp",
+        "alt": null
+      },
+      "after": {
+        "fileId": "63bf5c513c28a69c13df27d3",
+        "url": "https://cdn.prod.website-files.com/6312ee46f4c52faf21ee8ab5/63bf5c513c28a69c13df27d3_TAI%202022%20-%20Think%20Tank%202.webp",
+        "alt": null
+      },
+      "active": true,
+      "imageHostNormalization": true
+    },
+    {
+      "id": "63bf5c53035bf7167bfdd3fc",
+      "name": "TAI 2022 - Think Tank 2",
+      "field": "gallery-image-description",
+      "after": "Two participants listening during a discussion",
+      "active": true,
+      "imageHostNormalization": false
+    },
+    {
+      "id": "63bf5c46884ff5606c3436f6",
+      "name": "TAI 2022 - Think Tank 1",
+      "field": "gallery-image",
+      "before": {
+        "fileId": "63bf5c445bf1fa76b03624f4",
+        "url": "https://uploads-ssl.webflow.com/6312ee46f4c52faf21ee8ab5/63bf5c445bf1fa76b03624f4_TAI%202022%20-%20Think%20Tank%201.webp",
+        "alt": null
+      },
+      "after": {
+        "fileId": "63bf5c445bf1fa76b03624f4",
+        "url": "https://cdn.prod.website-files.com/6312ee46f4c52faf21ee8ab5/63bf5c445bf1fa76b03624f4_TAI%202022%20-%20Think%20Tank%201.webp",
+        "alt": null
+      },
+      "active": true,
+      "imageHostNormalization": true
+    },
+    {
+      "id": "63bf5c46884ff5606c3436f6",
+      "name": "TAI 2022 - Think Tank 1",
+      "field": "gallery-image-description",
+      "after": "Participants in a discussion around U-shaped meeting tables",
+      "active": true,
+      "imageHostNormalization": false
+    },
+    {
+      "id": "63bf5c3a84c6a1d34fa0b50d",
+      "name": "HR July 2022 - Roundtable",
+      "field": "gallery-image",
+      "before": {
+        "fileId": "63bf5c38b44d4582ee528b92",
+        "url": "https://uploads-ssl.webflow.com/6312ee46f4c52faf21ee8ab5/63bf5c38b44d4582ee528b92_HR%20July%202022%20-%20Roundtable.webp",
+        "alt": null
+      },
+      "after": {
+        "fileId": "63bf5c38b44d4582ee528b92",
+        "url": "https://cdn.prod.website-files.com/6312ee46f4c52faf21ee8ab5/63bf5c38b44d4582ee528b92_HR%20July%202022%20-%20Roundtable.webp",
+        "alt": null
+      },
+      "active": true,
+      "imageHostNormalization": true
+    },
+    {
+      "id": "63bf5c3a84c6a1d34fa0b50d",
+      "name": "HR July 2022 - Roundtable",
+      "field": "gallery-image-description",
+      "after": "A facilitator addressing participants around a large U-shaped table arrangement",
+      "active": true,
+      "imageHostNormalization": false
+    },
+    {
+      "id": "63bf5c3016b555ba16400060",
+      "name": "HR East 2022 - Think Tank",
+      "field": "gallery-image",
+      "before": {
+        "fileId": "63bf5c2f7b8f6ccbc33d7ed8",
+        "url": "https://uploads-ssl.webflow.com/6312ee46f4c52faf21ee8ab5/63bf5c2f7b8f6ccbc33d7ed8_HR%20East%202022%20-%20Think%20Tank.webp",
+        "alt": null
+      },
+      "after": {
+        "fileId": "63bf5c2f7b8f6ccbc33d7ed8",
+        "url": "https://cdn.prod.website-files.com/6312ee46f4c52faf21ee8ab5/63bf5c2f7b8f6ccbc33d7ed8_HR%20East%202022%20-%20Think%20Tank.webp",
+        "alt": null
+      },
+      "active": true,
+      "imageHostNormalization": true
+    },
+    {
+      "id": "63bf5c3016b555ba16400060",
+      "name": "HR East 2022 - Think Tank",
+      "field": "gallery-image-description",
+      "after": "Participants listening to a presenter in a small meeting room",
+      "active": true,
+      "imageHostNormalization": false
+    },
+    {
+      "id": "63bf5c27b44d45063e528ac1",
+      "name": "HR Can April 2022 - Roundtable",
+      "field": "gallery-image",
+      "before": {
+        "fileId": "63bf5c2561bff2587b100269",
+        "url": "https://uploads-ssl.webflow.com/6312ee46f4c52faf21ee8ab5/63bf5c2561bff2587b100269_HR%20Can%20April%202022%20-%20Roundtable.webp",
+        "alt": null
+      },
+      "after": {
+        "fileId": "63bf5c2561bff2587b100269",
+        "url": "https://cdn.prod.website-files.com/6312ee46f4c52faf21ee8ab5/63bf5c2561bff2587b100269_HR%20Can%20April%202022%20-%20Roundtable.webp",
+        "alt": null
+      },
+      "active": true,
+      "imageHostNormalization": true
+    },
+    {
+      "id": "63bf5c27b44d45063e528ac1",
+      "name": "HR Can April 2022 - Roundtable",
+      "field": "gallery-image-description",
+      "after": "A presenter addressing participants seated around U-shaped tables",
+      "active": true,
+      "imageHostNormalization": false
+    },
+    {
+      "id": "63bf5c1d0ee3ec680521dc8c",
+      "name": "HIT 2022 - Think Tank ",
+      "field": "gallery-image",
+      "before": {
+        "fileId": "63bf5c1a41a5436a7e9f0d43",
+        "url": "https://uploads-ssl.webflow.com/6312ee46f4c52faf21ee8ab5/63bf5c1a41a5436a7e9f0d43_HIT%202022%20-%20Think%20Tank%20.webp",
+        "alt": null
+      },
+      "after": {
+        "fileId": "63bf5c1a41a5436a7e9f0d43",
+        "url": "https://cdn.prod.website-files.com/6312ee46f4c52faf21ee8ab5/63bf5c1a41a5436a7e9f0d43_HIT%202022%20-%20Think%20Tank%20.webp",
+        "alt": null
+      },
+      "active": true,
+      "imageHostNormalization": true
+    },
+    {
+      "id": "63bf5c1d0ee3ec680521dc8c",
+      "name": "HIT 2022 - Think Tank ",
+      "field": "gallery-image-description",
+      "after": "A participant sharing ideas with colleagues seated around a table",
+      "active": true,
+      "imageHostNormalization": false
+    },
+    {
+      "id": "63bf5c122e8272f1d9995790",
+      "name": "Healthcare Law and Compliance Institute Feb 2022 - Think Tank Close Up",
+      "field": "gallery-image",
+      "before": {
+        "fileId": "63bf5c109924f49b1f1d1056",
+        "url": "https://uploads-ssl.webflow.com/6312ee46f4c52faf21ee8ab5/63bf5c109924f49b1f1d1056_Heathcare%20Law%20and%20Compliance%20Institute%20Feb%202022%20-%20Think%20Tank%20Close%20Up.webp",
+        "alt": null
+      },
+      "after": {
+        "fileId": "63bf5c109924f49b1f1d1056",
+        "url": "https://cdn.prod.website-files.com/6312ee46f4c52faf21ee8ab5/63bf5c109924f49b1f1d1056_Heathcare%20Law%20and%20Compliance%20Institute%20Feb%202022%20-%20Think%20Tank%20Close%20Up.webp",
+        "alt": null
+      },
+      "active": true,
+      "imageHostNormalization": true
+    },
+    {
+      "id": "63bf5c122e8272f1d9995790",
+      "name": "Healthcare Law and Compliance Institute Feb 2022 - Think Tank Close Up",
+      "field": "gallery-image-description",
+      "after": "A participant gesturing while colleagues listen during a discussion",
+      "active": true,
+      "imageHostNormalization": false
+    },
+    {
+      "id": "63bf5c085b3523d11bd39816",
+      "name": "CLDI 2022 - Think Tank",
+      "field": "gallery-image",
+      "before": {
+        "fileId": "63bf5c0741a543a9429f0cc5",
+        "url": "https://uploads-ssl.webflow.com/6312ee46f4c52faf21ee8ab5/63bf5c0741a543a9429f0cc5_CLDI%202022%20-%20Think%20Tank.webp",
+        "alt": null
+      },
+      "after": {
+        "fileId": "63bf5c0741a543a9429f0cc5",
+        "url": "https://cdn.prod.website-files.com/6312ee46f4c52faf21ee8ab5/63bf5c0741a543a9429f0cc5_CLDI%202022%20-%20Think%20Tank.webp",
+        "alt": null
+      },
+      "active": true,
+      "imageHostNormalization": true
+    },
+    {
+      "id": "63bf5c085b3523d11bd39816",
+      "name": "CLDI 2022 - Think Tank",
+      "field": "gallery-image-description",
+      "after": "A facilitator leading a discussion around U-shaped tables with flip charts",
+      "active": true,
+      "imageHostNormalization": false
+    },
+    {
+      "id": "63bf5bef7b8f6c4fc23d7d45",
+      "name": "TAI Canada 2022 - Panel",
+      "field": "gallery-image",
+      "before": {
+        "fileId": "63bf5beed00b3f8c1523f4fa",
+        "url": "https://uploads-ssl.webflow.com/6312ee46f4c52faf21ee8ab5/63bf5beed00b3f8c1523f4fa_TAI%20Canada%202022%20-%20Panel.webp",
+        "alt": null
+      },
+      "after": {
+        "fileId": "63bf5beed00b3f8c1523f4fa",
+        "url": "https://cdn.prod.website-files.com/6312ee46f4c52faf21ee8ab5/63bf5beed00b3f8c1523f4fa_TAI%20Canada%202022%20-%20Panel.webp",
+        "alt": null
+      },
+      "active": true,
+      "imageHostNormalization": true
+    },
+    {
+      "id": "63bf5bef7b8f6c4fc23d7d45",
+      "name": "TAI Canada 2022 - Panel",
+      "field": "gallery-image-description",
+      "after": "Three panelists seated on stools during a stage discussion",
+      "active": true,
+      "imageHostNormalization": false
+    },
+    {
+      "id": "63bf5be51f11b143bc8a04ac",
+      "name": "HR July 2022 - Speaking Session",
+      "field": "gallery-image-description",
+      "after": null,
+      "active": false,
+      "imageHostNormalization": false
+    },
+    {
+      "id": "63bf5bdc10f3fdd73323cc02",
+      "name": "HR July 2022 - Session Room",
+      "field": "gallery-image",
+      "before": {
+        "fileId": "63bf5bdb10f3fdd90423cc01",
+        "url": "https://uploads-ssl.webflow.com/6312ee46f4c52faf21ee8ab5/63bf5bdb10f3fdd90423cc01_HR%20July%202022%20-%20Session%20Room.webp",
+        "alt": null
+      },
+      "after": {
+        "fileId": "63bf5bdb10f3fdd90423cc01",
+        "url": "https://cdn.prod.website-files.com/6312ee46f4c52faf21ee8ab5/63bf5bdb10f3fdd90423cc01_HR%20July%202022%20-%20Session%20Room.webp",
+        "alt": null
+      },
+      "active": true,
+      "imageHostNormalization": true
+    },
+    {
+      "id": "63bf5bdc10f3fdd73323cc02",
+      "name": "HR July 2022 - Session Room",
+      "field": "gallery-image-description",
+      "after": "Attendees listening in a conference room with rows of tables",
+      "active": true,
+      "imageHostNormalization": false
+    },
+    {
+      "id": "63bf5bd32e8272ac77994f00",
+      "name": "HR July 2022 - Panel Session",
+      "field": "gallery-image",
+      "before": {
+        "fileId": "63bf5bd1035bf75b9cfdcd62",
+        "url": "https://uploads-ssl.webflow.com/6312ee46f4c52faf21ee8ab5/63bf5bd1035bf75b9cfdcd62_HR%20July%202022%20-%20Panel%20Session.webp",
+        "alt": null
+      },
+      "after": {
+        "fileId": "63bf5bd1035bf75b9cfdcd62",
+        "url": "https://cdn.prod.website-files.com/6312ee46f4c52faf21ee8ab5/63bf5bd1035bf75b9cfdcd62_HR%20July%202022%20-%20Panel%20Session.webp",
+        "alt": null
+      },
+      "active": true,
+      "imageHostNormalization": true
+    },
+    {
+      "id": "63bf5bd32e8272ac77994f00",
+      "name": "HR July 2022 - Panel Session",
+      "field": "gallery-image-description",
+      "after": "Two panelists seated together on stage during a discussion",
+      "active": true,
+      "imageHostNormalization": false
+    },
+    {
+      "id": "63bf5bc8d00b3f3c4223f260",
+      "name": "HR East 2022 - Speaking Session 1",
+      "field": "gallery-image",
+      "before": {
+        "fileId": "63bf5bc616b555b7eb3ffb28",
+        "url": "https://uploads-ssl.webflow.com/6312ee46f4c52faf21ee8ab5/63bf5bc616b555b7eb3ffb28_HR%20East%202022%20-%20Speaking%20Session%201.webp",
+        "alt": null
+      },
+      "after": {
+        "fileId": "63bf5bc616b555b7eb3ffb28",
+        "url": "https://cdn.prod.website-files.com/6312ee46f4c52faf21ee8ab5/63bf5bc616b555b7eb3ffb28_HR%20East%202022%20-%20Speaking%20Session%201.webp",
+        "alt": null
+      },
+      "active": true,
+      "imageHostNormalization": true
+    },
+    {
+      "id": "63bf5bc8d00b3f3c4223f260",
+      "name": "HR East 2022 - Speaking Session 1",
+      "field": "gallery-image-description",
+      "after": "A speaker gesturing while holding a presentation remote",
+      "active": true,
+      "imageHostNormalization": false
+    },
+    {
+      "id": "63bf5bbd9b14847a14e3ce43",
+      "name": "HIT 2022 - Panel Session",
+      "field": "gallery-image",
+      "before": {
+        "fileId": "63bf5bbc5bf1fa5ad9361f42",
+        "url": "https://uploads-ssl.webflow.com/6312ee46f4c52faf21ee8ab5/63bf5bbc5bf1fa5ad9361f42_HIT%202022%20-%20Panel%20Session.webp",
+        "alt": null
+      },
+      "after": {
+        "fileId": "63bf5bbc5bf1fa5ad9361f42",
+        "url": "https://cdn.prod.website-files.com/6312ee46f4c52faf21ee8ab5/63bf5bbc5bf1fa5ad9361f42_HIT%202022%20-%20Panel%20Session.webp",
+        "alt": null
+      },
+      "active": true,
+      "imageHostNormalization": true
+    },
+    {
+      "id": "63bf5bbd9b14847a14e3ce43",
+      "name": "HIT 2022 - Panel Session",
+      "field": "gallery-image-description",
+      "after": "Four panelists conversing on a stage lit in green",
+      "active": true,
+      "imageHostNormalization": false
+    },
+    {
+      "id": "63bf5baf10f3fd31af23c77d",
+      "name": "Healthcare Finance Institute 2022 - Session",
+      "field": "gallery-image",
+      "before": {
+        "fileId": "63bf5bae1f11b1b07989ff25",
+        "url": "https://uploads-ssl.webflow.com/6312ee46f4c52faf21ee8ab5/63bf5bae1f11b1b07989ff25_Healthcare%20Finance%20Institute%202022%20-%20Session.webp",
+        "alt": null
+      },
+      "after": {
+        "fileId": "63bf5bae1f11b1b07989ff25",
+        "url": "https://cdn.prod.website-files.com/6312ee46f4c52faf21ee8ab5/63bf5bae1f11b1b07989ff25_Healthcare%20Finance%20Institute%202022%20-%20Session.webp",
+        "alt": null
+      },
+      "active": true,
+      "imageHostNormalization": true
+    },
+    {
+      "id": "63bf5baf10f3fd31af23c77d",
+      "name": "Healthcare Finance Institute 2022 - Session",
+      "field": "gallery-image-description",
+      "after": "A speaker presenting beside a screen to attendees seated at tables",
+      "active": true,
+      "imageHostNormalization": false
+    },
+    {
+      "id": "63bf5ba57b8f6c42ba3d790e",
+      "name": "CLDI 2022 - Panel Session",
+      "field": "gallery-image",
+      "before": {
+        "fileId": "63bf5ba4884ff50603342e01",
+        "url": "https://uploads-ssl.webflow.com/6312ee46f4c52faf21ee8ab5/63bf5ba4884ff50603342e01_CLDI%202022%20-%20Panel%20Session.webp",
+        "alt": null
+      },
+      "after": {
+        "fileId": "63bf5ba4884ff50603342e01",
+        "url": "https://cdn.prod.website-files.com/6312ee46f4c52faf21ee8ab5/63bf5ba4884ff50603342e01_CLDI%202022%20-%20Panel%20Session.webp",
+        "alt": null
+      },
+      "active": true,
+      "imageHostNormalization": true
+    },
+    {
+      "id": "63bf5ba57b8f6c42ba3d790e",
+      "name": "CLDI 2022 - Panel Session",
+      "field": "gallery-image-description",
+      "after": "Three panelists discussing ideas on stage in front of an audience",
+      "active": true,
+      "imageHostNormalization": false
+    },
+    {
+      "id": "63bf5b9007ea12e7f382006d",
+      "name": "TAI Canada 2022 - Networking",
+      "field": "gallery-image",
+      "before": {
+        "fileId": "63bf5b8fb44d45fac55274ab",
+        "url": "https://uploads-ssl.webflow.com/6312ee46f4c52faf21ee8ab5/63bf5b8fb44d45fac55274ab_TAI%20Canada%202022%20-%20Networking.webp",
+        "alt": null
+      },
+      "after": {
+        "fileId": "63bf5b8fb44d45fac55274ab",
+        "url": "https://cdn.prod.website-files.com/6312ee46f4c52faf21ee8ab5/63bf5b8fb44d45fac55274ab_TAI%20Canada%202022%20-%20Networking.webp",
+        "alt": null
+      },
+      "active": true,
+      "imageHostNormalization": true
+    },
+    {
+      "id": "63bf5b9007ea12e7f382006d",
+      "name": "TAI Canada 2022 - Networking",
+      "field": "gallery-image-description",
+      "after": "Participants talking at small tables in a bright meeting room",
+      "active": true,
+      "imageHostNormalization": false
+    },
+    {
+      "id": "63bf5b853c28a64e28df1bf8",
+      "name": "HR July 2022 - Dinner",
+      "field": "gallery-image",
+      "before": {
+        "fileId": "63bf5b84eec8b7124d2126d9",
+        "url": "https://uploads-ssl.webflow.com/6312ee46f4c52faf21ee8ab5/63bf5b84eec8b7124d2126d9_HR%20July%202022%20-%20Dinner.webp",
+        "alt": null
+      },
+      "after": {
+        "fileId": "63bf5b84eec8b7124d2126d9",
+        "url": "https://cdn.prod.website-files.com/6312ee46f4c52faf21ee8ab5/63bf5b84eec8b7124d2126d9_HR%20July%202022%20-%20Dinner.webp",
+        "alt": null
+      },
+      "active": true,
+      "imageHostNormalization": true
+    },
+    {
+      "id": "63bf5b853c28a64e28df1bf8",
+      "name": "HR July 2022 - Dinner",
+      "field": "gallery-image-description",
+      "after": "A seafood buffet with crab legs, shrimp, citrus and flowers",
+      "active": true,
+      "imageHostNormalization": false
+    },
+    {
+      "id": "63bf5b7c5b3523ce8dd39205",
+      "name": "HR July 2022 - Dinner Networking",
+      "field": "gallery-image",
+      "before": {
+        "fileId": "63bf5b7b61bff2a6cd0fef40",
+        "url": "https://uploads-ssl.webflow.com/6312ee46f4c52faf21ee8ab5/63bf5b7b61bff2a6cd0fef40_HR%20July%202022%20-%20Dinner%20Networking.webp",
+        "alt": null
+      },
+      "after": {
+        "fileId": "63bf5b7b61bff2a6cd0fef40",
+        "url": "https://cdn.prod.website-files.com/6312ee46f4c52faf21ee8ab5/63bf5b7b61bff2a6cd0fef40_HR%20July%202022%20-%20Dinner%20Networking.webp",
+        "alt": null
+      },
+      "active": true,
+      "imageHostNormalization": true
+    },
+    {
+      "id": "63bf5b7c5b3523ce8dd39205",
+      "name": "HR July 2022 - Dinner Networking",
+      "field": "gallery-image-description",
+      "after": "Attendees chatting around an outdoor cocktail table overlooking the water",
+      "active": true,
+      "imageHostNormalization": false
+    },
+    {
+      "id": "63bf5b72884ff574ca342af2",
+      "name": "HR East 2022 - Networking",
+      "field": "gallery-image",
+      "before": {
+        "fileId": "63bf5b7107ea1232be81fef4",
+        "url": "https://uploads-ssl.webflow.com/6312ee46f4c52faf21ee8ab5/63bf5b7107ea1232be81fef4_HR%20East%202022%20-%20Networking.webp",
+        "alt": null
+      },
+      "after": {
+        "fileId": "63bf5b7107ea1232be81fef4",
+        "url": "https://cdn.prod.website-files.com/6312ee46f4c52faf21ee8ab5/63bf5b7107ea1232be81fef4_HR%20East%202022%20-%20Networking.webp",
+        "alt": null
+      },
+      "active": true,
+      "imageHostNormalization": true
+    },
+    {
+      "id": "63bf5b72884ff574ca342af2",
+      "name": "HR East 2022 - Networking",
+      "field": "gallery-image-description",
+      "after": "Smiling attendees walking together outside a building",
+      "active": true,
+      "imageHostNormalization": false
+    },
+    {
+      "id": "63bf5b69d00b3fdd3923e9df",
+      "name": "Healthcare Law and Compliance Institute Feb 2022 - Networking",
+      "field": "gallery-image",
+      "before": {
+        "fileId": "63bf5b685bf1fa0adc361d15",
+        "url": "https://uploads-ssl.webflow.com/6312ee46f4c52faf21ee8ab5/63bf5b685bf1fa0adc361d15_Heathcare%20Law%20and%20Compliance%20Institute%20Feb%202022%20-%20Networking.webp",
+        "alt": null
+      },
+      "after": {
+        "fileId": "63bf5b685bf1fa0adc361d15",
+        "url": "https://cdn.prod.website-files.com/6312ee46f4c52faf21ee8ab5/63bf5b685bf1fa0adc361d15_Heathcare%20Law%20and%20Compliance%20Institute%20Feb%202022%20-%20Networking.webp",
+        "alt": null
+      },
+      "active": true,
+      "imageHostNormalization": true
+    },
+    {
+      "id": "63bf5b69d00b3fdd3923e9df",
+      "name": "Healthcare Law and Compliance Institute Feb 2022 - Networking",
+      "field": "gallery-image-description",
+      "after": "Three attendees talking around a cocktail table outdoors",
+      "active": true,
+      "imageHostNormalization": false
+    },
+    {
+      "id": "63bf5b60035bf7526ffdc5ee",
+      "name": "Healthcare Finance Institute 2022 - Dinner and Keynote",
+      "field": "gallery-image",
+      "before": {
+        "fileId": "63bf5b5e07ea126a3b81fe85",
+        "url": "https://uploads-ssl.webflow.com/6312ee46f4c52faf21ee8ab5/63bf5b5e07ea126a3b81fe85_Healthcare%20Finance%20Institute%202022%20-%20Dinner%20and%20Keynote.webp",
+        "alt": null
+      },
+      "after": {
+        "fileId": "63bf5b5e07ea126a3b81fe85",
+        "url": "https://cdn.prod.website-files.com/6312ee46f4c52faf21ee8ab5/63bf5b5e07ea126a3b81fe85_Healthcare%20Finance%20Institute%202022%20-%20Dinner%20and%20Keynote.webp",
+        "alt": null
+      },
+      "active": true,
+      "imageHostNormalization": true
+    },
+    {
+      "id": "63bf5b60035bf7526ffdc5ee",
+      "name": "Healthcare Finance Institute 2022 - Dinner and Keynote",
+      "field": "gallery-image-description",
+      "after": "A presenter addressing attendees seated at dinner tables",
+      "active": true,
+      "imageHostNormalization": false
+    },
+    {
+      "id": "63bf5b569924f441fb1d054f",
+      "name": "HCHR 2022 - Marlee Matlin Keynote",
+      "field": "gallery-image",
+      "before": {
+        "fileId": "63bf5b51035bf71f5dfdc431",
+        "url": "https://uploads-ssl.webflow.com/6312ee46f4c52faf21ee8ab5/63bf5b51035bf71f5dfdc431_HCHR%202022%20-%20Marlee%20Matlin%20Keynote.webp",
+        "alt": null
+      },
+      "after": {
+        "fileId": "63bf5b51035bf71f5dfdc431",
+        "url": "https://cdn.prod.website-files.com/6312ee46f4c52faf21ee8ab5/63bf5b51035bf71f5dfdc431_HCHR%202022%20-%20Marlee%20Matlin%20Keynote.webp",
+        "alt": null
+      },
+      "active": true,
+      "imageHostNormalization": true
+    },
+    {
+      "id": "63bf5b569924f441fb1d054f",
+      "name": "HCHR 2022 - Marlee Matlin Keynote",
+      "field": "gallery-image-description",
+      "after": "Two presenters gesturing beside lecterns on stage",
+      "active": true,
+      "imageHostNormalization": false
+    },
+    {
+      "id": "63bf5b48b44d457749526cf7",
+      "name": "HCHR 2022 - Lobby",
+      "field": "gallery-image",
+      "before": {
+        "fileId": "63bf5b469a4bb972949f9374",
+        "url": "https://uploads-ssl.webflow.com/6312ee46f4c52faf21ee8ab5/63bf5b469a4bb972949f9374_HCHR%202022%20-%20Lobby.webp",
+        "alt": null
+      },
+      "after": {
+        "fileId": "63bf5b469a4bb972949f9374",
+        "url": "https://cdn.prod.website-files.com/6312ee46f4c52faf21ee8ab5/63bf5b469a4bb972949f9374_HCHR%202022%20-%20Lobby.webp",
+        "alt": null
+      },
+      "active": true,
+      "imageHostNormalization": true
+    },
+    {
+      "id": "63bf5b48b44d457749526cf7",
+      "name": "HCHR 2022 - Lobby",
+      "field": "gallery-image-description",
+      "after": "Attendees gathering around tables in a sunlit conference lobby",
+      "active": true,
+      "imageHostNormalization": false
+    },
+    {
+      "id": "63bf5b3f5b3523344cd39111",
+      "name": "HCHR 2022 - Keynote Dinner",
+      "field": "gallery-image",
+      "before": {
+        "fileId": "63bf5b3cb44d4563ba526c62",
+        "url": "https://uploads-ssl.webflow.com/6312ee46f4c52faf21ee8ab5/63bf5b3cb44d4563ba526c62_HCHR%202022%20-%20Keynote%20Dinner.webp",
+        "alt": null
+      },
+      "after": {
+        "fileId": "63bf5b3cb44d4563ba526c62",
+        "url": "https://cdn.prod.website-files.com/6312ee46f4c52faf21ee8ab5/63bf5b3cb44d4563ba526c62_HCHR%202022%20-%20Keynote%20Dinner.webp",
+        "alt": null
+      },
+      "active": true,
+      "imageHostNormalization": true
+    },
+    {
+      "id": "63bf5b3f5b3523344cd39111",
+      "name": "HCHR 2022 - Keynote Dinner",
+      "field": "gallery-image-description",
+      "after": "A seated audience listening during a dinner presentation",
+      "active": true,
+      "imageHostNormalization": false
+    },
+    {
+      "id": "63bf5b34d00b3f377823e66c",
+      "name": "HCHR 2022 - Dinner",
+      "field": "gallery-image",
+      "before": {
+        "fileId": "63bf5b30d00b3fabe123e653",
+        "url": "https://uploads-ssl.webflow.com/6312ee46f4c52faf21ee8ab5/63bf5b30d00b3fabe123e653_HCHR%202022%20-%20Dinner.webp",
+        "alt": null
+      },
+      "after": {
+        "fileId": "63bf5b30d00b3fabe123e653",
+        "url": "https://cdn.prod.website-files.com/6312ee46f4c52faf21ee8ab5/63bf5b30d00b3fabe123e653_HCHR%202022%20-%20Dinner.webp",
+        "alt": null
+      },
+      "active": true,
+      "imageHostNormalization": true
+    },
+    {
+      "id": "63bf5b34d00b3f377823e66c",
+      "name": "HCHR 2022 - Dinner",
+      "field": "gallery-image-description",
+      "after": "Attendees chatting around round tables in a reception room",
+      "active": true,
+      "imageHostNormalization": false
+    },
+    {
+      "id": "63bf5b0b035bf7e2c3fdb7fe",
+      "name": "TAI Canada 2022 - Business Meeting",
+      "field": "gallery-image",
+      "before": {
+        "fileId": "63bf5b083c28a67f56df17a8",
+        "url": "https://uploads-ssl.webflow.com/6312ee46f4c52faf21ee8ab5/63bf5b083c28a67f56df17a8_TAI%20Canada%202022%20-%20Business%20Meeting.webp",
+        "alt": null
+      },
+      "after": {
+        "fileId": "63bf5b083c28a67f56df17a8",
+        "url": "https://cdn.prod.website-files.com/6312ee46f4c52faf21ee8ab5/63bf5b083c28a67f56df17a8_TAI%20Canada%202022%20-%20Business%20Meeting.webp",
+        "alt": null
+      },
+      "active": true,
+      "imageHostNormalization": true
+    },
+    {
+      "id": "63bf5b0b035bf7e2c3fdb7fe",
+      "name": "TAI Canada 2022 - Business Meeting",
+      "field": "gallery-image-description",
+      "after": "Participants meeting at a small table in a curtained lounge area",
+      "active": true,
+      "imageHostNormalization": false
+    },
+    {
+      "id": "63bf5afe035bf7050dfdb6e8",
+      "name": "HR July 2022 - Business Meeting",
+      "field": "gallery-image",
+      "before": {
+        "fileId": "63bf5afab44d4583765268de",
+        "url": "https://uploads-ssl.webflow.com/6312ee46f4c52faf21ee8ab5/63bf5afab44d4583765268de_HR%20July%202022%20-%20Business%20Meeting.webp",
+        "alt": null
+      },
+      "after": {
+        "fileId": "63bf5afab44d4583765268de",
+        "url": "https://cdn.prod.website-files.com/6312ee46f4c52faf21ee8ab5/63bf5afab44d4583765268de_HR%20July%202022%20-%20Business%20Meeting.webp",
+        "alt": null
+      },
+      "active": true,
+      "imageHostNormalization": true
+    },
+    {
+      "id": "63bf5afe035bf7050dfdb6e8",
+      "name": "HR July 2022 - Business Meeting",
+      "field": "gallery-image-description",
+      "after": "A participant gesturing while discussing business with a colleague beside a laptop",
+      "active": true,
+      "imageHostNormalization": false
+    },
+    {
+      "id": "63bf5ae79924f43f881cfbe2",
+      "name": "HR July 2022 - Business Meeting 2",
+      "field": "gallery-image",
+      "before": {
+        "fileId": "63bf5ae410f3fd91bb23b3ec",
+        "url": "https://uploads-ssl.webflow.com/6312ee46f4c52faf21ee8ab5/63bf5ae410f3fd91bb23b3ec_HR%20July%202022%20-%20Business%20Meeting%202.webp",
+        "alt": null
+      },
+      "after": {
+        "fileId": "63bf5ae410f3fd91bb23b3ec",
+        "url": "https://cdn.prod.website-files.com/6312ee46f4c52faf21ee8ab5/63bf5ae410f3fd91bb23b3ec_HR%20July%202022%20-%20Business%20Meeting%202.webp",
+        "alt": null
+      },
+      "active": true,
+      "imageHostNormalization": true
+    },
+    {
+      "id": "63bf5ae79924f43f881cfbe2",
+      "name": "HR July 2022 - Business Meeting 2",
+      "field": "gallery-image-description",
+      "after": "Three participants smiling during a meeting at a round table",
+      "active": true,
+      "imageHostNormalization": false
+    },
+    {
+      "id": "63bf5adc1653d3ec14a7aec3",
+      "name": "HR Can April 2022 - Business Meeting",
+      "field": "gallery-image",
+      "before": {
+        "fileId": "63bf5ad55756497f50d80184",
+        "url": "https://uploads-ssl.webflow.com/6312ee46f4c52faf21ee8ab5/63bf5ad55756497f50d80184_HR%20Can%20April%202022%20-%20Business%20Meeting.webp",
+        "alt": null
+      },
+      "after": {
+        "fileId": "63bf5ad55756497f50d80184",
+        "url": "https://cdn.prod.website-files.com/6312ee46f4c52faf21ee8ab5/63bf5ad55756497f50d80184_HR%20Can%20April%202022%20-%20Business%20Meeting.webp",
+        "alt": null
+      },
+      "active": true,
+      "imageHostNormalization": true
+    },
+    {
+      "id": "63bf5adc1653d3ec14a7aec3",
+      "name": "HR Can April 2022 - Business Meeting",
+      "field": "gallery-image-description",
+      "after": "Three participants talking around a table",
+      "active": true,
+      "imageHostNormalization": false
+    },
+    {
+      "id": "63bf5ac584c6a1b584a099ed",
+      "name": "Healthcare Law and Compliance Institute Feb 2022 - Business Meetings",
+      "field": "gallery-image",
+      "before": {
+        "fileId": "63bf5ab861bff224b50fe6b7",
+        "url": "https://uploads-ssl.webflow.com/6312ee46f4c52faf21ee8ab5/63bf5ab861bff224b50fe6b7_Heathcare%20Law%20and%20Compliance%20Institute%20Feb%202022%20-%20Business%20Meetings.webp",
+        "alt": null
+      },
+      "after": {
+        "fileId": "63bf5ab861bff224b50fe6b7",
+        "url": "https://cdn.prod.website-files.com/6312ee46f4c52faf21ee8ab5/63bf5ab861bff224b50fe6b7_Heathcare%20Law%20and%20Compliance%20Institute%20Feb%202022%20-%20Business%20Meetings.webp",
+        "alt": null
+      },
+      "active": true,
+      "imageHostNormalization": true
+    },
+    {
+      "id": "63bf5ac584c6a1b584a099ed",
+      "name": "Healthcare Law and Compliance Institute Feb 2022 - Business Meetings",
+      "field": "gallery-image-description",
+      "after": "Participants holding one-to-one conversations at small round tables",
+      "active": true,
+      "imageHostNormalization": false
+    },
+    {
+      "id": "63bf5ab47ca56359ee6c32c1",
+      "name": "HCHR 2022- Business Meeting",
+      "field": "gallery-image",
+      "before": {
+        "fileId": "63bf5ab12e82727627993894",
+        "url": "https://uploads-ssl.webflow.com/6312ee46f4c52faf21ee8ab5/63bf5ab12e82727627993894_HCHR%202022-%20Business%20Meeting.webp",
+        "alt": null
+      },
+      "after": {
+        "fileId": "63bf5ab12e82727627993894",
+        "url": "https://cdn.prod.website-files.com/6312ee46f4c52faf21ee8ab5/63bf5ab12e82727627993894_HCHR%202022-%20Business%20Meeting.webp",
+        "alt": null
+      },
+      "active": true,
+      "imageHostNormalization": true
+    },
+    {
+      "id": "63bf5ab47ca56359ee6c32c1",
+      "name": "HCHR 2022- Business Meeting",
+      "field": "gallery-image-description",
+      "after": "Three participants talking at a blue-covered table with a tablet and laptop",
+      "active": true,
+      "imageHostNormalization": false
+    },
+    {
+      "id": "63bf5aa65756495e53d8004c",
+      "name": "HCHR 2022 - Business Meeting 3",
+      "field": "gallery-image",
+      "before": {
+        "fileId": "63bf5a949a4bb9e7a29f8df2",
+        "url": "https://uploads-ssl.webflow.com/6312ee46f4c52faf21ee8ab5/63bf5a949a4bb9e7a29f8df2_HCHR%202022%20-%20Buisness%20Meeting%203.webp",
+        "alt": null
+      },
+      "after": {
+        "fileId": "63bf5a949a4bb9e7a29f8df2",
+        "url": "https://cdn.prod.website-files.com/6312ee46f4c52faf21ee8ab5/63bf5a949a4bb9e7a29f8df2_HCHR%202022%20-%20Buisness%20Meeting%203.webp",
+        "alt": null
+      },
+      "active": true,
+      "imageHostNormalization": true
+    },
+    {
+      "id": "63bf5aa65756495e53d8004c",
+      "name": "HCHR 2022 - Business Meeting 3",
+      "field": "gallery-image-description",
+      "after": "Three participants discussing business around a table with a laptop",
+      "active": true,
+      "imageHostNormalization": false
+    },
+    {
+      "id": "63bf5a7b7ca5634db06c312a",
+      "name": "HCHR 2022 - Business Meeting 2",
+      "field": "gallery-image",
+      "before": {
+        "fileId": "63bf5a6361bff2b8d90fd812",
+        "url": "https://uploads-ssl.webflow.com/6312ee46f4c52faf21ee8ab5/63bf5a6361bff2b8d90fd812_HCHR%202022%20-%20Buisness%20Meeting%202.webp",
+        "alt": null
+      },
+      "after": {
+        "fileId": "63bf5a6361bff2b8d90fd812",
+        "url": "https://cdn.prod.website-files.com/6312ee46f4c52faf21ee8ab5/63bf5a6361bff2b8d90fd812_HCHR%202022%20-%20Buisness%20Meeting%202.webp",
+        "alt": null
+      },
+      "active": true,
+      "imageHostNormalization": true
+    },
+    {
+      "id": "63bf5a7b7ca5634db06c312a",
+      "name": "HCHR 2022 - Business Meeting 2",
+      "field": "gallery-image-description",
+      "after": "Two participants meeting at a blue-covered table with an open laptop",
+      "active": true,
+      "imageHostNormalization": false
+    }
+  ]
+}
