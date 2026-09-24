@@ -2,7 +2,7 @@
 
 This package turns the Web Refresh Master To-Do and its supporting documents into 37 independently reviewable implementation tasks. Each task contains its sources, edit targets, steps, dependencies, acceptance checks, and rollback instructions. Start with the catalog below; follow its links for the actual copy, photo mappings, and feature details.
 
-**Package owner:** Bryan / implementation team. **Client content owner:** IPMI. **Prepared:** September 23, 2026, America/Chicago (browser observations continued September 24 UTC). **Delivery status:** Implementation underway; tasks 01–05 are staged for review, with evidence in their task documents. Remaining website implementation and integrated staging acceptance remain outstanding. A source request that already appears satisfied is a verification task, not a claim that this refresh implemented it.
+**Package owner:** Bryan / implementation team. **Client content owner:** IPMI. **Prepared:** September 23, 2026, America/Chicago (browser observations continued September 24 UTC). **Delivery status:** Implementation underway; tasks 01–06 are staged for review, with evidence in their task documents. Remaining website implementation and integrated staging acceptance remain outstanding. A source request that already appears satisfied is a verification task, not a claim that this refresh implemented it.
 
 ## Sources and evidence
 
@@ -38,7 +38,7 @@ Status describes **implementation progress**, not whether the Markdown file exis
 | 03  | [Attend page attendee-experience copy](03-attend-page-copy.md)                              | Implementation                   | Staged for review     | Exact Attend copy; responsive and visible category checks passed; form limits in task 03        |
 | 04  | [FAQ answers](04-faq-copy.md)                                                               | Implementation                   | Staged for review     | Three exact CMS answers; keyboard, canonical links and responsive checks passed; 37 follow-ups  |
 | 05  | [Homepage photos](05-homepage-photos.md)                                                    | Implementation                   | Staged for review     | Four approved photos and descriptive alt text; responsive checks passed; 19                     |
-| 06  | [Upcoming Institutes photos](06-upcoming-institutes-photos.md)                              | Implementation                   | Ready                 | Source P05–P09; 19                                                                              |
+| 06  | [Upcoming Institutes photos](06-upcoming-institutes-photos.md)                              | Implementation                   | Staged for review     | Five approved photos; page-specific Recaps overrides; responsive checks passed; 19              |
 | 07  | [Recent Institutes photo](07-recent-institutes-photo.md)                                    | Implementation                   | Ready                 | Source P10; 19                                                                                  |
 | 08  | [Gallery feature photos](08-gallery-feature-photos.md)                                      | Implementation                   | Ready                 | Source P11–P14; separate from 29                                                                |
 | 09  | [Think Tanks photo](09-think-tanks-photo.md)                                                | Implementation                   | Ready                 | Source P15; 19                                                                                  |

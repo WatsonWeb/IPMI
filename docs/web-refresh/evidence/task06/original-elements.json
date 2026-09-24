@@ -1,0 +1,274 @@
+[
+  {
+    "alt": "IPMI Speaker Panel",
+    "attributes": [
+      [
+        "src",
+        "https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/63ba67fc7fceb020224e86ff_Institutes-Bubble-2.webp"
+      ],
+      [
+        "loading",
+        "eager"
+      ],
+      [
+        "width",
+        "400"
+      ],
+      [
+        "height",
+        "400"
+      ],
+      [
+        "alt",
+        "IPMI Speaker Panel"
+      ],
+      [
+        "data-w-id",
+        "45fc8c33-bacb-f7cf-8979-02789931e0b7"
+      ],
+      [
+        "data-wf-id",
+        "[\"45fc8c33-bacb-f7cf-8979-02789931e0b7\"]"
+      ],
+      [
+        "class",
+        "bubble-photo top right circle shadow-xl"
+      ]
+    ],
+    "src": "https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/63ba67fc7fceb020224e86ff_Institutes-Bubble-2.webp",
+    "style": {
+      "fit": "fill",
+      "position": "50% 50%",
+      "radius": "50%",
+      "z": "auto"
+    }
+  },
+  {
+    "alt": "IPMI Institute Dinner",
+    "attributes": [
+      [
+        "src",
+        "https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/63cf4959cdbc6f93c3df6c57_Institutes-Bubble-7.webp"
+      ],
+      [
+        "loading",
+        "eager"
+      ],
+      [
+        "width",
+        "400"
+      ],
+      [
+        "height",
+        "400"
+      ],
+      [
+        "alt",
+        "IPMI Institute Dinner"
+      ],
+      [
+        "data-w-id",
+        "45fc8c33-bacb-f7cf-8979-02789931e0b8"
+      ],
+      [
+        "data-wf-id",
+        "[\"45fc8c33-bacb-f7cf-8979-02789931e0b8\"]"
+      ],
+      [
+        "class",
+        "bubble-photo bottom left circle front shadow-xl"
+      ]
+    ],
+    "src": "https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/63cf4959cdbc6f93c3df6c57_Institutes-Bubble-7.webp",
+    "style": {
+      "fit": "fill",
+      "position": "50% 50%",
+      "radius": "50%",
+      "z": "2"
+    }
+  },
+  {
+    "alt": "",
+    "attributes": [
+      [
+        "data-w-id",
+        "2b8dd0d9-8af4-ddc1-3613-866c8af082e1"
+      ],
+      [
+        "loading",
+        "eager"
+      ],
+      [
+        "data-wf-id",
+        "[\"2b8dd0d9-8af4-ddc1-3613-866c8af082e1\"]"
+      ],
+      [
+        "src",
+        "https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/63cf4a4bcdbc6f8c47df7d64_Institutes-Hero-BG-2.webp"
+      ],
+      [
+        "alt",
+        ""
+      ],
+      [
+        "class",
+        "hero-bg-image"
+      ],
+      [
+        "sizes",
+        "(max-width: 1279px) 100vw, 1280px"
+      ],
+      [
+        "srcset",
+        "https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/63cf4a4bcdbc6f8c47df7d64_Institutes-Hero-BG-2-p-500.webp 500w, https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/63cf4a4bcdbc6f8c47df7d64_Institutes-Hero-BG-2-p-800.webp 800w, https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/63cf4a4bcdbc6f8c47df7d64_Institutes-Hero-BG-2-p-1080.webp 1080w, https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/63cf4a4bcdbc6f8c47df7d64_Institutes-Hero-BG-2.webp 1280w"
+      ]
+    ],
+    "src": "https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/63cf4a4bcdbc6f8c47df7d64_Institutes-Hero-BG-2.webp",
+    "style": {
+      "fit": "cover",
+      "position": "50% 50%",
+      "radius": "0px",
+      "z": "auto"
+    }
+  },
+  {
+    "alt": "An advisor addressing the crowd at an IPMI institute ",
+    "attributes": [
+      [
+        "src",
+        "https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/63b7c3cbc7dee5f009e13e8c_Recaps-Bubble-2.webp"
+      ],
+      [
+        "loading",
+        "lazy"
+      ],
+      [
+        "width",
+        "400"
+      ],
+      [
+        "height",
+        "400"
+      ],
+      [
+        "alt",
+        "An advisor addressing the crowd at an IPMI institute "
+      ],
+      [
+        "data-w-instance-of",
+        "11d81f25-1d4b-d992-52b0-801a2df1164e"
+      ],
+      [
+        "data-wf-id",
+        "[\"44ce6109-455e-10ac-91b7-85d695c20155\",\"11d81f25-1d4b-d992-52b0-801a2df1164e\"]"
+      ],
+      [
+        "class",
+        "bubble-photo circle shadow-xl top left"
+      ]
+    ],
+    "src": "https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/63b7c3cbc7dee5f009e13e8c_Recaps-Bubble-2.webp",
+    "style": {
+      "fit": "fill",
+      "position": "50% 50%",
+      "radius": "50%",
+      "z": "auto"
+    }
+  },
+  {
+    "alt": "IPMI Business Meeting",
+    "attributes": [
+      [
+        "src",
+        "https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/63cf3d77cd8c8532cb40a613_Recaps-Bubble-4.webp"
+      ],
+      [
+        "loading",
+        "lazy"
+      ],
+      [
+        "width",
+        "400"
+      ],
+      [
+        "height",
+        "400"
+      ],
+      [
+        "alt",
+        "IPMI Business Meeting"
+      ],
+      [
+        "data-w-instance-of",
+        "11d81f25-1d4b-d992-52b0-801a2df1164f"
+      ],
+      [
+        "data-wf-id",
+        "[\"44ce6109-455e-10ac-91b7-85d695c20155\",\"11d81f25-1d4b-d992-52b0-801a2df1164f\"]"
+      ],
+      [
+        "class",
+        "bubble-photo circle shadow-xl bottom right front"
+      ]
+    ],
+    "src": "https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/63cf3d77cd8c8532cb40a613_Recaps-Bubble-4.webp",
+    "style": {
+      "fit": "fill",
+      "position": "50% 50%",
+      "radius": "50%",
+      "z": "2"
+    }
+  },
+  {
+    "alt": "IPMI What We Do Video Thumbnail",
+    "attributes": [
+      [
+        "src",
+        "https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/638d6cf265a7e4190f8ace3b_Home-WhatWeDo-Video.webp"
+      ],
+      [
+        "loading",
+        "lazy"
+      ],
+      [
+        "width",
+        "768"
+      ],
+      [
+        "height",
+        "512"
+      ],
+      [
+        "alt",
+        "IPMI What We Do Video Thumbnail"
+      ],
+      [
+        "data-w-id",
+        "df7c2891-8821-fbd0-d7fb-566fefc8352b"
+      ],
+      [
+        "data-wf-id",
+        "[\"df7c2891-8821-fbd0-d7fb-566fefc8352b\"]"
+      ],
+      [
+        "class",
+        "image-cover rounded shadow-xl"
+      ],
+      [
+        "sizes",
+        "(max-width: 767px) 100vw, 768px"
+      ],
+      [
+        "srcset",
+        "https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/638d6cf265a7e4190f8ace3b_Home-WhatWeDo-Video-p-500.webp 500w, https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/638d6cf265a7e4190f8ace3b_Home-WhatWeDo-Video.webp 768w"
+      ]
+    ],
+    "src": "https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/638d6cf265a7e4190f8ace3b_Home-WhatWeDo-Video.webp",
+    "style": {
+      "fit": "cover",
+      "position": "50% 50%",
+      "radius": "10px",
+      "z": "auto"
+    }
+  }
+]

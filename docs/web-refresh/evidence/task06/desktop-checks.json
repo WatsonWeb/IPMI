@@ -1,0 +1,63 @@
+{
+  "images": [
+    {
+      "alt": "Attendees networking over dinner at an IPMI Institute",
+      "currentSrc": "https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4b14c3c45253949502846_P06-HR-Central-2024-Dinner-p-500.jpg",
+      "h": 333.859375,
+      "loaded": true,
+      "src": "https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4b14c3c45253949502846_P06-HR-Central-2024-Dinner.jpg",
+      "w": 333.859375
+    },
+    {
+      "alt": "",
+      "currentSrc": "https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4b14b89ec7715954bd6d1_P05-HR-East-2026-Session-2.jpg",
+      "h": 902.9375,
+      "loaded": true,
+      "src": "https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4b14b89ec7715954bd6d1_P05-HR-East-2026-Session-2.jpg",
+      "w": 1912
+    },
+    {
+      "alt": "A participant listening during a Think Tank session",
+      "currentSrc": "https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4b14b10198c9b1043170a_P08-HRMI-West-2025-Think-Tank-5-p-500.jpg",
+      "h": 315.9375,
+      "loaded": true,
+      "src": "https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4b14b10198c9b1043170a_P08-HRMI-West-2025-Think-Tank-5.jpg",
+      "w": 315.9375
+    },
+    {
+      "alt": "A speaker presenting on stage at an IPMI Institute",
+      "currentSrc": "https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4b14cda6412ca2ac37a85_P07-HR-East-2026-Session-9-p-500.jpg",
+      "h": 315.9375,
+      "loaded": true,
+      "src": "https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4b14cda6412ca2ac37a85_P07-HR-East-2026-Session-9.jpg",
+      "w": 315.9375
+    },
+    {
+      "alt": "A facilitator leading a Think Tank discussion with participants seated in a circle",
+      "currentSrc": "https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4b14b065ea59f68522cca_P09-CLDI-Apr-2025-Think-Tank-9-p-800.jpg",
+      "h": 277.15625,
+      "loaded": true,
+      "src": "https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4b14b065ea59f68522cca_P09-CLDI-Apr-2025-Think-Tank-9.jpg",
+      "w": 416
+    }
+  ],
+  "links": [
+    [
+      "See institute insights",
+      "/insights"
+    ],
+    [
+      "See Institute Insights",
+      "/insights"
+    ],
+    [
+      "Learn More About Institutes ➜",
+      "/attend"
+    ]
+  ],
+  "overflow": false,
+  "viewport": [
+    1912,
+    970
+  ]
+}
