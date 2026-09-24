@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "sourceCommit": "9c7d435cbd25a1f29a47e5f8c848017bd8b6304c",
-  "purpose": "Reviewed KBYG missing-content notices and marked hotel card visibility; preserve legacy and rebuilt global stylesheets.",
+  "sourceCommit": "7763c5e9dacfa632db4d657e4af405a71e3c7c23",
+  "purpose": "Reviewed KBYG missing-content notices and empty contact-card presentation; preserve legacy and rebuilt global stylesheets.",
   "toolchain": {
     "sass": "dart-sass\t1.104.0\t(Sass Compiler)\t[Dart]",
     "postcss": "8.5.28",
@@ -52,14 +52,15 @@
   "legacyGlobalArtifactDiffersFromModernBuild": true,
   "stylesheets": {
     "kbygArtifact": {
-      "bytes": 75611,
-      "sha256": "3811aff5f0fdfe35961758b182bfaad8c468dd65d89d4b615b5b931de54a3213",
-      "orderedAstSha256": "a28784b7d32a810ad4e0abe6cd5249372f6793d73c04a28489f5d785ad3a68d8",
+      "bytes": 75823,
+      "sha256": "2007d1458b81d31a43b8ff5ded6d90de48d68818bbd7cdbb1ee94479eb02626a",
+      "orderedAstSha256": "04902789acff47e870218417b3fff378959e0eed95178a1069e84bf1b1959bbb",
       "orderedNodeHashes": [
         "ce9b4344c329e080eaa1ad0ebcba0e329c7cb6b620f84aa45a9a7d9eb813a30e",
         "5beaf3d8b24e297b3a46ba38940df3bd1e33df3ef4d85d78db8c16ca45fbb20b",
         "f14be51449fb44aa7775726a68909f09acdd30163c87cea5d12608eaa708ec8b",
         "1aa866497eeba87ced82857792431c5fb2270d0941d926fe1acf2d98b261420e",
+        "1c82a028ca71d0ff0a2123710c8fdf4c99a9516702f77a7b90e373255baa1786",
         "c856a52efb0d6cceb3694287ad3f98f93580909f0c99cef0e1551de483c8d759",
         "7fe86569927d5adf1ff5e1b046c56892f684b29537e8f6ba7a291086c1dcd2b2",
         "3ee2446f42004595e81acd41e5ad63aade3fcd216207cb501bff4ad533e38e9f",
@@ -356,14 +357,15 @@
       ]
     },
     "kbygBuild": {
-      "bytes": 75611,
-      "sha256": "3811aff5f0fdfe35961758b182bfaad8c468dd65d89d4b615b5b931de54a3213",
-      "orderedAstSha256": "a28784b7d32a810ad4e0abe6cd5249372f6793d73c04a28489f5d785ad3a68d8",
+      "bytes": 75823,
+      "sha256": "2007d1458b81d31a43b8ff5ded6d90de48d68818bbd7cdbb1ee94479eb02626a",
+      "orderedAstSha256": "04902789acff47e870218417b3fff378959e0eed95178a1069e84bf1b1959bbb",
       "orderedNodeHashes": [
         "ce9b4344c329e080eaa1ad0ebcba0e329c7cb6b620f84aa45a9a7d9eb813a30e",
         "5beaf3d8b24e297b3a46ba38940df3bd1e33df3ef4d85d78db8c16ca45fbb20b",
         "f14be51449fb44aa7775726a68909f09acdd30163c87cea5d12608eaa708ec8b",
         "1aa866497eeba87ced82857792431c5fb2270d0941d926fe1acf2d98b261420e",
+        "1c82a028ca71d0ff0a2123710c8fdf4c99a9516702f77a7b90e373255baa1786",
         "c856a52efb0d6cceb3694287ad3f98f93580909f0c99cef0e1551de483c8d759",
         "7fe86569927d5adf1ff5e1b046c56892f684b29537e8f6ba7a291086c1dcd2b2",
         "3ee2446f42004595e81acd41e5ad63aade3fcd216207cb501bff4ad533e38e9f",
