@@ -3,15 +3,17 @@
 [Back to master](README.md)
 
 - **Owner:** Bryan / Webflow implementation; IPMI chatbot account owner supplies access and approves the brand image.
-- **Status:** Documented; installation and provider access remain unverified. No provider or Webflow settings were changed in this documentation pass.
+- **Status:** Provider access and real widget identity verified; appearance package prepared, installation blocked by missing safe staging isolation. No provider or Webflow settings changed. [September 24 evidence and exact handoff](evidence/task21/README.md).
 - **Sources:** [Web Refresh Master To-Do](https://ipmionline.sharepoint.com/:w:/s/IPMIExternal/IQDcMcTdU_t5RrSMF4cpizzbAYhFRwKUScDDaC1bx0vQCBI), chatbot request; [Chatbot feedback](https://ipmionline.sharepoint.com/:w:/s/IPMIExternal/IQA1MDBRp2t9TrR2Y7DpU2W9AdjD13l41gLegMHfs3xM9ms?e=GFhegT), page 1 and screenshots bearing “POWERED BY LYRO AI AGENT”.
-- **Depends on:** Approved avatar and provider access. Coordinate with [22 — chatbot knowledge](22-chatbot-knowledge-and-training.md), [23 — human handoff](23-chatbot-handoff.md), [19 — accessibility](19-photo-accessibility.md) and [37 — staging verification](37-staging-verification.md).
+- **Depends on:** Verified isolated provider configuration, final branding approval and live widget acceptance. Authorized local placeholder asset/copy are prepared; account access is available. Coordinate with [22 — chatbot knowledge](22-chatbot-knowledge-and-training.md), [23 — human handoff](23-chatbot-handoff.md), [19 — accessibility](19-photo-accessibility.md) and [37 — staging verification](37-staging-verification.md).
 
 ## Target and current evidence
 
-Target the sitewide chatbot launcher/conversation widget and its installation in the IPMI Webflow site. Source screenshots show a speaker photograph as the avatar and identify Lyro. **Lyro is the intended existing setup, inferred from those screenshots; the provider account has not been inspected.**
+Target the sitewide chatbot launcher/conversation widget and its installation in the IPMI Webflow site. Source screenshots show a speaker photograph and identify Lyro. September 24 Chrome inspection verified the existing Tidio/Lyro project `https://www.ipmievents.com` under IPMI Webmaster, public widget ID `gzt0sc2vqea7hesgtoe4ga0or8kdk8lr`. Only one existing project was visible. Its trusted-domain setting is Show on every domain; no isolated staging project/configuration was established.
 
-During the Chrome homepage inspection, no visible widget or Tidio/Lyro script tag was observed. That observation does not establish that there is no installation: loading rules, consent, page targeting or an inactive configuration could explain it. Verify the account and Webflow custom code before adding any script.
+Native sitewide, Home, Contact and Institutes Template code contained no Tidio/Lyro embed; Chrome runtime samples on staging Home/Contact/GCI and production Home also found no provider markup. The provider nevertheless displays installed/activated labels, which may reflect a previous installation. Treat the discrepancy as unresolved rather than proof of a working live widget. Current welcome logo is IPMI, while Advanced → Background image (Home tab) still displays the speaker photo. Prepared repair disables that background in isolated staging; actual Lyro reply-avatar remains unverified.
+
+The [exact configuration/placeholder register](evidence/task21/appearance-handoff.json), [neutral SVG fallback](evidence/task21/ipmi-chat-avatar-placeholder.svg), native code prestate, screenshots and staging installation/rollback procedure are complete local artifacts. None was installed or published. Do not reuse the shared project's real embed as a staging placeholder. Appearance, keyboard/mobile acceptance and installation remain open until isolation is verified.
 
 ## Requested result and interfaces
 
@@ -23,8 +25,8 @@ During the Chrome homepage inspection, no visible widget or Tidio/Lyro script ta
 
 ## Ordered browser implementation checklist
 
-1. [ ] In Chrome, open the IPMI Webflow Designer/settings and inspect sitewide and relevant page custom-code areas for an existing chatbot embed. Record the placement and configuration without changing unrelated code.
-2. [ ] Open the existing provider account in Chrome with authorized access. Confirm Lyro/Tidio ownership, current installation instructions, widget/workspace identity, targeting rules and the source of the speaker avatar.
+1. [x] In Chrome, inspect sitewide and Home/Contact/Institutes Template code; exact prestate captured in evidence, no embed found in these areas.
+2. [x] Open the existing provider session; verify account/project/widget, installation instructions and targeting. Speaker image mapped to Advanced Home background, distinct from welcome logo; actual AI reply-avatar check remains open.
 3. [ ] Check whether the same configuration serves production. Establish the provider-supported staging/test configuration before changing shared appearance or behavior; mark this task blocked if safe staging isolation is unavailable.
 4. [ ] Obtain the approved IPMI brand image and record its asset URL/name. Upload it through provider appearance settings, retaining a copy/reference of the old avatar and settings.
 5. [ ] Configure the staging widget's launcher, display name and responsive placement using existing site typography/colors where supported. Preserve page interactions and avoid covering navigation, form submit controls or consent controls.
@@ -36,10 +38,10 @@ During the Chrome homepage inspection, no visible widget or Tidio/Lyro script ta
 
 | Input                                     | Owner                   | Blocking condition                                                               |
 | ----------------------------------------- | ----------------------- | -------------------------------------------------------------------------------- |
-| Existing chatbot account/workspace access | IPMI account owner      | Cannot verify provider, settings or installation without it.                     |
-| Approved brand avatar file/URL            | IPMI marketing          | Speaker image replacement cannot be finalized without an approved asset.         |
+| Existing chatbot account/workspace access | IPMI account owner      | Verified September 24 via existing IPMI Webmaster session; no new account.                     |
+| Approved brand avatar file/URL            | IPMI marketing          | Existing welcome logo retained; neutral fallback prepared. Speaker Home background removal awaits isolation.         |
 | Provider staging/test isolation           | Bryan and account owner | Shared production configuration must not be changed during staging review.       |
-| Approved greeting/display name if changed | IPMI marketing          | Preserve existing approved text until supplied; content corrections are task 22. |
+| Approved greeting/display name if changed | IPMI marketing          | Exact placeholder copy prepared in JSON; apply only after isolation, then obtain final approval. |
 
 ## Acceptance checks
 

@@ -1,0 +1,68 @@
+# Task 21 — verified provider and installation handoff
+
+September 24, 2026. **Prepared; installation blocked by missing verified staging isolation.** Account access is verified. No provider field, Webflow field, embed, asset binding, production configuration or publication changed. No account/project/widget was created, no chat message was sent, and no external instructions email was sent.
+
+## Current evidence
+
+Chrome's existing session opened Tidio as **IPMI Webmaster / Basic Account**. The project switcher offered one existing project, `https://www.ipmievents.com`, plus Create a new project. No existing isolated test project was available. Lyro Configure → Audiences showed **0**. Appearance → Trusted domains was **Show on every domain**; desktop and mobile Display were on, with no excluded pages. These facts prevent treating the existing configuration as isolated staging.
+
+The real public widget ID is `gzt0sc2vqea7hesgtoe4ga0or8kdk8lr`. This is an embed identifier, not a credential. [Installation evidence](installation-before.txt) and [screenshot](installation-before.png) record the provider's own code and “installed properly” / “widget activated” labels. These labels conflict with current sampled website evidence and may reflect a prior installation; **they do not establish that a current public widget works**. A transient connection-warning banner appeared in the panel, but the settings loaded. No secrets or conversation contents were accessed.
+
+The current welcome-image control already has an IPMI blue logo, but **the speaker photograph is still present as a separate Home background**. [Appearance screenshot](appearance-before.png) and the [exact field register](appearance-handoff.json) preserve the logo URL and current greeting. [Advanced settings screenshot](advanced-background-before.png) verifies **Advanced → Background image (Home tab) = On**, with a custom speaker thumbnail selected. The exact proposed repair is to turn that background option **Off** in the isolated configuration, leaving a plain `#075985` background and retaining the actual IPMI logo; merely changing the logo will not resolve the photograph. The background file URL was not exposed in the inspected controls/DOM and remains null, with its selected thumbnail preserved in the screenshot. Do not delete the uploaded file.
+
+The [Chat appearance preview](chat-preview-before.png) shows an IPMI logo at the top of the provider's synthetic sneaker conversation. This is a canned design preview, not an actual Lyro answer or a user conversation; no messages were sent. The actual Lyro reply-avatar remains unverified. Neither image observation closes the task. The separately advertised paid Brand logo option replaces provider branding and is not the same as Content → Home → Your logo; no upgrade was attempted.
+
+Native Chrome Webflow settings inspection:
+
+| Scope | Head | Footer prestate | Result |
+| --- | --- | --- | --- |
+| Sitewide | [Captured exact text](site-head-before.html) | [Captured exact text](site-footer-before.html) | Viewport, Font Awesome, protected global CSS; menu/footer/SVG handlers and webp polyfill. No Tidio/Lyro embed. |
+| Home | Empty | [Captured exact text](home-footer-before.html) | Swiper/counters and existing page behavior; no Tidio/Lyro embed. |
+| Contact Us | Empty | [Captured exact text](contact-footer-before.html) | Existing focus/blur form styling; no Tidio/Lyro embed. |
+| Institutes Template | Empty | [Captured exact text](institutes-template-footer-before.html) | Existing modal/form behavior; no Tidio/Lyro embed. |
+
+Code was copied from native editors without changing it or clicking Save. These are dated prestate records, not replacement source to reinstall over later changes. No full-site claim is made about every hidden embed, consent branch, historical installation or route.
+
+[Chrome runtime DOM samples](runtime-samples.json) found no matching script/iframe/ID markup on [staging Home](https://ipmi.webflow.io/), [Contact](https://ipmi.webflow.io/contact), [GCI Institute](https://ipmi.webflow.io/institutes/healthcare-gci-oct-2026), or [production Home](https://www.ipmievents.com/). No cookie/consent setting was changed. Root independently corroborated absence in anonymous HTTP samples of Home/Contact on both domains. These checks establish sampled absence only, not complete installation history.
+
+## Prepared appearance and exact replacement register
+
+[appearance-handoff.json](appearance-handoff.json) contains every captured prior value, proposed value, and explicitly null installation dependency. All proposed values are **local preparation only**. No placeholder is installed on the website/provider.
+
+| ID | Prepared or retained value and target | Prior/applied state | Required final replacement |
+| --- | --- | --- | --- |
+| 21-avatar-retained | Content → Home → Your logo; exact `welcomeImageUrl` in JSON | Existing IPMI logo unchanged; final approval pending | IPMI marketing confirms approved artwork, rights and exact image; verify welcome and actual AI sender avatars independently. |
+| 21-avatar-fallback | [256×256 neutral SVG](ipmi-chat-avatar-placeholder.svg), text `IPMI` / `PLACEHOLDER`, white on `#075985` | New local fallback only, never uploaded; no prior asset | Approved IPMI square artwork or approval to retain the observed logo. If SVG is unsupported, export the same approved artwork to the provider-supported raster format. |
+| 21-background | Advanced → Background image (Home tab) **Off**; plain `#075985` background | Existing toggle On, custom speaker photo selected; unchanged | IPMI approves plain brand-color treatment or supplies non-person artwork. Apply only in isolated configuration and check both Home and Chat. |
+| 21-appearance | Exact isolated staging field values in `proposedIsolatedStagingAppearance` | No provider values changed | Marketing approves header, greeting, display name and label; Bryan verifies actual field support and isolation before applying. Final copy must remove “Placeholder” and “staging preview” only after approval. |
+| 21-isolation | `isolatedStagingProject`, `isolatedStagingWidgetId`, `isolationEvidence`, `stagingEmbed` are **null** | Existing project is production-associated; no separate configuration verified | Account owner identifies an existing isolated project or authorizes a distinct staging project separately, with documented independent configuration and exact embed. Do not create a duplicate or silently repurpose the existing project. |
+| 21-handoff | `Pending task23 approval and safe delivery configuration` | Existing offline ticket option and promise preserved; no delivery attempted | Task23 records real owner/routing, approved language and controlled delivery evidence. Public contact email is not an inferred chatbot recipient. |
+
+The proposed darker blue has white-text contrast above 4.5:1; the SVG is a neutral review asset, not an imitation of a person. Prefer the real existing logo over fallback artwork once reuse is approved. Leave provider typography at its default; do not inject global CSS into a cross-origin widget. Preserve provider attribution. Label, greeting, right-side corner placement and mobile large size are exact proposals, with actual clearance/focus checks pending a working isolated widget. Do not promise a human reply or collect test contact information until task23 has verified the route.
+
+## Installation procedure after isolation is established
+
+1. Reopen the same account; verify the exact project before every setting change. Record its independent configuration, widget ID, allowed hostname, channel/notification state and lack of production consumers. A hostname guard alone does not isolate changes to a shared provider project.
+2. Use only an existing verified isolated configuration. If none exists, stop installation and obtain an explicitly authorized isolation arrangement. This task does not authorize another account/widget. Provider project creation is a future decision, not a completed step.
+3. Capture that configuration's prior values. Apply the JSON proposals in its native Appearance controls. Retain the observed logo when appropriate; set Advanced → Background image (Home tab) Off to remove the speaker-photo presentation, and Enable widget sounds Off (currently On). Set trusted domains to exactly `ipmi.webflow.io` in that isolated configuration. Verify the provider's host-matching behavior; do not alter the shared project's Show on every domain setting.
+4. Copy the isolated project's own Installation snippet. Its exact embed is currently **pending**, so this package intentionally contains no runnable staging installation script. Do not use the production-associated identifier above as the staging placeholder.
+5. Re-check sitewide, page and inline installation sources for duplicates. Add one provider embed in native Webflow Site settings → Custom code → Footer, with an exact `location.hostname === 'ipmi.webflow.io'` load guard and a single-instance check, preserving all prior code. Record final exact bytes and position. Do not substitute a local mock widget.
+6. Save, then publish through the native site publish dialog only with `ipmi.webflow.io` checked and all four custom domains visibly unchecked. Avoid CMS Publish now. This worker performed no publish, so task19's handed-off staging publication `2026-09-24T14:23:37.647Z` is not superseded by task21.
+7. Validate fresh-load and applicable consent states on Home, Contact and the GCI Institute. Confirm exactly one isolated widget, correct avatar/AI disclosure, no production provider loads introduced, and no other scripts/forms affected. Check 1440, 768 and 390px widths: label readability, clipping, navigation/submit/consent clearance, keyboard open/close, visible focus, Escape and focus return. Do not submit live messages or handoffs without the separate controlled test arrangement.
+8. Close task21 only after live isolated checks pass. Task22 knowledge/regressions and task23 routing/delivery remain separate acceptance work.
+
+Rollback after a later authorized installation: remove only the exact new staging guarded embed, restore only that isolated configuration's captured appearance fields, and republish staging only. Never restore an entire old footer/site over newer work, remove the existing provider project, or change production targeting. There is no Webflow/provider delta to roll back from this pass.
+
+## Primary provider references checked September 24
+
+- [Customize your chat widget](https://help.tidio.com/hc/en-us/articles/5398825058588-Customize-your-chat-widget): Appearance controls include a visual preview and separate welcome-image settings. Preview is not evidence of independent saved configuration.
+- [Manage multiple projects](https://help.tidio.com/hc/en-us/articles/5444671465756-Manage-multiple-projects): projects have independent settings/widgets. Only one existing project was visible here; no project was created.
+- [Webflow integration](https://webflow.com/integrations/tidio): provider dashboard changes apply without Webflow republishing. This is why staging-only Webflow publication cannot isolate shared provider mutations.
+
+## Handoff and verification
+
+Task22 can use the existing [Lyro Playground](https://www.tidio.com/panel/lyro-ai/playground) for its documented test-environment regression, after checking the current UI. Do not save Add answer, data-source, guidance, translation or activation changes in this shared project. Task23 can inspect [Handoff](https://www.tidio.com/panel/lyro-ai/handoff) read-only; actual routing and delivery were not verified here. The visible account's online status and existing offline ticket promise do not establish recipient approval or successful delivery.
+
+Validation performed: native provider/account/installation/appearance/targeting/audience reads; three relevant native Webflow page-code checks plus sitewide code; four Chrome runtime DOM samples; JSON parse/prepared-only and null-embed assertions; SVG XML/256×256 structure; 22 local task/evidence links; white/dark-blue contrast **7.56:1**; Git diff check. Protected root CSS SHA256 remains `80EF3C254BEF30F97398B63B0888A934085BB9B371CE4EE74E2E6B20BEFE4496`. Live widget accessibility, responsive behavior, avatar sender mapping, exactly-one-widget behavior, isolated installation and human delivery are **not passed**. No app build/test suite is needed for this documentation and inert-asset change.
+
+Chrome released: task-owned provider/sample tabs closed; original Designer `1953600721` preserved at Home with Pages open, no viewport override or unsaved changes. Three unrelated dirty paths are intentionally excluded from this task commit: `Page HTML/KBYG Pages/KBYG-Template.html`, `docs/web-refresh/26-kbyg-agenda-links.md`, `scripts/check-kbyg-markup.ts`.

@@ -1,0 +1,160 @@
+- text: Our apologies.
+- strong: There was some trouble connecting to Tidio.
+- text: Please hang on for 0 seconds.
+- list:
+  - link "Dashboard":
+    - /url: /panel/dashboard
+  - link "Inbox":
+    - /url: /panel/inbox
+    - generic: "1"
+  - link "Lyro AI Agent":
+    - /url: /panel/lyro-ai
+  - link "Flows":
+    - /url: /panel/flows
+  - link "Customers":
+    - /url: /panel/customers
+  - link "Analytics":
+    - /url: /panel/analyticsv2
+  - link "Getting started":
+    - /url: /panel/getting-started
+  - link "Integrations":
+    - /url: /panel/integrations
+  - link "Settings":
+    - /url: /panel/settings
+  - button:
+- banner:
+  - heading "Settings" [level=1]:
+    - generic: Settings
+  - button "Support":
+  - button:
+  - generic: "6"
+  - generic "Stats":
+    - paragraph: Usage and plan
+  - link "Upgrade":
+    - /url: /panel/upgrade
+- main:
+  - navigation:
+    - listitem: Channels
+    - button "Live Chat":
+      - paragraph: Live Chat
+    - navigation:
+      - link "Appearance":
+        - /url: /panel/settings/live-chat/appearance
+        - text: Appearance
+      - link "Installation":
+        - /url: /panel/settings/live-chat/installation
+        - text: Installation
+      - link "Chat page":
+        - /url: /panel/settings/live-chat/chat-page
+        - text: Chat page
+      - link "Translations":
+        - /url: /panel/settings/live-chat/translations
+        - text: Translations
+    - link "Email":
+      - /url: /panel/settings/email
+      - paragraph: Email
+    - link "Facebook":
+      - /url: /panel/settings/messenger
+      - paragraph: Facebook
+    - link "Instagram":
+      - /url: /panel/settings/instagram
+      - paragraph: Instagram
+    - link "WhatsApp":
+      - /url: /panel/settings/whatsapp
+      - paragraph: WhatsApp
+    - listitem: Personal
+    - link "Account":
+      - /url: /panel/settings/account
+      - paragraph: Account
+    - link "Notifications":
+      - /url: /panel/settings/notifications
+      - paragraph: Notifications
+    - link "Operating hours":
+      - /url: /panel/settings/operating-hours
+      - paragraph: Operating hours
+    - listitem: General
+    - link "Macros":
+      - /url: /panel/settings/macros
+      - paragraph: Macros
+    - link "Workflows":
+      - /url: /panel/settings/workflows
+      - paragraph: Workflows
+    - link "Team":
+      - /url: /panel/settings/team
+      - paragraph: Team
+    - link "Service Level Agreements":
+      - /url: /panel/settings/sla
+      - paragraph: Service Level Agreements
+    - link "Customer satisfaction":
+      - /url: /panel/settings/customer-satisfaction
+      - paragraph: Customer satisfaction
+    - link "Download apps":
+      - /url: /panel/settings/download-app
+      - paragraph: Download apps
+    - link "Fields":
+      - /url: /panel/settings/fields
+      - paragraph: Fields
+    - link "Tags":
+      - /url: /panel/settings/tags
+      - paragraph: Tags
+    - link "Tracking":
+      - /url: /panel/settings/tracking
+      - paragraph: Tracking
+    - button "Developer":
+      - paragraph: Developer
+    - navigation
+    - listitem: Project
+    - link "Billing":
+      - /url: /panel/settings/billing
+      - paragraph: Billing
+    - link "Usage":
+      - /url: /panel/settings/usage
+      - paragraph: Usage
+    - link "Preferences":
+      - /url: /panel/settings/preferences
+      - paragraph: Preferences
+  - text: Chat Widget is installed properly
+  - heading "Installation" [level=2]
+  - paragraph:
+    - text: We've detected that Chat Widget is installed properly, so you don't need to go through the integration process again. If you still want to access your JavaScript code or reinstall the chat,
+    - button "open code section" [active]:
+      - generic: open code section
+  - navigation:
+    - button "Manual install":
+      - generic: Manual install
+    - button "Shopify":
+      - generic: Shopify
+    - button "WordPress":
+      - generic: WordPress
+    - button "WooCommerce":
+      - generic: WooCommerce
+    - button "BigCommerce":
+      - generic: BigCommerce
+    - button "Adobe Commerce":
+      - generic: Adobe Commerce
+    - button "PrestaShop":
+      - generic: PrestaShop
+  - generic: "1"
+  - paragraph: Paste this code snippet just before the </body> tag
+  - group "Code snippet":
+    - generic: Code snippet
+    - textbox: <script src="//code.tidio.co/gzt0sc2vqea7hesgtoe4ga0or8kdk8lr.js" async></script>
+  - button "Copy to clipboard":
+    - generic: Copy to clipboard
+  - button "Send instructions via email":
+    - generic: Send instructions via email
+  - generic: "2"
+  - paragraph: Go to your website to check if Tidio chat is there
+  - paragraph: Go to your website where you’ve installed the chat widget code. This step is required to activate the widget.
+  - paragraph: widget activated
+  - separator
+  - paragraph: Need more help?
+  - button "Visit our Help Center":
+    - generic: Visit our Help Center
+  - button "Chat with us":
+    - generic: Chat with us
+- iframe
+- list
+- region "Chat widget":
+  - button "Open chat widget":
+- status: "[object Object] has been selected."

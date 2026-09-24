@@ -1,0 +1,12 @@
+<script>
+	$(function () {
+		/* Forms */
+		$(".field").focus(function () {
+			$(this).closest(".field-wrapper").addClass("focused");
+		});
+
+		$(".field").blur(function () {
+			$(this).closest(".field-wrapper").removeClass("focused");
+		});
+	});
+</script>
