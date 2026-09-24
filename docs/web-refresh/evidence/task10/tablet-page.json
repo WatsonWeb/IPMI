@@ -1,0 +1,796 @@
+{
+  "images": [
+    {
+      "alt": "International Performance Management Institute.",
+      "cls": "logo",
+      "complete": true,
+      "currentSrc": "https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/63281aeafc3ab3e21d7c05ec_IPMI-Logo-Light.svg",
+      "fit": "fill",
+      "height": "141",
+      "naturalWidth": 300,
+      "position": "50% 50%",
+      "radius": "0px",
+      "rect": {
+        "h": 88.578125,
+        "w": 250,
+        "x": 259,
+        "y": 40
+      },
+      "src": "https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/63281aeafc3ab3e21d7c05ec_IPMI-Logo-Light.svg",
+      "width": "396",
+      "z": "auto"
+    },
+    {
+      "alt": "A smiling participant wearing a striped shirt and event lanyard at an IPMI gathering",
+      "cls": "bubble-photo top right circle shadow-xl",
+      "complete": true,
+      "currentSrc": "https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4bc32bce50bba4e943d27_P17-HCHR-March-2024-Staff-1-p-500.jpg",
+      "fit": "fill",
+      "height": "400",
+      "naturalWidth": 400,
+      "position": "50% 50%",
+      "radius": "50%",
+      "rect": {
+        "h": 250,
+        "w": 250,
+        "x": 451.21875,
+        "y": 240
+      },
+      "src": "https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4bc32bce50bba4e943d27_P17-HCHR-March-2024-Staff-1.jpg",
+      "width": "400",
+      "z": "auto"
+    },
+    {
+      "alt": "A speaker holding a microphone and notes during an IPMI session",
+      "cls": "bubble-photo bottom left circle front shadow-xl",
+      "complete": true,
+      "currentSrc": "https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4bc33655ed43be069d72e_P16-HCHR-Mar-2025-Session-16-p-500.jpg",
+      "fit": "fill",
+      "height": "400",
+      "naturalWidth": 400,
+      "position": "50% 50%",
+      "radius": "50%",
+      "rect": {
+        "h": 250,
+        "w": 250,
+        "x": 451.21875,
+        "y": 404.9375
+      },
+      "src": "https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4bc33655ed43be069d72e_P16-HCHR-Mar-2025-Session-16.jpg",
+      "width": "400",
+      "z": "2"
+    },
+    {
+      "alt": "",
+      "cls": "hero-bg-image",
+      "complete": true,
+      "currentSrc": "https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/63c503bf3b2b768a01bd495a_About-Hero-BG.webp",
+      "fit": "cover",
+      "height": null,
+      "naturalWidth": 768,
+      "position": "50% 50%",
+      "radius": "0px",
+      "rect": {
+        "h": 754.9375,
+        "w": 768,
+        "x": 0,
+        "y": 0
+      },
+      "src": "https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/63c503bf3b2b768a01bd495a_About-Hero-BG.webp",
+      "width": null,
+      "z": "auto"
+    },
+    {
+      "alt": "Two participants smiling together at an IPMI event",
+      "cls": "recap-photo hover-scale aspect-4-3",
+      "complete": true,
+      "currentSrc": "https://cdn.prod.website-files.com/6312ee46f4c52faf21ee8ab5/6ab4bd1fbf52ddc3481af066_P18-HRMI-Apr-2025-Staff-1-1920.jpg",
+      "fit": "cover",
+      "height": "1080",
+      "naturalWidth": 768,
+      "position": "50% 50%",
+      "radius": "0px",
+      "rect": {
+        "h": 246.75,
+        "w": 329,
+        "x": 40,
+        "y": 946.484375
+      },
+      "src": "https://cdn.prod.website-files.com/6312ee46f4c52faf21ee8ab5/6ab4bd1fbf52ddc3481af066_P18-HRMI-Apr-2025-Staff-1-1920.jpg",
+      "width": "1920",
+      "z": "auto"
+    },
+    {
+      "alt": "Four IPMI team members smiling together at an outdoor event",
+      "cls": "recap-photo hover-scale aspect-4-3",
+      "complete": true,
+      "currentSrc": "https://cdn.prod.website-files.com/6312ee46f4c52faf21ee8ab5/6ab4bd741859cfc75a33edf7_P19-HFI-2026-Staff-1920.jpg",
+      "fit": "cover",
+      "height": "1080",
+      "naturalWidth": 768,
+      "position": "50% 50%",
+      "radius": "0px",
+      "rect": {
+        "h": 246.75,
+        "w": 329,
+        "x": 399,
+        "y": 946.484375
+      },
+      "src": "https://cdn.prod.website-files.com/6312ee46f4c52faf21ee8ab5/6ab4bd741859cfc75a33edf7_P19-HFI-2026-Staff-1920.jpg",
+      "width": "1920",
+      "z": "auto"
+    },
+    {
+      "alt": "",
+      "cls": "recap-slider-photo",
+      "complete": true,
+      "currentSrc": "https://cdn.prod.website-files.com/6312ee46f4c52faf21ee8ab5/63bf5bdb10f3fdd90423cc01_HR%20July%202022%20-%20Session%20Room.webp",
+      "fit": "cover",
+      "height": "1080",
+      "naturalWidth": 768,
+      "position": "50% 50%",
+      "radius": "0px",
+      "rect": {
+        "h": 392,
+        "w": 588,
+        "x": 90,
+        "y": 1718.984375
+      },
+      "src": "https://cdn.prod.website-files.com/6312ee46f4c52faf21ee8ab5/63bf5bdb10f3fdd90423cc01_HR%20July%202022%20-%20Session%20Room.webp",
+      "width": "1920",
+      "z": "auto"
+    },
+    {
+      "alt": "",
+      "cls": "recap-slider-photo",
+      "complete": true,
+      "currentSrc": "https://cdn.prod.website-files.com/6312ee46f4c52faf21ee8ab5/63c9bbafd6abd0ea3863461b_HCHR%202022%20-%20Nas.jpg",
+      "fit": "cover",
+      "height": "1080",
+      "naturalWidth": 768,
+      "position": "50% 50%",
+      "radius": "0px",
+      "rect": {
+        "h": 392,
+        "w": 588,
+        "x": 678,
+        "y": 1718.984375
+      },
+      "src": "https://cdn.prod.website-files.com/6312ee46f4c52faf21ee8ab5/63c9bbafd6abd0ea3863461b_HCHR%202022%20-%20Nas.jpg",
+      "width": "1920",
+      "z": "auto"
+    },
+    {
+      "alt": "",
+      "cls": "recap-slider-photo",
+      "complete": true,
+      "currentSrc": "https://cdn.prod.website-files.com/6312ee46f4c52faf21ee8ab5/63c532c4e9a211c81899cf01_HCHR%202022%20-%20Networking.webp",
+      "fit": "cover",
+      "height": "1080",
+      "naturalWidth": 768,
+      "position": "50% 50%",
+      "radius": "0px",
+      "rect": {
+        "h": 392,
+        "w": 588,
+        "x": 1266,
+        "y": 1718.984375
+      },
+      "src": "https://cdn.prod.website-files.com/6312ee46f4c52faf21ee8ab5/63c532c4e9a211c81899cf01_HCHR%202022%20-%20Networking.webp",
+      "width": "1920",
+      "z": "auto"
+    },
+    {
+      "alt": "",
+      "cls": "recap-slider-photo",
+      "complete": true,
+      "currentSrc": "https://cdn.prod.website-files.com/6312ee46f4c52faf21ee8ab5/63c9bc955b64c559b02d1363_SOI%202022%20Jenny.webp",
+      "fit": "cover",
+      "height": "1080",
+      "naturalWidth": 768,
+      "position": "50% 50%",
+      "radius": "0px",
+      "rect": {
+        "h": 392,
+        "w": 588,
+        "x": 1854,
+        "y": 1718.984375
+      },
+      "src": "https://cdn.prod.website-files.com/6312ee46f4c52faf21ee8ab5/63c9bc955b64c559b02d1363_SOI%202022%20Jenny.webp",
+      "width": "1920",
+      "z": "auto"
+    },
+    {
+      "alt": "Nas Panwar",
+      "cls": "profile-photo circle pad-6 accent-gradient shadow-lg hover-scale",
+      "complete": false,
+      "currentSrc": "",
+      "fit": "fill",
+      "height": "300",
+      "naturalWidth": 0,
+      "position": "50% 50%",
+      "radius": "50%",
+      "rect": {
+        "h": 0,
+        "w": 0,
+        "x": 0,
+        "y": 0
+      },
+      "src": "https://cdn.prod.website-files.com/6312ee46f4c52faf21ee8ab5/65df8571a3b1b049eb687c63_Nas_BnW_Web.jpg",
+      "width": "300",
+      "z": "auto"
+    },
+    {
+      "alt": "Sydney Long",
+      "cls": "profile-photo circle pad-6 accent-gradient shadow-lg hover-scale",
+      "complete": false,
+      "currentSrc": "",
+      "fit": "fill",
+      "height": "300",
+      "naturalWidth": 0,
+      "position": "50% 50%",
+      "radius": "50%",
+      "rect": {
+        "h": 0,
+        "w": 0,
+        "x": 0,
+        "y": 0
+      },
+      "src": "https://cdn.prod.website-files.com/6312ee46f4c52faf21ee8ab5/65cd08355ca93b7c11a9a954_Sydney%20Long%20Web%20Size-1.jpg",
+      "width": "300",
+      "z": "auto"
+    },
+    {
+      "alt": "Christina Laurenza",
+      "cls": "profile-photo circle pad-6 accent-gradient shadow-lg hover-scale",
+      "complete": false,
+      "currentSrc": "",
+      "fit": "fill",
+      "height": "300",
+      "naturalWidth": 0,
+      "position": "50% 50%",
+      "radius": "50%",
+      "rect": {
+        "h": 0,
+        "w": 0,
+        "x": 0,
+        "y": 0
+      },
+      "src": "https://cdn.prod.website-files.com/6312ee46f4c52faf21ee8ab5/65cd094d87a0369e9dc7c7a1_Christina%20Laurenza%20Web%20Size-1.jpg",
+      "width": "300",
+      "z": "auto"
+    },
+    {
+      "alt": "Katrina Brightling",
+      "cls": "profile-photo circle pad-6 accent-gradient shadow-lg hover-scale",
+      "complete": false,
+      "currentSrc": "",
+      "fit": "fill",
+      "height": "300",
+      "naturalWidth": 0,
+      "position": "50% 50%",
+      "radius": "50%",
+      "rect": {
+        "h": 0,
+        "w": 0,
+        "x": 0,
+        "y": 0
+      },
+      "src": "https://cdn.prod.website-files.com/6312ee46f4c52faf21ee8ab5/6a2190a1fe9f7474db6cfc18_Katrina%20Brightling%20bnw%20Photo.jpg",
+      "width": "300",
+      "z": "auto"
+    },
+    {
+      "alt": "Amy Hallman",
+      "cls": "profile-photo circle pad-6 accent-gradient shadow-lg hover-scale",
+      "complete": false,
+      "currentSrc": "",
+      "fit": "fill",
+      "height": "300",
+      "naturalWidth": 0,
+      "position": "50% 50%",
+      "radius": "50%",
+      "rect": {
+        "h": 0,
+        "w": 0,
+        "x": 0,
+        "y": 0
+      },
+      "src": "https://cdn.prod.website-files.com/6312ee46f4c52faf21ee8ab5/65cd055100dee40e121abc93_Amy%20Hallman_Web%20Photo%201.jpg",
+      "width": "300",
+      "z": "auto"
+    },
+    {
+      "alt": "Monica Churchill",
+      "cls": "profile-photo circle pad-6 accent-gradient shadow-lg hover-scale",
+      "complete": false,
+      "currentSrc": "",
+      "fit": "fill",
+      "height": "300",
+      "naturalWidth": 0,
+      "position": "50% 50%",
+      "radius": "50%",
+      "rect": {
+        "h": 0,
+        "w": 0,
+        "x": 0,
+        "y": 0
+      },
+      "src": "https://cdn.prod.website-files.com/6312ee46f4c52faf21ee8ab5/633efbfc50ed7800c0d38cd0_Monica_Churchill_photo.jpg",
+      "width": "300",
+      "z": "auto"
+    },
+    {
+      "alt": "Jennifer Holmes",
+      "cls": "profile-photo circle pad-6 accent-gradient shadow-lg hover-scale",
+      "complete": false,
+      "currentSrc": "",
+      "fit": "fill",
+      "height": "300",
+      "naturalWidth": 0,
+      "position": "50% 50%",
+      "radius": "50%",
+      "rect": {
+        "h": 0,
+        "w": 0,
+        "x": 0,
+        "y": 0
+      },
+      "src": "https://cdn.prod.website-files.com/6312ee46f4c52faf21ee8ab5/65f9f61f5638ae5febe700a3_Jennifer%20Holmes%20Web%20Size.jpg",
+      "width": "300",
+      "z": "auto"
+    },
+    {
+      "alt": "Marissa Hofland",
+      "cls": "profile-photo circle pad-6 accent-gradient shadow-lg hover-scale",
+      "complete": false,
+      "currentSrc": "",
+      "fit": "fill",
+      "height": "300",
+      "naturalWidth": 0,
+      "position": "50% 50%",
+      "radius": "50%",
+      "rect": {
+        "h": 0,
+        "w": 0,
+        "x": 0,
+        "y": 0
+      },
+      "src": "https://cdn.prod.website-files.com/6312ee46f4c52faf21ee8ab5/637d13575532d4447a39fa6c_Marissa%20Hofland%20Old%20Web%20Size.jpg",
+      "width": "300",
+      "z": "auto"
+    },
+    {
+      "alt": "International Performance Management Institute.",
+      "cls": "footer-logo",
+      "complete": true,
+      "currentSrc": "https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6327f8231c814d48b97873a8_Asset%201.svg",
+      "fit": "fill",
+      "height": "140",
+      "naturalWidth": 300,
+      "position": "50% 50%",
+      "radius": "0px",
+      "rect": {
+        "h": 99.921875,
+        "w": 282,
+        "x": 71,
+        "y": 3059.5625
+      },
+      "src": "https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6327f8231c814d48b97873a8_Asset%201.svg",
+      "width": "395",
+      "z": "auto"
+    },
+    {
+      "alt": "",
+      "cls": "bio-photo circle border accent-border shadow-lg",
+      "complete": true,
+      "currentSrc": "https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/64af761e69fbb855ee9c47b0_BioPlaceholder.png",
+      "fit": "fill",
+      "height": null,
+      "naturalWidth": 250,
+      "position": "50% 50%",
+      "radius": "50%",
+      "rect": {
+        "h": 212.00003051757812,
+        "w": 212,
+        "x": 261.984375,
+        "y": 328.2437438964844
+      },
+      "src": "https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/64af761e69fbb855ee9c47b0_BioPlaceholder.png",
+      "width": null,
+      "z": "auto"
+    }
+  ],
+  "lightboxes": [
+    "{\n  \"items\": [\n    {\n      \"url\": \"https://cdn.prod.website-files.com/6312ee46f4c52faf21ee8ab5/6ab4bd1fbf52ddc3481af066_P18-HRMI-Apr-2025-Staff-1-1920.jpg\",\n      \"type\": \"image\"\n    }\n  ],\n  \"group\": \"About\"\n}",
+    "{\n  \"items\": [\n    {\n      \"url\": \"https://cdn.prod.website-files.com/6312ee46f4c52faf21ee8ab5/6ab4bd741859cfc75a33edf7_P19-HFI-2026-Staff-1920.jpg\",\n      \"type\": \"image\"\n    }\n  ],\n  \"group\": \"About\"\n}",
+    "{\n  \"items\": [\n    {\n      \"url\": \"https://cdn.prod.website-files.com/6312ee46f4c52faf21ee8ab5/63bf5bdb10f3fdd90423cc01_HR%20July%202022%20-%20Session%20Room.webp\",\n      \"type\": \"image\"\n    }\n  ],\n  \"group\": \"About\"\n}",
+    "{\n  \"items\": [\n    {\n      \"url\": \"https://cdn.prod.website-files.com/6312ee46f4c52faf21ee8ab5/63c9bbafd6abd0ea3863461b_HCHR%202022%20-%20Nas.jpg\",\n      \"type\": \"image\"\n    }\n  ],\n  \"group\": \"About\"\n}",
+    "{\n  \"items\": [\n    {\n      \"url\": \"https://cdn.prod.website-files.com/6312ee46f4c52faf21ee8ab5/63c532c4e9a211c81899cf01_HCHR%202022%20-%20Networking.webp\",\n      \"type\": \"image\"\n    }\n  ],\n  \"group\": \"About\"\n}",
+    "{\n  \"items\": [\n    {\n      \"url\": \"https://cdn.prod.website-files.com/6312ee46f4c52faf21ee8ab5/63c9bc955b64c559b02d1363_SOI%202022%20Jenny.webp\",\n      \"type\": \"image\"\n    }\n  ],\n  \"group\": \"About\"\n}"
+  ],
+  "links": [
+    {
+      "href": "/",
+      "text": ""
+    },
+    {
+      "href": "/institutes",
+      "text": "Institutes "
+    },
+    {
+      "href": "/institutes",
+      "text": "Upcoming Institutes"
+    },
+    {
+      "href": "/insights",
+      "text": "Institute Insights"
+    },
+    {
+      "href": "/recent-institutes",
+      "text": "Recent Institutes"
+    },
+    {
+      "href": "/gallery",
+      "text": "Institute Gallery"
+    },
+    {
+      "href": "/faq#what-is-an-institute",
+      "text": "What is an Institute?"
+    },
+    {
+      "href": "/thinktanks",
+      "text": "Think Tanks & Roundtables "
+    },
+    {
+      "href": "/thinktanks",
+      "text": "Upcoming Think Tanks & Roundtables"
+    },
+    {
+      "href": "/thinktanks#recent",
+      "text": "Recent Think Tanks & Roundtables"
+    },
+    {
+      "href": "/faq#what-is-a-think-tank",
+      "text": "What is a Think Tank?"
+    },
+    {
+      "href": "/about",
+      "text": "About IPMI "
+    },
+    {
+      "href": "/about",
+      "text": "About IPMI"
+    },
+    {
+      "href": "/testimonials",
+      "text": "Testimonials"
+    },
+    {
+      "href": "/faq",
+      "text": "FAQ"
+    },
+    {
+      "href": "/attend",
+      "text": "Attend an Institute"
+    },
+    {
+      "href": "/attend#speak",
+      "text": "Speak at an Institute"
+    },
+    {
+      "href": "/attend#partner",
+      "text": "Partner with IPMI"
+    },
+    {
+      "href": "/contact",
+      "text": "Contact Us"
+    },
+    {
+      "href": "/attend",
+      "text": "Attend an institute"
+    },
+    {
+      "href": "#",
+      "text": "Menu"
+    },
+    {
+      "href": "#about",
+      "text": "Learn about IPMI"
+    },
+    {
+      "href": "#about",
+      "text": "experience an institute"
+    },
+    {
+      "href": "#",
+      "text": "{\n  \"items\": [\n    {\n      \"url\": \"https://cdn.prod.website-files.com/6312ee46f4c52faf21ee8ab5/6ab4bd1fbf52ddc3481af066_P18-HRMI-Apr-2025-Staff-1-1920.jpg\",\n      \"type\": \"image\"\n    }\n  ],\n  \"group\": \"About\"\n}"
+    },
+    {
+      "href": "#",
+      "text": "{\n  \"items\": [\n    {\n      \"url\": \"https://cdn.prod.website-files.com/6312ee46f4c52faf21ee8ab5/6ab4bd741859cfc75a33edf7_P19-HFI-2026-Staff-1920.jpg\",\n      \"type\": \"image\"\n    }\n  ],\n  \"group\": \"About\"\n}"
+    },
+    {
+      "href": "/contact",
+      "text": "Contact Us"
+    },
+    {
+      "href": "#",
+      "text": "{\n  \"items\": [\n    {\n      \"url\": \"https://cdn.prod.website-files.com/6312ee46f4c52faf21ee8ab5/63bf5bdb10f3fdd90423cc01_HR%20July%202022%20-%20Session%20Room.webp\",\n      \"type\": \"image\"\n    }\n  ],\n  \"group\": \"About\"\n}"
+    },
+    {
+      "href": "#",
+      "text": "{\n  \"items\": [\n    {\n      \"url\": \"https://cdn.prod.website-files.com/6312ee46f4c52faf21ee8ab5/63c9bbafd6abd0ea3863461b_HCHR%202022%20-%20Nas.jpg\",\n      \"type\": \"image\"\n    }\n  ],\n  \"group\": \"About\"\n}"
+    },
+    {
+      "href": "#",
+      "text": "{\n  \"items\": [\n    {\n      \"url\": \"https://cdn.prod.website-files.com/6312ee46f4c52faf21ee8ab5/63c532c4e9a211c81899cf01_HCHR%202022%20-%20Networking.webp\",\n      \"type\": \"image\"\n    }\n  ],\n  \"group\": \"About\"\n}"
+    },
+    {
+      "href": "#",
+      "text": "{\n  \"items\": [\n    {\n      \"url\": \"https://cdn.prod.website-files.com/6312ee46f4c52faf21ee8ab5/63c9bc955b64c559b02d1363_SOI%202022%20Jenny.webp\",\n      \"type\": \"image\"\n    }\n  ],\n  \"group\": \"About\"\n}"
+    },
+    {
+      "href": "/staff/nas-panwar",
+      "text": ""
+    },
+    {
+      "href": "/staff/nas-panwar",
+      "text": "Nas Panwar"
+    },
+    {
+      "href": "/staff/sydney-long",
+      "text": ""
+    },
+    {
+      "href": "/staff/sydney-long",
+      "text": "Sydney Long"
+    },
+    {
+      "href": "/staff/christina-laurenza",
+      "text": ""
+    },
+    {
+      "href": "/staff/christina-laurenza",
+      "text": "Christina Laurenza"
+    },
+    {
+      "href": "/staff/katrina-brightling",
+      "text": ""
+    },
+    {
+      "href": "/staff/katrina-brightling",
+      "text": "Katrina Brightling"
+    },
+    {
+      "href": "/staff/amy-hallman",
+      "text": ""
+    },
+    {
+      "href": "/staff/amy-hallman",
+      "text": "Amy Hallman"
+    },
+    {
+      "href": "/staff/monica-churchill",
+      "text": ""
+    },
+    {
+      "href": "/staff/monica-churchill",
+      "text": "Monica Churchill"
+    },
+    {
+      "href": "/staff/jennifer-holmes",
+      "text": ""
+    },
+    {
+      "href": "/staff/jennifer-holmes",
+      "text": "Jennifer Holmes"
+    },
+    {
+      "href": "/staff/marissa-hofland",
+      "text": ""
+    },
+    {
+      "href": "/staff/marissa-hofland",
+      "text": "Marissa Hofland"
+    },
+    {
+      "href": "/attend",
+      "text": "Attend an Institute"
+    },
+    {
+      "href": "/contact",
+      "text": "Contact Us"
+    },
+    {
+      "href": "#top",
+      "text": ""
+    },
+    {
+      "href": "/",
+      "text": ""
+    },
+    {
+      "href": "mailto:Info@IPMIOnline.com",
+      "text": "Info@IPMIOnline.com"
+    },
+    {
+      "href": "tel:+14166284058",
+      "text": "(416) 628-4058"
+    },
+    {
+      "href": "#",
+      "text": "View sitemap"
+    },
+    {
+      "href": "#",
+      "text": "Close sitemap"
+    },
+    {
+      "href": "/institutes",
+      "text": "Institutes"
+    },
+    {
+      "href": "/institutes",
+      "text": "Upcoming Institutes"
+    },
+    {
+      "href": "/insights",
+      "text": "Institute Insights"
+    },
+    {
+      "href": "/recent-institutes",
+      "text": "Recent Institutes"
+    },
+    {
+      "href": "/gallery",
+      "text": "Institute Gallery"
+    },
+    {
+      "href": "/faq#what-is-an-institute",
+      "text": "What is an Institute?"
+    },
+    {
+      "href": "/thinktanks",
+      "text": "Think Tanks &Roundtables"
+    },
+    {
+      "href": "/thinktanks",
+      "text": "Upcoming Think Tanks"
+    },
+    {
+      "href": "/thinktanks#recent",
+      "text": "Recent Think Tanks"
+    },
+    {
+      "href": "/faq#what-is-a-virtual-think-tank",
+      "text": "What is a Think Tank?"
+    },
+    {
+      "href": "/about",
+      "text": "About IPMI"
+    },
+    {
+      "href": "/about",
+      "text": "About IPMI"
+    },
+    {
+      "href": "/testimonials",
+      "text": "Testimonials"
+    },
+    {
+      "href": "/faq",
+      "text": "FAQ"
+    },
+    {
+      "href": "/attend",
+      "text": "Attend an Institute"
+    },
+    {
+      "href": "/attend#speak",
+      "text": "Speak at an Institute"
+    },
+    {
+      "href": "/attend#partner",
+      "text": "Partner with IPMI"
+    },
+    {
+      "href": "/contact",
+      "text": "Contact Us"
+    },
+    {
+      "href": "/contact",
+      "text": "Contact Us"
+    },
+    {
+      "href": "https://www.linkedin.com/company/international-performance-management-institute-ipmi-/?originalSubdomain=ca",
+      "text": "LinkedIn"
+    },
+    {
+      "href": "/privacy",
+      "text": "Privacy Policy"
+    },
+    {
+      "href": "/terms",
+      "text": "Terms and Conditions"
+    },
+    {
+      "href": "#",
+      "text": ""
+    },
+    {
+      "href": "#",
+      "text": "CLOSE"
+    },
+    {
+      "href": "/institutes",
+      "text": "Upcoming Institutes"
+    },
+    {
+      "href": "/insights",
+      "text": "Institute Insights"
+    },
+    {
+      "href": "/recent-institutes",
+      "text": "Recent Institutes"
+    },
+    {
+      "href": "/gallery",
+      "text": "Institute Gallery"
+    },
+    {
+      "href": "/faq#what-is-an-institute",
+      "text": "What is an Institute?"
+    },
+    {
+      "href": "/thinktanks",
+      "text": "Upcoming Think Tanks& Roundtables"
+    },
+    {
+      "href": "/thinktanks#recent",
+      "text": "Recent Think Tanks& Roundtables"
+    },
+    {
+      "href": "/faq#what-is-a-think-tank",
+      "text": "What is a Think Tank?"
+    },
+    {
+      "href": "/about",
+      "text": "About IPMI"
+    },
+    {
+      "href": "/testimonials",
+      "text": "Testimonials"
+    },
+    {
+      "href": "/attend",
+      "text": "Attend an Institute"
+    },
+    {
+      "href": "/attend#speak",
+      "text": "Speak at an Institute"
+    },
+    {
+      "href": "/attend#partner",
+      "text": "Partner with IPMI"
+    },
+    {
+      "href": "/faq",
+      "text": "FAQ"
+    },
+    {
+      "href": "/contact",
+      "text": "Contact Us"
+    },
+    {
+      "href": "/attend",
+      "text": "Attend an Institute"
+    }
+  ],
+  "text": "Institutes \nUpcoming Institutes\nInstitute Insights\nRecent Institutes\nInstitute Gallery\nWhat is an Institute?\nThink Tanks & Roundtables \nUpcoming Think Tanks & Roundtables\nRecent Think Tanks & Roundtables\nWhat is a Think Tank?\nAbout IPMI \nAbout IPMI\nTestimonials\nFAQ\nAttend an Institute\nSpeak at an Institute\nPartner with IPMI\nContact Us\nATTEND AN INSTITUTE\nABOUT IPMI\nInternational Performance\nManagement Institute.\nGet to know our team, our vision, and our mission.\nLEARN ABOUT IPMI\nOUR MISSION\n\nRevitalizing the way Interactions and Knowledge Transfer take place.\n\nIPMI was formed with the vision of revitalizing the way interactions and knowledge transfer take place.  In the cyber age where information is only an isolated click away, we saw an opportunity to enhance the partnership experience by fostering intimate environments of information exchange: face-to-face, meaningful, and impactful. Our experience spans over a decade of successfully delivering high-quality business-to-business events and services across a variety of industries; our commitment to growing your network and improving your business is at the heart of what we do.\n\nIPMI has refreshed  the way knowledge transfer takes place by engaging with like-minded CxOs from different industry verticals to discuss current trends, benchmark performance and share best practices in an intimate environment.\n\nWe invite you to browse the website to get to know us a little better and reach out on the Contact Us page to find out which Institute is the right fit for your interests and priorities. We look forward to hosting you!\n\nINSTITUTE STATS\n20\nInstitutes\n2,000\n+\nCXOs\n300\n+\nSpeakers\n200\n+\nPartners\nLEARN MORE\nWant to Learn More about IPMI?\nReach out to us!\nATTEND AN INSTITUTE\nCONTACT US\nInfo@IPMIOnline.com\n(416) 628-4058\n151 Bloor Street W.\nToronto, ON\nCanada M5S1S4\nINSTITUTES\nUpcoming Institutes\nInstitute Insights\nRecent Institutes\nInstitute Gallery\nWhat is an Institute?\nTHINK TANKS &\nROUNDTABLES\nUpcoming Think Tanks\nRecent Think Tanks\nWhat is a Think Tank?\nABOUT IPMI\nAbout IPMI\nTestimonials\nFAQ\nAttend an Institute\nSpeak at an Institute\nPartner with IPMI\nCONTACT US\nContact Us\nCONNECT\n© International Performance Management Institute. All Rights Reserved.\nPrivacy Policy | Terms and Conditions\nHeading\nHeading\nHeading\nHeading",
+  "viewport": {
+    "h": 1024,
+    "scrollWidth": 790,
+    "w": 768
+  }
+}
