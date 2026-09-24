@@ -22,7 +22,7 @@ Chrome CMS inspection confirmed these four records and exact slugs:
 
 All four displayed **Published** in the CMS. That badge alone does not establish which domains were published; the links above are verification targets, not a claim that each URL was tested or is currently public. No complete list of missing future event/audience pairs was supplied.
 
-The adjacent maintained checkout `webflow-frontend-kbyg-cms` documents native CMS rendering and data ownership in `docs/KBYG-CMS-Rendering-Release.md`. It confirms that page headings, copy, CTA labels and destinations remain native Webflow bindings; the runtime enhances interactions. Reconfirm actual template bindings before applying that source to a new change.
+The maintained CMS-rendering work is now consolidated into this `webflow-frontend` checkout on `master`. Its [release notes](../KBYG-CMS-Rendering-Release.md) document native CMS rendering and data ownership: page headings, copy, CTA labels and destinations remain native Webflow bindings; the runtime enhances interactions. Reconfirm actual template bindings before applying that source to a new change.
 
 ## Requested result and interfaces
 

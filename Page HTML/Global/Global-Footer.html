@@ -1,30 +1,4 @@
-<script>
-	/* Document Ready */
-	$(function () {
-		/* Mobile Menu */
-		$(".mobile-menu").click(function (event) {
-			event.stopPropagation();
-		});
-
-		$(".mobile-menu-button").click(function () {
-			$(".mobile-menu-wrap").addClass("open");
-		});
-
-		$(".mobile-menu-wrap, .mobile-close-button").click(function () {
-			$(".mobile-menu-wrap").removeClass("open");
-		});
-
-		/* Footer */
-		$(".footer-open-button").click(function () {
-			$(".footer").addClass("open");
-		});
-
-		$(".footer-close-button").click(function () {
-			$(".footer").removeClass("open");
-		});
-
-		/* SVG Scaling Fix - Safari*/
-		$(".curve svg, .large-event-curve svg, .event-curve svg").attr("preserveAspectRatio", "none");
-	});
-</script>
-<script defer src="https://watsonweb.github.io/IPMI/js/webp-polyfill-min.js" crossorigin="anonymous"></script>
+<!-- Replace __ASSET_COMMIT_SHA__ with the approved release. This one bundle replaces
+     the former inline global initializer, stale IPMI-Navigation.js copy, and
+     the first-party WebP fallback loader. -->
+<script defer src="https://cdn.jsdelivr.net/gh/WatsonWeb/IPMI@__ASSET_COMMIT_SHA__/dist/site.js" crossorigin="anonymous"></script>

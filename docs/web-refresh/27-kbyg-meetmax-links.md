@@ -11,7 +11,7 @@
 
 Target the existing **KBYG Pages** records and their independently bound **Hub URL** and Sponsor **Support URL** fields, plus any approved content-block CTA that specifically needs a MeetMax destination. The template uses separate native `href` bindings. **Agenda Link** and the Institute's **KBYG Reservation URL** are separate destinations and must not be overwritten merely because they also lead to event resources.
 
-The newer adjacent checkout's `docs/KBYG-CMS-Rendering-Release.md` confirms that each CTA retains its own `href`; a root `data-kbyg-hub-url` must not override both Hub and Support. Its source template contains historical email/example destinations, which are not evidence of current live CMS values. Inspect and capture actual field values in Chrome before changing them.
+The local [CMS-rendering release notes](../KBYG-CMS-Rendering-Release.md), consolidated into this checkout on `master`, confirm that each CTA retains its own `href`; a root `data-kbyg-hub-url` must not override both Hub and Support. The source template contains historical email/example destinations, which are not evidence of current live CMS values. Inspect and capture actual field values in Chrome before changing them.
 
 ## Destination mapping to complete before edits
 

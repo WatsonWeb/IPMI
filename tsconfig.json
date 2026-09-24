@@ -1,0 +1,20 @@
+{
+  "compilerOptions": {
+    "target": "ES2022",
+    "lib": ["ES2022", "DOM", "DOM.Iterable"],
+    "module": "ESNext",
+    "moduleResolution": "Bundler",
+    "allowImportingTsExtensions": true,
+    "resolveJsonModule": true,
+    "verbatimModuleSyntax": true,
+    "isolatedModules": true,
+    "strict": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "noEmit": true,
+    "skipLibCheck": true,
+    "types": ["node", "vite-plus/client"]
+  },
+  "include": ["src/**/*.ts", "scripts/**/*.ts", "tests/**/*.ts", "vite.config.ts"],
+  "exclude": ["node_modules", "dist", ".webflow", "js", "Page HTML"]
+}

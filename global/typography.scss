@@ -1,16 +1,16 @@
 /* Typography */
 @use "colors" as *;
+@use "typography-primitives" as type;
 
 body {
 	font-smoothing: antialiased;
-	-webkit-font-smoothing: antialiased;
-	-moz-osx-font-smoothing: grayscale;
-	font-weight: 450;
+	@include type.font-smoothing;
+	font-weight: type.$body-weight;
 }
 
 // Weights
 ._450 {
-	font-weight: 450 !important;
+	font-weight: type.$body-weight !important;
 }
 ._515 {
 	font-weight: 515 !important;

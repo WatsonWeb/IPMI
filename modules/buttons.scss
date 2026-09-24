@@ -1,9 +1,11 @@
 /* Buttons */
+@use "button-primitives" as button;
+
 .button::after {
 	content: "";
 	display: block;
-	background-color: #fff;
-	border-radius: 100px;
+	background-color: button.$overlay-color;
+	border-radius: button.$pill-radius;
 	position: absolute;
 	top: 0;
 	left: 0;
@@ -12,14 +14,13 @@
 	z-index: 2;
 	mix-blend-mode: overlay;
 	opacity: 0;
-	transform: scale(0.2);
-	transition: all 200ms ease;
+	transform: scale(button.$overlay-scale);
+	transition: all button.$overlay-duration ease;
 	transition-property: transform, opacity;
 	pointer-events: none;
 }
 
 .button:hover::after,
 .button:focus::after {
-	opacity: 0.25;
-	transform: none;
+	@include button.overlay-active;
 }

@@ -13,12 +13,12 @@
 
 ### Collections
 
-| Entity | Changes |
-|---|---|
-| `Institutes` | Reuse title, dates, venue, address, colors, map query, agenda link, thumbnail, and venue gallery. Add `KBYG Hotel Intro` (Rich text), `KBYG Reservation Details` (Rich text), `KBYG Reservation URL` (Link), and `KBYG Transportation Details` (Rich text). |
-| `Staff` | Add `Phone` and `Email`; populate Katrina Brightling’s contact details and reference her rather than duplicating contact content. |
-| `KBYG Content Blocks` | Add Name, Slug, Institute reference, Audience Scope (`Shared`, `Delegate`, `Sponsor`), Block Type (`Preparation`, `Key Date`, `Agenda Day`, `Experience`, `FAQ`), Eyebrow, Title, Body, Icon, Calendar Start/End, All-day switch, and Initially Expanded switch. |
-| `KBYG Pages` | Add Institute reference, Audience (`Delegate` or `Sponsor`), Operations Lead reference, Hero/Hub images and alt text, audience-specific section copy and links, plus ordered multi-reference fields for Preparation, Key Dates, Agenda Days, Experience, and FAQs. |
+| Entity                | Changes                                                                                                                                                                                                                                                            |
+| --------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| `Institutes`          | Reuse title, dates, venue, address, colors, map query, agenda link, thumbnail, and venue gallery. Add `KBYG Hotel Intro` (Rich text), `KBYG Reservation Details` (Rich text), `KBYG Reservation URL` (Link), and `KBYG Transportation Details` (Rich text).        |
+| `Staff`               | Add `Phone` and `Email`; populate Katrina Brightling’s contact details and reference her rather than duplicating contact content.                                                                                                                                  |
+| `KBYG Content Blocks` | Add Name, Slug, Institute reference, Audience Scope (`Shared`, `Delegate`, `Sponsor`), Block Type (`Preparation`, `Key Date`, `Agenda Day`, `Experience`, `FAQ`), Eyebrow, Title, Body, Icon, Calendar Start/End, All-day switch, and Initially Expanded switch.   |
+| `KBYG Pages`          | Add Institute reference, Audience (`Delegate` or `Sponsor`), Operations Lead reference, Hero/Hub images and alt text, audience-specific section copy and links, plus ordered multi-reference fields for Preparation, Key Dates, Agenda Days, Experience, and FAQs. |
 
 The five multi-reference fields preserve display order. Shared agenda or other identical blocks will be selected on both pages; audience-specific blocks will exist once and be selected only on the relevant page. A pre-publish validator will reject incorrect block types, mismatched audiences, missing required fields, or anything other than one Delegate and one Sponsor page per Institute.
 

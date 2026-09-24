@@ -1,0 +1,29 @@
+<!--
+  KBYG collection-template <head> custom code.
+
+  STYLES: the single stylesheet source and Institute color bindings live in
+  KBYG-Styles-Embed.html, placed before .kbyg-page as a native Custom Styles
+  Code Embed. Do not add a duplicate stylesheet link/import to head custom code.
+
+  WEBFLOW CMS BINDINGS (configured in Designer, not represented as fake tokens):
+  - SEO title: {Referenced Institute Name} Know Before You Go — {Audience}
+  - Meta description: KBYG Page > Hero Intro
+  - Open Graph image: Referenced Institute > Thumbnail
+  - The .kbyg-page root in KBYG-Template.html:
+      data-audience       <- KBYG Page > Audience, normalized to lowercase
+      --kbyg-accent       <- Referenced Institute > Accent Color
+      --kbyg-accent-dark  <- Referenced Institute > Accent Dark
+-->
+<meta name="robots" content="noindex,follow" />
+<meta
+  name="kbyg-industry"
+  content='{{wf {"path":"institute:global-institute-category","type":"Option"\} }}'
+/>
+<style>
+  .kbyg-page[data-audience="delegate" i] [data-kbyg-audience-branch="sponsor"],
+  .kbyg-page[data-audience="sponsor" i] [data-kbyg-audience-branch="delegate"] {
+    display: none !important;
+  }
+</style>
+<!-- Audience is bound natively. The deferred runtime normalizes this value;
+     do not prune branches from a URL-derived audience before it can run. -->

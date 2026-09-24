@@ -1,12 +1,4 @@
-<script>
-	$(function () {
-		/* Forms */
-		$(".field").focus(function () {
-			$(this).closest(".field-wrapper").addClass("focused");
-		});
+<!-- Publish dist/contact.js with the approved release and replace __ASSET_COMMIT_SHA__.
+     Replaces this page's former inline initializer; do not load both. -->
 
-		$(".field").blur(function () {
-			$(this).closest(".field-wrapper").removeClass("focused");
-		});
-	});
-</script>
+<script defer src="https://cdn.jsdelivr.net/gh/WatsonWeb/IPMI@__ASSET_COMMIT_SHA__/dist/contact.js" crossorigin="anonymous"></script>

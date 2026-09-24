@@ -2,20 +2,33 @@
   "name": "ipmi-webflow",
   "version": "1.0.0",
   "description": "Custom Webflow theme for International Performance Management Institute.",
-  "main": "index.js",
-  "scripts": {
-		"fmt": "oxfmt",
-    "fmt:check": "oxfmt --check",
-		"lint": "oxlint",
-    "lint:fix": "oxlint --fix"
-	},
   "keywords": [],
-  "author": "Bryan Watson - info@bryantwatson.ca",
   "license": "ISC",
-  "packageManager": "pnpm@10.30.3",
+  "author": "Bryan Watson - info@bryantwatson.ca",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=22.18.0"
+  },
+  "scripts": {
+    "check:kbyg:scope": "node scripts/check-kbyg-scope.ts",
+    "check:kbyg:global": "node scripts/check-kbyg-global-css.ts",
+    "check:kbyg:markup": "node scripts/check-kbyg-markup.ts",
+    "check:styles:baseline": "node scripts/check-style-baseline.ts",
+    "verify": "vp check && vp build && vp run check:styles:baseline && vp run check:kbyg:scope && vp run check:kbyg:global && vp run check:kbyg:markup && vp test --run && vp run validate:kbyg",
+    "validate:kbyg": "node scripts/validate-kbyg.ts tests/fixtures/kbyg-cms-model.json"
+  },
   "devDependencies": {
-    "oxfmt": "^0.36.0",
-    "oxlint": "^1.51.0",
-    "oxlint-tsgolint": "^0.16.0"
-  }
+    "@types/node": "25.9.5",
+    "autoprefixer": "10.5.4",
+    "browserslist": "4.28.8",
+    "happy-dom": "20.14.0",
+    "parse5": "8.0.1",
+    "postcss": "8.5.28",
+    "postcss-selector-parser": "7.1.6",
+    "sass": "1.104.0",
+    "typescript": "7.0.2",
+    "vite-plus": "0.3.0"
+  },
+  "packageManager": "pnpm@10.30.3"
 }

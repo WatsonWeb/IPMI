@@ -11,9 +11,9 @@
 
 Target the **KBYG Pages Collection Template**, both Delegate and Sponsor variants, at the section `id="agenda"`, `data-kbyg-section="agenda"`. Keep the section heading ID `kbyg-agenda-title` and the existing `#agenda` navigation destination.
 
-The newer adjacent checkout `webflow-frontend-kbyg-cms` provides implementation evidence in `Page HTML/KBYG Pages/KBYG-Template.html`: an Agenda At-A-Glance heading and `.kbyg-agenda-grid` precede a `VIEW FULL INSTITUTE AGENDA` link. Its native binding points to the referenced Institute's **Agenda Link**. This is repository evidence, not proof that every live record currently has an approved agenda URL; recheck the actual binding in Chrome before editing.
+The maintained CMS-rendering work, now consolidated into this checkout on `master`, provides implementation evidence in `Page HTML/KBYG Pages/KBYG-Template.html`: an Agenda At-A-Glance heading and `.kbyg-agenda-grid` precede a `VIEW FULL INSTITUTE AGENDA` link. Its native binding points to the referenced Institute's **Agenda Link**. This is repository evidence, not proof that every live record currently has an approved agenda URL; recheck the actual binding in Chrome before editing.
 
-The same checkout's `scripts/check-kbyg-markup.ts` currently requires the literal `Agenda At-A-Glance.` and the `agenda` section. Update checks that require the removed grid, heading or nonempty `agendaDays` for the old presentation; retain the section-navigation contract and validation of any retained agenda data. The current task checkout contains older custom code, so identify the source matching the deployed template before changing source files.
+The local `scripts/check-kbyg-markup.ts` currently requires the literal `Agenda At-A-Glance.` and the `agenda` section. Update checks that require the removed grid, heading or nonempty `agendaDays` for the old presentation; retain the section-navigation contract and validation of any retained agenda data. Confirm the deployed template's source revision before changing source files.
 
 ## Requested result and interfaces
 
