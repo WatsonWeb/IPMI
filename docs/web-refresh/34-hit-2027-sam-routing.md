@@ -8,7 +8,7 @@ The source master requests all HIT 2027 Attend inquiries go to Sam. The earlier 
 
 ## Staged implementation
 
-The direct [HIT page](https://ipmi.webflow.io/institutes/hit-2027#invite) remains unchanged. [Horizon](https://ipmi.webflow.io/institutes-on-the-horizon?i=hit-2027#invite) and [Attend](https://ipmi.webflow.io/attend#invite) now bind native event identity and the existing canonical attendee recipient into their hidden CMS rows. An isolated immutable supplement selects that route only for HIT + Attend; it preserves the live legacy initializer and restores category baselines on other-event, empty and category transitions. Missing canonical HIT routing or inconsistent generic option identity blocks submission instead of guessing a fallback.
+The direct [HIT page](https://ipmi.webflow.io/institutes/hit-2027#invitation) remains unchanged. [Horizon](https://ipmi.webflow.io/institutes-on-the-horizon?i=hit-2027#invite) and [Attend](https://ipmi.webflow.io/attend#invite) now bind native event identity and the existing canonical attendee recipient into their hidden CMS rows. An isolated immutable supplement selects that route only for HIT + Attend; it preserves the live legacy initializer and restores category baselines on other-event, empty and category transitions. Missing canonical HIT routing or inconsistent generic option identity blocks submission instead of guessing a fallback.
 
 Only `ipmi.webflow.io` was published; every custom domain was unchecked. Production remains unchanged. See [evidence, precise bindings, verification and rollback](evidence/task34/README.md).
 
