@@ -1,0 +1,289 @@
+- banner:
+  - link "home":
+    - /url: /
+    - img "International Performance Management Institute."
+  - navigation:
+    - link "Institutes":
+      - /url: /institutes
+      - text: Institutes
+    - link "Upcoming Institutes":
+      - /url: /institutes
+      - text: Upcoming Institutes
+    - link "Institute Insights":
+      - /url: /insights
+      - text: Institute Insights
+    - link "Recent Institutes":
+      - /url: /recent-institutes
+      - text: Recent Institutes
+    - link "Institute Gallery":
+      - /url: /gallery
+      - text: Institute Gallery
+    - link "What is an Institute?":
+      - /url: /faq#what-is-an-institute
+      - text: What is an Institute?
+    - link "Think Tanks & Roundtables":
+      - /url: /thinktanks
+      - text: Think Tanks & Roundtables
+    - link "Upcoming Think Tanks & Roundtables":
+      - /url: /thinktanks
+      - text: Upcoming Think Tanks & Roundtables
+    - link "Recent Think Tanks & Roundtables":
+      - /url: /thinktanks#recent
+      - text: Recent Think Tanks & Roundtables
+    - link "What is a Think Tank?":
+      - /url: /faq#what-is-a-think-tank
+      - text: What is a Think Tank?
+    - link "About IPMI":
+      - /url: /about
+      - text: About IPMI
+    - link "About IPMI":
+      - /url: /about
+      - text: About IPMI
+    - link "Testimonials":
+      - /url: /testimonials
+      - text: Testimonials
+    - link "FAQ":
+      - /url: /faq
+      - text: FAQ
+    - link "Attend an Institute":
+      - /url: /attend
+      - text: Attend an Institute
+    - link "Speak at an Institute":
+      - /url: /attend#speak
+      - text: Speak at an Institute
+    - link "Partner with IPMI":
+      - /url: /attend#partner
+      - text: Partner with IPMI
+    - link "Contact Us":
+      - /url: /contact
+    - link "Attend an institute":
+      - /url: /attend
+      - text: Attend an institute
+- main:
+  - generic "Know Before You Go.":
+    - paragraph: JANUARY 24-26, 2027
+    - heading "Know Before You Go." [level=1]:
+      - text: Know Before You
+      - strong: Go.
+    - paragraph: 2027 EHS Management Institute
+    - paragraph: Four Seasons Hotel, Austin, TX
+    - paragraph: Your essential guide to event preparation, travel, timing, and everything you need to arrive confident and ready for the connections ahead.
+    - link "VIEW INSTITUTE GUIDE":
+      - /url: "#welcome"
+      - text: VIEW INSTITUTE GUIDE
+    - img "Attendee viewing the Know Before You Go event app in a hotel lobby"
+  - navigation "On this page":
+    - list:
+      - link "WELCOME":
+        - /url: "#welcome"
+        - text: WELCOME
+      - link "PREPARE":
+        - /url: "#prepare"
+        - text: PREPARE
+      - link "DATES":
+        - /url: "#key-dates"
+        - text: DATES
+      - link "AGENDA":
+        - /url: "#agenda"
+        - text: AGENDA
+      - link "HUB":
+        - /url: "#hub"
+        - text: HUB
+      - link "HOTEL":
+        - /url: "#hotel-travel"
+        - text: HOTEL
+      - link "EXPERIENCE":
+        - /url: "#experience"
+        - text: EXPERIENCE
+      - link "FAQ":
+        - /url: "#faq"
+        - text: FAQ
+      - link "CONTACT":
+        - /url: "#contact"
+        - text: CONTACT
+    - text: ▾ ▾
+  - region "Welcome, we’re excited to see you soon!":
+    - paragraph: WELCOME
+    - heading "Welcome, we’re excited to see you soon!" [level=2]
+    - paragraph: Everything you need to prepare, travel, and arrive ready is gathered here in one focused guide, making the weeks before the Institute feel clear, organized, and manageable.
+    - paragraph: Placeholder - Operations copy pending.
+    - complementary "Operations lead":
+      - img "Tori Di Clemente"
+      - paragraph: YOUR OPERATIONS LEAD
+      - heading "Tori Di Clemente" [level=3]
+      - paragraph: Event Operations Manager
+      - paragraph: IPMI
+      - list:
+        - link "647.825.8940":
+          - /url: tel:647.825.8940
+          - generic: 647.825.8940
+        - link "tdiclemente@ipmievents.com":
+          - /url: mailto:tdiclemente@ipmievents.com
+          - generic: tdiclemente@ipmievents.com
+  - paragraph: BEFORE YOU ARRIVE
+  - heading "Preparing for your Institute." [level=2]
+  - paragraph: Placeholder — Delegate preparation instructions are awaiting Operations confirmation.
+  - generic: Check back soon for preparation details!
+  - paragraph: MARK YOUR CALENDAR
+  - heading "Key Dates & Deliverables." [level=2]
+  - paragraph: Your profile, hotel, and schedule milestones—sequenced from first login through arrival.
+  - list:
+    - article:
+      - time:
+        - generic: DEC
+        - generic: "19"
+      - heading "Attendee Profile Due" [level=3]
+      - paragraph: Friday, December 18, 2026
+      - button "Add Attendee Profile Due to calendar":
+        - generic: ADD TO CALENDAR
+    - article:
+      - time:
+        - generic: DEC
+        - generic: "19"
+      - heading "Travel Details Due" [level=3]
+      - paragraph: Friday, December 18, 2026
+      - button "Add Travel Details Due to calendar":
+        - generic: ADD TO CALENDAR
+    - article:
+      - time:
+        - generic: JAN
+        - generic: "14"
+      - heading "Itinerary Selections Due" [level=3]
+      - paragraph: Wednesday, January 13, 2027
+      - button "Add Itinerary Selections Due to calendar":
+        - generic: ADD TO CALENDAR
+    - article:
+      - time:
+        - generic: JAN
+        - generic: "15"
+      - heading "Hotel Confirmation Numbers" [level=3]
+      - paragraph: Thursday, January 14, 2027
+      - button "Add Hotel Confirmation Numbers to calendar":
+        - generic: ADD TO CALENDAR
+  - region "Agenda At-A-Glance.":
+    - paragraph: PLAN YOUR DAILY SCHEDULE
+    - heading "Agenda At-A-Glance." [level=2]
+    - paragraph: Placeholder — The event agenda is awaiting Operations confirmation.
+    - generic: Check back soon for the Institute agenda!
+  - paragraph: YOUR DIGITAL HOME BASE
+  - heading "Attendee Hub." [level=2]
+  - paragraph: The Attendee Hub is your central resource for all event-related information. Through the Hub, you can review key dates and deliverables, submit your Attendee Profile questionnaire and hotel requirements, build your personalized itinerary, and access important event information and resources.
+  - paragraph: Attendee Hub login credentials are provided by your Operations Lead in their welcome email, which is typically sent 8–10 weeks before the event start date.
+  - link "OPEN ATTENDEE HUB":
+    - /url: mailto:tdiclemente@ipmievents.com
+    - text: OPEN ATTENDEE HUB
+  - img "Attendee using a tablet while colleagues meet in a hotel lounge"
+  - region "Hotel & Travel.":
+    - paragraph: ARRIVE WITH CONFIDENCE
+    - heading "Hotel & Travel." [level=2]
+    - iframe:
+      - link "Open in Maps (opens in new tab)":
+        - /url: about:invalid#zClosurez
+        - text: Open in Maps
+    - article:
+      - heading "Four Seasons Hotel, Austin, TX" [level=3]
+      - link "98 San Jacinto Blvd, Austin, TX 78701, United States (opens in Google Maps in a new tab)":
+        - /url: https://www.google.com/maps/search/?api=1&query=98%20San%20Jacinto%20Blvd%2C%20Austin%2C%20TX%2078701%2C%20United%20States
+        - text: 98 San Jacinto Blvd, Austin, TX 78701, United States
+    - article:
+      - heading "Hotel Reservations" [level=3]
+      - paragraph: Check back soon for hotel reservation details!
+    - article:
+      - heading "Transportation" [level=3]
+      - paragraph: Check back soon for transportation details!
+  - paragraph: DESIGNED AROUND CONNECTION
+  - heading "Your Institute Experience." [level=2]
+  - paragraph: Placeholder — Delegate experience details are awaiting Operations confirmation.
+  - generic: Check back soon for Institute experience details!
+  - region "Frequently Asked Questions.":
+    - paragraph: HELPFUL ANSWERS
+    - heading "Frequently Asked Questions." [level=2]
+    - generic: Check back soon for frequently asked questions!
+  - region "Questions Before You Go? We’re Here to Help.":
+    - paragraph: YOUR OPERATIONS LEAD
+    - heading "Questions Before You Go? We’re Here to Help." [level=2]
+    - paragraph: Reach out for help with your Attendee Hub, hotel details, profile, or personal schedule.
+    - complementary "Contact your Operations Lead":
+      - img "Tori Di Clemente"
+      - paragraph: YOUR OPERATIONS LEAD
+      - heading "Tori Di Clemente" [level=3]
+      - paragraph: Event Operations Manager
+      - list:
+        - link "647.825.8940":
+          - /url: tel:647.825.8940
+          - generic: 647.825.8940
+        - link "tdiclemente@ipmievents.com":
+          - /url: mailto:tdiclemente@ipmievents.com
+          - generic: tdiclemente@ipmievents.com
+- contentinfo:
+  - link "Back To Top":
+    - /url: "#top"
+  - link "International Performance Management Institute.":
+    - /url: /
+    - img "International Performance Management Institute."
+  - list:
+    - link "info@ipmievents.com":
+      - /url: mailto:info@ipmievents.com
+    - link "(416) 628-4058":
+      - /url: tel:+14166284058
+    - text: 151 Bloor Street W.
+    - text: Toronto, ON
+    - text: Canada M5S1S4
+  - heading "Institutes" [level=6]:
+    - link "Institutes":
+      - /url: /institutes
+  - list:
+    - link "Upcoming Institutes":
+      - /url: /institutes
+    - link "Institute Insights":
+      - /url: /insights
+    - link "Recent Institutes":
+      - /url: /recent-institutes
+    - link "Institute Gallery":
+      - /url: /gallery
+    - link "What is an Institute?":
+      - /url: /faq#what-is-an-institute
+  - heading "Think Tanks & Roundtables" [level=6]:
+    - link "Think Tanks & Roundtables":
+      - /url: /thinktanks
+      - text: Think Tanks &
+      - text: Roundtables
+  - list:
+    - link "Upcoming Think Tanks":
+      - /url: /thinktanks
+    - link "Recent Think Tanks":
+      - /url: /thinktanks#recent
+    - link "What is a Think Tank?":
+      - /url: /faq#what-is-a-virtual-think-tank
+  - heading "About IPMI" [level=6]:
+    - link "About IPMI":
+      - /url: /about
+  - list:
+    - link "About IPMI":
+      - /url: /about
+    - link "Testimonials":
+      - /url: /testimonials
+    - link "FAQ":
+      - /url: /faq
+    - link "Attend an Institute":
+      - /url: /attend
+    - link "Speak at an Institute":
+      - /url: /attend#speak
+    - link "Partner with IPMI":
+      - /url: /attend#partner
+  - heading "Contact Us" [level=6]:
+    - link "Contact Us":
+      - /url: /contact
+  - list:
+    - link "Contact Us":
+      - /url: /contact
+  - heading "Connect" [level=6]
+  - list:
+    - link "IPMI LinkedIn":
+      - /url: https://www.linkedin.com/company/international-performance-management-institute-ipmi-/?originalSubdomain=ca
+- generic: © International Performance Management Institute. All Rights Reserved.
+- link "Privacy Policy":
+  - /url: /privacy
+- text: "|"
+- link "Terms and Conditions":
+  - /url: /terms

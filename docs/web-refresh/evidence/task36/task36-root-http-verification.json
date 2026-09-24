@@ -1,0 +1,54 @@
+[
+  {
+    "slug": "ehs-jan-2027-delegate",
+    "noindex": true,
+    "exampleHubCount": 0,
+    "imageTagsExact": false,
+    "linkTagsExact": false,
+    "textExact": false,
+    "ehsWrongDisciplineAbsent": true,
+    "hasPlaceholder": true,
+    "agendaAnchorRetained": true,
+    "runtimePinRetained": true,
+    "stylesheetPinRetained": true
+  },
+  {
+    "slug": "ehs-jan-2027-sponsor",
+    "noindex": true,
+    "exampleHubCount": 2,
+    "imageTagsExact": false,
+    "linkTagsExact": true,
+    "textExact": false,
+    "ehsWrongDisciplineAbsent": true,
+    "hasPlaceholder": true,
+    "agendaAnchorRetained": true,
+    "runtimePinRetained": true,
+    "stylesheetPinRetained": true
+  },
+  {
+    "slug": "hchr-sept-2026-delegate",
+    "noindex": true,
+    "exampleHubCount": 0,
+    "imageTagsExact": true,
+    "linkTagsExact": true,
+    "textExact": true,
+    "ehsWrongDisciplineAbsent": false,
+    "hasPlaceholder": false,
+    "agendaAnchorRetained": true,
+    "runtimePinRetained": true,
+    "stylesheetPinRetained": true
+  },
+  {
+    "slug": "hchr-sept-2026-sponsor",
+    "noindex": true,
+    "exampleHubCount": 2,
+    "imageTagsExact": true,
+    "linkTagsExact": true,
+    "textExact": true,
+    "ehsWrongDisciplineAbsent": false,
+    "hasPlaceholder": false,
+    "agendaAnchorRetained": true,
+    "runtimePinRetained": true,
+    "stylesheetPinRetained": true
+  }
+]

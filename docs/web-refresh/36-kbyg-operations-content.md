@@ -2,7 +2,7 @@
 
 [Back to master](README.md)
 
-**Owner:** IPMI Operations supplies/approves event coverage and content; BWC maps approved content into existing CMS structures. **Status:** Awaiting final Operations copy and event/audience coverage; existing pages identified.
+**Owner:** IPMI Operations supplies/approves event coverage and content; BWC maps approved content into existing CMS structures. **Status:** Provisional handoff and EHS scope corrections staged; final Operations approval remains pending.
 
 ## Source and target
 
@@ -24,7 +24,7 @@ The CMS showed Published badges, which do not establish which domains received t
 - Final copy per audience and section: welcome, preparation, key dates, attendee/sponsor hub, hotel/travel, experience, FAQ or sponsor support, and contact; identify shared versus audience-specific text and ordered content blocks.
 - Exact event-specific agenda URL, audience-specific MeetMax/hub URLs, hotel/reservation links, key date/deadline values, and any relevant timezone.
 - Approved Operations lead Staff record/contact details, required imagery/alt context, and explicit instructions for intentionally empty/omitted sections.
-- Approval status and unresolved rows; no placeholder copy, borrowed event-specific links, or guessed dates.
+- Approval status and unresolved rows. User-authorized placeholders are explicitly labeled and registered; borrowed event-specific links and guessed dates remain prohibited.
 
 ## Chrome / Webflow implementation checklist
 
@@ -45,3 +45,18 @@ The CMS showed Published badges, which do not establish which domains received t
 ## Rollback
 
 Record prior field values, reference lists/order, shared-block consumers, and publication state. Restore only affected records/blocks and unpublish newly added pairs if needed; preserve existing collections and the four original page records.
+
+## September 24, 2026 provisional implementation
+
+[Evidence and exact editorial handoff](evidence/task36/README.md) supplies a [54-row event × audience matrix](evidence/task36/MATRIX.md), all actual fields/IDs, a 50-row native-import candidate CSV and mapped JSON, and [exact placeholder replacements](evidence/task36/placeholder-fields.json). Task 25 creates the missing pages; no missing page was imported in task 36. Task 35's 26 provisional native events provide 52 rows, plus the retained past HCHR pair. All four original IDs/URLs remain.
+
+Both EHS pages had 28 cross-event references to HCHR blocks removed through native Chrome CMS. The 43 original blocks and both HCHR pages are unchanged. EHS Delegate's four own date blocks remain; its incorrect Healthcare HR welcome and stale three-step wording were replaced with a labeled pending paragraph. Existing correct staff/images/event details remain. Empty sections show native pending notices. Exact changes, original reference order and rollback are in the evidence.
+
+Only ipmi.webflow.io was published; custom production domain was visibly unchecked. Desktop/mobile sparse states, original HCHR content, reference scope, noindex and asset pins were verified. Final Operations content approval and complete schedule coverage remain pending; task 26 owns compact Institute Agenda presentation and task 27 owns independent platform destinations, including inherited active example.com URLs. Known all-day date display semantics and sparse Sponsor Experience whitespace are assigned to task 37 without changing authored dates.
+
+- [x] 54 provisional planning pairs reconciled; original four reused and 50 missing creation candidates prepared.
+- [x] Exact field/content/placeholder handoff prepared and native scope corrections staged.
+- [x] All original blocks, HCHR values, staff links, image assignments and EHS-owned dates preserved.
+- [x] Independent structural CMS/HTTP and matrix checks passed; viewport reset and owned QA tab closed.
+- [ ] Operations approves final coverage, event facts, copy, deadlines, contacts, imagery and audience-specific logistics.
+- [ ] Tasks 25–27 and integrated task 37 complete; no claim of 54 live pages or final-content approval.

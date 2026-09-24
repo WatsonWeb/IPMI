@@ -1,0 +1,63 @@
+{
+  "pageCount": 4,
+  "pageIdsPreserved": true,
+  "pageDeltas": [
+    {
+      "id": "6ab427151e2a1d57f6652add",
+      "slug": "ehs-jan-2027-sponsor",
+      "draft": false,
+      "archived": false,
+      "changedFields": [
+        "agenda-days",
+        "agenda-intro",
+        "experience",
+        "experience-intro",
+        "preparation",
+        "preparation-intro",
+        "preparation-title"
+      ]
+    },
+    {
+      "id": "6ab419ab01801a6514d9c07a",
+      "slug": "ehs-jan-2027-delegate",
+      "draft": false,
+      "archived": false,
+      "changedFields": [
+        "agenda-days",
+        "agenda-intro",
+        "experience",
+        "experience-intro",
+        "faqs",
+        "preparation",
+        "preparation-intro",
+        "preparation-title",
+        "welcome-body"
+      ]
+    },
+    {
+      "id": "6a9a6378aaffd3efb5e46338",
+      "slug": "hchr-sept-2026-sponsor",
+      "draft": false,
+      "archived": false,
+      "changedFields": []
+    },
+    {
+      "id": "6a9a6378aaffd3efb5e46336",
+      "slug": "hchr-sept-2026-delegate",
+      "draft": false,
+      "archived": false,
+      "changedFields": []
+    }
+  ],
+  "blockCount": 43,
+  "originalBlockFieldsExact": true,
+  "changedBlocks": [],
+  "crossEventReferences": [],
+  "ehsDelegateKeyDates": [
+    "6ab432c917568e8104a47eec",
+    "6ab432ec17568e8104a489dc",
+    "6ab4332204740d0b899d6e49",
+    "6ab4334cd5e480cd010ecfc7"
+  ],
+  "ehsDelegateWelcomeBody": "<p>Placeholder - Operations copy pending.</p>"
+}

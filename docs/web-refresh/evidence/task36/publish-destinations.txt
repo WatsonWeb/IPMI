@@ -1,0 +1,85 @@
+
+- button:
+- generic: Visibility
+- radiogroup:
+  - radio [checked]:
+    - generic: Visible
+  - radio:
+    - generic: Hidden
+- button:
+- generic: Code Embed settings
+- generic: Code
+- button:
+  - generic: Edit code
+- generic: Dynamic Style Settings
+- text: Get Text Color from
+- text: Institutes
+- text: Get BG Image from
+- text: Institutes
+- text: Get BG Color from
+- text: Institutes
+- text: Get Border Color from
+- text: Institutes
+- generic: Custom attributes
+- generic: Attributes
+- button:
+- generic: Advanced
+- checkbox
+- generic: Keep in HTML when hidden
+- checkbox [checked] [disabled]
+- generic: Exclude Code Embed’s content from site search results
+- button:
+- button [disabled]:
+- separator
+- button:
+  - generic: Body
+- button:
+  - generic: Horizon Card
+- button:
+  - generic: Horizon Card Inner Wrap
+- button:
+  - generic: Code Embed
+- button:
+  - generic: 992px
+- button:
+- button:
+- button:
+- button [pressed]:
+- button:
+- button:
+- button:
+- button:
+- generic: Item queued to publish
+- button: Dismiss
+- dialog:
+  - generic: Choose publish destination
+  - heading "Staging" [level=2]
+  - list:
+    - checkbox "ipmi.webflow.io Open in new tab" [checked] [active]
+    - generic: ipmi.webflow.io
+    - link "Open in new tab":
+      - /url: https://ipmi.webflow.io/institutes-on-the-horizon
+    - generic: Published 39 minutes ago
+    - generic: •
+    - link "Unpublish domain":
+      - /url: "#"
+  - heading "Production" [level=2]
+  - list:
+    - checkbox "www.ipmievents.com Open in new tab"
+    - generic: www.ipmievents.com
+    - link "Open in new tab":
+      - /url: https://www.ipmievents.com/institutes-on-the-horizon
+    - generic: Published 7 hours ago
+    - generic: •
+    - link "Unpublish domain":
+      - /url: "#"
+  - generic: Advanced publishing options
+  - button "2+ issues to improve on this page":
+    - generic: 2+
+    - text: issues to improve on this page
+  - button "Close":
+    - generic: Close
+  - button "Publish to selected domains":
+    - generic: Publish to selected domains
+- button: Dismiss
+- status: 1Password menu is available. Press down arrow to select.

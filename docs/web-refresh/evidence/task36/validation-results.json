@@ -1,0 +1,12 @@
+{
+  "checkedAt": "2026-09-24T10:33:04.208Z",
+  "result": "pass",
+  "pairs": 54,
+  "existing": 4,
+  "missing": 50,
+  "exactScheduleRows": 52,
+  "preservedPastRows": 2,
+  "originalBlocks": 43,
+  "scope": "Structural handoff and four saved CMS records; not final Operations content approval or 54 live pages",
+  "finalContentValidation": "Pending: unknown staff, links, deadlines, logistics and approvals remain explicit; original strict validator unchanged"
+}

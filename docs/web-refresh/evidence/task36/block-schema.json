@@ -1,0 +1,175 @@
+{
+  "id": "6a9a5f494b89250952dfff08",
+  "displayName": "KBYG Content Blocks",
+  "singularName": "KBYG Content Block",
+  "slug": "kbyg-content-blocks",
+  "createdOn": "2026-09-04T06:03:53.026Z",
+  "lastUpdated": "2026-09-04T06:04:32.136Z",
+  "fields": [
+    {
+      "id": "ce24b7bd5157540e3f6c1655395188f0",
+      "isEditable": true,
+      "isRequired": false,
+      "type": "Reference",
+      "slug": "institute",
+      "displayName": "Institute",
+      "validations": {
+        "collectionId": "6392772fccd80e5128026020"
+      }
+    },
+    {
+      "id": "0958ea51f31fc903759b8f95f991273f",
+      "isEditable": true,
+      "isRequired": false,
+      "type": "Option",
+      "slug": "audience-scope",
+      "displayName": "Audience Scope",
+      "validations": {
+        "options": [
+          {
+            "name": "shared",
+            "id": "14fe776b8d8df68f313f9c647299d0fe"
+          },
+          {
+            "name": "delegate",
+            "id": "8a428f567e86e5bd5818fc54751dcd37"
+          },
+          {
+            "name": "sponsor",
+            "id": "6098ab048a689d2d1b20a9ae6aa224bb"
+          }
+        ]
+      }
+    },
+    {
+      "id": "659af307fe50a0306f93653cc66ee667",
+      "isEditable": true,
+      "isRequired": false,
+      "type": "Option",
+      "slug": "block-type",
+      "displayName": "Block Type",
+      "validations": {
+        "options": [
+          {
+            "name": "Preparation",
+            "id": "40b67293512cf9ffbda0953e00673cd8"
+          },
+          {
+            "name": "Key Date",
+            "id": "76dffa66bff7c3c483d0ecd952c69068"
+          },
+          {
+            "name": "Agenda Day",
+            "id": "5acd1ff17589132aafc9eb2e6c4fa008"
+          },
+          {
+            "name": "Experience",
+            "id": "4aeee77c1f8e2cb899876fe0641ac244"
+          },
+          {
+            "name": "FAQ",
+            "id": "615a921a3d67b6c9c3834e08f3e00d69"
+          }
+        ]
+      }
+    },
+    {
+      "id": "e914457d43d69c129d7c1e94d5cbdb68",
+      "isEditable": true,
+      "isRequired": false,
+      "type": "PlainText",
+      "slug": "eyebrow",
+      "displayName": "Eyebrow"
+    },
+    {
+      "id": "e75804a2a3ed8a58545e91145f8dce58",
+      "isEditable": true,
+      "isRequired": false,
+      "type": "PlainText",
+      "slug": "title",
+      "displayName": "Title"
+    },
+    {
+      "id": "3d2abc6aece778406c42979b91d414f5",
+      "isEditable": true,
+      "isRequired": false,
+      "type": "RichText",
+      "slug": "body",
+      "displayName": "Body"
+    },
+    {
+      "id": "524dde49bd5d101fbac103ec1544627b",
+      "isEditable": true,
+      "isRequired": false,
+      "type": "Image",
+      "slug": "icon",
+      "displayName": "Icon"
+    },
+    {
+      "id": "c3d384092ffe3502f787c26aaab105ff",
+      "isEditable": true,
+      "isRequired": false,
+      "type": "DateTime",
+      "slug": "calendar-start",
+      "displayName": "Calendar Start",
+      "validations": {
+        "format": "date-time"
+      }
+    },
+    {
+      "id": "052ff9a43fb4cf52f1f2adf74385200b",
+      "isEditable": true,
+      "isRequired": false,
+      "type": "DateTime",
+      "slug": "calendar-end",
+      "displayName": "Calendar End",
+      "validations": {
+        "format": "date-time"
+      }
+    },
+    {
+      "id": "8a4fce332c1e63c5f68c45a2c3c2307f",
+      "isEditable": true,
+      "isRequired": false,
+      "type": "Switch",
+      "slug": "all-day",
+      "displayName": "All-day"
+    },
+    {
+      "id": "83bfb3523a7373167f5f94ea4af60a9c",
+      "isEditable": true,
+      "isRequired": false,
+      "type": "Switch",
+      "slug": "initially-expanded",
+      "displayName": "Initially Expanded"
+    },
+    {
+      "id": "92539895760d84d3b620cc1355116000",
+      "isEditable": true,
+      "isRequired": true,
+      "type": "PlainText",
+      "slug": "name",
+      "displayName": "Name",
+      "validations": {
+        "maxLength": 256
+      }
+    },
+    {
+      "id": "86b3c2db486f5e49ee056893f65ddab6",
+      "isEditable": true,
+      "isRequired": true,
+      "type": "PlainText",
+      "slug": "slug",
+      "displayName": "Slug",
+      "validations": {
+        "maxLength": 256,
+        "pattern": {},
+        "messages": {
+          "pattern": "Must be alphanumerical and not contain any spaces or special characters",
+          "maxLength": "Must be less than 256 characters"
+        }
+      }
+    }
+  ],
+  "fieldGroups": []
+}

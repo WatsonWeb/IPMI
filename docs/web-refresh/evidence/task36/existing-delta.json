@@ -1,0 +1,171 @@
+[
+  {
+    "id": "6ab427151e2a1d57f6652add",
+    "slug": "ehs-jan-2027-sponsor",
+    "beforeState": {
+      "isDraft": false,
+      "isArchived": false,
+      "lastPublished": "2026-09-23T23:53:50.442Z",
+      "lastUpdated": "2026-09-23T20:50:53.816Z"
+    },
+    "afterState": {
+      "isDraft": false,
+      "isArchived": false,
+      "lastPublished": "2026-09-24T10:26:12.847Z",
+      "lastUpdated": "2026-09-24T10:24:33.682Z"
+    },
+    "changes": {
+      "preparation": {
+        "before": [
+          "6a9a61f4a74bfa192a4f8754",
+          "6a9a61f4a74bfa192a4f8756",
+          "6a9a61f4a74bfa192a4f8758"
+        ],
+        "after": null
+      },
+      "agenda-days": {
+        "before": [
+          "6a9a61f4a74bfa192a4f876a",
+          "6a9a61f4a74bfa192a4f876c",
+          "6a9a61f4a74bfa192a4f876e"
+        ],
+        "after": null
+      },
+      "experience": {
+        "before": [
+          "6a9a6216fe4cda4c0d5d74bd",
+          "6a9a6216fe4cda4c0d5d74bf",
+          "6a9a6216fe4cda4c0d5d74c1",
+          "6a9a6216fe4cda4c0d5d74c3",
+          "6a9a6216fe4cda4c0d5d74c5",
+          "6a9a6216fe4cda4c0d5d74c7",
+          "6a9a6216fe4cda4c0d5d74c9",
+          "6a9a6216fe4cda4c0d5d74cb"
+        ],
+        "after": null
+      },
+      "preparation-title": {
+        "before": "Preparing for your Institute is as easy as 1-2-3.",
+        "after": "Preparing for your Institute."
+      },
+      "preparation-intro": {
+        "before": "Complete these Sponsor Hub deliverables so your onsite team and meeting strategy are ready well before arrival.",
+        "after": "Placeholder — Sponsor preparation instructions are awaiting Operations confirmation."
+      },
+      "agenda-intro": {
+        "before": "Times are approximate and subject to change. Please refer to the Event Agenda in the Sponsor Hub for complete program details.",
+        "after": "Placeholder — The event agenda is awaiting Operations confirmation."
+      },
+      "experience-intro": {
+        "before": "Business meetings are pre-scheduled based on the priorities and preferences submitted by both Service Providers and attending executives.",
+        "after": "Placeholder — Sponsor experience and meeting details are awaiting Operations confirmation."
+      }
+    }
+  },
+  {
+    "id": "6ab419ab01801a6514d9c07a",
+    "slug": "ehs-jan-2027-delegate",
+    "beforeState": {
+      "isDraft": false,
+      "isArchived": false,
+      "lastPublished": "2026-09-23T23:53:50.442Z",
+      "lastUpdated": "2026-09-23T20:21:44.340Z"
+    },
+    "afterState": {
+      "isDraft": false,
+      "isArchived": false,
+      "lastPublished": "2026-09-24T10:26:12.847Z",
+      "lastUpdated": "2026-09-24T10:25:06.070Z"
+    },
+    "changes": {
+      "preparation": {
+        "before": [
+          "6a9a61608591545695d9c51c",
+          "6a9a61ae2837d9128fd77e03",
+          "6a9a61f4a74bfa192a4f8752"
+        ],
+        "after": null
+      },
+      "agenda-days": {
+        "before": [
+          "6a9a61f4a74bfa192a4f876a",
+          "6a9a61f4a74bfa192a4f876c",
+          "6a9a61f4a74bfa192a4f876e"
+        ],
+        "after": null
+      },
+      "experience": {
+        "before": [
+          "6a9a6216fe4cda4c0d5d74b7",
+          "6a9a6216fe4cda4c0d5d74b9",
+          "6a9a6216fe4cda4c0d5d74bb"
+        ],
+        "after": null
+      },
+      "faqs": {
+        "before": [
+          "6a9a6216fe4cda4c0d5d74cd",
+          "6a9a6216fe4cda4c0d5d74cf",
+          "6a9a6216fe4cda4c0d5d74d1",
+          "6a9a6216fe4cda4c0d5d74d3",
+          "6a9a6216fe4cda4c0d5d74d5"
+        ],
+        "after": null
+      },
+      "welcome-body": {
+        "before": "<p>Welcome to the 2027 EHS Management Institute, and thank you for choosing to join us. We are delighted to bring together an exceptional group of senior Healthcare HR leaders and solution providers for three days of meaningful conversations, fresh perspectives, and valuable relationship-building opportunities.</p><p>In the coming weeks, we will guide you through three simple steps to help prepare for a successful program. Your Operations Lead, Tori Di Clemente, will be available throughout the process to provide support and ensure you are ready to make the most of your experience.</p>",
+        "after": "<p>Placeholder - Operations copy pending.</p>"
+      },
+      "preparation-title": {
+        "before": "Preparing for your Institute is as easy as 1-2-3.",
+        "after": "Preparing for your Institute."
+      },
+      "preparation-intro": {
+        "before": "Complete these actions in the Attendee Hub, then build a schedule around the conversations that matter most to you.",
+        "after": "Placeholder — Delegate preparation instructions are awaiting Operations confirmation."
+      },
+      "agenda-intro": {
+        "before": "Times are approximate and subject to change. Please refer to the Event Agenda in the Sponsor Hub for complete program details.",
+        "after": "Placeholder — The event agenda is awaiting Operations confirmation."
+      },
+      "experience-intro": {
+        "before": "A purposeful mix of insight, one-to-one conversation, and peer collaboration.",
+        "after": "Placeholder — Delegate experience details are awaiting Operations confirmation."
+      }
+    }
+  },
+  {
+    "id": "6a9a6378aaffd3efb5e46338",
+    "slug": "hchr-sept-2026-sponsor",
+    "beforeState": {
+      "isDraft": false,
+      "isArchived": false,
+      "lastPublished": "2026-09-24T00:15:22.721Z",
+      "lastUpdated": "2026-09-24T00:14:57.084Z"
+    },
+    "afterState": {
+      "isDraft": false,
+      "isArchived": false,
+      "lastPublished": "2026-09-24T00:15:22.721Z",
+      "lastUpdated": "2026-09-24T00:14:57.084Z"
+    },
+    "changes": {}
+  },
+  {
+    "id": "6a9a6378aaffd3efb5e46336",
+    "slug": "hchr-sept-2026-delegate",
+    "beforeState": {
+      "isDraft": false,
+      "isArchived": false,
+      "lastPublished": "2026-09-24T00:15:22.721Z",
+      "lastUpdated": "2026-09-24T00:14:38.168Z"
+    },
+    "afterState": {
+      "isDraft": false,
+      "isArchived": false,
+      "lastPublished": "2026-09-24T00:15:22.721Z",
+      "lastUpdated": "2026-09-24T00:14:38.168Z"
+    },
+    "changes": {}
+  }
+]

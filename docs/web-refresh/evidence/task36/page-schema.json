@@ -1,0 +1,464 @@
+{
+  "id": "6a9a5f7b77769cbf46ce29a1",
+  "displayName": "KBYG Pages",
+  "singularName": "KBYG Page",
+  "slug": "know-before-you-go",
+  "createdOn": "2026-09-04T06:04:43.672Z",
+  "lastUpdated": "2026-09-24T00:02:35.452Z",
+  "fields": [
+    {
+      "id": "f13300f23f201565d31048944b264063",
+      "isEditable": true,
+      "isRequired": false,
+      "type": "Reference",
+      "slug": "institute",
+      "displayName": "Institute",
+      "validations": {
+        "collectionId": "6392772fccd80e5128026020"
+      }
+    },
+    {
+      "id": "75a9cc9edf18226f70884c7d4bba9f68",
+      "isEditable": true,
+      "isRequired": false,
+      "type": "Option",
+      "slug": "audience",
+      "displayName": "Audience",
+      "validations": {
+        "options": [
+          {
+            "name": "delegate",
+            "id": "d60d1331a8222b56c6d46f788019ed98"
+          },
+          {
+            "name": "sponsor",
+            "id": "8a5fbf19e97e4b162365f4a00b1cf520"
+          }
+        ]
+      }
+    },
+    {
+      "id": "d6c08501ab599b0923e5bbfe6b7529e9",
+      "isEditable": true,
+      "isRequired": false,
+      "type": "Reference",
+      "slug": "operations-lead",
+      "displayName": "Operations Lead",
+      "validations": {
+        "collectionId": "6392772fccd80e8dd502601e"
+      }
+    },
+    {
+      "id": "3719536a7222e3d6347f7464eaff807f",
+      "isEditable": true,
+      "isRequired": false,
+      "type": "Image",
+      "slug": "hero-image",
+      "displayName": "Hero Image"
+    },
+    {
+      "id": "88f5d96dc914c052f0a44fe03d3baab1",
+      "isEditable": true,
+      "isRequired": false,
+      "type": "PlainText",
+      "slug": "hero-image-alt",
+      "displayName": "Hero Image Alt"
+    },
+    {
+      "id": "ae468d8ba242ef7b7d98d6df118a1922",
+      "isEditable": true,
+      "isRequired": false,
+      "type": "Image",
+      "slug": "hub-image",
+      "displayName": "Hub Image"
+    },
+    {
+      "id": "5ab9df410e1ae720224ea28d4d313f6e",
+      "isEditable": true,
+      "isRequired": false,
+      "type": "PlainText",
+      "slug": "hub-image-alt",
+      "displayName": "Hub Image Alt"
+    },
+    {
+      "id": "f2e01e4a958864357cffe5a64c4f1ba2",
+      "isEditable": true,
+      "isRequired": false,
+      "type": "MultiReference",
+      "slug": "preparation",
+      "displayName": "Preparation",
+      "validations": {
+        "collectionId": "6a9a5f494b89250952dfff08"
+      }
+    },
+    {
+      "id": "77ea7e92e5384478776771b57229ce88",
+      "isEditable": true,
+      "isRequired": false,
+      "type": "MultiReference",
+      "slug": "key-dates",
+      "displayName": "Key Dates",
+      "validations": {
+        "collectionId": "6a9a5f494b89250952dfff08"
+      }
+    },
+    {
+      "id": "dd70cbadfb3dd490f67f3ebec083c133",
+      "isEditable": true,
+      "isRequired": false,
+      "type": "MultiReference",
+      "slug": "agenda-days",
+      "displayName": "Agenda Days",
+      "validations": {
+        "collectionId": "6a9a5f494b89250952dfff08"
+      }
+    },
+    {
+      "id": "4d73be89d6f0d6ebd6d288e340500d33",
+      "isEditable": true,
+      "isRequired": false,
+      "type": "MultiReference",
+      "slug": "experience",
+      "displayName": "Experience",
+      "validations": {
+        "collectionId": "6a9a5f494b89250952dfff08"
+      }
+    },
+    {
+      "id": "dbe3f790e1cdfdd0f58d0ad86ff827f5",
+      "isEditable": true,
+      "isRequired": false,
+      "type": "MultiReference",
+      "slug": "faqs",
+      "displayName": "FAQs",
+      "validations": {
+        "collectionId": "6a9a5f494b89250952dfff08"
+      }
+    },
+    {
+      "id": "80924193b71f0d32ad66529b7f6eb476",
+      "isEditable": true,
+      "isRequired": false,
+      "type": "PlainText",
+      "slug": "hero-eyebrow",
+      "displayName": "Hero Eyebrow"
+    },
+    {
+      "id": "8365e8e2c6b85531f9e4fe0e101c2afd",
+      "isEditable": true,
+      "isRequired": false,
+      "type": "PlainText",
+      "slug": "hero-intro",
+      "displayName": "Hero Intro"
+    },
+    {
+      "id": "e07547c187d70260f5baa18c6055cefc",
+      "isEditable": true,
+      "isRequired": false,
+      "type": "PlainText",
+      "slug": "hero-cta-label",
+      "displayName": "Hero CTA Label"
+    },
+    {
+      "id": "480fe56189361d60590b26bf6b357898",
+      "isEditable": true,
+      "isRequired": false,
+      "type": "Link",
+      "slug": "hero-cta-url",
+      "displayName": "Hero CTA URL"
+    },
+    {
+      "id": "67b2a633d0ebdbc16ff31ea37e6ce357",
+      "isEditable": true,
+      "isRequired": false,
+      "type": "PlainText",
+      "slug": "welcome-eyebrow",
+      "displayName": "Welcome Eyebrow"
+    },
+    {
+      "id": "f1f953dcd6d1d65a4020e8b1a1ec79c4",
+      "isEditable": true,
+      "isRequired": false,
+      "type": "PlainText",
+      "slug": "welcome-title",
+      "displayName": "Welcome Title"
+    },
+    {
+      "id": "9414ab30019788b8a50463209474fd7f",
+      "isEditable": true,
+      "isRequired": false,
+      "type": "RichText",
+      "slug": "welcome-intro",
+      "displayName": "Welcome Intro"
+    },
+    {
+      "id": "138b9a3ba6692e0bd8871dd3dd1f1f1c",
+      "isEditable": true,
+      "isRequired": false,
+      "type": "RichText",
+      "slug": "welcome-body",
+      "displayName": "Welcome Body"
+    },
+    {
+      "id": "013cd8b7b838454b7ed8f570540b305e",
+      "isEditable": true,
+      "isRequired": false,
+      "type": "PlainText",
+      "slug": "preparation-eyebrow",
+      "displayName": "Preparation Eyebrow"
+    },
+    {
+      "id": "f4c75127ae5efd9e184b0af8d6769413",
+      "isEditable": true,
+      "isRequired": false,
+      "type": "PlainText",
+      "slug": "preparation-title",
+      "displayName": "Preparation Title"
+    },
+    {
+      "id": "42a2fec335dc29f7f9a92ab68fa721ed",
+      "isEditable": true,
+      "isRequired": false,
+      "type": "PlainText",
+      "slug": "preparation-intro",
+      "displayName": "Preparation Intro"
+    },
+    {
+      "id": "6e6fd9aae853ed3067ae042ad697869a",
+      "isEditable": true,
+      "isRequired": false,
+      "type": "PlainText",
+      "slug": "key-dates-eyebrow",
+      "displayName": "Key Dates Eyebrow"
+    },
+    {
+      "id": "57afc3e668343ec738bce8a26ef9dc5c",
+      "isEditable": true,
+      "isRequired": false,
+      "type": "PlainText",
+      "slug": "key-dates-title",
+      "displayName": "Key Dates Title"
+    },
+    {
+      "id": "1404a788cc4b5f2a44531a7a14c085a4",
+      "isEditable": true,
+      "isRequired": false,
+      "type": "PlainText",
+      "slug": "key-dates-intro",
+      "displayName": "Key Dates Intro"
+    },
+    {
+      "id": "cd369754cff015e4202b9d8d276c14a6",
+      "isEditable": true,
+      "isRequired": false,
+      "type": "PlainText",
+      "slug": "agenda-eyebrow",
+      "displayName": "Agenda Eyebrow"
+    },
+    {
+      "id": "44c689a2268f5b6276812c8a0e6876da",
+      "isEditable": true,
+      "isRequired": false,
+      "type": "PlainText",
+      "slug": "agenda-title",
+      "displayName": "Agenda Title"
+    },
+    {
+      "id": "388777e511a1ce0b590e8da3b6b69c14",
+      "isEditable": true,
+      "isRequired": false,
+      "type": "PlainText",
+      "slug": "agenda-intro",
+      "displayName": "Agenda Intro"
+    },
+    {
+      "id": "efe8e586f22cb0f978638fc0df03da2a",
+      "isEditable": true,
+      "isRequired": false,
+      "type": "PlainText",
+      "slug": "agenda-cta-label",
+      "displayName": "Agenda CTA Label"
+    },
+    {
+      "id": "7fa0cae758d2dc3ae771100a795c6c60",
+      "isEditable": true,
+      "isRequired": false,
+      "type": "PlainText",
+      "slug": "hub-eyebrow",
+      "displayName": "Hub Eyebrow"
+    },
+    {
+      "id": "5d977e91c0e9926b6de028cdf2ef7c73",
+      "isEditable": true,
+      "isRequired": false,
+      "type": "PlainText",
+      "slug": "hub-title",
+      "displayName": "Hub Title"
+    },
+    {
+      "id": "acaee1413b5d3dbee29bbca4b83954bf",
+      "isEditable": true,
+      "isRequired": false,
+      "type": "RichText",
+      "slug": "hub-body",
+      "displayName": "Hub Body"
+    },
+    {
+      "id": "e256aa280e25eb128a3b757c1dba866c",
+      "isEditable": true,
+      "isRequired": false,
+      "type": "Link",
+      "slug": "hub-url",
+      "displayName": "Hub URL"
+    },
+    {
+      "id": "a90bf752adefad519334bb9197e5d51b",
+      "isEditable": true,
+      "isRequired": false,
+      "type": "PlainText",
+      "slug": "hub-cta-label",
+      "displayName": "Hub CTA Label"
+    },
+    {
+      "id": "be9c9cef1cc36b83359ad499e4eaa249",
+      "isEditable": true,
+      "isRequired": false,
+      "type": "PlainText",
+      "slug": "hotel-eyebrow",
+      "displayName": "Hotel Eyebrow"
+    },
+    {
+      "id": "0d9ccab583b73b960d046093bffba0c7",
+      "isEditable": true,
+      "isRequired": false,
+      "type": "PlainText",
+      "slug": "hotel-title",
+      "displayName": "Hotel Title"
+    },
+    {
+      "id": "e15c0b4a638155866defc2a886476458",
+      "isEditable": true,
+      "isRequired": false,
+      "type": "PlainText",
+      "slug": "experience-eyebrow",
+      "displayName": "Experience Eyebrow"
+    },
+    {
+      "id": "d1fe7ee100f6da21724d7810696f49de",
+      "isEditable": true,
+      "isRequired": false,
+      "type": "PlainText",
+      "slug": "experience-title",
+      "displayName": "Experience Title"
+    },
+    {
+      "id": "0ad6846a31486da39a485f01368c5f60",
+      "isEditable": true,
+      "isRequired": false,
+      "type": "PlainText",
+      "slug": "experience-intro",
+      "displayName": "Experience Intro"
+    },
+    {
+      "id": "fa897a8b72647cfd27fb53ba30b5aebe",
+      "isEditable": true,
+      "isRequired": false,
+      "type": "PlainText",
+      "slug": "support-eyebrow",
+      "displayName": "Support Eyebrow"
+    },
+    {
+      "id": "1a3bb3954e6794a931bcde041e94238c",
+      "isEditable": true,
+      "isRequired": false,
+      "type": "PlainText",
+      "slug": "support-title",
+      "displayName": "Support Title"
+    },
+    {
+      "id": "9dbec13d3c54a07fc59d49c3a1b82ad4",
+      "isEditable": true,
+      "isRequired": false,
+      "type": "RichText",
+      "slug": "support-body",
+      "displayName": "Support Body"
+    },
+    {
+      "id": "65ceb6cd6b1e4d707c66d63325eaf073",
+      "isEditable": true,
+      "isRequired": false,
+      "type": "Link",
+      "slug": "support-url",
+      "displayName": "Support URL"
+    },
+    {
+      "id": "48e5d966c17b216e9bf423cd9486e471",
+      "isEditable": true,
+      "isRequired": false,
+      "type": "PlainText",
+      "slug": "support-cta-label",
+      "displayName": "Support CTA Label"
+    },
+    {
+      "id": "1dc186e4d2f65d61af41739f4f8cb3f5",
+      "isEditable": true,
+      "isRequired": false,
+      "type": "PlainText",
+      "slug": "contact-eyebrow",
+      "displayName": "Contact Eyebrow"
+    },
+    {
+      "id": "5208a7eabe0b9bfb8f6f0821769654d1",
+      "isEditable": true,
+      "isRequired": false,
+      "type": "PlainText",
+      "slug": "contact-title",
+      "displayName": "Contact Title"
+    },
+    {
+      "id": "70da51854fdd8efae7612fa05cfffe19",
+      "isEditable": true,
+      "isRequired": false,
+      "type": "PlainText",
+      "slug": "contact-intro",
+      "displayName": "Contact Intro"
+    },
+    {
+      "id": "433e99b4fecc8371aaa114f80743dd46",
+      "isEditable": true,
+      "isRequired": false,
+      "type": "RichText",
+      "slug": "kbyg-reservation-details",
+      "displayName": "KBYG Reservation Details",
+      "helpText": "Hotel reservation instructions for this KBYG page and audience. Leave blank to show a Coming Soon notice."
+    },
+    {
+      "id": "e02b30dce3a411956be64d45715ee196",
+      "isEditable": true,
+      "isRequired": true,
+      "type": "PlainText",
+      "slug": "name",
+      "displayName": "Name",
+      "validations": {
+        "maxLength": 256
+      }
+    },
+    {
+      "id": "917d8a07ce7a94dec7eb3b0eba534a74",
+      "isEditable": true,
+      "isRequired": true,
+      "type": "PlainText",
+      "slug": "slug",
+      "displayName": "Slug",
+      "validations": {
+        "maxLength": 256,
+        "pattern": {},
+        "messages": {
+          "pattern": "Must be alphanumerical and not contain any spaces or special characters",
+          "maxLength": "Must be less than 256 characters"
+        }
+      }
+    }
+  ],
+  "fieldGroups": []
+}

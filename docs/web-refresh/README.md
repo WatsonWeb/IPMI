@@ -68,7 +68,7 @@ Status describes **implementation progress**, not whether the Markdown file exis
 | 33  | [Testimonial content and CMS handoff](33-testimonial-content.md)                            | IPMI → implementation            | Provisional staging         | Neutral labeled CMS example; 68 originals preserved; actual-field handoff; final content/permission pending |
 | 34  | [HIT 2027 inquiries to Sam](34-hit-2027-sam-routing.md)                                     | IPMI → implementation            | Provisional staged          | Existing canonical route across three entry points; Sam ownership/approval and delivery pending; 15/18      |
 | 35  | [Calendar content through 2027](35-calendar-content-through-2027.md)                        | IPMI → implementation            | Provisional handoff         | 103 records reconciled; 26 current/future facts retained; final approval/completeness pending; feeds 24/36  |
-| 36  | [Operations copy and KBYG coverage](36-kbyg-operations-content.md)                          | IPMI Operations → implementation | Input required              | Event/audience content and link matrix; feeds 25–27                                                         |
+| 36  | [Operations copy and KBYG coverage](36-kbyg-operations-content.md)                          | IPMI Operations → implementation | Provisional staged handoff  | 54-row matrix; 50 missing-page content packs; EHS cross-event references corrected; final approval pending  |
 | 37  | [Staging verification and review handoff](37-staging-verification.md)                       | Implementation                   | After dependencies          | All included tasks; explicit deferred-item register                                                         |
 
 ## Source request coverage

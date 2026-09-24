@@ -1,0 +1,14 @@
+{
+  "rows": 54,
+  "uniquePairs": 54,
+  "uniqueEvents": 27,
+  "expectedEventsMatch": true,
+  "scheduleFieldsExact": true,
+  "mismatches": [],
+  "existingIdSetMatch": true,
+  "csvRows": 50,
+  "csvExactlyMissingSlugs": true,
+  "csvUnknownStaffAllBlank": true,
+  "csvHubAndSupportAllBlank": true,
+  "csvReferenceListFieldsAllBlank": true
+}

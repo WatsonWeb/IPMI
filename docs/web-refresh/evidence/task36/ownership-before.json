@@ -1,0 +1,614 @@
+[
+  {
+    "page": "ehs-jan-2027-sponsor",
+    "field": "preparation",
+    "block": "Static - Sponsor Preparation 1",
+    "blockId": "6a9a61f4a74bfa192a4f8754",
+    "pageInstitute": "6a46ac429cad4c03adc65259",
+    "blockInstitute": "68b0aff93e4f6363f03f620b",
+    "sameInstitute": false
+  },
+  {
+    "page": "ehs-jan-2027-sponsor",
+    "field": "preparation",
+    "block": "Static - Sponsor Preparation 2",
+    "blockId": "6a9a61f4a74bfa192a4f8756",
+    "pageInstitute": "6a46ac429cad4c03adc65259",
+    "blockInstitute": "68b0aff93e4f6363f03f620b",
+    "sameInstitute": false
+  },
+  {
+    "page": "ehs-jan-2027-sponsor",
+    "field": "preparation",
+    "block": "Static - Sponsor Preparation 3",
+    "blockId": "6a9a61f4a74bfa192a4f8758",
+    "pageInstitute": "6a46ac429cad4c03adc65259",
+    "blockInstitute": "68b0aff93e4f6363f03f620b",
+    "sameInstitute": false
+  },
+  {
+    "page": "ehs-jan-2027-sponsor",
+    "field": "agenda-days",
+    "block": "Static - Agenda Day 1",
+    "blockId": "6a9a61f4a74bfa192a4f876a",
+    "pageInstitute": "6a46ac429cad4c03adc65259",
+    "blockInstitute": "68b0aff93e4f6363f03f620b",
+    "sameInstitute": false
+  },
+  {
+    "page": "ehs-jan-2027-sponsor",
+    "field": "agenda-days",
+    "block": "Static - Agenda Day 2",
+    "blockId": "6a9a61f4a74bfa192a4f876c",
+    "pageInstitute": "6a46ac429cad4c03adc65259",
+    "blockInstitute": "68b0aff93e4f6363f03f620b",
+    "sameInstitute": false
+  },
+  {
+    "page": "ehs-jan-2027-sponsor",
+    "field": "agenda-days",
+    "block": "Static - Agenda Day 3",
+    "blockId": "6a9a61f4a74bfa192a4f876e",
+    "pageInstitute": "6a46ac429cad4c03adc65259",
+    "blockInstitute": "68b0aff93e4f6363f03f620b",
+    "sameInstitute": false
+  },
+  {
+    "page": "ehs-jan-2027-sponsor",
+    "field": "experience",
+    "block": "Static - Sponsor Meeting Method 1",
+    "blockId": "6a9a6216fe4cda4c0d5d74bd",
+    "pageInstitute": "6a46ac429cad4c03adc65259",
+    "blockInstitute": "68b0aff93e4f6363f03f620b",
+    "sameInstitute": false
+  },
+  {
+    "page": "ehs-jan-2027-sponsor",
+    "field": "experience",
+    "block": "Static - Sponsor Meeting Method 2",
+    "blockId": "6a9a6216fe4cda4c0d5d74bf",
+    "pageInstitute": "6a46ac429cad4c03adc65259",
+    "blockInstitute": "68b0aff93e4f6363f03f620b",
+    "sameInstitute": false
+  },
+  {
+    "page": "ehs-jan-2027-sponsor",
+    "field": "experience",
+    "block": "Static - Sponsor Meeting Method 3",
+    "blockId": "6a9a6216fe4cda4c0d5d74c1",
+    "pageInstitute": "6a46ac429cad4c03adc65259",
+    "blockInstitute": "68b0aff93e4f6363f03f620b",
+    "sameInstitute": false
+  },
+  {
+    "page": "ehs-jan-2027-sponsor",
+    "field": "experience",
+    "block": "Static - Sponsor Experience 1",
+    "blockId": "6a9a6216fe4cda4c0d5d74c3",
+    "pageInstitute": "6a46ac429cad4c03adc65259",
+    "blockInstitute": "68b0aff93e4f6363f03f620b",
+    "sameInstitute": false
+  },
+  {
+    "page": "ehs-jan-2027-sponsor",
+    "field": "experience",
+    "block": "Static - Sponsor Experience 2",
+    "blockId": "6a9a6216fe4cda4c0d5d74c5",
+    "pageInstitute": "6a46ac429cad4c03adc65259",
+    "blockInstitute": "68b0aff93e4f6363f03f620b",
+    "sameInstitute": false
+  },
+  {
+    "page": "ehs-jan-2027-sponsor",
+    "field": "experience",
+    "block": "Static - Sponsor Experience 3",
+    "blockId": "6a9a6216fe4cda4c0d5d74c7",
+    "pageInstitute": "6a46ac429cad4c03adc65259",
+    "blockInstitute": "68b0aff93e4f6363f03f620b",
+    "sameInstitute": false
+  },
+  {
+    "page": "ehs-jan-2027-sponsor",
+    "field": "experience",
+    "block": "Static - Sponsor Experience 4",
+    "blockId": "6a9a6216fe4cda4c0d5d74c9",
+    "pageInstitute": "6a46ac429cad4c03adc65259",
+    "blockInstitute": "68b0aff93e4f6363f03f620b",
+    "sameInstitute": false
+  },
+  {
+    "page": "ehs-jan-2027-sponsor",
+    "field": "experience",
+    "block": "Static - Sponsor Experience 5",
+    "blockId": "6a9a6216fe4cda4c0d5d74cb",
+    "pageInstitute": "6a46ac429cad4c03adc65259",
+    "blockInstitute": "68b0aff93e4f6363f03f620b",
+    "sameInstitute": false
+  },
+  {
+    "page": "ehs-jan-2027-delegate",
+    "field": "preparation",
+    "block": "Static - Delegate Preparation 1",
+    "blockId": "6a9a61608591545695d9c51c",
+    "pageInstitute": "6a46ac429cad4c03adc65259",
+    "blockInstitute": "68b0aff93e4f6363f03f620b",
+    "sameInstitute": false
+  },
+  {
+    "page": "ehs-jan-2027-delegate",
+    "field": "preparation",
+    "block": "Static - Delegate Preparation 2",
+    "blockId": "6a9a61ae2837d9128fd77e03",
+    "pageInstitute": "6a46ac429cad4c03adc65259",
+    "blockInstitute": "68b0aff93e4f6363f03f620b",
+    "sameInstitute": false
+  },
+  {
+    "page": "ehs-jan-2027-delegate",
+    "field": "preparation",
+    "block": "Static - Delegate Preparation 3",
+    "blockId": "6a9a61f4a74bfa192a4f8752",
+    "pageInstitute": "6a46ac429cad4c03adc65259",
+    "blockInstitute": "68b0aff93e4f6363f03f620b",
+    "sameInstitute": false
+  },
+  {
+    "page": "ehs-jan-2027-delegate",
+    "field": "key-dates",
+    "block": "EHS Jan 2027 Delegate Date 1",
+    "blockId": "6ab432c917568e8104a47eec",
+    "pageInstitute": "6a46ac429cad4c03adc65259",
+    "blockInstitute": "6a46ac429cad4c03adc65259",
+    "sameInstitute": true
+  },
+  {
+    "page": "ehs-jan-2027-delegate",
+    "field": "key-dates",
+    "block": "EHS Jan 2027 Delegate Date 2",
+    "blockId": "6ab432ec17568e8104a489dc",
+    "pageInstitute": "6a46ac429cad4c03adc65259",
+    "blockInstitute": "6a46ac429cad4c03adc65259",
+    "sameInstitute": true
+  },
+  {
+    "page": "ehs-jan-2027-delegate",
+    "field": "key-dates",
+    "block": "EHS Jan 2027 Delegate Date 3",
+    "blockId": "6ab4332204740d0b899d6e49",
+    "pageInstitute": "6a46ac429cad4c03adc65259",
+    "blockInstitute": "6a46ac429cad4c03adc65259",
+    "sameInstitute": true
+  },
+  {
+    "page": "ehs-jan-2027-delegate",
+    "field": "key-dates",
+    "block": "EHS Jan 2027 Delegate Date 4",
+    "blockId": "6ab4334cd5e480cd010ecfc7",
+    "pageInstitute": "6a46ac429cad4c03adc65259",
+    "blockInstitute": "6a46ac429cad4c03adc65259",
+    "sameInstitute": true
+  },
+  {
+    "page": "ehs-jan-2027-delegate",
+    "field": "agenda-days",
+    "block": "Static - Agenda Day 1",
+    "blockId": "6a9a61f4a74bfa192a4f876a",
+    "pageInstitute": "6a46ac429cad4c03adc65259",
+    "blockInstitute": "68b0aff93e4f6363f03f620b",
+    "sameInstitute": false
+  },
+  {
+    "page": "ehs-jan-2027-delegate",
+    "field": "agenda-days",
+    "block": "Static - Agenda Day 2",
+    "blockId": "6a9a61f4a74bfa192a4f876c",
+    "pageInstitute": "6a46ac429cad4c03adc65259",
+    "blockInstitute": "68b0aff93e4f6363f03f620b",
+    "sameInstitute": false
+  },
+  {
+    "page": "ehs-jan-2027-delegate",
+    "field": "agenda-days",
+    "block": "Static - Agenda Day 3",
+    "blockId": "6a9a61f4a74bfa192a4f876e",
+    "pageInstitute": "6a46ac429cad4c03adc65259",
+    "blockInstitute": "68b0aff93e4f6363f03f620b",
+    "sameInstitute": false
+  },
+  {
+    "page": "ehs-jan-2027-delegate",
+    "field": "experience",
+    "block": "Static - Delegate Experience 1",
+    "blockId": "6a9a6216fe4cda4c0d5d74b7",
+    "pageInstitute": "6a46ac429cad4c03adc65259",
+    "blockInstitute": "68b0aff93e4f6363f03f620b",
+    "sameInstitute": false
+  },
+  {
+    "page": "ehs-jan-2027-delegate",
+    "field": "experience",
+    "block": "Static - Delegate Experience 2",
+    "blockId": "6a9a6216fe4cda4c0d5d74b9",
+    "pageInstitute": "6a46ac429cad4c03adc65259",
+    "blockInstitute": "68b0aff93e4f6363f03f620b",
+    "sameInstitute": false
+  },
+  {
+    "page": "ehs-jan-2027-delegate",
+    "field": "experience",
+    "block": "Static - Delegate Experience 3",
+    "blockId": "6a9a6216fe4cda4c0d5d74bb",
+    "pageInstitute": "6a46ac429cad4c03adc65259",
+    "blockInstitute": "68b0aff93e4f6363f03f620b",
+    "sameInstitute": false
+  },
+  {
+    "page": "ehs-jan-2027-delegate",
+    "field": "faqs",
+    "block": "Static - Delegate FAQ 1",
+    "blockId": "6a9a6216fe4cda4c0d5d74cd",
+    "pageInstitute": "6a46ac429cad4c03adc65259",
+    "blockInstitute": "68b0aff93e4f6363f03f620b",
+    "sameInstitute": false
+  },
+  {
+    "page": "ehs-jan-2027-delegate",
+    "field": "faqs",
+    "block": "Static - Delegate FAQ 2",
+    "blockId": "6a9a6216fe4cda4c0d5d74cf",
+    "pageInstitute": "6a46ac429cad4c03adc65259",
+    "blockInstitute": "68b0aff93e4f6363f03f620b",
+    "sameInstitute": false
+  },
+  {
+    "page": "ehs-jan-2027-delegate",
+    "field": "faqs",
+    "block": "Static - Delegate FAQ 3",
+    "blockId": "6a9a6216fe4cda4c0d5d74d1",
+    "pageInstitute": "6a46ac429cad4c03adc65259",
+    "blockInstitute": "68b0aff93e4f6363f03f620b",
+    "sameInstitute": false
+  },
+  {
+    "page": "ehs-jan-2027-delegate",
+    "field": "faqs",
+    "block": "Static - Delegate FAQ 4",
+    "blockId": "6a9a6216fe4cda4c0d5d74d3",
+    "pageInstitute": "6a46ac429cad4c03adc65259",
+    "blockInstitute": "68b0aff93e4f6363f03f620b",
+    "sameInstitute": false
+  },
+  {
+    "page": "ehs-jan-2027-delegate",
+    "field": "faqs",
+    "block": "Static - Delegate FAQ 5",
+    "blockId": "6a9a6216fe4cda4c0d5d74d5",
+    "pageInstitute": "6a46ac429cad4c03adc65259",
+    "blockInstitute": "68b0aff93e4f6363f03f620b",
+    "sameInstitute": false
+  },
+  {
+    "page": "hchr-sept-2026-sponsor",
+    "field": "preparation",
+    "block": "Static - Sponsor Preparation 1",
+    "blockId": "6a9a61f4a74bfa192a4f8754",
+    "pageInstitute": "68b0aff93e4f6363f03f620b",
+    "blockInstitute": "68b0aff93e4f6363f03f620b",
+    "sameInstitute": true
+  },
+  {
+    "page": "hchr-sept-2026-sponsor",
+    "field": "preparation",
+    "block": "Static - Sponsor Preparation 2",
+    "blockId": "6a9a61f4a74bfa192a4f8756",
+    "pageInstitute": "68b0aff93e4f6363f03f620b",
+    "blockInstitute": "68b0aff93e4f6363f03f620b",
+    "sameInstitute": true
+  },
+  {
+    "page": "hchr-sept-2026-sponsor",
+    "field": "preparation",
+    "block": "Static - Sponsor Preparation 3",
+    "blockId": "6a9a61f4a74bfa192a4f8758",
+    "pageInstitute": "68b0aff93e4f6363f03f620b",
+    "blockInstitute": "68b0aff93e4f6363f03f620b",
+    "sameInstitute": true
+  },
+  {
+    "page": "hchr-sept-2026-sponsor",
+    "field": "key-dates",
+    "block": "HCHR Sep 2026 Sponsor Date 1",
+    "blockId": "6a9a61f4a74bfa192a4f8762",
+    "pageInstitute": "68b0aff93e4f6363f03f620b",
+    "blockInstitute": "68b0aff93e4f6363f03f620b",
+    "sameInstitute": true
+  },
+  {
+    "page": "hchr-sept-2026-sponsor",
+    "field": "key-dates",
+    "block": "HCHR Sep 2026 Sponsor Date 2",
+    "blockId": "6a9a61f4a74bfa192a4f8764",
+    "pageInstitute": "68b0aff93e4f6363f03f620b",
+    "blockInstitute": "68b0aff93e4f6363f03f620b",
+    "sameInstitute": true
+  },
+  {
+    "page": "hchr-sept-2026-sponsor",
+    "field": "key-dates",
+    "block": "HCHR Sep 2026 Sponsor Date 3",
+    "blockId": "6a9a61f4a74bfa192a4f8766",
+    "pageInstitute": "68b0aff93e4f6363f03f620b",
+    "blockInstitute": "68b0aff93e4f6363f03f620b",
+    "sameInstitute": true
+  },
+  {
+    "page": "hchr-sept-2026-sponsor",
+    "field": "key-dates",
+    "block": "HCHR Sep 2026 Sponsor Date 4",
+    "blockId": "6a9a61f4a74bfa192a4f8768",
+    "pageInstitute": "68b0aff93e4f6363f03f620b",
+    "blockInstitute": "68b0aff93e4f6363f03f620b",
+    "sameInstitute": true
+  },
+  {
+    "page": "hchr-sept-2026-sponsor",
+    "field": "agenda-days",
+    "block": "Static - Agenda Day 1",
+    "blockId": "6a9a61f4a74bfa192a4f876a",
+    "pageInstitute": "68b0aff93e4f6363f03f620b",
+    "blockInstitute": "68b0aff93e4f6363f03f620b",
+    "sameInstitute": true
+  },
+  {
+    "page": "hchr-sept-2026-sponsor",
+    "field": "agenda-days",
+    "block": "Static - Agenda Day 2",
+    "blockId": "6a9a61f4a74bfa192a4f876c",
+    "pageInstitute": "68b0aff93e4f6363f03f620b",
+    "blockInstitute": "68b0aff93e4f6363f03f620b",
+    "sameInstitute": true
+  },
+  {
+    "page": "hchr-sept-2026-sponsor",
+    "field": "agenda-days",
+    "block": "Static - Agenda Day 3",
+    "blockId": "6a9a61f4a74bfa192a4f876e",
+    "pageInstitute": "68b0aff93e4f6363f03f620b",
+    "blockInstitute": "68b0aff93e4f6363f03f620b",
+    "sameInstitute": true
+  },
+  {
+    "page": "hchr-sept-2026-sponsor",
+    "field": "experience",
+    "block": "Static - Sponsor Meeting Method 1",
+    "blockId": "6a9a6216fe4cda4c0d5d74bd",
+    "pageInstitute": "68b0aff93e4f6363f03f620b",
+    "blockInstitute": "68b0aff93e4f6363f03f620b",
+    "sameInstitute": true
+  },
+  {
+    "page": "hchr-sept-2026-sponsor",
+    "field": "experience",
+    "block": "Static - Sponsor Meeting Method 2",
+    "blockId": "6a9a6216fe4cda4c0d5d74bf",
+    "pageInstitute": "68b0aff93e4f6363f03f620b",
+    "blockInstitute": "68b0aff93e4f6363f03f620b",
+    "sameInstitute": true
+  },
+  {
+    "page": "hchr-sept-2026-sponsor",
+    "field": "experience",
+    "block": "Static - Sponsor Meeting Method 3",
+    "blockId": "6a9a6216fe4cda4c0d5d74c1",
+    "pageInstitute": "68b0aff93e4f6363f03f620b",
+    "blockInstitute": "68b0aff93e4f6363f03f620b",
+    "sameInstitute": true
+  },
+  {
+    "page": "hchr-sept-2026-sponsor",
+    "field": "experience",
+    "block": "Static - Sponsor Experience 1",
+    "blockId": "6a9a6216fe4cda4c0d5d74c3",
+    "pageInstitute": "68b0aff93e4f6363f03f620b",
+    "blockInstitute": "68b0aff93e4f6363f03f620b",
+    "sameInstitute": true
+  },
+  {
+    "page": "hchr-sept-2026-sponsor",
+    "field": "experience",
+    "block": "Static - Sponsor Experience 2",
+    "blockId": "6a9a6216fe4cda4c0d5d74c5",
+    "pageInstitute": "68b0aff93e4f6363f03f620b",
+    "blockInstitute": "68b0aff93e4f6363f03f620b",
+    "sameInstitute": true
+  },
+  {
+    "page": "hchr-sept-2026-sponsor",
+    "field": "experience",
+    "block": "Static - Sponsor Experience 3",
+    "blockId": "6a9a6216fe4cda4c0d5d74c7",
+    "pageInstitute": "68b0aff93e4f6363f03f620b",
+    "blockInstitute": "68b0aff93e4f6363f03f620b",
+    "sameInstitute": true
+  },
+  {
+    "page": "hchr-sept-2026-sponsor",
+    "field": "experience",
+    "block": "Static - Sponsor Experience 4",
+    "blockId": "6a9a6216fe4cda4c0d5d74c9",
+    "pageInstitute": "68b0aff93e4f6363f03f620b",
+    "blockInstitute": "68b0aff93e4f6363f03f620b",
+    "sameInstitute": true
+  },
+  {
+    "page": "hchr-sept-2026-sponsor",
+    "field": "experience",
+    "block": "Static - Sponsor Experience 5",
+    "blockId": "6a9a6216fe4cda4c0d5d74cb",
+    "pageInstitute": "68b0aff93e4f6363f03f620b",
+    "blockInstitute": "68b0aff93e4f6363f03f620b",
+    "sameInstitute": true
+  },
+  {
+    "page": "hchr-sept-2026-delegate",
+    "field": "preparation",
+    "block": "Static - Delegate Preparation 1",
+    "blockId": "6a9a61608591545695d9c51c",
+    "pageInstitute": "68b0aff93e4f6363f03f620b",
+    "blockInstitute": "68b0aff93e4f6363f03f620b",
+    "sameInstitute": true
+  },
+  {
+    "page": "hchr-sept-2026-delegate",
+    "field": "preparation",
+    "block": "Static - Delegate Preparation 2",
+    "blockId": "6a9a61ae2837d9128fd77e03",
+    "pageInstitute": "68b0aff93e4f6363f03f620b",
+    "blockInstitute": "68b0aff93e4f6363f03f620b",
+    "sameInstitute": true
+  },
+  {
+    "page": "hchr-sept-2026-delegate",
+    "field": "preparation",
+    "block": "Static - Delegate Preparation 3",
+    "blockId": "6a9a61f4a74bfa192a4f8752",
+    "pageInstitute": "68b0aff93e4f6363f03f620b",
+    "blockInstitute": "68b0aff93e4f6363f03f620b",
+    "sameInstitute": true
+  },
+  {
+    "page": "hchr-sept-2026-delegate",
+    "field": "key-dates",
+    "block": "HCHR Sep 2026 Delegate Date 1",
+    "blockId": "6a9a61f4a74bfa192a4f875a",
+    "pageInstitute": "68b0aff93e4f6363f03f620b",
+    "blockInstitute": "68b0aff93e4f6363f03f620b",
+    "sameInstitute": true
+  },
+  {
+    "page": "hchr-sept-2026-delegate",
+    "field": "key-dates",
+    "block": "HCHR Sep 2026 Delegate Date 2",
+    "blockId": "6a9a61f4a74bfa192a4f875c",
+    "pageInstitute": "68b0aff93e4f6363f03f620b",
+    "blockInstitute": "68b0aff93e4f6363f03f620b",
+    "sameInstitute": true
+  },
+  {
+    "page": "hchr-sept-2026-delegate",
+    "field": "key-dates",
+    "block": "HCHR Sep 2026 Delegate Date 3",
+    "blockId": "6a9a61f4a74bfa192a4f875e",
+    "pageInstitute": "68b0aff93e4f6363f03f620b",
+    "blockInstitute": "68b0aff93e4f6363f03f620b",
+    "sameInstitute": true
+  },
+  {
+    "page": "hchr-sept-2026-delegate",
+    "field": "key-dates",
+    "block": "HCHR Sep 2026 Delegate Date 4",
+    "blockId": "6a9a61f4a74bfa192a4f8760",
+    "pageInstitute": "68b0aff93e4f6363f03f620b",
+    "blockInstitute": "68b0aff93e4f6363f03f620b",
+    "sameInstitute": true
+  },
+  {
+    "page": "hchr-sept-2026-delegate",
+    "field": "agenda-days",
+    "block": "Static - Agenda Day 1",
+    "blockId": "6a9a61f4a74bfa192a4f876a",
+    "pageInstitute": "68b0aff93e4f6363f03f620b",
+    "blockInstitute": "68b0aff93e4f6363f03f620b",
+    "sameInstitute": true
+  },
+  {
+    "page": "hchr-sept-2026-delegate",
+    "field": "agenda-days",
+    "block": "Static - Agenda Day 2",
+    "blockId": "6a9a61f4a74bfa192a4f876c",
+    "pageInstitute": "68b0aff93e4f6363f03f620b",
+    "blockInstitute": "68b0aff93e4f6363f03f620b",
+    "sameInstitute": true
+  },
+  {
+    "page": "hchr-sept-2026-delegate",
+    "field": "agenda-days",
+    "block": "Static - Agenda Day 3",
+    "blockId": "6a9a61f4a74bfa192a4f876e",
+    "pageInstitute": "68b0aff93e4f6363f03f620b",
+    "blockInstitute": "68b0aff93e4f6363f03f620b",
+    "sameInstitute": true
+  },
+  {
+    "page": "hchr-sept-2026-delegate",
+    "field": "experience",
+    "block": "Static - Delegate Experience 1",
+    "blockId": "6a9a6216fe4cda4c0d5d74b7",
+    "pageInstitute": "68b0aff93e4f6363f03f620b",
+    "blockInstitute": "68b0aff93e4f6363f03f620b",
+    "sameInstitute": true
+  },
+  {
+    "page": "hchr-sept-2026-delegate",
+    "field": "experience",
+    "block": "Static - Delegate Experience 2",
+    "blockId": "6a9a6216fe4cda4c0d5d74b9",
+    "pageInstitute": "68b0aff93e4f6363f03f620b",
+    "blockInstitute": "68b0aff93e4f6363f03f620b",
+    "sameInstitute": true
+  },
+  {
+    "page": "hchr-sept-2026-delegate",
+    "field": "experience",
+    "block": "Static - Delegate Experience 3",
+    "blockId": "6a9a6216fe4cda4c0d5d74bb",
+    "pageInstitute": "68b0aff93e4f6363f03f620b",
+    "blockInstitute": "68b0aff93e4f6363f03f620b",
+    "sameInstitute": true
+  },
+  {
+    "page": "hchr-sept-2026-delegate",
+    "field": "faqs",
+    "block": "Static - Delegate FAQ 1",
+    "blockId": "6a9a6216fe4cda4c0d5d74cd",
+    "pageInstitute": "68b0aff93e4f6363f03f620b",
+    "blockInstitute": "68b0aff93e4f6363f03f620b",
+    "sameInstitute": true
+  },
+  {
+    "page": "hchr-sept-2026-delegate",
+    "field": "faqs",
+    "block": "Static - Delegate FAQ 2",
+    "blockId": "6a9a6216fe4cda4c0d5d74cf",
+    "pageInstitute": "68b0aff93e4f6363f03f620b",
+    "blockInstitute": "68b0aff93e4f6363f03f620b",
+    "sameInstitute": true
+  },
+  {
+    "page": "hchr-sept-2026-delegate",
+    "field": "faqs",
+    "block": "Static - Delegate FAQ 3",
+    "blockId": "6a9a6216fe4cda4c0d5d74d1",
+    "pageInstitute": "68b0aff93e4f6363f03f620b",
+    "blockInstitute": "68b0aff93e4f6363f03f620b",
+    "sameInstitute": true
+  },
+  {
+    "page": "hchr-sept-2026-delegate",
+    "field": "faqs",
+    "block": "Static - Delegate FAQ 4",
+    "blockId": "6a9a6216fe4cda4c0d5d74d3",
+    "pageInstitute": "68b0aff93e4f6363f03f620b",
+    "blockInstitute": "68b0aff93e4f6363f03f620b",
+    "sameInstitute": true
+  },
+  {
+    "page": "hchr-sept-2026-delegate",
+    "field": "faqs",
+    "block": "Static - Delegate FAQ 5",
+    "blockId": "6a9a6216fe4cda4c0d5d74d5",
+    "pageInstitute": "68b0aff93e4f6363f03f620b",
+    "blockInstitute": "68b0aff93e4f6363f03f620b",
+    "sameInstitute": true
+  }
+]

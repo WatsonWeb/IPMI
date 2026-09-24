@@ -1,0 +1,1213 @@
+{
+  "items": [
+    {
+      "id": "6ab4386fcc918de3f326acb1",
+      "cmsLocaleId": "653ad7c5e882f528b349ce21",
+      "lastPublished": "2026-09-23T23:53:50.442Z",
+      "lastUpdated": "2026-09-23T20:37:05.050Z",
+      "createdOn": "2026-09-23T20:37:03.180Z",
+      "isArchived": false,
+      "isDraft": false,
+      "fieldData": {
+        "institute": "68b0aff93e4f6363f03f620b",
+        "audience-scope": "8a428f567e86e5bd5818fc54751dcd37",
+        "block-type": "615a921a3d67b6c9c3834e08f3e00d69",
+        "eyebrow": null,
+        "title": "What if I need to cancel my participation in the event?",
+        "body": "<p>Should you no longer be able to attend, we do allow qualified substitutes to attend in your place. Please notify your Operations Director to assist with this process. Should a substitute not be available, a cancellation fee will apply. For cancellations occurring 30 to 60 days in advance of the event, the fee is $500,and for cancellations occurring less than 30 days from the event, the fee is$1,495.</p><p>‍</p><p>‍</p>",
+        "icon": {
+          "fileId": "6a9a66b7e288eba707c1f185",
+          "url": "https://cdn.prod.website-files.com/6312ee46f4c52faf21ee8ab5/6a9a66b7e288eba707c1f185_6a9a66432837d9128fd98cc3_kbyg-question.svg",
+          "alt": null
+        },
+        "calendar-start": null,
+        "calendar-end": null,
+        "all-day": false,
+        "initially-expanded": false,
+        "name": "Static - Delegate FAQ 11",
+        "slug": "static---delegate-faq-11"
+      }
+    },
+    {
+      "id": "6ab43847ca944c5a1b59f4e1",
+      "cmsLocaleId": "653ad7c5e882f528b349ce21",
+      "lastPublished": "2026-09-23T23:53:50.442Z",
+      "lastUpdated": "2026-09-23T20:36:26.047Z",
+      "createdOn": "2026-09-23T20:36:23.669Z",
+      "isArchived": false,
+      "isDraft": false,
+      "fieldData": {
+        "institute": "68b0aff93e4f6363f03f620b",
+        "audience-scope": "8a428f567e86e5bd5818fc54751dcd37",
+        "block-type": "615a921a3d67b6c9c3834e08f3e00d69",
+        "eyebrow": null,
+        "title": "Are continuing education credits provided?",
+        "body": "<p>Yes, for many of our events, continuing education credits are available. Credit types include CLE, CPE, HRCI, and SHRM. Please reach out to your Operations Director for further information about what is available for each event.</p><p>‍</p>",
+        "icon": {
+          "fileId": "6a9a66b7e288eba707c1f185",
+          "url": "https://cdn.prod.website-files.com/6312ee46f4c52faf21ee8ab5/6a9a66b7e288eba707c1f185_6a9a66432837d9128fd98cc3_kbyg-question.svg",
+          "alt": null
+        },
+        "calendar-start": null,
+        "calendar-end": null,
+        "all-day": false,
+        "initially-expanded": false,
+        "name": "Static - Delegate FAQ 10",
+        "slug": "static---delegate-faq-10"
+      }
+    },
+    {
+      "id": "6ab4382c7bcbb9190fa67a1b",
+      "cmsLocaleId": "653ad7c5e882f528b349ce21",
+      "lastPublished": "2026-09-23T23:53:50.442Z",
+      "lastUpdated": "2026-09-23T20:35:58.628Z",
+      "createdOn": "2026-09-23T20:35:56.675Z",
+      "isArchived": false,
+      "isDraft": false,
+      "fieldData": {
+        "institute": "68b0aff93e4f6363f03f620b",
+        "audience-scope": "8a428f567e86e5bd5818fc54751dcd37",
+        "block-type": "615a921a3d67b6c9c3834e08f3e00d69",
+        "eyebrow": null,
+        "title": "Are guests able to participate in the scheduled activities?",
+        "body": "<p>Guests are permitted the Monday night dinner function during the official event. All other event functions are restricted to event attendees only.</p>",
+        "icon": {
+          "fileId": "6a9a66b7e288eba707c1f185",
+          "url": "https://cdn.prod.website-files.com/6312ee46f4c52faf21ee8ab5/6a9a66b7e288eba707c1f185_6a9a66432837d9128fd98cc3_kbyg-question.svg",
+          "alt": null
+        },
+        "calendar-start": null,
+        "calendar-end": null,
+        "all-day": false,
+        "initially-expanded": false,
+        "name": "Static - Delegate FAQ 9",
+        "slug": "static---delegate-faq-9"
+      }
+    },
+    {
+      "id": "6ab4380f8acc57561e461e3f",
+      "cmsLocaleId": "653ad7c5e882f528b349ce21",
+      "lastPublished": "2026-09-23T23:53:50.442Z",
+      "lastUpdated": "2026-09-23T20:35:29.490Z",
+      "createdOn": "2026-09-23T20:35:27.663Z",
+      "isArchived": false,
+      "isDraft": false,
+      "fieldData": {
+        "institute": "68b0aff93e4f6363f03f620b",
+        "audience-scope": "8a428f567e86e5bd5818fc54751dcd37",
+        "block-type": "615a921a3d67b6c9c3834e08f3e00d69",
+        "eyebrow": null,
+        "title": "What is the dress code for the event?",
+        "body": "<p>The dress code is described as \"business casual\". We encourage a casual, comfortable atmosphere at all events.</p>",
+        "icon": {
+          "fileId": "6a9a66b7e288eba707c1f185",
+          "url": "https://cdn.prod.website-files.com/6312ee46f4c52faf21ee8ab5/6a9a66b7e288eba707c1f185_6a9a66432837d9128fd98cc3_kbyg-question.svg",
+          "alt": null
+        },
+        "calendar-start": null,
+        "calendar-end": null,
+        "all-day": false,
+        "initially-expanded": false,
+        "name": "Static - Delegate FAQ 8",
+        "slug": "static---delegate-faq-8"
+      }
+    },
+    {
+      "id": "6ab437ea1d4a1eaad4b935d0",
+      "cmsLocaleId": "653ad7c5e882f528b349ce21",
+      "lastPublished": "2026-09-23T23:53:50.442Z",
+      "lastUpdated": "2026-09-23T20:34:52.722Z",
+      "createdOn": "2026-09-23T20:34:50.551Z",
+      "isArchived": false,
+      "isDraft": false,
+      "fieldData": {
+        "institute": "68b0aff93e4f6363f03f620b",
+        "audience-scope": "8a428f567e86e5bd5818fc54751dcd37",
+        "block-type": "615a921a3d67b6c9c3834e08f3e00d69",
+        "eyebrow": null,
+        "title": "Am I required to participate in business meetings?",
+        "body": "<p>Yes. To optimize your event experience, all attendees are required to participate in all program activities, including business meetings with industry experts. These meetings are strategically scheduled throughout the three-day event and do not conflict with conference sessions or networking opportunities.</p>",
+        "icon": {
+          "fileId": "6a9a66b7e288eba707c1f185",
+          "url": "https://cdn.prod.website-files.com/6312ee46f4c52faf21ee8ab5/6a9a66b7e288eba707c1f185_6a9a66432837d9128fd98cc3_kbyg-question.svg",
+          "alt": null
+        },
+        "calendar-start": null,
+        "calendar-end": null,
+        "all-day": false,
+        "initially-expanded": false,
+        "name": "Static - Delegate FAQ 7",
+        "slug": "static---delegate-faq-7"
+      }
+    },
+    {
+      "id": "6ab437bbe043dfb8e5767632",
+      "cmsLocaleId": "653ad7c5e882f528b349ce21",
+      "lastPublished": null,
+      "lastUpdated": "2026-09-23T20:34:03.243Z",
+      "createdOn": "2026-09-23T20:34:03.243Z",
+      "isArchived": false,
+      "isDraft": true,
+      "fieldData": {
+        "institute": "68b0aff93e4f6363f03f620b",
+        "audience-scope": "8a428f567e86e5bd5818fc54751dcd37",
+        "block-type": "615a921a3d67b6c9c3834e08f3e00d69",
+        "eyebrow": null,
+        "title": "How do I create my personal itinerary?",
+        "body": "<p>Approximately three weeks in advance of the event, your Operations Director will notify you that you can begin building your itinerary in the Hub. You will have the opportunity to select the Sessions and Think Tanks that you would like to attend. You will also be asked to identify your business meeting preferences by selecting and ranking the organizations that you would be interested in meeting with onsite.</p><p>‍</p>",
+        "icon": {
+          "fileId": "6a9a66b7e288eba707c1f185",
+          "url": "https://cdn.prod.website-files.com/6312ee46f4c52faf21ee8ab5/6a9a66b7e288eba707c1f185_6a9a66432837d9128fd98cc3_kbyg-question.svg",
+          "alt": null
+        },
+        "calendar-start": null,
+        "calendar-end": null,
+        "all-day": false,
+        "initially-expanded": false,
+        "name": "Static - Delegate FAQ 6",
+        "slug": "static---delegate-faq-6"
+      }
+    },
+    {
+      "id": "6ab4334cd5e480cd010ecfc7",
+      "cmsLocaleId": "653ad7c5e882f528b349ce21",
+      "lastPublished": "2026-09-23T20:15:41.634Z",
+      "lastUpdated": "2026-09-23T20:15:12.994Z",
+      "createdOn": "2026-09-23T20:15:08.129Z",
+      "isArchived": false,
+      "isDraft": false,
+      "fieldData": {
+        "institute": "6a46ac429cad4c03adc65259",
+        "audience-scope": "8a428f567e86e5bd5818fc54751dcd37",
+        "block-type": "76dffa66bff7c3c483d0ecd952c69068",
+        "eyebrow": "Thursday, January 14, 2027",
+        "title": "Hotel Confirmation Numbers",
+        "body": null,
+        "icon": {
+          "fileId": "6a9a66b9e288eba707c1f1ff",
+          "url": "https://cdn.prod.website-files.com/6312ee46f4c52faf21ee8ab5/6a9a66b9e288eba707c1f1ff_6a9a663cce252381364dbcda_kbyg-calendar-plus.svg",
+          "alt": null
+        },
+        "calendar-start": "2027-01-15T01:00:00.000Z",
+        "calendar-end": "2027-01-15T01:00:00.000Z",
+        "all-day": true,
+        "initially-expanded": false,
+        "name": "EHS Jan 2027 Delegate Date 4",
+        "slug": "ehs-jan-2027-delegate-date-4"
+      }
+    },
+    {
+      "id": "6ab4332204740d0b899d6e49",
+      "cmsLocaleId": "653ad7c5e882f528b349ce21",
+      "lastPublished": "2026-09-23T23:53:50.442Z",
+      "lastUpdated": "2026-09-23T20:20:39.368Z",
+      "createdOn": "2026-09-23T20:14:26.598Z",
+      "isArchived": false,
+      "isDraft": false,
+      "fieldData": {
+        "institute": "6a46ac429cad4c03adc65259",
+        "audience-scope": "8a428f567e86e5bd5818fc54751dcd37",
+        "block-type": "76dffa66bff7c3c483d0ecd952c69068",
+        "eyebrow": "Wednesday, January 13, 2027",
+        "title": "Itinerary Selections Due",
+        "body": null,
+        "icon": {
+          "fileId": "6a9a66b9e288eba707c1f1ff",
+          "url": "https://cdn.prod.website-files.com/6312ee46f4c52faf21ee8ab5/6a9a66b9e288eba707c1f1ff_6a9a663cce252381364dbcda_kbyg-calendar-plus.svg",
+          "alt": null
+        },
+        "calendar-start": "2027-01-14T01:00:00.000Z",
+        "calendar-end": "2027-01-14T01:00:00.000Z",
+        "all-day": true,
+        "initially-expanded": false,
+        "name": "EHS Jan 2027 Delegate Date 3",
+        "slug": "ehs-jan-2027-delegate-date-3"
+      }
+    },
+    {
+      "id": "6ab432ec17568e8104a489dc",
+      "cmsLocaleId": "653ad7c5e882f528b349ce21",
+      "lastPublished": "2026-09-23T20:15:41.634Z",
+      "lastUpdated": "2026-09-23T20:13:41.747Z",
+      "createdOn": "2026-09-23T20:13:32.906Z",
+      "isArchived": false,
+      "isDraft": false,
+      "fieldData": {
+        "institute": "6a46ac429cad4c03adc65259",
+        "audience-scope": "8a428f567e86e5bd5818fc54751dcd37",
+        "block-type": "76dffa66bff7c3c483d0ecd952c69068",
+        "eyebrow": "Friday, December 18, 2026",
+        "title": "Travel Details Due",
+        "body": null,
+        "icon": {
+          "fileId": "6a9a66b9e288eba707c1f1ff",
+          "url": "https://cdn.prod.website-files.com/6312ee46f4c52faf21ee8ab5/6a9a66b9e288eba707c1f1ff_6a9a663cce252381364dbcda_kbyg-calendar-plus.svg",
+          "alt": null
+        },
+        "calendar-start": "2026-12-19T01:00:00.000Z",
+        "calendar-end": "2026-12-19T01:00:00.000Z",
+        "all-day": true,
+        "initially-expanded": false,
+        "name": "EHS Jan 2027 Delegate Date 2",
+        "slug": "ehs-jan-2027-delegate-date-2"
+      }
+    },
+    {
+      "id": "6ab432c917568e8104a47eec",
+      "cmsLocaleId": "653ad7c5e882f528b349ce21",
+      "lastPublished": "2026-09-23T23:53:50.442Z",
+      "lastUpdated": "2026-09-23T20:20:45.650Z",
+      "createdOn": "2026-09-23T20:12:57.026Z",
+      "isArchived": false,
+      "isDraft": false,
+      "fieldData": {
+        "institute": "6a46ac429cad4c03adc65259",
+        "audience-scope": "8a428f567e86e5bd5818fc54751dcd37",
+        "block-type": "76dffa66bff7c3c483d0ecd952c69068",
+        "eyebrow": "Friday, December 18, 2026",
+        "title": "Attendee Profile Due",
+        "body": null,
+        "icon": {
+          "fileId": "6a9a66b9e288eba707c1f1ff",
+          "url": "https://cdn.prod.website-files.com/6312ee46f4c52faf21ee8ab5/6a9a66b9e288eba707c1f1ff_6a9a663cce252381364dbcda_kbyg-calendar-plus.svg",
+          "alt": null
+        },
+        "calendar-start": "2026-12-19T01:00:00.000Z",
+        "calendar-end": "2026-12-19T01:00:00.000Z",
+        "all-day": true,
+        "initially-expanded": false,
+        "name": "EHS Jan 2027 Delegate Date 1",
+        "slug": "ehs-jan-2027-delegate-date-1"
+      }
+    },
+    {
+      "id": "6a9a6216fe4cda4c0d5d74d5",
+      "cmsLocaleId": "653ad7c5e882f528b349ce21",
+      "lastPublished": "2026-09-23T23:53:50.442Z",
+      "lastUpdated": "2026-09-23T20:33:16.926Z",
+      "createdOn": "2026-09-04T06:15:50.236Z",
+      "isArchived": false,
+      "isDraft": false,
+      "fieldData": {
+        "institute": "68b0aff93e4f6363f03f620b",
+        "audience-scope": "8a428f567e86e5bd5818fc54751dcd37",
+        "block-type": "615a921a3d67b6c9c3834e08f3e00d69",
+        "eyebrow": null,
+        "title": "If I am looking to extend my stay, what is the process?",
+        "body": "<p>If you wish to extend your stay, we can book additional nights at our corporate rate, subject to availability. Simply enter your intended arrival and departure dates on the \"Book Hotel\" page by the travel details deadline.</p><p>&nbsp;</p><p>The discounted corporate rate is available for up to three days before and after the event. Payment for any additional nights will be billed directly by the hotel upon check-out. For more information, visit the Destination Information page.</p>",
+        "icon": {
+          "fileId": "6a9a66b7e288eba707c1f185",
+          "url": "https://cdn.prod.website-files.com/6312ee46f4c52faf21ee8ab5/6a9a66b7e288eba707c1f185_6a9a66432837d9128fd98cc3_kbyg-question.svg",
+          "alt": null
+        },
+        "calendar-start": null,
+        "calendar-end": null,
+        "all-day": false,
+        "initially-expanded": false,
+        "name": "Static - Delegate FAQ 5",
+        "slug": "hchr-sep-2026-delegate-faq-5"
+      }
+    },
+    {
+      "id": "6a9a6216fe4cda4c0d5d74d3",
+      "cmsLocaleId": "653ad7c5e882f528b349ce21",
+      "lastPublished": "2026-09-23T23:53:50.442Z",
+      "lastUpdated": "2026-09-23T20:31:14.437Z",
+      "createdOn": "2026-09-04T06:15:50.236Z",
+      "isArchived": false,
+      "isDraft": false,
+      "fieldData": {
+        "institute": "68b0aff93e4f6363f03f620b",
+        "audience-scope": "8a428f567e86e5bd5818fc54751dcd37",
+        "block-type": "615a921a3d67b6c9c3834e08f3e00d69",
+        "eyebrow": null,
+        "title": "How do I know if my reservation has been booked at the hotel?",
+        "body": "<p>Once you submit your travel details through the Book Hotel page of your Hub, your reservation will be booked by your Operations Director, and no further action is required. Your hotel confirmation number will be made available approximately one week prior to the event.</p>",
+        "icon": {
+          "fileId": "6a9a66b7e288eba707c1f185",
+          "url": "https://cdn.prod.website-files.com/6312ee46f4c52faf21ee8ab5/6a9a66b7e288eba707c1f185_6a9a66432837d9128fd98cc3_kbyg-question.svg",
+          "alt": null
+        },
+        "calendar-start": null,
+        "calendar-end": null,
+        "all-day": false,
+        "initially-expanded": false,
+        "name": "Static - Delegate FAQ 4",
+        "slug": "hchr-sep-2026-delegate-faq-4"
+      }
+    },
+    {
+      "id": "6a9a6216fe4cda4c0d5d74d1",
+      "cmsLocaleId": "653ad7c5e882f528b349ce21",
+      "lastPublished": "2026-09-23T23:53:50.442Z",
+      "lastUpdated": "2026-09-23T20:31:25.384Z",
+      "createdOn": "2026-09-04T06:15:50.236Z",
+      "isArchived": false,
+      "isDraft": false,
+      "fieldData": {
+        "institute": "68b0aff93e4f6363f03f620b",
+        "audience-scope": "8a428f567e86e5bd5818fc54751dcd37",
+        "block-type": "615a921a3d67b6c9c3834e08f3e00d69",
+        "eyebrow": null,
+        "title": "Is airfare/transportation provided to/from the hotel?",
+        "body": "<p>No, you are responsible for coordinating your own transportation to/from the event hotel.</p>",
+        "icon": {
+          "fileId": "6a9a66b7e288eba707c1f185",
+          "url": "https://cdn.prod.website-files.com/6312ee46f4c52faf21ee8ab5/6a9a66b7e288eba707c1f185_6a9a66432837d9128fd98cc3_kbyg-question.svg",
+          "alt": null
+        },
+        "calendar-start": null,
+        "calendar-end": null,
+        "all-day": false,
+        "initially-expanded": false,
+        "name": "Static - Delegate FAQ 3",
+        "slug": "hchr-sep-2026-delegate-faq-3"
+      }
+    },
+    {
+      "id": "6a9a6216fe4cda4c0d5d74cf",
+      "cmsLocaleId": "653ad7c5e882f528b349ce21",
+      "lastPublished": "2026-09-23T23:53:50.442Z",
+      "lastUpdated": "2026-09-23T20:31:36.956Z",
+      "createdOn": "2026-09-04T06:15:50.236Z",
+      "isArchived": false,
+      "isDraft": false,
+      "fieldData": {
+        "institute": "68b0aff93e4f6363f03f620b",
+        "audience-scope": "8a428f567e86e5bd5818fc54751dcd37",
+        "block-type": "615a921a3d67b6c9c3834e08f3e00d69",
+        "eyebrow": null,
+        "title": "What is included in my participation?",
+        "body": "<p>Your registration includes accommodation for up to two nights at the hotel (unless otherwise outlined on your registration form), all organized group meals, event materials, and full access to the program.</p>",
+        "icon": {
+          "fileId": "6a9a66b7e288eba707c1f185",
+          "url": "https://cdn.prod.website-files.com/6312ee46f4c52faf21ee8ab5/6a9a66b7e288eba707c1f185_6a9a66432837d9128fd98cc3_kbyg-question.svg",
+          "alt": null
+        },
+        "calendar-start": null,
+        "calendar-end": null,
+        "all-day": false,
+        "initially-expanded": false,
+        "name": "Static - Delegate FAQ 2",
+        "slug": "hchr-sep-2026-delegate-faq-2"
+      }
+    },
+    {
+      "id": "6a9a6216fe4cda4c0d5d74cd",
+      "cmsLocaleId": "653ad7c5e882f528b349ce21",
+      "lastPublished": "2026-09-23T23:53:50.442Z",
+      "lastUpdated": "2026-09-23T20:31:46.571Z",
+      "createdOn": "2026-09-04T06:15:50.236Z",
+      "isArchived": false,
+      "isDraft": false,
+      "fieldData": {
+        "institute": "68b0aff93e4f6363f03f620b",
+        "audience-scope": "8a428f567e86e5bd5818fc54751dcd37",
+        "block-type": "615a921a3d67b6c9c3834e08f3e00d69",
+        "eyebrow": null,
+        "title": "What are my participation requirements?",
+        "body": "<p>You are required to complete the following three tasks prior to the event: 1) Complete Your Attendee Profile; 2) Submit Hotel Reservation/Travel Details; and 3) Create Your Itinerary.</p>",
+        "icon": {
+          "fileId": "6a9a66b7e288eba707c1f185",
+          "url": "https://cdn.prod.website-files.com/6312ee46f4c52faf21ee8ab5/6a9a66b7e288eba707c1f185_6a9a66432837d9128fd98cc3_kbyg-question.svg",
+          "alt": null
+        },
+        "calendar-start": null,
+        "calendar-end": null,
+        "all-day": false,
+        "initially-expanded": true,
+        "name": "Static - Delegate FAQ 1",
+        "slug": "hchr-sep-2026-delegate-faq-1"
+      }
+    },
+    {
+      "id": "6a9a6216fe4cda4c0d5d74cb",
+      "cmsLocaleId": "653ad7c5e882f528b349ce21",
+      "lastPublished": "2026-09-23T23:53:50.442Z",
+      "lastUpdated": "2026-09-23T20:40:47.401Z",
+      "createdOn": "2026-09-04T06:15:50.236Z",
+      "isArchived": false,
+      "isDraft": false,
+      "fieldData": {
+        "institute": "68b0aff93e4f6363f03f620b",
+        "audience-scope": "6098ab048a689d2d1b20a9ae6aa224bb",
+        "block-type": "4aeee77c1f8e2cb899876fe0641ac244",
+        "eyebrow": null,
+        "title": "Networking Opportunities",
+        "body": "<p>Enjoy enhanced networking opportunities including daily interactive group meals, engaging icebreaker activities, and refreshing coffee breaks, all thoughtfully designed to facilitate meaningful connections within the group.</p>",
+        "icon": {
+          "fileId": "6a9a66b7e288eba707c1f188",
+          "url": "https://cdn.prod.website-files.com/6312ee46f4c52faf21ee8ab5/6a9a66b7e288eba707c1f188_6a9a663dfd883fff73e1a399_kbyg-glasses.svg",
+          "alt": null
+        },
+        "calendar-start": null,
+        "calendar-end": null,
+        "all-day": false,
+        "initially-expanded": false,
+        "name": "Static - Sponsor Experience 5",
+        "slug": "hchr-sep-2026-sponsor-experience-5"
+      }
+    },
+    {
+      "id": "6a9a6216fe4cda4c0d5d74c9",
+      "cmsLocaleId": "653ad7c5e882f528b349ce21",
+      "lastPublished": "2026-09-23T23:53:50.442Z",
+      "lastUpdated": "2026-09-23T20:41:04.156Z",
+      "createdOn": "2026-09-04T06:15:50.236Z",
+      "isArchived": false,
+      "isDraft": false,
+      "fieldData": {
+        "institute": "68b0aff93e4f6363f03f620b",
+        "audience-scope": "6098ab048a689d2d1b20a9ae6aa224bb",
+        "block-type": "4aeee77c1f8e2cb899876fe0641ac244",
+        "eyebrow": null,
+        "title": "Thought Leadership Sessions",
+        "body": "<p>Sponsors are invited to attend the Thought Leadership Sessions and gain valuable insights from industry leaders through panel discussions and case studies focused on the most pressing issues facing healthcare HR executives. Visit the Sponsor Hub to view the agenda and session details.</p>",
+        "icon": {
+          "fileId": "6a9a66b7e288eba707c1f1a1",
+          "url": "https://cdn.prod.website-files.com/6312ee46f4c52faf21ee8ab5/6a9a66b7e288eba707c1f1a1_6a9a6641ec11449c643c5bfe_kbyg-podium.svg",
+          "alt": null
+        },
+        "calendar-start": null,
+        "calendar-end": null,
+        "all-day": false,
+        "initially-expanded": false,
+        "name": "Static - Sponsor Experience 4",
+        "slug": "hchr-sep-2026-sponsor-experience-4"
+      }
+    },
+    {
+      "id": "6a9a6216fe4cda4c0d5d74c7",
+      "cmsLocaleId": "653ad7c5e882f528b349ce21",
+      "lastPublished": "2026-09-23T23:53:50.442Z",
+      "lastUpdated": "2026-09-23T20:41:14.168Z",
+      "createdOn": "2026-09-04T06:15:50.236Z",
+      "isArchived": false,
+      "isDraft": false,
+      "fieldData": {
+        "institute": "68b0aff93e4f6363f03f620b",
+        "audience-scope": "6098ab048a689d2d1b20a9ae6aa224bb",
+        "block-type": "4aeee77c1f8e2cb899876fe0641ac244",
+        "eyebrow": null,
+        "title": "Meeting Space",
+        "body": "<p>Our team will take care of all meeting space setup on your behalf, including signage, tables, chairs, power, lighting, and Wi-Fi. For photos and additional details about the meeting environment, please visit the FAQ section of the Sponsor Hub.</p>",
+        "icon": {
+          "fileId": "6a9a66b7e288eba707c1f1a4",
+          "url": "https://cdn.prod.website-files.com/6312ee46f4c52faf21ee8ab5/6a9a66b7e288eba707c1f1a4_6a9a663d452b111de6552407_kbyg-chair.svg",
+          "alt": null
+        },
+        "calendar-start": null,
+        "calendar-end": null,
+        "all-day": false,
+        "initially-expanded": false,
+        "name": "Static - Sponsor Experience 3",
+        "slug": "hchr-sep-2026-sponsor-experience-3"
+      }
+    },
+    {
+      "id": "6a9a6216fe4cda4c0d5d74c5",
+      "cmsLocaleId": "653ad7c5e882f528b349ce21",
+      "lastPublished": "2026-09-23T23:53:50.442Z",
+      "lastUpdated": "2026-09-23T20:41:19.825Z",
+      "createdOn": "2026-09-04T06:15:50.236Z",
+      "isArchived": false,
+      "isDraft": false,
+      "fieldData": {
+        "institute": "68b0aff93e4f6363f03f620b",
+        "audience-scope": "6098ab048a689d2d1b20a9ae6aa224bb",
+        "block-type": "4aeee77c1f8e2cb899876fe0641ac244",
+        "eyebrow": null,
+        "title": "Meeting Schedule",
+        "body": "<p>Your personalized business meeting schedule will be released on the Tuesday prior to the event, providing ample time to review your itinerary, research attendees, and prepare for productive onsite discussions.</p>",
+        "icon": {
+          "fileId": "6a9a66b7e288eba707c1f1aa",
+          "url": "https://cdn.prod.website-files.com/6312ee46f4c52faf21ee8ab5/6a9a66b7e288eba707c1f1aa_6a9a663c452b111de6552397_kbyg-calendar-clock.svg",
+          "alt": null
+        },
+        "calendar-start": null,
+        "calendar-end": null,
+        "all-day": false,
+        "initially-expanded": false,
+        "name": "Static - Sponsor Experience 2",
+        "slug": "hchr-sep-2026-sponsor-experience-2"
+      }
+    },
+    {
+      "id": "6a9a6216fe4cda4c0d5d74c3",
+      "cmsLocaleId": "653ad7c5e882f528b349ce21",
+      "lastPublished": "2026-09-23T23:53:50.442Z",
+      "lastUpdated": "2026-09-23T20:41:33.070Z",
+      "createdOn": "2026-09-04T06:15:50.236Z",
+      "isArchived": false,
+      "isDraft": false,
+      "fieldData": {
+        "institute": "68b0aff93e4f6363f03f620b",
+        "audience-scope": "6098ab048a689d2d1b20a9ae6aa224bb",
+        "block-type": "4aeee77c1f8e2cb899876fe0641ac244",
+        "eyebrow": null,
+        "title": "Opt-Outs",
+        "body": "<p>A confidential Opt-Out feature is available during the selection process, allowing you to exclude specific organizations from your schedule and keep your meetings focused on the conversations most relevant to your business objectives.</p>",
+        "icon": {
+          "fileId": "6a9a66b7e288eba707c1f1a7",
+          "url": "https://cdn.prod.website-files.com/6312ee46f4c52faf21ee8ab5/6a9a66b7e288eba707c1f1a7_6a9a6642e375a810fc4cdef1_kbyg-prohibited.svg",
+          "alt": null
+        },
+        "calendar-start": null,
+        "calendar-end": null,
+        "all-day": false,
+        "initially-expanded": false,
+        "name": "Static - Sponsor Experience 1",
+        "slug": "hchr-sep-2026-sponsor-experience-1"
+      }
+    },
+    {
+      "id": "6a9a6216fe4cda4c0d5d74c1",
+      "cmsLocaleId": "653ad7c5e882f528b349ce21",
+      "lastPublished": "2026-09-23T23:53:50.442Z",
+      "lastUpdated": "2026-09-23T20:40:21.493Z",
+      "createdOn": "2026-09-04T06:15:50.236Z",
+      "isArchived": false,
+      "isDraft": false,
+      "fieldData": {
+        "institute": "68b0aff93e4f6363f03f620b",
+        "audience-scope": "6098ab048a689d2d1b20a9ae6aa224bb",
+        "block-type": "4aeee77c1f8e2cb899876fe0641ac244",
+        "eyebrow": "3.",
+        "title": "Service Provider Requests",
+        "body": "<p>Your organization has requested the executive.</p>",
+        "icon": {
+          "fileId": "6a9a66b8e288eba707c1f1bc",
+          "url": "https://cdn.prod.website-files.com/6312ee46f4c52faf21ee8ab5/6a9a66b8e288eba707c1f1bc_6a9a663baaffd3efb5e5e069_kbyg-building.svg",
+          "alt": null
+        },
+        "calendar-start": null,
+        "calendar-end": null,
+        "all-day": false,
+        "initially-expanded": false,
+        "name": "Static - Sponsor Meeting Method 3",
+        "slug": "hchr-sep-2026-sponsor-meeting-method-3"
+      }
+    },
+    {
+      "id": "6a9a6216fe4cda4c0d5d74bf",
+      "cmsLocaleId": "653ad7c5e882f528b349ce21",
+      "lastPublished": "2026-09-23T23:53:50.442Z",
+      "lastUpdated": "2026-09-23T20:40:31.818Z",
+      "createdOn": "2026-09-04T06:15:50.236Z",
+      "isArchived": false,
+      "isDraft": false,
+      "fieldData": {
+        "institute": "68b0aff93e4f6363f03f620b",
+        "audience-scope": "6098ab048a689d2d1b20a9ae6aa224bb",
+        "block-type": "4aeee77c1f8e2cb899876fe0641ac244",
+        "eyebrow": "2.",
+        "title": "Delegate Requests",
+        "body": "<p>The executive has requested your organization.</p>",
+        "icon": {
+          "fileId": "6a9a66b8e288eba707c1f1ca",
+          "url": "https://cdn.prod.website-files.com/6312ee46f4c52faf21ee8ab5/6a9a66b8e288eba707c1f1ca_6a9a6642fd883fff73e1a664_kbyg-profile.svg",
+          "alt": null
+        },
+        "calendar-start": null,
+        "calendar-end": null,
+        "all-day": false,
+        "initially-expanded": false,
+        "name": "Static - Sponsor Meeting Method 2",
+        "slug": "hchr-sep-2026-sponsor-meeting-method-2"
+      }
+    },
+    {
+      "id": "6a9a6216fe4cda4c0d5d74bd",
+      "cmsLocaleId": "653ad7c5e882f528b349ce21",
+      "lastPublished": "2026-09-23T23:53:50.442Z",
+      "lastUpdated": "2026-09-23T20:40:39.895Z",
+      "createdOn": "2026-09-04T06:15:50.236Z",
+      "isArchived": false,
+      "isDraft": false,
+      "fieldData": {
+        "institute": "68b0aff93e4f6363f03f620b",
+        "audience-scope": "6098ab048a689d2d1b20a9ae6aa224bb",
+        "block-type": "4aeee77c1f8e2cb899876fe0641ac244",
+        "eyebrow": "1.",
+        "title": "Mutual Requests",
+        "body": "<p>Both parties have selected one another.</p>",
+        "icon": {
+          "fileId": "6a9a66b8e288eba707c1f1cd",
+          "url": "https://cdn.prod.website-files.com/6312ee46f4c52faf21ee8ab5/6a9a66b8e288eba707c1f1cd_6a9a663faaffd3efb5e5e562_kbyg-handshake.svg",
+          "alt": null
+        },
+        "calendar-start": null,
+        "calendar-end": null,
+        "all-day": false,
+        "initially-expanded": false,
+        "name": "Static - Sponsor Meeting Method 1",
+        "slug": "hchr-sep-2026-sponsor-meeting-method-1"
+      }
+    },
+    {
+      "id": "6a9a6216fe4cda4c0d5d74bb",
+      "cmsLocaleId": "653ad7c5e882f528b349ce21",
+      "lastPublished": "2026-09-23T23:53:50.442Z",
+      "lastUpdated": "2026-09-23T20:44:35.896Z",
+      "createdOn": "2026-09-04T06:15:50.236Z",
+      "isArchived": false,
+      "isDraft": false,
+      "fieldData": {
+        "institute": "68b0aff93e4f6363f03f620b",
+        "audience-scope": "8a428f567e86e5bd5818fc54751dcd37",
+        "block-type": "4aeee77c1f8e2cb899876fe0641ac244",
+        "eyebrow": null,
+        "title": "Interactive Think Tank Sessions",
+        "body": "<p>Collaborate with peers in small-group discussions designed to tackle shared challenges, exchange ideas, and develop actionable strategies in a highly engaging, solution-focused environment.</p>",
+        "icon": {
+          "fileId": "6a9a66b9e288eba707c1f1db",
+          "url": "https://cdn.prod.website-files.com/6312ee46f4c52faf21ee8ab5/6a9a66b9e288eba707c1f1db_6a9a663efd883fff73e1a469_kbyg-group.svg",
+          "alt": null
+        },
+        "calendar-start": null,
+        "calendar-end": null,
+        "all-day": false,
+        "initially-expanded": false,
+        "name": "Static - Delegate Experience 3",
+        "slug": "hchr-sep-2026-delegate-experience-3"
+      }
+    },
+    {
+      "id": "6a9a6216fe4cda4c0d5d74b9",
+      "cmsLocaleId": "653ad7c5e882f528b349ce21",
+      "lastPublished": "2026-09-23T23:53:50.442Z",
+      "lastUpdated": "2026-09-23T20:44:45.524Z",
+      "createdOn": "2026-09-04T06:15:50.236Z",
+      "isArchived": false,
+      "isDraft": false,
+      "fieldData": {
+        "institute": "68b0aff93e4f6363f03f620b",
+        "audience-scope": "8a428f567e86e5bd5818fc54751dcd37",
+        "block-type": "4aeee77c1f8e2cb899876fe0641ac244",
+        "eyebrow": null,
+        "title": "Business Meetings",
+        "body": "<p>Connect one-on-one with leading Service Providers in curated 30-minute meetings tailored to your interests, priorities, and business objectives.</p>",
+        "icon": {
+          "fileId": "6a9a66b8e288eba707c1f1cd",
+          "url": "https://cdn.prod.website-files.com/6312ee46f4c52faf21ee8ab5/6a9a66b8e288eba707c1f1cd_6a9a663faaffd3efb5e5e562_kbyg-handshake.svg",
+          "alt": null
+        },
+        "calendar-start": null,
+        "calendar-end": null,
+        "all-day": false,
+        "initially-expanded": false,
+        "name": "Static - Delegate Experience 2",
+        "slug": "hchr-sep-2026-delegate-experience-2"
+      }
+    },
+    {
+      "id": "6a9a6216fe4cda4c0d5d74b7",
+      "cmsLocaleId": "653ad7c5e882f528b349ce21",
+      "lastPublished": "2026-09-23T23:53:50.442Z",
+      "lastUpdated": "2026-09-23T20:44:51.442Z",
+      "createdOn": "2026-09-04T06:15:50.236Z",
+      "isArchived": false,
+      "isDraft": false,
+      "fieldData": {
+        "institute": "68b0aff93e4f6363f03f620b",
+        "audience-scope": "8a428f567e86e5bd5818fc54751dcd37",
+        "block-type": "4aeee77c1f8e2cb899876fe0641ac244",
+        "eyebrow": null,
+        "title": "Thought Leadership Sessions",
+        "body": "<p>Gain valuable insights from industry leaders through panel discussions and case studies focused on the most pressing issues facing healthcare HR executives.</p>",
+        "icon": {
+          "fileId": "6a9a66b7e288eba707c1f1a1",
+          "url": "https://cdn.prod.website-files.com/6312ee46f4c52faf21ee8ab5/6a9a66b7e288eba707c1f1a1_6a9a6641ec11449c643c5bfe_kbyg-podium.svg",
+          "alt": null
+        },
+        "calendar-start": null,
+        "calendar-end": null,
+        "all-day": false,
+        "initially-expanded": false,
+        "name": "Static - Delegate Experience 1",
+        "slug": "hchr-sep-2026-delegate-experience-1"
+      }
+    },
+    {
+      "id": "6a9a61f4a74bfa192a4f876e",
+      "cmsLocaleId": "653ad7c5e882f528b349ce21",
+      "lastPublished": "2026-09-23T23:53:50.442Z",
+      "lastUpdated": "2026-09-23T20:45:01.911Z",
+      "createdOn": "2026-09-04T06:15:16.933Z",
+      "isArchived": false,
+      "isDraft": false,
+      "fieldData": {
+        "institute": "68b0aff93e4f6363f03f620b",
+        "audience-scope": "14fe776b8d8df68f313f9c647299d0fe",
+        "block-type": "5acd1ff17589132aafc9eb2e6c4fa008",
+        "eyebrow": "Tuesday",
+        "title": "DAY 3 - TUESDAY",
+        "body": "<p><strong>7:30 AM - 8:30 AM</strong> — Breakfast</p><p><strong>8:30 AM - 12:00 PM</strong> — Conference Sessions, Think Tanks &amp; Business Meetings</p><p><strong>12:00 PM</strong> — Closing Remarks &amp; Event Conclusion</p>",
+        "icon": {
+          "fileId": "6a9a66b7e288eba707c1f1aa",
+          "url": "https://cdn.prod.website-files.com/6312ee46f4c52faf21ee8ab5/6a9a66b7e288eba707c1f1aa_6a9a663c452b111de6552397_kbyg-calendar-clock.svg",
+          "alt": null
+        },
+        "calendar-start": null,
+        "calendar-end": null,
+        "all-day": false,
+        "initially-expanded": false,
+        "name": "Static - Agenda Day 3",
+        "slug": "hchr-sep-2026-agenda-day-3"
+      }
+    },
+    {
+      "id": "6a9a61f4a74bfa192a4f876c",
+      "cmsLocaleId": "653ad7c5e882f528b349ce21",
+      "lastPublished": "2026-09-23T23:53:50.442Z",
+      "lastUpdated": "2026-09-23T20:45:09.625Z",
+      "createdOn": "2026-09-04T06:15:16.933Z",
+      "isArchived": false,
+      "isDraft": false,
+      "fieldData": {
+        "institute": "68b0aff93e4f6363f03f620b",
+        "audience-scope": "14fe776b8d8df68f313f9c647299d0fe",
+        "block-type": "5acd1ff17589132aafc9eb2e6c4fa008",
+        "eyebrow": "Monday",
+        "title": "DAY 2 - MONDAY",
+        "body": "<p><strong>7:30 AM - 8:30 AM</strong> — Breakfast</p><p><strong>8:30 AM - 6:30 PM</strong> — Event Programming, Breakouts &amp; Business Meetings</p><p><strong>12:00 PM - 1:00 PM</strong> — Networking Lunch</p><p><strong>6:30 PM - 8:00 PM</strong> — Dinner &amp; Evening Entertainment</p>",
+        "icon": {
+          "fileId": "6a9a66b7e288eba707c1f1aa",
+          "url": "https://cdn.prod.website-files.com/6312ee46f4c52faf21ee8ab5/6a9a66b7e288eba707c1f1aa_6a9a663c452b111de6552397_kbyg-calendar-clock.svg",
+          "alt": null
+        },
+        "calendar-start": null,
+        "calendar-end": null,
+        "all-day": false,
+        "initially-expanded": false,
+        "name": "Static - Agenda Day 2",
+        "slug": "hchr-sep-2026-agenda-day-2"
+      }
+    },
+    {
+      "id": "6a9a61f4a74bfa192a4f876a",
+      "cmsLocaleId": "653ad7c5e882f528b349ce21",
+      "lastPublished": "2026-09-23T23:53:50.442Z",
+      "lastUpdated": "2026-09-23T20:45:20.368Z",
+      "createdOn": "2026-09-04T06:15:16.933Z",
+      "isArchived": false,
+      "isDraft": false,
+      "fieldData": {
+        "institute": "68b0aff93e4f6363f03f620b",
+        "audience-scope": "14fe776b8d8df68f313f9c647299d0fe",
+        "block-type": "5acd1ff17589132aafc9eb2e6c4fa008",
+        "eyebrow": "Sunday",
+        "title": "DAY 1 - SUNDAY",
+        "body": "<p><strong>12:00 PM - 1:00 PM</strong> — Registration &amp; Welcome</p><p><strong>1:00 PM - 6:30 PM</strong> — Conference Sessions, Think Tanks &amp; Business Meetings</p><p><strong>6:30 PM - 8:00 PM</strong> — Welcome Reception &amp; Dinner</p>",
+        "icon": {
+          "fileId": "6a9a66b7e288eba707c1f1aa",
+          "url": "https://cdn.prod.website-files.com/6312ee46f4c52faf21ee8ab5/6a9a66b7e288eba707c1f1aa_6a9a663c452b111de6552397_kbyg-calendar-clock.svg",
+          "alt": null
+        },
+        "calendar-start": null,
+        "calendar-end": null,
+        "all-day": false,
+        "initially-expanded": false,
+        "name": "Static - Agenda Day 1",
+        "slug": "hchr-sep-2026-agenda-day-1"
+      }
+    },
+    {
+      "id": "6a9a61f4a74bfa192a4f8768",
+      "cmsLocaleId": "653ad7c5e882f528b349ce21",
+      "lastPublished": "2026-09-04T08:58:00.546Z",
+      "lastUpdated": "2026-09-04T06:35:38.367Z",
+      "createdOn": "2026-09-04T06:15:16.933Z",
+      "isArchived": false,
+      "isDraft": false,
+      "fieldData": {
+        "institute": "68b0aff93e4f6363f03f620b",
+        "audience-scope": "6098ab048a689d2d1b20a9ae6aa224bb",
+        "block-type": "76dffa66bff7c3c483d0ecd952c69068",
+        "eyebrow": "Wednesday, August 26, 2026",
+        "title": "Begin Submitting Your Business Meeting Preferences",
+        "body": null,
+        "icon": {
+          "fileId": "6a9a66b8e288eba707c1f1cd",
+          "url": "https://cdn.prod.website-files.com/6312ee46f4c52faf21ee8ab5/6a9a66b8e288eba707c1f1cd_6a9a663faaffd3efb5e5e562_kbyg-handshake.svg",
+          "alt": ""
+        },
+        "calendar-start": "2026-08-26T00:00:00.000Z",
+        "calendar-end": "2026-08-26T00:00:00.000Z",
+        "all-day": true,
+        "initially-expanded": false,
+        "name": "HCHR Sep 2026 Sponsor Date 4",
+        "slug": "hchr-sep-2026-sponsor-date-4"
+      }
+    },
+    {
+      "id": "6a9a61f4a74bfa192a4f8766",
+      "cmsLocaleId": "653ad7c5e882f528b349ce21",
+      "lastPublished": "2026-09-04T08:58:00.546Z",
+      "lastUpdated": "2026-09-04T06:35:38.313Z",
+      "createdOn": "2026-09-04T06:15:16.932Z",
+      "isArchived": false,
+      "isDraft": false,
+      "fieldData": {
+        "institute": "68b0aff93e4f6363f03f620b",
+        "audience-scope": "6098ab048a689d2d1b20a9ae6aa224bb",
+        "block-type": "76dffa66bff7c3c483d0ecd952c69068",
+        "eyebrow": "Friday, August 14, 2026",
+        "title": "Deadline to Submit Company Details & Logo",
+        "body": null,
+        "icon": {
+          "fileId": "6a9a66b8e288eba707c1f1bc",
+          "url": "https://cdn.prod.website-files.com/6312ee46f4c52faf21ee8ab5/6a9a66b8e288eba707c1f1bc_6a9a663baaffd3efb5e5e069_kbyg-building.svg",
+          "alt": ""
+        },
+        "calendar-start": "2026-08-14T00:00:00.000Z",
+        "calendar-end": "2026-08-14T00:00:00.000Z",
+        "all-day": true,
+        "initially-expanded": false,
+        "name": "HCHR Sep 2026 Sponsor Date 3",
+        "slug": "hchr-sep-2026-sponsor-date-3"
+      }
+    },
+    {
+      "id": "6a9a61f4a74bfa192a4f8764",
+      "cmsLocaleId": "653ad7c5e882f528b349ce21",
+      "lastPublished": "2026-09-04T08:58:00.546Z",
+      "lastUpdated": "2026-09-04T06:35:38.446Z",
+      "createdOn": "2026-09-04T06:15:16.932Z",
+      "isArchived": false,
+      "isDraft": false,
+      "fieldData": {
+        "institute": "68b0aff93e4f6363f03f620b",
+        "audience-scope": "6098ab048a689d2d1b20a9ae6aa224bb",
+        "block-type": "76dffa66bff7c3c483d0ecd952c69068",
+        "eyebrow": "Friday, August 14, 2026",
+        "title": "Deadline to Register Attendees and Submit Travel Details",
+        "body": null,
+        "icon": {
+          "fileId": "6a9a66b9e288eba707c1f1de",
+          "url": "https://cdn.prod.website-files.com/6312ee46f4c52faf21ee8ab5/6a9a66b9e288eba707c1f1de_6a9a664059caf5a850137080_kbyg-people.svg",
+          "alt": ""
+        },
+        "calendar-start": "2026-08-14T00:00:00.000Z",
+        "calendar-end": "2026-08-14T00:00:00.000Z",
+        "all-day": true,
+        "initially-expanded": false,
+        "name": "HCHR Sep 2026 Sponsor Date 2",
+        "slug": "hchr-sep-2026-sponsor-date-2"
+      }
+    },
+    {
+      "id": "6a9a61f4a74bfa192a4f8762",
+      "cmsLocaleId": "653ad7c5e882f528b349ce21",
+      "lastPublished": "2026-09-04T08:58:00.546Z",
+      "lastUpdated": "2026-09-04T06:35:37.948Z",
+      "createdOn": "2026-09-04T06:15:16.932Z",
+      "isArchived": false,
+      "isDraft": false,
+      "fieldData": {
+        "institute": "68b0aff93e4f6363f03f620b",
+        "audience-scope": "6098ab048a689d2d1b20a9ae6aa224bb",
+        "block-type": "76dffa66bff7c3c483d0ecd952c69068",
+        "eyebrow": "Wednesday, July 22, 2026",
+        "title": "Deadline to Submit Delegate Profiling Question",
+        "body": null,
+        "icon": {
+          "fileId": "6a9a66b7e288eba707c1f185",
+          "url": "https://cdn.prod.website-files.com/6312ee46f4c52faf21ee8ab5/6a9a66b7e288eba707c1f185_6a9a66432837d9128fd98cc3_kbyg-question.svg",
+          "alt": ""
+        },
+        "calendar-start": "2026-07-22T00:00:00.000Z",
+        "calendar-end": "2026-07-22T00:00:00.000Z",
+        "all-day": true,
+        "initially-expanded": false,
+        "name": "HCHR Sep 2026 Sponsor Date 1",
+        "slug": "hchr-sep-2026-sponsor-date-1"
+      }
+    },
+    {
+      "id": "6a9a61f4a74bfa192a4f8760",
+      "cmsLocaleId": "653ad7c5e882f528b349ce21",
+      "lastPublished": "2026-09-04T08:58:00.546Z",
+      "lastUpdated": "2026-09-04T06:35:38.454Z",
+      "createdOn": "2026-09-04T06:15:16.932Z",
+      "isArchived": false,
+      "isDraft": false,
+      "fieldData": {
+        "institute": "68b0aff93e4f6363f03f620b",
+        "audience-scope": "8a428f567e86e5bd5818fc54751dcd37",
+        "block-type": "76dffa66bff7c3c483d0ecd952c69068",
+        "eyebrow": "Monday, August 24, 2026",
+        "title": "Begin Building Your Personal Schedule",
+        "body": null,
+        "icon": {
+          "fileId": "6a9a66b9e288eba707c1f1ee",
+          "url": "https://cdn.prod.website-files.com/6312ee46f4c52faf21ee8ab5/6a9a66b9e288eba707c1f1ee_6a9a663b452b111de655235c_kbyg-calendar-check.svg",
+          "alt": ""
+        },
+        "calendar-start": "2026-08-24T00:00:00.000Z",
+        "calendar-end": "2026-08-24T00:00:00.000Z",
+        "all-day": true,
+        "initially-expanded": false,
+        "name": "HCHR Sep 2026 Delegate Date 4",
+        "slug": "hchr-sep-2026-delegate-date-4"
+      }
+    },
+    {
+      "id": "6a9a61f4a74bfa192a4f875e",
+      "cmsLocaleId": "653ad7c5e882f528b349ce21",
+      "lastPublished": "2026-09-04T08:58:00.546Z",
+      "lastUpdated": "2026-09-04T06:35:38.349Z",
+      "createdOn": "2026-09-04T06:15:16.932Z",
+      "isArchived": false,
+      "isDraft": false,
+      "fieldData": {
+        "institute": "68b0aff93e4f6363f03f620b",
+        "audience-scope": "8a428f567e86e5bd5818fc54751dcd37",
+        "block-type": "76dffa66bff7c3c483d0ecd952c69068",
+        "eyebrow": "Wednesday, August 19, 2026",
+        "title": "Deadline to Complete Your Attendee Profile",
+        "body": null,
+        "icon": {
+          "fileId": "6a9a66b8e288eba707c1f1ca",
+          "url": "https://cdn.prod.website-files.com/6312ee46f4c52faf21ee8ab5/6a9a66b8e288eba707c1f1ca_6a9a6642fd883fff73e1a664_kbyg-profile.svg",
+          "alt": ""
+        },
+        "calendar-start": "2026-08-19T00:00:00.000Z",
+        "calendar-end": "2026-08-19T00:00:00.000Z",
+        "all-day": true,
+        "initially-expanded": false,
+        "name": "HCHR Sep 2026 Delegate Date 3",
+        "slug": "hchr-sep-2026-delegate-date-3"
+      }
+    },
+    {
+      "id": "6a9a61f4a74bfa192a4f875c",
+      "cmsLocaleId": "653ad7c5e882f528b349ce21",
+      "lastPublished": "2026-09-04T08:58:00.546Z",
+      "lastUpdated": "2026-09-04T06:35:38.454Z",
+      "createdOn": "2026-09-04T06:15:16.932Z",
+      "isArchived": false,
+      "isDraft": false,
+      "fieldData": {
+        "institute": "68b0aff93e4f6363f03f620b",
+        "audience-scope": "8a428f567e86e5bd5818fc54751dcd37",
+        "block-type": "76dffa66bff7c3c483d0ecd952c69068",
+        "eyebrow": "Wednesday, August 19, 2026",
+        "title": "Deadline to Submit Travel Details",
+        "body": null,
+        "icon": {
+          "fileId": "6a9a669eabe05fbcafe084da",
+          "url": "https://cdn.prod.website-files.com/6312ee46f4c52faf21ee8ab5/6a9a669eabe05fbcafe084da_6a9a65cdc73b205cf5e09d2b_kbyg-airplane.svg",
+          "alt": ""
+        },
+        "calendar-start": "2026-08-19T00:00:00.000Z",
+        "calendar-end": "2026-08-19T00:00:00.000Z",
+        "all-day": true,
+        "initially-expanded": false,
+        "name": "HCHR Sep 2026 Delegate Date 2",
+        "slug": "hchr-sep-2026-delegate-date-2"
+      }
+    },
+    {
+      "id": "6a9a61f4a74bfa192a4f875a",
+      "cmsLocaleId": "653ad7c5e882f528b349ce21",
+      "lastPublished": "2026-09-04T08:58:00.546Z",
+      "lastUpdated": "2026-09-04T06:35:38.550Z",
+      "createdOn": "2026-09-04T06:15:16.932Z",
+      "isArchived": false,
+      "isDraft": false,
+      "fieldData": {
+        "institute": "68b0aff93e4f6363f03f620b",
+        "audience-scope": "8a428f567e86e5bd5818fc54751dcd37",
+        "block-type": "76dffa66bff7c3c483d0ecd952c69068",
+        "eyebrow": "Wednesday, July 29, 2026",
+        "title": "Attendee Profile Opens",
+        "body": null,
+        "icon": {
+          "fileId": "6a9a66b9e288eba707c1f1ff",
+          "url": "https://cdn.prod.website-files.com/6312ee46f4c52faf21ee8ab5/6a9a66b9e288eba707c1f1ff_6a9a663cce252381364dbcda_kbyg-calendar-plus.svg",
+          "alt": ""
+        },
+        "calendar-start": "2026-07-29T00:00:00.000Z",
+        "calendar-end": "2026-07-29T00:00:00.000Z",
+        "all-day": true,
+        "initially-expanded": false,
+        "name": "HCHR Sep 2026 Delegate Date 1",
+        "slug": "hchr-sep-2026-delegate-date-1"
+      }
+    },
+    {
+      "id": "6a9a61f4a74bfa192a4f8758",
+      "cmsLocaleId": "653ad7c5e882f528b349ce21",
+      "lastPublished": "2026-09-23T23:53:50.442Z",
+      "lastUpdated": "2026-09-23T20:38:54.565Z",
+      "createdOn": "2026-09-04T06:15:16.932Z",
+      "isArchived": false,
+      "isDraft": false,
+      "fieldData": {
+        "institute": "68b0aff93e4f6363f03f620b",
+        "audience-scope": "6098ab048a689d2d1b20a9ae6aa224bb",
+        "block-type": "40b67293512cf9ffbda0953e00673cd8",
+        "eyebrow": "3.",
+        "title": "One-on-One Meeting Selections",
+        "body": "<p>Review the Delegate Profile Summaries and identify your top preferences for your pre-scheduled one-on-one business meetings.</p>",
+        "icon": {
+          "fileId": "6a9a66b8e288eba707c1f1cd",
+          "url": "https://cdn.prod.website-files.com/6312ee46f4c52faf21ee8ab5/6a9a66b8e288eba707c1f1cd_6a9a663faaffd3efb5e5e562_kbyg-handshake.svg",
+          "alt": null
+        },
+        "calendar-start": null,
+        "calendar-end": null,
+        "all-day": false,
+        "initially-expanded": false,
+        "name": "Static - Sponsor Preparation 3",
+        "slug": "hchr-sep-2026-sponsor-preparation-3"
+      }
+    },
+    {
+      "id": "6a9a61f4a74bfa192a4f8756",
+      "cmsLocaleId": "653ad7c5e882f528b349ce21",
+      "lastPublished": "2026-09-23T23:53:50.442Z",
+      "lastUpdated": "2026-09-23T20:39:21.647Z",
+      "createdOn": "2026-09-04T06:15:16.932Z",
+      "isArchived": false,
+      "isDraft": false,
+      "fieldData": {
+        "institute": "68b0aff93e4f6363f03f620b",
+        "audience-scope": "6098ab048a689d2d1b20a9ae6aa224bb",
+        "block-type": "40b67293512cf9ffbda0953e00673cd8",
+        "eyebrow": "2.",
+        "title": "Register Onsite Attendees & Submit Hotel Needs",
+        "body": "<p>Please identify all individuals from your organization, including presenters, who will be attending the event, and submit their information via the Register Onsite Attendees section of the Sponsor Hub. Your Operations Lead will add them to the event roster and coordinate their hotel accommodations.</p>",
+        "icon": {
+          "fileId": "6a9a66b9e288eba707c1f1de",
+          "url": "https://cdn.prod.website-files.com/6312ee46f4c52faf21ee8ab5/6a9a66b9e288eba707c1f1de_6a9a664059caf5a850137080_kbyg-people.svg",
+          "alt": null
+        },
+        "calendar-start": null,
+        "calendar-end": null,
+        "all-day": false,
+        "initially-expanded": false,
+        "name": "Static - Sponsor Preparation 2",
+        "slug": "hchr-sep-2026-sponsor-preparation-2"
+      }
+    },
+    {
+      "id": "6a9a61f4a74bfa192a4f8754",
+      "cmsLocaleId": "653ad7c5e882f528b349ce21",
+      "lastPublished": "2026-09-23T23:53:50.442Z",
+      "lastUpdated": "2026-09-23T20:39:54.049Z",
+      "createdOn": "2026-09-04T06:15:16.932Z",
+      "isArchived": false,
+      "isDraft": false,
+      "fieldData": {
+        "institute": "68b0aff93e4f6363f03f620b",
+        "audience-scope": "6098ab048a689d2d1b20a9ae6aa224bb",
+        "block-type": "40b67293512cf9ffbda0953e00673cd8",
+        "eyebrow": "1.",
+        "title": "Submit Your Delegate Profiling Question, Company Details & Logo",
+        "body": "<p>Submit your company profile information and one Delegate Profiling Question for inclusion in the delegate profile questionnaire. These details help attendees better understand your organization, products, and services, while the questionnaire responses provide valuable insights into delegate priorities and challenges to support more informed and productive business meeting selections.</p>",
+        "icon": {
+          "fileId": "6a9a66b8e288eba707c1f1bc",
+          "url": "https://cdn.prod.website-files.com/6312ee46f4c52faf21ee8ab5/6a9a66b8e288eba707c1f1bc_6a9a663baaffd3efb5e5e069_kbyg-building.svg",
+          "alt": null
+        },
+        "calendar-start": null,
+        "calendar-end": null,
+        "all-day": false,
+        "initially-expanded": false,
+        "name": "Static - Sponsor Preparation 1",
+        "slug": "hchr-sep-2026-sponsor-preparation-1"
+      }
+    },
+    {
+      "id": "6a9a61f4a74bfa192a4f8752",
+      "cmsLocaleId": "653ad7c5e882f528b349ce21",
+      "lastPublished": "2026-09-23T23:53:50.442Z",
+      "lastUpdated": "2026-09-23T20:41:48.511Z",
+      "createdOn": "2026-09-04T06:15:16.932Z",
+      "isArchived": false,
+      "isDraft": false,
+      "fieldData": {
+        "institute": "68b0aff93e4f6363f03f620b",
+        "audience-scope": "8a428f567e86e5bd5818fc54751dcd37",
+        "block-type": "40b67293512cf9ffbda0953e00673cd8",
+        "eyebrow": "3.",
+        "title": "Create Your Itinerary",
+        "body": "<p>Customize your event agenda by selecting your conference sessions, Think Tanks, and business meeting preferences for the Institute.</p>",
+        "icon": {
+          "fileId": "6a9a66b9e288eba707c1f1ee",
+          "url": "https://cdn.prod.website-files.com/6312ee46f4c52faf21ee8ab5/6a9a66b9e288eba707c1f1ee_6a9a663b452b111de655235c_kbyg-calendar-check.svg",
+          "alt": null
+        },
+        "calendar-start": null,
+        "calendar-end": null,
+        "all-day": false,
+        "initially-expanded": false,
+        "name": "Static - Delegate Preparation 3",
+        "slug": "hchr-sep-2026-delegate-preparation-3"
+      }
+    },
+    {
+      "id": "6a9a61ae2837d9128fd77e03",
+      "cmsLocaleId": "653ad7c5e882f528b349ce21",
+      "lastPublished": "2026-09-23T23:53:50.442Z",
+      "lastUpdated": "2026-09-23T20:42:09.220Z",
+      "createdOn": "2026-09-04T06:14:06.477Z",
+      "isArchived": false,
+      "isDraft": false,
+      "fieldData": {
+        "institute": "68b0aff93e4f6363f03f620b",
+        "audience-scope": "8a428f567e86e5bd5818fc54751dcd37",
+        "block-type": "40b67293512cf9ffbda0953e00673cd8",
+        "eyebrow": "2.",
+        "title": "Create Your Attendee Profile",
+        "body": "<p>Prior to the event, please complete the brief questionnaire addressing your specific operational goals and strategic objectives for the program.</p>",
+        "icon": {
+          "fileId": "6a9a66b8e288eba707c1f1ca",
+          "url": "https://cdn.prod.website-files.com/6312ee46f4c52faf21ee8ab5/6a9a66b8e288eba707c1f1ca_6a9a6642fd883fff73e1a664_kbyg-profile.svg",
+          "alt": null
+        },
+        "calendar-start": null,
+        "calendar-end": null,
+        "all-day": false,
+        "initially-expanded": false,
+        "name": "Static - Delegate Preparation 2",
+        "slug": "hchr-sep-2026-delegate-preparation-2"
+      }
+    },
+    {
+      "id": "6a9a61608591545695d9c51c",
+      "cmsLocaleId": "653ad7c5e882f528b349ce21",
+      "lastPublished": "2026-09-23T23:53:50.442Z",
+      "lastUpdated": "2026-09-23T20:42:20.955Z",
+      "createdOn": "2026-09-04T06:12:48.217Z",
+      "isArchived": false,
+      "isDraft": false,
+      "fieldData": {
+        "institute": "68b0aff93e4f6363f03f620b",
+        "audience-scope": "8a428f567e86e5bd5818fc54751dcd37",
+        "block-type": "40b67293512cf9ffbda0953e00673cd8",
+        "eyebrow": "1.",
+        "title": "Submit Your Travel Details",
+        "body": "<p>Please submit your Travel Details through the “Book Hotel” tab of your Attendee Hub to make your hotel reservation for the event.</p>",
+        "icon": {
+          "fileId": "6a9a669eabe05fbcafe084da",
+          "url": "https://cdn.prod.website-files.com/6312ee46f4c52faf21ee8ab5/6a9a669eabe05fbcafe084da_6a9a65cdc73b205cf5e09d2b_kbyg-airplane.svg",
+          "alt": null
+        },
+        "calendar-start": null,
+        "calendar-end": null,
+        "all-day": false,
+        "initially-expanded": false,
+        "name": "Static - Delegate Preparation 1",
+        "slug": "hchr-sep-2026-delegate-preparation-1"
+      }
+    }
+  ],
+  "pagination": {
+    "limit": 100,
+    "offset": 0,
+    "total": 43
+  }
+}
