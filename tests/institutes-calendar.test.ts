@@ -115,6 +115,9 @@ test("open/reopen recomputes date, keyboard crosses months, Horizon never links,
   assert.equal(document.activeElement?.getAttribute("data-date"), "2027-01-09");
   key("ArrowUp");
   assert.equal(document.activeElement?.getAttribute("data-date"), "2027-01-02");
+  key("ArrowDown");
+  assert.equal(document.activeElement?.getAttribute("data-date"), "2027-01-09");
+  key("ArrowUp");
   key("ArrowLeft");
   key("ArrowLeft");
   assert.equal(document.activeElement?.getAttribute("data-date"), "2027-01-01");

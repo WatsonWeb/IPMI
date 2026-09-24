@@ -1,0 +1,73 @@
+{
+  "checkedAt": "2026-09-24T11:24:55.506Z",
+  "rows": 26,
+  "uniqueSlugs": 26,
+  "roster": 26,
+  "mismatches": [],
+  "extra": [],
+  "imagesPreserved": true,
+  "anchorsPreserved": true,
+  "formsPreserved": true,
+  "filtersPreserved": true,
+  "originalInlineScriptsPreserved": true,
+  "calendarPins": [
+    "https://cdn.jsdelivr.net/gh/WatsonWeb/IPMI@9be97e435797394a9c314dda4f4a48181acf94ef/dist/institutes-calendar.css",
+    "https://cdn.jsdelivr.net/gh/WatsonWeb/IPMI@9be97e435797394a9c314dda4f4a48181acf94ef/dist/institutes-calendar.js"
+  ],
+  "shell": [
+    {
+      "tag": "div",
+      "data-ipmi-calendar-shell": ""
+    },
+    {
+      "tag": "button",
+      "type": "button",
+      "data-ipmi-calendar-open": "",
+      "hidden": ""
+    },
+    {
+      "tag": "dialog",
+      "data-ipmi-calendar-dialog": "",
+      "aria-labelledby": "ipmi-calendar-title"
+    },
+    {
+      "tag": "button",
+      "type": "button",
+      "data-ipmi-calendar-close": "",
+      "aria-label": "Close calendar"
+    },
+    {
+      "tag": "div",
+      "data-ipmi-calendar-nav": ""
+    },
+    {
+      "tag": "button",
+      "type": "button",
+      "data-ipmi-calendar-prev": "",
+      "aria-label": "Previous month"
+    },
+    {
+      "tag": "h3",
+      "data-ipmi-calendar-month": "",
+      "aria-live": "polite"
+    },
+    {
+      "tag": "button",
+      "type": "button",
+      "data-ipmi-calendar-next": "",
+      "aria-label": "Next month"
+    },
+    {
+      "tag": "div",
+      "data-ipmi-calendar-grid": "",
+      "role": "grid",
+      "aria-label": "Institute dates"
+    },
+    {
+      "tag": "section",
+      "data-ipmi-calendar-details": "",
+      "aria-live": "polite",
+      "aria-atomic": "true"
+    }
+  ]
+}

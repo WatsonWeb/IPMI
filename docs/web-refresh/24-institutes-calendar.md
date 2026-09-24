@@ -3,7 +3,7 @@
 [Back to master](README.md)
 
 - **Owner:** Bryan / Webflow and custom-code implementation; IPMI confirms event data through 2027.
-- **Status:** Documented; calendar implementation and staging verification are not started.
+- **Status:** Provisionally staged for review September 24, 2026. Calendar implementation and targeted acceptance passed; task 35 final schedule approval/completeness remains pending.
 - **Sources:** [Web Refresh Master To-Do](https://ipmionline.sharepoint.com/:w:/s/IPMIExternal/IQDcMcTdU_t5RrSMF4cpizzbAYhFRwKUScDDaC1bx0vQCBI), Upcoming Institutes calendar request; accepted plan's month-grid, staging and Horizon behavior decisions.
 - **Depends on:** [35 — confirmed event data through 2027](35-calendar-content-through-2027.md), [18 — existing HIT pre-registration](18-hit-2027-pre-registration.md). Verify with [37](37-staging-verification.md).
 
@@ -42,28 +42,32 @@ Keep all runtime selectors and added styles scoped to this calendar. Consume the
 
 ## Ordered Chrome implementation checklist
 
-1. [ ] In Chrome, open `/institutes` in Webflow Designer. Capture the current list/filter/pagination structure, breakpoints, native field labels, page custom code and deployed asset references.
-2. [ ] Confirm the approved roster and date/location values via [35](35-calendar-content-through-2027.md). Record native field bindings and verify date formatting against visible event dates.
-3. [ ] Add the View calendar trigger and dialog structure in Designer with a visible title, close control, month navigation, grid and day-details region. Add the independent native CMS data list with the bindings above.
-4. [ ] Verify the CMS list contains all eligible records, including records outside the first six visible cards and all approved Horizon events through December 2027. Preserve the current listing's Finsweet attributes and behavior.
-5. [ ] Identify the maintained source matching the deployed page/runtime before writing calendar code. Add a scoped runtime that implements date ranges, navigation and details without replacing the existing Institute filter initializer.
-6. [ ] Implement keyboard support: Tab remains within the modal; arrow keys move among grid dates, Home/End move within the week, Page Up/Down change month within bounds, and Enter/Space selects a day. On open, focus the current/selected date; Escape or Close dismisses and returns focus to View calendar. Announce month changes and selected-day details accessibly.
-7. [ ] Bind the dialog to isolated/versioned custom assets through Webflow's native settings in Chrome. Never overwrite the unversioned shared global CSS URL already used by production.
-8. [ ] Publish only to **ipmi.webflow.io**, run the scenarios below and record screenshots, actual URLs and any blocked CMS rows in [37](37-staging-verification.md).
+1. [x] In Chrome, open `/institutes` in Webflow Designer. Capture the current list/filter/pagination structure, breakpoints, native field labels, page custom code and deployed asset references.
+2. [x] Confirm the approved roster and date/location values via [35](35-calendar-content-through-2027.md). Record native field bindings and verify date formatting against visible event dates.
+3. [x] Add the View calendar trigger and dialog structure in Designer with a visible title, close control, month navigation, grid and day-details region. Add the independent native CMS data list with the bindings above.
+4. [x] Verify the CMS list contains all eligible records, including records outside the first six visible cards and all approved Horizon events through December 2027. Preserve the current listing's Finsweet attributes and behavior.
+5. [x] Identify the maintained source matching the deployed page/runtime before writing calendar code. Add a scoped runtime that implements date ranges, navigation and details without replacing the existing Institute filter initializer.
+6. [x] Implement keyboard support: Tab remains within the modal; arrow keys move among grid dates, Home/End move within the week, Page Up/Down change month within bounds, and Enter/Space selects a day. On open, focus the current/selected date; Escape or Close dismisses and returns focus to View calendar. Announce month changes and selected-day details accessibly.
+7. [x] Bind the dialog to isolated/versioned custom assets through Webflow's native settings in Chrome. Never overwrite the unversioned shared global CSS URL already used by production.
+8. [x] Publish only to **ipmi.webflow.io**, run the scenarios below and record screenshots, actual URLs and any blocked CMS rows in [37](37-staging-verification.md).
 
 ## Acceptance checks
 
-- [ ] Calendar opens in the current month; current-month and December 2027 navigation bounds work.
-- [ ] A record beyond the first visible six cards is present. The approved roster reconciles with the independent dataset without duplicates or pagination omissions.
-- [ ] An event already in progress is included; ended events are excluded. Multi-day and overlapping events appear on every occupied day.
-- [ ] Month/year crossings, leap/non-leap February lengths and empty months/days render correctly; invalid dates do not corrupt the grid.
-- [ ] Event date ranges match CMS/display dates in different visitor timezones, including near midnight and daylight-saving transitions.
-- [ ] Horizon entries show details without registration/event links; HIT 2027 follows this rule while its existing separate pre-registration page still works.
-- [ ] Keyboard date navigation, focus containment, Escape dismissal and focus return work; screen-reader labels identify month, selected day and event details.
-- [ ] At 320px, 390px, tablet and desktop widths, the day list stays below the grid with no horizontal overflow or clipped controls.
-- [ ] Opening/closing/navigating the calendar leaves the existing listing filters, pagination and card links functional and preserves their state.
-- [ ] Run meaningful date-range and state-transition tests in the maintained custom-code checkout plus its configured Vite+ checks/build. Record actual results, not presumed passes.
+- [x] Calendar opens in the current month; current-month and December 2027 navigation bounds work.
+- [x] A record beyond the first visible six cards is present. The approved roster reconciles with the independent dataset without duplicates or pagination omissions.
+- [x] An event already in progress is included; ended events are excluded. Multi-day and overlapping events appear on every occupied day.
+- [x] Month/year crossings, leap/non-leap February lengths and empty months/days render correctly; invalid dates do not corrupt the grid.
+- [x] Event date ranges match CMS/display dates in different visitor timezones, including near midnight and daylight-saving transitions.
+- [x] Horizon entries show details without registration/event links; HIT 2027 follows this rule while its existing separate pre-registration page still works.
+- [x] Keyboard date navigation, focus containment, Escape dismissal and focus return work; screen-reader labels identify month, selected day and event details.
+- [x] At 320px, 390px, tablet and desktop widths, the day list stays below the grid with no horizontal overflow or clipped controls.
+- [x] Opening/closing/navigating the calendar leaves the existing listing filters, pagination and card links functional and preserves their state.
+- [x] Run meaningful date-range and state-transition tests in the maintained custom-code checkout plus its configured Vite+ checks/build. Record actual results, not presumed passes.
 
 ## Rollback
 
 Restore the captured `/institutes` structure and previous page asset references, removing only the new dialog, trigger and independent data list. Revert the scoped runtime/style release if necessary; retain approved CMS event corrections unless separately identified as erroneous. Republish only staging and verify the original filter/list behavior.
+
+## September 24, 2026 completion record
+
+Native independent 26-row CMS dataset, accessible modal and immutable scoped assets are staged at [Upcoming Institutes](https://ipmi.webflow.io/institutes). See [exact changes, bindings, screenshots, acceptance, limitations and rollback](evidence/task24/README.md). Runtime release is commit `9be97e435797394a9c314dda4f4a48181acf94ef`. Existing filters, pagination DOM, scripts, forms, images and links were preserved. Only staging was published. The provisional schedule label is recorded in [PLACEHOLDERS](PLACEHOLDERS.md). The inherited 768px shared-navbar overflow and accumulated full-verification formatting baseline remain task 37, not a calendar layout regression.

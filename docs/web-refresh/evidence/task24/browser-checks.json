@@ -1,0 +1,98 @@
+{
+  "date": "2026-09-24",
+  "url": "https://ipmi.webflow.io/institutes",
+  "initialAndReopenedMonth": "September 2026",
+  "initialAndReopenedSelectedDate": "2026-09-24",
+  "nativeRowsBeforeAndAfterIndustryFilter": 26,
+  "upperBound": {
+    "month": "December 2027",
+    "nextDisabled": true,
+    "focusAfterBoundReached": "2027-12-24",
+    "enterSpaceSelected": "2027-12-25"
+  },
+  "lowerBound": {
+    "month": "September 2026",
+    "previousDisabled": true,
+    "focusAfterPageUp": "2026-09-24"
+  },
+  "releasedOctober18": ["/institutes/hrmi-oct-2026", "/institutes/iplmi-2026"],
+  "taeeiCanadaOccupiedDays": ["2027-05-30", "2027-05-31", "2027-06-01"],
+  "taeeiCanadaRange": "May 30, 2027 – June 1, 2027",
+  "june6HorizonTitles": ["Healthcare IT Institute", "HR Management Institute"],
+  "june6CalendarLinks": 0,
+  "keyboardBrowserAndUnitTests": [
+    "ArrowLeft",
+    "ArrowRight",
+    "ArrowUp",
+    "ArrowDown",
+    "Home",
+    "End",
+    "PageUp",
+    "PageDown",
+    "Enter",
+    "Space",
+    "Tab",
+    "Shift+Tab",
+    "Escape"
+  ],
+  "focusWrap": {
+    "shiftTabFromClose": "2027-06-06",
+    "tabFromSelected": "Close calendar",
+    "afterEscape": "View calendar"
+  },
+  "filterBeforeAndAfter": [true, false, false, false, false],
+  "filteredCardSlugsBeforeAndAfter": ["healthcare-gci-oct-2026", "cni-2026"],
+  "scrollBefore": 1412,
+  "scrollAfter": 1412,
+  "viewports": [
+    {
+      "width": 320,
+      "height": 740,
+      "dialogClientWidth": 304,
+      "dialogScrollWidth": 304,
+      "documentWidth": 320,
+      "gridBottom": 454.859375,
+      "detailsTop": 474.859375
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "dialogClientWidth": 374,
+      "dialogScrollWidth": 374,
+      "documentWidth": 390,
+      "gridBottom": 454.859375,
+      "detailsTop": 474.859375
+    },
+    {
+      "width": 768,
+      "height": 1024,
+      "dialogClientWidth": 704,
+      "dialogScrollWidth": 704,
+      "documentWidth": 790,
+      "gridBottom": 520.234375,
+      "detailsTop": 540.234375
+    },
+    {
+      "width": 1912,
+      "height": 970,
+      "dialogWidth": 704,
+      "gridBottom": 635.84375,
+      "detailsTop": 655.84375
+    }
+  ],
+  "tabletDocumentOverflow": "Pre-existing shared navbar defect assigned to task 37; calendar has no horizontal overflow.",
+  "mobile320SecondEventScrollTop": 199,
+  "monthAriaLive": "polite",
+  "detailsAriaLive": "polite",
+  "detailsAriaAtomic": "true",
+  "consoleWarningsOrErrorsObserved": [],
+  "productionCalendarPresent": false,
+  "viewportTimezoneMetricsReset": true,
+  "ownedAcceptanceTabClosed": true,
+  "limitations": [
+    "No screen-reader speech audit",
+    "No active pagination control in current six-card list",
+    "Synthetic ongoing/cross-year/DST/expiry cases run in tests, not fabricated CMS content",
+    "IPMI final schedule approval/completeness pending"
+  ]
+}

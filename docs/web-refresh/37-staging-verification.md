@@ -99,3 +99,7 @@ Restore only the failed batch's saved page/component/CMS values and original ass
 ## Task 20 verification record — September 24, 2026
 
 [Task 20 evidence](evidence/task20/README.md) records the reproduced mobile link defect and native destination correction. Repeat Home mobile Learn More pointer/keyboard activation after opening and closing the menu in integrated acceptance. 375/390/767px checks passed; desktop/tablet variant preserved. The inherited 768px navbar document width of 790 remains separate from this corrected link. Production mobile href remains '#'.
+
+## Task 24 provisional verification record — September 24, 2026
+
+[Calendar evidence](evidence/task24/README.md) records all26 native data bindings, immutable JS/CSS release, root-independent reconciliation/preservation, released/Horizon/cross-month examples, keyboard/focus/scroll/filter checks and320/390/768/desktop screenshots. Calendar dialog has no horizontal overflow; the inherited768px shared-nav page width790 remains for integrated correction. Five synthetic tests cover date validity, DST/midnight, ongoing/year-crossing, expiry/reopen and state isolation; targeted lint/build/styles passed. Full verify retains the known document-formatting baseline. Final IPMI schedule approval/completeness and label replacement remain task35/PLACEHOLDERS; no production publication or actual form delivery is implied.
