@@ -1,0 +1,57 @@
+[
+  {
+    "path": "institutes-on-the-horizon",
+    "imagesEqual": true,
+    "imageCount": 125,
+    "anchorsEqual": true,
+    "anchorCount": 168,
+    "formsEqual": true,
+    "supplementCount": 1,
+    "interimPinPresent": false,
+    "hitCanonicalRows": 1
+  },
+  {
+    "path": "attend",
+    "imagesEqual": false,
+    "imageCount": 43,
+    "anchorsEqual": true,
+    "anchorCount": 118,
+    "formsEqual": false,
+    "supplementCount": 1,
+    "interimPinPresent": false,
+    "hitCanonicalRows": 1
+  },
+  {
+    "path": "institutes/hit-2027",
+    "imagesEqual": true,
+    "imageCount": 20,
+    "anchorsEqual": true,
+    "anchorCount": 74,
+    "formsEqual": true,
+    "supplementCount": 0,
+    "interimPinPresent": false,
+    "hitCanonicalRows": 0
+  },
+  {
+    "path": "institutes/ehs-jan-2027",
+    "imagesEqual": true,
+    "imageCount": 20,
+    "anchorsEqual": true,
+    "anchorCount": 74,
+    "formsEqual": true,
+    "supplementCount": 0,
+    "interimPinPresent": false,
+    "hitCanonicalRows": 0
+  },
+  {
+    "path": "institutes/healthcare-gci-oct-2026",
+    "imagesEqual": true,
+    "imageCount": 119,
+    "anchorsEqual": true,
+    "anchorCount": 104,
+    "formsEqual": true,
+    "supplementCount": 0,
+    "interimPinPresent": false,
+    "hitCanonicalRows": 0
+  }
+]

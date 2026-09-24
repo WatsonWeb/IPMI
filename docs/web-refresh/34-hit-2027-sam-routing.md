@@ -1,42 +1,24 @@
-# 34 — IPMI dependency: HIT 2027 attendee inquiries routed to Sam
+# 34 — HIT 2027 attendee inquiry routing
 
 [Back to master](README.md)
 
-**Owner:** IPMI supplies Sam's exact destination and routing requirements; BWC configures and verifies approved routing. **Status:** Awaiting recipient details and integration verification; routing not implemented.
+**Owner:** BWC implements routing; IPMI confirms destination ownership and approval. **Status:** Provisional canonical routing staged September 24, 2026; Sam ownership, approval and delivery verification pending.
 
-## Source and target
+The source master requests all HIT 2027 Attend inquiries go to Sam. The earlier claim that the HIT attendee recipient was blank was incorrect. Existing CMS item `6a062fba0e49a14badf21c95`, slug `hit-2027`, already contained `scolquhoun@ipmievents.com` in `test` (Form - Attendee Request E-mail Address), and direct HIT staging/production rendered it in both attendee and Recipient fields before this work. No recipient was invented or added to that item.
 
-- [Web Refresh Master To-Do](https://ipmionline.sharepoint.com/:w:/s/IPMIExternal/IQDcMcTdU_t5RrSMF4cpizzbAYhFRwKUScDDaC1bx0vQCBI), page 2, **On our end**: all Attend inquiries for HIT 2027 go to Sam.
-- [Healthcare IT Institute 2027](https://ipmi.webflow.io/institutes/hit-2027), invitation form, and any existing event-aware inquiry route that submits `hit-2027` as an Attend selection.
-- Institutes item `6a062fba0e49a14badf21c95`, slug `hit-2027`. Its attendee recipient was blank in the research snapshot; the actual live submission-routing mechanism remains to be verified.
+## Staged implementation
 
-## Current state and intended result
+The direct [HIT page](https://ipmi.webflow.io/institutes/hit-2027#invite) remains unchanged. [Horizon](https://ipmi.webflow.io/institutes-on-the-horizon?i=hit-2027#invite) and [Attend](https://ipmi.webflow.io/attend#invite) now bind native event identity and the existing canonical attendee recipient into their hidden CMS rows. An isolated immutable supplement selects that route only for HIT + Attend; it preserves the live legacy initializer and restores category baselines on other-event, empty and category transitions. Missing canonical HIT routing or inconsistent generic option identity blocks submission instead of guessing a fallback.
 
-Send HIT 2027 **Attend** inquiries to the exact IPMI-approved Sam destination. Do not infer an address from Sam's name, substitute the public `info@ipmievents.com` mailbox, or claim a hidden field alone guarantees delivery. Preserve Speak/Partner routing and other events' recipients. The existing pre-registration heading/CTA is handled separately by [18](18-hit-2027-pre-registration.md).
+Only `ipmi.webflow.io` was published; every custom domain was unchecked. Production remains unchanged. See [evidence, precise bindings, verification and rollback](evidence/task34/README.md).
 
-## Required IPMI inputs
+## Acceptance and remaining handoff
 
-- Sam's exact approved destination address or approved integration recipient identifier.
-- Confirmation that this applies to all HIT 2027 Attend/pre-registration entry points, plus any intentional copy/backup recipients.
-- The intended system of delivery (native Webflow notifications, automation/webhook, or another existing integration) and access/evidence to verify it.
-- An agreed test destination or controlled delivery-verification arrangement, with no unsolicited test email to staff.
+- [x] Direct HIT canonical baseline corrected and preserved; no public-email substitution.
+- [x] Applicable Horizon query/card/dropdown and generic Attend selection/category paths staged and tested offline with actual published initializers.
+- [x] Other-event/category restoration, optional Phone payload, native form IDs and CAPTCHA preserved; responsive/keyboard checks performed without submission.
+- [ ] IPMI confirms that the existing canonical address belongs to the intended Sam and approves scope, copies and backup recipients. Official IPMI recaps identify Sam Colquhoun, but do not establish his mailbox or routing approval.
+- [ ] Confirm native notification recipients, deployed backend revision and provider configuration, then agree a controlled verification destination and explicitly authorize delivery tests.
+- [ ] Actual webhook/provider delivery verified for direct HIT, Horizon and Attend. Hidden-field and offline FormData results do not establish delivery.
 
-## Chrome / Webflow implementation checklist
-
-1. Inventory current HIT 2027 form inputs, event/category values, initial recipient, category-change logic, notification settings, and integrations in Chrome. Inspect the generic Attend and Horizon entry points for event-aware HIT routing rather than assuming they use the same mechanism.
-2. Trace the submitted event/category to its actual delivery configuration. Record the canonical setting/field and existing fallback behavior; if no event-aware route exists, identify the minimal scoped integration change before editing.
-3. Configure the approved Sam destination for `hit-2027` + Attend at the actual routing source. Preserve current staff/event routes and ensure switching Attend → Speak/Partner → Attend resets to the correct recipient without leaking another category's value.
-4. Coordinate with [15](15-optional-phone-fields.md) so new phone values travel through the same payload. Check every applicable HIT entry point with the agreed test arrangement.
-5. Record payload and delivery evidence without personal submission content, then stage through [37](37-staging-verification.md). Mark unresolved delivery verification as pending even if the CMS field is populated.
-
-## Acceptance checks
-
-- [ ] Sam's destination and actual delivery mechanism are recorded and approved.
-- [ ] HIT 2027 Attend inquiries from all applicable entry points reach the intended route in controlled verification.
-- [ ] Initial load and category switching set the correct recipient; empty or stale recipient values cannot silently reroute an inquiry.
-- [ ] Speak/Partner routes and other Institutes remain unchanged.
-- [ ] Public-email and heading updates are reported independently from delivery success.
-
-## Rollback
-
-Record the former CMS recipient, hidden-input bindings, and integration rule/configuration. Restore the exact routing baseline if required and flag the unresolved HIT attendee route; never replace it with a guessed fallback mailbox.
+Task 15's backend phone patch remains undeployed; task 18's exact HIT pre-registration wording and task 16's public contact email remain separate. Documentation-only interim status is `Pending Sam ownership, routing approval and controlled delivery verification`; no placeholder address is installed as a live route.

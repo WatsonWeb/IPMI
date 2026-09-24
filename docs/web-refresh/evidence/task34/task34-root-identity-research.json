@@ -1,0 +1,16 @@
+{
+  "checkedAt": "2026-09-24",
+  "sources": [
+    {
+      "url": "https://www.ipmievents.com/recaps/tai-2025-recap",
+      "observedAttribution": "By Sam Colquhoun"
+    },
+    {
+      "url": "https://www.ipmievents.com/recaps/cldi-sept-2025-recap",
+      "observedAttribution": "By Sam Colquhoun"
+    }
+  ],
+  "finding": "Official IPMI pages identify an author named Sam Colquhoun. These pages do not provide his exact mailbox or confirm HIT attendee-routing approval.",
+  "emailEvidence": "Existing HIT 2027 CMS field test and direct-form hidden inputs contain scolquhoun@ipmievents.com; this is existing site configuration, not a newly inferred address.",
+  "limits": "A matching name is not independent mailbox ownership, approval, or delivery evidence. No external message, account lookup service signup, password access, or test submission occurred."
+}

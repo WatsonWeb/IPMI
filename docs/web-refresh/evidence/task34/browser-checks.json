@@ -1,0 +1,76 @@
+{
+  "scope": "Visible selection, layout and validity only. Hidden input values are sanitized by browser tooling; routing asserted separately offline. No submission.",
+  "checks": [
+    {
+      "page": "Horizon",
+      "selected": 1,
+      "selectedCards": ["ehs-jan-2027"],
+      "state": "other",
+      "valid": true
+    },
+    {
+      "page": "Horizon",
+      "selected": 0,
+      "selectedCards": 0,
+      "state": "empty",
+      "valid": true
+    },
+    {
+      "page": "Horizon",
+      "selected": 10,
+      "selectedCards": ["hit-2027"],
+      "state": "keyboard HIT card",
+      "valid": true
+    },
+    {
+      "category": "Speak",
+      "initialized": "1",
+      "page": "Attend",
+      "phoneVisible": true,
+      "selected": 16,
+      "valid": true
+    },
+    {
+      "category": "Partner",
+      "initialized": "1",
+      "page": "Attend",
+      "phoneVisible": true,
+      "selected": 16,
+      "valid": true
+    },
+    {
+      "category": "Attend",
+      "initialized": "1",
+      "page": "Attend",
+      "phoneVisible": true,
+      "selected": 16,
+      "valid": true
+    },
+    {
+      "page": "Horizon",
+      "state": "responsive HIT selected",
+      "width": 390,
+      "height": 844,
+      "clientWidth": 390,
+      "selected": 10,
+      "valid": true
+    },
+    {
+      "page": "Attend",
+      "state": "keyboard Speak Partner Attend at mobile width",
+      "width": 390,
+      "height": 844,
+      "clientWidth": 390,
+      "selected": 16,
+      "valid": true
+    },
+    {
+      "page": "direct HIT",
+      "state": "split native heading preserved; optional Phone",
+      "width": 390,
+      "height": 844,
+      "clientWidth": 390,
+      "phoneRequired": false
+    }
+  ]
+}

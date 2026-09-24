@@ -1,0 +1,10 @@
+{
+  "formEqualExceptNativeRowAttributes": true,
+  "changedImageTags": 19,
+  "allImageChangesOnlySizes": true,
+  "previousSizes": "(max-width: 1919px) 100vw, 1920px",
+  "currentSizes": "100vw",
+  "scriptChanges": "Only immutable routing supplement added",
+  "formInputTags": "No changes",
+  "note": "Existing 19 desktop-gallery image sizes were reserialized by Webflow; src, srcset, dimensions, loading, class and alt preserved."
+}

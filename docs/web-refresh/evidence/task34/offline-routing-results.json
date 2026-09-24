@@ -1,0 +1,95 @@
+{
+  "scope": "Offline published HTML + actual saved legacy initializers + pinned supplement. Standard FormData only; no Webflow AJAX, CAPTCHA, webhook, notification or actual delivery tested.",
+  "results": [
+    {
+      "page": "institutes-on-the-horizon",
+      "checks": [
+        {
+          "state": "initial query/default",
+          "recipient": "scolquhoun@ipmievents.com",
+          "phoneValues": ["", "+44 20 7946 0958 ext 12"]
+        },
+        {
+          "state": "HIT dropdown",
+          "recipient": "scolquhoun@ipmievents.com",
+          "phoneValues": ["", "+44 20 7946 0958 ext 12"]
+        },
+        {
+          "state": "other event",
+          "recipient": "jgray@ipmionline.com",
+          "phoneValues": ["", "+44 20 7946 0958 ext 12"]
+        },
+        {
+          "state": "selection cleared",
+          "recipient": "jgray@ipmionline.com",
+          "phoneValues": ["", "+44 20 7946 0958 ext 12"]
+        },
+        {
+          "state": "HIT card without change event",
+          "recipient": "scolquhoun@ipmievents.com",
+          "phoneValues": ["", "+44 20 7946 0958 ext 12"]
+        }
+      ]
+    },
+    {
+      "page": "attend",
+      "checks": [
+        {
+          "state": "initial query/default",
+          "recipient": "tpui@ipmionline.com",
+          "phoneValues": ["", "+44 20 7946 0958 ext 12"]
+        },
+        {
+          "state": "HIT dropdown",
+          "recipient": "scolquhoun@ipmievents.com",
+          "phoneValues": ["", "+44 20 7946 0958 ext 12"]
+        },
+        {
+          "state": "other event",
+          "recipient": "tpui@ipmionline.com",
+          "phoneValues": ["", "+44 20 7946 0958 ext 12"]
+        },
+        {
+          "state": "selection cleared",
+          "recipient": "tpui@ipmionline.com",
+          "phoneValues": ["", "+44 20 7946 0958 ext 12"]
+        },
+        {
+          "state": "HIT Speak",
+          "recipient": "npanwar@ipmionline.com",
+          "phoneValues": ["", "+44 20 7946 0958 ext 12"]
+        },
+        {
+          "state": "HIT Partner",
+          "recipient": "jgray@ipmionline.com",
+          "phoneValues": ["", "+44 20 7946 0958 ext 12"]
+        },
+        {
+          "state": "HIT Attend",
+          "recipient": "scolquhoun@ipmievents.com",
+          "phoneValues": ["", "+44 20 7946 0958 ext 12"]
+        },
+        {
+          "state": "section Speak CTA triggers existing category handler",
+          "recipient": "npanwar@ipmionline.com",
+          "phoneValues": ["", "+44 20 7946 0958 ext 12"]
+        },
+        {
+          "state": "section Attend CTA restores HIT",
+          "recipient": "scolquhoun@ipmievents.com",
+          "phoneValues": ["", "+44 20 7946 0958 ext 12"]
+        }
+      ]
+    },
+    {
+      "page": "institutes-hit-2027",
+      "checks": [
+        {
+          "state": "unchanged direct native route",
+          "recipient": "scolquhoun@ipmievents.com",
+          "phoneValues": ["", "+44 20 7946 0958 ext 12"]
+        }
+      ]
+    }
+  ]
+}
