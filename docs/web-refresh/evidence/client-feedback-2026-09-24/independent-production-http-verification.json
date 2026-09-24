@@ -1,0 +1,90 @@
+{
+  "checkedAt": "2026-09-24T20:00:53.175Z",
+  "method": "Independent public HTTP + parsed published HTML and generated stylesheet. No browser runtime execution in this report.",
+  "pages": [
+    {
+      "path": "/institutes",
+      "url": "https://www.ipmievents.com/institutes",
+      "status": 200,
+      "published": "Thu Sep 24 2026 20:00:22 GMT+0000 (Coordinated Universal Time)",
+      "chairCount": 0,
+      "chairImages": [],
+      "chairLinks": [],
+      "invalidAnchorCount": 0,
+      "preservation": {
+        "visibleTextEqualsCurrentStaging": true,
+        "ordinarySponsorsEqualCurrentStaging": true,
+        "ordinarySponsorCount": 0
+      },
+      "calendar": {
+        "hostnameGuard": true,
+        "templates": [
+          {
+            "id": null,
+            "htmlLength": 1022
+          }
+        ],
+        "script": [
+          "\n(function () {\n  var template = document.currentScript.previousElementSibling;\n  if (window.location.hostname !== \"ipmi.webflow.io\") {\n    template.remove();\n    return;\n  }\n  template.replaceWith(template.content.cloneNode(true));\n  var script = document.createElement(\"script\");\n  script.src = \"https://cdn.jsdelivr.net/gh/WatsonWeb/IPMI@9be97e435797394a9c314dda4f4a48181acf94ef/dist/institutes-calendar.js\";\n  script.defer = true;\n  document.head.appendChild(script);\n})();\n"
+        ],
+        "directCalendarBundleScripts": 0
+      }
+    },
+    {
+      "path": "/institutes/ehs-jan-2027",
+      "url": "https://www.ipmievents.com/institutes/ehs-jan-2027",
+      "status": 200,
+      "published": "Thu Sep 24 2026 20:00:22 GMT+0000 (Coordinated Universal Time)",
+      "chairCount": 1,
+      "chairImages": [
+        {
+          "src": "https://cdn.prod.website-files.com/6312ee46f4c52faf21ee8ab5/6a4e8f62e52dbfccdea198a5_Benchmark%20Gensuite%20Web%20Size.png",
+          "alt": "Benchmark Gensuite",
+          "width": "200",
+          "className": "chair-sponsor-logo",
+          "insideAnchor": true
+        }
+      ],
+      "chairLinks": [
+        {
+          "href": "https://benchmarkgensuite.com/",
+          "target": "_blank"
+        }
+      ],
+      "invalidAnchorCount": 0,
+      "preservation": {
+        "visibleTextEqualsCurrentStaging": true,
+        "ordinarySponsorsEqualCurrentStaging": true,
+        "ordinarySponsorCount": 11
+      },
+      "chairCss": {
+        "url": "https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/css/ipmi.webflow.shared.0f7f208df.min.css",
+        "rules": [".chair-sponsor-logo{width:300px;max-width:100%;height:auto}"]
+      }
+    },
+    {
+      "path": "/institutes/healthcare-gci-oct-2026",
+      "url": "https://www.ipmievents.com/institutes/healthcare-gci-oct-2026",
+      "status": 200,
+      "published": "Thu Sep 24 2026 20:00:22 GMT+0000 (Coordinated Universal Time)",
+      "chairCount": 1,
+      "chairImages": [
+        {
+          "src": "https://cdn.prod.website-files.com/6312ee46f4c52faf21ee8ab5/6ab4fe40d56d16fa62095af1_chair-sponsor-placeholder.png",
+          "alt": "PLACEHOLDER - Chair Sponsor (approval pending)",
+          "width": "200",
+          "className": "",
+          "insideAnchor": false
+        }
+      ],
+      "chairLinks": [],
+      "invalidAnchorCount": 0,
+      "preservation": {
+        "visibleTextEqualsCurrentStaging": true,
+        "ordinarySponsorsEqualCurrentStaging": true,
+        "ordinarySponsorCount": 28
+      }
+    }
+  ],
+  "passed": true
+}

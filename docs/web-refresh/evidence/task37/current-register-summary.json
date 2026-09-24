@@ -1,0 +1,73 @@
+{
+  "generatedAt": "2026-09-24T20:14:44.561Z",
+  "phase": "after",
+  "sourceSnapshots": ["kbyg-pages-after-task37.json", "institutes-after-task37.json"],
+  "placeholderFields": 1232,
+  "draftPages": [
+    {
+      "id": "6ab50d307a1a4f8bfaf11708",
+      "slug": "hrmi-canada-nov-2026-sponsor",
+      "name": "HR Can Nov 2026 Sponsor"
+    },
+    {
+      "id": "6ab50d2f844fd9696be15789",
+      "slug": "hrmi-canada-nov-2026-delegate",
+      "name": "HR Can Nov 2026 Delegate"
+    },
+    {
+      "id": "6ab50d2d9c872074f0aee0f9",
+      "slug": "cwi-2026-delegate",
+      "name": "CWI 2026 Delegate"
+    }
+  ],
+  "changedFields": [
+    {
+      "id": "36-ehs-jan-2027-delegate-welcome-body",
+      "pageId": "6ab419ab01801a6514d9c07a",
+      "field": "welcome-body",
+      "historicalInterimValue": "<p>Placeholder - Operations copy pending.</p>",
+      "currentValue": "<p>We’re delighted to welcome you to the 2027 EHS Management Institute and thank you for choosing to join us. Over three days, an exceptional group of senior leaders and solution providers will come together for meaningful conversations, fresh perspectives, and valuable connections.</p><p>Everything you need to prepare for the Institute is right here in one easy-to-navigate guide. From key dates and important deliverables to helpful event details, we’ll keep you informed and on track in the weeks ahead.</p><p>Over the coming weeks, we’ll guide you through a few simple steps to get event ready. Your Operations Lead, <strong>Tori Di Clemente</strong>, will be here to support you along the way, answer any questions, and ensure you have everything you need for a smooth and successful Institute experience.</p>"
+    },
+    {
+      "id": "36-ehs-jan-2027-delegate-preparation-intro",
+      "pageId": "6ab419ab01801a6514d9c07a",
+      "field": "preparation-intro",
+      "historicalInterimValue": "Placeholder — Delegate preparation instructions are awaiting Operations confirmation.",
+      "currentValue": "Complete these actions in the Attendee Hub, then build a schedule around the conversations that matter most to you."
+    },
+    {
+      "id": "36-ehs-jan-2027-delegate-agenda-intro",
+      "pageId": "6ab419ab01801a6514d9c07a",
+      "field": "agenda-intro",
+      "historicalInterimValue": "Placeholder — The event agenda is awaiting Operations confirmation.",
+      "currentValue": "Times are approximate and subject to change. Please refer to the Full Institute Agenda for event specific details."
+    },
+    {
+      "id": "36-ehs-jan-2027-delegate-experience-intro",
+      "pageId": "6ab419ab01801a6514d9c07a",
+      "field": "experience-intro",
+      "historicalInterimValue": "Placeholder — Delegate experience details are awaiting Operations confirmation.",
+      "currentValue": "A purposeful mix of insight, one-to-one conversation, and peer collaboration."
+    }
+  ],
+  "renamedPageIds": ["6ab50d45ae4335f0476609d9", "6ab50d4589b31179acde4752"],
+  "destinations": 54,
+  "agendaRows": 54,
+  "linked": 16,
+  "pending": 38,
+  "withCards": [
+    {
+      "slug": "hchr-sept-2026-sponsor",
+      "count": 3
+    },
+    {
+      "slug": "hchr-sept-2026-delegate",
+      "count": 3
+    },
+    {
+      "slug": "ehs-jan-2027-delegate",
+      "count": 3
+    }
+  ],
+  "newApprovalsClaimed": false
+}

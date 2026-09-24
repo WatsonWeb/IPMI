@@ -1,0 +1,53 @@
+{
+  "id": "62f30d583ebbed2d6d47f9a5",
+  "workspaceId": "62eaccc9c59eaa575785811e",
+  "displayName": "IPMI",
+  "shortName": "ipmi",
+  "previewUrl": "https://screenshots.webflow.com/sites/62f30d583ebbed2d6d47f9a5/20260924201347_34fefbfc47e232f48ac4396706eb068f.png",
+  "timeZone": "America/Toronto",
+  "createdOn": "2022-08-10T01:43:52.954Z",
+  "lastUpdated": "2026-09-24T20:13:57.421Z",
+  "lastPublished": "2026-09-24T20:13:47.538Z",
+  "fullSiteCompiledAt": "2026-09-24T20:13:47.538Z",
+  "customDomains": [
+    {
+      "id": "63d1e7d0ff89bf5e8ad30134",
+      "url": "www.ipmionline.com",
+      "lastPublished": "2026-09-24T20:00:26.885Z",
+      "fullSiteCompiledAt": "2026-09-24T20:00:26.885Z"
+    },
+    {
+      "id": "63d1e7d0ff89bf355cd30133",
+      "url": "ipmionline.com",
+      "lastPublished": "2026-09-24T20:00:26.885Z",
+      "fullSiteCompiledAt": "2026-09-24T20:00:26.885Z"
+    },
+    {
+      "id": "63c8544d81c16882d98c4e42",
+      "url": "www.ipmievents.com",
+      "lastPublished": "2026-09-24T20:00:26.885Z",
+      "fullSiteCompiledAt": "2026-09-24T20:00:26.885Z"
+    },
+    {
+      "id": "63c8544d81c16808598c4e41",
+      "url": "ipmievents.com",
+      "lastPublished": "2026-09-24T20:00:26.885Z",
+      "fullSiteCompiledAt": "2026-09-24T20:00:26.885Z"
+    }
+  ],
+  "locales": {
+    "primary": {
+      "id": "683f9504e19723c9556b8c74",
+      "cmsLocaleId": "653ad7c5e882f528b349ce21",
+      "enabled": false,
+      "displayName": "English",
+      "redirect": true,
+      "subdirectory": "",
+      "tag": "en-US"
+    },
+    "secondary": []
+  },
+  "dataCollectionEnabled": false,
+  "dataCollectionType": "always",
+  "googleTagIds": []
+}

@@ -1,0 +1,43 @@
+{
+  "checkedAt": "2026-09-24T20:12:32.064Z",
+  "sha": "56e04ad63226e5fb83ecc410e3b9160b08909dbd",
+  "results": [
+    {
+      "path": "dist/ipmi-kbyg.js",
+      "url": "https://cdn.jsdelivr.net/gh/WatsonWeb/IPMI@56e04ad63226e5fb83ecc410e3b9160b08909dbd/dist/ipmi-kbyg.js",
+      "status": 200,
+      "remoteSha256": "d6de99b5767d1d4892dd0207ab64394cc25ffda201b68d8fecfdf625b281a453",
+      "localSha256": "d6de99b5767d1d4892dd0207ab64394cc25ffda201b68d8fecfdf625b281a453",
+      "exact": true
+    },
+    {
+      "path": "dist/refresh-integration.js",
+      "url": "https://cdn.jsdelivr.net/gh/WatsonWeb/IPMI@56e04ad63226e5fb83ecc410e3b9160b08909dbd/dist/refresh-integration.js",
+      "status": 200,
+      "remoteSha256": "37f9698bb83d54ebd1b57fdbc1c152e558259c30689f810808bef88d4e68374f",
+      "localSha256": "37f9698bb83d54ebd1b57fdbc1c152e558259c30689f810808bef88d4e68374f",
+      "exact": true
+    },
+    {
+      "path": "dist/refresh-integration.css",
+      "url": "https://cdn.jsdelivr.net/gh/WatsonWeb/IPMI@56e04ad63226e5fb83ecc410e3b9160b08909dbd/dist/refresh-integration.css",
+      "status": 200,
+      "remoteSha256": "df42af67ecec9b341fb9979ac0d19e833c60aa5ee98aa3426fe44b4359dfef87",
+      "localSha256": "df42af67ecec9b341fb9979ac0d19e833c60aa5ee98aa3426fe44b4359dfef87",
+      "exact": true
+    },
+    {
+      "path": "ipmi-kbyg-agenda.css",
+      "url": "https://cdn.jsdelivr.net/gh/WatsonWeb/IPMI@56e04ad63226e5fb83ecc410e3b9160b08909dbd/ipmi-kbyg-agenda.css",
+      "status": 200,
+      "remoteSha256": "34a74a0500e3f04881ed42a571d80a2da0621ad0a0322032bc03ac1b493a07e6",
+      "localSha256": "34a74a0500e3f04881ed42a571d80a2da0621ad0a0322032bc03ac1b493a07e6",
+      "exact": true
+    }
+  ],
+  "protectedGlobal": {
+    "status": 200,
+    "sha256": "80ef3c254bef30f97398b63b0888a934085bb9b371ce4ee74e2e6b20befe4496",
+    "unchanged": true
+  }
+}

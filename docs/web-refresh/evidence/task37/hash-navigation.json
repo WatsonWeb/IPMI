@@ -1,0 +1,60 @@
+[
+  {
+    "active": "AGENDA",
+    "cards": 3,
+    "hash": "#agenda",
+    "heading": 185.59375,
+    "jumpBottom": 133,
+    "scenario": "EHS direct agenda768",
+    "width": 768
+  },
+  {
+    "cards": 3,
+    "hash": "#agenda",
+    "heading": 208.28125,
+    "jumpBottom": 131,
+    "scenario": "EHS direct agenda390 reload",
+    "select": "agenda",
+    "width": 390
+  },
+  {
+    "hash": "#hotel-travel",
+    "heading": 208.578125,
+    "jumpBottom": 131,
+    "scenario": "EHS mobile select hotel settled",
+    "select": "hotel-travel",
+    "width": 390
+  },
+  {
+    "active": "HOTEL",
+    "hash": "#hotel-travel",
+    "heading": 230.609375,
+    "jumpBottom": 133,
+    "scenario": "EHS390to768 hotel reload",
+    "width": 768
+  },
+  {
+    "active": "AGENDA",
+    "hash": "#agenda",
+    "heading": 176.4375,
+    "jumpBottom": 104,
+    "scenario": "EHS desktop keyboard agenda settled",
+    "width": 1440
+  },
+  {
+    "hash": "#agenda",
+    "heading": 208.28125,
+    "jumpBottom": 131,
+    "scenario": "HCHR sponsor directagenda390",
+    "select": "agenda",
+    "width": 390
+  },
+  {
+    "hash": "#agenda",
+    "heading": 236.1875,
+    "jumpBottom": 138,
+    "scenario": "HCHR sponsor390to768 reload",
+    "select": "agenda",
+    "width": 768
+  }
+]

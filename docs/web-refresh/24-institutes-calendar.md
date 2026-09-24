@@ -1,5 +1,7 @@
 # 24 — Upcoming Institutes month-grid calendar
 
+> **Current task 37 handoff — September 24, 2026:** The calendar remains functional on staging and is now protected by an exact ipmi.webflow.io hostname gate in the native shell. Production has no active calendar controls/runtime. Current dataset: 26 events, seven released / 19 Horizon. Task 37 fixed shared navbar fit and repository verification; final schedule/copy approval remains open. See [final evidence](evidence/task37/README.md) and [current replacement guide](PLACEHOLDERS.md).
+
 [Back to master](README.md)
 
 - **Owner:** Bryan / Webflow and custom-code implementation; IPMI confirms event data through 2027.

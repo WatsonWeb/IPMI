@@ -1,0 +1,39 @@
+<!-- Calendar remains staging-only until IPMI approves its copy. -->
+<template data-ipmi-calendar-staging>
+  <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/gh/WatsonWeb/IPMI@9be97e435797394a9c314dda4f4a48181acf94ef/dist/institutes-calendar.css"
+  />
+  <div data-ipmi-calendar-shell>
+    <button type="button" data-ipmi-calendar-open hidden>View calendar</button>
+    <dialog data-ipmi-calendar-dialog aria-labelledby="ipmi-calendar-title">
+      <header>
+        <h2 id="ipmi-calendar-title">Institutes calendar</h2>
+        <button type="button" data-ipmi-calendar-close aria-label="Close calendar">Close</button>
+      </header>
+      <p>Provisional schedule — final dates and completeness pending IPMI approval.</p>
+      <div data-ipmi-calendar-nav>
+        <button type="button" data-ipmi-calendar-prev aria-label="Previous month">&#8592;</button>
+        <h3 data-ipmi-calendar-month aria-live="polite"></h3>
+        <button type="button" data-ipmi-calendar-next aria-label="Next month">&#8594;</button>
+      </div>
+      <div data-ipmi-calendar-grid role="grid" aria-label="Institute dates"></div>
+      <section data-ipmi-calendar-details aria-live="polite" aria-atomic="true"></section>
+    </dialog>
+  </div>
+</template>
+<script>
+  (function () {
+    var template = document.currentScript.previousElementSibling;
+    if (window.location.hostname !== "ipmi.webflow.io") {
+      template.remove();
+      return;
+    }
+    template.replaceWith(template.content.cloneNode(true));
+    var script = document.createElement("script");
+    script.src =
+      "https://cdn.jsdelivr.net/gh/WatsonWeb/IPMI@9be97e435797394a9c314dda4f4a48181acf94ef/dist/institutes-calendar.js";
+    script.defer = true;
+    document.head.appendChild(script);
+  })();
+</script>

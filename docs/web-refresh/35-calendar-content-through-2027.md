@@ -1,5 +1,7 @@
 # 35 — Calendar content through 2027
 
+> **Current task 37 handoff — September 24, 2026:** Current 26-event facts include seven released and 19 Horizon because EHS was released concurrently. This supersedes the earlier six/20 classification without inventing new dates. Final complete roster approval remains open; calendar controls are staging-hostname gated. See [final evidence](evidence/task37/README.md) and [current replacement guide](PLACEHOLDERS.md).
+
 [Back to master](README.md)
 
 **Owner:** IPMI approves the schedule; BWC reconciles native records. **Status:** Provisional handoff complete September 24, 2026. Final schedule approval and completeness remain pending; calendar implementation belongs to [24](24-institutes-calendar.md).

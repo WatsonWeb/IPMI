@@ -1,0 +1,366 @@
+{
+  "checkedAt": "2026-09-24T20:15:00.615Z",
+  "total": 84,
+  "non200": [],
+  "staging": 15,
+  "kbyg": 54,
+  "production": 15,
+  "kbygCards": [
+    {
+      "slug": "211-hrmi-june-2027-delegate",
+      "cards": 0,
+      "links": ["#"],
+      "noindex": true
+    },
+    {
+      "slug": "211-hrmi-june-2027-sponsor",
+      "cards": 0,
+      "links": ["#"],
+      "noindex": true
+    },
+    {
+      "slug": "213-cldi-sept-2027-delegate",
+      "cards": 0,
+      "links": ["#"],
+      "noindex": true
+    },
+    {
+      "slug": "213-cldi-sept-2027-sponsor",
+      "cards": 0,
+      "links": ["#"],
+      "noindex": true
+    },
+    {
+      "slug": "214-hgc-sept-2027-delegate",
+      "cards": 0,
+      "links": ["#"],
+      "noindex": true
+    },
+    {
+      "slug": "214-hgc-sept-2027-sponsor",
+      "cards": 0,
+      "links": ["#"],
+      "noindex": true
+    },
+    {
+      "slug": "215-hchr-sept-2027-delegate",
+      "cards": 0,
+      "links": ["#"],
+      "noindex": true
+    },
+    {
+      "slug": "215-hchr-sept-2027-sponsor",
+      "cards": 0,
+      "links": ["#"],
+      "noindex": true
+    },
+    {
+      "slug": "216-ip-law-2027-delegate",
+      "cards": 0,
+      "links": ["#"],
+      "noindex": true
+    },
+    {
+      "slug": "216-ip-law-2027-sponsor",
+      "cards": 0,
+      "links": ["#"],
+      "noindex": true
+    },
+    {
+      "slug": "217-hrmi-oct-2027-delegate",
+      "cards": 0,
+      "links": ["#"],
+      "noindex": true
+    },
+    {
+      "slug": "217-hrmi-oct-2027-sponsor",
+      "cards": 0,
+      "links": ["#"],
+      "noindex": true
+    },
+    {
+      "slug": "218-cni-2027-delegate",
+      "cards": 0,
+      "links": ["#"],
+      "noindex": true
+    },
+    {
+      "slug": "218-cni-2027-sponsor",
+      "cards": 0,
+      "links": ["#"],
+      "noindex": true
+    },
+    {
+      "slug": "219-cwi-2027-delegate",
+      "cards": 0,
+      "links": ["#"],
+      "noindex": true
+    },
+    {
+      "slug": "219-cwi-2027-sponsor",
+      "cards": 0,
+      "links": ["#"],
+      "noindex": true
+    },
+    {
+      "slug": "220-hr-can-2027-delegate",
+      "cards": 0,
+      "links": ["#"],
+      "noindex": true
+    },
+    {
+      "slug": "220-hr-can-2027-sponsor",
+      "cards": 0,
+      "links": ["#"],
+      "noindex": true
+    },
+    {
+      "slug": "28-tai-us-2027-delegate",
+      "cards": 0,
+      "links": ["#"],
+      "noindex": true
+    },
+    {
+      "slug": "28-tai-us-2027-sponsor",
+      "cards": 0,
+      "links": ["#"],
+      "noindex": true
+    },
+    {
+      "slug": "cldi-march-2027-delegate",
+      "cards": 0,
+      "links": ["#"],
+      "noindex": true
+    },
+    {
+      "slug": "cldi-march-2027-sponsor",
+      "cards": 0,
+      "links": ["#"],
+      "noindex": true
+    },
+    {
+      "slug": "cni-2026-delegate",
+      "cards": 0,
+      "links": [
+        "https://ipmionline.sharepoint.com/:b:/s/IPMIExternal/IQAPfagdftYGRpZBwoWLQNmwASmhdeWqAQGp1E3PN55Phnw?e=bRxpMy"
+      ],
+      "noindex": true
+    },
+    {
+      "slug": "cni-2026-sponsor",
+      "cards": 0,
+      "links": [
+        "https://ipmionline.sharepoint.com/:b:/s/IPMIExternal/IQAPfagdftYGRpZBwoWLQNmwASmhdeWqAQGp1E3PN55Phnw?e=bRxpMy"
+      ],
+      "noindex": true
+    },
+    {
+      "slug": "cwi-2026-delegate",
+      "cards": 0,
+      "links": [
+        "https://ipmionline.sharepoint.com/:b:/s/IPMIExternal/IQAGsZctcm4RTaQ0z8WwlN-QAUV1qgUgNFGDHXkJ-WfGvaQ"
+      ],
+      "noindex": true
+    },
+    {
+      "slug": "cwi-2026-sponsor",
+      "cards": 0,
+      "links": [
+        "https://ipmionline.sharepoint.com/:b:/s/IPMIExternal/IQAGsZctcm4RTaQ0z8WwlN-QAUV1qgUgNFGDHXkJ-WfGvaQ"
+      ],
+      "noindex": true
+    },
+    {
+      "slug": "ehs-jan-2027-delegate",
+      "cards": 3,
+      "links": [
+        "https://ipmionline.sharepoint.com/:b:/s/IPMIExternal/IQD5Gp1HizG2QoJyhhCjZJBGAbiOsSBPRaeu51wYk0c_1VU?e=h9A1NR"
+      ],
+      "noindex": true
+    },
+    {
+      "slug": "ehs-jan-2027-sponsor",
+      "cards": 0,
+      "links": [
+        "https://ipmionline.sharepoint.com/:b:/s/IPMIExternal/IQD5Gp1HizG2QoJyhhCjZJBGAbiOsSBPRaeu51wYk0c_1VU?e=h9A1NR"
+      ],
+      "noindex": true
+    },
+    {
+      "slug": "ehs-july-2027-delegate",
+      "cards": 0,
+      "links": ["#"],
+      "noindex": true
+    },
+    {
+      "slug": "ehs-july-2027-sponsor",
+      "cards": 0,
+      "links": ["#"],
+      "noindex": true
+    },
+    {
+      "slug": "hchr-sept-2026-delegate",
+      "cards": 3,
+      "links": [
+        "https://ipmionline.sharepoint.com/:b:/s/IPMIExternal/IQDhY6Ng2S5QQ4ydRO30tLytAd2eoi55aaOvVa0DMGPXDKw"
+      ],
+      "noindex": true
+    },
+    {
+      "slug": "hchr-sept-2026-sponsor",
+      "cards": 3,
+      "links": [
+        "https://ipmionline.sharepoint.com/:b:/s/IPMIExternal/IQDhY6Ng2S5QQ4ydRO30tLytAd2eoi55aaOvVa0DMGPXDKw"
+      ],
+      "noindex": true
+    },
+    {
+      "slug": "hchrmi-march-2027-delegate",
+      "cards": 0,
+      "links": ["#"],
+      "noindex": true
+    },
+    {
+      "slug": "hchrmi-march-2027-sponsor",
+      "cards": 0,
+      "links": ["#"],
+      "noindex": true
+    },
+    {
+      "slug": "healthcare-gci-oct-2026-delegate",
+      "cards": 0,
+      "links": [
+        "https://ipmionline.sharepoint.com/:b:/s/IPMIExternal/IQCnURRTX3f_TqKKCJ8GokBWAXTt-7rJg2f6LYq_dpYaYok"
+      ],
+      "noindex": true
+    },
+    {
+      "slug": "healthcare-gci-oct-2026-sponsor",
+      "cards": 0,
+      "links": [
+        "https://ipmionline.sharepoint.com/:b:/s/IPMIExternal/IQCnURRTX3f_TqKKCJ8GokBWAXTt-7rJg2f6LYq_dpYaYok"
+      ],
+      "noindex": true
+    },
+    {
+      "slug": "hfi-2027-delegate",
+      "cards": 0,
+      "links": ["#"],
+      "noindex": true
+    },
+    {
+      "slug": "hfi-2027-sponsor",
+      "cards": 0,
+      "links": ["#"],
+      "noindex": true
+    },
+    {
+      "slug": "hgc-feb-2027-delegate",
+      "cards": 0,
+      "links": ["#"],
+      "noindex": true
+    },
+    {
+      "slug": "hgc-feb-2027-sponsor",
+      "cards": 0,
+      "links": ["#"],
+      "noindex": true
+    },
+    {
+      "slug": "hit-2027-delegate",
+      "cards": 0,
+      "links": ["#"],
+      "noindex": true
+    },
+    {
+      "slug": "hit-2027-sponsor",
+      "cards": 0,
+      "links": ["#"],
+      "noindex": true
+    },
+    {
+      "slug": "hr-can-april-2027-delegate",
+      "cards": 0,
+      "links": ["#"],
+      "noindex": true
+    },
+    {
+      "slug": "hr-can-april-2027-sponsor",
+      "cards": 0,
+      "links": ["#"],
+      "noindex": true
+    },
+    {
+      "slug": "hrmi-canada-nov-2026-delegate",
+      "cards": 0,
+      "links": [
+        "https://ipmionline.sharepoint.com/:b:/s/IPMIExternal/IQAZysPAFHolTJCZ3k-lutGYAZXzePjsG-rYVxViK6DMV9I"
+      ],
+      "noindex": true
+    },
+    {
+      "slug": "hrmi-canada-nov-2026-sponsor",
+      "cards": 0,
+      "links": [
+        "https://ipmionline.sharepoint.com/:b:/s/IPMIExternal/IQAZysPAFHolTJCZ3k-lutGYAZXzePjsG-rYVxViK6DMV9I"
+      ],
+      "noindex": true
+    },
+    {
+      "slug": "hrmi-feb-2027-delegate",
+      "cards": 0,
+      "links": ["#"],
+      "noindex": true
+    },
+    {
+      "slug": "hrmi-feb-2027-sponsor",
+      "cards": 0,
+      "links": ["#"],
+      "noindex": true
+    },
+    {
+      "slug": "hrmi-oct-2026-delegate",
+      "cards": 0,
+      "links": [
+        "https://ipmionline.sharepoint.com/:b:/s/IPMIExternal/IQBBX5dimTflRJiqu1HyqESrATIapd5rWf33JJz1mmVDFRE"
+      ],
+      "noindex": true
+    },
+    {
+      "slug": "hrmi-oct-2026-sponsor",
+      "cards": 0,
+      "links": [
+        "https://ipmionline.sharepoint.com/:b:/s/IPMIExternal/IQBBX5dimTflRJiqu1HyqESrATIapd5rWf33JJz1mmVDFRE"
+      ],
+      "noindex": true
+    },
+    {
+      "slug": "iplmi-2026-delegate",
+      "cards": 0,
+      "links": [
+        "https://ipmionline.sharepoint.com/:b:/s/IPMIExternal/IQBBdbLOC-q9R4DG2UzdykjYAU_khagQNZcfbWRYrqQJ9I0"
+      ],
+      "noindex": true
+    },
+    {
+      "slug": "iplmi-2026-sponsor",
+      "cards": 0,
+      "links": [
+        "https://ipmionline.sharepoint.com/:b:/s/IPMIExternal/IQBBdbLOC-q9R4DG2UzdykjYAU_khagQNZcfbWRYrqQJ9I0"
+      ],
+      "noindex": true
+    },
+    {
+      "slug": "taeei-can-2027-delegate",
+      "cards": 0,
+      "links": ["#"],
+      "noindex": true
+    },
+    {
+      "slug": "taeei-can-2027-sponsor",
+      "cards": 0,
+      "links": ["#"],
+      "noindex": true
+    }
+  ]
+}

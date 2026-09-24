@@ -1,0 +1,2185 @@
+{
+  "checkedAt": "2026-09-24T20:16:23.160Z",
+  "scope": "Final independent HTTP/native/source review; browser interactions are recorded separately.",
+  "publication": {
+    "staging": "2026-09-24T20:13:47.538Z",
+    "productionDomains": [
+      {
+        "url": "www.ipmionline.com",
+        "published": "2026-09-24T20:00:26.885Z",
+        "unchangedSinceResume": true
+      },
+      {
+        "url": "ipmionline.com",
+        "published": "2026-09-24T20:00:26.885Z",
+        "unchangedSinceResume": true
+      },
+      {
+        "url": "www.ipmievents.com",
+        "published": "2026-09-24T20:00:26.885Z",
+        "unchangedSinceResume": true
+      },
+      {
+        "url": "ipmievents.com",
+        "published": "2026-09-24T20:00:26.885Z",
+        "unchangedSinceResume": true
+      }
+    ],
+    "separateUserApprovedProductionPublish": "2026-09-24T20:00:26.885Z",
+    "calendar": "Native shell is inert and hostname-gated; production calendar remains disabled. Its full markup can occur inside an inert HTML template without an active control.",
+    "productionIncludesEarlierRefreshAndPlaceholders": true
+  },
+  "http": {
+    "total": 88,
+    "all200": true,
+    "production": [
+      {
+        "url": "https://www.ipmievents.com/about",
+        "status": 200,
+        "htmlUnchanged": true
+      },
+      {
+        "url": "https://www.ipmievents.com/attend",
+        "status": 200,
+        "htmlUnchanged": true
+      },
+      {
+        "url": "https://www.ipmievents.com/contact",
+        "status": 200,
+        "htmlUnchanged": true
+      },
+      {
+        "url": "https://www.ipmievents.com/institutes/ehs-jan-2027",
+        "status": 200,
+        "htmlUnchanged": true
+      },
+      {
+        "url": "https://www.ipmievents.com/faq",
+        "status": 200,
+        "htmlUnchanged": true
+      },
+      {
+        "url": "https://www.ipmievents.com/gallery",
+        "status": 200,
+        "htmlUnchanged": true
+      },
+      {
+        "url": "https://www.ipmievents.com/institutes/healthcare-gci-oct-2026",
+        "status": 200,
+        "htmlUnchanged": true
+      },
+      {
+        "url": "https://www.ipmievents.com/institutes/hit-2027",
+        "status": 200,
+        "htmlUnchanged": true
+      },
+      {
+        "url": "https://www.ipmievents.com/",
+        "status": 200,
+        "htmlUnchanged": true
+      },
+      {
+        "url": "https://www.ipmievents.com/institutes-on-the-horizon",
+        "status": 200,
+        "htmlUnchanged": true
+      },
+      {
+        "url": "https://www.ipmievents.com/institutes/hrmi-oct-2026",
+        "status": 200,
+        "htmlUnchanged": true
+      },
+      {
+        "url": "https://www.ipmievents.com/institutes",
+        "status": 200,
+        "htmlUnchanged": true
+      },
+      {
+        "url": "https://www.ipmievents.com/recent-institutes",
+        "status": 200,
+        "htmlUnchanged": true
+      },
+      {
+        "url": "https://www.ipmievents.com/testimonials",
+        "status": 200,
+        "htmlUnchanged": true
+      },
+      {
+        "url": "https://www.ipmievents.com/thinktanks",
+        "status": 200,
+        "htmlUnchanged": true
+      }
+    ],
+    "productionKbyg": [
+      {
+        "url": "https://www.ipmievents.com/know-before-you-go/hchr-sept-2026-delegate",
+        "status": 200,
+        "htmlUnchanged": true
+      },
+      {
+        "url": "https://www.ipmievents.com/know-before-you-go/hchr-sept-2026-sponsor",
+        "status": 200,
+        "htmlUnchanged": true
+      },
+      {
+        "url": "https://www.ipmievents.com/know-before-you-go/ehs-jan-2027-delegate",
+        "status": 200,
+        "htmlUnchanged": true
+      },
+      {
+        "url": "https://www.ipmievents.com/know-before-you-go/ehs-jan-2027-sponsor",
+        "status": 200,
+        "htmlUnchanged": true
+      }
+    ],
+    "staging": [
+      {
+        "url": "https://ipmi.webflow.io/know-before-you-go/211-hrmi-june-2027-delegate",
+        "status": 200,
+        "newGlobalJs": true,
+        "newGlobalCss": true,
+        "kbygPinned": true,
+        "noindex": true,
+        "formsUnchanged": true,
+        "inlineScriptsUnchangedExceptBlankLines": true
+      },
+      {
+        "url": "https://ipmi.webflow.io/know-before-you-go/211-hrmi-june-2027-sponsor",
+        "status": 200,
+        "newGlobalJs": true,
+        "newGlobalCss": true,
+        "kbygPinned": true,
+        "noindex": true,
+        "formsUnchanged": true,
+        "inlineScriptsUnchangedExceptBlankLines": true
+      },
+      {
+        "url": "https://ipmi.webflow.io/know-before-you-go/213-cldi-sept-2027-delegate",
+        "status": 200,
+        "newGlobalJs": true,
+        "newGlobalCss": true,
+        "kbygPinned": true,
+        "noindex": true,
+        "formsUnchanged": true,
+        "inlineScriptsUnchangedExceptBlankLines": true
+      },
+      {
+        "url": "https://ipmi.webflow.io/know-before-you-go/213-cldi-sept-2027-sponsor",
+        "status": 200,
+        "newGlobalJs": true,
+        "newGlobalCss": true,
+        "kbygPinned": true,
+        "noindex": true,
+        "formsUnchanged": true,
+        "inlineScriptsUnchangedExceptBlankLines": true
+      },
+      {
+        "url": "https://ipmi.webflow.io/know-before-you-go/214-hgc-sept-2027-delegate",
+        "status": 200,
+        "newGlobalJs": true,
+        "newGlobalCss": true,
+        "kbygPinned": true,
+        "noindex": true,
+        "formsUnchanged": true,
+        "inlineScriptsUnchangedExceptBlankLines": true
+      },
+      {
+        "url": "https://ipmi.webflow.io/know-before-you-go/214-hgc-sept-2027-sponsor",
+        "status": 200,
+        "newGlobalJs": true,
+        "newGlobalCss": true,
+        "kbygPinned": true,
+        "noindex": true,
+        "formsUnchanged": true,
+        "inlineScriptsUnchangedExceptBlankLines": true
+      },
+      {
+        "url": "https://ipmi.webflow.io/know-before-you-go/215-hchr-sept-2027-delegate",
+        "status": 200,
+        "newGlobalJs": true,
+        "newGlobalCss": true,
+        "kbygPinned": true,
+        "noindex": true,
+        "formsUnchanged": true,
+        "inlineScriptsUnchangedExceptBlankLines": true
+      },
+      {
+        "url": "https://ipmi.webflow.io/know-before-you-go/215-hchr-sept-2027-sponsor",
+        "status": 200,
+        "newGlobalJs": true,
+        "newGlobalCss": true,
+        "kbygPinned": true,
+        "noindex": true,
+        "formsUnchanged": true,
+        "inlineScriptsUnchangedExceptBlankLines": true
+      },
+      {
+        "url": "https://ipmi.webflow.io/know-before-you-go/216-ip-law-2027-delegate",
+        "status": 200,
+        "newGlobalJs": true,
+        "newGlobalCss": true,
+        "kbygPinned": true,
+        "noindex": true,
+        "formsUnchanged": true,
+        "inlineScriptsUnchangedExceptBlankLines": true
+      },
+      {
+        "url": "https://ipmi.webflow.io/know-before-you-go/216-ip-law-2027-sponsor",
+        "status": 200,
+        "newGlobalJs": true,
+        "newGlobalCss": true,
+        "kbygPinned": true,
+        "noindex": true,
+        "formsUnchanged": true,
+        "inlineScriptsUnchangedExceptBlankLines": true
+      },
+      {
+        "url": "https://ipmi.webflow.io/know-before-you-go/217-hrmi-oct-2027-delegate",
+        "status": 200,
+        "newGlobalJs": true,
+        "newGlobalCss": true,
+        "kbygPinned": true,
+        "noindex": true,
+        "formsUnchanged": true,
+        "inlineScriptsUnchangedExceptBlankLines": true
+      },
+      {
+        "url": "https://ipmi.webflow.io/know-before-you-go/217-hrmi-oct-2027-sponsor",
+        "status": 200,
+        "newGlobalJs": true,
+        "newGlobalCss": true,
+        "kbygPinned": true,
+        "noindex": true,
+        "formsUnchanged": true,
+        "inlineScriptsUnchangedExceptBlankLines": true
+      },
+      {
+        "url": "https://ipmi.webflow.io/know-before-you-go/218-cni-2027-delegate",
+        "status": 200,
+        "newGlobalJs": true,
+        "newGlobalCss": true,
+        "kbygPinned": true,
+        "noindex": true,
+        "formsUnchanged": true,
+        "inlineScriptsUnchangedExceptBlankLines": true
+      },
+      {
+        "url": "https://ipmi.webflow.io/know-before-you-go/218-cni-2027-sponsor",
+        "status": 200,
+        "newGlobalJs": true,
+        "newGlobalCss": true,
+        "kbygPinned": true,
+        "noindex": true,
+        "formsUnchanged": true,
+        "inlineScriptsUnchangedExceptBlankLines": true
+      },
+      {
+        "url": "https://ipmi.webflow.io/know-before-you-go/219-cwi-2027-delegate",
+        "status": 200,
+        "newGlobalJs": true,
+        "newGlobalCss": true,
+        "kbygPinned": true,
+        "noindex": true,
+        "formsUnchanged": true,
+        "inlineScriptsUnchangedExceptBlankLines": true
+      },
+      {
+        "url": "https://ipmi.webflow.io/know-before-you-go/219-cwi-2027-sponsor",
+        "status": 200,
+        "newGlobalJs": true,
+        "newGlobalCss": true,
+        "kbygPinned": true,
+        "noindex": true,
+        "formsUnchanged": true,
+        "inlineScriptsUnchangedExceptBlankLines": true
+      },
+      {
+        "url": "https://ipmi.webflow.io/know-before-you-go/220-hr-can-2027-delegate",
+        "status": 200,
+        "newGlobalJs": true,
+        "newGlobalCss": true,
+        "kbygPinned": true,
+        "noindex": true,
+        "formsUnchanged": true,
+        "inlineScriptsUnchangedExceptBlankLines": true
+      },
+      {
+        "url": "https://ipmi.webflow.io/know-before-you-go/220-hr-can-2027-sponsor",
+        "status": 200,
+        "newGlobalJs": true,
+        "newGlobalCss": true,
+        "kbygPinned": true,
+        "noindex": true,
+        "formsUnchanged": true,
+        "inlineScriptsUnchangedExceptBlankLines": true
+      },
+      {
+        "url": "https://ipmi.webflow.io/know-before-you-go/28-tai-us-2027-delegate",
+        "status": 200,
+        "newGlobalJs": true,
+        "newGlobalCss": true,
+        "kbygPinned": true,
+        "noindex": true,
+        "formsUnchanged": true,
+        "inlineScriptsUnchangedExceptBlankLines": true
+      },
+      {
+        "url": "https://ipmi.webflow.io/know-before-you-go/28-tai-us-2027-sponsor",
+        "status": 200,
+        "newGlobalJs": true,
+        "newGlobalCss": true,
+        "kbygPinned": true,
+        "noindex": true,
+        "formsUnchanged": true,
+        "inlineScriptsUnchangedExceptBlankLines": true
+      },
+      {
+        "url": "https://ipmi.webflow.io/know-before-you-go/cldi-march-2027-delegate",
+        "status": 200,
+        "newGlobalJs": true,
+        "newGlobalCss": true,
+        "kbygPinned": true,
+        "noindex": true,
+        "formsUnchanged": true,
+        "inlineScriptsUnchangedExceptBlankLines": true
+      },
+      {
+        "url": "https://ipmi.webflow.io/know-before-you-go/cldi-march-2027-sponsor",
+        "status": 200,
+        "newGlobalJs": true,
+        "newGlobalCss": true,
+        "kbygPinned": true,
+        "noindex": true,
+        "formsUnchanged": true,
+        "inlineScriptsUnchangedExceptBlankLines": true
+      },
+      {
+        "url": "https://ipmi.webflow.io/know-before-you-go/cni-2026-delegate",
+        "status": 200,
+        "newGlobalJs": true,
+        "newGlobalCss": true,
+        "kbygPinned": true,
+        "noindex": true,
+        "formsUnchanged": true,
+        "inlineScriptsUnchangedExceptBlankLines": true
+      },
+      {
+        "url": "https://ipmi.webflow.io/know-before-you-go/cni-2026-sponsor",
+        "status": 200,
+        "newGlobalJs": true,
+        "newGlobalCss": true,
+        "kbygPinned": true,
+        "noindex": true,
+        "formsUnchanged": true,
+        "inlineScriptsUnchangedExceptBlankLines": true
+      },
+      {
+        "url": "https://ipmi.webflow.io/know-before-you-go/cwi-2026-delegate",
+        "status": 200,
+        "newGlobalJs": true,
+        "newGlobalCss": true,
+        "kbygPinned": true,
+        "noindex": true,
+        "formsUnchanged": true,
+        "inlineScriptsUnchangedExceptBlankLines": true
+      },
+      {
+        "url": "https://ipmi.webflow.io/know-before-you-go/cwi-2026-sponsor",
+        "status": 200,
+        "newGlobalJs": true,
+        "newGlobalCss": true,
+        "kbygPinned": true,
+        "noindex": true,
+        "formsUnchanged": true,
+        "inlineScriptsUnchangedExceptBlankLines": true
+      },
+      {
+        "url": "https://ipmi.webflow.io/know-before-you-go/ehs-jan-2027-delegate",
+        "status": 200,
+        "newGlobalJs": true,
+        "newGlobalCss": true,
+        "kbygPinned": true,
+        "noindex": true,
+        "formsUnchanged": true,
+        "inlineScriptsUnchangedExceptBlankLines": true
+      },
+      {
+        "url": "https://ipmi.webflow.io/know-before-you-go/ehs-jan-2027-sponsor",
+        "status": 200,
+        "newGlobalJs": true,
+        "newGlobalCss": true,
+        "kbygPinned": true,
+        "noindex": true,
+        "formsUnchanged": true,
+        "inlineScriptsUnchangedExceptBlankLines": true
+      },
+      {
+        "url": "https://ipmi.webflow.io/know-before-you-go/ehs-july-2027-delegate",
+        "status": 200,
+        "newGlobalJs": true,
+        "newGlobalCss": true,
+        "kbygPinned": true,
+        "noindex": true,
+        "formsUnchanged": true,
+        "inlineScriptsUnchangedExceptBlankLines": true
+      },
+      {
+        "url": "https://ipmi.webflow.io/know-before-you-go/ehs-july-2027-sponsor",
+        "status": 200,
+        "newGlobalJs": true,
+        "newGlobalCss": true,
+        "kbygPinned": true,
+        "noindex": true,
+        "formsUnchanged": true,
+        "inlineScriptsUnchangedExceptBlankLines": true
+      },
+      {
+        "url": "https://ipmi.webflow.io/know-before-you-go/hchr-sept-2026-delegate",
+        "status": 200,
+        "newGlobalJs": true,
+        "newGlobalCss": true,
+        "kbygPinned": true,
+        "noindex": true,
+        "formsUnchanged": true,
+        "inlineScriptsUnchangedExceptBlankLines": true
+      },
+      {
+        "url": "https://ipmi.webflow.io/know-before-you-go/hchr-sept-2026-sponsor",
+        "status": 200,
+        "newGlobalJs": true,
+        "newGlobalCss": true,
+        "kbygPinned": true,
+        "noindex": true,
+        "formsUnchanged": true,
+        "inlineScriptsUnchangedExceptBlankLines": true
+      },
+      {
+        "url": "https://ipmi.webflow.io/know-before-you-go/hchrmi-march-2027-delegate",
+        "status": 200,
+        "newGlobalJs": true,
+        "newGlobalCss": true,
+        "kbygPinned": true,
+        "noindex": true,
+        "formsUnchanged": true,
+        "inlineScriptsUnchangedExceptBlankLines": true
+      },
+      {
+        "url": "https://ipmi.webflow.io/know-before-you-go/hchrmi-march-2027-sponsor",
+        "status": 200,
+        "newGlobalJs": true,
+        "newGlobalCss": true,
+        "kbygPinned": true,
+        "noindex": true,
+        "formsUnchanged": true,
+        "inlineScriptsUnchangedExceptBlankLines": true
+      },
+      {
+        "url": "https://ipmi.webflow.io/know-before-you-go/healthcare-gci-oct-2026-delegate",
+        "status": 200,
+        "newGlobalJs": true,
+        "newGlobalCss": true,
+        "kbygPinned": true,
+        "noindex": true,
+        "formsUnchanged": true,
+        "inlineScriptsUnchangedExceptBlankLines": true
+      },
+      {
+        "url": "https://ipmi.webflow.io/know-before-you-go/healthcare-gci-oct-2026-sponsor",
+        "status": 200,
+        "newGlobalJs": true,
+        "newGlobalCss": true,
+        "kbygPinned": true,
+        "noindex": true,
+        "formsUnchanged": true,
+        "inlineScriptsUnchangedExceptBlankLines": true
+      },
+      {
+        "url": "https://ipmi.webflow.io/know-before-you-go/hfi-2027-delegate",
+        "status": 200,
+        "newGlobalJs": true,
+        "newGlobalCss": true,
+        "kbygPinned": true,
+        "noindex": true,
+        "formsUnchanged": true,
+        "inlineScriptsUnchangedExceptBlankLines": true
+      },
+      {
+        "url": "https://ipmi.webflow.io/know-before-you-go/hfi-2027-sponsor",
+        "status": 200,
+        "newGlobalJs": true,
+        "newGlobalCss": true,
+        "kbygPinned": true,
+        "noindex": true,
+        "formsUnchanged": true,
+        "inlineScriptsUnchangedExceptBlankLines": true
+      },
+      {
+        "url": "https://ipmi.webflow.io/know-before-you-go/hgc-feb-2027-delegate",
+        "status": 200,
+        "newGlobalJs": true,
+        "newGlobalCss": true,
+        "kbygPinned": true,
+        "noindex": true,
+        "formsUnchanged": true,
+        "inlineScriptsUnchangedExceptBlankLines": true
+      },
+      {
+        "url": "https://ipmi.webflow.io/know-before-you-go/hgc-feb-2027-sponsor",
+        "status": 200,
+        "newGlobalJs": true,
+        "newGlobalCss": true,
+        "kbygPinned": true,
+        "noindex": true,
+        "formsUnchanged": true,
+        "inlineScriptsUnchangedExceptBlankLines": true
+      },
+      {
+        "url": "https://ipmi.webflow.io/know-before-you-go/hit-2027-delegate",
+        "status": 200,
+        "newGlobalJs": true,
+        "newGlobalCss": true,
+        "kbygPinned": true,
+        "noindex": true,
+        "formsUnchanged": true,
+        "inlineScriptsUnchangedExceptBlankLines": true
+      },
+      {
+        "url": "https://ipmi.webflow.io/know-before-you-go/hit-2027-sponsor",
+        "status": 200,
+        "newGlobalJs": true,
+        "newGlobalCss": true,
+        "kbygPinned": true,
+        "noindex": true,
+        "formsUnchanged": true,
+        "inlineScriptsUnchangedExceptBlankLines": true
+      },
+      {
+        "url": "https://ipmi.webflow.io/know-before-you-go/hr-can-april-2027-delegate",
+        "status": 200,
+        "newGlobalJs": true,
+        "newGlobalCss": true,
+        "kbygPinned": true,
+        "noindex": true,
+        "formsUnchanged": true,
+        "inlineScriptsUnchangedExceptBlankLines": true
+      },
+      {
+        "url": "https://ipmi.webflow.io/know-before-you-go/hr-can-april-2027-sponsor",
+        "status": 200,
+        "newGlobalJs": true,
+        "newGlobalCss": true,
+        "kbygPinned": true,
+        "noindex": true,
+        "formsUnchanged": true,
+        "inlineScriptsUnchangedExceptBlankLines": true
+      },
+      {
+        "url": "https://ipmi.webflow.io/know-before-you-go/hrmi-canada-nov-2026-delegate",
+        "status": 200,
+        "newGlobalJs": true,
+        "newGlobalCss": true,
+        "kbygPinned": true,
+        "noindex": true,
+        "formsUnchanged": true,
+        "inlineScriptsUnchangedExceptBlankLines": true
+      },
+      {
+        "url": "https://ipmi.webflow.io/know-before-you-go/hrmi-canada-nov-2026-sponsor",
+        "status": 200,
+        "newGlobalJs": true,
+        "newGlobalCss": true,
+        "kbygPinned": true,
+        "noindex": true,
+        "formsUnchanged": true,
+        "inlineScriptsUnchangedExceptBlankLines": true
+      },
+      {
+        "url": "https://ipmi.webflow.io/know-before-you-go/hrmi-feb-2027-delegate",
+        "status": 200,
+        "newGlobalJs": true,
+        "newGlobalCss": true,
+        "kbygPinned": true,
+        "noindex": true,
+        "formsUnchanged": true,
+        "inlineScriptsUnchangedExceptBlankLines": true
+      },
+      {
+        "url": "https://ipmi.webflow.io/know-before-you-go/hrmi-feb-2027-sponsor",
+        "status": 200,
+        "newGlobalJs": true,
+        "newGlobalCss": true,
+        "kbygPinned": true,
+        "noindex": true,
+        "formsUnchanged": true,
+        "inlineScriptsUnchangedExceptBlankLines": true
+      },
+      {
+        "url": "https://ipmi.webflow.io/know-before-you-go/hrmi-oct-2026-delegate",
+        "status": 200,
+        "newGlobalJs": true,
+        "newGlobalCss": true,
+        "kbygPinned": true,
+        "noindex": true,
+        "formsUnchanged": true,
+        "inlineScriptsUnchangedExceptBlankLines": true
+      },
+      {
+        "url": "https://ipmi.webflow.io/know-before-you-go/hrmi-oct-2026-sponsor",
+        "status": 200,
+        "newGlobalJs": true,
+        "newGlobalCss": true,
+        "kbygPinned": true,
+        "noindex": true,
+        "formsUnchanged": null,
+        "inlineScriptsUnchangedExceptBlankLines": null
+      },
+      {
+        "url": "https://ipmi.webflow.io/know-before-you-go/iplmi-2026-delegate",
+        "status": 200,
+        "newGlobalJs": true,
+        "newGlobalCss": true,
+        "kbygPinned": true,
+        "noindex": true,
+        "formsUnchanged": true,
+        "inlineScriptsUnchangedExceptBlankLines": true
+      },
+      {
+        "url": "https://ipmi.webflow.io/know-before-you-go/iplmi-2026-sponsor",
+        "status": 200,
+        "newGlobalJs": true,
+        "newGlobalCss": true,
+        "kbygPinned": true,
+        "noindex": true,
+        "formsUnchanged": true,
+        "inlineScriptsUnchangedExceptBlankLines": true
+      },
+      {
+        "url": "https://ipmi.webflow.io/know-before-you-go/taeei-can-2027-delegate",
+        "status": 200,
+        "newGlobalJs": true,
+        "newGlobalCss": true,
+        "kbygPinned": true,
+        "noindex": true,
+        "formsUnchanged": true,
+        "inlineScriptsUnchangedExceptBlankLines": true
+      },
+      {
+        "url": "https://ipmi.webflow.io/know-before-you-go/taeei-can-2027-sponsor",
+        "status": 200,
+        "newGlobalJs": true,
+        "newGlobalCss": true,
+        "kbygPinned": true,
+        "noindex": true,
+        "formsUnchanged": true,
+        "inlineScriptsUnchangedExceptBlankLines": true
+      },
+      {
+        "url": "https://ipmi.webflow.io/about",
+        "status": 200,
+        "newGlobalJs": true,
+        "newGlobalCss": true,
+        "formsUnchanged": true,
+        "inlineScriptsUnchangedExceptBlankLines": true
+      },
+      {
+        "url": "https://ipmi.webflow.io/attend",
+        "status": 200,
+        "newGlobalJs": true,
+        "newGlobalCss": true,
+        "formsUnchanged": true,
+        "inlineScriptsUnchangedExceptBlankLines": true
+      },
+      {
+        "url": "https://ipmi.webflow.io/contact",
+        "status": 200,
+        "newGlobalJs": true,
+        "newGlobalCss": true,
+        "formsUnchanged": true,
+        "inlineScriptsUnchangedExceptBlankLines": true
+      },
+      {
+        "url": "https://ipmi.webflow.io/institutes/ehs-jan-2027",
+        "status": 200,
+        "newGlobalJs": true,
+        "newGlobalCss": true,
+        "formsUnchanged": true,
+        "inlineScriptsUnchangedExceptBlankLines": true
+      },
+      {
+        "url": "https://ipmi.webflow.io/faq",
+        "status": 200,
+        "newGlobalJs": true,
+        "newGlobalCss": true,
+        "formsUnchanged": true,
+        "inlineScriptsUnchangedExceptBlankLines": true
+      },
+      {
+        "url": "https://ipmi.webflow.io/gallery",
+        "status": 200,
+        "newGlobalJs": true,
+        "newGlobalCss": true,
+        "formsUnchanged": true,
+        "inlineScriptsUnchangedExceptBlankLines": true
+      },
+      {
+        "url": "https://ipmi.webflow.io/institutes/healthcare-gci-oct-2026",
+        "status": 200,
+        "newGlobalJs": true,
+        "newGlobalCss": true,
+        "formsUnchanged": true,
+        "inlineScriptsUnchangedExceptBlankLines": true
+      },
+      {
+        "url": "https://ipmi.webflow.io/institutes/hit-2027",
+        "status": 200,
+        "newGlobalJs": true,
+        "newGlobalCss": true,
+        "formsUnchanged": true,
+        "inlineScriptsUnchangedExceptBlankLines": true
+      },
+      {
+        "url": "https://ipmi.webflow.io/",
+        "status": 200,
+        "newGlobalJs": true,
+        "newGlobalCss": true,
+        "formsUnchanged": true,
+        "inlineScriptsUnchangedExceptBlankLines": true
+      },
+      {
+        "url": "https://ipmi.webflow.io/institutes-on-the-horizon",
+        "status": 200,
+        "newGlobalJs": true,
+        "newGlobalCss": true,
+        "formsUnchanged": true,
+        "inlineScriptsUnchangedExceptBlankLines": true
+      },
+      {
+        "url": "https://ipmi.webflow.io/institutes/hrmi-oct-2026",
+        "status": 200,
+        "newGlobalJs": true,
+        "newGlobalCss": true,
+        "formsUnchanged": true,
+        "inlineScriptsUnchangedExceptBlankLines": true
+      },
+      {
+        "url": "https://ipmi.webflow.io/institutes",
+        "status": 200,
+        "newGlobalJs": true,
+        "newGlobalCss": true,
+        "formsUnchanged": true,
+        "inlineScriptsUnchangedExceptBlankLines": true
+      },
+      {
+        "url": "https://ipmi.webflow.io/recent-institutes",
+        "status": 200,
+        "newGlobalJs": true,
+        "newGlobalCss": true,
+        "formsUnchanged": true,
+        "inlineScriptsUnchangedExceptBlankLines": true
+      },
+      {
+        "url": "https://ipmi.webflow.io/testimonials",
+        "status": 200,
+        "newGlobalJs": true,
+        "newGlobalCss": true,
+        "formsUnchanged": true,
+        "inlineScriptsUnchangedExceptBlankLines": true
+      },
+      {
+        "url": "https://ipmi.webflow.io/thinktanks",
+        "status": 200,
+        "newGlobalJs": true,
+        "newGlobalCss": true,
+        "formsUnchanged": true,
+        "inlineScriptsUnchangedExceptBlankLines": true
+      }
+    ],
+    "resumeTransientFailure": [
+      {
+        "url": "https://ipmi.webflow.io/know-before-you-go/hrmi-oct-2026-sponsor",
+        "status": 502,
+        "finalStatus": 200
+      }
+    ]
+  },
+  "native": {
+    "page": {
+      "count": 54,
+      "unchanged": true
+    },
+    "block": {
+      "count": 43,
+      "unchanged": true
+    },
+    "institute": {
+      "count": 103,
+      "unchanged": true
+    },
+    "gallery": {
+      "count": 79,
+      "unchanged": true
+    }
+  },
+  "copy": {
+    "rows": 8,
+    "placements": 11,
+    "pass": true,
+    "nativeFaqChecks": [
+      {
+        "id": "63c105510d96681c49d7b93a",
+        "slug": "what-is-an-institute",
+        "field": "faq-answer",
+        "approvedProsePresent": true
+      },
+      {
+        "id": "63c246da17b0ed6758030c71",
+        "slug": "what-is-a-think-tank",
+        "field": "faq-answer",
+        "approvedProsePresent": true
+      },
+      {
+        "id": "63c4d3b39bcbb478d8954342",
+        "slug": "what-do-the-business-meetings-look-like",
+        "field": "faq-answer",
+        "approvedProsePresent": true
+      }
+    ]
+  },
+  "photos": {
+    "rows": 27,
+    "pass": true,
+    "assetChecks": [
+      {
+        "id": "P01",
+        "url": "https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4ad4da11c8b3bd07ffa38_P01-Innovative-Ideas-Front-Bubble.jpg",
+        "status": 200,
+        "contentType": "image/jpeg",
+        "contentLength": "369309",
+        "pass": true
+      },
+      {
+        "id": "P02",
+        "url": "https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4ad4e118f040f8b24dd68_P02-HIT-Jun-2025-Think-Tank-9.jpg",
+        "status": 200,
+        "contentType": "image/jpeg",
+        "contentLength": "430938",
+        "pass": true
+      },
+      {
+        "id": "P03",
+        "url": "https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4ad4e67be61a871ef0885_P03-HCHR-Mar-2025-Session-22.jpg",
+        "status": 200,
+        "contentType": "image/jpeg",
+        "contentLength": "410092",
+        "pass": true
+      },
+      {
+        "id": "P04",
+        "url": "https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4ad4dbce50bba4e8f79d4_P04-HRMI-West-2025-Think-Tank-7.jpg",
+        "status": 200,
+        "contentType": "image/jpeg",
+        "contentLength": "265095",
+        "pass": true
+      },
+      {
+        "id": "P05",
+        "url": "https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4b14b89ec7715954bd6d1_P05-HR-East-2026-Session-2.jpg",
+        "status": 200,
+        "contentType": "image/jpeg",
+        "contentLength": "259768",
+        "pass": true
+      },
+      {
+        "id": "P06",
+        "url": "https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4b14c3c45253949502846_P06-HR-Central-2024-Dinner.jpg",
+        "status": 200,
+        "contentType": "image/jpeg",
+        "contentLength": "640692",
+        "pass": true
+      },
+      {
+        "id": "P07",
+        "url": "https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4b14cda6412ca2ac37a85_P07-HR-East-2026-Session-9.jpg",
+        "status": 200,
+        "contentType": "image/jpeg",
+        "contentLength": "274537",
+        "pass": true
+      },
+      {
+        "id": "P08",
+        "url": "https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4b14b10198c9b1043170a_P08-HRMI-West-2025-Think-Tank-5.jpg",
+        "status": 200,
+        "contentType": "image/jpeg",
+        "contentLength": "249626",
+        "pass": true
+      },
+      {
+        "id": "P09",
+        "url": "https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4b14b065ea59f68522cca_P09-CLDI-Apr-2025-Think-Tank-9.jpg",
+        "status": 200,
+        "contentType": "image/jpeg",
+        "contentLength": "288681",
+        "pass": true
+      },
+      {
+        "id": "P10",
+        "url": "https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4b4b02a5eb1c3401b943c_P10-HRMI-Central-2024-Session-1.jpg",
+        "status": 200,
+        "contentType": "image/jpeg",
+        "contentLength": "360280",
+        "pass": true
+      },
+      {
+        "id": "P11",
+        "url": "https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4b6bc009285801122e517_P11-HCHR-Mar-2025-Dinner-20.jpg",
+        "status": 200,
+        "contentType": "image/jpeg",
+        "contentLength": "342417",
+        "pass": true
+      },
+      {
+        "id": "P12",
+        "url": "https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4b6be6f37170719534329_P12-HRMI-Central-2024-Session-2.jpg",
+        "status": 200,
+        "contentType": "image/jpeg",
+        "contentLength": "420008",
+        "pass": true
+      },
+      {
+        "id": "P13",
+        "url": "https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4b6beeae4404f8475938c_P13-HIT-2024-Scenic.jpg",
+        "status": 200,
+        "contentType": "image/jpeg",
+        "contentLength": "776220",
+        "pass": true
+      },
+      {
+        "id": "P14",
+        "url": "https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4b6be655ed43be067d947_P14-SOI-2024-Dinner.jpg",
+        "status": 200,
+        "contentType": "image/jpeg",
+        "contentLength": "567227",
+        "pass": true
+      },
+      {
+        "id": "P15",
+        "url": "https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4b990eae4404f847681a0_P15-Indeed-Pasta-Making-Roundtable.jpg",
+        "status": 200,
+        "contentType": "image/jpeg",
+        "contentLength": "348221",
+        "pass": true
+      },
+      {
+        "id": "P16",
+        "url": "https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4bc33655ed43be069d72e_P16-HCHR-Mar-2025-Session-16.jpg",
+        "status": 200,
+        "contentType": "image/jpeg",
+        "contentLength": "347717",
+        "pass": true
+      },
+      {
+        "id": "P17",
+        "url": "https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4bc32bce50bba4e943d27_P17-HCHR-March-2024-Staff-1.jpg",
+        "status": 200,
+        "contentType": "image/jpeg",
+        "contentLength": "276092",
+        "pass": true
+      },
+      {
+        "id": "P18",
+        "url": "https://cdn.prod.website-files.com/6312ee46f4c52faf21ee8ab5/6ab4bd1fbf52ddc3481af066_P18-HRMI-Apr-2025-Staff-1-1920.jpg",
+        "status": 200,
+        "contentType": "image/jpeg",
+        "contentLength": "610259",
+        "pass": true
+      },
+      {
+        "id": "P19",
+        "url": "https://cdn.prod.website-files.com/6312ee46f4c52faf21ee8ab5/6ab4bd741859cfc75a33edf7_P19-HFI-2026-Staff-1920.jpg",
+        "status": 200,
+        "contentType": "image/jpeg",
+        "contentLength": "671029",
+        "pass": true
+      },
+      {
+        "id": "P20",
+        "url": "https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4c1a566358d7a1d925a5b_P20-HFI-2026-Casino-Night.jpg",
+        "status": 200,
+        "contentType": "image/jpeg",
+        "contentLength": "492471",
+        "pass": true
+      },
+      {
+        "id": "P21",
+        "url": "https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4c1a589ec77159551d436_P21-HRMI-Can-2025-Dinner-1.jpg",
+        "status": 200,
+        "contentType": "image/jpeg",
+        "contentLength": "408340",
+        "pass": true
+      },
+      {
+        "id": "P22",
+        "url": "https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4c438118f040f8b2c7ec0_P22-HRMI-West-2025-Session-6.jpg",
+        "status": 200,
+        "contentType": "image/jpeg",
+        "contentLength": "294129",
+        "pass": true
+      },
+      {
+        "id": "P23",
+        "url": "https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4c494e4410c930e2e090d_P23-HIT-Jun-2025-Session-3.jpg",
+        "status": 200,
+        "contentType": "image/jpeg",
+        "contentLength": "251738",
+        "pass": true
+      },
+      {
+        "id": "P24",
+        "url": "https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4c705655ed43be06ebd36_P24-CLDI-Apr-2025-Dinner-12.jpg",
+        "status": 200,
+        "contentType": "image/jpeg",
+        "contentLength": "291038",
+        "pass": true
+      },
+      {
+        "id": "P25",
+        "url": "https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4c776b9f31bbef1a63b13_P25-HR-East-2026-Session-6.jpg",
+        "status": 200,
+        "contentType": "image/jpeg",
+        "contentLength": "286562",
+        "pass": true
+      },
+      {
+        "id": "P26",
+        "url": "https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/63c4d1501c2178619dd30322_Contact-Bubble-3.webp",
+        "status": 200,
+        "contentType": "image/webp",
+        "contentLength": "19330",
+        "pass": true
+      },
+      {
+        "id": "P27",
+        "url": "https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4ca6019adb9f0df002db6_P27-HIT-2024-Dinner.jpg",
+        "status": 200,
+        "contentType": "image/jpeg",
+        "contentLength": "405545",
+        "pass": true
+      }
+    ]
+  },
+  "venueMetadata": {
+    "checkedAt": "2026-09-24T20:15:17.811Z",
+    "scope": "Raw published hidden source; runtime and full-size viewer checks remain browser evidence.",
+    "pages": 54,
+    "pass": true,
+    "rows": [
+      {
+        "pageId": "6ab50d5f9c872074f0aeff9a",
+        "slug": "220-hr-can-2027-sponsor",
+        "instituteId": "6a735ad6e34946d6f730bc28",
+        "instituteName": "220. HR Can 2027",
+        "sources": 1,
+        "outerInstituteItems": 1,
+        "rootClasses": "w-condition-invisible w-dyn-list",
+        "controls": 0,
+        "images": [],
+        "expected": [],
+        "pass": true
+      },
+      {
+        "pageId": "6ab50d5fcfe51f506e57187c",
+        "slug": "220-hr-can-2027-delegate",
+        "instituteId": "6a735ad6e34946d6f730bc28",
+        "instituteName": "220. HR Can 2027",
+        "sources": 1,
+        "outerInstituteItems": 1,
+        "rootClasses": "w-condition-invisible w-dyn-list",
+        "controls": 0,
+        "images": [],
+        "expected": [],
+        "pass": true
+      },
+      {
+        "pageId": "6ab50d5eacf6bb42ac866afc",
+        "slug": "219-cwi-2027-sponsor",
+        "instituteId": "6a7359c09abe3b890a523cb3",
+        "instituteName": "219. CWI 2027",
+        "sources": 1,
+        "outerInstituteItems": 1,
+        "rootClasses": "w-condition-invisible w-dyn-list",
+        "controls": 0,
+        "images": [],
+        "expected": [],
+        "pass": true
+      },
+      {
+        "pageId": "6ab50d5c9c872074f0aefe06",
+        "slug": "219-cwi-2027-delegate",
+        "instituteId": "6a7359c09abe3b890a523cb3",
+        "instituteName": "219. CWI 2027",
+        "sources": 1,
+        "outerInstituteItems": 1,
+        "rootClasses": "w-condition-invisible w-dyn-list",
+        "controls": 0,
+        "images": [],
+        "expected": [],
+        "pass": true
+      },
+      {
+        "pageId": "6ab50d5cd8d214d5415db3e1",
+        "slug": "218-cni-2027-sponsor",
+        "instituteId": "6a7359850566a260d07c29ea",
+        "instituteName": "218. CNI 2027",
+        "sources": 1,
+        "outerInstituteItems": 1,
+        "rootClasses": "w-condition-invisible w-dyn-list",
+        "controls": 0,
+        "images": [],
+        "expected": [],
+        "pass": true
+      },
+      {
+        "pageId": "6ab50d5a3446081b63aed129",
+        "slug": "218-cni-2027-delegate",
+        "instituteId": "6a7359850566a260d07c29ea",
+        "instituteName": "218. CNI 2027",
+        "sources": 1,
+        "outerInstituteItems": 1,
+        "rootClasses": "w-condition-invisible w-dyn-list",
+        "controls": 0,
+        "images": [],
+        "expected": [],
+        "pass": true
+      },
+      {
+        "pageId": "6ab50d52fb0314c5be0c6051",
+        "slug": "217-hrmi-oct-2027-sponsor",
+        "instituteId": "6a73581d396dde8a1eac912f",
+        "instituteName": "217. HRMI Oct 2027",
+        "sources": 1,
+        "outerInstituteItems": 1,
+        "rootClasses": "w-condition-invisible w-dyn-list",
+        "controls": 0,
+        "images": [],
+        "expected": [],
+        "pass": true
+      },
+      {
+        "pageId": "6ab50d5091bd576bd55fa45f",
+        "slug": "217-hrmi-oct-2027-delegate",
+        "instituteId": "6a73581d396dde8a1eac912f",
+        "instituteName": "217. HRMI Oct 2027",
+        "sources": 1,
+        "outerInstituteItems": 1,
+        "rootClasses": "w-condition-invisible w-dyn-list",
+        "controls": 0,
+        "images": [],
+        "expected": [],
+        "pass": true
+      },
+      {
+        "pageId": "6ab50d4f28b704e9dad69b0a",
+        "slug": "216-ip-law-2027-sponsor",
+        "instituteId": "6a735736f63007d8a10f8aa7",
+        "instituteName": "216. IP Law 2027",
+        "sources": 1,
+        "outerInstituteItems": 1,
+        "rootClasses": "w-condition-invisible w-dyn-list",
+        "controls": 0,
+        "images": [],
+        "expected": [],
+        "pass": true
+      },
+      {
+        "pageId": "6ab50d4ff482b9db6492a50e",
+        "slug": "216-ip-law-2027-delegate",
+        "instituteId": "6a735736f63007d8a10f8aa7",
+        "instituteName": "216. IP Law 2027",
+        "sources": 1,
+        "outerInstituteItems": 1,
+        "rootClasses": "w-condition-invisible w-dyn-list",
+        "controls": 0,
+        "images": [],
+        "expected": [],
+        "pass": true
+      },
+      {
+        "pageId": "6ab50d4ebe40a686ff3bdd32",
+        "slug": "215-hchr-sept-2027-sponsor",
+        "instituteId": "6a7356e511519b165c9814e1",
+        "instituteName": "215. HCHR Sept 2027",
+        "sources": 1,
+        "outerInstituteItems": 1,
+        "rootClasses": "w-condition-invisible w-dyn-list",
+        "controls": 0,
+        "images": [],
+        "expected": [],
+        "pass": true
+      },
+      {
+        "pageId": "6ab50d4d1fa22ba818463c7b",
+        "slug": "215-hchr-sept-2027-delegate",
+        "instituteId": "6a7356e511519b165c9814e1",
+        "instituteName": "215. HCHR Sept 2027",
+        "sources": 1,
+        "outerInstituteItems": 1,
+        "rootClasses": "w-condition-invisible w-dyn-list",
+        "controls": 0,
+        "images": [],
+        "expected": [],
+        "pass": true
+      },
+      {
+        "pageId": "6ab50d4c0585a374ecb23e37",
+        "slug": "214-hgc-sept-2027-sponsor",
+        "instituteId": "6a7355fe6cf8f06fdda1ba83",
+        "instituteName": "214. HGC Sept 2027",
+        "sources": 1,
+        "outerInstituteItems": 1,
+        "rootClasses": "w-condition-invisible w-dyn-list",
+        "controls": 0,
+        "images": [],
+        "expected": [],
+        "pass": true
+      },
+      {
+        "pageId": "6ab50d4bfb0314c5be0c5dea",
+        "slug": "214-hgc-sept-2027-delegate",
+        "instituteId": "6a7355fe6cf8f06fdda1ba83",
+        "instituteName": "214. HGC Sept 2027",
+        "sources": 1,
+        "outerInstituteItems": 1,
+        "rootClasses": "w-condition-invisible w-dyn-list",
+        "controls": 0,
+        "images": [],
+        "expected": [],
+        "pass": true
+      },
+      {
+        "pageId": "6ab50d4bda20e728200b036d",
+        "slug": "213-cldi-sept-2027-sponsor",
+        "instituteId": "6a7353d54b2d405c8281c2e3",
+        "instituteName": "213. CLDI Sept 2027",
+        "sources": 1,
+        "outerInstituteItems": 1,
+        "rootClasses": "w-condition-invisible w-dyn-list",
+        "controls": 0,
+        "images": [],
+        "expected": [],
+        "pass": true
+      },
+      {
+        "pageId": "6ab50d4aae4335f047660bef",
+        "slug": "213-cldi-sept-2027-delegate",
+        "instituteId": "6a7353d54b2d405c8281c2e3",
+        "instituteName": "213. CLDI Sept 2027",
+        "sources": 1,
+        "outerInstituteItems": 1,
+        "rootClasses": "w-condition-invisible w-dyn-list",
+        "controls": 0,
+        "images": [],
+        "expected": [],
+        "pass": true
+      },
+      {
+        "pageId": "6ab50d492b317c839e6cf9af",
+        "slug": "ehs-july-2027-sponsor",
+        "instituteId": "6a46b02076a8aaadc4a60eb3",
+        "instituteName": "212. EHS July 2027",
+        "sources": 1,
+        "outerInstituteItems": 1,
+        "rootClasses": "w-condition-invisible w-dyn-list",
+        "controls": 0,
+        "images": [],
+        "expected": [],
+        "pass": true
+      },
+      {
+        "pageId": "6ab50d4928b704e9dad696de",
+        "slug": "ehs-july-2027-delegate",
+        "instituteId": "6a46b02076a8aaadc4a60eb3",
+        "instituteName": "212. EHS July 2027",
+        "sources": 1,
+        "outerInstituteItems": 1,
+        "rootClasses": "w-condition-invisible w-dyn-list",
+        "controls": 0,
+        "images": [],
+        "expected": [],
+        "pass": true
+      },
+      {
+        "pageId": "6ab50d484aab59c653499575",
+        "slug": "hit-2027-sponsor",
+        "instituteId": "6a062fba0e49a14badf21c95",
+        "instituteName": "210. HIT 2027",
+        "sources": 1,
+        "outerInstituteItems": 1,
+        "rootClasses": "w-condition-invisible w-dyn-list",
+        "controls": 0,
+        "images": [],
+        "expected": [],
+        "pass": true
+      },
+      {
+        "pageId": "6ab50d4846f505e214eb19fc",
+        "slug": "hit-2027-delegate",
+        "instituteId": "6a062fba0e49a14badf21c95",
+        "instituteName": "210. HIT 2027",
+        "sources": 1,
+        "outerInstituteItems": 1,
+        "rootClasses": "w-condition-invisible w-dyn-list",
+        "controls": 0,
+        "images": [],
+        "expected": [],
+        "pass": true
+      },
+      {
+        "pageId": "6ab50d47fe62ee119ab784dd",
+        "slug": "211-hrmi-june-2027-sponsor",
+        "instituteId": "6a735243aa7b56372e436f6d",
+        "instituteName": "211. HRMI June 2027",
+        "sources": 1,
+        "outerInstituteItems": 1,
+        "rootClasses": "w-condition-invisible w-dyn-list",
+        "controls": 0,
+        "images": [],
+        "expected": [],
+        "pass": true
+      },
+      {
+        "pageId": "6ab50d46bd8e93127ef5ad2a",
+        "slug": "211-hrmi-june-2027-delegate",
+        "instituteId": "6a735243aa7b56372e436f6d",
+        "instituteName": "211. HRMI June 2027",
+        "sources": 1,
+        "outerInstituteItems": 1,
+        "rootClasses": "w-condition-invisible w-dyn-list",
+        "controls": 0,
+        "images": [],
+        "expected": [],
+        "pass": true
+      },
+      {
+        "pageId": "6ab50d4589b31179acde4752",
+        "slug": "taeei-can-2027-sponsor",
+        "instituteId": "6a734f7e0f9ec23790927eb3",
+        "instituteName": "29. TAEEI Can",
+        "sources": 1,
+        "outerInstituteItems": 1,
+        "rootClasses": "w-condition-invisible w-dyn-list",
+        "controls": 0,
+        "images": [],
+        "expected": [],
+        "pass": true
+      },
+      {
+        "pageId": "6ab50d45ae4335f0476609d9",
+        "slug": "taeei-can-2027-delegate",
+        "instituteId": "6a734f7e0f9ec23790927eb3",
+        "instituteName": "29. TAEEI Can",
+        "sources": 1,
+        "outerInstituteItems": 1,
+        "rootClasses": "w-condition-invisible w-dyn-list",
+        "controls": 0,
+        "images": [],
+        "expected": [],
+        "pass": true
+      },
+      {
+        "pageId": "6ab50d4289b31179acde4532",
+        "slug": "28-tai-us-2027-sponsor",
+        "instituteId": "6a6b7c84b3f42f1434486fe4",
+        "instituteName": "28. TAI US 2027",
+        "sources": 1,
+        "outerInstituteItems": 1,
+        "rootClasses": "w-condition-invisible w-dyn-list",
+        "controls": 0,
+        "images": [],
+        "expected": [],
+        "pass": true
+      },
+      {
+        "pageId": "6ab50d424aab59c6534991e0",
+        "slug": "28-tai-us-2027-delegate",
+        "instituteId": "6a6b7c84b3f42f1434486fe4",
+        "instituteName": "28. TAI US 2027",
+        "sources": 1,
+        "outerInstituteItems": 1,
+        "rootClasses": "w-condition-invisible w-dyn-list",
+        "controls": 0,
+        "images": [],
+        "expected": [],
+        "pass": true
+      },
+      {
+        "pageId": "6ab50d411863d23effcb263e",
+        "slug": "hr-can-april-2027-sponsor",
+        "instituteId": "6a625aa509d2114b6c18f823",
+        "instituteName": "27. HR Can April 2027",
+        "sources": 1,
+        "outerInstituteItems": 1,
+        "rootClasses": "w-condition-invisible w-dyn-list",
+        "controls": 0,
+        "images": [],
+        "expected": [],
+        "pass": true
+      },
+      {
+        "pageId": "6ab50d40935a054fc242f52d",
+        "slug": "hr-can-april-2027-delegate",
+        "instituteId": "6a625aa509d2114b6c18f823",
+        "instituteName": "27. HR Can April 2027",
+        "sources": 1,
+        "outerInstituteItems": 1,
+        "rootClasses": "w-condition-invisible w-dyn-list",
+        "controls": 0,
+        "images": [],
+        "expected": [],
+        "pass": true
+      },
+      {
+        "pageId": "6ab50d40cc6def753759aeea",
+        "slug": "hfi-2027-sponsor",
+        "instituteId": "69c4214fdb29400f554e0aa3",
+        "instituteName": "26. HFI 2027",
+        "sources": 1,
+        "outerInstituteItems": 1,
+        "rootClasses": "w-condition-invisible w-dyn-list",
+        "controls": 0,
+        "images": [],
+        "expected": [],
+        "pass": true
+      },
+      {
+        "pageId": "6ab50d3f38aff95b67bc8c2f",
+        "slug": "hfi-2027-delegate",
+        "instituteId": "69c4214fdb29400f554e0aa3",
+        "instituteName": "26. HFI 2027",
+        "sources": 1,
+        "outerInstituteItems": 1,
+        "rootClasses": "w-condition-invisible w-dyn-list",
+        "controls": 0,
+        "images": [],
+        "expected": [],
+        "pass": true
+      },
+      {
+        "pageId": "6ab50d3bbd8e93127ef599f4",
+        "slug": "hchrmi-march-2027-sponsor",
+        "instituteId": "69c4204f2ea7175dc8c7bcc2",
+        "instituteName": "24. HCHR March 2027",
+        "sources": 1,
+        "outerInstituteItems": 1,
+        "rootClasses": "w-condition-invisible w-dyn-list",
+        "controls": 0,
+        "images": [],
+        "expected": [],
+        "pass": true
+      },
+      {
+        "pageId": "6ab50d3a262aeca30e7c05d3",
+        "slug": "hchrmi-march-2027-delegate",
+        "instituteId": "69c4204f2ea7175dc8c7bcc2",
+        "instituteName": "24. HCHR March 2027",
+        "sources": 1,
+        "outerInstituteItems": 1,
+        "rootClasses": "w-condition-invisible w-dyn-list",
+        "controls": 0,
+        "images": [],
+        "expected": [],
+        "pass": true
+      },
+      {
+        "pageId": "6ab50d3a1863d23effcb22f3",
+        "slug": "cldi-march-2027-sponsor",
+        "instituteId": "6a048e03a3a8842d897b0a7b",
+        "instituteName": "25. CLDI March 2027",
+        "sources": 1,
+        "outerInstituteItems": 1,
+        "rootClasses": "w-condition-invisible w-dyn-list",
+        "controls": 0,
+        "images": [],
+        "expected": [],
+        "pass": true
+      },
+      {
+        "pageId": "6ab50d382b317c839e6cf11e",
+        "slug": "cldi-march-2027-delegate",
+        "instituteId": "6a048e03a3a8842d897b0a7b",
+        "instituteName": "25. CLDI March 2027",
+        "sources": 1,
+        "outerInstituteItems": 1,
+        "rootClasses": "w-condition-invisible w-dyn-list",
+        "controls": 0,
+        "images": [],
+        "expected": [],
+        "pass": true
+      },
+      {
+        "pageId": "6ab50d32d372bc4825dd16e6",
+        "slug": "hrmi-feb-2027-sponsor",
+        "instituteId": "6a04879eb7bb1f4b01d2f85d",
+        "instituteName": "22. HR Feb 2027",
+        "sources": 1,
+        "outerInstituteItems": 1,
+        "rootClasses": "w-condition-invisible w-dyn-list",
+        "controls": 0,
+        "images": [
+          {
+            "url": "https://cdn.prod.website-files.com/6312ee46f4c52faf21ee8ab5/652eac27906d83daae16ecfd_HGC%20Feb%202024%20Image%201.webp",
+            "alt": ""
+          },
+          {
+            "url": "https://cdn.prod.website-files.com/6312ee46f4c52faf21ee8ab5/652eac27b72d9c8c438b1479_HGC%20Feb%202024%20Image%202.webp",
+            "alt": ""
+          }
+        ],
+        "expected": [
+          {
+            "url": "https://cdn.prod.website-files.com/6312ee46f4c52faf21ee8ab5/652eac27906d83daae16ecfd_HGC%20Feb%202024%20Image%201.webp",
+            "alt": ""
+          },
+          {
+            "url": "https://cdn.prod.website-files.com/6312ee46f4c52faf21ee8ab5/652eac27b72d9c8c438b1479_HGC%20Feb%202024%20Image%202.webp",
+            "alt": ""
+          }
+        ],
+        "pass": true
+      },
+      {
+        "pageId": "6ab50d32fb0314c5be0c52d4",
+        "slug": "hrmi-feb-2027-delegate",
+        "instituteId": "6a04879eb7bb1f4b01d2f85d",
+        "instituteName": "22. HR Feb 2027",
+        "sources": 1,
+        "outerInstituteItems": 1,
+        "rootClasses": "w-condition-invisible w-dyn-list",
+        "controls": 0,
+        "images": [
+          {
+            "url": "https://cdn.prod.website-files.com/6312ee46f4c52faf21ee8ab5/652eac27906d83daae16ecfd_HGC%20Feb%202024%20Image%201.webp",
+            "alt": ""
+          },
+          {
+            "url": "https://cdn.prod.website-files.com/6312ee46f4c52faf21ee8ab5/652eac27b72d9c8c438b1479_HGC%20Feb%202024%20Image%202.webp",
+            "alt": ""
+          }
+        ],
+        "expected": [
+          {
+            "url": "https://cdn.prod.website-files.com/6312ee46f4c52faf21ee8ab5/652eac27906d83daae16ecfd_HGC%20Feb%202024%20Image%201.webp",
+            "alt": ""
+          },
+          {
+            "url": "https://cdn.prod.website-files.com/6312ee46f4c52faf21ee8ab5/652eac27b72d9c8c438b1479_HGC%20Feb%202024%20Image%202.webp",
+            "alt": ""
+          }
+        ],
+        "pass": true
+      },
+      {
+        "pageId": "6ab50d318208177f8b488170",
+        "slug": "hgc-feb-2027-sponsor",
+        "instituteId": "6a062c48ceedbb1f5325d842",
+        "instituteName": "23. HGC Feb 2027",
+        "sources": 1,
+        "outerInstituteItems": 1,
+        "rootClasses": "w-condition-invisible w-dyn-list",
+        "controls": 0,
+        "images": [],
+        "expected": [],
+        "pass": true
+      },
+      {
+        "pageId": "6ab50d31ae4335f04765e4bb",
+        "slug": "hgc-feb-2027-delegate",
+        "instituteId": "6a062c48ceedbb1f5325d842",
+        "instituteName": "23. HGC Feb 2027",
+        "sources": 1,
+        "outerInstituteItems": 1,
+        "rootClasses": "w-condition-invisible w-dyn-list",
+        "controls": 0,
+        "images": [],
+        "expected": [],
+        "pass": true
+      },
+      {
+        "pageId": "6ab50d307a1a4f8bfaf11708",
+        "slug": "hrmi-canada-nov-2026-sponsor",
+        "instituteId": "68ed935044ff3bb50a197a5e",
+        "instituteName": "19. HR Can Nov 2026",
+        "sources": 1,
+        "outerInstituteItems": 1,
+        "rootClasses": "w-condition-invisible w-dyn-list",
+        "controls": 0,
+        "images": [
+          {
+            "url": "https://cdn.prod.website-files.com/6312ee46f4c52faf21ee8ab5/6a5e37fc7e007d3536683cf1_HR%20Can%20Nov%202026%20Image%201.webp",
+            "alt": ""
+          },
+          {
+            "url": "https://cdn.prod.website-files.com/6312ee46f4c52faf21ee8ab5/6a5e37fb19dcfa2121680679_HR%20Can%20Nov%202026%20Image%202.webp",
+            "alt": ""
+          }
+        ],
+        "expected": [
+          {
+            "url": "https://cdn.prod.website-files.com/6312ee46f4c52faf21ee8ab5/6a5e37fc7e007d3536683cf1_HR%20Can%20Nov%202026%20Image%201.webp",
+            "alt": ""
+          },
+          {
+            "url": "https://cdn.prod.website-files.com/6312ee46f4c52faf21ee8ab5/6a5e37fb19dcfa2121680679_HR%20Can%20Nov%202026%20Image%202.webp",
+            "alt": ""
+          }
+        ],
+        "pass": true
+      },
+      {
+        "pageId": "6ab50d2f844fd9696be15789",
+        "slug": "hrmi-canada-nov-2026-delegate",
+        "instituteId": "68ed935044ff3bb50a197a5e",
+        "instituteName": "19. HR Can Nov 2026",
+        "sources": 1,
+        "outerInstituteItems": 1,
+        "rootClasses": "w-condition-invisible w-dyn-list",
+        "controls": 0,
+        "images": [
+          {
+            "url": "https://cdn.prod.website-files.com/6312ee46f4c52faf21ee8ab5/6a5e37fc7e007d3536683cf1_HR%20Can%20Nov%202026%20Image%201.webp",
+            "alt": ""
+          },
+          {
+            "url": "https://cdn.prod.website-files.com/6312ee46f4c52faf21ee8ab5/6a5e37fb19dcfa2121680679_HR%20Can%20Nov%202026%20Image%202.webp",
+            "alt": ""
+          }
+        ],
+        "expected": [
+          {
+            "url": "https://cdn.prod.website-files.com/6312ee46f4c52faf21ee8ab5/6a5e37fc7e007d3536683cf1_HR%20Can%20Nov%202026%20Image%201.webp",
+            "alt": ""
+          },
+          {
+            "url": "https://cdn.prod.website-files.com/6312ee46f4c52faf21ee8ab5/6a5e37fb19dcfa2121680679_HR%20Can%20Nov%202026%20Image%202.webp",
+            "alt": ""
+          }
+        ],
+        "pass": true
+      },
+      {
+        "pageId": "6ab50d2ecc6def753759a243",
+        "slug": "cwi-2026-sponsor",
+        "instituteId": "68f13f6b14773d35b80ea18f",
+        "instituteName": "20. CWI 2026",
+        "sources": 1,
+        "outerInstituteItems": 1,
+        "rootClasses": "w-condition-invisible w-dyn-list",
+        "controls": 0,
+        "images": [
+          {
+            "url": "https://cdn.prod.website-files.com/6312ee46f4c52faf21ee8ab5/6392143ccc6ee000cf05f366_HFI-2023-Venue-1.webp",
+            "alt": ""
+          },
+          {
+            "url": "https://cdn.prod.website-files.com/6312ee46f4c52faf21ee8ab5/6392143c38fc4228d6664d90_HFI-2023-Venue-2.webp",
+            "alt": ""
+          }
+        ],
+        "expected": [
+          {
+            "url": "https://cdn.prod.website-files.com/6312ee46f4c52faf21ee8ab5/6392143ccc6ee000cf05f366_HFI-2023-Venue-1.webp",
+            "alt": ""
+          },
+          {
+            "url": "https://cdn.prod.website-files.com/6312ee46f4c52faf21ee8ab5/6392143c38fc4228d6664d90_HFI-2023-Venue-2.webp",
+            "alt": ""
+          }
+        ],
+        "pass": true
+      },
+      {
+        "pageId": "6ab50d2d9c872074f0aee0f9",
+        "slug": "cwi-2026-delegate",
+        "instituteId": "68f13f6b14773d35b80ea18f",
+        "instituteName": "20. CWI 2026",
+        "sources": 1,
+        "outerInstituteItems": 1,
+        "rootClasses": "w-condition-invisible w-dyn-list",
+        "controls": 0,
+        "images": [
+          {
+            "url": "https://cdn.prod.website-files.com/6312ee46f4c52faf21ee8ab5/6392143ccc6ee000cf05f366_HFI-2023-Venue-1.webp",
+            "alt": ""
+          },
+          {
+            "url": "https://cdn.prod.website-files.com/6312ee46f4c52faf21ee8ab5/6392143c38fc4228d6664d90_HFI-2023-Venue-2.webp",
+            "alt": ""
+          }
+        ],
+        "expected": [
+          {
+            "url": "https://cdn.prod.website-files.com/6312ee46f4c52faf21ee8ab5/6392143ccc6ee000cf05f366_HFI-2023-Venue-1.webp",
+            "alt": ""
+          },
+          {
+            "url": "https://cdn.prod.website-files.com/6312ee46f4c52faf21ee8ab5/6392143c38fc4228d6664d90_HFI-2023-Venue-2.webp",
+            "alt": ""
+          }
+        ],
+        "pass": true
+      },
+      {
+        "pageId": "6ab50d2d4aab59c653498729",
+        "slug": "cni-2026-sponsor",
+        "instituteId": "68ee5828523be4d7c19ad78b",
+        "instituteName": "18. CNI 2026",
+        "sources": 1,
+        "outerInstituteItems": 1,
+        "rootClasses": "w-condition-invisible w-dyn-list",
+        "controls": 0,
+        "images": [
+          {
+            "url": "https://cdn.prod.website-files.com/6312ee46f4c52faf21ee8ab5/69cebb3b57d166ccb666745b_NSH_479_original.webp",
+            "alt": ""
+          },
+          {
+            "url": "https://cdn.prod.website-files.com/6312ee46f4c52faf21ee8ab5/69cebb3bf1b5c83d4d951993_NSH_488_original.webp",
+            "alt": ""
+          }
+        ],
+        "expected": [
+          {
+            "url": "https://cdn.prod.website-files.com/6312ee46f4c52faf21ee8ab5/69cebb3b57d166ccb666745b_NSH_479_original.webp",
+            "alt": ""
+          },
+          {
+            "url": "https://cdn.prod.website-files.com/6312ee46f4c52faf21ee8ab5/69cebb3bf1b5c83d4d951993_NSH_488_original.webp",
+            "alt": ""
+          }
+        ],
+        "pass": true
+      },
+      {
+        "pageId": "6ab50d2cbd92bfba7714cb08",
+        "slug": "cni-2026-delegate",
+        "instituteId": "68ee5828523be4d7c19ad78b",
+        "instituteName": "18. CNI 2026",
+        "sources": 1,
+        "outerInstituteItems": 1,
+        "rootClasses": "w-condition-invisible w-dyn-list",
+        "controls": 0,
+        "images": [
+          {
+            "url": "https://cdn.prod.website-files.com/6312ee46f4c52faf21ee8ab5/69cebb3b57d166ccb666745b_NSH_479_original.webp",
+            "alt": ""
+          },
+          {
+            "url": "https://cdn.prod.website-files.com/6312ee46f4c52faf21ee8ab5/69cebb3bf1b5c83d4d951993_NSH_488_original.webp",
+            "alt": ""
+          }
+        ],
+        "expected": [
+          {
+            "url": "https://cdn.prod.website-files.com/6312ee46f4c52faf21ee8ab5/69cebb3b57d166ccb666745b_NSH_479_original.webp",
+            "alt": ""
+          },
+          {
+            "url": "https://cdn.prod.website-files.com/6312ee46f4c52faf21ee8ab5/69cebb3bf1b5c83d4d951993_NSH_488_original.webp",
+            "alt": ""
+          }
+        ],
+        "pass": true
+      },
+      {
+        "pageId": "6ab50d2c0585a374ecb22f08",
+        "slug": "iplmi-2026-sponsor",
+        "instituteId": "68d55b267c9b7466cf7f635e",
+        "instituteName": "16. IP Law 2026",
+        "sources": 1,
+        "outerInstituteItems": 1,
+        "rootClasses": "w-condition-invisible w-dyn-list",
+        "controls": 0,
+        "images": [
+          {
+            "url": "https://cdn.prod.website-files.com/6312ee46f4c52faf21ee8ab5/654280d4deb5234a894aaeaa_Pool.webp",
+            "alt": ""
+          },
+          {
+            "url": "https://cdn.prod.website-files.com/6312ee46f4c52faf21ee8ab5/677d4222e0d5885f8d0342fc_Terrace.webp",
+            "alt": ""
+          }
+        ],
+        "expected": [
+          {
+            "url": "https://cdn.prod.website-files.com/6312ee46f4c52faf21ee8ab5/654280d4deb5234a894aaeaa_Pool.webp",
+            "alt": ""
+          },
+          {
+            "url": "https://cdn.prod.website-files.com/6312ee46f4c52faf21ee8ab5/677d4222e0d5885f8d0342fc_Terrace.webp",
+            "alt": ""
+          }
+        ],
+        "pass": true
+      },
+      {
+        "pageId": "6ab50d2bbd92bfba7714c9fb",
+        "slug": "iplmi-2026-delegate",
+        "instituteId": "68d55b267c9b7466cf7f635e",
+        "instituteName": "16. IP Law 2026",
+        "sources": 1,
+        "outerInstituteItems": 1,
+        "rootClasses": "w-condition-invisible w-dyn-list",
+        "controls": 0,
+        "images": [
+          {
+            "url": "https://cdn.prod.website-files.com/6312ee46f4c52faf21ee8ab5/654280d4deb5234a894aaeaa_Pool.webp",
+            "alt": ""
+          },
+          {
+            "url": "https://cdn.prod.website-files.com/6312ee46f4c52faf21ee8ab5/677d4222e0d5885f8d0342fc_Terrace.webp",
+            "alt": ""
+          }
+        ],
+        "expected": [
+          {
+            "url": "https://cdn.prod.website-files.com/6312ee46f4c52faf21ee8ab5/654280d4deb5234a894aaeaa_Pool.webp",
+            "alt": ""
+          },
+          {
+            "url": "https://cdn.prod.website-files.com/6312ee46f4c52faf21ee8ab5/677d4222e0d5885f8d0342fc_Terrace.webp",
+            "alt": ""
+          }
+        ],
+        "pass": true
+      },
+      {
+        "pageId": "6ab50d2a89b31179acde3a95",
+        "slug": "hrmi-oct-2026-sponsor",
+        "instituteId": "68ed913448c9b512bb7abeae",
+        "instituteName": "17. HR Oct 2026",
+        "sources": 1,
+        "outerInstituteItems": 1,
+        "rootClasses": "w-condition-invisible w-dyn-list",
+        "controls": 0,
+        "images": [
+          {
+            "url": "https://cdn.prod.website-files.com/6312ee46f4c52faf21ee8ab5/652eac27906d83daae16ecfd_HGC%20Feb%202024%20Image%201.webp",
+            "alt": ""
+          },
+          {
+            "url": "https://cdn.prod.website-files.com/6312ee46f4c52faf21ee8ab5/652eac27b72d9c8c438b1479_HGC%20Feb%202024%20Image%202.webp",
+            "alt": ""
+          }
+        ],
+        "expected": [
+          {
+            "url": "https://cdn.prod.website-files.com/6312ee46f4c52faf21ee8ab5/652eac27906d83daae16ecfd_HGC%20Feb%202024%20Image%201.webp",
+            "alt": ""
+          },
+          {
+            "url": "https://cdn.prod.website-files.com/6312ee46f4c52faf21ee8ab5/652eac27b72d9c8c438b1479_HGC%20Feb%202024%20Image%202.webp",
+            "alt": ""
+          }
+        ],
+        "pass": true
+      },
+      {
+        "pageId": "6ab50d2991bd576bd55f8f89",
+        "slug": "hrmi-oct-2026-delegate",
+        "instituteId": "68ed913448c9b512bb7abeae",
+        "instituteName": "17. HR Oct 2026",
+        "sources": 1,
+        "outerInstituteItems": 1,
+        "rootClasses": "w-condition-invisible w-dyn-list",
+        "controls": 0,
+        "images": [
+          {
+            "url": "https://cdn.prod.website-files.com/6312ee46f4c52faf21ee8ab5/652eac27906d83daae16ecfd_HGC%20Feb%202024%20Image%201.webp",
+            "alt": ""
+          },
+          {
+            "url": "https://cdn.prod.website-files.com/6312ee46f4c52faf21ee8ab5/652eac27b72d9c8c438b1479_HGC%20Feb%202024%20Image%202.webp",
+            "alt": ""
+          }
+        ],
+        "expected": [
+          {
+            "url": "https://cdn.prod.website-files.com/6312ee46f4c52faf21ee8ab5/652eac27906d83daae16ecfd_HGC%20Feb%202024%20Image%201.webp",
+            "alt": ""
+          },
+          {
+            "url": "https://cdn.prod.website-files.com/6312ee46f4c52faf21ee8ab5/652eac27b72d9c8c438b1479_HGC%20Feb%202024%20Image%202.webp",
+            "alt": ""
+          }
+        ],
+        "pass": true
+      },
+      {
+        "pageId": "6ab50d2915df90825fd7cb2a",
+        "slug": "healthcare-gci-oct-2026-sponsor",
+        "instituteId": "689a4db462964a1e231e1fbb",
+        "instituteName": "15. HGC Oct 2026",
+        "sources": 1,
+        "outerInstituteItems": 1,
+        "rootClasses": "w-condition-invisible w-dyn-list",
+        "controls": 0,
+        "images": [
+          {
+            "url": "https://cdn.prod.website-files.com/6312ee46f4c52faf21ee8ab5/677c0650f128b9b5983d816f_Park-Hyatt-Aviara-Resort-Golf-Club-and-Spa-P480-Adult-Pool.16x9.webp",
+            "alt": ""
+          },
+          {
+            "url": "https://cdn.prod.website-files.com/6312ee46f4c52faf21ee8ab5/65c24a21b6d427ec5d374f78_SANPA-P585-Courtyard-Fountain-Sunset.16x9.webp",
+            "alt": ""
+          }
+        ],
+        "expected": [
+          {
+            "url": "https://cdn.prod.website-files.com/6312ee46f4c52faf21ee8ab5/677c0650f128b9b5983d816f_Park-Hyatt-Aviara-Resort-Golf-Club-and-Spa-P480-Adult-Pool.16x9.webp",
+            "alt": ""
+          },
+          {
+            "url": "https://cdn.prod.website-files.com/6312ee46f4c52faf21ee8ab5/65c24a21b6d427ec5d374f78_SANPA-P585-Courtyard-Fountain-Sunset.16x9.webp",
+            "alt": ""
+          }
+        ],
+        "pass": true
+      },
+      {
+        "pageId": "6ab50d28542a6c43a9329ed1",
+        "slug": "healthcare-gci-oct-2026-delegate",
+        "instituteId": "689a4db462964a1e231e1fbb",
+        "instituteName": "15. HGC Oct 2026",
+        "sources": 1,
+        "outerInstituteItems": 1,
+        "rootClasses": "w-condition-invisible w-dyn-list",
+        "controls": 0,
+        "images": [
+          {
+            "url": "https://cdn.prod.website-files.com/6312ee46f4c52faf21ee8ab5/677c0650f128b9b5983d816f_Park-Hyatt-Aviara-Resort-Golf-Club-and-Spa-P480-Adult-Pool.16x9.webp",
+            "alt": ""
+          },
+          {
+            "url": "https://cdn.prod.website-files.com/6312ee46f4c52faf21ee8ab5/65c24a21b6d427ec5d374f78_SANPA-P585-Courtyard-Fountain-Sunset.16x9.webp",
+            "alt": ""
+          }
+        ],
+        "expected": [
+          {
+            "url": "https://cdn.prod.website-files.com/6312ee46f4c52faf21ee8ab5/677c0650f128b9b5983d816f_Park-Hyatt-Aviara-Resort-Golf-Club-and-Spa-P480-Adult-Pool.16x9.webp",
+            "alt": ""
+          },
+          {
+            "url": "https://cdn.prod.website-files.com/6312ee46f4c52faf21ee8ab5/65c24a21b6d427ec5d374f78_SANPA-P585-Courtyard-Fountain-Sunset.16x9.webp",
+            "alt": ""
+          }
+        ],
+        "pass": true
+      },
+      {
+        "pageId": "6ab427151e2a1d57f6652add",
+        "slug": "ehs-jan-2027-sponsor",
+        "instituteId": "6a46ac429cad4c03adc65259",
+        "instituteName": "21. EHS Jan 2027",
+        "sources": 1,
+        "outerInstituteItems": 1,
+        "rootClasses": "w-condition-invisible w-dyn-list",
+        "controls": 0,
+        "images": [
+          {
+            "url": "https://cdn.prod.website-files.com/6312ee46f4c52faf21ee8ab5/6ab525d2ac5a08c76d1eeed8_Four%20Seasons%20Hotel%20Austin%20TX%20-%20Front%20of%20Hotel.webp",
+            "alt": "Hotel entrance framed by trees and landscaping"
+          },
+          {
+            "url": "https://cdn.prod.website-files.com/6312ee46f4c52faf21ee8ab5/6ab525d204624f9027bea52a_Four%20Seasons%20Hotel%20Austin%20TX%20-%20Hotel%20Garden.webp",
+            "alt": "Hotel garden with lawn, trees and outdoor seating"
+          }
+        ],
+        "expected": [
+          {
+            "url": "https://cdn.prod.website-files.com/6312ee46f4c52faf21ee8ab5/6ab525d2ac5a08c76d1eeed8_Four%20Seasons%20Hotel%20Austin%20TX%20-%20Front%20of%20Hotel.webp",
+            "alt": "Hotel entrance framed by trees and landscaping"
+          },
+          {
+            "url": "https://cdn.prod.website-files.com/6312ee46f4c52faf21ee8ab5/6ab525d204624f9027bea52a_Four%20Seasons%20Hotel%20Austin%20TX%20-%20Hotel%20Garden.webp",
+            "alt": "Hotel garden with lawn, trees and outdoor seating"
+          }
+        ],
+        "pass": true
+      },
+      {
+        "pageId": "6ab419ab01801a6514d9c07a",
+        "slug": "ehs-jan-2027-delegate",
+        "instituteId": "6a46ac429cad4c03adc65259",
+        "instituteName": "21. EHS Jan 2027",
+        "sources": 1,
+        "outerInstituteItems": 1,
+        "rootClasses": "w-condition-invisible w-dyn-list",
+        "controls": 0,
+        "images": [
+          {
+            "url": "https://cdn.prod.website-files.com/6312ee46f4c52faf21ee8ab5/6ab525d2ac5a08c76d1eeed8_Four%20Seasons%20Hotel%20Austin%20TX%20-%20Front%20of%20Hotel.webp",
+            "alt": "Hotel entrance framed by trees and landscaping"
+          },
+          {
+            "url": "https://cdn.prod.website-files.com/6312ee46f4c52faf21ee8ab5/6ab525d204624f9027bea52a_Four%20Seasons%20Hotel%20Austin%20TX%20-%20Hotel%20Garden.webp",
+            "alt": "Hotel garden with lawn, trees and outdoor seating"
+          }
+        ],
+        "expected": [
+          {
+            "url": "https://cdn.prod.website-files.com/6312ee46f4c52faf21ee8ab5/6ab525d2ac5a08c76d1eeed8_Four%20Seasons%20Hotel%20Austin%20TX%20-%20Front%20of%20Hotel.webp",
+            "alt": "Hotel entrance framed by trees and landscaping"
+          },
+          {
+            "url": "https://cdn.prod.website-files.com/6312ee46f4c52faf21ee8ab5/6ab525d204624f9027bea52a_Four%20Seasons%20Hotel%20Austin%20TX%20-%20Hotel%20Garden.webp",
+            "alt": "Hotel garden with lawn, trees and outdoor seating"
+          }
+        ],
+        "pass": true
+      },
+      {
+        "pageId": "6a9a6378aaffd3efb5e46338",
+        "slug": "hchr-sept-2026-sponsor",
+        "instituteId": "68b0aff93e4f6363f03f620b",
+        "instituteName": "HCHR Sept 2026",
+        "sources": 1,
+        "outerInstituteItems": 1,
+        "rootClasses": "w-condition-invisible w-dyn-list",
+        "controls": 0,
+        "images": [
+          {
+            "url": "https://cdn.prod.website-files.com/6312ee46f4c52faf21ee8ab5/6a9a66fceb4c917e35dec429_6a9a66444b76f8336b80a7b3_kbyg-ritz-carlton-exterior.webp",
+            "alt": "The Ritz-Carlton Orlando, Grande Lakes exterior at twilight"
+          },
+          {
+            "url": "https://cdn.prod.website-files.com/6312ee46f4c52faf21ee8ab5/6a9a66fceb4c917e35dec431_6a9a6644ce252381364dc0c2_kbyg-ritz-carlton-pool.webp",
+            "alt": "Aerial view of the pool at The Ritz-Carlton Orlando, Grande Lakes"
+          }
+        ],
+        "expected": [
+          {
+            "url": "https://cdn.prod.website-files.com/6312ee46f4c52faf21ee8ab5/6a9a66fceb4c917e35dec429_6a9a66444b76f8336b80a7b3_kbyg-ritz-carlton-exterior.webp",
+            "alt": "The Ritz-Carlton Orlando, Grande Lakes exterior at twilight"
+          },
+          {
+            "url": "https://cdn.prod.website-files.com/6312ee46f4c52faf21ee8ab5/6a9a66fceb4c917e35dec431_6a9a6644ce252381364dc0c2_kbyg-ritz-carlton-pool.webp",
+            "alt": "Aerial view of the pool at The Ritz-Carlton Orlando, Grande Lakes"
+          }
+        ],
+        "pass": true
+      },
+      {
+        "pageId": "6a9a6378aaffd3efb5e46336",
+        "slug": "hchr-sept-2026-delegate",
+        "instituteId": "68b0aff93e4f6363f03f620b",
+        "instituteName": "HCHR Sept 2026",
+        "sources": 1,
+        "outerInstituteItems": 1,
+        "rootClasses": "w-condition-invisible w-dyn-list",
+        "controls": 0,
+        "images": [
+          {
+            "url": "https://cdn.prod.website-files.com/6312ee46f4c52faf21ee8ab5/6a9a66fceb4c917e35dec429_6a9a66444b76f8336b80a7b3_kbyg-ritz-carlton-exterior.webp",
+            "alt": "The Ritz-Carlton Orlando, Grande Lakes exterior at twilight"
+          },
+          {
+            "url": "https://cdn.prod.website-files.com/6312ee46f4c52faf21ee8ab5/6a9a66fceb4c917e35dec431_6a9a6644ce252381364dc0c2_kbyg-ritz-carlton-pool.webp",
+            "alt": "Aerial view of the pool at The Ritz-Carlton Orlando, Grande Lakes"
+          }
+        ],
+        "expected": [
+          {
+            "url": "https://cdn.prod.website-files.com/6312ee46f4c52faf21ee8ab5/6a9a66fceb4c917e35dec429_6a9a66444b76f8336b80a7b3_kbyg-ritz-carlton-exterior.webp",
+            "alt": "The Ritz-Carlton Orlando, Grande Lakes exterior at twilight"
+          },
+          {
+            "url": "https://cdn.prod.website-files.com/6312ee46f4c52faf21ee8ab5/6a9a66fceb4c917e35dec431_6a9a6644ce252381364dc0c2_kbyg-ritz-carlton-pool.webp",
+            "alt": "Aerial view of the pool at The Ritz-Carlton Orlando, Grande Lakes"
+          }
+        ],
+        "pass": true
+      }
+    ]
+  },
+  "currentRegister": {
+    "generatedAt": "2026-09-24T20:14:44.561Z",
+    "phase": "after",
+    "sourceSnapshots": ["kbyg-pages-after-task37.json", "institutes-after-task37.json"],
+    "placeholderFields": 1232,
+    "draftPages": [
+      {
+        "id": "6ab50d307a1a4f8bfaf11708",
+        "slug": "hrmi-canada-nov-2026-sponsor",
+        "name": "HR Can Nov 2026 Sponsor"
+      },
+      {
+        "id": "6ab50d2f844fd9696be15789",
+        "slug": "hrmi-canada-nov-2026-delegate",
+        "name": "HR Can Nov 2026 Delegate"
+      },
+      {
+        "id": "6ab50d2d9c872074f0aee0f9",
+        "slug": "cwi-2026-delegate",
+        "name": "CWI 2026 Delegate"
+      }
+    ],
+    "changedFields": [
+      {
+        "id": "36-ehs-jan-2027-delegate-welcome-body",
+        "pageId": "6ab419ab01801a6514d9c07a",
+        "field": "welcome-body",
+        "historicalInterimValue": "<p>Placeholder - Operations copy pending.</p>",
+        "currentValue": "<p>We’re delighted to welcome you to the 2027 EHS Management Institute and thank you for choosing to join us. Over three days, an exceptional group of senior leaders and solution providers will come together for meaningful conversations, fresh perspectives, and valuable connections.</p><p>Everything you need to prepare for the Institute is right here in one easy-to-navigate guide. From key dates and important deliverables to helpful event details, we’ll keep you informed and on track in the weeks ahead.</p><p>Over the coming weeks, we’ll guide you through a few simple steps to get event ready. Your Operations Lead, <strong>Tori Di Clemente</strong>, will be here to support you along the way, answer any questions, and ensure you have everything you need for a smooth and successful Institute experience.</p>"
+      },
+      {
+        "id": "36-ehs-jan-2027-delegate-preparation-intro",
+        "pageId": "6ab419ab01801a6514d9c07a",
+        "field": "preparation-intro",
+        "historicalInterimValue": "Placeholder — Delegate preparation instructions are awaiting Operations confirmation.",
+        "currentValue": "Complete these actions in the Attendee Hub, then build a schedule around the conversations that matter most to you."
+      },
+      {
+        "id": "36-ehs-jan-2027-delegate-agenda-intro",
+        "pageId": "6ab419ab01801a6514d9c07a",
+        "field": "agenda-intro",
+        "historicalInterimValue": "Placeholder — The event agenda is awaiting Operations confirmation.",
+        "currentValue": "Times are approximate and subject to change. Please refer to the Full Institute Agenda for event specific details."
+      },
+      {
+        "id": "36-ehs-jan-2027-delegate-experience-intro",
+        "pageId": "6ab419ab01801a6514d9c07a",
+        "field": "experience-intro",
+        "historicalInterimValue": "Placeholder — Delegate experience details are awaiting Operations confirmation.",
+        "currentValue": "A purposeful mix of insight, one-to-one conversation, and peer collaboration."
+      }
+    ],
+    "renamedPageIds": ["6ab50d45ae4335f0476609d9", "6ab50d4589b31179acde4752"],
+    "destinations": 54,
+    "agendaRows": 54,
+    "linked": 16,
+    "pending": 38,
+    "withCards": [
+      {
+        "slug": "hchr-sept-2026-sponsor",
+        "count": 3
+      },
+      {
+        "slug": "hchr-sept-2026-delegate",
+        "count": 3
+      },
+      {
+        "slug": "ehs-jan-2027-delegate",
+        "count": 3
+      }
+    ],
+    "newApprovalsClaimed": false
+  },
+  "protectedStyles": {
+    "global": "80ef3c254bef30f97398b63b0888a934085bb9b371ce4ee74e2e6b20befe4496",
+    "kbyg": "2007d1458b81d31a43b8ff5ded6d90de48d68818bbd7cdbb1ee94479eb02626a",
+    "remote": {
+      "status": 200,
+      "sha256": "80ef3c254bef30f97398b63b0888a934085bb9b371ce4ee74e2e6b20befe4496",
+      "unchanged": true
+    }
+  }
+}

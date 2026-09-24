@@ -1,5 +1,7 @@
 # 25 — KBYG sponsor and delegate page coverage
 
+> **Current task 37 handoff — September 24, 2026:** 54 pages means 27 audience pairs, not 54 pairs. All URLs return 200; three current CMS draft flags and renamed current slugs are preserved in task 37 current registers. Earlier all-non-draft/staging-only records are historical. See [final evidence](evidence/task37/README.md) and [current replacement guide](PLACEHOLDERS.md).
+
 [Back to master](README.md)
 
 - **Owner:** Bryan / Webflow CMS implementation; IPMI Operations confirms event coverage and supplies audience-specific content.

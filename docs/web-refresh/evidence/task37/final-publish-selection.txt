@@ -1,0 +1,56 @@
+ric: I
+- button:
+  - generic: 01. EHS Jan 2027 Delegate
+- button:
+  - generic: View all pages in this Collection
+- separator
+- generic: Institutes Template
+- generic: Recaps Template
+- generic: Think Tanks Template
+- generic: Staff Template
+- generic: Speakers Template
+- generic: Partners Template
+- generic: Accreditations Template
+- generic: Testimonials Template
+- generic: Downloads Template
+- generic: Gallery Photos Template
+- generic: FAQs Template
+- text: Utility pages
+- generic: Password
+- generic: "404"
+- text: Static page templates
+- generic: No static page templates
+- generic: Create a template and then select it when setting up a new static page.
+- button: Dismiss
+- dialog:
+  - generic: Choose publish destination
+  - heading "Staging" [level=2]
+  - list:
+    - checkbox "ipmi.webflow.io Open in new tab" [checked] [active]
+    - generic: ipmi.webflow.io
+    - link "Open in new tab":
+      - /url: https://ipmi.webflow.io/know-before-you-go/ehs-jan-2027-delegate
+    - generic: Published 18 minutes ago
+    - generic: •
+    - link "Unpublish domain":
+      - /url: "#"
+  - heading "Production" [level=2]
+  - list:
+    - checkbox "www.ipmievents.com Open in new tab"
+    - generic: www.ipmievents.com
+    - link "Open in new tab":
+      - /url: https://www.ipmievents.com/know-before-you-go/ehs-jan-2027-delegate
+    - generic: Published 38 minutes ago
+    - generic: •
+    - link "Unpublish domain":
+      - /url: "#"
+  - generic: Advanced publishing options
+  - button "10 issues to improve on this page":
+    - generic: "10"
+    - text: issues to improve on this page
+  - button "Close":
+    - generic: Close
+  - button "Publish to selected domains":
+    - generic: Publish to selected domains
+- button: Dismiss
+- status: 1Password menu is available. Press down arrow to select.

@@ -1,0 +1,70 @@
+{
+  "checkedAt": "2026-09-24T20:14:44.579Z",
+  "phase": "after",
+  "rows": [
+    {
+      "slug": "hchr-sept-2026-delegate",
+      "url": "https://www.ipmievents.com/know-before-you-go/hchr-sept-2026-delegate",
+      "status": 200,
+      "sha256": "ca4871adaae43de1d281bae52e1df9b18280066316b48f530a284f7a1a039f40",
+      "pins": [
+        "https://watsonweb.github.io/IPMI/ipmi-custom-styles.css",
+        "https://cdn.jsdelivr.net/gh/WatsonWeb/IPMI@04eca109c5b572080313622df04aeb57fc433bdc/dist/refresh-integration.css",
+        "https://watsonweb.github.io/IPMI/ipmi-custom-styles.css",
+        "https://watsonweb.github.io/IPMI/js/webp-polyfill-min.js",
+        "https://cdn.jsdelivr.net/gh/WatsonWeb/IPMI@04eca109c5b572080313622df04aeb57fc433bdc/dist/refresh-integration.js",
+        "https://cdn.jsdelivr.net/gh/WatsonWeb/IPMI@b469ddcbe2f81466fa450a1d187a68ef0739b10c/ipmi-kbyg-agenda.css",
+        "https://cdn.jsdelivr.net/gh/WatsonWeb/IPMI@04eca109c5b572080313622df04aeb57fc433bdc/dist/ipmi-kbyg.js"
+      ],
+      "noindex": true
+    },
+    {
+      "slug": "hchr-sept-2026-sponsor",
+      "url": "https://www.ipmievents.com/know-before-you-go/hchr-sept-2026-sponsor",
+      "status": 200,
+      "sha256": "c6bbb7580a49a0d869752354c46d32ded8f2a70f1d94c732b9481d33f1d47d5c",
+      "pins": [
+        "https://watsonweb.github.io/IPMI/ipmi-custom-styles.css",
+        "https://cdn.jsdelivr.net/gh/WatsonWeb/IPMI@04eca109c5b572080313622df04aeb57fc433bdc/dist/refresh-integration.css",
+        "https://watsonweb.github.io/IPMI/ipmi-custom-styles.css",
+        "https://watsonweb.github.io/IPMI/js/webp-polyfill-min.js",
+        "https://cdn.jsdelivr.net/gh/WatsonWeb/IPMI@04eca109c5b572080313622df04aeb57fc433bdc/dist/refresh-integration.js",
+        "https://cdn.jsdelivr.net/gh/WatsonWeb/IPMI@b469ddcbe2f81466fa450a1d187a68ef0739b10c/ipmi-kbyg-agenda.css",
+        "https://cdn.jsdelivr.net/gh/WatsonWeb/IPMI@04eca109c5b572080313622df04aeb57fc433bdc/dist/ipmi-kbyg.js"
+      ],
+      "noindex": true
+    },
+    {
+      "slug": "ehs-jan-2027-delegate",
+      "url": "https://www.ipmievents.com/know-before-you-go/ehs-jan-2027-delegate",
+      "status": 200,
+      "sha256": "b9a5e955158b1e9951ad271f906f5dcf6994b5f0f73e01e7bc39431422f93d6d",
+      "pins": [
+        "https://watsonweb.github.io/IPMI/ipmi-custom-styles.css",
+        "https://cdn.jsdelivr.net/gh/WatsonWeb/IPMI@04eca109c5b572080313622df04aeb57fc433bdc/dist/refresh-integration.css",
+        "https://watsonweb.github.io/IPMI/ipmi-custom-styles.css",
+        "https://watsonweb.github.io/IPMI/js/webp-polyfill-min.js",
+        "https://cdn.jsdelivr.net/gh/WatsonWeb/IPMI@04eca109c5b572080313622df04aeb57fc433bdc/dist/refresh-integration.js",
+        "https://cdn.jsdelivr.net/gh/WatsonWeb/IPMI@b469ddcbe2f81466fa450a1d187a68ef0739b10c/ipmi-kbyg-agenda.css",
+        "https://cdn.jsdelivr.net/gh/WatsonWeb/IPMI@04eca109c5b572080313622df04aeb57fc433bdc/dist/ipmi-kbyg.js"
+      ],
+      "noindex": true
+    },
+    {
+      "slug": "ehs-jan-2027-sponsor",
+      "url": "https://www.ipmievents.com/know-before-you-go/ehs-jan-2027-sponsor",
+      "status": 200,
+      "sha256": "8ba79b6ef6fea0edd9f07c6a0f0081a37bedf25e326e52865045ebfcb16c7ea2",
+      "pins": [
+        "https://watsonweb.github.io/IPMI/ipmi-custom-styles.css",
+        "https://cdn.jsdelivr.net/gh/WatsonWeb/IPMI@04eca109c5b572080313622df04aeb57fc433bdc/dist/refresh-integration.css",
+        "https://watsonweb.github.io/IPMI/ipmi-custom-styles.css",
+        "https://watsonweb.github.io/IPMI/js/webp-polyfill-min.js",
+        "https://cdn.jsdelivr.net/gh/WatsonWeb/IPMI@04eca109c5b572080313622df04aeb57fc433bdc/dist/refresh-integration.js",
+        "https://cdn.jsdelivr.net/gh/WatsonWeb/IPMI@b469ddcbe2f81466fa450a1d187a68ef0739b10c/ipmi-kbyg-agenda.css",
+        "https://cdn.jsdelivr.net/gh/WatsonWeb/IPMI@04eca109c5b572080313622df04aeb57fc433bdc/dist/ipmi-kbyg.js"
+      ],
+      "noindex": true
+    }
+  ]
+}

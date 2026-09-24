@@ -1,0 +1,925 @@
+{
+  "checkedAt": "2026-09-24T20:15:18.611Z",
+  "scope": "Read-only published HTML, native FAQ readback and asset HEAD responses; visual/interactive verification is separately recorded by task37.",
+  "sourceDocuments": [
+    "01-homepage-and-institute-overview-copy.md",
+    "02-institute-statistics.md",
+    "03-attend-page-copy.md",
+    "04-faq-copy.md",
+    "evidence/task19/approved-photo-audit.json"
+  ],
+  "copyRows": 8,
+  "copyPlacements": 11,
+  "copyPass": true,
+  "copy": [
+    {
+      "row": "C01 Institute overview",
+      "page": "home",
+      "expected": "Institutes bring together CxOs from organizations across North America in an intimate and luxury setting for two-and-a-half days of networking, information exchange, and collaboration. Institutes are executed with an unwavering commitment to quality and excellence, allowing you to curate a valuable and productive experience.",
+      "exactParagraph": true
+    },
+    {
+      "row": "C01 Institute overview",
+      "page": "institutes",
+      "expected": "Institutes bring together CxOs from organizations across North America in an intimate and luxury setting for two-and-a-half days of networking, information exchange, and collaboration. Institutes are executed with an unwavering commitment to quality and excellence, allowing you to curate a valuable and productive experience.",
+      "exactParagraph": true
+    },
+    {
+      "row": "C01 Institute overview",
+      "page": "recent",
+      "expected": "Institutes bring together CxOs from organizations across North America in an intimate and luxury setting for two-and-a-half days of networking, information exchange, and collaboration. Institutes are executed with an unwavering commitment to quality and excellence, allowing you to curate a valuable and productive experience.",
+      "exactParagraph": true
+    },
+    {
+      "row": "C02 Get Practical",
+      "page": "home",
+      "expected": "Institutes deliver insights, strategies, and tactics that can be leveraged to positively impact your team and organization.",
+      "exactParagraph": true
+    },
+    {
+      "row": "C03 Engage & Connect",
+      "page": "home",
+      "expected": "Interact with industry leaders in Healthcare, Human Resources, Environmental Health & Safety, Legal, Finance, and Technology",
+      "exactParagraph": true
+    },
+    {
+      "row": "C04 Institute statistics",
+      "page": "home",
+      "expected": "20",
+      "staticText": "20",
+      "staticPass": true,
+      "inlineEndpointPass": true
+    },
+    {
+      "row": "C04 Institute statistics",
+      "page": "about",
+      "expected": "20",
+      "staticText": "20",
+      "staticPass": true,
+      "inlineEndpointPass": true
+    },
+    {
+      "row": "C05 Attend experience",
+      "page": "attend",
+      "expected": "IPMI Institute Attendees receive a unique and unparalleled experience. With a range of engaging opportunities to connect with senior industry executives, encounter the latest strategies, and forge valuable business relationships, attendees customize their event experience by selecting thought leadership sessions, business meetings, and networking functions that directly relate to their goals and objectives.",
+      "exactParagraph": true
+    },
+    {
+      "row": "C06 Institute FAQ",
+      "page": "faq",
+      "expected": "An IPMI Institute is a curated, executive-level event that brings together senior leaders from across industries to share insights, exchange best practices, and collaborate on real world challenges in a focused, immersive setting.",
+      "exactProseWithPreservedCta": true,
+      "paragraph": "An IPMI Institute is a curated, executive-level event that brings together senior leaders from across industries to share insights, exchange best practices, and collaborate on real world challenges in a focused, immersive setting. View Upcoming Institutes ➜"
+    },
+    {
+      "row": "C07 Think Tank FAQ",
+      "page": "faq",
+      "expected": "IPMI's Virtual Think Tanks are online bespoke gatherings for sharing insights, tools, and resources to help drive organizational success, and are the go-to outlet for dealing with changing priorities and perspectives, as well as continued challenges at the macroeconomic and organizational levels.",
+      "exactProseWithPreservedCta": true,
+      "paragraph": "IPMI's Virtual Think Tanks are online bespoke gatherings for sharing insights, tools, and resources to help drive organizational success, and are the go-to outlet for dealing with changing priorities and perspectives, as well as continued challenges at the macroeconomic and organizational levels. View Upcoming Think Tanks ➜"
+    },
+    {
+      "row": "C08 Business meetings FAQ",
+      "page": "faq",
+      "expected": "An integral part of your event agenda is the one-on-one business meetings with leading Service Providers. These private, pre-selected meetings provide an opportunity to engage with senior-level specialists who can address your current business challenges and priorities during a 30-minute strategic conversation. Prior to the Institute, you will be able to assess the Service Providers who will be attending and select those that offer solutions to match your priorities and initiatives.",
+      "exactProseWithPreservedCta": true,
+      "paragraph": "An integral part of your event agenda is the one-on-one business meetings with leading Service Providers. These private, pre-selected meetings provide an opportunity to engage with senior-level specialists who can address your current business challenges and priorities during a 30-minute strategic conversation. Prior to the Institute, you will be able to assess the Service Providers who will be attending and select those that offer solutions to match your priorities and initiatives."
+    }
+  ],
+  "nativeFaqChecks": [
+    {
+      "id": "63c105510d96681c49d7b93a",
+      "slug": "what-is-an-institute",
+      "field": "faq-answer",
+      "approvedProsePresent": true
+    },
+    {
+      "id": "63c246da17b0ed6758030c71",
+      "slug": "what-is-a-think-tank",
+      "field": "faq-answer",
+      "approvedProsePresent": true
+    },
+    {
+      "id": "63c4d3b39bcbb478d8954342",
+      "slug": "what-do-the-business-meetings-look-like",
+      "field": "faq-answer",
+      "approvedProsePresent": true
+    }
+  ],
+  "photoRows": 27,
+  "photosPass": true,
+  "photos": [
+    {
+      "id": "P01",
+      "page": "home",
+      "expectedAsset": "https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4ad4da11c8b3bd07ffa38_P01-Innovative-Ideas-Front-Bubble.jpg",
+      "expectedContext": "stats",
+      "expectedAlt": "Two panelists sharing ideas on stage at an IPMI Institute",
+      "outcome": "approved replacement",
+      "matchCount": 1,
+      "matches": [
+        {
+          "asset": "https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4ad4da11c8b3bd07ffa38_P01-Innovative-Ideas-Front-Bubble.jpg",
+          "alt": "Two panelists sharing ideas on stage at an IPMI Institute",
+          "classes": "bubble-photo bottom left circle front shadow-xl",
+          "ancestorIds": ["stats"],
+          "link": null,
+          "srcset": "https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4ad4da11c8b3bd07ffa38_P01-Innovative-Ideas-Front-Bubble-p-500.jpg 500w, https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4ad4da11c8b3bd07ffa38_P01-Innovative-Ideas-Front-Bubble-p-800.jpg 800w, https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4ad4da11c8b3bd07ffa38_P01-Innovative-Ideas-Front-Bubble-p-1080.jpg 1080w, https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4ad4da11c8b3bd07ffa38_P01-Innovative-Ideas-Front-Bubble-p-1600.jpg 1600w, https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4ad4da11c8b3bd07ffa38_P01-Innovative-Ideas-Front-Bubble.jpg 2560w",
+          "sizes": "(max-width: 479px) 100vw, 400px",
+          "pass": true
+        }
+      ],
+      "pass": true
+    },
+    {
+      "id": "P02",
+      "page": "home",
+      "expectedAsset": "https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4ad4e118f040f8b24dd68_P02-HIT-Jun-2025-Think-Tank-9.jpg",
+      "expectedContext": "stats",
+      "expectedAlt": "A participant discussing ideas at a Think Tank table",
+      "outcome": "approved replacement",
+      "matchCount": 1,
+      "matches": [
+        {
+          "asset": "https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4ad4e118f040f8b24dd68_P02-HIT-Jun-2025-Think-Tank-9.jpg",
+          "alt": "A participant discussing ideas at a Think Tank table",
+          "classes": "bubble-photo top right circle shadow-xl",
+          "ancestorIds": ["stats"],
+          "link": null,
+          "srcset": "https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4ad4e118f040f8b24dd68_P02-HIT-Jun-2025-Think-Tank-9-p-500.jpg 500w, https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4ad4e118f040f8b24dd68_P02-HIT-Jun-2025-Think-Tank-9-p-800.jpg 800w, https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4ad4e118f040f8b24dd68_P02-HIT-Jun-2025-Think-Tank-9-p-1080.jpg 1080w, https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4ad4e118f040f8b24dd68_P02-HIT-Jun-2025-Think-Tank-9-p-1600.jpg 1600w, https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4ad4e118f040f8b24dd68_P02-HIT-Jun-2025-Think-Tank-9.jpg 2560w",
+          "sizes": "(max-width: 479px) 100vw, 400px",
+          "pass": true
+        }
+      ],
+      "pass": true
+    },
+    {
+      "id": "P03",
+      "page": "home",
+      "expectedAsset": "https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4ad4e67be61a871ef0885_P03-HCHR-Mar-2025-Session-22.jpg",
+      "expectedContext": "recaps",
+      "expectedAlt": "Two speakers in conversation on stage at an IPMI Institute",
+      "outcome": "approved replacement",
+      "matchCount": 1,
+      "matches": [
+        {
+          "asset": "https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4ad4e67be61a871ef0885_P03-HCHR-Mar-2025-Session-22.jpg",
+          "alt": "Two speakers in conversation on stage at an IPMI Institute",
+          "classes": "bubble-photo circle shadow-xl bottom right front",
+          "ancestorIds": ["recaps"],
+          "link": null,
+          "srcset": "https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4ad4e67be61a871ef0885_P03-HCHR-Mar-2025-Session-22-p-500.jpg 500w, https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4ad4e67be61a871ef0885_P03-HCHR-Mar-2025-Session-22-p-800.jpg 800w, https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4ad4e67be61a871ef0885_P03-HCHR-Mar-2025-Session-22-p-1080.jpg 1080w, https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4ad4e67be61a871ef0885_P03-HCHR-Mar-2025-Session-22-p-1600.jpg 1600w, https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4ad4e67be61a871ef0885_P03-HCHR-Mar-2025-Session-22.jpg 2560w",
+          "sizes": "(max-width: 479px) 100vw, 400px",
+          "pass": true
+        }
+      ],
+      "pass": true
+    },
+    {
+      "id": "P04",
+      "page": "home",
+      "expectedAsset": "https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4ad4dbce50bba4e8f79d4_P04-HRMI-West-2025-Think-Tank-7.jpg",
+      "expectedContext": "recaps",
+      "expectedAlt": "A participant contributing to a Think Tank discussion",
+      "outcome": "approved replacement",
+      "matchCount": 1,
+      "matches": [
+        {
+          "asset": "https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4ad4dbce50bba4e8f79d4_P04-HRMI-West-2025-Think-Tank-7.jpg",
+          "alt": "A participant contributing to a Think Tank discussion",
+          "classes": "bubble-photo circle shadow-xl top left",
+          "ancestorIds": ["recaps"],
+          "link": null,
+          "srcset": "https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4ad4dbce50bba4e8f79d4_P04-HRMI-West-2025-Think-Tank-7-p-500.jpg 500w, https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4ad4dbce50bba4e8f79d4_P04-HRMI-West-2025-Think-Tank-7-p-800.jpg 800w, https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4ad4dbce50bba4e8f79d4_P04-HRMI-West-2025-Think-Tank-7-p-1080.jpg 1080w, https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4ad4dbce50bba4e8f79d4_P04-HRMI-West-2025-Think-Tank-7-p-1600.jpg 1600w, https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4ad4dbce50bba4e8f79d4_P04-HRMI-West-2025-Think-Tank-7.jpg 2560w",
+          "sizes": "(max-width: 479px) 100vw, 400px",
+          "pass": true
+        }
+      ],
+      "pass": true
+    },
+    {
+      "id": "P05",
+      "page": "institutes",
+      "expectedAsset": "https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4b14b89ec7715954bd6d1_P05-HR-East-2026-Session-2.jpg",
+      "expectedContext": "hero",
+      "expectedAlt": "",
+      "outcome": "approved replacement",
+      "matchCount": 1,
+      "matches": [
+        {
+          "asset": "https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4b14b89ec7715954bd6d1_P05-HR-East-2026-Session-2.jpg",
+          "alt": "",
+          "classes": "hero-bg-image",
+          "ancestorIds": ["hero"],
+          "link": null,
+          "srcset": "https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4b14b89ec7715954bd6d1_P05-HR-East-2026-Session-2-p-500.jpg 500w, https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4b14b89ec7715954bd6d1_P05-HR-East-2026-Session-2-p-800.jpg 800w, https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4b14b89ec7715954bd6d1_P05-HR-East-2026-Session-2-p-1080.jpg 1080w, https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4b14b89ec7715954bd6d1_P05-HR-East-2026-Session-2-p-1600.jpg 1600w, https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4b14b89ec7715954bd6d1_P05-HR-East-2026-Session-2.jpg 2560w",
+          "sizes": "(max-width: 2560px) 100vw, 2560px",
+          "pass": true
+        }
+      ],
+      "pass": true
+    },
+    {
+      "id": "P06",
+      "page": "institutes",
+      "expectedAsset": "https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4b14c3c45253949502846_P06-HR-Central-2024-Dinner.jpg",
+      "expectedContext": "hero",
+      "expectedAlt": "Attendees networking over dinner at an IPMI Institute",
+      "outcome": "approved replacement",
+      "matchCount": 1,
+      "matches": [
+        {
+          "asset": "https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4b14c3c45253949502846_P06-HR-Central-2024-Dinner.jpg",
+          "alt": "Attendees networking over dinner at an IPMI Institute",
+          "classes": "bubble-photo bottom left circle front shadow-xl",
+          "ancestorIds": ["hero"],
+          "link": null,
+          "srcset": "https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4b14c3c45253949502846_P06-HR-Central-2024-Dinner-p-500.jpg 500w, https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4b14c3c45253949502846_P06-HR-Central-2024-Dinner-p-800.jpg 800w, https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4b14c3c45253949502846_P06-HR-Central-2024-Dinner-p-1080.jpg 1080w, https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4b14c3c45253949502846_P06-HR-Central-2024-Dinner-p-1600.jpg 1600w, https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4b14c3c45253949502846_P06-HR-Central-2024-Dinner.jpg 2560w",
+          "sizes": "(max-width: 479px) 100vw, 400px",
+          "pass": true
+        }
+      ],
+      "pass": true
+    },
+    {
+      "id": "P07",
+      "page": "institutes",
+      "expectedAsset": "https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4b14cda6412ca2ac37a85_P07-HR-East-2026-Session-9.jpg",
+      "expectedContext": "recaps",
+      "expectedAlt": "A speaker presenting on stage at an IPMI Institute",
+      "outcome": "approved replacement",
+      "matchCount": 1,
+      "matches": [
+        {
+          "asset": "https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4b14cda6412ca2ac37a85_P07-HR-East-2026-Session-9.jpg",
+          "alt": "A speaker presenting on stage at an IPMI Institute",
+          "classes": "bubble-photo circle shadow-xl bottom right front",
+          "ancestorIds": ["recaps"],
+          "link": null,
+          "srcset": "https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4b14cda6412ca2ac37a85_P07-HR-East-2026-Session-9-p-500.jpg 500w, https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4b14cda6412ca2ac37a85_P07-HR-East-2026-Session-9-p-800.jpg 800w, https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4b14cda6412ca2ac37a85_P07-HR-East-2026-Session-9-p-1080.jpg 1080w, https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4b14cda6412ca2ac37a85_P07-HR-East-2026-Session-9-p-1600.jpg 1600w, https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4b14cda6412ca2ac37a85_P07-HR-East-2026-Session-9.jpg 2560w",
+          "sizes": "(max-width: 400px) 100vw, 400px",
+          "pass": true
+        }
+      ],
+      "pass": true
+    },
+    {
+      "id": "P08",
+      "page": "institutes",
+      "expectedAsset": "https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4b14b10198c9b1043170a_P08-HRMI-West-2025-Think-Tank-5.jpg",
+      "expectedContext": "recaps",
+      "expectedAlt": "A participant listening during a Think Tank session",
+      "outcome": "approved replacement",
+      "matchCount": 1,
+      "matches": [
+        {
+          "asset": "https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4b14b10198c9b1043170a_P08-HRMI-West-2025-Think-Tank-5.jpg",
+          "alt": "A participant listening during a Think Tank session",
+          "classes": "bubble-photo circle shadow-xl top left",
+          "ancestorIds": ["recaps"],
+          "link": null,
+          "srcset": "https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4b14b10198c9b1043170a_P08-HRMI-West-2025-Think-Tank-5-p-500.jpg 500w, https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4b14b10198c9b1043170a_P08-HRMI-West-2025-Think-Tank-5-p-800.jpg 800w, https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4b14b10198c9b1043170a_P08-HRMI-West-2025-Think-Tank-5-p-1080.jpg 1080w, https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4b14b10198c9b1043170a_P08-HRMI-West-2025-Think-Tank-5-p-1600.jpg 1600w, https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4b14b10198c9b1043170a_P08-HRMI-West-2025-Think-Tank-5.jpg 2560w",
+          "sizes": "(max-width: 400px) 100vw, 400px",
+          "pass": true
+        }
+      ],
+      "pass": true
+    },
+    {
+      "id": "P09",
+      "page": "institutes",
+      "expectedAsset": "https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4b14b065ea59f68522cca_P09-CLDI-Apr-2025-Think-Tank-9.jpg",
+      "expectedContext": "features",
+      "expectedAlt": "A facilitator leading a Think Tank discussion with participants seated in a circle",
+      "outcome": "approved replacement",
+      "matchCount": 1,
+      "matches": [
+        {
+          "asset": "https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4b14b065ea59f68522cca_P09-CLDI-Apr-2025-Think-Tank-9.jpg",
+          "alt": "A facilitator leading a Think Tank discussion with participants seated in a circle",
+          "classes": "image-cover rounded shadow-xl",
+          "ancestorIds": ["features"],
+          "link": null,
+          "srcset": "https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4b14b065ea59f68522cca_P09-CLDI-Apr-2025-Think-Tank-9-p-500.jpg 500w, https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4b14b065ea59f68522cca_P09-CLDI-Apr-2025-Think-Tank-9-p-800.jpg 800w, https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4b14b065ea59f68522cca_P09-CLDI-Apr-2025-Think-Tank-9-p-1080.jpg 1080w, https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4b14b065ea59f68522cca_P09-CLDI-Apr-2025-Think-Tank-9-p-1600.jpg 1600w, https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4b14b065ea59f68522cca_P09-CLDI-Apr-2025-Think-Tank-9.jpg 2560w",
+          "sizes": "(max-width: 767px) 100vw, 768px",
+          "pass": true
+        }
+      ],
+      "pass": true
+    },
+    {
+      "id": "P10",
+      "page": "recent",
+      "expectedAsset": "https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4b4b02a5eb1c3401b943c_P10-HRMI-Central-2024-Session-1.jpg",
+      "expectedContext": "hero",
+      "expectedAlt": "Attendees listening and smiling during an IPMI Institute session",
+      "outcome": "approved replacement",
+      "matchCount": 1,
+      "matches": [
+        {
+          "asset": "https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4b4b02a5eb1c3401b943c_P10-HRMI-Central-2024-Session-1.jpg",
+          "alt": "Attendees listening and smiling during an IPMI Institute session",
+          "classes": "bubble-photo top right circle shadow-xl",
+          "ancestorIds": ["hero"],
+          "link": null,
+          "srcset": "https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4b4b02a5eb1c3401b943c_P10-HRMI-Central-2024-Session-1-p-500.jpg 500w, https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4b4b02a5eb1c3401b943c_P10-HRMI-Central-2024-Session-1-p-800.jpg 800w, https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4b4b02a5eb1c3401b943c_P10-HRMI-Central-2024-Session-1-p-1080.jpg 1080w, https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4b4b02a5eb1c3401b943c_P10-HRMI-Central-2024-Session-1-p-1600.jpg 1600w, https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4b4b02a5eb1c3401b943c_P10-HRMI-Central-2024-Session-1.jpg 2560w",
+          "sizes": "(max-width: 479px) 100vw, 400px",
+          "pass": true
+        }
+      ],
+      "pass": true
+    },
+    {
+      "id": "P11",
+      "page": "gallery",
+      "expectedAsset": "https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4b6bc009285801122e517_P11-HCHR-Mar-2025-Dinner-20.jpg",
+      "expectedContext": "hero",
+      "expectedAlt": "Attendees smiling and raising a hand at an IPMI networking reception",
+      "outcome": "approved replacement",
+      "matchCount": 1,
+      "matches": [
+        {
+          "asset": "https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4b6bc009285801122e517_P11-HCHR-Mar-2025-Dinner-20.jpg",
+          "alt": "Attendees smiling and raising a hand at an IPMI networking reception",
+          "classes": "bubble-photo bottom left circle front shadow-xl",
+          "ancestorIds": ["hero"],
+          "link": null,
+          "srcset": "https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4b6bc009285801122e517_P11-HCHR-Mar-2025-Dinner-20-p-500.jpg 500w, https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4b6bc009285801122e517_P11-HCHR-Mar-2025-Dinner-20-p-800.jpg 800w, https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4b6bc009285801122e517_P11-HCHR-Mar-2025-Dinner-20-p-1080.jpg 1080w, https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4b6bc009285801122e517_P11-HCHR-Mar-2025-Dinner-20-p-1600.jpg 1600w, https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4b6bc009285801122e517_P11-HCHR-Mar-2025-Dinner-20.jpg 2560w",
+          "sizes": "(max-width: 479px) 100vw, 400px",
+          "pass": true
+        }
+      ],
+      "pass": true
+    },
+    {
+      "id": "P12",
+      "page": "gallery",
+      "expectedAsset": "https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4b6be6f37170719534329_P12-HRMI-Central-2024-Session-2.jpg",
+      "expectedContext": "hero",
+      "expectedAlt": "A speaker seated on stage during an IPMI Institute session",
+      "outcome": "approved replacement",
+      "matchCount": 1,
+      "matches": [
+        {
+          "asset": "https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4b6be6f37170719534329_P12-HRMI-Central-2024-Session-2.jpg",
+          "alt": "A speaker seated on stage during an IPMI Institute session",
+          "classes": "bubble-photo top right circle shadow-xl",
+          "ancestorIds": ["hero"],
+          "link": null,
+          "srcset": "https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4b6be6f37170719534329_P12-HRMI-Central-2024-Session-2-p-500.jpg 500w, https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4b6be6f37170719534329_P12-HRMI-Central-2024-Session-2-p-800.jpg 800w, https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4b6be6f37170719534329_P12-HRMI-Central-2024-Session-2-p-1080.jpg 1080w, https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4b6be6f37170719534329_P12-HRMI-Central-2024-Session-2-p-1600.jpg 1600w, https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4b6be6f37170719534329_P12-HRMI-Central-2024-Session-2.jpg 2560w",
+          "sizes": "(max-width: 479px) 100vw, 400px",
+          "pass": true
+        }
+      ],
+      "pass": true
+    },
+    {
+      "id": "P13",
+      "page": "gallery",
+      "expectedAsset": "https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4b6beeae4404f8475938c_P13-HIT-2024-Scenic.jpg",
+      "expectedContext": "institutes",
+      "expectedAlt": "Fountains and palm trees beside a lake at an Institute venue",
+      "outcome": "approved replacement",
+      "matchCount": 1,
+      "matches": [
+        {
+          "asset": "https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4b6beeae4404f8475938c_P13-HIT-2024-Scenic.jpg",
+          "alt": "Fountains and palm trees beside a lake at an Institute venue",
+          "classes": "bubble-photo circle shadow-xl bottom right front",
+          "ancestorIds": ["institutes"],
+          "link": null,
+          "srcset": "https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4b6beeae4404f8475938c_P13-HIT-2024-Scenic-p-500.jpg 500w, https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4b6beeae4404f8475938c_P13-HIT-2024-Scenic-p-800.jpg 800w, https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4b6beeae4404f8475938c_P13-HIT-2024-Scenic-p-1080.jpg 1080w, https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4b6beeae4404f8475938c_P13-HIT-2024-Scenic-p-1600.jpg 1600w, https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4b6beeae4404f8475938c_P13-HIT-2024-Scenic-p-2000.jpg 2000w, https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4b6beeae4404f8475938c_P13-HIT-2024-Scenic.jpg 2560w",
+          "sizes": "(max-width: 400px) 100vw, 400px",
+          "pass": true
+        }
+      ],
+      "pass": true
+    },
+    {
+      "id": "P14",
+      "page": "gallery",
+      "expectedAsset": "https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4b6be655ed43be067d947_P14-SOI-2024-Dinner.jpg",
+      "expectedContext": "institutes",
+      "expectedAlt": "Attendees networking beside a rooftop pool among city towers",
+      "outcome": "approved replacement",
+      "matchCount": 1,
+      "matches": [
+        {
+          "asset": "https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4b6be655ed43be067d947_P14-SOI-2024-Dinner.jpg",
+          "alt": "Attendees networking beside a rooftop pool among city towers",
+          "classes": "bubble-photo circle shadow-xl top left",
+          "ancestorIds": ["institutes"],
+          "link": null,
+          "srcset": "https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4b6be655ed43be067d947_P14-SOI-2024-Dinner-p-500.jpg 500w, https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4b6be655ed43be067d947_P14-SOI-2024-Dinner-p-800.jpg 800w, https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4b6be655ed43be067d947_P14-SOI-2024-Dinner-p-1080.jpg 1080w, https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4b6be655ed43be067d947_P14-SOI-2024-Dinner-p-1600.jpg 1600w, https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4b6be655ed43be067d947_P14-SOI-2024-Dinner.jpg 2268w",
+          "sizes": "(max-width: 400px) 100vw, 400px",
+          "pass": true
+        }
+      ],
+      "pass": true
+    },
+    {
+      "id": "P15",
+      "page": "thinktanks",
+      "expectedAsset": "https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4b990eae4404f847681a0_P15-Indeed-Pasta-Making-Roundtable.jpg",
+      "expectedContext": "hero",
+      "expectedAlt": "A participant speaking to seated colleagues during an IPMI roundtable",
+      "outcome": "approved replacement",
+      "matchCount": 1,
+      "matches": [
+        {
+          "asset": "https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4b990eae4404f847681a0_P15-Indeed-Pasta-Making-Roundtable.jpg",
+          "alt": "A participant speaking to seated colleagues during an IPMI roundtable",
+          "classes": "bubble-photo top right circle shadow-xl",
+          "ancestorIds": ["hero"],
+          "link": null,
+          "srcset": "https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4b990eae4404f847681a0_P15-Indeed-Pasta-Making-Roundtable-p-500.jpg 500w, https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4b990eae4404f847681a0_P15-Indeed-Pasta-Making-Roundtable-p-800.jpg 800w, https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4b990eae4404f847681a0_P15-Indeed-Pasta-Making-Roundtable-p-1080.jpg 1080w, https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4b990eae4404f847681a0_P15-Indeed-Pasta-Making-Roundtable-p-1600.jpg 1600w, https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4b990eae4404f847681a0_P15-Indeed-Pasta-Making-Roundtable.jpg 2068w",
+          "sizes": "(max-width: 479px) 100vw, 400px",
+          "pass": true
+        }
+      ],
+      "pass": true
+    },
+    {
+      "id": "P16",
+      "page": "about",
+      "expectedAsset": "https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4bc33655ed43be069d72e_P16-HCHR-Mar-2025-Session-16.jpg",
+      "expectedContext": "hero",
+      "expectedAlt": "A speaker holding a microphone and notes during an IPMI session",
+      "outcome": "approved replacement",
+      "matchCount": 1,
+      "matches": [
+        {
+          "asset": "https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4bc33655ed43be069d72e_P16-HCHR-Mar-2025-Session-16.jpg",
+          "alt": "A speaker holding a microphone and notes during an IPMI session",
+          "classes": "bubble-photo bottom left circle front shadow-xl",
+          "ancestorIds": ["hero"],
+          "link": null,
+          "srcset": "https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4bc33655ed43be069d72e_P16-HCHR-Mar-2025-Session-16-p-500.jpg 500w, https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4bc33655ed43be069d72e_P16-HCHR-Mar-2025-Session-16-p-800.jpg 800w, https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4bc33655ed43be069d72e_P16-HCHR-Mar-2025-Session-16-p-1080.jpg 1080w, https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4bc33655ed43be069d72e_P16-HCHR-Mar-2025-Session-16-p-1600.jpg 1600w, https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4bc33655ed43be069d72e_P16-HCHR-Mar-2025-Session-16.jpg 2560w",
+          "sizes": "(max-width: 479px) 100vw, 400px",
+          "pass": true
+        }
+      ],
+      "pass": true
+    },
+    {
+      "id": "P17",
+      "page": "about",
+      "expectedAsset": "https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4bc32bce50bba4e943d27_P17-HCHR-March-2024-Staff-1.jpg",
+      "expectedContext": "hero",
+      "expectedAlt": "A smiling participant wearing a striped shirt and event lanyard at an IPMI gathering",
+      "outcome": "approved replacement",
+      "matchCount": 1,
+      "matches": [
+        {
+          "asset": "https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4bc32bce50bba4e943d27_P17-HCHR-March-2024-Staff-1.jpg",
+          "alt": "A smiling participant wearing a striped shirt and event lanyard at an IPMI gathering",
+          "classes": "bubble-photo top right circle shadow-xl",
+          "ancestorIds": ["hero"],
+          "link": null,
+          "srcset": "https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4bc32bce50bba4e943d27_P17-HCHR-March-2024-Staff-1-p-500.jpg 500w, https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4bc32bce50bba4e943d27_P17-HCHR-March-2024-Staff-1-p-800.jpg 800w, https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4bc32bce50bba4e943d27_P17-HCHR-March-2024-Staff-1-p-1080.jpg 1080w, https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4bc32bce50bba4e943d27_P17-HCHR-March-2024-Staff-1-p-1600.jpg 1600w, https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4bc32bce50bba4e943d27_P17-HCHR-March-2024-Staff-1.jpg 2560w",
+          "sizes": "(max-width: 479px) 100vw, 400px",
+          "pass": true
+        }
+      ],
+      "pass": true
+    },
+    {
+      "id": "P18",
+      "page": "about",
+      "expectedAsset": "https://cdn.prod.website-files.com/6312ee46f4c52faf21ee8ab5/6ab4bd1fbf52ddc3481af066_P18-HRMI-Apr-2025-Staff-1-1920.jpg",
+      "expectedContext": "about",
+      "expectedAlt": "Two participants smiling together at an IPMI event",
+      "outcome": "approved replacement",
+      "matchCount": 1,
+      "matches": [
+        {
+          "asset": "https://cdn.prod.website-files.com/6312ee46f4c52faf21ee8ab5/6ab4bd1fbf52ddc3481af066_P18-HRMI-Apr-2025-Staff-1-1920.jpg",
+          "alt": "Two participants smiling together at an IPMI event",
+          "classes": "recap-photo hover-scale aspect-4-3",
+          "ancestorIds": ["about"],
+          "link": "#",
+          "srcset": "https://cdn.prod.website-files.com/6312ee46f4c52faf21ee8ab5/6ab4bd1fbf52ddc3481af066_P18-HRMI-Apr-2025-Staff-1-1920-p-500.jpg 500w, https://cdn.prod.website-files.com/6312ee46f4c52faf21ee8ab5/6ab4bd1fbf52ddc3481af066_P18-HRMI-Apr-2025-Staff-1-1920-p-800.jpg 800w, https://cdn.prod.website-files.com/6312ee46f4c52faf21ee8ab5/6ab4bd1fbf52ddc3481af066_P18-HRMI-Apr-2025-Staff-1-1920-p-1080.jpg 1080w, https://cdn.prod.website-files.com/6312ee46f4c52faf21ee8ab5/6ab4bd1fbf52ddc3481af066_P18-HRMI-Apr-2025-Staff-1-1920-p-1600.jpg 1600w, https://cdn.prod.website-files.com/6312ee46f4c52faf21ee8ab5/6ab4bd1fbf52ddc3481af066_P18-HRMI-Apr-2025-Staff-1-1920.jpg 1920w",
+          "sizes": "(max-width: 1919px) 100vw, 1920px",
+          "pass": true
+        }
+      ],
+      "pass": true
+    },
+    {
+      "id": "P19",
+      "page": "about",
+      "expectedAsset": "https://cdn.prod.website-files.com/6312ee46f4c52faf21ee8ab5/6ab4bd741859cfc75a33edf7_P19-HFI-2026-Staff-1920.jpg",
+      "expectedContext": "about",
+      "expectedAlt": "Four IPMI team members smiling together at an outdoor event",
+      "outcome": "approved replacement",
+      "matchCount": 1,
+      "matches": [
+        {
+          "asset": "https://cdn.prod.website-files.com/6312ee46f4c52faf21ee8ab5/6ab4bd741859cfc75a33edf7_P19-HFI-2026-Staff-1920.jpg",
+          "alt": "Four IPMI team members smiling together at an outdoor event",
+          "classes": "recap-photo hover-scale aspect-4-3",
+          "ancestorIds": ["about"],
+          "link": "#",
+          "srcset": "https://cdn.prod.website-files.com/6312ee46f4c52faf21ee8ab5/6ab4bd741859cfc75a33edf7_P19-HFI-2026-Staff-1920-p-500.jpg 500w, https://cdn.prod.website-files.com/6312ee46f4c52faf21ee8ab5/6ab4bd741859cfc75a33edf7_P19-HFI-2026-Staff-1920-p-800.jpg 800w, https://cdn.prod.website-files.com/6312ee46f4c52faf21ee8ab5/6ab4bd741859cfc75a33edf7_P19-HFI-2026-Staff-1920-p-1080.jpg 1080w, https://cdn.prod.website-files.com/6312ee46f4c52faf21ee8ab5/6ab4bd741859cfc75a33edf7_P19-HFI-2026-Staff-1920-p-1600.jpg 1600w, https://cdn.prod.website-files.com/6312ee46f4c52faf21ee8ab5/6ab4bd741859cfc75a33edf7_P19-HFI-2026-Staff-1920.jpg 1920w",
+          "sizes": "(max-width: 1919px) 100vw, 1920px",
+          "pass": true
+        }
+      ],
+      "pass": true
+    },
+    {
+      "id": "P20",
+      "page": "testimonials",
+      "expectedAsset": "https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4c1a566358d7a1d925a5b_P20-HFI-2026-Casino-Night.jpg",
+      "expectedContext": "hero",
+      "expectedAlt": "Participants smiling with drinks at an outdoor IPMI gathering",
+      "outcome": "approved replacement",
+      "matchCount": 1,
+      "matches": [
+        {
+          "asset": "https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4c1a566358d7a1d925a5b_P20-HFI-2026-Casino-Night.jpg",
+          "alt": "Participants smiling with drinks at an outdoor IPMI gathering",
+          "classes": "bubble-photo bottom left circle front shadow-xl",
+          "ancestorIds": ["hero"],
+          "link": null,
+          "srcset": "https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4c1a566358d7a1d925a5b_P20-HFI-2026-Casino-Night-p-500.jpg 500w, https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4c1a566358d7a1d925a5b_P20-HFI-2026-Casino-Night-p-800.jpg 800w, https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4c1a566358d7a1d925a5b_P20-HFI-2026-Casino-Night-p-1080.jpg 1080w, https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4c1a566358d7a1d925a5b_P20-HFI-2026-Casino-Night-p-1600.jpg 1600w, https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4c1a566358d7a1d925a5b_P20-HFI-2026-Casino-Night.jpg 2560w",
+          "sizes": "(max-width: 479px) 100vw, 400px",
+          "pass": true
+        }
+      ],
+      "pass": true
+    },
+    {
+      "id": "P21",
+      "page": "testimonials",
+      "expectedAsset": "https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4c1a589ec77159551d436_P21-HRMI-Can-2025-Dinner-1.jpg",
+      "expectedContext": "hero",
+      "expectedAlt": "Attendees wearing sunglasses share smiles around an outdoor dinner table",
+      "outcome": "approved replacement",
+      "matchCount": 1,
+      "matches": [
+        {
+          "asset": "https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4c1a589ec77159551d436_P21-HRMI-Can-2025-Dinner-1.jpg",
+          "alt": "Attendees wearing sunglasses share smiles around an outdoor dinner table",
+          "classes": "bubble-photo top right circle shadow-xl",
+          "ancestorIds": ["hero"],
+          "link": null,
+          "srcset": "https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4c1a589ec77159551d436_P21-HRMI-Can-2025-Dinner-1-p-500.jpg 500w, https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4c1a589ec77159551d436_P21-HRMI-Can-2025-Dinner-1-p-800.jpg 800w, https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4c1a589ec77159551d436_P21-HRMI-Can-2025-Dinner-1-p-1080.jpg 1080w, https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4c1a589ec77159551d436_P21-HRMI-Can-2025-Dinner-1-p-1600.jpg 1600w, https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4c1a589ec77159551d436_P21-HRMI-Can-2025-Dinner-1.jpg 2560w",
+          "sizes": "(max-width: 479px) 100vw, 400px",
+          "pass": true
+        }
+      ],
+      "pass": true
+    },
+    {
+      "id": "P22",
+      "page": "faq",
+      "expectedAsset": "https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4c438118f040f8b2c7ec0_P22-HRMI-West-2025-Session-6.jpg",
+      "expectedContext": "hero",
+      "expectedAlt": "Seated speaker wearing a headset microphone during an IPMI session",
+      "outcome": "approved replacement",
+      "matchCount": 1,
+      "matches": [
+        {
+          "asset": "https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4c438118f040f8b2c7ec0_P22-HRMI-West-2025-Session-6.jpg",
+          "alt": "Seated speaker wearing a headset microphone during an IPMI session",
+          "classes": "bubble-photo bottom left circle front shadow-xl",
+          "ancestorIds": ["hero"],
+          "link": null,
+          "srcset": "https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4c438118f040f8b2c7ec0_P22-HRMI-West-2025-Session-6-p-500.jpg 500w, https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4c438118f040f8b2c7ec0_P22-HRMI-West-2025-Session-6-p-800.jpg 800w, https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4c438118f040f8b2c7ec0_P22-HRMI-West-2025-Session-6-p-1080.jpg 1080w, https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4c438118f040f8b2c7ec0_P22-HRMI-West-2025-Session-6-p-1600.jpg 1600w, https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4c438118f040f8b2c7ec0_P22-HRMI-West-2025-Session-6.jpg 2560w",
+          "sizes": "(max-width: 479px) 100vw, 400px",
+          "pass": true
+        }
+      ],
+      "pass": true
+    },
+    {
+      "id": "P23",
+      "page": "faq",
+      "expectedAsset": "https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4c494e4410c930e2e090d_P23-HIT-Jun-2025-Session-3.jpg",
+      "expectedContext": "hero",
+      "expectedAlt": "Seated panelist holding a microphone and notes during an IPMI session",
+      "outcome": "approved replacement",
+      "matchCount": 1,
+      "matches": [
+        {
+          "asset": "https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4c494e4410c930e2e090d_P23-HIT-Jun-2025-Session-3.jpg",
+          "alt": "Seated panelist holding a microphone and notes during an IPMI session",
+          "classes": "bubble-photo top right circle shadow-xl",
+          "ancestorIds": ["hero"],
+          "link": null,
+          "srcset": "https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4c494e4410c930e2e090d_P23-HIT-Jun-2025-Session-3-p-500.jpg 500w, https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4c494e4410c930e2e090d_P23-HIT-Jun-2025-Session-3-p-800.jpg 800w, https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4c494e4410c930e2e090d_P23-HIT-Jun-2025-Session-3-p-1080.jpg 1080w, https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4c494e4410c930e2e090d_P23-HIT-Jun-2025-Session-3-p-1600.jpg 1600w, https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4c494e4410c930e2e090d_P23-HIT-Jun-2025-Session-3.jpg 2560w",
+          "sizes": "(max-width: 479px) 100vw, 400px",
+          "pass": true
+        }
+      ],
+      "pass": true
+    },
+    {
+      "id": "P24",
+      "page": "attend",
+      "expectedAsset": "https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4c705655ed43be06ebd36_P24-CLDI-Apr-2025-Dinner-12.jpg",
+      "expectedContext": "hero",
+      "expectedAlt": "Attendees networking outdoors around a cocktail table at sunset",
+      "outcome": "approved replacement",
+      "matchCount": 1,
+      "matches": [
+        {
+          "asset": "https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4c705655ed43be06ebd36_P24-CLDI-Apr-2025-Dinner-12.jpg",
+          "alt": "Attendees networking outdoors around a cocktail table at sunset",
+          "classes": "bubble-photo bottom left circle front shadow-xl",
+          "ancestorIds": ["hero"],
+          "link": null,
+          "srcset": "https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4c705655ed43be06ebd36_P24-CLDI-Apr-2025-Dinner-12-p-500.jpg 500w, https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4c705655ed43be06ebd36_P24-CLDI-Apr-2025-Dinner-12-p-800.jpg 800w, https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4c705655ed43be06ebd36_P24-CLDI-Apr-2025-Dinner-12-p-1080.jpg 1080w, https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4c705655ed43be06ebd36_P24-CLDI-Apr-2025-Dinner-12-p-1600.jpg 1600w, https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4c705655ed43be06ebd36_P24-CLDI-Apr-2025-Dinner-12.jpg 2560w",
+          "sizes": "(max-width: 479px) 100vw, 400px",
+          "pass": true
+        }
+      ],
+      "pass": true
+    },
+    {
+      "id": "P25",
+      "page": "attend",
+      "expectedAsset": "https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4c776b9f31bbef1a63b13_P25-HR-East-2026-Session-6.jpg",
+      "expectedContext": "hero",
+      "expectedAlt": "Speaker wearing a headset microphone and holding a presentation remote",
+      "outcome": "approved replacement",
+      "matchCount": 1,
+      "matches": [
+        {
+          "asset": "https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4c776b9f31bbef1a63b13_P25-HR-East-2026-Session-6.jpg",
+          "alt": "Speaker wearing a headset microphone and holding a presentation remote",
+          "classes": "bubble-photo top right circle shadow-xl",
+          "ancestorIds": ["hero"],
+          "link": null,
+          "srcset": "https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4c776b9f31bbef1a63b13_P25-HR-East-2026-Session-6-p-500.jpg 500w, https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4c776b9f31bbef1a63b13_P25-HR-East-2026-Session-6-p-800.jpg 800w, https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4c776b9f31bbef1a63b13_P25-HR-East-2026-Session-6-p-1080.jpg 1080w, https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4c776b9f31bbef1a63b13_P25-HR-East-2026-Session-6-p-1600.jpg 1600w, https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4c776b9f31bbef1a63b13_P25-HR-East-2026-Session-6.jpg 2560w",
+          "sizes": "(max-width: 479px) 100vw, 400px",
+          "pass": true
+        }
+      ],
+      "pass": true
+    },
+    {
+      "id": "P26",
+      "page": "contact",
+      "expectedAsset": "https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/63c4d1501c2178619dd30322_Contact-Bubble-3.webp",
+      "expectedContext": "hero",
+      "expectedAlt": "IPMI Staff assisting Attendees",
+      "outcome": "retained approved Contact front",
+      "matchCount": 1,
+      "matches": [
+        {
+          "asset": "https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/63c4d1501c2178619dd30322_Contact-Bubble-3.webp",
+          "alt": "IPMI Staff assisting Attendees",
+          "classes": "bubble-photo bottom left circle front shadow-xl",
+          "ancestorIds": ["hero"],
+          "link": null,
+          "srcset": null,
+          "sizes": null,
+          "pass": true
+        }
+      ],
+      "pass": true
+    },
+    {
+      "id": "P27",
+      "page": "contact",
+      "expectedAsset": "https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4ca6019adb9f0df002db6_P27-HIT-2024-Dinner.jpg",
+      "expectedContext": "hero",
+      "expectedAlt": "Two attendees smiling and holding drinks at the HIT 2024 dinner",
+      "outcome": "approved replacement",
+      "matchCount": 1,
+      "matches": [
+        {
+          "asset": "https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4ca6019adb9f0df002db6_P27-HIT-2024-Dinner.jpg",
+          "alt": "Two attendees smiling and holding drinks at the HIT 2024 dinner",
+          "classes": "bubble-photo top right circle shadow-xl",
+          "ancestorIds": ["hero"],
+          "link": null,
+          "srcset": "https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4ca6019adb9f0df002db6_P27-HIT-2024-Dinner-p-500.jpg 500w, https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4ca6019adb9f0df002db6_P27-HIT-2024-Dinner-p-800.jpg 800w, https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4ca6019adb9f0df002db6_P27-HIT-2024-Dinner-p-1080.jpg 1080w, https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4ca6019adb9f0df002db6_P27-HIT-2024-Dinner-p-1600.jpg 1600w, https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4ca6019adb9f0df002db6_P27-HIT-2024-Dinner.jpg 2560w",
+          "sizes": "(max-width: 479px) 100vw, 400px",
+          "pass": true
+        }
+      ],
+      "pass": true
+    }
+  ],
+  "assetChecks": [
+    {
+      "id": "P01",
+      "url": "https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4ad4da11c8b3bd07ffa38_P01-Innovative-Ideas-Front-Bubble.jpg",
+      "status": 200,
+      "contentType": "image/jpeg",
+      "contentLength": "369309",
+      "pass": true
+    },
+    {
+      "id": "P02",
+      "url": "https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4ad4e118f040f8b24dd68_P02-HIT-Jun-2025-Think-Tank-9.jpg",
+      "status": 200,
+      "contentType": "image/jpeg",
+      "contentLength": "430938",
+      "pass": true
+    },
+    {
+      "id": "P03",
+      "url": "https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4ad4e67be61a871ef0885_P03-HCHR-Mar-2025-Session-22.jpg",
+      "status": 200,
+      "contentType": "image/jpeg",
+      "contentLength": "410092",
+      "pass": true
+    },
+    {
+      "id": "P04",
+      "url": "https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4ad4dbce50bba4e8f79d4_P04-HRMI-West-2025-Think-Tank-7.jpg",
+      "status": 200,
+      "contentType": "image/jpeg",
+      "contentLength": "265095",
+      "pass": true
+    },
+    {
+      "id": "P05",
+      "url": "https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4b14b89ec7715954bd6d1_P05-HR-East-2026-Session-2.jpg",
+      "status": 200,
+      "contentType": "image/jpeg",
+      "contentLength": "259768",
+      "pass": true
+    },
+    {
+      "id": "P06",
+      "url": "https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4b14c3c45253949502846_P06-HR-Central-2024-Dinner.jpg",
+      "status": 200,
+      "contentType": "image/jpeg",
+      "contentLength": "640692",
+      "pass": true
+    },
+    {
+      "id": "P07",
+      "url": "https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4b14cda6412ca2ac37a85_P07-HR-East-2026-Session-9.jpg",
+      "status": 200,
+      "contentType": "image/jpeg",
+      "contentLength": "274537",
+      "pass": true
+    },
+    {
+      "id": "P08",
+      "url": "https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4b14b10198c9b1043170a_P08-HRMI-West-2025-Think-Tank-5.jpg",
+      "status": 200,
+      "contentType": "image/jpeg",
+      "contentLength": "249626",
+      "pass": true
+    },
+    {
+      "id": "P09",
+      "url": "https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4b14b065ea59f68522cca_P09-CLDI-Apr-2025-Think-Tank-9.jpg",
+      "status": 200,
+      "contentType": "image/jpeg",
+      "contentLength": "288681",
+      "pass": true
+    },
+    {
+      "id": "P10",
+      "url": "https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4b4b02a5eb1c3401b943c_P10-HRMI-Central-2024-Session-1.jpg",
+      "status": 200,
+      "contentType": "image/jpeg",
+      "contentLength": "360280",
+      "pass": true
+    },
+    {
+      "id": "P11",
+      "url": "https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4b6bc009285801122e517_P11-HCHR-Mar-2025-Dinner-20.jpg",
+      "status": 200,
+      "contentType": "image/jpeg",
+      "contentLength": "342417",
+      "pass": true
+    },
+    {
+      "id": "P12",
+      "url": "https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4b6be6f37170719534329_P12-HRMI-Central-2024-Session-2.jpg",
+      "status": 200,
+      "contentType": "image/jpeg",
+      "contentLength": "420008",
+      "pass": true
+    },
+    {
+      "id": "P13",
+      "url": "https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4b6beeae4404f8475938c_P13-HIT-2024-Scenic.jpg",
+      "status": 200,
+      "contentType": "image/jpeg",
+      "contentLength": "776220",
+      "pass": true
+    },
+    {
+      "id": "P14",
+      "url": "https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4b6be655ed43be067d947_P14-SOI-2024-Dinner.jpg",
+      "status": 200,
+      "contentType": "image/jpeg",
+      "contentLength": "567227",
+      "pass": true
+    },
+    {
+      "id": "P15",
+      "url": "https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4b990eae4404f847681a0_P15-Indeed-Pasta-Making-Roundtable.jpg",
+      "status": 200,
+      "contentType": "image/jpeg",
+      "contentLength": "348221",
+      "pass": true
+    },
+    {
+      "id": "P16",
+      "url": "https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4bc33655ed43be069d72e_P16-HCHR-Mar-2025-Session-16.jpg",
+      "status": 200,
+      "contentType": "image/jpeg",
+      "contentLength": "347717",
+      "pass": true
+    },
+    {
+      "id": "P17",
+      "url": "https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4bc32bce50bba4e943d27_P17-HCHR-March-2024-Staff-1.jpg",
+      "status": 200,
+      "contentType": "image/jpeg",
+      "contentLength": "276092",
+      "pass": true
+    },
+    {
+      "id": "P18",
+      "url": "https://cdn.prod.website-files.com/6312ee46f4c52faf21ee8ab5/6ab4bd1fbf52ddc3481af066_P18-HRMI-Apr-2025-Staff-1-1920.jpg",
+      "status": 200,
+      "contentType": "image/jpeg",
+      "contentLength": "610259",
+      "pass": true
+    },
+    {
+      "id": "P19",
+      "url": "https://cdn.prod.website-files.com/6312ee46f4c52faf21ee8ab5/6ab4bd741859cfc75a33edf7_P19-HFI-2026-Staff-1920.jpg",
+      "status": 200,
+      "contentType": "image/jpeg",
+      "contentLength": "671029",
+      "pass": true
+    },
+    {
+      "id": "P20",
+      "url": "https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4c1a566358d7a1d925a5b_P20-HFI-2026-Casino-Night.jpg",
+      "status": 200,
+      "contentType": "image/jpeg",
+      "contentLength": "492471",
+      "pass": true
+    },
+    {
+      "id": "P21",
+      "url": "https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4c1a589ec77159551d436_P21-HRMI-Can-2025-Dinner-1.jpg",
+      "status": 200,
+      "contentType": "image/jpeg",
+      "contentLength": "408340",
+      "pass": true
+    },
+    {
+      "id": "P22",
+      "url": "https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4c438118f040f8b2c7ec0_P22-HRMI-West-2025-Session-6.jpg",
+      "status": 200,
+      "contentType": "image/jpeg",
+      "contentLength": "294129",
+      "pass": true
+    },
+    {
+      "id": "P23",
+      "url": "https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4c494e4410c930e2e090d_P23-HIT-Jun-2025-Session-3.jpg",
+      "status": 200,
+      "contentType": "image/jpeg",
+      "contentLength": "251738",
+      "pass": true
+    },
+    {
+      "id": "P24",
+      "url": "https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4c705655ed43be06ebd36_P24-CLDI-Apr-2025-Dinner-12.jpg",
+      "status": 200,
+      "contentType": "image/jpeg",
+      "contentLength": "291038",
+      "pass": true
+    },
+    {
+      "id": "P25",
+      "url": "https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4c776b9f31bbef1a63b13_P25-HR-East-2026-Session-6.jpg",
+      "status": 200,
+      "contentType": "image/jpeg",
+      "contentLength": "286562",
+      "pass": true
+    },
+    {
+      "id": "P26",
+      "url": "https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/63c4d1501c2178619dd30322_Contact-Bubble-3.webp",
+      "status": 200,
+      "contentType": "image/webp",
+      "contentLength": "19330",
+      "pass": true
+    },
+    {
+      "id": "P27",
+      "url": "https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4ca6019adb9f0df002db6_P27-HIT-2024-Dinner.jpg",
+      "status": 200,
+      "contentType": "image/jpeg",
+      "contentLength": "405545",
+      "pass": true
+    }
+  ]
+}

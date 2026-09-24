@@ -1,5 +1,7 @@
 # 17 — Institute chair-sponsor logo and description
 
+> **Current task 37 handoff — September 24, 2026:** Current EHS has real Benchmark Gensuite chair content and a 300px native website link from the separate approved client-feedback task. GCI retains the neutral unlinked 200px example. Earlier only-GCI/ordinary-blank observations are historical. See [final evidence](evidence/task37/README.md) and [current replacement guide](PLACEHOLDERS.md).
+
 [Back to master](README.md)
 
 **Owner:** BWC / Webflow implementer; IPMI supplies sponsor assignment and approved description. **Status:** Native feature staged for review September 24, 2026, with an explicitly labeled neutral placeholder. Final sponsor identity, artwork and copy approval remain pending. [Implementation evidence and exact replacement procedure](evidence/task17/README.md).

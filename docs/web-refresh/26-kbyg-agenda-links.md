@@ -1,5 +1,7 @@
 # 26 — KBYG agenda cards and full-agenda link
 
+> **Current task 37 handoff — September 24, 2026:** User clarification supersedes the earlier compact-only presentation: keep agenda DAY CARDS AND the full PDF link. Current HCHR both audiences and EHS Delegate have three cards each; 16 pages have linked native agendas and 38 remain pending. All 43 blocks are preserved. Task 37 verifies navigation and resolves the old repository check failures. The implementation plan and 14/40 completion record below describe the earlier task 26 state, not current instructions to hide the cards. See [final evidence](evidence/task37/README.md) and [current replacement guide](PLACEHOLDERS.md).
+
 [Back to master](README.md)
 
 ## Current requirement — September 24, 2026 clarification

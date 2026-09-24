@@ -1,5 +1,7 @@
 # 22 — Chatbot knowledge, terminology, links and training
 
+> **Current task 37 handoff — September 24, 2026:** The prepared event pack remains unapplied and dated. EHS is now released (On the Horizon false); the current 26-event calendar has seven released / 19 Horizon. Refresh this fact from current CMS before any eventual provider import. Isolation and actual training/regression acceptance remain open. See [final evidence](evidence/task37/README.md) and [current replacement guide](PLACEHOLDERS.md).
+
 [Back to master](README.md)
 
 - **Owner:** Bryan / chatbot configuration; IPMI marketing and event owners approve factual answers and event routing.

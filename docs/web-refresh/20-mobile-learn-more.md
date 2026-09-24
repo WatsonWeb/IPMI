@@ -1,5 +1,7 @@
 # 20 — Mobile “Learn More About IPMI” button
 
+> **Current task 37 handoff — September 24, 2026:** Task 37 corrected the inherited shared 768px navbar overflow with scoped CSS; final settled breakpoints fit. Earlier navbar-deferral and production-href observations are historical. See [final evidence](evidence/task37/README.md) and [current replacement guide](PLACEHOLDERS.md).
+
 [Back to master](README.md)
 
 **Owner:** BWC / Webflow implementer. **Status:** Staged for review — mobile destination repaired and verified September 24, 2026.

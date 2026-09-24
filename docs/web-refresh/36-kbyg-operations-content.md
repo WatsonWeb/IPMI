@@ -1,5 +1,7 @@
 # 36 — IPMI dependency: Operations copy and KBYG event coverage
 
+> **Current task 37 handoff — September 24, 2026:** All 50 prepared missing pages were subsequently created, for 54 pages / 27 pairs. Four EHS Delegate placeholder fields were superseded by concurrent Operations copy; current EHS reservation includes $369 and three day cards plus PDF are preserved. Use task 37 current registers rather than restoring earlier blank copy/refs or old slugs. Current content approval remains separate. See [final evidence](evidence/task37/README.md) and [current replacement guide](PLACEHOLDERS.md).
+
 [Back to master](README.md)
 
 **Owner:** IPMI Operations supplies/approves event coverage and content; BWC maps approved content into existing CMS structures. **Status:** Provisional handoff and EHS scope corrections staged; final Operations approval remains pending.

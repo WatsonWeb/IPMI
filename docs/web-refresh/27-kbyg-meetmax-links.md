@@ -1,5 +1,7 @@
 # 27 — KBYG MeetMax links
 
+> **Current task 37 handoff — September 24, 2026:** Use task 37 current-destinations.json for current slugs, flags and body values. The 54-page / 81-purpose requirement remains pending; concurrent EHS Delegate copy removed its earlier appended pending paragraph. Existing email fallback is still not a verified MeetMax URL. Earlier staging-only exposure is historical. See [final evidence](evidence/task37/README.md) and [current replacement guide](PLACEHOLDERS.md).
+
 [Back to master](README.md)
 
 - **Owner:** IPMI Operations supplies verified destinations; Bryan applies native CMS field/link updates.

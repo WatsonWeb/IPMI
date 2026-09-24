@@ -1,0 +1,1013 @@
+{
+  "capturedAt": "2026-09-24T16:31:14.668Z",
+  "release": "04eca109c5b572080313622df04aeb57fc433bdc",
+  "homeBreakpoints": [
+    {
+      "nav": [
+        {
+          "class": "nav-container",
+          "display": "flex",
+          "left": 20,
+          "right": 300
+        },
+        {
+          "class": "desktop-menu w-nav-menu",
+          "display": "none",
+          "left": 0,
+          "right": 0
+        },
+        {
+          "class": "nav-button button w-button",
+          "display": "inline-block",
+          "left": 0,
+          "right": 0
+        }
+      ],
+      "scrollWidth": 320,
+      "url": "https://ipmi.webflow.io/",
+      "width": 320
+    },
+    {
+      "nav": [
+        {
+          "class": "nav-container",
+          "display": "flex",
+          "left": 20,
+          "right": 355
+        },
+        {
+          "class": "desktop-menu w-nav-menu",
+          "display": "none",
+          "left": 0,
+          "right": 0
+        },
+        {
+          "class": "nav-button button w-button",
+          "display": "inline-block",
+          "left": 0,
+          "right": 0
+        }
+      ],
+      "scrollWidth": 375,
+      "url": "https://ipmi.webflow.io/",
+      "width": 375
+    },
+    {
+      "nav": [
+        {
+          "class": "nav-container",
+          "display": "flex",
+          "left": 20,
+          "right": 370
+        },
+        {
+          "class": "desktop-menu w-nav-menu",
+          "display": "none",
+          "left": 0,
+          "right": 0
+        },
+        {
+          "class": "nav-button button w-button",
+          "display": "inline-block",
+          "left": 0,
+          "right": 0
+        }
+      ],
+      "scrollWidth": 390,
+      "url": "https://ipmi.webflow.io/",
+      "width": 390
+    },
+    {
+      "nav": [
+        {
+          "class": "nav-container",
+          "display": "flex",
+          "left": 20,
+          "right": 459
+        },
+        {
+          "class": "desktop-menu w-nav-menu",
+          "display": "none",
+          "left": 0,
+          "right": 0
+        },
+        {
+          "class": "nav-button button w-button",
+          "display": "inline-block",
+          "left": 0,
+          "right": 0
+        }
+      ],
+      "scrollWidth": 479,
+      "url": "https://ipmi.webflow.io/",
+      "width": 479
+    },
+    {
+      "nav": [
+        {
+          "class": "nav-container",
+          "display": "flex",
+          "left": 50,
+          "right": 430
+        },
+        {
+          "class": "desktop-menu w-nav-menu",
+          "display": "none",
+          "left": 0,
+          "right": 0
+        },
+        {
+          "class": "nav-button button w-button",
+          "display": "inline-block",
+          "left": 0,
+          "right": 0
+        }
+      ],
+      "scrollWidth": 480,
+      "url": "https://ipmi.webflow.io/",
+      "width": 480
+    },
+    {
+      "nav": [
+        {
+          "class": "nav-container",
+          "display": "flex",
+          "left": 50,
+          "right": 717
+        },
+        {
+          "class": "desktop-menu w-nav-menu",
+          "display": "none",
+          "left": 0,
+          "right": 0
+        },
+        {
+          "class": "nav-button button w-button",
+          "display": "inline-block",
+          "left": 0,
+          "right": 0
+        }
+      ],
+      "scrollWidth": 767,
+      "url": "https://ipmi.webflow.io/",
+      "width": 767
+    },
+    {
+      "nav": [
+        {
+          "class": "nav-container",
+          "display": "flex",
+          "left": 20,
+          "right": 748
+        },
+        {
+          "class": "desktop-menu w-nav-menu",
+          "display": "flex",
+          "left": 22,
+          "right": 745.984375
+        },
+        {
+          "class": "nav-button button w-button",
+          "display": "block",
+          "left": 536.40625,
+          "right": 745.984375
+        }
+      ],
+      "scrollWidth": 768,
+      "url": "https://ipmi.webflow.io/",
+      "width": 768
+    },
+    {
+      "nav": [
+        {
+          "class": "nav-container",
+          "display": "flex",
+          "left": 20,
+          "right": 971
+        },
+        {
+          "class": "desktop-menu w-nav-menu",
+          "display": "flex",
+          "left": 133.5,
+          "right": 857.484375
+        },
+        {
+          "class": "nav-button button w-button",
+          "display": "block",
+          "left": 647.90625,
+          "right": 857.484375
+        }
+      ],
+      "scrollWidth": 991,
+      "url": "https://ipmi.webflow.io/",
+      "width": 991
+    },
+    {
+      "nav": [
+        {
+          "class": "nav-container",
+          "display": "flex",
+          "left": 50,
+          "right": 942
+        },
+        {
+          "class": "desktop-menu w-nav-menu",
+          "display": "flex",
+          "left": 92.9375,
+          "right": 899.0625
+        },
+        {
+          "class": "nav-button button w-button",
+          "display": "block",
+          "left": 652.703125,
+          "right": 899.0625
+        }
+      ],
+      "scrollWidth": 1082,
+      "url": "https://ipmi.webflow.io/",
+      "width": 992
+    },
+    {
+      "nav": [
+        {
+          "class": "nav-container",
+          "display": "flex",
+          "left": 64,
+          "right": 1376
+        },
+        {
+          "class": "desktop-menu w-nav-menu",
+          "display": "flex",
+          "left": 452.78125,
+          "right": 1376
+        },
+        {
+          "class": "nav-button button w-button",
+          "display": "block",
+          "left": 1116.25,
+          "right": 1376
+        }
+      ],
+      "scrollWidth": 1440,
+      "url": "https://ipmi.webflow.io/",
+      "width": 1440
+    },
+    {
+      "note": "Settled 992px layout after Swiper resize",
+      "scrollWidth": 992,
+      "url": "https://ipmi.webflow.io/",
+      "width": 992
+    }
+  ],
+  "staticMatrix": [
+    {
+      "brokenLoadedImages": [],
+      "h1": "Fostering Conversations, Connections, and Collaboration.",
+      "scrollWidth": 390,
+      "url": "https://ipmi.webflow.io/",
+      "width": 390
+    },
+    {
+      "brokenLoadedImages": [],
+      "h1": "Fostering Conversations, Connections, and Collaboration.",
+      "scrollWidth": 768,
+      "url": "https://ipmi.webflow.io/",
+      "width": 768
+    },
+    {
+      "brokenLoadedImages": [],
+      "h1": "Fostering Conversations, Connections, and Collaboration.",
+      "scrollWidth": 1440,
+      "url": "https://ipmi.webflow.io/",
+      "width": 1440
+    },
+    {
+      "brokenLoadedImages": [],
+      "h1": "Top Executives.‍Industry-Leading Ideas.‍Luxury Settings.",
+      "scrollWidth": 390,
+      "url": "https://ipmi.webflow.io/institutes",
+      "width": 390
+    },
+    {
+      "brokenLoadedImages": [],
+      "h1": "Top Executives.‍Industry-Leading Ideas.‍Luxury Settings.",
+      "scrollWidth": 768,
+      "url": "https://ipmi.webflow.io/institutes",
+      "width": 768
+    },
+    {
+      "brokenLoadedImages": [],
+      "h1": "Top Executives.‍Industry-Leading Ideas.‍Luxury Settings.",
+      "scrollWidth": 1440,
+      "url": "https://ipmi.webflow.io/institutes",
+      "width": 1440
+    },
+    {
+      "brokenLoadedImages": [],
+      "h1": "Incredible Institutes That Deliver Immediate Impact.",
+      "scrollWidth": 390,
+      "url": "https://ipmi.webflow.io/recent-institutes",
+      "width": 390
+    },
+    {
+      "brokenLoadedImages": [],
+      "h1": "Incredible Institutes That Deliver Immediate Impact.",
+      "scrollWidth": 768,
+      "url": "https://ipmi.webflow.io/recent-institutes",
+      "width": 768
+    },
+    {
+      "brokenLoadedImages": [],
+      "h1": "Incredible Institutes That Deliver Immediate Impact.",
+      "scrollWidth": 1440,
+      "url": "https://ipmi.webflow.io/recent-institutes",
+      "width": 1440
+    },
+    {
+      "brokenLoadedImages": [],
+      "h1": "Showcasing the IPMI Institute Experience.",
+      "scrollWidth": 390,
+      "url": "https://ipmi.webflow.io/gallery",
+      "width": 390
+    },
+    {
+      "brokenLoadedImages": [],
+      "h1": "Showcasing the IPMI Institute Experience.",
+      "scrollWidth": 768,
+      "url": "https://ipmi.webflow.io/gallery",
+      "width": 768
+    },
+    {
+      "brokenLoadedImages": [],
+      "h1": "Showcasing the IPMI Institute Experience.",
+      "scrollWidth": 1440,
+      "url": "https://ipmi.webflow.io/gallery",
+      "width": 1440
+    },
+    {
+      "brokenLoadedImages": [],
+      "h1": "A Relatable, Responsive, and Real-Time Platform.",
+      "scrollWidth": 390,
+      "url": "https://ipmi.webflow.io/thinktanks",
+      "width": 390
+    },
+    {
+      "brokenLoadedImages": [],
+      "h1": "A Relatable, Responsive, and Real-Time Platform.",
+      "scrollWidth": 768,
+      "url": "https://ipmi.webflow.io/thinktanks",
+      "width": 768
+    },
+    {
+      "brokenLoadedImages": [],
+      "h1": "A Relatable, Responsive, and Real-Time Platform.",
+      "scrollWidth": 1440,
+      "url": "https://ipmi.webflow.io/thinktanks",
+      "width": 1440
+    },
+    {
+      "brokenLoadedImages": [],
+      "h1": "International PerformanceManagement Institute.",
+      "scrollWidth": 390,
+      "url": "https://ipmi.webflow.io/about",
+      "width": 390
+    },
+    {
+      "brokenLoadedImages": [],
+      "h1": "International PerformanceManagement Institute.",
+      "scrollWidth": 768,
+      "url": "https://ipmi.webflow.io/about",
+      "width": 768
+    },
+    {
+      "brokenLoadedImages": [],
+      "h1": "International PerformanceManagement Institute.",
+      "scrollWidth": 1440,
+      "url": "https://ipmi.webflow.io/about",
+      "width": 1440
+    },
+    {
+      "brokenLoadedImages": [],
+      "h1": "Feedback from our Spectacular Guests. ",
+      "scrollWidth": 390,
+      "url": "https://ipmi.webflow.io/testimonials",
+      "width": 390
+    },
+    {
+      "brokenLoadedImages": [],
+      "h1": "Feedback from our Spectacular Guests. ",
+      "scrollWidth": 768,
+      "url": "https://ipmi.webflow.io/testimonials",
+      "width": 768
+    },
+    {
+      "brokenLoadedImages": [],
+      "h1": "Feedback from our Spectacular Guests. ",
+      "scrollWidth": 1440,
+      "url": "https://ipmi.webflow.io/testimonials",
+      "width": 1440
+    },
+    {
+      "brokenLoadedImages": [],
+      "h1": "Got Questions?We have the Answers.",
+      "scrollWidth": 390,
+      "url": "https://ipmi.webflow.io/faq",
+      "width": 390
+    },
+    {
+      "brokenLoadedImages": [],
+      "h1": "Got Questions?We have the Answers.",
+      "scrollWidth": 768,
+      "url": "https://ipmi.webflow.io/faq",
+      "width": 768
+    },
+    {
+      "brokenLoadedImages": [],
+      "h1": "Got Questions?We have the Answers.",
+      "scrollWidth": 1440,
+      "url": "https://ipmi.webflow.io/faq",
+      "width": 1440
+    },
+    {
+      "brokenLoadedImages": [],
+      "h1": "Take part in a Unique and Unparalleled Experience.",
+      "scrollWidth": 390,
+      "url": "https://ipmi.webflow.io/attend",
+      "width": 390
+    },
+    {
+      "brokenLoadedImages": [],
+      "h1": "Take part in a Unique and Unparalleled Experience.",
+      "scrollWidth": 768,
+      "url": "https://ipmi.webflow.io/attend",
+      "width": 768
+    },
+    {
+      "brokenLoadedImages": [],
+      "h1": "Take part in a Unique and Unparalleled Experience.",
+      "scrollWidth": 1440,
+      "url": "https://ipmi.webflow.io/attend",
+      "width": 1440
+    },
+    {
+      "brokenLoadedImages": [],
+      "h1": "Come say \"Hello!\"We're excited to hear from you.",
+      "scrollWidth": 390,
+      "url": "https://ipmi.webflow.io/contact",
+      "width": 390
+    },
+    {
+      "brokenLoadedImages": [],
+      "h1": "Come say \"Hello!\"We're excited to hear from you.",
+      "scrollWidth": 390,
+      "url": "https://ipmi.webflow.io/contact",
+      "width": 390
+    },
+    {
+      "brokenLoadedImages": [],
+      "h1": "Come say \"Hello!\"We're excited to hear from you.",
+      "scrollWidth": 390,
+      "url": "https://ipmi.webflow.io/contact",
+      "width": 390
+    },
+    {
+      "brokenLoadedImages": [],
+      "h1": "Come say \"Hello!\"We're excited to hear from you.",
+      "scrollWidth": 768,
+      "url": "https://ipmi.webflow.io/contact",
+      "width": 768
+    },
+    {
+      "brokenLoadedImages": [],
+      "h1": "Come say \"Hello!\"We're excited to hear from you.",
+      "scrollWidth": 1440,
+      "url": "https://ipmi.webflow.io/contact",
+      "width": 1440
+    },
+    {
+      "brokenLoadedImages": [],
+      "h1": "Healthcare IT Institute",
+      "scrollWidth": 390,
+      "url": "https://ipmi.webflow.io/institutes/hit-2027",
+      "width": 390
+    },
+    {
+      "brokenLoadedImages": [],
+      "h1": "Healthcare IT Institute",
+      "scrollWidth": 768,
+      "url": "https://ipmi.webflow.io/institutes/hit-2027",
+      "width": 768
+    },
+    {
+      "brokenLoadedImages": [],
+      "h1": "Healthcare IT Institute",
+      "scrollWidth": 1440,
+      "url": "https://ipmi.webflow.io/institutes/hit-2027",
+      "width": 1440
+    },
+    {
+      "brokenLoadedImages": [],
+      "h1": "EHS Management Institute",
+      "scrollWidth": 390,
+      "url": "https://ipmi.webflow.io/institutes/ehs-jan-2027",
+      "width": 390
+    },
+    {
+      "brokenLoadedImages": [],
+      "h1": "EHS Management Institute",
+      "scrollWidth": 768,
+      "url": "https://ipmi.webflow.io/institutes/ehs-jan-2027",
+      "width": 768
+    },
+    {
+      "brokenLoadedImages": [],
+      "h1": "EHS Management Institute",
+      "scrollWidth": 1440,
+      "url": "https://ipmi.webflow.io/institutes/ehs-jan-2027",
+      "width": 1440
+    },
+    {
+      "brokenLoadedImages": [],
+      "h1": "Future Institutes Shaping Tomorrow’s Leaders.",
+      "scrollWidth": 390,
+      "url": "https://ipmi.webflow.io/institutes-on-the-horizon",
+      "width": 390
+    },
+    {
+      "brokenLoadedImages": [],
+      "h1": "Future Institutes Shaping Tomorrow’s Leaders.",
+      "scrollWidth": 768,
+      "url": "https://ipmi.webflow.io/institutes-on-the-horizon",
+      "width": 768
+    },
+    {
+      "brokenLoadedImages": [],
+      "h1": "Future Institutes Shaping Tomorrow’s Leaders.",
+      "scrollWidth": 1440,
+      "url": "https://ipmi.webflow.io/institutes-on-the-horizon",
+      "width": 1440
+    }
+  ],
+  "calendarMonths": [
+    ["Institutes calendar", "October 2026", "Saturday, October 24, 2026"],
+    ["Institutes calendar", "November 2026", "Tuesday, November 24, 2026"],
+    ["Institutes calendar", "December 2026", "Thursday, December 24, 2026"],
+    ["Institutes calendar", "January 2027", "Sunday, January 24, 2027", "EHS Management Institute"],
+    ["Institutes calendar", "February 2027", "Wednesday, February 24, 2027"],
+    ["Institutes calendar", "March 2027", "Wednesday, March 24, 2027"],
+    ["Institutes calendar", "April 2027", "Saturday, April 24, 2027"],
+    ["Institutes calendar", "May 2027", "Monday, May 24, 2027"],
+    ["Institutes calendar", "June 2027", "Thursday, June 24, 2027"],
+    ["Institutes calendar", "July 2027", "Saturday, July 24, 2027"],
+    ["Institutes calendar", "August 2027", "Tuesday, August 24, 2027"],
+    ["Institutes calendar", "September 2027", "Friday, September 24, 2027"],
+    ["Institutes calendar", "October 2027", "Sunday, October 24, 2027"],
+    ["Institutes calendar", "November 2027", "Wednesday, November 24, 2027"],
+    ["Institutes calendar", "December 2027", "Friday, December 24, 2027"]
+  ],
+  "calendarWidths": [
+    {
+      "client": 304,
+      "dialogWidth": 304,
+      "scroll": 304,
+      "width": 320
+    },
+    {
+      "client": 359,
+      "dialogWidth": 359,
+      "scroll": 359,
+      "width": 375
+    },
+    {
+      "client": 374,
+      "dialogWidth": 374,
+      "scroll": 374,
+      "width": 390
+    },
+    {
+      "client": 463,
+      "dialogWidth": 463,
+      "scroll": 463,
+      "width": 479
+    },
+    {
+      "client": 464,
+      "dialogWidth": 464,
+      "scroll": 464,
+      "width": 480
+    },
+    {
+      "client": 704,
+      "dialogWidth": 704,
+      "scroll": 704,
+      "width": 767
+    },
+    {
+      "client": 704,
+      "dialogWidth": 704,
+      "scroll": 704,
+      "width": 768
+    },
+    {
+      "client": 704,
+      "dialogWidth": 704,
+      "scroll": 704,
+      "width": 991
+    },
+    {
+      "client": 704,
+      "dialogWidth": 704,
+      "scroll": 704,
+      "width": 992
+    },
+    {
+      "client": 704,
+      "dialogWidth": 704,
+      "scroll": 704,
+      "width": 1440
+    }
+  ],
+  "kbygMatrix": [
+    {
+      "agendaCards": 3,
+      "audience": "delegate",
+      "dates": ["JUL29", "AUG19", "AUG19", "AUG24"],
+      "empty": [],
+      "experienceHeight": 1159.5,
+      "metadataImages": 2,
+      "scrollWidth": 390,
+      "url": "https://ipmi.webflow.io/know-before-you-go/hchr-sept-2026-delegate",
+      "width": 390
+    },
+    {
+      "agendaCards": 3,
+      "audience": "delegate",
+      "dates": ["JUL29", "AUG19", "AUG19", "AUG24"],
+      "empty": [],
+      "experienceHeight": 845,
+      "metadataImages": 2,
+      "scrollWidth": 768,
+      "url": "https://ipmi.webflow.io/know-before-you-go/hchr-sept-2026-delegate",
+      "width": 768
+    },
+    {
+      "agendaCards": 3,
+      "audience": "delegate",
+      "dates": ["JUL29", "AUG19", "AUG19", "AUG24"],
+      "empty": [],
+      "experienceHeight": 532,
+      "metadataImages": 2,
+      "scrollWidth": 1440,
+      "url": "https://ipmi.webflow.io/know-before-you-go/hchr-sept-2026-delegate",
+      "width": 1440
+    },
+    {
+      "agendaCards": 3,
+      "audience": "sponsor",
+      "dates": ["JUL22", "AUG14", "AUG14", "AUG26"],
+      "empty": [],
+      "experienceHeight": 2591.78125,
+      "metadataImages": 2,
+      "scrollWidth": 390,
+      "url": "https://ipmi.webflow.io/know-before-you-go/hchr-sept-2026-sponsor",
+      "width": 390
+    },
+    {
+      "agendaCards": 3,
+      "audience": "sponsor",
+      "dates": ["JUL22", "AUG14", "AUG14", "AUG26"],
+      "empty": [],
+      "experienceHeight": 1900.890625,
+      "metadataImages": 2,
+      "scrollWidth": 768,
+      "url": "https://ipmi.webflow.io/know-before-you-go/hchr-sept-2026-sponsor",
+      "width": 768
+    },
+    {
+      "agendaCards": 3,
+      "audience": "sponsor",
+      "dates": ["JUL22", "AUG14", "AUG14", "AUG26"],
+      "empty": [],
+      "experienceHeight": 1080,
+      "metadataImages": 2,
+      "scrollWidth": 1440,
+      "url": "https://ipmi.webflow.io/know-before-you-go/hchr-sept-2026-sponsor",
+      "width": 1440
+    },
+    {
+      "agendaCards": 3,
+      "audience": "delegate",
+      "dates": ["DEC18", "DEC18", "JAN13", "JAN14"],
+      "empty": [],
+      "experienceHeight": 1159.5,
+      "metadataImages": 2,
+      "scrollWidth": 390,
+      "url": "https://ipmi.webflow.io/know-before-you-go/ehs-jan-2027-delegate",
+      "width": 390
+    },
+    {
+      "agendaCards": 3,
+      "audience": "delegate",
+      "dates": ["DEC18", "DEC18", "JAN13", "JAN14"],
+      "empty": [],
+      "experienceHeight": 845,
+      "metadataImages": 2,
+      "scrollWidth": 768,
+      "url": "https://ipmi.webflow.io/know-before-you-go/ehs-jan-2027-delegate",
+      "width": 768
+    },
+    {
+      "agendaCards": 3,
+      "audience": "delegate",
+      "dates": ["DEC18", "DEC18", "JAN13", "JAN14"],
+      "empty": [],
+      "experienceHeight": 532,
+      "metadataImages": 2,
+      "scrollWidth": 1440,
+      "url": "https://ipmi.webflow.io/know-before-you-go/ehs-jan-2027-delegate",
+      "width": 1440
+    },
+    {
+      "agendaCards": 0,
+      "audience": "sponsor",
+      "dates": [],
+      "empty": [
+        {
+          "bg": "rgb(244, 244, 245)",
+          "color": "rgb(39, 39, 42)",
+          "text": "Check back soon for business meetings and onsite experience details!"
+        }
+      ],
+      "experienceHeight": 656.890625,
+      "metadataImages": 2,
+      "scrollWidth": 390,
+      "url": "https://ipmi.webflow.io/know-before-you-go/ehs-jan-2027-sponsor",
+      "width": 390
+    },
+    {
+      "agendaCards": 0,
+      "audience": "sponsor",
+      "dates": [],
+      "empty": [
+        {
+          "bg": "rgb(244, 244, 245)",
+          "color": "rgb(39, 39, 42)",
+          "text": "Check back soon for business meetings and onsite experience details!"
+        }
+      ],
+      "experienceHeight": 537.796875,
+      "metadataImages": 2,
+      "scrollWidth": 768,
+      "url": "https://ipmi.webflow.io/know-before-you-go/ehs-jan-2027-sponsor",
+      "width": 768
+    },
+    {
+      "agendaCards": 0,
+      "audience": "sponsor",
+      "dates": [],
+      "empty": [
+        {
+          "bg": "rgb(244, 244, 245)",
+          "color": "rgb(39, 39, 42)",
+          "text": "Check back soon for business meetings and onsite experience details!"
+        }
+      ],
+      "experienceHeight": 390.796875,
+      "metadataImages": 2,
+      "scrollWidth": 1440,
+      "url": "https://ipmi.webflow.io/know-before-you-go/ehs-jan-2027-sponsor",
+      "width": 1440
+    },
+    {
+      "agendaCards": 0,
+      "audience": "delegate",
+      "dates": [],
+      "empty": [],
+      "experienceHeight": 372.09375,
+      "metadataImages": 0,
+      "scrollWidth": 390,
+      "url": "https://ipmi.webflow.io/know-before-you-go/taeei-can-2027-delegate",
+      "width": 390
+    },
+    {
+      "agendaCards": 0,
+      "audience": "delegate",
+      "dates": [],
+      "empty": [],
+      "experienceHeight": 295.796875,
+      "metadataImages": 0,
+      "scrollWidth": 768,
+      "url": "https://ipmi.webflow.io/know-before-you-go/taeei-can-2027-delegate",
+      "width": 768
+    },
+    {
+      "agendaCards": 0,
+      "audience": "delegate",
+      "dates": [],
+      "empty": [],
+      "experienceHeight": 520,
+      "metadataImages": 0,
+      "scrollWidth": 1440,
+      "url": "https://ipmi.webflow.io/know-before-you-go/taeei-can-2027-delegate",
+      "width": 1440
+    },
+    {
+      "agendaCards": 0,
+      "audience": "sponsor",
+      "dates": [],
+      "empty": [
+        {
+          "bg": "rgb(244, 244, 245)",
+          "color": "rgb(39, 39, 42)",
+          "text": "Check back soon for business meetings and onsite experience details!"
+        }
+      ],
+      "experienceHeight": 627.890625,
+      "metadataImages": 0,
+      "scrollWidth": 390,
+      "url": "https://ipmi.webflow.io/know-before-you-go/taeei-can-2027-sponsor",
+      "width": 390
+    },
+    {
+      "agendaCards": 0,
+      "audience": "sponsor",
+      "dates": [],
+      "empty": [
+        {
+          "bg": "rgb(244, 244, 245)",
+          "color": "rgb(39, 39, 42)",
+          "text": "Check back soon for business meetings and onsite experience details!"
+        }
+      ],
+      "experienceHeight": 462.796875,
+      "metadataImages": 0,
+      "scrollWidth": 768,
+      "url": "https://ipmi.webflow.io/know-before-you-go/taeei-can-2027-sponsor",
+      "width": 768
+    },
+    {
+      "agendaCards": 0,
+      "audience": "sponsor",
+      "dates": [],
+      "empty": [
+        {
+          "bg": "rgb(244, 244, 245)",
+          "color": "rgb(39, 39, 42)",
+          "text": "Check back soon for business meetings and onsite experience details!"
+        }
+      ],
+      "experienceHeight": 390.796875,
+      "metadataImages": 0,
+      "scrollWidth": 1440,
+      "url": "https://ipmi.webflow.io/know-before-you-go/taeei-can-2027-sponsor",
+      "width": 1440
+    }
+  ],
+  "kbygBoundaries": [
+    {
+      "agendaHeight": 1596.09375,
+      "experienceHeight": 1303.5,
+      "scrollWidth": 320,
+      "url": "https://ipmi.webflow.io/know-before-you-go/ehs-jan-2027-delegate",
+      "width": 320
+    },
+    {
+      "agendaHeight": 1442.5,
+      "experienceHeight": 1182.5,
+      "scrollWidth": 375,
+      "url": "https://ipmi.webflow.io/know-before-you-go/ehs-jan-2027-delegate",
+      "width": 375
+    },
+    {
+      "agendaHeight": 1358.5,
+      "experienceHeight": 1159.5,
+      "scrollWidth": 390,
+      "url": "https://ipmi.webflow.io/know-before-you-go/ehs-jan-2027-delegate",
+      "width": 390
+    },
+    {
+      "agendaHeight": 1161.5,
+      "experienceHeight": 973.5,
+      "scrollWidth": 479,
+      "url": "https://ipmi.webflow.io/know-before-you-go/ehs-jan-2027-delegate",
+      "width": 479
+    },
+    {
+      "agendaHeight": 1194.09375,
+      "experienceHeight": 1012.5,
+      "scrollWidth": 480,
+      "url": "https://ipmi.webflow.io/know-before-you-go/ehs-jan-2027-delegate",
+      "width": 480
+    },
+    {
+      "agendaHeight": 1110.09375,
+      "experienceHeight": 914.5,
+      "scrollWidth": 767,
+      "url": "https://ipmi.webflow.io/know-before-you-go/ehs-jan-2027-delegate",
+      "width": 767
+    },
+    {
+      "agendaHeight": 1265.59375,
+      "experienceHeight": 845,
+      "scrollWidth": 768,
+      "url": "https://ipmi.webflow.io/know-before-you-go/ehs-jan-2027-delegate",
+      "width": 768
+    },
+    {
+      "agendaHeight": 1184.59375,
+      "experienceHeight": 822,
+      "scrollWidth": 991,
+      "url": "https://ipmi.webflow.io/know-before-you-go/ehs-jan-2027-delegate",
+      "width": 991
+    },
+    {
+      "agendaHeight": 752.375,
+      "experienceHeight": 608,
+      "scrollWidth": 992,
+      "url": "https://ipmi.webflow.io/know-before-you-go/ehs-jan-2027-delegate",
+      "width": 992
+    },
+    {
+      "agendaHeight": 696,
+      "experienceHeight": 532,
+      "scrollWidth": 1440,
+      "url": "https://ipmi.webflow.io/know-before-you-go/ehs-jan-2027-delegate",
+      "width": 1440
+    },
+    {
+      "agendaHeight": 358.09375,
+      "experienceHeight": 656.890625,
+      "scrollWidth": 320,
+      "url": "https://ipmi.webflow.io/know-before-you-go/taeei-can-2027-sponsor",
+      "width": 320
+    },
+    {
+      "agendaHeight": 358.09375,
+      "experienceHeight": 627.890625,
+      "scrollWidth": 375,
+      "url": "https://ipmi.webflow.io/know-before-you-go/taeei-can-2027-sponsor",
+      "width": 375
+    },
+    {
+      "agendaHeight": 333.296875,
+      "experienceHeight": 627.890625,
+      "scrollWidth": 390,
+      "url": "https://ipmi.webflow.io/know-before-you-go/taeei-can-2027-sponsor",
+      "width": 390
+    },
+    {
+      "agendaHeight": 333.296875,
+      "experienceHeight": 534.09375,
+      "scrollWidth": 479,
+      "url": "https://ipmi.webflow.io/know-before-you-go/taeei-can-2027-sponsor",
+      "width": 479
+    },
+    {
+      "agendaHeight": 372.296875,
+      "experienceHeight": 470.09375,
+      "scrollWidth": 480,
+      "url": "https://ipmi.webflow.io/know-before-you-go/taeei-can-2027-sponsor",
+      "width": 480
+    },
+    {
+      "agendaHeight": 343.296875,
+      "experienceHeight": 416.296875,
+      "scrollWidth": 767,
+      "url": "https://ipmi.webflow.io/know-before-you-go/taeei-can-2027-sponsor",
+      "width": 767
+    },
+    {
+      "agendaHeight": 359.796875,
+      "experienceHeight": 462.796875,
+      "scrollWidth": 768,
+      "url": "https://ipmi.webflow.io/know-before-you-go/taeei-can-2027-sponsor",
+      "width": 768
+    },
+    {
+      "agendaHeight": 359.796875,
+      "experienceHeight": 462.796875,
+      "scrollWidth": 991,
+      "url": "https://ipmi.webflow.io/know-before-you-go/taeei-can-2027-sponsor",
+      "width": 991
+    },
+    {
+      "agendaHeight": 293.796875,
+      "experienceHeight": 390.796875,
+      "scrollWidth": 992,
+      "url": "https://ipmi.webflow.io/know-before-you-go/taeei-can-2027-sponsor",
+      "width": 992
+    },
+    {
+      "agendaHeight": 293.796875,
+      "experienceHeight": 390.796875,
+      "scrollWidth": 1440,
+      "url": "https://ipmi.webflow.io/know-before-you-go/taeei-can-2027-sponsor",
+      "width": 1440
+    }
+  ],
+  "notes": [
+    "Transient 992px Home width during rapid Swiper resize settled to992; final settled row is authoritative.",
+    "320px reflow is a narrow-viewport test; actual browser zoom was not changed.",
+    "No form submission or external delivery tested."
+  ]
+}

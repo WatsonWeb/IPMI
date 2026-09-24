@@ -1,0 +1,46 @@
+{
+  "checkedAt": "2026-09-24T20:17:00Z",
+  "browser": "Chrome",
+  "release": "56e04ad63226e5fb83ecc410e3b9160b08909dbd",
+  "ordinaryInstitute": {
+    "url": "https://ipmi.webflow.io/institutes/ehs-jan-2027",
+    "venueDescriptions": [
+      "Hotel entrance framed by trees and landscaping",
+      "Hotel garden with lawn, trees and outdoor seating"
+    ],
+    "linkNamesFullsizeAltsAndThumbnailTabNames": "pass",
+    "escapeReturnsFocus": true,
+    "enterReopensFromReturnedFocus": true,
+    "focusOutline": "rgb(0, 103, 165) solid 3px",
+    "tabletViewport": 768,
+    "tabletScrollWidth": 768,
+    "brokenVisibleImages": [],
+    "speakerModal": "Deborah Akinbowale: correct name and photo loaded; close passed",
+    "speakerCarouselNext": "Advanced to Paul Espenan",
+    "categories": "Attend/Speak/Partner active styling switched; optional Phone retained",
+    "hiddenRouteValues": "Browser read-only input reads were blank; independent raw-HTML preservation is authoritative. No delivery claim.",
+    "externalMapLimitation": "Place info couldn't load appeared once while map tiles rendered."
+  },
+  "about": {
+    "carouselNext": "pass",
+    "staff": "Native staff-section remains display:none; live staff modal not forced visible or accepted."
+  },
+  "institutes": {
+    "legalFilter": "One visible View Institute destination: /institutes/iplmi-2026",
+    "filterReset": "pass",
+    "guardedCalendar": "Opens to September 2026 and closes with Escape after final publish"
+  },
+  "console": {
+    "pageErrors": [],
+    "extensionWarning": "Grammarly extension DEFAULT root logger warning observed; unrelated to page runtime"
+  },
+  "zoom": {
+    "before": { "innerWidth": 1912, "devicePixelRatio": 1 },
+    "afterSupportedZoomKeyAttempt": { "innerWidth": 1912, "devicePixelRatio": 1 },
+    "actual200PercentVerified": false,
+    "deferred": "Human actual browser zoom verification; narrow-viewport reflow is separately recorded",
+    "resetKeySent": true
+  },
+  "submissions": 0,
+  "cleanup": "Viewport override reset; owned QA tab closed; pre-existing settings tab retained; Chrome released."
+}

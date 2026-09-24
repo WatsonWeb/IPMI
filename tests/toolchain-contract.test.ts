@@ -2,6 +2,8 @@ import { createHash } from "node:crypto";
 import { existsSync, readFileSync, readdirSync } from "node:fs";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
+import { runInNewContext } from "node:vm";
+import { Window } from "happy-dom";
 import { parseFragment, type DefaultTreeAdapterMap } from "parse5";
 import { expect, test } from "vite-plus/test";
 
@@ -66,7 +68,7 @@ test("all maintained browser entries remain present", () => {
   expect(entries.sort()).toEqual(Object.keys(footers).sort());
 });
 
-test.each(Object.entries(footers))(
+test.each(Object.entries(footers).filter(([entry]) => entry !== "institutes-calendar"))(
   "%s Footer loads its single release-pinned bundle",
   (entry, footer) => {
     const sources = scriptSources(readFileSync(path.join(root, footer), "utf8"));
@@ -78,6 +80,57 @@ test.each(Object.entries(footers))(
       ),
     );
     expect(firstPartyBundles).toEqual([expected]);
+  },
+);
+
+test.each([
+  "ipmi.webflow.io",
+  "www.ipmievents.com",
+  "ipmievents.com",
+  "www.ipmionline.com",
+  "ipmionline.com",
+  "preview.ipmi.webflow.io",
+])(
+  "calendar shell mounts and loads its pinned bundle only on the staging host: %s",
+  async (host) => {
+    const expected =
+      "https://cdn.jsdelivr.net/gh/WatsonWeb/IPMI@__ASSET_COMMIT_SHA__/dist/institutes-calendar";
+    const html = readFileSync(path.join(root, footers["institutes-calendar"]), "utf8");
+    // Execute only the maintained inline gate, with all network/evaluation disabled in the DOM.
+    const window = new Window({
+      url: `https://${host}/institutes`,
+      settings: {
+        enableJavaScriptEvaluation: false,
+        disableJavaScriptFileLoading: true,
+        disableCSSFileLoading: true,
+      },
+    });
+    try {
+      const doc = window.document;
+      doc.body.innerHTML = html;
+      const loaders = doc.querySelectorAll("script");
+      expect(loaders.length).toBe(1);
+      expect(scriptSources(html)).toEqual([]);
+      expect(doc.querySelector("[data-ipmi-calendar-shell]")).toBeNull();
+      expect(doc.querySelector("link[rel=stylesheet]")).toBeNull();
+      Object.defineProperty(doc, "currentScript", { configurable: true, value: loaders[0] });
+      runInNewContext(loaders[0].textContent, { document: doc, window }, { timeout: 1000 });
+      expect(doc.querySelector("template[data-ipmi-calendar-staging]")).toBeNull();
+      const staged = host === "ipmi.webflow.io";
+      expect(doc.querySelectorAll("[data-ipmi-calendar-shell]").length).toBe(staged ? 1 : 0);
+      expect(doc.querySelectorAll("[data-ipmi-calendar-dialog]").length).toBe(staged ? 1 : 0);
+      expect(
+        Array.from(doc.querySelectorAll("script[src]"), (script) => script.getAttribute("src")),
+      ).toEqual(staged ? [`${expected}.js`] : []);
+      expect(
+        Array.from(doc.querySelectorAll("link[rel=stylesheet]"), (link) =>
+          link.getAttribute("href"),
+        ),
+      ).toEqual(staged ? [`${expected}.css`] : []);
+      if (staged) expect(doc.querySelector("script[src]")?.hasAttribute("defer")).toBe(true);
+    } finally {
+      await window.happyDOM.close();
+    }
   },
 );
 

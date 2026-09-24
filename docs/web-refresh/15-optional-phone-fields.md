@@ -1,5 +1,7 @@
 # 15 — Optional phone fields on contact and inquiry forms
 
+> **Current task 37 handoff — September 24, 2026:** Four native fields remain implemented; backend mapping is undeployed and controlled delivery remains open. Earlier production-unchanged statements are dated: the separate 20:00 UTC full-site publication included staged changes. See [final evidence](evidence/task37/README.md) and [current replacement guide](PLACEHOLDERS.md).
+
 [Back to master](README.md)
 
 **Owner:** BWC / Webflow implementer. **Status:** Four native inquiry forms staged for review September 24, 2026. ActiveCampaign field, backend deployment, and controlled delivery verification remain pending. [Implementation and evidence](evidence/task15/README.md).
