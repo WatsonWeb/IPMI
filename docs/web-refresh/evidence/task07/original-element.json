@@ -1,0 +1,19 @@
+{
+  "ancestors": ["bubble-photos", "hero-wrap wf-grid"],
+  "attributes": {
+    "alt": "IPMI attendees in a crowd",
+    "class": "bubble-photo top right circle shadow-xl",
+    "data-w-id": "45fc8c33-bacb-f7cf-8979-02789931e0b7",
+    "data-wf-id": "[\"45fc8c33-bacb-f7cf-8979-02789931e0b7\"]",
+    "height": "400",
+    "loading": "eager",
+    "src": "https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/63c9ce53fcf70113cc4f04e7_RecentInstitutes-Bubble-1.webp",
+    "width": "400"
+  },
+  "style": {
+    "fit": "fill",
+    "position": "50% 50%",
+    "radius": "50%",
+    "z": "auto"
+  }
+}

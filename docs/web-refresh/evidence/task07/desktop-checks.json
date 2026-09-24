@@ -1,0 +1,256 @@
+{
+  "images": [
+    {
+      "alt": "Attendees listening and smiling during an IPMI Institute session",
+      "classes": "bubble-photo top right circle shadow-xl",
+      "currentSrc": "https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4b4b02a5eb1c3401b943c_P10-HRMI-Central-2024-Session-1-p-500.jpg",
+      "fit": "fill",
+      "loaded": true,
+      "naturalWidth": 400,
+      "position": "50% 50%",
+      "radius": "50%",
+      "src": "https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4b4b02a5eb1c3401b943c_P10-HRMI-Central-2024-Session-1.jpg",
+      "z": "auto"
+    },
+    {
+      "alt": "IPMI Dinner",
+      "classes": "bubble-photo bottom left circle front shadow-xl",
+      "currentSrc": "https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/63cf39059bfd70d0e6bafa41_RecentInstitutes-Bubble-3.webp",
+      "fit": "fill",
+      "loaded": true,
+      "naturalWidth": 400,
+      "position": "50% 50%",
+      "radius": "50%",
+      "src": "https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/63cf39059bfd70d0e6bafa41_RecentInstitutes-Bubble-3.webp",
+      "z": "2"
+    },
+    {
+      "alt": "An advisor addressing the crowd at an IPMI institute ",
+      "classes": "bubble-photo circle shadow-xl top left",
+      "currentSrc": "",
+      "fit": "fill",
+      "loaded": false,
+      "naturalWidth": 0,
+      "position": "50% 50%",
+      "radius": "50%",
+      "src": "https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/63b7c3cbc7dee5f009e13e8c_Recaps-Bubble-2.webp",
+      "z": "auto"
+    },
+    {
+      "alt": "IPMI Business Meeting",
+      "classes": "bubble-photo circle shadow-xl bottom right front",
+      "currentSrc": "",
+      "fit": "fill",
+      "loaded": false,
+      "naturalWidth": 0,
+      "position": "50% 50%",
+      "radius": "50%",
+      "src": "https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/63cf3d77cd8c8532cb40a613_Recaps-Bubble-4.webp",
+      "z": "2"
+    }
+  ],
+  "links": [
+    {
+      "href": "#institutes",
+      "text": "RECENT institutes"
+    },
+    {
+      "href": "/insights",
+      "text": "Institute insights"
+    },
+    {
+      "href": "#institutes",
+      "text": "view upcoming institutes"
+    },
+    {
+      "href": "#",
+      "text": "Filter by industry"
+    },
+    {
+      "href": "/institutes/cldi-sept-2026",
+      "text": ""
+    },
+    {
+      "href": "/institutes/cldi-sept-2026",
+      "text": "Corporate Learning & Development Institute"
+    },
+    {
+      "href": "/institutes/cldi-sept-2026",
+      "text": "."
+    },
+    {
+      "href": "/institutes/cldi-sept-2026",
+      "text": "View Institute ➜"
+    },
+    {
+      "href": "/institutes/hchr-sept-2026",
+      "text": ""
+    },
+    {
+      "href": "/institutes/hchr-sept-2026",
+      "text": "Healthcare HR Management Institute"
+    },
+    {
+      "href": "/institutes/hchr-sept-2026",
+      "text": "."
+    },
+    {
+      "href": "/institutes/hchr-sept-2026",
+      "text": "View Institute ➜"
+    },
+    {
+      "href": "/institutes/ehs-july-2026",
+      "text": ""
+    },
+    {
+      "href": "/institutes/ehs-july-2026",
+      "text": "EHS Management Institute"
+    },
+    {
+      "href": "/institutes/ehs-july-2026",
+      "text": "."
+    },
+    {
+      "href": "/institutes/ehs-july-2026",
+      "text": "View Institute ➜"
+    },
+    {
+      "href": "/institutes/healthcare-it-2026",
+      "text": ""
+    },
+    {
+      "href": "/institutes/healthcare-it-2026",
+      "text": "Healthcare IT Institute"
+    },
+    {
+      "href": "/institutes/healthcare-it-2026",
+      "text": "."
+    },
+    {
+      "href": "/institutes/healthcare-it-2026",
+      "text": "View Institute ➜"
+    },
+    {
+      "href": "/institutes/hrmi-june-2026",
+      "text": ""
+    },
+    {
+      "href": "/institutes/hrmi-june-2026",
+      "text": "HR Management Institute"
+    },
+    {
+      "href": "/institutes/hrmi-june-2026",
+      "text": "."
+    },
+    {
+      "href": "/institutes/hrmi-june-2026",
+      "text": "View Institute ➜"
+    },
+    {
+      "href": "/institutes/talent-acquisition-canada-2026",
+      "text": ""
+    },
+    {
+      "href": "/institutes/talent-acquisition-canada-2026",
+      "text": "Talent Acquisition & Employee Experience Institute Canada"
+    },
+    {
+      "href": "/institutes/talent-acquisition-canada-2026",
+      "text": "."
+    },
+    {
+      "href": "/institutes/talent-acquisition-canada-2026",
+      "text": "View Institute ➜"
+    },
+    {
+      "href": "/institutes/talent-acquisition-2026",
+      "text": ""
+    },
+    {
+      "href": "/institutes/talent-acquisition-2026",
+      "text": "Talent Acquisition Institute"
+    },
+    {
+      "href": "/institutes/talent-acquisition-2026",
+      "text": "."
+    },
+    {
+      "href": "/institutes/talent-acquisition-2026",
+      "text": "View Institute ➜"
+    },
+    {
+      "href": "/institutes/hrmi-can-april-2026",
+      "text": ""
+    },
+    {
+      "href": "/institutes/hrmi-can-april-2026",
+      "text": "HR Management Institute Canada"
+    },
+    {
+      "href": "/institutes/hrmi-can-april-2026",
+      "text": "."
+    },
+    {
+      "href": "/institutes/hrmi-can-april-2026",
+      "text": "View Institute ➜"
+    },
+    {
+      "href": "/institutes/healthcare-finance-2026",
+      "text": ""
+    },
+    {
+      "href": "/institutes/healthcare-finance-2026",
+      "text": "Healthcare Finance Institute"
+    },
+    {
+      "href": "/institutes/healthcare-finance-2026",
+      "text": "."
+    },
+    {
+      "href": "/institutes/healthcare-finance-2026",
+      "text": "View Institute ➜"
+    },
+    {
+      "href": "?6ecdad06_page=0",
+      "text": "Previous"
+    },
+    {
+      "href": "?6ecdad06_page=1",
+      "text": "1"
+    },
+    {
+      "href": "?6ecdad06_page=2",
+      "text": "2"
+    },
+    {
+      "href": "?6ecdad06_page=3",
+      "text": "3"
+    },
+    {
+      "href": "?6ecdad06_page=4",
+      "text": "4"
+    },
+    {
+      "href": "?6ecdad06_page=5",
+      "text": "5"
+    },
+    {
+      "href": "?6ecdad06_page=9",
+      "text": "9"
+    },
+    {
+      "href": "?6ecdad06_page=2",
+      "text": "Next"
+    },
+    {
+      "href": "/insights",
+      "text": "See institute insights"
+    },
+    {
+      "href": "/insights",
+      "text": "See Institute Insights"
+    }
+  ],
+  "scrollWidth": 1912,
+  "width": 1912
+}
