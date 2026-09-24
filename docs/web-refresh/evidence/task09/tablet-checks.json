@@ -1,0 +1,55 @@
+{
+  "documentWidth": 790,
+  "height": 1024,
+  "images": [
+    {
+      "alt": "A participant speaking to seated colleagues during an IPMI roundtable",
+      "currentSrc": "https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4b990eae4404f847681a0_P15-Indeed-Pasta-Making-Roundtable-p-500.jpg",
+      "loaded": true,
+      "rect": {
+        "bottom": 537.5,
+        "height": 250,
+        "left": 451.21875,
+        "right": 701.21875,
+        "top": 287.5,
+        "width": 250,
+        "x": 451.21875,
+        "y": 287.5
+      },
+      "src": "https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4b990eae4404f847681a0_P15-Indeed-Pasta-Making-Roundtable.jpg"
+    },
+    {
+      "alt": "IPMI Virtual Think Tank Session",
+      "currentSrc": "https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/63bf05d3ec34fcabe8959d4e_VTT-Bubble-4.webp",
+      "loaded": true,
+      "rect": {
+        "bottom": 702.4375,
+        "height": 250,
+        "left": 451.21875,
+        "right": 701.21875,
+        "top": 452.4375,
+        "width": 250,
+        "x": 451.21875,
+        "y": 452.4375
+      },
+      "src": "https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/63bf05d3ec34fcabe8959d4e_VTT-Bubble-4.webp"
+    },
+    {
+      "alt": "",
+      "currentSrc": "https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/63bf05d2deff096c5f9b8919_VTT-Background-p-800.webp",
+      "loaded": true,
+      "rect": {
+        "bottom": 849.953125,
+        "height": 849.953125,
+        "left": 0,
+        "right": 768,
+        "top": 0,
+        "width": 768,
+        "x": 0,
+        "y": 0
+      },
+      "src": "https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/63bf05d2deff096c5f9b8919_VTT-Background.webp"
+    }
+  ],
+  "width": 768
+}

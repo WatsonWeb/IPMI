@@ -1,0 +1,896 @@
+{
+  "images": [
+    {
+      "alt": "International Performance Management Institute.",
+      "cls": "logo",
+      "fit": "fill",
+      "height": "141",
+      "loading": "eager",
+      "position": "50% 50%",
+      "radius": "0px",
+      "src": "https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/63281aeafc3ab3e21d7c05ec_IPMI-Logo-Light.svg",
+      "width": "396",
+      "z": "auto"
+    },
+    {
+      "alt": "IPMI Virtual Think Tank Session",
+      "cls": "bubble-photo top right circle shadow-xl",
+      "fit": "fill",
+      "height": "400",
+      "loading": "eager",
+      "position": "50% 50%",
+      "radius": "50%",
+      "src": "https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/63bf072282f5b2021273fe2b_VTT-Bubble-6.webp",
+      "width": "400",
+      "z": "auto"
+    },
+    {
+      "alt": "IPMI Virtual Think Tank Session",
+      "cls": "bubble-photo bottom left circle front shadow-xl",
+      "fit": "fill",
+      "height": "400",
+      "loading": "eager",
+      "position": "50% 50%",
+      "radius": "50%",
+      "src": "https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/63bf05d3ec34fcabe8959d4e_VTT-Bubble-4.webp",
+      "width": "400",
+      "z": "2"
+    },
+    {
+      "alt": "",
+      "cls": "hero-bg-image",
+      "fit": "cover",
+      "height": null,
+      "loading": "eager",
+      "position": "50% 50%",
+      "radius": "0px",
+      "src": "https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/63bf05d2deff096c5f9b8919_VTT-Background.webp",
+      "width": null,
+      "z": "auto"
+    },
+    {
+      "alt": "The Whole-Worker Model: Using Leading Versus Lagging Indicators to Integrate Mental Health, Safety & Performance",
+      "cls": "event-thumbnail hover-scale",
+      "fit": "cover",
+      "height": "720",
+      "loading": "lazy",
+      "position": "50% 50%",
+      "radius": "0px",
+      "src": "https://cdn.prod.website-files.com/6312ee46f4c52faf21ee8ab5/63bb0ebe2801846349281669_VTT%20Cover%20Image%207.webp",
+      "width": "1280",
+      "z": "auto"
+    },
+    {
+      "alt": "Kevin Lombardo",
+      "cls": "circle",
+      "fit": "fill",
+      "height": null,
+      "loading": "lazy",
+      "position": "50% 50%",
+      "radius": "50%",
+      "src": "https://cdn.prod.website-files.com/6312ee46f4c52faf21ee8ab5/68769ca81556c62a3e0c1113_Kevin%20Lombardo%20Web%20Photo.jpg",
+      "width": null,
+      "z": "auto"
+    },
+    {
+      "alt": "",
+      "cls": "recap-speaker-photo circle pad-5 accent-gradient shadow-md w-dyn-bind-empty",
+      "fit": "fill",
+      "height": "300",
+      "loading": "lazy",
+      "position": "50% 50%",
+      "radius": "50%",
+      "src": "",
+      "width": "300",
+      "z": "auto"
+    },
+    {
+      "alt": "",
+      "cls": "recap-speaker-photo circle pad-5 accent-gradient shadow-md w-condition-invisible w-dyn-bind-empty",
+      "fit": "fill",
+      "height": "300",
+      "loading": "lazy",
+      "position": "50% 50%",
+      "radius": "50%",
+      "src": "",
+      "width": "300",
+      "z": "auto"
+    },
+    {
+      "alt": "",
+      "cls": "recap-speaker-photo circle pad-5 accent-gradient shadow-md w-dyn-bind-empty",
+      "fit": "fill",
+      "height": "300",
+      "loading": "lazy",
+      "position": "50% 50%",
+      "radius": "50%",
+      "src": "",
+      "width": "300",
+      "z": "auto"
+    },
+    {
+      "alt": "",
+      "cls": "recap-speaker-photo circle pad-5 accent-gradient shadow-md w-condition-invisible w-dyn-bind-empty",
+      "fit": "fill",
+      "height": "300",
+      "loading": "lazy",
+      "position": "50% 50%",
+      "radius": "50%",
+      "src": "",
+      "width": "300",
+      "z": "auto"
+    },
+    {
+      "alt": "",
+      "cls": "recap-speaker-photo circle pad-5 accent-gradient shadow-md w-dyn-bind-empty",
+      "fit": "fill",
+      "height": "300",
+      "loading": "lazy",
+      "position": "50% 50%",
+      "radius": "50%",
+      "src": "",
+      "width": "300",
+      "z": "auto"
+    },
+    {
+      "alt": "",
+      "cls": "recap-speaker-photo circle pad-5 accent-gradient shadow-md w-condition-invisible w-dyn-bind-empty",
+      "fit": "fill",
+      "height": "300",
+      "loading": "lazy",
+      "position": "50% 50%",
+      "radius": "50%",
+      "src": "",
+      "width": "300",
+      "z": "auto"
+    },
+    {
+      "alt": "",
+      "cls": "recap-speaker-photo circle pad-5 accent-gradient shadow-md w-dyn-bind-empty",
+      "fit": "fill",
+      "height": "300",
+      "loading": "lazy",
+      "position": "50% 50%",
+      "radius": "50%",
+      "src": "",
+      "width": "300",
+      "z": "auto"
+    },
+    {
+      "alt": "",
+      "cls": "recap-speaker-photo circle pad-5 accent-gradient shadow-md w-condition-invisible w-dyn-bind-empty",
+      "fit": "fill",
+      "height": "300",
+      "loading": "lazy",
+      "position": "50% 50%",
+      "radius": "50%",
+      "src": "",
+      "width": "300",
+      "z": "auto"
+    },
+    {
+      "alt": "",
+      "cls": "recap-speaker-photo circle pad-5 accent-gradient shadow-md w-dyn-bind-empty",
+      "fit": "fill",
+      "height": "300",
+      "loading": "lazy",
+      "position": "50% 50%",
+      "radius": "50%",
+      "src": "",
+      "width": "300",
+      "z": "auto"
+    },
+    {
+      "alt": "",
+      "cls": "recap-speaker-photo circle pad-5 accent-gradient shadow-md w-condition-invisible w-dyn-bind-empty",
+      "fit": "fill",
+      "height": "300",
+      "loading": "lazy",
+      "position": "50% 50%",
+      "radius": "50%",
+      "src": "",
+      "width": "300",
+      "z": "auto"
+    },
+    {
+      "alt": "",
+      "cls": "recap-speaker-photo circle pad-5 accent-gradient shadow-md w-dyn-bind-empty",
+      "fit": "fill",
+      "height": "300",
+      "loading": "lazy",
+      "position": "50% 50%",
+      "radius": "50%",
+      "src": "",
+      "width": "300",
+      "z": "auto"
+    },
+    {
+      "alt": "",
+      "cls": "recap-speaker-photo circle pad-5 accent-gradient shadow-md w-condition-invisible w-dyn-bind-empty",
+      "fit": "fill",
+      "height": "300",
+      "loading": "lazy",
+      "position": "50% 50%",
+      "radius": "50%",
+      "src": "",
+      "width": "300",
+      "z": "auto"
+    },
+    {
+      "alt": "",
+      "cls": "recap-speaker-photo circle pad-5 accent-gradient shadow-md w-dyn-bind-empty",
+      "fit": "fill",
+      "height": "300",
+      "loading": "lazy",
+      "position": "50% 50%",
+      "radius": "50%",
+      "src": "",
+      "width": "300",
+      "z": "auto"
+    },
+    {
+      "alt": "",
+      "cls": "recap-speaker-photo circle pad-5 accent-gradient shadow-md w-condition-invisible w-dyn-bind-empty",
+      "fit": "fill",
+      "height": "300",
+      "loading": "lazy",
+      "position": "50% 50%",
+      "radius": "50%",
+      "src": "",
+      "width": "300",
+      "z": "auto"
+    },
+    {
+      "alt": "",
+      "cls": "recap-speaker-photo circle pad-5 accent-gradient shadow-md w-dyn-bind-empty",
+      "fit": "fill",
+      "height": "300",
+      "loading": "lazy",
+      "position": "50% 50%",
+      "radius": "50%",
+      "src": "",
+      "width": "300",
+      "z": "auto"
+    },
+    {
+      "alt": "",
+      "cls": "recap-speaker-photo circle pad-5 accent-gradient shadow-md w-condition-invisible w-dyn-bind-empty",
+      "fit": "fill",
+      "height": "300",
+      "loading": "lazy",
+      "position": "50% 50%",
+      "radius": "50%",
+      "src": "",
+      "width": "300",
+      "z": "auto"
+    },
+    {
+      "alt": "",
+      "cls": "recap-speaker-photo circle pad-5 accent-gradient shadow-md w-dyn-bind-empty",
+      "fit": "fill",
+      "height": "300",
+      "loading": "lazy",
+      "position": "50% 50%",
+      "radius": "50%",
+      "src": "",
+      "width": "300",
+      "z": "auto"
+    },
+    {
+      "alt": "",
+      "cls": "recap-speaker-photo circle pad-5 accent-gradient shadow-md w-condition-invisible w-dyn-bind-empty",
+      "fit": "fill",
+      "height": "300",
+      "loading": "lazy",
+      "position": "50% 50%",
+      "radius": "50%",
+      "src": "",
+      "width": "300",
+      "z": "auto"
+    },
+    {
+      "alt": "",
+      "cls": "recap-speaker-photo circle pad-5 accent-gradient shadow-md w-dyn-bind-empty",
+      "fit": "fill",
+      "height": "300",
+      "loading": "lazy",
+      "position": "50% 50%",
+      "radius": "50%",
+      "src": "",
+      "width": "300",
+      "z": "auto"
+    },
+    {
+      "alt": "",
+      "cls": "recap-speaker-photo circle pad-5 accent-gradient shadow-md w-condition-invisible w-dyn-bind-empty",
+      "fit": "fill",
+      "height": "300",
+      "loading": "lazy",
+      "position": "50% 50%",
+      "radius": "50%",
+      "src": "",
+      "width": "300",
+      "z": "auto"
+    },
+    {
+      "alt": "",
+      "cls": "recap-speaker-photo circle pad-5 accent-gradient shadow-md w-dyn-bind-empty",
+      "fit": "fill",
+      "height": "300",
+      "loading": "lazy",
+      "position": "50% 50%",
+      "radius": "50%",
+      "src": "",
+      "width": "300",
+      "z": "auto"
+    },
+    {
+      "alt": "",
+      "cls": "recap-speaker-photo circle pad-5 accent-gradient shadow-md w-condition-invisible w-dyn-bind-empty",
+      "fit": "fill",
+      "height": "300",
+      "loading": "lazy",
+      "position": "50% 50%",
+      "radius": "50%",
+      "src": "",
+      "width": "300",
+      "z": "auto"
+    },
+    {
+      "alt": "Elevate Your Leadership: An Exclusive Leadership Workshop & Culinary Experience",
+      "cls": "event-thumbnail hover-scale",
+      "fit": "cover",
+      "height": "720",
+      "loading": "lazy",
+      "position": "50% 50%",
+      "radius": "0px",
+      "src": "https://cdn.prod.website-files.com/6312ee46f4c52faf21ee8ab5/69399c759bb4b77baf9af854_200212_Cirillos_8567-indeed%20logo.webp",
+      "width": "1280",
+      "z": "auto"
+    },
+    {
+      "alt": "Indeed & IPMI",
+      "cls": "circle",
+      "fit": "fill",
+      "height": null,
+      "loading": "lazy",
+      "position": "50% 50%",
+      "radius": "50%",
+      "src": "https://cdn.prod.website-files.com/6312ee46f4c52faf21ee8ab5/63bb081acfc0848537733d98_Indeed%20with%20IPMI%20Dual%20Logo.jpg",
+      "width": null,
+      "z": "auto"
+    },
+    {
+      "alt": "Emotional Ergonomics: The Missing Link in Workplace Safety",
+      "cls": "event-thumbnail hover-scale",
+      "fit": "cover",
+      "height": "720",
+      "loading": "lazy",
+      "position": "50% 50%",
+      "radius": "0px",
+      "src": "https://cdn.prod.website-files.com/6312ee46f4c52faf21ee8ab5/63bb0ebe2801846349281669_VTT%20Cover%20Image%207.webp",
+      "width": "1280",
+      "z": "auto"
+    },
+    {
+      "alt": "Kevin Lombardo",
+      "cls": "circle",
+      "fit": "fill",
+      "height": null,
+      "loading": "lazy",
+      "position": "50% 50%",
+      "radius": "50%",
+      "src": "https://cdn.prod.website-files.com/6312ee46f4c52faf21ee8ab5/68769ca81556c62a3e0c1113_Kevin%20Lombardo%20Web%20Photo.jpg",
+      "width": null,
+      "z": "auto"
+    },
+    {
+      "alt": "Overcoming Hiring Challenges in 2025 with Smarter Recruiting Strategies‍",
+      "cls": "event-thumbnail hover-scale",
+      "fit": "cover",
+      "height": "720",
+      "loading": "lazy",
+      "position": "50% 50%",
+      "radius": "0px",
+      "src": "https://cdn.prod.website-files.com/6312ee46f4c52faf21ee8ab5/681234b6e65a7fc409c4e914_Indeed%20Roundtable%20May%202025%20Cover.webp",
+      "width": "1280",
+      "z": "auto"
+    },
+    {
+      "alt": "Indeed & IPMI",
+      "cls": "circle",
+      "fit": "fill",
+      "height": null,
+      "loading": "lazy",
+      "position": "50% 50%",
+      "radius": "50%",
+      "src": "https://cdn.prod.website-files.com/6312ee46f4c52faf21ee8ab5/63bb081acfc0848537733d98_Indeed%20with%20IPMI%20Dual%20Logo.jpg",
+      "width": null,
+      "z": "auto"
+    },
+    {
+      "alt": "ADP Executive Leadership Retreat",
+      "cls": "event-thumbnail hover-scale",
+      "fit": "cover",
+      "height": "720",
+      "loading": "lazy",
+      "position": "50% 50%",
+      "radius": "0px",
+      "src": "https://cdn.prod.website-files.com/6312ee46f4c52faf21ee8ab5/65dce27d1b7a39bd7bc94c2f_HR%20Can%20East%202023%20Cover%20Image.webp",
+      "width": "1280",
+      "z": "auto"
+    },
+    {
+      "alt": "ADP in partnership with IPMI",
+      "cls": "circle",
+      "fit": "fill",
+      "height": null,
+      "loading": "lazy",
+      "position": "50% 50%",
+      "radius": "50%",
+      "src": "https://cdn.prod.website-files.com/6312ee46f4c52faf21ee8ab5/63f6a41200952fe6e9ef3e7c_ADP%20and%20IPMI%20Web%20Size.jpg",
+      "width": null,
+      "z": "auto"
+    },
+    {
+      "alt": "International Performance Management Institute.",
+      "cls": "footer-logo",
+      "fit": "fill",
+      "height": "140",
+      "loading": "lazy",
+      "position": "50% 50%",
+      "radius": "0px",
+      "src": "https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6327f8231c814d48b97873a8_Asset%201.svg",
+      "width": "395",
+      "z": "auto"
+    }
+  ],
+  "links": [
+    {
+      "href": "/",
+      "text": ""
+    },
+    {
+      "href": "/institutes",
+      "text": "Institutes "
+    },
+    {
+      "href": "/institutes",
+      "text": "Upcoming Institutes"
+    },
+    {
+      "href": "/insights",
+      "text": "Institute Insights"
+    },
+    {
+      "href": "/recent-institutes",
+      "text": "Recent Institutes"
+    },
+    {
+      "href": "/gallery",
+      "text": "Institute Gallery"
+    },
+    {
+      "href": "/faq#what-is-an-institute",
+      "text": "What is an Institute?"
+    },
+    {
+      "href": "/thinktanks",
+      "text": "Think Tanks & Roundtables "
+    },
+    {
+      "href": "/thinktanks",
+      "text": "Upcoming Think Tanks & Roundtables"
+    },
+    {
+      "href": "/thinktanks#recent",
+      "text": "Recent Think Tanks & Roundtables"
+    },
+    {
+      "href": "/faq#what-is-a-think-tank",
+      "text": "What is a Think Tank?"
+    },
+    {
+      "href": "/about",
+      "text": "About IPMI "
+    },
+    {
+      "href": "/about",
+      "text": "About IPMI"
+    },
+    {
+      "href": "/testimonials",
+      "text": "Testimonials"
+    },
+    {
+      "href": "/faq",
+      "text": "FAQ"
+    },
+    {
+      "href": "/attend",
+      "text": "Attend an Institute"
+    },
+    {
+      "href": "/attend#speak",
+      "text": "Speak at an Institute"
+    },
+    {
+      "href": "/attend#partner",
+      "text": "Partner with IPMI"
+    },
+    {
+      "href": "/contact",
+      "text": "Contact Us"
+    },
+    {
+      "href": "/attend",
+      "text": "Attend an institute"
+    },
+    {
+      "href": "#",
+      "text": "Menu"
+    },
+    {
+      "href": "#thinktanks",
+      "text": "view Think Tanks & Roundtables"
+    },
+    {
+      "href": "#thinktanks",
+      "text": "view think tanks"
+    },
+    {
+      "href": "/thinktanks/dorn-vtt-2026",
+      "text": ""
+    },
+    {
+      "href": "/thinktanks/dorn-vtt-2026",
+      "text": ""
+    },
+    {
+      "href": "/thinktanks/dorn-vtt-2026",
+      "text": "The Whole-Worker Model: Using Leading Versus Lagging Indicators to Integrate Mental Health, Safety & Performance"
+    },
+    {
+      "href": "/thinktanks/dorn-vtt-2026",
+      "text": "."
+    },
+    {
+      "href": "/thinktanks/dorn-vtt-2026",
+      "text": "View Virtual Think Tank ➜"
+    },
+    {
+      "href": "/thinktanks/dorn-vtt-2026",
+      "text": "View Think Tank ➜"
+    },
+    {
+      "href": "/thinktanks/dorn-vtt-2026",
+      "text": "View Roundtable ➜"
+    },
+    {
+      "href": "/thinktanks/indeed-roundtable-march-2026",
+      "text": ""
+    },
+    {
+      "href": "/thinktanks/indeed-roundtable-march-2026",
+      "text": ""
+    },
+    {
+      "href": "/thinktanks/indeed-roundtable-march-2026",
+      "text": "Elevate Your Leadership: An Exclusive Leadership Workshop & Culinary Experience"
+    },
+    {
+      "href": "/thinktanks/indeed-roundtable-march-2026",
+      "text": "."
+    },
+    {
+      "href": "/thinktanks/indeed-roundtable-march-2026",
+      "text": "View Virtual Think Tank ➜"
+    },
+    {
+      "href": "/thinktanks/indeed-roundtable-march-2026",
+      "text": "View Think Tank ➜"
+    },
+    {
+      "href": "/thinktanks/indeed-roundtable-march-2026",
+      "text": "View Roundtable ➜"
+    },
+    {
+      "href": "/thinktanks/dorn-vtt-2025",
+      "text": ""
+    },
+    {
+      "href": "/thinktanks/dorn-vtt-2025",
+      "text": ""
+    },
+    {
+      "href": "/thinktanks/dorn-vtt-2025",
+      "text": "Emotional Ergonomics: The Missing Link in Workplace Safety"
+    },
+    {
+      "href": "/thinktanks/dorn-vtt-2025",
+      "text": "."
+    },
+    {
+      "href": "/thinktanks/dorn-vtt-2025",
+      "text": "View Virtual Think Tank ➜"
+    },
+    {
+      "href": "/thinktanks/dorn-vtt-2025",
+      "text": "View Think Tank ➜"
+    },
+    {
+      "href": "/thinktanks/dorn-vtt-2025",
+      "text": "View Roundtable ➜"
+    },
+    {
+      "href": "/thinktanks/indeed-roundtable-may-2025",
+      "text": ""
+    },
+    {
+      "href": "/thinktanks/indeed-roundtable-may-2025",
+      "text": ""
+    },
+    {
+      "href": "/thinktanks/indeed-roundtable-may-2025",
+      "text": "Overcoming Hiring Challenges in 2025 with Smarter Recruiting Strategies‍"
+    },
+    {
+      "href": "/thinktanks/indeed-roundtable-may-2025",
+      "text": "."
+    },
+    {
+      "href": "/thinktanks/indeed-roundtable-may-2025",
+      "text": "View Virtual Think Tank ➜"
+    },
+    {
+      "href": "/thinktanks/indeed-roundtable-may-2025",
+      "text": "View Think Tank ➜"
+    },
+    {
+      "href": "/thinktanks/indeed-roundtable-may-2025",
+      "text": "View Roundtable ➜"
+    },
+    {
+      "href": "/thinktanks/adp-executive-leadership-retreat-2025",
+      "text": ""
+    },
+    {
+      "href": "/thinktanks/adp-executive-leadership-retreat-2025",
+      "text": ""
+    },
+    {
+      "href": "/thinktanks/adp-executive-leadership-retreat-2025",
+      "text": "ADP Executive Leadership Retreat"
+    },
+    {
+      "href": "/thinktanks/adp-executive-leadership-retreat-2025",
+      "text": "."
+    },
+    {
+      "href": "/thinktanks/adp-executive-leadership-retreat-2025",
+      "text": "View Virtual Think Tank ➜"
+    },
+    {
+      "href": "/thinktanks/adp-executive-leadership-retreat-2025",
+      "text": "View Think Tank ➜"
+    },
+    {
+      "href": "/thinktanks/adp-executive-leadership-retreat-2025",
+      "text": "View Roundtable ➜"
+    },
+    {
+      "href": "?ca767a08_page=0",
+      "text": "Previous"
+    },
+    {
+      "href": "?ca767a08_page=1",
+      "text": "1"
+    },
+    {
+      "href": "?ca767a08_page=2",
+      "text": "2"
+    },
+    {
+      "href": "?ca767a08_page=3",
+      "text": "3"
+    },
+    {
+      "href": "?ca767a08_page=4",
+      "text": "4"
+    },
+    {
+      "href": "?ca767a08_page=5",
+      "text": "5"
+    },
+    {
+      "href": "?ca767a08_page=9",
+      "text": "9"
+    },
+    {
+      "href": "?ca767a08_page=2",
+      "text": "Next"
+    },
+    {
+      "href": "#top",
+      "text": ""
+    },
+    {
+      "href": "/",
+      "text": ""
+    },
+    {
+      "href": "mailto:Info@IPMIOnline.com",
+      "text": "Info@IPMIOnline.com"
+    },
+    {
+      "href": "tel:+14166284058",
+      "text": "(416) 628-4058"
+    },
+    {
+      "href": "#",
+      "text": "View sitemap"
+    },
+    {
+      "href": "#",
+      "text": "Close sitemap"
+    },
+    {
+      "href": "/institutes",
+      "text": "Institutes"
+    },
+    {
+      "href": "/institutes",
+      "text": "Upcoming Institutes"
+    },
+    {
+      "href": "/insights",
+      "text": "Institute Insights"
+    },
+    {
+      "href": "/recent-institutes",
+      "text": "Recent Institutes"
+    },
+    {
+      "href": "/gallery",
+      "text": "Institute Gallery"
+    },
+    {
+      "href": "/faq#what-is-an-institute",
+      "text": "What is an Institute?"
+    },
+    {
+      "href": "/thinktanks",
+      "text": "Think Tanks &Roundtables"
+    },
+    {
+      "href": "/thinktanks",
+      "text": "Upcoming Think Tanks"
+    },
+    {
+      "href": "/thinktanks#recent",
+      "text": "Recent Think Tanks"
+    },
+    {
+      "href": "/faq#what-is-a-virtual-think-tank",
+      "text": "What is a Think Tank?"
+    },
+    {
+      "href": "/about",
+      "text": "About IPMI"
+    },
+    {
+      "href": "/about",
+      "text": "About IPMI"
+    },
+    {
+      "href": "/testimonials",
+      "text": "Testimonials"
+    },
+    {
+      "href": "/faq",
+      "text": "FAQ"
+    },
+    {
+      "href": "/attend",
+      "text": "Attend an Institute"
+    },
+    {
+      "href": "/attend#speak",
+      "text": "Speak at an Institute"
+    },
+    {
+      "href": "/attend#partner",
+      "text": "Partner with IPMI"
+    },
+    {
+      "href": "/contact",
+      "text": "Contact Us"
+    },
+    {
+      "href": "/contact",
+      "text": "Contact Us"
+    },
+    {
+      "href": "https://www.linkedin.com/company/international-performance-management-institute-ipmi-/?originalSubdomain=ca",
+      "text": "LinkedIn"
+    },
+    {
+      "href": "/privacy",
+      "text": "Privacy Policy"
+    },
+    {
+      "href": "/terms",
+      "text": "Terms and Conditions"
+    },
+    {
+      "href": "#",
+      "text": "CLOSE"
+    },
+    {
+      "href": "/institutes",
+      "text": "Upcoming Institutes"
+    },
+    {
+      "href": "/insights",
+      "text": "Institute Insights"
+    },
+    {
+      "href": "/recent-institutes",
+      "text": "Recent Institutes"
+    },
+    {
+      "href": "/gallery",
+      "text": "Institute Gallery"
+    },
+    {
+      "href": "/faq#what-is-an-institute",
+      "text": "What is an Institute?"
+    },
+    {
+      "href": "/thinktanks",
+      "text": "Upcoming Think Tanks& Roundtables"
+    },
+    {
+      "href": "/thinktanks#recent",
+      "text": "Recent Think Tanks& Roundtables"
+    },
+    {
+      "href": "/faq#what-is-a-think-tank",
+      "text": "What is a Think Tank?"
+    },
+    {
+      "href": "/about",
+      "text": "About IPMI"
+    },
+    {
+      "href": "/testimonials",
+      "text": "Testimonials"
+    },
+    {
+      "href": "/attend",
+      "text": "Attend an Institute"
+    },
+    {
+      "href": "/attend#speak",
+      "text": "Speak at an Institute"
+    },
+    {
+      "href": "/attend#partner",
+      "text": "Partner with IPMI"
+    },
+    {
+      "href": "/faq",
+      "text": "FAQ"
+    },
+    {
+      "href": "/contact",
+      "text": "Contact Us"
+    },
+    {
+      "href": "/attend",
+      "text": "Attend an Institute"
+    }
+  ],
+  "page": "63bce3783bf2dd08dee72004",
+  "text": "Institutes \nUpcoming Institutes\nInstitute Insights\nRecent Institutes\nInstitute Gallery\nWhat is an Institute?\nThink Tanks & Roundtables \nUpcoming Think Tanks & Roundtables\nRecent Think Tanks & Roundtables\nWhat is a Think Tank?\nAbout IPMI \nAbout IPMI\nTestimonials\nFAQ\nAttend an Institute\nSpeak at an Institute\nPartner with IPMI\nContact Us\nATTEND AN INSTITUTE\nTHINK TANKS & ROUNDTABLES\nA Relatable, Responsive, and Real-Time Platform.\nIPMI‘s Think Tanks & Roundtables provide a platform for sharing insights, tools and resources to help drive organizational success, and are the go-to outlet for dealing with changing priorities and perspectives.\nVIEW THINK TANKS & ROUNDTABLES\nUPCOMING THINK TANKS & ROUNDTABLES\nFEBRUARY 16, 2027\nOnline - Virtual Think Tank\nThe Whole-Worker Model: Using Leading Versus Lagging Indicators to Integrate Mental Health, Safety & Performance.\nHosted by:\nKevin Lombardo\nView Virtual Think Tank ➜\nTHINK TANK TESTIMONIALS\nFeedback from our fantastic\nThink Tank & Roundtable Attendees:\n\"Not only was it informative, but I feel like it was a very healthy conversation with fresh perspectives and ideas. In this crisis, it’s good to hear from each other and provide professional support.\"\n“I think this is the best session that I have been involved with most recently. I absolutely enjoyed it and would love to participate again.”\n“It’s great to have an opportunity to learn from smart colleagues any time, but especially now. Hopefully we’ll be able to do something like this again soon.”\n“I didn’t have any expectations – I came in with an open mind. I really enjoyed the session and came away feeling mentally refreshed!”\n“Great ideas amongst a knowledgeable group. It validated that what we are doing is what we should be doing.”\n“I loved that there were many shared “teachable moments”, resources and best practices. For me, this translates to an immediate ROI for my time spent today!”\n“I was able to walk away with 5 key drivers that I will utilize within my own organization to continue to add both impact and value shared from my diverse peer group, representing diverse industries, and diverse perspectives.”\n“I have LOVED being a part of your Think Tanks and getting the opportunity to hear from and share experiences, ideas and challenges with so many amazing leaders. Kudos to you for consistently delivering on your commitments. Very proud to be associated with you in this small way.”\n“Got some ideas to propose with my company leadership.”\n“Much of the discussion validated what we had done for managing the crisis. It was good to hear what people did and what they’re focused on…”\n“Great ideas on how to plan and engage with my operational colleagues.”\nRECENT THINK TANKS & ROUNDTABLES\nMARCH 5, 2026\nCirillo's Academy\nElevate Your Leadership: An Exclusive Leadership Workshop & Culinary Experience.\nHosted by:\nIndeed & IPMI\nView Roundtable ➜\nAUGUST 14, 2025\nOnline - Virtual Think Tank\nEmotional Ergonomics: The Missing Link in Workplace Safety.\nHosted by:\nKevin Lombardo\nView Virtual Think Tank ➜\nMAY 28, 2025\nFairmont Pacific Rim Hotel, Vancouver, BC\nOvercoming Hiring Challenges in 2025 with Smarter Recruiting Strategies‍.\nHosted by:\nIndeed & IPMI\nView Roundtable ➜\nAPRIL 26TH - 27TH, 2025\nJW Marriott The Rosseau Muskoka Resort & Spa, ON\nADP Executive Leadership Retreat.\nHosted by:\nADP in partnership with IPMI\nView Roundtable ➜\nPREVIOUS\n1\n2\n3\n4\n5\n...\n9\nNEXT\nInfo@IPMIOnline.com\n(416) 628-4058\n151 Bloor Street W.\nToronto, ON\nCanada M5S1S4\nINSTITUTES\nUpcoming Institutes\nInstitute Insights\nRecent Institutes\nInstitute Gallery\nWhat is an Institute?\nTHINK TANKS &\nROUNDTABLES\nUpcoming Think Tanks\nRecent Think Tanks\nWhat is a Think Tank?\nABOUT IPMI\nAbout IPMI\nTestimonials\nFAQ\nAttend an Institute\nSpeak at an Institute\nPartner with IPMI\nCONTACT US\nContact Us\nCONNECT\n© International Performance Management Institute. All Rights Reserved.\nPrivacy Policy | Terms and Conditions"
+}
