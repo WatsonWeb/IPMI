@@ -90,6 +90,31 @@ remain the source of event, staff, and content-block data.
   Empty phone and email links hide the corresponding contact row. Native
   conditional visibility may also be used for these optional fields.
 
+## Completed Webflow configuration
+
+Reservation Details now belongs to the KBYG Pages collection
+`6a9a5f7b77769cbf46ce29a1`. The new Rich Text field is
+`433e99b4fecc8371aaa114f80743dd46`, with slug `kbyg-reservation-details`.
+Both native reservation Rich Text elements bind directly to this Page field.
+The existing HCHR paragraph was copied verbatim to both its Delegate and Sponsor
+pages. Both EHS pages retain their blank values. No other CMS field values were
+changed by this migration.
+
+The previous Institute field `81009299481c35c9ec95e8c72a35063c` remains as a backup,
+renamed `Legacy - KBYG Reservation Details`, with help text directing editors to
+the KBYG Page field. It is no longer the source for either reservation element.
+
+The native template now includes 11 fallback containers and 15 meaningful-content
+markers. Nine native Empty State messages cover the two existing Key Dates lists
+and seven additional lists. Both Sponsor Experience Empty State wrappers carry
+the shared deduplication group. Optional photos and individual contact channels
+do not produce separate notices.
+
+The configured asset pins are:
+
+- Runtime: `https://cdn.jsdelivr.net/gh/WatsonWeb/IPMI@298d6f6925b4c91cb7e35bccae0dd3cd790cbbef/dist/ipmi-kbyg.js`
+- Stylesheet: `https://cdn.jsdelivr.net/gh/WatsonWeb/IPMI@0bee9be0be82a5cbd03eab614bada158b88957c1/ipmi-kbyg-styles.css`
+
 ## Build and validation
 
 `vp build` emits the runtime and styles into `dist/`; the release also contains
