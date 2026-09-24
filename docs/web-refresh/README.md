@@ -2,7 +2,7 @@
 
 This package turns the Web Refresh Master To-Do and its supporting documents into 37 independently reviewable implementation tasks. Each task contains its sources, edit targets, steps, dependencies, acceptance checks, and rollback instructions. Start with the catalog below; follow its links for the actual copy, photo mappings, and feature details.
 
-**Package owner:** Bryan / implementation team. **Client content owner:** IPMI. **Prepared:** September 23, 2026, America/Chicago (browser observations continued September 24 UTC). **Delivery status:** Implementation underway; tasks 01–14, 16, 18 and the native-form portion of task 15 are staged for review, with evidence in their task documents. Task 15 provider configuration, backend deployment and actual delivery remain pending. Remaining website implementation and integrated staging acceptance remain outstanding. A source request that already appears satisfied is a verification task, not a claim that this refresh implemented it.
+**Package owner:** Bryan / implementation team. **Client content owner:** IPMI. **Prepared:** September 23, 2026, America/Chicago (browser observations continued September 24 UTC). **Delivery status:** Implementation underway; tasks 01–14, 16, 18, 20 and the native-form portion of task 15 are staged for review, with evidence in their task documents. Task 15 provider configuration, backend deployment and actual delivery remain pending. Remaining website implementation and integrated staging acceptance remain outstanding. A source request that already appears satisfied is a verification task, not a claim that this refresh implemented it.
 
 ## Sources and evidence
 
@@ -25,7 +25,7 @@ Source page numbers refer to the browser-rendered documents during this review a
 - CMS counts observed: Institutes 103, Partners 571, Gallery Photos 77, Testimonials 68, FAQs 7, KBYG Pages 4, and KBYG Content Blocks 43. These counts are dated observations, not limits or acceptance targets.
 - Four KBYG records exist: HCHR Sep 2026 Delegate/Sponsor and EHS Jan 2027 Delegate/Sponsor. Exact slugs and staging targets are in [task 25](25-kbyg-page-coverage.md). CMS Published badges do not prove publication to a particular domain.
 - `/institutes` has its existing industry filter and event listing; the requested calendar was not observed. Source chatbot screenshots identify Lyro, but a live homepage widget/provider script was not observed in the sampled DOM. Provider configuration remains to be verified.
-- The reported mobile button defect has not been reproduced in a verified mobile viewport. [Task 20](20-mobile-learn-more.md) requires reproduction before a targeted fix.
+- [Task 20](20-mobile-learn-more.md) reproduced the mobile button failure at 375, 390 and 767px and staged its native URL correction from `#` to `/about`; pointer, keyboard and menu checks passed.
 
 ## Task catalog
 
@@ -52,7 +52,7 @@ Status describes **implementation progress**, not whether the Markdown file exis
 | 17  | [Chair-sponsor logo and description](17-chair-sponsor.md)                                   | Implementation + IPMI            | Input required        | Approved partner/logo and description for first populated example                                |
 | 18  | [HIT 2027 pre-registration wording](18-hit-2027-pre-registration.md)                        | Implementation                   | Staged for review     | HIT-only native text conditional; responsive/keyboard and comparison checks; 34 delivery pending |
 | 19  | [Photo accessibility](19-photo-accessibility.md)                                            | Implementation                   | Ready                 | Apply with 05–14; complete audit after later image additions                                     |
-| 20  | [Mobile Learn More button](20-mobile-learn-more.md)                                         | Implementation                   | Verify existing       | Reproduce at actual mobile widths                                                                |
+| 20  | [Mobile Learn More button](20-mobile-learn-more.md)                                         | Implementation                   | Staged for review     | Native mobile href corrected; responsive, keyboard and menu checks passed; 37                                                                |
 | 21  | [Chatbot appearance and installation](21-chatbot-appearance-and-installation.md)            | Implementation + IPMI            | Input required        | Provider access and approved avatar; coordinate 22/23                                            |
 | 22  | [Chatbot knowledge and training](22-chatbot-knowledge-and-training.md)                      | Implementation + IPMI            | Input required        | Provider access; 01/03/04/24 and approved content inputs                                         |
 | 23  | [Chatbot handoff](23-chatbot-handoff.md)                                                    | IPMI + implementation            | Input required        | Provider access and confirmed handoff destinations                                               |

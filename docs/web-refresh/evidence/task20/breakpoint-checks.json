@@ -1,0 +1,115 @@
+[
+  {
+    "doc": 767,
+    "height": 900,
+    "links": [
+      {
+        "display": "none",
+        "href": "/about",
+        "rect": {
+          "bottom": 0,
+          "height": 0,
+          "left": 0,
+          "right": 0,
+          "top": 0,
+          "width": 0,
+          "x": 0,
+          "y": 0
+        }
+      },
+      {
+        "display": "block",
+        "href": "/about",
+        "rect": {
+          "bottom": 610.9375,
+          "height": 55.59375,
+          "left": 233.046875,
+          "right": 533.953125,
+          "top": 555.34375,
+          "width": 300.90625,
+          "x": 233.046875,
+          "y": 555.34375
+        }
+      }
+    ],
+    "width": 767
+  },
+  {
+    "doc": 790,
+    "height": 1024,
+    "links": [
+      {
+        "display": "block",
+        "href": "/about",
+        "rect": {
+          "bottom": 444.21875,
+          "height": 55.59375,
+          "left": 40,
+          "right": 340.90625,
+          "top": 388.625,
+          "width": 300.90625,
+          "x": 40,
+          "y": 388.625
+        }
+      },
+      {
+        "display": "none",
+        "href": "/about",
+        "rect": {
+          "bottom": 0,
+          "height": 0,
+          "left": 0,
+          "right": 0,
+          "top": 0,
+          "width": 0,
+          "x": 0,
+          "y": 0
+        }
+      }
+    ],
+    "width": 768
+  },
+  {
+    "doc": 1440,
+    "height": 1000,
+    "links": [
+      {
+        "display": "inline-block",
+        "href": "/about",
+        "rect": {
+          "bottom": 551.328125,
+          "height": 55.59375,
+          "left": 64,
+          "right": 364.90625,
+          "top": 495.734375,
+          "width": 300.90625,
+          "x": 64,
+          "y": 495.734375
+        }
+      },
+      {
+        "display": "none",
+        "href": "/about",
+        "rect": {
+          "bottom": 0,
+          "height": 0,
+          "left": 0,
+          "right": 0,
+          "top": 0,
+          "width": 0,
+          "x": 0,
+          "y": 0
+        }
+      }
+    ],
+    "width": 1440
+  },
+  {
+    "doc": 390,
+    "focus": "learn more about ipmi",
+    "height": 844,
+    "href": "/about",
+    "outline": "rgb(16, 16, 16) auto 1px",
+    "width": 390
+  }
+]

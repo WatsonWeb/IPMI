@@ -2,7 +2,7 @@
 
 [Back to master](README.md)
 
-**Owner:** BWC / Webflow implementer. **Status:** Reported defect; not yet reproduced at a verified mobile viewport.
+**Owner:** BWC / Webflow implementer. **Status:** Staged for review — mobile destination repaired and verified September 24, 2026.
 
 ## Source and target
 
@@ -27,12 +27,16 @@ No new copy or asset is needed. If verified mobile testing cannot reproduce the 
 
 ## Acceptance checks
 
-- [ ] Mobile viewport dimensions and original failure/reproduction outcome are recorded.
-- [ ] Button text remains visible without clipping or horizontal page overflow.
-- [ ] Touch/click and keyboard activation reach `/about`; focus is visible and no overlay blocks input.
-- [ ] Mobile-menu interaction does not disable the button after the menu closes.
-- [ ] Tablet/desktop appearance and shared buttons remain intact; task 37 includes the regression.
+- [x] Mobile viewport dimensions and original failure/reproduction outcome are recorded.
+- [x] Button text remains visible without clipping or horizontal page overflow.
+- [x] Touch/click and keyboard activation reach `/about`; focus is visible and no overlay blocks input.
+- [x] Mobile-menu interaction does not disable the button after the menu closes.
+- [x] Tablet/desktop appearance and shared buttons remain intact; task 37 includes the regression.
 
 ## Rollback
 
 Save the original class values, link destination, and relevant interactions. Restore only the scoped change or staging asset reference if regression appears; leave unrelated shared styles unchanged.
+
+## Implementation record — September 24, 2026
+
+Reproduced at actual 375px, 390px and 767px: native mobile URL was '#', leaving Home instead of opening About. Changed only that native URL to '/about'. Staging pointer, keyboard/focus and menu open/close checks passed; tablet and desktop variants preserved. [Evidence, exact rollback and publication record](evidence/task20/README.md). Existing tablet navbar overflow remains task 37. No placeholders or custom CSS applied. Production remains unchanged.

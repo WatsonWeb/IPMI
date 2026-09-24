@@ -91,3 +91,7 @@ Four native inquiry forms have optional Phone fields staged; [task 15 evidence](
 ## Rollback
 
 Restore only the failed batch's saved page/component/CMS values and original asset bindings, then republish to staging only and repeat the relevant checks. Retain original assets and CMS data until review is complete. Coordinate shared-template changes with other active work; never overwrite newer unrelated edits with a whole-site restore. If a provider-side chatbot change affected a production instance, restore that recorded provider configuration first and document the incident. Production publication remains outside this task.
+
+## Task 20 verification record — September 24, 2026
+
+[Task 20 evidence](evidence/task20/README.md) records the reproduced mobile link defect and native destination correction. Repeat Home mobile Learn More pointer/keyboard activation after opening and closing the menu in integrated acceptance. 375/390/767px checks passed; desktop/tablet variant preserved. The inherited 768px navbar document width of 790 remains separate from this corrected link. Production mobile href remains '#'.

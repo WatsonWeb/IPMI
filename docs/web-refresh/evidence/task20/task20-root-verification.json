@@ -1,0 +1,14 @@
+{
+  "checkedAtUtc": "2026-09-24T07:57:29.8446807Z",
+  "scope": "Root independent read-only HTTP comparison with pretask20 Home and current production",
+  "newMobileHrefPresent": true,
+  "oldMobileHrefAbsent": true,
+  "onlyExpectedAnchorChange": true,
+  "allImageTagsByteIdentical": true,
+  "sourceTextByteIdentical": true,
+  "inlineScriptsByteIdentical": true,
+  "desktopHrefRetained": true,
+  "task16EmailRetained": true,
+  "productionRetainsOldMobileHref": true,
+  "productionDoesNotContainNewMobileHref": true
+}
