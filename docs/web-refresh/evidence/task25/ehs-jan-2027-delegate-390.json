@@ -280,9 +280,7 @@
   },
   "extra": {
     "backdrop": false,
-    "robots": [
-      "noindex,follow"
-    ],
+    "robots": ["noindex,follow"],
     "hashControls": [
       "",
       "ADD TO CALENDAR",

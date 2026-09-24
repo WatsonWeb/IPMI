@@ -36,6 +36,7 @@ const footers = {
   horizon: "Page HTML/Institutes on the Horizon/Horizon-Footer.html",
   "hit-inquiry-routing": "Page HTML/Institutes on the Horizon/HIT-Routing-Supplement.html",
   "photo-accessibility": "Page HTML/Global/Photo-Accessibility-Supplement.html",
+  "refresh-integration": "Page HTML/Global/Refresh-Integration-Supplement.html",
   "institutes-calendar": "Page HTML/Institutes/Calendar-Supplement.html",
   institute: "Page HTML/Institute Single/Institute-Footer.html",
   institutes: "Page HTML/Institutes/Institutes-Footer.html",

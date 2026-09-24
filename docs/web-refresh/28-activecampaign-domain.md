@@ -48,15 +48,15 @@ The four native inquiry sources (Contact, Attend, Horizon and Institutes templat
 
 The exact interim record is **`Pending account/domain verification`**. It is documentation-only; no public placeholder or substitute credential/domain was installed. Replace this record using the checklist below, retaining the dated evidence. Both owned research tabs were closed; no viewport override was applied and existing tabs were preserved.
 
-| Required replacement / verification | Current evidence or missing value | Responsible owner |
-| --- | --- | --- |
-| Confirm account and responsible administrator | Observed account admin URL above; administrator name/role pending | IPMI account administrator |
-| Identify the requested domain function | Pending: sender authentication, tracking/link domain, or another named function; do not infer from public website/email | IPMI account administrator |
-| Record exact configured and intended domains | Both pending, with the associated settings page name/URL | IPMI account/domain administrator |
-| Capture dated provider status | Pending authenticated screenshot/export showing the relevant domain and exact status/requirements; redact secrets | IPMI account administrator |
-| Resolve only an evidenced requirement | Pending only if provider reports one; capture administrator's before/after status and retest date, without inventing DNS records | IPMI domain administrator |
-| Confirm integration scope | Form 412 observed; account-side list, automation, notification, additional form IDs and affected domains pending | IPMI account administrator + implementation |
-| Verify any affected path safely | Establish isolated form/test routing and agreed recipient before a controlled test; record receipt and unchanged unrelated mappings if remediation affects integration | IPMI + implementation; coordinate 15/37 |
+| Required replacement / verification           | Current evidence or missing value                                                                                                                                      | Responsible owner                           |
+| --------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------- |
+| Confirm account and responsible administrator | Observed account admin URL above; administrator name/role pending                                                                                                      | IPMI account administrator                  |
+| Identify the requested domain function        | Pending: sender authentication, tracking/link domain, or another named function; do not infer from public website/email                                                | IPMI account administrator                  |
+| Record exact configured and intended domains  | Both pending, with the associated settings page name/URL                                                                                                               | IPMI account/domain administrator           |
+| Capture dated provider status                 | Pending authenticated screenshot/export showing the relevant domain and exact status/requirements; redact secrets                                                      | IPMI account administrator                  |
+| Resolve only an evidenced requirement         | Pending only if provider reports one; capture administrator's before/after status and retest date, without inventing DNS records                                       | IPMI domain administrator                   |
+| Confirm integration scope                     | Form 412 observed; account-side list, automation, notification, additional form IDs and affected domains pending                                                       | IPMI account administrator + implementation |
+| Verify any affected path safely               | Establish isolated form/test routing and agreed recipient before a controlled test; record receipt and unchanged unrelated mappings if remediation affects integration | IPMI + implementation; coordinate 15/37     |
 
 Acceptance remains open. The observed integration is identified for the sampled page, but account-wide inventory and any affected-path delivery remain unverified. No unresolved account status is represented as a staging pass.
 

@@ -11,16 +11,16 @@ September 24, 2026. Task 29 deliberately retains the existing appropriate galler
 
 Chrome on `https://ipmi.webflow.io/gallery#gallery` with site custom code active:
 
-| Check | Result |
-| --- | --- |
-| Category membership | Institute Sessions 10; Business Meetings 10; Think Tanks & Roundtables 9; Networking & Entertainment 11. Existing four category sections/carousels, not interactive event filters. No event-reference field exists in the collection. |
-| Mapping/order | Every displayed asset matches exactly one existing CMS record by decoded filename (legacy uploads-ssl host normalizes to cdn.prod.website-files.com). 40 unique IDs; exact observed positions captured. No record added, deleted or reordered. |
-| Thumbnails | All 40 loaded with nonzero natural width after navigating lazy slides. Desktop three-across and mobile one-across sampled crops visually usable; `object-fit` captured per row. |
-| Full-size bindings | All 40 lightbox URLs equal their displayed original asset URL. Groups Sessions/Meetings/Thinktanks/Networking match sections. Sessions and Networking opened successfully; full-size image loaded. |
-| Pointer/keyboard | Each desktop Next control advanced active slide 1 to 4; Enter on Previous returned to 1. Enter opened Sessions lightbox. Enter on Networking next-image selected item 2 of 11. Escape dismissed and returned focus to gallery. |
-| Mobile | 390×844: keyboard Next advanced Sessions to 2/10; last pagination controls reached 10/10, 10/10, 9/9, 11/11 respectively. Networking final image lightbox fits screen with close control/thumbnails. No horizontal document overflow at 390 or 1440. |
-| Preserved approved content | Task 08 P11–P14 feature images and descriptive text still present. Task 10 P18/P19 absent from main 40 and unchanged in inventory. |
-| Cleanup | Owned QA tab closed, temporary viewport reset. Other existing tabs left intact. |
+| Check                      | Result                                                                                                                                                                                                                                               |
+| -------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Category membership        | Institute Sessions 10; Business Meetings 10; Think Tanks & Roundtables 9; Networking & Entertainment 11. Existing four category sections/carousels, not interactive event filters. No event-reference field exists in the collection.                |
+| Mapping/order              | Every displayed asset matches exactly one existing CMS record by decoded filename (legacy uploads-ssl host normalizes to cdn.prod.website-files.com). 40 unique IDs; exact observed positions captured. No record added, deleted or reordered.       |
+| Thumbnails                 | All 40 loaded with nonzero natural width after navigating lazy slides. Desktop three-across and mobile one-across sampled crops visually usable; `object-fit` captured per row.                                                                      |
+| Full-size bindings         | All 40 lightbox URLs equal their displayed original asset URL. Groups Sessions/Meetings/Thinktanks/Networking match sections. Sessions and Networking opened successfully; full-size image loaded.                                                   |
+| Pointer/keyboard           | Each desktop Next control advanced active slide 1 to 4; Enter on Previous returned to 1. Enter opened Sessions lightbox. Enter on Networking next-image selected item 2 of 11. Escape dismissed and returned focus to gallery.                       |
+| Mobile                     | 390×844: keyboard Next advanced Sessions to 2/10; last pagination controls reached 10/10, 10/10, 9/9, 11/11 respectively. Networking final image lightbox fits screen with close control/thumbnails. No horizontal document overflow at 390 or 1440. |
+| Preserved approved content | Task 08 P11–P14 feature images and descriptive text still present. Task 10 P18/P19 absent from main 40 and unchanged in inventory.                                                                                                                   |
+| Cleanup                    | Owned QA tab closed, temporary viewport reset. Other existing tabs left intact.                                                                                                                                                                      |
 
 ## Inherited follow-ups for tasks 19/37
 

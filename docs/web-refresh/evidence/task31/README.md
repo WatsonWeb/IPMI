@@ -6,14 +6,14 @@ September 24, 2026. Editor: Codex, read-only Chrome staging verification. [About
 
 No additional approved images or destination manifest was supplied. The [exact manifest](retained-about-manifest.json) captures all six placements, actual asset URLs, full CMS field sets from the September 24 baseline, and current Chrome-observed wrappers/links. CMS asset URLs may use the older uploads hostname; the rendered CDN URL has the same file ID and filename. No website field, asset, binding, ordering, runtime file, or publishing state was changed.
 
-| Register row | About position | Gallery Photos item ID | Retained image / CMS sort |
-| --- | --- | --- | --- |
-| 31-01 | Our Mission 1 | `6ab4bd3aeae4404f8477c276` | Approved P18 HRMI Apr 2025 Staff 1 / null |
-| 31-02 | Our Mission 2 | `6ab4bd83211dc7575394d8e2` | Approved P19 HFI 2026 Staff / null |
-| 31-03 | Carousel 1 | `63bf5bdc10f3fdd73323cc02` | HR July 2022 - Session Room / 4 |
-| 31-04 | Carousel 2 | `63c9bbce840fddd0ef67c52a` | HCHR 2022 - Nas / 4 |
-| 31-05 | Carousel 3 | `63c532de3b2b766fcec071e4` | HCHR 2022 - Networking / 5 |
-| 31-06 | Carousel 4 | `63c9bca7764ce25d9543c712` | SOI 2022 Jenny / 6 |
+| Register row | About position | Gallery Photos item ID     | Retained image / CMS sort                 |
+| ------------ | -------------- | -------------------------- | ----------------------------------------- |
+| 31-01        | Our Mission 1  | `6ab4bd3aeae4404f8477c276` | Approved P18 HRMI Apr 2025 Staff 1 / null |
+| 31-02        | Our Mission 2  | `6ab4bd83211dc7575394d8e2` | Approved P19 HFI 2026 Staff / null        |
+| 31-03        | Carousel 1     | `63bf5bdc10f3fdd73323cc02` | HR July 2022 - Session Room / 4           |
+| 31-04        | Carousel 2     | `63c9bbce840fddd0ef67c52a` | HCHR 2022 - Nas / 4                       |
+| 31-05        | Carousel 3     | `63c532de3b2b766fcec071e4` | HCHR 2022 - Networking / 5                |
+| 31-06        | Carousel 4     | `63c9bca7764ce25d9543c712` | SOI 2022 Jenny / 6                        |
 
 Mission selects the two task 10 records explicitly, with About feature flags false, categories blank and sort null. The supplemental carousel retains its featured-flag filter and skip-two selection. Do not enable the Mission feature flags, repurpose shared categories/sort, or duplicate records to simulate final content. The hidden eight-profile Staff section remains untouched. Task 10 P16/P17 hero imagery also remains unchanged.
 

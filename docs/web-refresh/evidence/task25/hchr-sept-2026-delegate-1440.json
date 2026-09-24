@@ -451,10 +451,7 @@
   },
   "extra": {
     "backdrop": true,
-    "robots": [
-      "noindex",
-      "noindex,follow"
-    ],
+    "robots": ["noindex", "noindex,follow"],
     "hashControls": [
       "ADD TO CALENDAR",
       "ADD TO CALENDAR",

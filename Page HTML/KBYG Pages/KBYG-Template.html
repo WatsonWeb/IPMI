@@ -24,6 +24,10 @@
   Runtime preserves native headings, copy, CTA labels, and independent URLs.
   Calendar Start/End attributes are authoritative; emit YYYY-MM-DD for all-day
   dates and ISO date/time values for timed entries.
+  Native wall-time source embeds bind data-kbyg-all-day-local-date to the optional
+  Content Blocks > Use Local Date switch. True preserves a verified authored
+  local calendar date; false/blank preserves legacy UTC-encoded dates. Do not
+  infer date basis from display copy. See KBYG-CMS-Rendering-Release.md.
   Every venue gallery image must use its current CMS src and alt. Runtime
   rebuilds its lightbox item from that source; data-kbyg-full-image-src on the
   image or lightbox link can bind a separate full-size image when required.
@@ -857,9 +861,53 @@
           <h2 id="kbyg-agenda-title" class="kbyg-section__title">Institute Agenda</h2>
           <p class="kbyg-section__intro">View the full Institute agenda for program details.</p>
         </header>
-        <!-- WEBFLOW: Agenda Days Collection List Wrapper is Hidden, with Keep in HTML
-          when hidden off. Native binding, multi-references, and blocks remain for rollback.
-          Empty agenda URLs retain the page's existing pending intro without a duplicate notice. -->
+        <!--
+          WEBFLOW COLLECTION LIST: KBYG Page > Agenda Days, preserving multi-reference order.
+          Keep the Collection List Wrapper visible. Each item binds its Title and rich-text Body
+          from the referenced Agenda Day block. Empty collections use the native empty state.
+        -->
+        <div class="kbyg-agenda-grid">
+          <article class="kbyg-agenda-card">
+            <!-- WEBFLOW BIND: Agenda Day > Title. -->
+            <h3 class="kbyg-agenda-card__header">DAY 1 - SUNDAY</h3>
+            <!-- WEBFLOW BIND: Agenda Day > Body (Rich Text). -->
+            <div class="kbyg-rich-text">
+              <p><strong>12:00 PM - 1:00 PM</strong> — Registration &amp; Welcome</p>
+              <p>
+                <strong>1:00 PM - 6:30 PM</strong> — Conference Sessions, Think Tanks &amp; Business
+                Meetings
+              </p>
+              <p><strong>6:30 PM - 8:00 PM</strong> — Welcome Reception &amp; Dinner</p>
+            </div>
+          </article>
+          <article class="kbyg-agenda-card">
+            <!-- WEBFLOW BIND: Agenda Day > Title. -->
+            <h3 class="kbyg-agenda-card__header">DAY 2 - MONDAY</h3>
+            <!-- WEBFLOW BIND: Agenda Day > Body (Rich Text). -->
+            <div class="kbyg-rich-text">
+              <p><strong>7:30 AM - 8:30 AM</strong> — Breakfast</p>
+              <p>
+                <strong>8:30 AM - 6:30 PM</strong> — Event Programming, Breakouts &amp; Business
+                Meetings
+              </p>
+              <p><strong>12:00 PM - 1:00 PM</strong> — Networking Lunch</p>
+              <p><strong>6:30 PM - 8:00 PM</strong> — Dinner &amp; Evening Entertainment</p>
+            </div>
+          </article>
+          <article class="kbyg-agenda-card">
+            <!-- WEBFLOW BIND: Agenda Day > Title. -->
+            <h3 class="kbyg-agenda-card__header">DAY 3 - TUESDAY</h3>
+            <!-- WEBFLOW BIND: Agenda Day > Body (Rich Text). -->
+            <div class="kbyg-rich-text">
+              <p><strong>7:30 AM - 8:30 AM</strong> — Breakfast</p>
+              <p>
+                <strong>8:30 AM - 12:00 PM</strong> — Conference Sessions, Think Tanks &amp;
+                Business Meetings
+              </p>
+              <p><strong>12:00 PM</strong> — Closing Remarks &amp; Event Conclusion</p>
+            </div>
+          </article>
+        </div>
         <div class="kbyg-section__actions">
           <!-- WEBFLOW BIND: href = Referenced Institute > Agenda Link. -->
           <a

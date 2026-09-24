@@ -52,13 +52,13 @@ No new fields or collection changes. Requires access to the existing static stat
 
 Editor: Codex task 02 worker, through Chrome Webflow Designer as **IPMI Webmaster**, site **IPMI**. Task 01's staged copy was retained. No CMS records, draft statuses, shared components, or shared CSS assets were edited. The initial Git worktree was clean at `3c602a9`.
 
-| Location | Previous | Staged result |
-| --- | --- | --- |
-| Home, Stats Section → Stats Cards → first Stat Card → Stat Number, `#stat-institutes.stat-number.countup` | Static `17` | Static `20` |
-| About IPMI (`63c500748ec2645bc65e5f9b`), About Section → Stats Cards → first Stat Card → Stat Number, `#stat-institutes`, Webflow element `d960841e-a36d-f224-876e-ac1494b9d83f` | Static `17` | Static `20` |
-| Home page settings → Custom code → Before `</body>` | `new countUp.CountUp("stat-institutes", 17, { duration: 1 })` | Endpoint `20` |
-| About IPMI page settings → Custom code → Before `</body>` | Same endpoint `17` | Endpoint `20` |
-| Maintained `src/site/statistics.ts`, existing Home/About assertions in `tests/site-behaviors.test.ts` | Institute target `17` | Target/expectations `20` |
+| Location                                                                                                                                                                         | Previous                                                      | Staged result            |
+| -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------- | ------------------------ |
+| Home, Stats Section → Stats Cards → first Stat Card → Stat Number, `#stat-institutes.stat-number.countup`                                                                        | Static `17`                                                   | Static `20`              |
+| About IPMI (`63c500748ec2645bc65e5f9b`), About Section → Stats Cards → first Stat Card → Stat Number, `#stat-institutes`, Webflow element `d960841e-a36d-f224-876e-ac1494b9d83f` | Static `17`                                                   | Static `20`              |
+| Home page settings → Custom code → Before `</body>`                                                                                                                              | `new countUp.CountUp("stat-institutes", 17, { duration: 1 })` | Endpoint `20`            |
+| About IPMI page settings → Custom code → Before `</body>`                                                                                                                        | Same endpoint `17`                                            | Endpoint `20`            |
+| Maintained `src/site/statistics.ts`, existing Home/About assertions in `tests/site-behaviors.test.ts`                                                                            | Institute target `17`                                         | Target/expectations `20` |
 
 These are two independent page elements, not a shared component. Chrome inspection and UI clipboard capture verified the actual page-specific footer scripts before editing. They load CountUp 2.3.2 from jsDelivr and run inline; the maintained TypeScript bundles are **not** the controller currently bound to these pages. Each footer edit replaced only its single Institute endpoint string, retaining all other code, including the one-second counter duration, circular progress, observer thresholds (Home 0.75 / About 0.3), sliders, and About profile modal. No script URLs were changed and no rebuilt bundle was deployed. Existing public baseline HTML is retained locally in ignored `.webflow/web-refresh-2026-09-23-baseline/home.html` and `about.html`.
 

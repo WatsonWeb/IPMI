@@ -344,9 +344,7 @@
   },
   "extra": {
     "backdrop": false,
-    "robots": [
-      "noindex,follow"
-    ],
+    "robots": ["noindex,follow"],
     "hashControls": []
   },
   "notes": "Hash-only calendar, FAQ and global navigation controls are not destination CTAs. Exact guide URLs audited in root-http-verification.json."

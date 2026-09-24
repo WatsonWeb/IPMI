@@ -1255,7 +1255,8 @@ function calendarDataFromElement(control: HTMLElement): CalendarInput {
   let start = field("start", ["data-kbyg-start", "data-kbyg-calendar-start"]);
   let end = field("end", ["data-kbyg-end", "data-kbyg-calendar-end"]);
   let source = query(card, "[data-kbyg-calendar-source]");
-  let sourceInvalid = false;
+  let localDateMarker = String(getAttribute(source, "data-kbyg-all-day-local-date") || "").trim();
+  let sourceInvalid = !["", "true", "false"].includes(localDateMarker);
   function sourceDate(name: string, fallback: unknown) {
     let value = String(getAttribute(source, "data-kbyg-" + name) || "").trim();
     if (!value) return fallback;
@@ -1264,7 +1265,12 @@ function calendarDataFromElement(control: HTMLElement): CalendarInput {
       String(getAttribute(source, "data-kbyg-calendar-timezone") || ""),
     );
     if (!converted) sourceInvalid = true;
-    return converted;
+    // Legacy records encode a UTC calendar date. Explicitly migrated records
+    // use the authored wall date; never infer this from potentially stale copy.
+    // Validate the complete source (including DST ambiguity) in either case.
+    return converted && parseBoolean(allDay, false) && localDateMarker === "true"
+      ? value.slice(0, 10)
+      : converted;
   }
   start = sourceDate("start", start);
   end = sourceDate("end", end);

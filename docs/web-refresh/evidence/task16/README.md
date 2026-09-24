@@ -4,10 +4,10 @@ Implemented September 24, 2026 in Chrome Webflow Designer as IPMI Webmaster; sta
 
 ## Exact delta and rollback
 
-| Unique source | Previous text / href | New text / href | Scope |
-| --- | --- | --- | --- |
-| Footer main component, Base variant → Footer Contact List → first Footer List Item → Footer Contact Link | `Info@IPMIOnline.com` / `mailto:Info@IPMIOnline.com` | `info@ipmievents.com` / `mailto:info@ipmievents.com` | Designer warns 23 component instances; edit performed in main component, no new overrides |
-| Contact Us page `63c3829b2405e78449d8cae5` → Contact Section → Contact Columns → Contact Column Left → Tab Body → Contact Info → first Footer List Item → Footer Contact Link | `Info@IPMIOnline.com` / `mailto:Info@IPMIOnline.com` | `info@ipmievents.com` / `mailto:info@ipmievents.com` | Page-local static link, outside component |
+| Unique source                                                                                                                                                                 | Previous text / href                                 | New text / href                                      | Scope                                                                                     |
+| ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------- | ---------------------------------------------------- | ----------------------------------------------------------------------------------------- |
+| Footer main component, Base variant → Footer Contact List → first Footer List Item → Footer Contact Link                                                                      | `Info@IPMIOnline.com` / `mailto:Info@IPMIOnline.com` | `info@ipmievents.com` / `mailto:info@ipmievents.com` | Designer warns 23 component instances; edit performed in main component, no new overrides |
+| Contact Us page `63c3829b2405e78449d8cae5` → Contact Section → Contact Columns → Contact Column Left → Tab Body → Contact Info → first Footer List Item → Footer Contact Link | `Info@IPMIOnline.com` / `mailto:Info@IPMIOnline.com` | `info@ipmievents.com` / `mailto:info@ipmievents.com` | Page-local static link, outside component                                                 |
 
 Both Link Settings were type Email, Subject blank; original hrefs contained no subject/body query parameters. No custom attributes or alternate accessible labels appeared on either selected link. The Footer has an unrelated Image property, preserved. No element IDs, classes, CMS records, component instances, form settings, embeds or runtime assets changed. Restore only the two sources' exact old Email and Text values through Designer if rollback is needed; publish staging only. Do not restore whole pages or pre-task-15 form snapshots.
 

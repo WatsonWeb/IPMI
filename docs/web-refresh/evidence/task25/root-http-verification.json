@@ -335,10 +335,7 @@
       "year": "2027",
       "audience": "sponsor",
       "noindex": true,
-      "exampleLinks": [
-        "https://example.com/sponsor-hub",
-        "https://example.com/sponsor-hub"
-      ],
+      "exampleLinks": ["https://example.com/sponsor-hub", "https://example.com/sponsor-hub"],
       "original": {
         "imagesPreserved": false,
         "linksPreserved": true,
@@ -392,10 +389,7 @@
       "year": "2026",
       "audience": "sponsor",
       "noindex": true,
-      "exampleLinks": [
-        "https://example.com/sponsor-hub",
-        "https://example.com/sponsor-hub"
-      ],
+      "exampleLinks": ["https://example.com/sponsor-hub", "https://example.com/sponsor-hub"],
       "original": {
         "imagesPreserved": true,
         "linksPreserved": true,

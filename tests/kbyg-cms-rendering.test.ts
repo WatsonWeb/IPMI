@@ -767,6 +767,7 @@ function calendarSourcePage(options: {
   sourceEnd?: string;
   timezone?: string | null;
   allDay?: boolean;
+  localDate?: string;
   controlStart?: string;
   controlEnd?: string;
 }): HTMLElement {
@@ -786,6 +787,8 @@ function calendarSourcePage(options: {
     const source = document.createElement("span");
     source.hidden = true;
     source.setAttribute("data-kbyg-calendar-source", "");
+    if (options.localDate !== undefined)
+      source.setAttribute("data-kbyg-all-day-local-date", options.localDate);
     source.setAttribute("data-kbyg-start", options.sourceStart);
     source.setAttribute("data-kbyg-end", options.sourceEnd ?? options.sourceStart);
     if (options.timezone !== null) {
@@ -813,19 +816,24 @@ async function downloadCalendar(element: HTMLElement): Promise<string | null> {
 }
 
 test.each([
-  ["summer", "2026-07-28 20:00", "20260729", "20260730"],
-  ["winter", "2026-01-28 19:00", "20260129", "20260130"],
+  ["summer", "2026-07-28 20:00", "20260728", "20260729"],
+  ["winter", "2026-01-28 19:00", "20260128", "20260129"],
+  ["EHS December deadline", "2026-12-18 20:00", "20261218", "20261219"],
+  ["EHS January deadline", "2027-01-13 20:00", "20270113", "20270114"],
+  ["EHS January arrival", "2027-01-14 20:00", "20270114", "20270115"],
 ])(
-  "the native Toronto calendar source restores the next UTC date during %s",
+  "the native Toronto all-day source preserves its authored date for %s",
   async (_season, sourceStart, expectedStart, expectedEnd) => {
-    const element = calendarSourcePage({ sourceStart });
+    const element = calendarSourcePage({ sourceStart, localDate: "true" });
 
     const calendar = await downloadCalendar(element);
 
     expect(calendar).toContain(`DTSTART;VALUE=DATE:${expectedStart}\r\n`);
     expect(calendar).toContain(`DTEND;VALUE=DATE:${expectedEnd}\r\n`);
     expect(calendar).not.toContain("20260904");
-    expect(get(element, ".kbyg-date-card__day").textContent).toBe("29");
+    expect(get(element, ".kbyg-date-card__day").textContent).toBe(
+      String(Number(expectedStart.slice(-2))),
+    );
   },
 );
 
@@ -834,12 +842,39 @@ test("timed native calendar sources retain the Toronto instant across the UTC da
     sourceStart: "2026-07-28 20:00",
     sourceEnd: "2026-07-28 21:30",
     allDay: false,
+    localDate: "true",
   });
 
   const calendar = await downloadCalendar(element);
 
   expect(calendar).toContain("DTSTART:20260729T000000Z\r\n");
   expect(calendar).toContain("DTEND:20260729T013000Z\r\n");
+});
+
+test.each([
+  ["Delegate 1", "2026-07-28 20:00", "20260729"],
+  ["Delegate 2", "2026-08-18 20:00", "20260819"],
+  ["Delegate 3", "2026-08-18 20:00", "20260819"],
+  ["Delegate 4", "2026-08-23 20:00", "20260824"],
+  ["Sponsor 1", "2026-07-21 20:00", "20260722"],
+  ["Sponsor 2", "2026-08-13 20:00", "20260814"],
+  ["Sponsor 3", "2026-08-13 20:00", "20260814"],
+  ["Sponsor 4", "2026-08-25 20:00", "20260826"],
+])(
+  "legacy HCHR %s retains its authored UTC-encoded date",
+  async (_label, sourceStart, expected) => {
+    const element = calendarSourcePage({ sourceStart });
+    expect(await downloadCalendar(element)).toContain(`DTSTART;VALUE=DATE:${expected}\r\n`);
+    expect(get(element, ".kbyg-date-card__day").textContent).toBe(
+      String(Number(expected.slice(-2))),
+    );
+  },
+);
+
+test("unknown native date-basis markers fail closed", async () => {
+  const element = calendarSourcePage({ sourceStart: "2026-12-18 20:00", localDate: "local-ish" });
+  expect(await downloadCalendar(element)).toBeNull();
+  expect(get(element, "[data-kbyg-calendar]").getAttribute("aria-disabled")).toBe("true");
 });
 
 test("blank native source dates fall back to valid control dates without timezone conversion", async () => {

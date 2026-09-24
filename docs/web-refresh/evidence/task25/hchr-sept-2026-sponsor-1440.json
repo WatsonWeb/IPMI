@@ -426,16 +426,8 @@
   },
   "extra": {
     "backdrop": true,
-    "robots": [
-      "noindex",
-      "noindex,follow"
-    ],
-    "hashControls": [
-      "ADD TO CALENDAR",
-      "ADD TO CALENDAR",
-      "ADD TO CALENDAR",
-      "ADD TO CALENDAR"
-    ]
+    "robots": ["noindex", "noindex,follow"],
+    "hashControls": ["ADD TO CALENDAR", "ADD TO CALENDAR", "ADD TO CALENDAR", "ADD TO CALENDAR"]
   },
   "notes": "Hash-only calendar, FAQ and global navigation controls are not destination CTAs. Exact guide URLs audited in root-http-verification.json."
 }

@@ -1,0 +1,42 @@
+/* Immutable task 37 supplement; the shared production and KBYG base CSS stay frozen. */
+@media screen and (min-width: 768px) and (max-width: 991px) {
+  .navbar.w-nav .nav-container {
+    width: calc(100% - 40px);
+    max-width: none;
+  }
+
+  .navbar.w-nav .desktop-menu.w-nav-menu .nav-link {
+    padding-inline: 8px;
+  }
+}
+
+/* Swiper's announcements remain exposed to assistive technology. */
+.swiper-notification {
+  position: absolute !important;
+  width: 1px !important;
+  height: 1px !important;
+  padding: 0 !important;
+  margin: -1px !important;
+  overflow: hidden !important;
+  clip-path: inset(50%) !important;
+  white-space: nowrap !important;
+  border: 0 !important;
+}
+
+.kbyg-page .w-dyn-empty[data-kbyg-empty-notice] {
+  color: #27272a;
+  background-color: #f4f4f5;
+}
+
+/* Only sparse lists lose the fixed reference-layout floor; populated cards retain it. */
+.kbyg-page[data-audience="sponsor"]
+  #experience:has([data-kbyg-empty-group="sponsor-experience"]:not([hidden])) {
+  min-height: 0;
+}
+
+.kbyg-page[data-audience="sponsor"]
+  #experience:has([data-kbyg-empty-group="sponsor-experience"]:not([hidden]))
+  .kbyg-meeting-method {
+  min-height: 0;
+}
+/*$vite$:1*/

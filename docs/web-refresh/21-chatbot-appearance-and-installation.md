@@ -36,12 +36,12 @@ The [exact configuration/placeholder register](evidence/task21/appearance-handof
 
 ## Required inputs and dependencies
 
-| Input                                     | Owner                   | Blocking condition                                                               |
-| ----------------------------------------- | ----------------------- | -------------------------------------------------------------------------------- |
-| Existing chatbot account/workspace access | IPMI account owner      | Verified September 24 via existing IPMI Webmaster session; no new account.                     |
-| Approved brand avatar file/URL            | IPMI marketing          | Existing welcome logo retained; neutral fallback prepared. Speaker Home background removal awaits isolation.         |
-| Provider staging/test isolation           | Bryan and account owner | Shared production configuration must not be changed during staging review.       |
-| Approved greeting/display name if changed | IPMI marketing          | Exact placeholder copy prepared in JSON; apply only after isolation, then obtain final approval. |
+| Input                                     | Owner                   | Blocking condition                                                                                           |
+| ----------------------------------------- | ----------------------- | ------------------------------------------------------------------------------------------------------------ |
+| Existing chatbot account/workspace access | IPMI account owner      | Verified September 24 via existing IPMI Webmaster session; no new account.                                   |
+| Approved brand avatar file/URL            | IPMI marketing          | Existing welcome logo retained; neutral fallback prepared. Speaker Home background removal awaits isolation. |
+| Provider staging/test isolation           | Bryan and account owner | Shared production configuration must not be changed during staging review.                                   |
+| Approved greeting/display name if changed | IPMI marketing          | Exact placeholder copy prepared in JSON; apply only after isolation, then obtain final approval.             |
 
 ## Acceptance checks
 

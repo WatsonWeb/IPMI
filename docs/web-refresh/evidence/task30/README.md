@@ -6,13 +6,13 @@ September 24, 2026. Editor: IPMI Webmaster through Chrome UI. Staging: [FAQ](htt
 
 Collection `63c103e2bb52da83c427f586`; new item `6ab4dcb7c6fcf3d14c3706d1`:
 
-| Field | New value | Previous value |
-| --- | --- | --- |
-| FAQ Label / name | `Placeholder question — replace with approved FAQ` | No record |
-| slug / anchor | `placeholder-question-replace-with-approved-faq` | No record |
-| FAQ Answer / faq-answer | `<p>Placeholder: the approved answer will be added here.</p>` | No record |
-| sort-order | `999` | No record |
-| slider-images-sourced-from-gallery | `null` | No record |
+| Field                              | New value                                                     | Previous value |
+| ---------------------------------- | ------------------------------------------------------------- | -------------- |
+| FAQ Label / name                   | `Placeholder question — replace with approved FAQ`            | No record      |
+| slug / anchor                      | `placeholder-question-replace-with-approved-faq`              | No record      |
+| FAQ Answer / faq-answer            | `<p>Placeholder: the approved answer will be added here.</p>` | No record      |
+| sort-order                         | `999`                                                         | No record      |
+| slider-images-sourced-from-gallery | `null`                                                        | No record      |
 
 The misleading CMS label help text says the name is not visible; the actual page binds it to the question and adds `?`. The record is visibly temporary and contains no invented event or policy facts. It follows the original orders 1, 2, 3, 4, 6, 7, 8.
 

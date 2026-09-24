@@ -1,30 +1,34 @@
 <script>
-	/* Document Ready */
-	$(function () {
-		/* Mobile Menu */
-		$(".mobile-menu").click(function (event) {
-			event.stopPropagation();
-		});
+  /* Document Ready */
+  $(function () {
+    /* Mobile Menu */
+    $(".mobile-menu").click(function (event) {
+      event.stopPropagation();
+    });
 
-		$(".mobile-menu-button").click(function () {
-			$(".mobile-menu-wrap").addClass("open");
-		});
+    $(".mobile-menu-button").click(function () {
+      $(".mobile-menu-wrap").addClass("open");
+    });
 
-		$(".mobile-menu-wrap, .mobile-close-button").click(function () {
-			$(".mobile-menu-wrap").removeClass("open");
-		});
+    $(".mobile-menu-wrap, .mobile-close-button").click(function () {
+      $(".mobile-menu-wrap").removeClass("open");
+    });
 
-		/* Footer */
-		$(".footer-open-button").click(function () {
-			$(".footer").addClass("open");
-		});
+    /* Footer */
+    $(".footer-open-button").click(function () {
+      $(".footer").addClass("open");
+    });
 
-		$(".footer-close-button").click(function () {
-			$(".footer").removeClass("open");
-		});
+    $(".footer-close-button").click(function () {
+      $(".footer").removeClass("open");
+    });
 
-		/* SVG Scaling Fix - Safari*/
-		$(".curve svg, .large-event-curve svg, .event-curve svg").attr("preserveAspectRatio", "none");
-	});
+    /* SVG Scaling Fix - Safari*/
+    $(".curve svg, .large-event-curve svg, .event-curve svg").attr("preserveAspectRatio", "none");
+  });
 </script>
-<script defer src="https://watsonweb.github.io/IPMI/js/webp-polyfill-min.js" crossorigin="anonymous"></script>
+<script
+  defer
+  src="https://watsonweb.github.io/IPMI/js/webp-polyfill-min.js"
+  crossorigin="anonymous"
+></script>

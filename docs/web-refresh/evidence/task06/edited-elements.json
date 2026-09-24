@@ -6,34 +6,13 @@
         "src",
         "https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/63ba67fc7fceb020224e86ff_Institutes-Bubble-2.webp"
       ],
-      [
-        "loading",
-        "eager"
-      ],
-      [
-        "width",
-        "400"
-      ],
-      [
-        "height",
-        "400"
-      ],
-      [
-        "alt",
-        "IPMI Speaker Panel"
-      ],
-      [
-        "data-w-id",
-        "45fc8c33-bacb-f7cf-8979-02789931e0b7"
-      ],
-      [
-        "data-wf-id",
-        "[\"45fc8c33-bacb-f7cf-8979-02789931e0b7\"]"
-      ],
-      [
-        "class",
-        "bubble-photo top right circle shadow-xl"
-      ]
+      ["loading", "eager"],
+      ["width", "400"],
+      ["height", "400"],
+      ["alt", "IPMI Speaker Panel"],
+      ["data-w-id", "45fc8c33-bacb-f7cf-8979-02789931e0b7"],
+      ["data-wf-id", "[\"45fc8c33-bacb-f7cf-8979-02789931e0b7\"]"],
+      ["class", "bubble-photo top right circle shadow-xl"]
     ],
     "src": "https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/63ba67fc7fceb020224e86ff_Institutes-Bubble-2.webp",
     "style": {
@@ -50,34 +29,13 @@
         "src",
         "https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4b14c3c45253949502846_P06-HR-Central-2024-Dinner.jpg"
       ],
-      [
-        "loading",
-        "eager"
-      ],
-      [
-        "width",
-        "400"
-      ],
-      [
-        "height",
-        "400"
-      ],
-      [
-        "alt",
-        "Attendees networking over dinner at an IPMI Institute"
-      ],
-      [
-        "data-w-id",
-        "45fc8c33-bacb-f7cf-8979-02789931e0b8"
-      ],
-      [
-        "data-wf-id",
-        "[\"45fc8c33-bacb-f7cf-8979-02789931e0b8\"]"
-      ],
-      [
-        "class",
-        "bubble-photo bottom left circle front shadow-xl"
-      ]
+      ["loading", "eager"],
+      ["width", "400"],
+      ["height", "400"],
+      ["alt", "Attendees networking over dinner at an IPMI Institute"],
+      ["data-w-id", "45fc8c33-bacb-f7cf-8979-02789931e0b8"],
+      ["data-wf-id", "[\"45fc8c33-bacb-f7cf-8979-02789931e0b8\"]"],
+      ["class", "bubble-photo bottom left circle front shadow-xl"]
     ],
     "src": "https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4b14c3c45253949502846_P06-HR-Central-2024-Dinner.jpg",
     "style": {
@@ -90,30 +48,15 @@
   {
     "alt": "",
     "attributes": [
-      [
-        "data-w-id",
-        "2b8dd0d9-8af4-ddc1-3613-866c8af082e1"
-      ],
-      [
-        "loading",
-        "eager"
-      ],
-      [
-        "data-wf-id",
-        "[\"2b8dd0d9-8af4-ddc1-3613-866c8af082e1\"]"
-      ],
+      ["data-w-id", "2b8dd0d9-8af4-ddc1-3613-866c8af082e1"],
+      ["loading", "eager"],
+      ["data-wf-id", "[\"2b8dd0d9-8af4-ddc1-3613-866c8af082e1\"]"],
       [
         "src",
         "https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4b14b89ec7715954bd6d1_P05-HR-East-2026-Session-2.jpg"
       ],
-      [
-        "alt",
-        ""
-      ],
-      [
-        "class",
-        "hero-bg-image"
-      ]
+      ["alt", ""],
+      ["class", "hero-bg-image"]
     ],
     "src": "https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4b14b89ec7715954bd6d1_P05-HR-East-2026-Session-2.jpg",
     "style": {
@@ -130,34 +73,16 @@
         "src",
         "https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4b14b10198c9b1043170a_P08-HRMI-West-2025-Think-Tank-5.jpg"
       ],
-      [
-        "loading",
-        "lazy"
-      ],
-      [
-        "width",
-        "400"
-      ],
-      [
-        "height",
-        "400"
-      ],
-      [
-        "alt",
-        "A participant listening during a Think Tank session"
-      ],
+      ["loading", "lazy"],
+      ["width", "400"],
+      ["height", "400"],
+      ["alt", "A participant listening during a Think Tank session"],
       [
         "data-wf-id",
         "[\"44ce6109-455e-10ac-91b7-85d695c20155\",\"11d81f25-1d4b-d992-52b0-801a2df1164e\"]"
       ],
-      [
-        "class",
-        "bubble-photo circle shadow-xl top left"
-      ],
-      [
-        "data-w-instance-of",
-        "11d81f25-1d4b-d992-52b0-801a2df1164e"
-      ]
+      ["class", "bubble-photo circle shadow-xl top left"],
+      ["data-w-instance-of", "11d81f25-1d4b-d992-52b0-801a2df1164e"]
     ],
     "src": "https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4b14b10198c9b1043170a_P08-HRMI-West-2025-Think-Tank-5.jpg",
     "style": {
@@ -174,34 +99,16 @@
         "src",
         "https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4b14cda6412ca2ac37a85_P07-HR-East-2026-Session-9.jpg"
       ],
-      [
-        "loading",
-        "lazy"
-      ],
-      [
-        "width",
-        "400"
-      ],
-      [
-        "height",
-        "400"
-      ],
-      [
-        "alt",
-        "A speaker presenting on stage at an IPMI Institute"
-      ],
+      ["loading", "lazy"],
+      ["width", "400"],
+      ["height", "400"],
+      ["alt", "A speaker presenting on stage at an IPMI Institute"],
       [
         "data-wf-id",
         "[\"44ce6109-455e-10ac-91b7-85d695c20155\",\"11d81f25-1d4b-d992-52b0-801a2df1164f\"]"
       ],
-      [
-        "class",
-        "bubble-photo circle shadow-xl bottom right front"
-      ],
-      [
-        "data-w-instance-of",
-        "11d81f25-1d4b-d992-52b0-801a2df1164f"
-      ]
+      ["class", "bubble-photo circle shadow-xl bottom right front"],
+      ["data-w-instance-of", "11d81f25-1d4b-d992-52b0-801a2df1164f"]
     ],
     "src": "https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4b14cda6412ca2ac37a85_P07-HR-East-2026-Session-9.jpg",
     "style": {
@@ -218,34 +125,13 @@
         "src",
         "https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4b14b065ea59f68522cca_P09-CLDI-Apr-2025-Think-Tank-9.jpg"
       ],
-      [
-        "loading",
-        "lazy"
-      ],
-      [
-        "width",
-        "768"
-      ],
-      [
-        "height",
-        "512"
-      ],
-      [
-        "alt",
-        "A facilitator leading a Think Tank discussion with participants seated in a circle"
-      ],
-      [
-        "data-w-id",
-        "df7c2891-8821-fbd0-d7fb-566fefc8352b"
-      ],
-      [
-        "data-wf-id",
-        "[\"df7c2891-8821-fbd0-d7fb-566fefc8352b\"]"
-      ],
-      [
-        "class",
-        "image-cover rounded shadow-xl"
-      ]
+      ["loading", "lazy"],
+      ["width", "768"],
+      ["height", "512"],
+      ["alt", "A facilitator leading a Think Tank discussion with participants seated in a circle"],
+      ["data-w-id", "df7c2891-8821-fbd0-d7fb-566fefc8352b"],
+      ["data-wf-id", "[\"df7c2891-8821-fbd0-d7fb-566fefc8352b\"]"],
+      ["class", "image-cover rounded shadow-xl"]
     ],
     "src": "https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4b14b065ea59f68522cca_P09-CLDI-Apr-2025-Think-Tank-9.jpg",
     "style": {

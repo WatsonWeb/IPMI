@@ -42,22 +42,10 @@
     }
   ],
   "links": [
-    [
-      "See institute insights",
-      "/insights"
-    ],
-    [
-      "See Institute Insights",
-      "/insights"
-    ],
-    [
-      "Learn More About Institutes ➜",
-      "/attend"
-    ]
+    ["See institute insights", "/insights"],
+    ["See Institute Insights", "/insights"],
+    ["Learn More About Institutes ➜", "/attend"]
   ],
   "overflow": false,
-  "viewport": [
-    1912,
-    970
-  ]
+  "viewport": [1912, 970]
 }

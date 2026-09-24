@@ -54,6 +54,11 @@ const requiredFragments = [
   "Key Dates &amp; Deliverables.",
   'id="kbyg-agenda-title"',
   "Institute Agenda",
+  'class="kbyg-agenda-grid"',
+  'class="kbyg-agenda-card"',
+  "KBYG Page > Agenda Days",
+  "Agenda Day > Title",
+  "Agenda Day > Body (Rich Text)",
   "VIEW FULL INSTITUTE AGENDA",
   "href = Referenced Institute > Agenda Link",
   "The Ritz-Carlton Orlando, Grande Lakes",
@@ -64,10 +69,6 @@ const requiredFragments = [
 ];
 for (const fragment of requiredFragments) {
   if (!html.includes(fragment)) failures.push(`Missing markup contract fragment: ${fragment}`);
-}
-
-if (/kbyg-agenda-(?:grid|card)|Agenda At-A-Glance/.test(html)) {
-  failures.push("Obsolete agenda grid or heading remains in the rendered scaffold.");
 }
 
 if (!visibleText.includes("Know Before You Go.")) {

@@ -45,9 +45,13 @@ remain the source of event, staff, and content-block data.
   `.kbyg-date-card` with `data-kbyg-calendar-source` and
   `data-kbyg-calendar-timezone="America/Toronto"` (the verified site timezone).
   Use native Embed field chips to populate that element's `data-kbyg-start` and
-  `data-kbyg-end`, both formatted `YYYY-MM-DD H:mm`. The runtime converts these
-  local timestamps to UTC before using their UTC dates for all-day events or
-  their instants for timed events. Nonempty source values take precedence;
+  `data-kbyg-end`, both formatted `YYYY-MM-DD H:mm`. The runtime validates these
+  local timestamps. Bind `data-kbyg-all-day-local-date` to the optional Content
+  Blocks **Use Local Date** switch. When true, all-day events retain the authored
+  local date; false/blank preserves legacy UTC-encoded calendar dates. Enable only
+  after verifying that record's date basis (the four EHS deadlines use local dates;
+  the eight HCHR deadlines retain legacy UTC dates). Timed events always retain
+  the converted instant. Unknown marker values fail closed. Nonempty source values take precedence;
   empty values retain the control's existing date. Invalid, nonexistent, or
   ambiguous local timestamps fail the download rather than use stale dates.
   A source value with an explicit ISO offset or `Z` is also accepted directly.

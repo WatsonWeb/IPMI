@@ -1,6 +1,22 @@
-# 26 — KBYG agenda-link presentation
+# 26 — KBYG agenda cards and full-agenda link
 
 [Back to master](README.md)
+
+## Current requirement — September 24, 2026 clarification
+
+The user clarified that KBYG pages must show the day cards **and** the full-agenda PDF button. This supersedes the compact-only presentation described in the historical implementation below. Do not hide the Agenda Days Collection List Wrapper or reject agenda cards in markup validation.
+
+The shared wrapper `7f80455b-24bc-7078-915e-3ce9d354d889` is Visible again. Its native source remains the current KBYG Page's **Agenda Days** multi-reference; card headings bind to the referenced block's **Title**, and content binds to **Body**. The button retains its native referenced Institute **Agenda Link** binding. Existing CMS content and reference order are preserved.
+
+Live Chrome verification of `ehs-jan-2027-delegate#agenda` after staging publication shows three cards (Sunday, Monday, Tuesday; 3/4/3 schedule rows) and the full-agenda button. The destination opens **EHS Management Institute January 2027.pdf** in SharePoint. Staging publication completed at `2026-09-24T14:06:51.027Z`; all four production-domain publish timestamps remained `2026-09-24T03:17:26.557Z`.
+
+The EHS page currently references **Static - Agenda Day 1/2/3**, all published. Those records retain legacy **HCHR Sept 2026** Institute metadata despite their shared static names and content. This change restores the existing selected cards without retagging shared records or inventing an EHS schedule. Event-specific timing/content approval remains with Operations.
+
+The maintained scaffold and markup check now require cards alongside the full-agenda link. Existing support for sparse pages with no Agenda Days remains. No runtime or stylesheet deployment was needed.
+
+Validation: Chrome at 1912px, 768px, and 390px confirms three populated cards, ten schedule rows, the PDF button, and no horizontal overflow. Desktop cards are side by side; tablet and phone cards stack. The markup check, CMS fixture validation, scoped formatting, and 63 relevant CMS-rendering/validator tests pass.
+
+## Historical compact-only implementation (superseded)
 
 - **Owner:** Bryan / Webflow implementation; IPMI Operations supplies event agenda destinations and approved copy.
 - **Status:** Provisionally staged for review — compact presentation and navigation verified September 24, 2026; 20 event agenda destinations remain pending Operations.

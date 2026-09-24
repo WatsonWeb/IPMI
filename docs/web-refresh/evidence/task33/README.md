@@ -6,28 +6,28 @@ September 24, 2026. One placeholder review example staged through Chrome; final 
 
 Collection **Testimonials** (`639c08275de7441ba491438d`), new item `6ab4e34be2c912b57c47208b`. Previous value for every new field: **no record**. [items-before.json](items-before.json) preserves the original 68 records, [schema-before.json](schema-before.json) their schema, and [items-after.json](items-after.json) all 69 final records. The root's independent [CMS comparison](root-cms-preservation.json) found zero changed original field sets.
 
-| Live CMS label | Applied value | Final replacement required |
-| --- | --- | --- |
-| Testimonial Name | `Placeholder testimonial — replace with approved content` | Approved identifying name; not the frontend attribution |
-| URL Slug | `placeholder-testimonial-review` | Approved slug if reusing; preserve existing real-item URLs |
-| Speaker Reference | Empty | Exact approved existing speaker only if applicable; never guess |
-| Attendee Photo | Empty | Optional approved image, maximum 300 × 300px; verify crop and alt context |
-| Attendee Name | `Placeholder attribution` | Approved attribution or confirmed anonymity |
-| Attendee Job Title | Empty | Approved role, if supplied |
-| Attendee Company | Empty | Approved organization, if supplied |
-| Anonymous Testimonial | Off | Approved anonymity instruction |
-| Testimonial | `Placeholder: approved testimonial copy will appear here.` | Verbatim approved quote and publication permission |
-| Star Rating | `4` (option ID `7e3f1151be14fe23f21ddf9b14242929`) | Genuine approved rating; current value is a schema-only placeholder, not feedback |
-| Featured On Home & Testimonials Page | On | Explicit approved placement decision covering both consumers |
-| Featured On VTT Page | Off | Enable only for approved Think Tanks placement |
-| Sort Order | `99` | Approved order; schema range 1–99 |
+| Live CMS label                       | Applied value                                              | Final replacement required                                                        |
+| ------------------------------------ | ---------------------------------------------------------- | --------------------------------------------------------------------------------- |
+| Testimonial Name                     | `Placeholder testimonial — replace with approved content`  | Approved identifying name; not the frontend attribution                           |
+| URL Slug                             | `placeholder-testimonial-review`                           | Approved slug if reusing; preserve existing real-item URLs                        |
+| Speaker Reference                    | Empty                                                      | Exact approved existing speaker only if applicable; never guess                   |
+| Attendee Photo                       | Empty                                                      | Optional approved image, maximum 300 × 300px; verify crop and alt context         |
+| Attendee Name                        | `Placeholder attribution`                                  | Approved attribution or confirmed anonymity                                       |
+| Attendee Job Title                   | Empty                                                      | Approved role, if supplied                                                        |
+| Attendee Company                     | Empty                                                      | Approved organization, if supplied                                                |
+| Anonymous Testimonial                | Off                                                        | Approved anonymity instruction                                                    |
+| Testimonial                          | `Placeholder: approved testimonial copy will appear here.` | Verbatim approved quote and publication permission                                |
+| Star Rating                          | `4` (option ID `7e3f1151be14fe23f21ddf9b14242929`)         | Genuine approved rating; current value is a schema-only placeholder, not feedback |
+| Featured On Home & Testimonials Page | On                                                         | Explicit approved placement decision covering both consumers                      |
+| Featured On VTT Page                 | Off                                                        | Enable only for approved Think Tanks placement                                    |
+| Sort Order                           | `99`                                                       | Approved order; schema range 1–99                                                 |
 
 The required Star Rating selector offers only 5, 4.5 and 4. The existing template has four unconditional stars and conditional fifth-star variants, so merely choosing a rating would create false social proof. The full **Recap Testimonial Stars** wrapper now has the native condition **Current Testimonial → is not any → Placeholder testimonial — replace with approved content**, Visible when true and Hidden otherwise; **Keep in HTML when hidden** remains unchecked. This omits the placeholder's stars entirely. Previous wrapper visibility was unconditional Visible. The individual real-star conditions remain unchanged.
 
-| Page | Native wrapper element ID | Current consumer |
-| --- | --- | --- |
-| Home | `d6e63afc-8b0c-060f-5678-a1425c8dbca5` | Featured switch on, Sort Order smallest to largest, Limit items on, Show 9, Skip 0; original nine records still displayed |
-| Testimonials | `096aaa91-92d0-e0b9-26ee-2f957a95e375` | Original 22 cards followed by placeholder; no placeholder stars |
+| Page         | Native wrapper element ID              | Current consumer                                                                                                          |
+| ------------ | -------------------------------------- | ------------------------------------------------------------------------------------------------------------------------- |
+| Home         | `d6e63afc-8b0c-060f-5678-a1425c8dbca5` | Featured switch on, Sort Order smallest to largest, Limit items on, Show 9, Skip 0; original nine records still displayed |
+| Testimonials | `096aaa91-92d0-e0b9-26ee-2f957a95e375` | Original 22 cards followed by placeholder; no placeholder stars                                                           |
 
 The Home condition protects against later reordering of this exact item, but this task did not change its limit or reorder real cards. [Native Home filter/limit evidence](home-native-filter-limit.png) and [settings text](home-native-filter-limit.txt) trace the shared switch. Empty photo elements remain hidden through existing conditionals; the existing generic attendee icon provides a neutral visual. There is no fake headshot, company, speaker or event reference.
 
@@ -55,16 +55,16 @@ IPMI must supply verbatim quote, correct attribution, genuine rating, publicatio
 - Task 11's P20/P21 approved hero imagery is separate and retained. No stylesheet/runtime source changed; no build or unit test is applicable to this native CMS/conditional-only change. Local unversioned `ipmi-custom-styles.css` SHA256 remains `80EF3C254BEF30F97398B63B0888A934085BB9B371CE4EE74E2E6B20BEFE4496`.
 - All saved screenshots below were visually inspected as actual files. Responsive overrides were reset, both worker-created staging tabs closed, and the existing Designer tab left open without pending edits. Chrome released to the orchestrator.
 
-| Screenshot | What it verifies |
-| --- | --- |
-| [testimonials-desktop.png](testimonials-desktop.png) | 1440px neutral example beside unchanged real cards |
-| [testimonials-tablet.png](testimonials-tablet.png) | 768px readable two-column example, without stars |
-| [testimonials-mobile.png](testimonials-mobile.png), [testimonials-narrow-mobile.png](testimonials-narrow-mobile.png) | 390/375px readable full placeholder card and generic icon |
-| [testimonials-mobile-long-quote.png](testimonials-mobile-long-quote.png) | Existing long quotation and attribution wrap without truncation |
-| [home-desktop-last-slide.png](home-desktop-last-slide.png), [home-mobile-last-slide.png](home-mobile-last-slide.png), [home-tablet-carousel.png](home-tablet-carousel.png) | Original carousel cards/rating and pagination at 1440/390/768px |
-| [testimonials-native-condition.png](testimonials-native-condition.png) | Exact-record exclusion with real stars preserved |
-| [cms-saved-example.png](cms-saved-example.png), [cms-placeholder-rating-placement.png](cms-placeholder-rating-placement.png) | Stored placeholder, empty references/media and placement controls |
-| [staging-only-publish.png](staging-only-publish.png) | Staging checked, production unchecked before publication |
+| Screenshot                                                                                                                                                                 | What it verifies                                                  |
+| -------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------- |
+| [testimonials-desktop.png](testimonials-desktop.png)                                                                                                                       | 1440px neutral example beside unchanged real cards                |
+| [testimonials-tablet.png](testimonials-tablet.png)                                                                                                                         | 768px readable two-column example, without stars                  |
+| [testimonials-mobile.png](testimonials-mobile.png), [testimonials-narrow-mobile.png](testimonials-narrow-mobile.png)                                                       | 390/375px readable full placeholder card and generic icon         |
+| [testimonials-mobile-long-quote.png](testimonials-mobile-long-quote.png)                                                                                                   | Existing long quotation and attribution wrap without truncation   |
+| [home-desktop-last-slide.png](home-desktop-last-slide.png), [home-mobile-last-slide.png](home-mobile-last-slide.png), [home-tablet-carousel.png](home-tablet-carousel.png) | Original carousel cards/rating and pagination at 1440/390/768px   |
+| [testimonials-native-condition.png](testimonials-native-condition.png)                                                                                                     | Exact-record exclusion with real stars preserved                  |
+| [cms-saved-example.png](cms-saved-example.png), [cms-placeholder-rating-placement.png](cms-placeholder-rating-placement.png)                                               | Stored placeholder, empty references/media and placement controls |
+| [staging-only-publish.png](staging-only-publish.png)                                                                                                                       | Staging checked, production unchecked before publication          |
 
 ## Rollback and final replacement
 

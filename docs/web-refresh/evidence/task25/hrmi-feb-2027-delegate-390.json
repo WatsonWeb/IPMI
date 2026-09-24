@@ -244,14 +244,8 @@
   },
   "extra": {
     "backdrop": false,
-    "robots": [
-      "noindex,follow"
-    ],
-    "hashControls": [
-      "",
-      "VIEW SITEMAP",
-      ""
-    ]
+    "robots": ["noindex,follow"],
+    "hashControls": ["", "VIEW SITEMAP", ""]
   },
   "notes": "Hash-only calendar, FAQ and global navigation controls are not destination CTAs. Exact guide URLs audited in root-http-verification.json."
 }

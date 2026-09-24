@@ -26,16 +26,16 @@ Apply future approved replacements in Chrome's Webflow Designer/CMS, update both
 
 Each saved file was visually inspected after settling its section navigation. Partner's long mobile section requires two frames.
 
-| View | Evidence |
-| --- | --- |
-| Desktop Attend | [attend-desktop.png](attend-desktop.png) |
-| Desktop Speak | [speak-desktop.png](speak-desktop.png) |
-| Desktop Partner | [partner-desktop.png](partner-desktop.png) |
-| Mobile Attend | [attend-mobile.png](attend-mobile.png) |
-| Mobile Speak | [speak-mobile.png](speak-mobile.png) |
-| Mobile Partner text / photo | [partner-mobile.png](partner-mobile.png), [partner-mobile-photo.png](partner-mobile-photo.png) |
-| Tablet Speak | [speak-tablet.png](speak-tablet.png) |
-| Mobile selected Partner inquiry / optional Phone | [partner-inquiry-mobile.png](partner-inquiry-mobile.png) |
+| View                                             | Evidence                                                                                       |
+| ------------------------------------------------ | ---------------------------------------------------------------------------------------------- |
+| Desktop Attend                                   | [attend-desktop.png](attend-desktop.png)                                                       |
+| Desktop Speak                                    | [speak-desktop.png](speak-desktop.png)                                                         |
+| Desktop Partner                                  | [partner-desktop.png](partner-desktop.png)                                                     |
+| Mobile Attend                                    | [attend-mobile.png](attend-mobile.png)                                                         |
+| Mobile Speak                                     | [speak-mobile.png](speak-mobile.png)                                                           |
+| Mobile Partner text / photo                      | [partner-mobile.png](partner-mobile.png), [partner-mobile-photo.png](partner-mobile-photo.png) |
+| Tablet Speak                                     | [speak-tablet.png](speak-tablet.png)                                                           |
+| Mobile selected Partner inquiry / optional Phone | [partner-inquiry-mobile.png](partner-inquiry-mobile.png)                                       |
 
 ## Rollback
 

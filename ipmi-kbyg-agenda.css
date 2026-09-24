@@ -1,4 +1,4 @@
-/* Task 26: the retained Agenda Days list is omitted from the native template. */
+/* Content-driven tablet Agenda height supports native day cards and the PDF CTA. */
 @media screen and (min-width: 768px) and (max-width: 991px) {
   .kbyg-page[data-audience="sponsor"] #agenda {
     min-height: 0;
