@@ -84,6 +84,10 @@ Populate this record during website implementation; the empty fields below are i
 | Deferred items | Task ID, owner, reason, affected behavior, required input                                 |
 | Review outcome | Staged for review, changes requested, or accepted for a later production task             |
 
+## Task 15 partial verification record — September 24, 2026
+
+Four native inquiry forms have optional Phone fields staged; [task 15 evidence](evidence/task15/README.md) records form IDs, schema/HTTP comparison, responsive/category checks, serialization limits and screenshots. Production fields and original inline scripts are unchanged. The 768px document-width 790 navbar overflow is inherited; new fields fit. Task 37 must still verify actual blank/international submissions through a controlled destination, CAPTCHA and success/error states, downstream webhook/notification mapping after safe backend deployment, and the isolated ActiveCampaign form. No delivery is claimed from local renderer or standard FormData tests. Viewport was reset after task 15.
+
 ## Rollback
 
 Restore only the failed batch's saved page/component/CMS values and original asset bindings, then republish to staging only and repeat the relevant checks. Retain original assets and CMS data until review is complete. Coordinate shared-template changes with other active work; never overwrite newer unrelated edits with a whole-site restore. If a provider-side chatbot change affected a production instance, restore that recorded provider configuration first and document the incident. Production publication remains outside this task.

@@ -41,6 +41,8 @@ No placeholders have been applied at the time this document was created. Replace
 
 Workers must record concrete attempts and remaining limits in their numbered task evidence. Content placeholders do not establish chatbot provider access, a safe test workspace, ActiveCampaign verification, a complete approved event roster, or actual form/handoff delivery. These outcomes remain pending until verified.
 
+Task 15 (September 24, 2026): no content placeholders applied. Four native phone fields are staged. ActiveCampaign form 412 admin presented a login screen; authenticated access and safe isolation remain pending. A tested backend mapping patch is supplied but undeployed; actual payload/notification delivery awaits a controlled destination. See [task 15 evidence](evidence/task15/README.md). Existing HIT recipient `scolquhoun@ipmievents.com` was preserved, not replaced with a placeholder.
+
 ## Before production publication
 
 Resolve every applied row, remove temporary demonstration records and labels, confirm final event/audience destinations and routing, and repeat the affected staging checks. Production publication remains a separate task under the master plan.

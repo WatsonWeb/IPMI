@@ -1,0 +1,74 @@
+{
+  "checkedAtUtc": "2026-09-24T07:30:40.6241234Z",
+  "method": "Independent root read-only HTTP comparison after final phone icon publication, against exact pretask15 staging baselines and current production; no submission",
+  "results": [
+    {
+      "path": "/contact",
+      "addedFields": [
+        "<input class=\"field bordered w-input\" autocomplete=\"tel\" maxlength=\"256\" name=\"Phone\" data-name=\"Phone\" placeholder=\"Phone number\" type=\"tel\" id=\"field-phone-contact\"/>"
+      ],
+      "removedOrChangedOldFields": [],
+      "phone": "<input class=\"field bordered w-input\" autocomplete=\"tel\" maxlength=\"256\" name=\"Phone\" data-name=\"Phone\" placeholder=\"Phone number\" type=\"tel\" id=\"field-phone-contact\"/>",
+      "label": "<label for=\"field-phone-contact\" class=\"label _550\">Phone number (optional)</label>",
+      "phoneInputCount": 1,
+      "phoneIdCount": 1,
+      "phoneAfterEmail": true,
+      "phoneOptional": true,
+      "phoneIconPresent": true,
+      "productionPhoneInputCount": 0,
+      "oldInputsPresentInProduction": true,
+      "inlineScriptsByteIdentical": true
+    },
+    {
+      "path": "/attend",
+      "addedFields": [
+        "<input class=\"field _450 w-input\" autocomplete=\"tel\" maxlength=\"256\" name=\"Phone\" data-name=\"Phone\" placeholder=\"Phone number\" type=\"tel\" id=\"field-phone-attend\"/>"
+      ],
+      "removedOrChangedOldFields": [],
+      "phone": "<input class=\"field _450 w-input\" autocomplete=\"tel\" maxlength=\"256\" name=\"Phone\" data-name=\"Phone\" placeholder=\"Phone number\" type=\"tel\" id=\"field-phone-attend\"/>",
+      "label": "<label for=\"field-phone-attend\" class=\"label _550\">Phone number (optional)</label>",
+      "phoneInputCount": 1,
+      "phoneIdCount": 1,
+      "phoneAfterEmail": true,
+      "phoneOptional": true,
+      "phoneIconPresent": true,
+      "productionPhoneInputCount": 0,
+      "oldInputsPresentInProduction": true,
+      "inlineScriptsByteIdentical": true
+    },
+    {
+      "path": "/institutes-on-the-horizon",
+      "addedFields": [
+        "<input class=\"field _450 w-input\" autocomplete=\"tel\" maxlength=\"256\" name=\"Phone\" data-name=\"Phone\" placeholder=\"Phone number\" type=\"tel\" id=\"field-phone-horizon\"/>"
+      ],
+      "removedOrChangedOldFields": [],
+      "phone": "<input class=\"field _450 w-input\" autocomplete=\"tel\" maxlength=\"256\" name=\"Phone\" data-name=\"Phone\" placeholder=\"Phone number\" type=\"tel\" id=\"field-phone-horizon\"/>",
+      "label": "<label for=\"field-phone-horizon\" class=\"label _550\">Phone number (optional)</label>",
+      "phoneInputCount": 1,
+      "phoneIdCount": 1,
+      "phoneAfterEmail": true,
+      "phoneOptional": true,
+      "phoneIconPresent": true,
+      "productionPhoneInputCount": 0,
+      "oldInputsPresentInProduction": true,
+      "inlineScriptsByteIdentical": true
+    },
+    {
+      "path": "/institutes/hit-2027",
+      "addedFields": [
+        "<input class=\"field _450 w-input\" autocomplete=\"tel\" maxlength=\"256\" name=\"Phone\" data-name=\"Phone\" placeholder=\"Phone number\" type=\"tel\" id=\"field-phone-institute\"/>"
+      ],
+      "removedOrChangedOldFields": [],
+      "phone": "<input class=\"field _450 w-input\" autocomplete=\"tel\" maxlength=\"256\" name=\"Phone\" data-name=\"Phone\" placeholder=\"Phone number\" type=\"tel\" id=\"field-phone-institute\"/>",
+      "label": "<label for=\"field-phone-institute\" class=\"label _550\">Phone number (optional)</label>",
+      "phoneInputCount": 1,
+      "phoneIdCount": 1,
+      "phoneAfterEmail": true,
+      "phoneOptional": true,
+      "phoneIconPresent": true,
+      "productionPhoneInputCount": 0,
+      "oldInputsPresentInProduction": true,
+      "inlineScriptsByteIdentical": true
+    }
+  ]
+}

@@ -1,0 +1,650 @@
+[
+  {
+    "page": "https://ipmi.webflow.io/institutes/healthcare-gci-oct-2026",
+    "targetWidth": 1440,
+    "documentWidth": 1440,
+    "input": {
+      "right": 1344,
+      "width": 551,
+      "x": 793
+    },
+    "label": {
+      "right": 1344,
+      "width": 576,
+      "x": 768
+    },
+    "required": false,
+    "valid": true,
+    "viewport": 1440
+  },
+  {
+    "page": "https://ipmi.webflow.io/institutes/healthcare-gci-oct-2026",
+    "targetWidth": 992,
+    "documentWidth": 992,
+    "input": {
+      "right": 910,
+      "width": 341,
+      "x": 569
+    },
+    "label": {
+      "right": 910,
+      "width": 366,
+      "x": 544
+    },
+    "required": false,
+    "valid": true,
+    "viewport": 992
+  },
+  {
+    "page": "https://ipmi.webflow.io/institutes/healthcare-gci-oct-2026",
+    "targetWidth": 991,
+    "documentWidth": 991,
+    "input": {
+      "right": 919,
+      "width": 822,
+      "x": 97
+    },
+    "label": {
+      "right": 919,
+      "width": 847,
+      "x": 72
+    },
+    "required": false,
+    "valid": true,
+    "viewport": 991
+  },
+  {
+    "page": "https://ipmi.webflow.io/institutes/healthcare-gci-oct-2026",
+    "targetWidth": 768,
+    "documentWidth": 790,
+    "input": {
+      "right": 696,
+      "width": 599,
+      "x": 97
+    },
+    "label": {
+      "right": 696,
+      "width": 624,
+      "x": 72
+    },
+    "required": false,
+    "valid": true,
+    "viewport": 768
+  },
+  {
+    "page": "https://ipmi.webflow.io/institutes/healthcare-gci-oct-2026",
+    "targetWidth": 767,
+    "documentWidth": 767,
+    "input": {
+      "right": 717,
+      "width": 647,
+      "x": 70
+    },
+    "label": {
+      "right": 717,
+      "width": 667,
+      "x": 50
+    },
+    "required": false,
+    "valid": true,
+    "viewport": 767
+  },
+  {
+    "page": "https://ipmi.webflow.io/institutes/healthcare-gci-oct-2026",
+    "targetWidth": 480,
+    "documentWidth": 480,
+    "input": {
+      "right": 430,
+      "width": 360,
+      "x": 70
+    },
+    "label": {
+      "right": 430,
+      "width": 380,
+      "x": 50
+    },
+    "required": false,
+    "valid": true,
+    "viewport": 480
+  },
+  {
+    "page": "https://ipmi.webflow.io/institutes/healthcare-gci-oct-2026",
+    "targetWidth": 479,
+    "documentWidth": 479,
+    "input": {
+      "right": 449,
+      "width": 404,
+      "x": 45
+    },
+    "label": {
+      "right": 449,
+      "width": 419,
+      "x": 30
+    },
+    "required": false,
+    "valid": true,
+    "viewport": 479
+  },
+  {
+    "page": "https://ipmi.webflow.io/institutes/healthcare-gci-oct-2026",
+    "targetWidth": 390,
+    "documentWidth": 390,
+    "input": {
+      "right": 360,
+      "width": 315,
+      "x": 45
+    },
+    "label": {
+      "right": 360,
+      "width": 330,
+      "x": 30
+    },
+    "required": false,
+    "valid": true,
+    "viewport": 390
+  },
+  {
+    "page": "https://ipmi.webflow.io/institutes/healthcare-gci-oct-2026",
+    "targetWidth": 375,
+    "documentWidth": 375,
+    "input": {
+      "right": 345,
+      "width": 300,
+      "x": 45
+    },
+    "label": {
+      "right": 345,
+      "width": 315,
+      "x": 30
+    },
+    "required": false,
+    "valid": true,
+    "viewport": 375
+  },
+  {
+    "page": "https://ipmi.webflow.io/contact",
+    "targetWidth": 1440,
+    "documentWidth": 1440,
+    "input": {
+      "right": 1282.390625,
+      "width": 575,
+      "x": 707.390625
+    },
+    "label": {
+      "right": 1282.390625,
+      "width": 600,
+      "x": 682.390625
+    },
+    "required": false,
+    "valid": true,
+    "viewport": 1440
+  },
+  {
+    "page": "https://ipmi.webflow.io/contact",
+    "targetWidth": 992,
+    "documentWidth": 992,
+    "input": {
+      "right": 906.984375,
+      "width": 440.1875,
+      "x": 466.796875
+    },
+    "label": {
+      "right": 906.984375,
+      "width": 465.1875,
+      "x": 441.796875
+    },
+    "required": false,
+    "valid": true,
+    "viewport": 992
+  },
+  {
+    "page": "https://ipmi.webflow.io/contact",
+    "targetWidth": 991,
+    "documentWidth": 991,
+    "input": {
+      "right": 795.484375,
+      "width": 575,
+      "x": 220.484375
+    },
+    "label": {
+      "right": 795.484375,
+      "width": 600,
+      "x": 195.484375
+    },
+    "required": false,
+    "valid": true,
+    "viewport": 991
+  },
+  {
+    "page": "https://ipmi.webflow.io/contact",
+    "targetWidth": 768,
+    "documentWidth": 790,
+    "input": {
+      "right": 639.1875,
+      "width": 485.390625,
+      "x": 153.796875
+    },
+    "label": {
+      "right": 639.1875,
+      "width": 510.390625,
+      "x": 128.796875
+    },
+    "required": false,
+    "valid": true,
+    "viewport": 768
+  },
+  {
+    "page": "https://ipmi.webflow.io/contact",
+    "targetWidth": 767,
+    "documentWidth": 767,
+    "input": {
+      "right": 683.5,
+      "width": 580,
+      "x": 103.5
+    },
+    "label": {
+      "right": 683.5,
+      "width": 600,
+      "x": 83.5
+    },
+    "required": false,
+    "valid": true,
+    "viewport": 767
+  },
+  {
+    "page": "https://ipmi.webflow.io/contact",
+    "targetWidth": 480,
+    "documentWidth": 480,
+    "input": {
+      "right": 435,
+      "width": 370,
+      "x": 65
+    },
+    "label": {
+      "right": 435,
+      "width": 390,
+      "x": 45
+    },
+    "required": false,
+    "valid": true,
+    "viewport": 480
+  },
+  {
+    "page": "https://ipmi.webflow.io/contact",
+    "targetWidth": 479,
+    "documentWidth": 479,
+    "input": {
+      "right": 444,
+      "width": 394,
+      "x": 50
+    },
+    "label": {
+      "right": 444,
+      "width": 409,
+      "x": 35
+    },
+    "required": false,
+    "valid": true,
+    "viewport": 479
+  },
+  {
+    "page": "https://ipmi.webflow.io/contact",
+    "targetWidth": 390,
+    "documentWidth": 390,
+    "input": {
+      "right": 355,
+      "width": 305,
+      "x": 50
+    },
+    "label": {
+      "right": 355,
+      "width": 320,
+      "x": 35
+    },
+    "required": false,
+    "valid": true,
+    "viewport": 390
+  },
+  {
+    "page": "https://ipmi.webflow.io/contact",
+    "targetWidth": 375,
+    "documentWidth": 375,
+    "input": {
+      "right": 340,
+      "width": 290,
+      "x": 50
+    },
+    "label": {
+      "right": 340,
+      "width": 305,
+      "x": 35
+    },
+    "required": false,
+    "valid": true,
+    "viewport": 375
+  },
+  {
+    "page": "https://ipmi.webflow.io/attend",
+    "targetWidth": 1440,
+    "documentWidth": 1440,
+    "input": {
+      "right": 1088,
+      "width": 711,
+      "x": 377
+    },
+    "label": {
+      "right": 1088,
+      "width": 736,
+      "x": 352
+    },
+    "required": false,
+    "valid": true,
+    "viewport": 1440
+  },
+  {
+    "page": "https://ipmi.webflow.io/attend",
+    "targetWidth": 992,
+    "documentWidth": 992,
+    "input": {
+      "right": 864,
+      "width": 711,
+      "x": 153
+    },
+    "label": {
+      "right": 864,
+      "width": 736,
+      "x": 128
+    },
+    "required": false,
+    "valid": true,
+    "viewport": 992
+  },
+  {
+    "page": "https://ipmi.webflow.io/attend",
+    "targetWidth": 991,
+    "documentWidth": 991,
+    "input": {
+      "right": 863.5,
+      "width": 711,
+      "x": 152.5
+    },
+    "label": {
+      "right": 863.5,
+      "width": 736,
+      "x": 127.5
+    },
+    "required": false,
+    "valid": true,
+    "viewport": 991
+  },
+  {
+    "page": "https://ipmi.webflow.io/attend",
+    "targetWidth": 768,
+    "documentWidth": 790,
+    "input": {
+      "right": 696,
+      "width": 599,
+      "x": 97
+    },
+    "label": {
+      "right": 696,
+      "width": 624,
+      "x": 72
+    },
+    "required": false,
+    "valid": true,
+    "viewport": 768
+  },
+  {
+    "page": "https://ipmi.webflow.io/attend",
+    "targetWidth": 767,
+    "documentWidth": 767,
+    "input": {
+      "right": 717,
+      "width": 647,
+      "x": 70
+    },
+    "label": {
+      "right": 717,
+      "width": 667,
+      "x": 50
+    },
+    "required": false,
+    "valid": true,
+    "viewport": 767
+  },
+  {
+    "page": "https://ipmi.webflow.io/attend",
+    "targetWidth": 480,
+    "documentWidth": 480,
+    "input": {
+      "right": 430,
+      "width": 360,
+      "x": 70
+    },
+    "label": {
+      "right": 430,
+      "width": 380,
+      "x": 50
+    },
+    "required": false,
+    "valid": true,
+    "viewport": 480
+  },
+  {
+    "page": "https://ipmi.webflow.io/attend",
+    "targetWidth": 479,
+    "documentWidth": 479,
+    "input": {
+      "right": 449,
+      "width": 404,
+      "x": 45
+    },
+    "label": {
+      "right": 449,
+      "width": 419,
+      "x": 30
+    },
+    "required": false,
+    "valid": true,
+    "viewport": 479
+  },
+  {
+    "page": "https://ipmi.webflow.io/attend",
+    "targetWidth": 390,
+    "documentWidth": 390,
+    "input": {
+      "right": 360,
+      "width": 315,
+      "x": 45
+    },
+    "label": {
+      "right": 360,
+      "width": 330,
+      "x": 30
+    },
+    "required": false,
+    "valid": true,
+    "viewport": 390
+  },
+  {
+    "page": "https://ipmi.webflow.io/attend",
+    "targetWidth": 375,
+    "documentWidth": 375,
+    "input": {
+      "right": 345,
+      "width": 300,
+      "x": 45
+    },
+    "label": {
+      "right": 345,
+      "width": 315,
+      "x": 30
+    },
+    "required": false,
+    "valid": true,
+    "viewport": 375
+  },
+  {
+    "page": "https://ipmi.webflow.io/institutes-on-the-horizon",
+    "targetWidth": 1440,
+    "documentWidth": 1440,
+    "input": {
+      "right": 1088,
+      "width": 711,
+      "x": 377
+    },
+    "label": {
+      "right": 1088,
+      "width": 736,
+      "x": 352
+    },
+    "required": false,
+    "valid": true,
+    "viewport": 1440
+  },
+  {
+    "page": "https://ipmi.webflow.io/institutes-on-the-horizon",
+    "targetWidth": 992,
+    "documentWidth": 992,
+    "input": {
+      "right": 864,
+      "width": 711,
+      "x": 153
+    },
+    "label": {
+      "right": 864,
+      "width": 736,
+      "x": 128
+    },
+    "required": false,
+    "valid": true,
+    "viewport": 992
+  },
+  {
+    "page": "https://ipmi.webflow.io/institutes-on-the-horizon",
+    "targetWidth": 991,
+    "documentWidth": 991,
+    "input": {
+      "right": 863.5,
+      "width": 711,
+      "x": 152.5
+    },
+    "label": {
+      "right": 863.5,
+      "width": 736,
+      "x": 127.5
+    },
+    "required": false,
+    "valid": true,
+    "viewport": 991
+  },
+  {
+    "page": "https://ipmi.webflow.io/institutes-on-the-horizon",
+    "targetWidth": 768,
+    "documentWidth": 790,
+    "input": {
+      "right": 696,
+      "width": 599,
+      "x": 97
+    },
+    "label": {
+      "right": 696,
+      "width": 624,
+      "x": 72
+    },
+    "required": false,
+    "valid": true,
+    "viewport": 768
+  },
+  {
+    "page": "https://ipmi.webflow.io/institutes-on-the-horizon",
+    "targetWidth": 767,
+    "documentWidth": 767,
+    "input": {
+      "right": 717,
+      "width": 647,
+      "x": 70
+    },
+    "label": {
+      "right": 717,
+      "width": 667,
+      "x": 50
+    },
+    "required": false,
+    "valid": true,
+    "viewport": 767
+  },
+  {
+    "page": "https://ipmi.webflow.io/institutes-on-the-horizon",
+    "targetWidth": 480,
+    "documentWidth": 480,
+    "input": {
+      "right": 430,
+      "width": 360,
+      "x": 70
+    },
+    "label": {
+      "right": 430,
+      "width": 380,
+      "x": 50
+    },
+    "required": false,
+    "valid": true,
+    "viewport": 480
+  },
+  {
+    "page": "https://ipmi.webflow.io/institutes-on-the-horizon",
+    "targetWidth": 479,
+    "documentWidth": 479,
+    "input": {
+      "right": 449,
+      "width": 404,
+      "x": 45
+    },
+    "label": {
+      "right": 449,
+      "width": 419,
+      "x": 30
+    },
+    "required": false,
+    "valid": true,
+    "viewport": 479
+  },
+  {
+    "page": "https://ipmi.webflow.io/institutes-on-the-horizon",
+    "targetWidth": 390,
+    "documentWidth": 390,
+    "input": {
+      "right": 360,
+      "width": 315,
+      "x": 45
+    },
+    "label": {
+      "right": 360,
+      "width": 330,
+      "x": 30
+    },
+    "required": false,
+    "valid": true,
+    "viewport": 390
+  },
+  {
+    "page": "https://ipmi.webflow.io/institutes-on-the-horizon",
+    "targetWidth": 375,
+    "documentWidth": 375,
+    "input": {
+      "right": 345,
+      "width": 300,
+      "x": 45
+    },
+    "label": {
+      "right": 345,
+      "width": 315,
+      "x": 30
+    },
+    "required": false,
+    "valid": true,
+    "viewport": 375
+  }
+]

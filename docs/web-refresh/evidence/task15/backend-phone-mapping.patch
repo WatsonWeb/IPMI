@@ -1,0 +1,42 @@
+--- a/email/index.js
++++ b/email/index.js
+@@ -65,2 +65,11 @@
+ function createTemplateData(formData, formName) {
++  // Preserve international formatting while escaping this optional HTML value.
++  const phone = typeof formData.Phone === "string" ? formData.Phone : "";
++  const escapedPhone = phone.replace(/[&<>"']/g, (character) => ({
++    "&": "&amp;",
++    "<": "&lt;",
++    ">": "&gt;",
++    '"': "&quot;",
++    "'": "&#39;",
++  })[character]);
+   const templateData = {
+@@ -69,2 +78,3 @@
+     email: formData.Email || "",
++    phone: escapedPhone,
+     date: new Date().toLocaleDateString("en-US", {
+--- a/email/templates/contact-form.html
++++ b/email/templates/contact-form.html
+@@ -54,2 +54,5 @@
+       <p><span class="label">Email:</span><span class="value">{{email}}</span></p>
++      {{#if phone}}
++      <p><span class="label">Phone:</span><span class="value">{{phone}}</span></p>
++      {{/if}}
+     </div>
+--- a/email/templates/attend-request.html
++++ b/email/templates/attend-request.html
+@@ -48,2 +48,5 @@
+       <p><span class="label">Email:</span><span class="value">{{email}}</span></p>
++      {{#if phone}}
++      <p><span class="label">Phone:</span><span class="value">{{phone}}</span></p>
++      {{/if}}
+       <p><span class="label">Designation:</span><span class="value">{{designation}}</span></p>
+--- a/email/templates/invitation-request.html
++++ b/email/templates/invitation-request.html
+@@ -48,2 +48,5 @@
+       <p><span class="label">Email:</span><span class="value">{{email}}</span></p>
++      {{#if phone}}
++      <p><span class="label">Phone:</span><span class="value">{{phone}}</span></p>
++      {{/if}}
+       <p><span class="label">Designation:</span><span class="value">{{designation}}</span></p>

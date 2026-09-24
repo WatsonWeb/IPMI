@@ -1,0 +1,105 @@
+{
+  "scope": "Offline standard FormData from published markup; does not verify Webflow AJAX payload, webhook receipt, CAPTCHA, delivery, success or failure",
+  "results": [
+    {
+      "file": ".webflow/task15-contact-after.html",
+      "phoneId": "field-phone-contact",
+      "required": [
+        {
+          "id": "field-name",
+          "missing": true
+        },
+        {
+          "id": "field-email",
+          "missing": true
+        }
+      ],
+      "values": ["", "+44 20 7946 0958 ext 12", "+1 (416) 555-0100 x 7"],
+      "passed": true
+    },
+    {
+      "file": ".webflow/task15-attend-after.html",
+      "phoneId": "field-phone-attend",
+      "required": [
+        {
+          "id": "field-name",
+          "missing": true
+        },
+        {
+          "id": "field-email",
+          "missing": true
+        },
+        {
+          "id": "field-designation",
+          "missing": true
+        },
+        {
+          "id": "field-company",
+          "missing": true
+        },
+        {
+          "id": "field-employees",
+          "missing": true
+        }
+      ],
+      "values": ["", "+44 20 7946 0958 ext 12", "+1 (416) 555-0100 x 7"],
+      "passed": true
+    },
+    {
+      "file": ".webflow/task15-horizon-after.html",
+      "phoneId": "field-phone-horizon",
+      "required": [
+        {
+          "id": "field-name",
+          "missing": true
+        },
+        {
+          "id": "field-email",
+          "missing": true
+        },
+        {
+          "id": "field-designation",
+          "missing": true
+        },
+        {
+          "id": "field-company",
+          "missing": true
+        },
+        {
+          "id": "field-employees",
+          "missing": true
+        }
+      ],
+      "values": ["", "+44 20 7946 0958 ext 12", "+1 (416) 555-0100 x 7"],
+      "passed": true
+    },
+    {
+      "file": ".webflow/task15-hit-after.html",
+      "phoneId": "field-phone-institute",
+      "required": [
+        {
+          "id": "field-name",
+          "missing": true
+        },
+        {
+          "id": "field-email",
+          "missing": true
+        },
+        {
+          "id": "field-designation",
+          "missing": true
+        },
+        {
+          "id": "field-company",
+          "missing": true
+        },
+        {
+          "id": "Employees",
+          "missing": true
+        }
+      ],
+      "values": ["", "+44 20 7946 0958 ext 12", "+1 (416) 555-0100 x 7"],
+      "passed": true
+    }
+  ]
+}

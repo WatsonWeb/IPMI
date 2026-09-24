@@ -2,7 +2,7 @@
 
 [Back to master](README.md)
 
-**Owner:** BWC / Webflow implementer. **Status:** Implementation specification; website changes not performed.
+**Owner:** BWC / Webflow implementer. **Status:** Four native inquiry forms staged for review September 24, 2026. ActiveCampaign field, backend deployment, and controlled delivery verification remain pending. [Implementation and evidence](evidence/task15/README.md).
 
 ## Source and target
 
@@ -30,7 +30,7 @@ Existing required fields, category visibility, hidden recipient/category/event i
 ## Inputs and dependencies
 
 - An agreed test destination and access to inspect the actual submission payload are required for routing verification.
-- [34](34-hit-2027-sam-routing.md) separately owns the unresolved HIT 2027 attendee recipient. Do not silently fill it while adding the phone field.
+- [34](34-hit-2027-sam-routing.md) separately owns confirmation of HIT routing. Corrected baseline: CMS field `test` and rendered attendee/recipient inputs already contained `scolquhoun@ipmievents.com` before this task on staging and production. The earlier blank-field claim was incorrect. This task preserved that value; identity, authorization, all entry points, and delivery still require task 34.
 
 ## Acceptance checks
 
@@ -39,6 +39,17 @@ Existing required fields, category visibility, hidden recipient/category/event i
 - [ ] Required fields still validate; category/event inputs and recipient routing retain their baseline behavior.
 - [ ] The agreed test payload contains `Phone`; success/error messages remain reachable and legible.
 - [ ] Desktop, tablet, mobile, keyboard focus, and accessible labels pass task 37.
+
+The full acceptance boxes remain open because the provider form and actual delivery are not verified. The native subset is complete:
+
+- [x] Contact, Attend, Horizon, and Institutes Template each have exactly one optional `Phone` telephone field after Email, associated visible label, unique ID, and `autocomplete="tel"`.
+- [x] International formatting and blank optional validity verified without submitting; offline standard FormData serializes `Phone` unchanged. This is not proof of the actual Webflow webhook payload.
+- [x] Existing field tags, required flags, recipients, inline scripts, form IDs and response settings preserved. Attend/Speak/Partner field visibility checked on desktop/mobile; Horizon/HIT retain their existing pre-registration presentation.
+- [x] Form controls fit at 1440, 992, 991, 768, 767, 480, 479, 390 and 375px; keyboard focus and label association verified. Inherited 768px navigation overflow is recorded separately in task 37.
+- [x] Published only to `ipmi.webflow.io`; production retains its previous fields and contains no new Phone input.
+- [ ] ActiveCampaign Think Tank form 412: authenticated provider access, isolated staging form, provider-native Phone configuration and mapping.
+- [ ] Apply/deploy reviewed backend mapping in a verified safe environment. A tested patch against express-server `ee1239b6cd175befd2d8e567006eacf636707d6b` is supplied; the backend repository/live webhook were not modified.
+- [ ] Controlled destination test of blank and international Phone through CAPTCHA, Webflow storage/webhook, final notification and success/error states. No staff inquiry was sent.
 
 ## Rollback
 

@@ -1,0 +1,95 @@
+{
+  "scope": "Local optional Phone HTML rendering only; no server import, network, webhook or delivery",
+  "results": [
+    {
+      "form": "Contact Form",
+      "phone": null,
+      "passed": true
+    },
+    {
+      "form": "Contact Form",
+      "phone": "",
+      "passed": true
+    },
+    {
+      "form": "Contact Form",
+      "phone": "   ",
+      "passed": true
+    },
+    {
+      "form": "Contact Form",
+      "phone": "+44 20 7946 0958 ext 12",
+      "passed": true
+    },
+    {
+      "form": "Contact Form",
+      "phone": "+1 (416) 555-0100 x 7",
+      "passed": true
+    },
+    {
+      "form": "Contact Form",
+      "phone": "<img src=x onerror=\"test\">&'",
+      "passed": true
+    },
+    {
+      "form": "Attend Request",
+      "phone": null,
+      "passed": true
+    },
+    {
+      "form": "Attend Request",
+      "phone": "",
+      "passed": true
+    },
+    {
+      "form": "Attend Request",
+      "phone": "   ",
+      "passed": true
+    },
+    {
+      "form": "Attend Request",
+      "phone": "+44 20 7946 0958 ext 12",
+      "passed": true
+    },
+    {
+      "form": "Attend Request",
+      "phone": "+1 (416) 555-0100 x 7",
+      "passed": true
+    },
+    {
+      "form": "Attend Request",
+      "phone": "<img src=x onerror=\"test\">&'",
+      "passed": true
+    },
+    {
+      "form": "Invitation Request",
+      "phone": null,
+      "passed": true
+    },
+    {
+      "form": "Invitation Request",
+      "phone": "",
+      "passed": true
+    },
+    {
+      "form": "Invitation Request",
+      "phone": "   ",
+      "passed": true
+    },
+    {
+      "form": "Invitation Request",
+      "phone": "+44 20 7946 0958 ext 12",
+      "passed": true
+    },
+    {
+      "form": "Invitation Request",
+      "phone": "+1 (416) 555-0100 x 7",
+      "passed": true
+    },
+    {
+      "form": "Invitation Request",
+      "phone": "<img src=x onerror=\"test\">&'",
+      "passed": true
+    }
+  ]
+}
