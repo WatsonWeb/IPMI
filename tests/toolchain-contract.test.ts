@@ -34,6 +34,7 @@ const footers = {
   gallery: "Page HTML/Gallery/Gallery-Footer.html",
   faq: "Page HTML/FAQ/FAQ-Footer.html",
   horizon: "Page HTML/Institutes on the Horizon/Horizon-Footer.html",
+  "horizon-routing": "Page HTML/Institutes on the Horizon/Horizon-Routing-Supplement.html",
   institute: "Page HTML/Institute Single/Institute-Footer.html",
   institutes: "Page HTML/Institutes/Institutes-Footer.html",
   recap: "Page HTML/Recap Single/Recap-Footer.html",
@@ -55,7 +56,7 @@ function scriptSources(html: string): string[] {
   return sources;
 }
 
-test("all fifteen maintained browser entries remain present", () => {
+test("all maintained browser entries remain present", () => {
   const entries = readdirSync(path.join(root, "src/entries"))
     .filter((name) => name.endsWith(".ts") && !name.endsWith(".d.ts"))
     .map((name) => name.slice(0, -3));
