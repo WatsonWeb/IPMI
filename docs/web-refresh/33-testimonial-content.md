@@ -2,7 +2,7 @@
 
 [Back to master](README.md)
 
-**Owner:** IPMI approves quotations and attribution; BWC enters approved content and documents the CMS handoff. **Status:** Awaiting approved testimonial content; no CMS updates performed.
+**Owner:** IPMI approves quotations and attribution; BWC enters approved content and documents the CMS handoff. **Status:** Provisional staging example and CMS handoff complete; final quote, attribution, rating, media and publication permission remain pending.
 
 ## Source and target
 
@@ -44,3 +44,18 @@ Update approved quotations, attributions, and associated references using the ex
 ## Rollback
 
 Record original quote/attribution/media/references and publication state. Restore those fields for replaced items; unpublish new items if required. Preserve referenced records until their consumers are checked.
+
+## September 24, 2026 implementation
+
+Bryan's placeholder override was applied through Chrome's native Webflow CMS and Designer. One new, clearly labeled review example is visible at the end of [Testimonials](https://ipmi.webflow.io/testimonials#testimonials). No invented endorsement or real person/company/event attribution was added. All 68 original CMS field sets remain identical; the collection now has 69 records.
+
+- Record: `6ab4e34be2c912b57c47208b`, slug `placeholder-testimonial-review`; name `Placeholder testimonial — replace with approved content`.
+- **Testimonial:** `Placeholder: approved testimonial copy will appear here.` **Attendee Name:** `Placeholder attribution`.
+- Speaker Reference, Attendee Photo, Attendee Job Title and Attendee Company remain empty. Anonymous Testimonial is off. The existing conditional photo treatment hides empty images and displays its generic attendee icon.
+- Featured On Home & Testimonials Page is on; Featured On VTT Page is off; Sort Order is `99`. Home's existing ascending sort and nine-item limit keep its original nine cards unchanged. Testimonials now has its original 22 cards plus this example.
+- Required Star Rating is `4` solely as a stored placeholder to satisfy the existing schema. It is **not an attendee rating**. Two native visibility conditions exclude this exact record from the entire star wrapper on Home and Testimonials; the public example has no stars or numeric rating. No schema expansion, global CSS or real rating changed.
+- Saved as a draft, then **More → Queue for next site publish**. The site publish selected only `ipmi.webflow.io`; the production custom domain was visibly unchecked. CMS's Published badge does not establish production publication.
+
+[Implementation evidence, actual-field CMS editing guide, responsive checks and rollback](evidence/task33/README.md) and [exact placeholder replacement register](PLACEHOLDERS.md) are the handoff. Task 11 P20/P21 hero imagery remains separate. Task 19 accessibility and task 37 integrated acceptance remain open; the inherited 768px navigation overflow was not changed.
+
+Provisional checks passed: exact placeholder copy, no real-person reference, preserved original records, neutral rating display, optional-media behavior, long quote/mobile cards, and desktop/tablet/mobile Home carousel pagination. Final approved-content acceptance above remains open until IPMI supplies the verbatim quote, attribution, genuine rating, permissions, optional media, intended placement/order and replacement/removal decision. The individual CMS template URL is password-protected (HTTP 401); no password was entered and its internal rendering is unverified. Review the public static Testimonials page instead.

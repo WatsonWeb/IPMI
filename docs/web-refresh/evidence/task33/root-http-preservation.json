@@ -1,0 +1,30 @@
+{
+  "checkedAt": "2026-09-24T03:53:36.1115782-05:00",
+  "comparisonPages": [
+    {
+      "path": "/",
+      "allImageTagsUnchanged": true,
+      "normalizedTextUnchanged": true,
+      "formUnchanged": true
+    },
+    {
+      "path": "/thinktanks",
+      "allImageTagsUnchanged": true,
+      "normalizedTextUnchanged": true,
+      "formUnchanged": true
+    },
+    {
+      "path": "/institutes/hit-2027",
+      "allImageTagsUnchanged": true,
+      "normalizedTextUnchanged": true,
+      "formUnchanged": true
+    },
+    {
+      "path": "/institutes/healthcare-gci-oct-2026",
+      "allImageTagsUnchanged": true,
+      "normalizedTextUnchanged": true,
+      "formUnchanged": true
+    }
+  ],
+  "productionNoPlaceholder": true
+}

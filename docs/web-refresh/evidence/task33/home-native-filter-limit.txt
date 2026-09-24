@@ -1,0 +1,158 @@
+ents (A)":
+- button "Pages (P)":
+- button "Navigator (Z)":
+- separator
+- button "Components (Shift A)":
+- button "Variables (V)":
+- button "Style selectors (G)":
+- button "Assets (J)":
+- button "Libraries (L)":
+- button "Instructions":
+- separator
+- button "Apps (E)":
+- button "Localize":
+- button "Settings":
+- button "Learning Assistant":
+- button "Audits (U)":
+- button "Find anything (CTRL + E)":
+- button "Video tutorials":
+- heading "Navigator" [level=2]
+- button "Collapse all":
+- button "Unpin the Navigator":
+- generic: Body
+- generic: Custom Styles
+- generic: Desktop Navigation
+- generic: Custom Styles
+- generic: Hero Section
+- generic: Curve
+- generic: Feature Section
+- generic: Curve
+- generic: Stats Section
+- generic: Curve
+- generic: Institutes Section
+- generic: Curve
+- generic: Recaps Section
+- generic: Curve
+- generic: Testimonials Section
+- generic: Container
+- generic: Section Headings
+- generic: Slider
+- generic: Home Testimonials
+- generic: Home Testimonial Wrapper
+- generic: Home Testimonial Inner Wrap
+- generic: Recap Testimonial Speaker Wrap
+- generic: Recap Testimonial Speaker Wrap
+- generic: Recap Speaker Photo
+- generic: Recap Attendee Stock Photo
+- generic: Recap Testimonial Speaker Info
+- generic: Speaker Full Name
+- generic: Home Testimonial Job Title
+- generic: Speaker Company
+- generic: Recap Testimonial Content
+- generic: Recap Testimonial Stars
+- generic: Empty State
+- generic: swiper-pagination
+- generic: Slider Button
+- generic: Slider Button
+- generic: Flex Center
+- generic: Dots
+- generic: Curve
+- generic: Home Testimonials Wrapper
+- generic: Home Testimonials Wrapper
+- button "Create component":
+- generic: Style
+- generic: Settings
+- generic: Interactions
+- generic: ID
+- textbox "ID attribute input":
+  - /placeholder: For in-page linking
+  - text: testimonials-swiper
+- button:
+- generic: Tag
+- generic "Select element tag":
+  - generic: Div
+- generic: Visibility
+- radiogroup:
+  - radio "Visible" [checked]:
+    - generic: Visible
+  - radio "Hidden":
+    - generic: Hidden
+- button:
+- generic: Collection List Settings
+- generic: Source
+- generic: The collection can’t be changed.
+- generic "Testimonials"
+- button "Go to CMS":
+- button "Add CMS Item":
+- checkbox "Use primary locale items": x
+- generic: Use primary locale items
+- generic: UI State
+- radiogroup:
+  - radio "Items" [checked]:
+    - generic: Items
+  - radio "Empty":
+    - generic: Empty
+- generic: Layout
+- radiogroup:
+  - radio "2 columns":
+  - radio "3 columns":
+  - radio "4 columns":
+  - radio "6 columns":
+  - radio "Full width" [checked]:
+- generic: Items
+- radiogroup:
+  - radio "Dynamic" [checked]:
+    - generic: Dynamic
+  - radio "Selected":
+    - generic: Selected
+- generic: Filters
+- button "Add filter":
+- generic: Featured On Home & Testimonials Page
+- generic: is on
+- generic: Sort
+- button "Add list item":
+- generic: Sort Order
+- generic: Smallest to largest
+- generic: Paginate items
+- switch
+- generic: Limit items
+- switch [checked]
+- generic: Show
+- textbox: "9"
+- generic: Skip
+- textbox: "0"
+- generic "Custom attributes":
+  - generic: Custom attributes
+  - generic: Attributes
+  - button "Add new attribute":
+  - generic "Attributes Add new attribute"
+- generic: Advanced
+- checkbox "Keep in HTML when hidden"
+- generic: Keep in HTML when hidden
+- checkbox "Exclude Collection List Wrapper’s content from site search results" [checked]
+- generic: Exclude Collection List Wrapper’s content from site search results
+- button "Undo" [disabled]:
+- button "Redo" [disabled]:
+- separator
+- button "Body":
+  - generic: Body
+- button "Container":
+  - generic: Container
+- button "Slider":
+  - generic: Slider
+- button "Home Testimonials Wrapper":
+  - generic: Home Testimonials Wrapper
+- button "Canvas settings. Current viewport width is 992px.":
+  - generic: 992px
+- button "1920px and up":
+- button "1440px and up":
+- button "1280px and up":
+- 'button "Desktop: Base breakpoint" [pressed]':
+- 'button "Tablet: 991px and down"':
+- 'button "Mobile (L): 767px and down"':
+- 'button "Mobile: 479px and down"':
+- button "Expand canvas":
+- region "Notifications Alt+T"
+- status
+- status
+- status: 1Password menu is available. Press down arrow to select.

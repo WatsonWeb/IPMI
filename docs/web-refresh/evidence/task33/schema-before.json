@@ -1,0 +1,181 @@
+{
+  "id": "639c08275de7441ba491438d",
+  "displayName": "Testimonials",
+  "singularName": "Testimonial",
+  "slug": "testimonials",
+  "createdOn": "2022-12-16T05:54:47.110Z",
+  "lastUpdated": "2025-06-05T20:41:23.597Z",
+  "fields": [
+    {
+      "id": "1d8efb8aaaaf88a615d5425a612cc877",
+      "isEditable": true,
+      "isRequired": false,
+      "type": "Reference",
+      "slug": "speaker",
+      "displayName": "Speaker Reference",
+      "helpText": "Select speaker if applicable. Required for Homepage testimonials.",
+      "validations": {
+        "collectionId": "6392772fccd80ef70502601f"
+      }
+    },
+    {
+      "id": "03a010ff2314aa8e781e6fe5e83de153",
+      "isEditable": true,
+      "isRequired": false,
+      "type": "Image",
+      "slug": "attendee-photo",
+      "displayName": "Attendee Photo",
+      "helpText": "Photo for the attendee - Will be displayed as a circle - Max 300px Width x 300px Height (1:1 Square)",
+      "validations": {
+        "maxImageWidth": 300,
+        "maxImageHeight": 300
+      }
+    },
+    {
+      "id": "bbe50b3a497e869522dacff90cff7711",
+      "isEditable": true,
+      "isRequired": false,
+      "type": "PlainText",
+      "slug": "testimonial-author",
+      "displayName": "Attendee Name",
+      "helpText": "Name of the Attendee. Overwritten by Speaker if selected.",
+      "validations": {
+        "singleLine": true
+      }
+    },
+    {
+      "id": "d9216d28780c6446d824d3e7d51da2f3",
+      "isEditable": true,
+      "isRequired": false,
+      "type": "PlainText",
+      "slug": "attendee-job-title",
+      "displayName": "Attendee Job Title",
+      "helpText": "Complete job title (E.g. SVP, CLO & GC). Overwritten by Speaker if selected.",
+      "validations": {
+        "singleLine": true
+      }
+    },
+    {
+      "id": "e9d5f25f1e9b315dc783130865552b40",
+      "isEditable": true,
+      "isRequired": false,
+      "type": "PlainText",
+      "slug": "attendee-company",
+      "displayName": "Attendee Company",
+      "helpText": "Company / Organization name including location (E.g. Froedtert & MCW Health Network (WI) ).  Overwritten by Speaker if selected.",
+      "validations": {
+        "singleLine": true
+      }
+    },
+    {
+      "id": "3efbd34d76e4d54cdb612ebb47920f07",
+      "isEditable": true,
+      "isRequired": false,
+      "type": "Switch",
+      "slug": "anonymous-testimonial",
+      "displayName": "Anonymous Testimonial",
+      "helpText": "Enable if you wish to hide the author details on the frontend."
+    },
+    {
+      "id": "3d31f04cba673e8b71d2a7a027f2c9b8",
+      "isEditable": true,
+      "isRequired": false,
+      "type": "PlainText",
+      "slug": "testimonial-2",
+      "displayName": "Testimonial",
+      "helpText": "Short testimonial ~Two sentences in length. Include Quotation Marks ( \" ) at the start and end.",
+      "validations": {
+        "singleLine": false
+      }
+    },
+    {
+      "id": "e5cb886a82ef3787c9b8a75b2ca56578",
+      "isEditable": true,
+      "isRequired": true,
+      "type": "Option",
+      "slug": "star-rating",
+      "displayName": "Star Rating",
+      "helpText": "Select Testimonial Star Rating (5 Being the Highest)",
+      "validations": {
+        "options": [
+          {
+            "name": "5",
+            "id": "c44a010c7562d92755b08d1dfb442fb9"
+          },
+          {
+            "name": "4.5",
+            "id": "4b43946a1785493e91de03ee7a46e45d"
+          },
+          {
+            "name": "4",
+            "id": "7e3f1151be14fe23f21ddf9b14242929"
+          }
+        ]
+      }
+    },
+    {
+      "id": "c06e7b6dcd830e359c12371f8dcfd421",
+      "isEditable": true,
+      "isRequired": false,
+      "type": "Switch",
+      "slug": "featured-on-homepage",
+      "displayName": "Featured On Home & Testimonials Page",
+      "helpText": "Enable to have testimonial featured on Homepage"
+    },
+    {
+      "id": "5f29c4ca58ef06e17159ca208e9096ca",
+      "isEditable": true,
+      "isRequired": false,
+      "type": "Switch",
+      "slug": "featured-on-vtt-page",
+      "displayName": "Featured On VTT Page",
+      "helpText": "Enable to have testimonial featured on Homepage"
+    },
+    {
+      "id": "5efb939a62ca405371f93b634cd99fbb",
+      "isEditable": true,
+      "isRequired": false,
+      "type": "Number",
+      "slug": "sort-order",
+      "displayName": "Sort Order",
+      "helpText": "Sorted from Lowest -> Highest. Eg. 1 is the first testimonial, 2 the second testimonial etc.",
+      "validations": {
+        "format": "integer",
+        "precision": 1,
+        "allowNegative": false,
+        "minValue": 1,
+        "maxValue": 99
+      }
+    },
+    {
+      "id": "03e26a2675275e46d3858595cb2e49d6",
+      "isEditable": true,
+      "isRequired": true,
+      "type": "PlainText",
+      "slug": "name",
+      "displayName": "Testimonial Name",
+      "helpText": "Used for filtering, not displayed on the frontend.",
+      "validations": {
+        "maxLength": 256
+      }
+    },
+    {
+      "id": "0b6af42a73948a1065204189e658cae1",
+      "isEditable": true,
+      "isRequired": true,
+      "type": "PlainText",
+      "slug": "slug",
+      "displayName": "URL Slug",
+      "helpText": "Website URL slug - Include year at end. (E.g. healthcare-it-2022)",
+      "validations": {
+        "maxLength": 256,
+        "pattern": {},
+        "messages": {
+          "pattern": "Must be alphanumerical and not contain any spaces or special characters",
+          "maxLength": "Must be less than 256 characters"
+        }
+      }
+    }
+  ],
+  "fieldGroups": []
+}

@@ -1,0 +1,133 @@
+ack 3":
+      - generic: HR East 2023 Feedback 3
+    - row "HR East 2023 Feedback 2":
+      - generic: HR East 2023 Feedback 2
+    - row "HR East 2023 Feedback 1":
+      - generic: HR East 2023 Feedback 1
+    - row "Nancy Antoniou Testimonial 2022":
+      - generic: Nancy Antoniou Testimonial 2022
+    - row "Davita Carpenter Testimonial 2022":
+      - generic: Davita Carpenter Testimonial 2022
+    - row "Matt Ginn Testimonial 2022":
+      - generic: Matt Ginn Testimonial 2022
+    - row "James Getz Testimonial 2022":
+      - generic: James Getz Testimonial 2022
+    - row "Kyle Kirkpatrick Testimonial 2022":
+      - generic: Kyle Kirkpatrick Testimonial 2022
+    - row "David Maggio Testimonial 2022":
+      - generic: David Maggio Testimonial 2022
+    - row "HIT 2022 Testimonial - Russell Teague":
+      - generic: HIT 2022 Testimonial - Russell Teague
+    - row "HRMI Can Nov 2022 Testimonial - Michelle Tierney":
+      - generic: HRMI Can Nov 2022 Testimonial - Michelle Tierney
+    - row "HGC March 2022 Testimonial - Jennifer Theibert":
+      - generic: HGC March 2022 Testimonial - Jennifer Theibert
+    - row "HCHR 2022 Testimonial - Crystal January-Craft":
+      - generic: HCHR 2022 Testimonial - Crystal January-Craft
+    - row "HCHR 2022 Testimonial - Anon":
+      - generic: HCHR 2022 Testimonial - Anon
+    - row "CLDI 2022 Testimonial - Anon":
+      - generic: CLDI 2022 Testimonial - Anon
+    - row "HRMI Canada Nov 2022 Testimonial - Anon":
+      - generic: HRMI Canada Nov 2022 Testimonial - Anon
+    - row "HRMI Canada Nov 2022 Testimonial - Amy Clark":
+      - generic: HRMI Canada Nov 2022 Testimonial - Amy Clark
+    - row "IP Law 2022 Testimonial - Diane Gabl Kratz":
+      - generic: IP Law 2022 Testimonial - Diane Gabl Kratz
+- button:
+- heading "Placeholder testimonial — replace with approved content" [level=2]
+- generic: Published
+- separator
+- button "View content on page":
+- button "Publish now":
+  - generic: Publish now
+- button "More":
+- generic: Basic info
+- generic: Testimonial Name
+- text: Used for filtering, not displayed on the frontend.
+- textbox: Placeholder testimonial — replace with approved content
+- generic: URL Slug
+- text: Website URL slug - Include year at end. (E.g. healthcare-it-2022)
+- textbox: placeholder-testimonial-review
+- generic: www.ipmievents.com/testimonials/
+- generic: placeholder-testimonial-review
+- button "Custom fields More options" [expanded]:
+  - generic: Custom fields
+  - button "More options":
+- generic: Speaker Reference
+- text: Select speaker if applicable. Required for Homepage testimonials.
+- generic: Pick a Speaker...
+- button:
+- generic: Attendee Photo
+- text: Photo for the attendee - Will be displayed as a circle - Max 300px Width x 300px Height (1:1 Square)
+- generic: Drag your image here
+- generic: or click to browse for a file
+- button "Drag your image here or click to browse for a file"
+- generic: Attendee Name
+- text: Name of the Attendee. Overwritten by Speaker if selected.
+- textbox: Placeholder attribution
+- generic: Attendee Job Title
+- text: Complete job title (E.g. SVP, CLO & GC). Overwritten by Speaker if selected.
+- textbox
+- generic: Attendee Company
+- text: Company / Organization name including location (E.g. Froedtert & MCW Health Network (WI) ). Overwritten by Speaker if selected.
+- textbox
+- generic: Anonymous Testimonial
+- text: Enable if you wish to hide the author details on the frontend.
+- checkbox
+- generic: Testimonial
+- text: Short testimonial ~Two sentences in length. Include Quotation Marks ( " ) at the start and end.
+- textbox: "Placeholder: approved testimonial copy will appear here."
+- generic: Star Rating
+- text: Select Testimonial Star Rating (5 Being the Highest)
+- generic: "4"
+- generic: Featured On Home & Testimonials Page
+- text: Enable to have testimonial featured on Homepage
+- checkbox [checked]
+- generic: Featured On VTT Page
+- text: Enable to have testimonial featured on Homepage
+- checkbox
+- generic: Sort Order
+- text: Sorted from Lowest -> Highest. Eg. 1 is the first testimonial, 2 the second testimonial etc.
+- textbox: "99"
+- table:
+  - rowgroup:
+    - row "Locale Status":
+      - columnheader "Locale"
+      - columnheader "Status"
+  - rowgroup:
+    - row "English Published":
+      - cell "English"
+      - cell "Published":
+        - generic: Published
+- heading "Item details" [level=4]
+- generic: Sitemap Indexing
+- generic "More info":
+- paragraph:
+  - text: This setting controls whether search engines can return this page in search results.
+  - link "Learn more":
+    - /url: https://help.webflow.com/hc/en-us/articles/33961368603539-Disable-search-engine-indexing#01JGPQHKRP9ZWWTWW11Y447SAE
+- switch [checked]
+- generic: "On"
+- generic: Item ID
+- generic: 6ab4e34be2c912b57c47208b
+- heading "Activity" [level=4]
+- generic: I
+- text: Item created
+- generic: September 24, 2026, 3:46am by IPMI Webmaster
+- generic: I
+- text: Last edited
+- generic: September 24, 2026, 3:46am by IPMI Webmaster
+- generic: I
+- text: Last published
+- generic: September 24, 2026, 3:51am by IPMI Webmaster
+- button "Archive":
+  - generic: Archive
+- button "Delete":
+  - generic: Delete
+- button "Duplicate":
+  - generic: Duplicate
+- region "Notifications Alt+T"
+- status
+- status
+- status: 1Password menu is available. Press down arrow to select.

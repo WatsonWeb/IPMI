@@ -1,0 +1,107 @@
+[
+  {
+    "path": "/",
+    "status": 200,
+    "hasPlaceholder": false
+  },
+  {
+    "path": "/about",
+    "status": 200,
+    "hasPlaceholder": false
+  },
+  {
+    "path": "/contact",
+    "status": 200,
+    "hasPlaceholder": false
+  },
+  {
+    "path": "/attend",
+    "status": 200,
+    "hasPlaceholder": false
+  },
+  {
+    "path": "/faq",
+    "status": 200,
+    "hasPlaceholder": false
+  },
+  {
+    "path": "/institutes",
+    "status": 200,
+    "hasPlaceholder": false
+  },
+  {
+    "path": "/recent-institutes",
+    "status": 200,
+    "hasPlaceholder": false
+  },
+  {
+    "path": "/institutes-on-the-horizon",
+    "status": 200,
+    "hasPlaceholder": false
+  },
+  {
+    "path": "/gallery",
+    "status": 200,
+    "hasPlaceholder": false
+  },
+  {
+    "path": "/thinktanks",
+    "status": 200,
+    "hasPlaceholder": false
+  },
+  {
+    "path": "/testimonials",
+    "status": 200,
+    "hasPlaceholder": true
+  },
+  {
+    "path": "/recaps",
+    "status": 200,
+    "hasPlaceholder": false
+  },
+  {
+    "path": "/insights",
+    "status": 200,
+    "hasPlaceholder": false
+  },
+  {
+    "path": "/institutes/hit-2027",
+    "status": 200,
+    "hasPlaceholder": false
+  },
+  {
+    "path": "/institutes/healthcare-gci-oct-2026",
+    "status": 200,
+    "hasPlaceholder": false
+  },
+  {
+    "path": "/thinktanks/dorn-vtt-2026",
+    "status": 200,
+    "hasPlaceholder": false
+  },
+  {
+    "path": "/recaps/healthcare-hrmi-sept-2025",
+    "status": 200,
+    "hasPlaceholder": false
+  },
+  {
+    "path": "/know-before-you-go/hchr-sept-2026-delegate",
+    "status": 200,
+    "hasPlaceholder": false
+  },
+  {
+    "path": "/know-before-you-go/hchr-sept-2026-sponsor",
+    "status": 200,
+    "hasPlaceholder": false
+  },
+  {
+    "path": "/know-before-you-go/ehs-jan-2027-delegate",
+    "status": 200,
+    "hasPlaceholder": false
+  },
+  {
+    "path": "/know-before-you-go/ehs-jan-2027-sponsor",
+    "status": 200,
+    "hasPlaceholder": false
+  }
+]

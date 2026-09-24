@@ -1,0 +1,75 @@
+# Task 33 — provisional testimonial and CMS handoff
+
+September 24, 2026. One placeholder review example staged through Chrome; final content approval remains pending. All Webflow writes used the native CMS/Designer UI. No production publish, external message, form submission, schema change or runtime asset change occurred.
+
+## Exact applied content and prior state
+
+Collection **Testimonials** (`639c08275de7441ba491438d`), new item `6ab4e34be2c912b57c47208b`. Previous value for every new field: **no record**. [items-before.json](items-before.json) preserves the original 68 records, [schema-before.json](schema-before.json) their schema, and [items-after.json](items-after.json) all 69 final records. The root's independent [CMS comparison](root-cms-preservation.json) found zero changed original field sets.
+
+| Live CMS label | Applied value | Final replacement required |
+| --- | --- | --- |
+| Testimonial Name | `Placeholder testimonial — replace with approved content` | Approved identifying name; not the frontend attribution |
+| URL Slug | `placeholder-testimonial-review` | Approved slug if reusing; preserve existing real-item URLs |
+| Speaker Reference | Empty | Exact approved existing speaker only if applicable; never guess |
+| Attendee Photo | Empty | Optional approved image, maximum 300 × 300px; verify crop and alt context |
+| Attendee Name | `Placeholder attribution` | Approved attribution or confirmed anonymity |
+| Attendee Job Title | Empty | Approved role, if supplied |
+| Attendee Company | Empty | Approved organization, if supplied |
+| Anonymous Testimonial | Off | Approved anonymity instruction |
+| Testimonial | `Placeholder: approved testimonial copy will appear here.` | Verbatim approved quote and publication permission |
+| Star Rating | `4` (option ID `7e3f1151be14fe23f21ddf9b14242929`) | Genuine approved rating; current value is a schema-only placeholder, not feedback |
+| Featured On Home & Testimonials Page | On | Explicit approved placement decision covering both consumers |
+| Featured On VTT Page | Off | Enable only for approved Think Tanks placement |
+| Sort Order | `99` | Approved order; schema range 1–99 |
+
+The required Star Rating selector offers only 5, 4.5 and 4. The existing template has four unconditional stars and conditional fifth-star variants, so merely choosing a rating would create false social proof. The full **Recap Testimonial Stars** wrapper now has the native condition **Current Testimonial → is not any → Placeholder testimonial — replace with approved content**, Visible when true and Hidden otherwise; **Keep in HTML when hidden** remains unchecked. This omits the placeholder's stars entirely. Previous wrapper visibility was unconditional Visible. The individual real-star conditions remain unchanged.
+
+| Page | Native wrapper element ID | Current consumer |
+| --- | --- | --- |
+| Home | `d6e63afc-8b0c-060f-5678-a1425c8dbca5` | Featured switch on, Sort Order smallest to largest, Limit items on, Show 9, Skip 0; original nine records still displayed |
+| Testimonials | `096aaa91-92d0-e0b9-26ee-2f957a95e375` | Original 22 cards followed by placeholder; no placeholder stars |
+
+The Home condition protects against later reordering of this exact item, but this task did not change its limit or reorder real cards. [Native Home filter/limit evidence](home-native-filter-limit.png) and [settings text](home-native-filter-limit.txt) trace the shared switch. Empty photo elements remain hidden through existing conditionals; the existing generic attendee icon provides a neutral visual. There is no fake headshot, company, speaker or event reference.
+
+## CMS edit, preview and staging-publish guide
+
+1. Open [IPMI Designer](https://ipmi.design.webflow.com/), choose **CMS → Testimonials**, then search by the exact **Testimonial Name**. The temporary item name and ID above distinguish it from real records. Capture the original record before editing; do not overwrite an unrelated endorsement.
+2. For a new approved testimonial use **New item**. Fill **Testimonial Name**, **URL Slug**, **Testimonial**, and the appropriate attribution fields from approved copy. The Testimonial field is plain text; its helper suggests roughly two sentences and quotation marks. Preserve the supplied wording rather than silently shortening it to fit that suggestion.
+3. **Speaker Reference** is optional in the schema, although its helper says it is required for homepage testimonials. When a real speaker is selected, the current templates use speaker attribution/photo instead of the manual attendee details; verify that referenced identity, title, company and media are approved and current. Otherwise use **Attendee Name**, **Attendee Job Title**, **Attendee Company**, and optional **Attendee Photo**. **Anonymous Testimonial** hides author details; it must reflect permission, not conceal guessed attribution.
+4. Select the actual approved **Star Rating**. This example's `4` must never be treated as a real rating. Do not duplicate this placeholder as a shortcut: its native star suppression targets its exact item ID, so a duplicate would not inherit that protection. Keep the example intact while reviewing; the simplest final handoff is to archive it and create the approved item normally. If reusing it, replace every provisional field and remove its exact-item star exclusion from both native wrappers only after a genuine rating is approved.
+5. Set **Featured On Home & Testimonials Page**, **Featured On VTT Page**, and **Sort Order** according to the approved placements. Home uses ascending order and only nine items; enabling the first switch does not guarantee it appears on Home. A lower order can displace an existing Home card. These fields do not assign an Institute/event; do not invent an event relationship that the collection does not expose. Review referenced Recaps/other consumers before retiring existing content.
+6. For a new record, select **Create draft**, then use **More → Queue for next site publish** when ready for staging. Save edited records using the CMS save control and confirm the saved/queued state. Do **not** use the item's **Publish now** button. For layout preview, return to **Design**, open **Testimonials** through **Pages (P)**, and use **Preview (Alt + P)**; also inspect Home whenever the shared feature switch/order changes. Preview is not publication proof.
+7. Open the site's top-right **Publish** menu. Visually confirm only **ipmi.webflow.io** is checked and **www.ipmievents.com**, plus any other custom domains, are unchecked. Select **Publish to selected domains**. Reopen [staging Testimonials](https://ipmi.webflow.io/testimonials#testimonials) and [Home](https://ipmi.webflow.io/#testimonials), then verify exact quote/attribution, rating, media, order, long text and carousel at desktop/tablet/mobile widths. The CMS Published badge alone does not identify the published domain.
+8. Review the example at the end of the static Testimonials page. The CMS-displayed item URL `https://ipmi.webflow.io/testimonials/placeholder-testimonial-review` returns a **Protected Page** (HTTP 401); no password was entered or bypass attempted. Its internal template remains unverified. Do not use it as the public review link or remove its protection as part of this content handoff.
+
+IPMI must supply verbatim quote, correct attribution, genuine rating, publication/asset permission, optional media, intended placements/order, any true event association and an explicit removal/replacement decision. Those approvals are not established by the placeholder or by the technical checks.
+
+## Verification and evidence
+
+- [root-route-scan.json](root-route-scan.json): 21 staging routes read independently; only `/testimonials` contained this placeholder. [root-item-template.json](root-item-template.json): protected item URL, no public quote exposure, internal template unverified.
+- [root-http-preservation.json](root-http-preservation.json): Home, Think Tanks, HIT 2027 and the released Healthcare Law & Compliance Institute retained all image tags, normalized text and forms. Production Testimonials did not contain the new placeholder.
+- [root-card-preservation.json](root-card-preservation.json): all 22 original Testimonials card subtrees and their order are identical; every original image tag, including task 11's heroes, remains present. The 23rd card is the placeholder without a star wrapper.
+- [responsive-checks.json](responsive-checks.json): all 23 card widths at 375, 390, 767, 768, 1024 and 1440px; zero card overflow. Placeholder has no star wrapper and no visible empty photo. At 768px the inherited document/navigation is 790px wide; this remains task 37, not a new card regression. Other sampled document widths equal the viewport.
+- Existing long quote and attribution checked on mobile. Home pagination activated with Enter at 390, 768 and 1440px, reaching the expected original cards; real stars remained visible. Desktop also exercised pointer pagination. These checks cover representative carousel navigation, not a complete task 19 accessibility audit.
+- [cms-saved-fields.txt](cms-saved-fields.txt) records actual field labels/values and the saved Published state. [testimonials-desktop-dom.json](testimonials-desktop-dom.json) records live card content and optional image behavior.
+- Task 11's P20/P21 approved hero imagery is separate and retained. No stylesheet/runtime source changed; no build or unit test is applicable to this native CMS/conditional-only change. Local unversioned `ipmi-custom-styles.css` SHA256 remains `80EF3C254BEF30F97398B63B0888A934085BB9B371CE4EE74E2E6B20BEFE4496`.
+- All saved screenshots below were visually inspected as actual files. Responsive overrides were reset, both worker-created staging tabs closed, and the existing Designer tab left open without pending edits. Chrome released to the orchestrator.
+
+| Screenshot | What it verifies |
+| --- | --- |
+| [testimonials-desktop.png](testimonials-desktop.png) | 1440px neutral example beside unchanged real cards |
+| [testimonials-tablet.png](testimonials-tablet.png) | 768px readable two-column example, without stars |
+| [testimonials-mobile.png](testimonials-mobile.png), [testimonials-narrow-mobile.png](testimonials-narrow-mobile.png) | 390/375px readable full placeholder card and generic icon |
+| [testimonials-mobile-long-quote.png](testimonials-mobile-long-quote.png) | Existing long quotation and attribution wrap without truncation |
+| [home-desktop-last-slide.png](home-desktop-last-slide.png), [home-mobile-last-slide.png](home-mobile-last-slide.png), [home-tablet-carousel.png](home-tablet-carousel.png) | Original carousel cards/rating and pagination at 1440/390/768px |
+| [testimonials-native-condition.png](testimonials-native-condition.png) | Exact-record exclusion with real stars preserved |
+| [cms-saved-example.png](cms-saved-example.png), [cms-placeholder-rating-placement.png](cms-placeholder-rating-placement.png) | Stored placeholder, empty references/media and placement controls |
+| [staging-only-publish.png](staging-only-publish.png) | Staging checked, production unchecked before publication |
+
+## Rollback and final replacement
+
+Archive the temporary record through native CMS and publish **staging only**. Confirm the example disappears, all 22 original Testimonials cards and nine Home cards remain, and production stays unchanged. Avoid the immediate item publication action. The item was new, so no old quote needs restoration.
+
+After archiving, remove only the two documented exact-item visibility conditions and restore their former unconditional **Visible** state. Keep the existing conditional fifth-star variants, attribution/media conditions, list filters/order/limits, real records and task 11 heroes. Never remove the star exclusion while this unrated placeholder is still publicly displayed. A later approved replacement must use its genuine approved rating; if it reuses the exact temporary item ID, both exclusions must be deliberately removed to show that rating. Restore individual original field sets from `items-before.json` only if subsequently changed; do not restore an entire site backup.
+
+Before production, archive/remove this temporary demonstration or fully replace it with approved content and repeat the affected checks. Final content approval, task 19 and integrated task 37 acceptance remain open.
