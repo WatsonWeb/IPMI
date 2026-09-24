@@ -1,0 +1,41 @@
+{
+  "checkedAtUtc": "2026-09-24T07:49:41.0688701Z",
+  "method": "Root independent read-only HTTP comparisons; no inquiries",
+  "staging": [
+    {
+      "slug": "hit-2027",
+      "heading": "<div class=\"pre-pregister-subhead\"><h3 class=\"details-subhead-pre-register _550\">Pre-Register for the</h3><h3 class=\"details-subhead-pre-register _550\">Healthcare IT Institute</h3><h3 class=\"details-subhead-pre-register _550\">2027</h3></div>",
+      "headingMatchesExpected": true,
+      "formByteIdentical": true,
+      "imageTagsByteIdentical": true,
+      "anchorTagsByteIdentical": true,
+      "phonePreserved": true,
+      "publicEmailPreserved": true,
+      "sourceTextMatchesOnlyExpectedDelta": true
+    },
+    {
+      "slug": "ehs-jan-2027",
+      "heading": "<div class=\"pre-pregister-subhead\"><h3 class=\"details-subhead-pre-register _550\">Pre-Register For</h3><h3 class=\"details-subhead-pre-register _550\">EHS Management Institute</h3><h3 class=\"details-subhead-pre-register _550\">2027</h3></div>",
+      "headingMatchesExpected": true,
+      "formByteIdentical": true,
+      "imageTagsByteIdentical": true,
+      "anchorTagsByteIdentical": true,
+      "phonePreserved": true,
+      "publicEmailPreserved": true,
+      "sourceTextMatchesOnlyExpectedDelta": true
+    },
+    {
+      "slug": "healthcare-gci-oct-2026",
+      "heading": "",
+      "headingMatchesExpected": true,
+      "formByteIdentical": true,
+      "imageTagsByteIdentical": true,
+      "anchorTagsByteIdentical": true,
+      "phonePreserved": true,
+      "publicEmailPreserved": true,
+      "sourceTextMatchesOnlyExpectedDelta": true
+    }
+  ],
+  "productionHeading": "<div class=\"pre-pregister-subhead\"><h3 class=\"details-subhead-pre-register _550\">Pre-Register For</h3><h3 class=\"details-subhead-pre-register _550\">Healthcare IT Institute</h3><h3 class=\"details-subhead-pre-register _550\">2027</h3></div>",
+  "productionNewPhrasePresent": false
+}

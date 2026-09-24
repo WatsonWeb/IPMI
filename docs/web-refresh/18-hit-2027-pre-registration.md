@@ -2,7 +2,7 @@
 
 [Back to master](README.md)
 
-**Owner:** BWC / Webflow implementer. **Status:** Partially present on the site; verification and any targeted wording correction pending.
+**Owner:** BWC / Webflow implementer. **Status:** Staged for review; HIT-only native text conditional verified September 24, 2026.
 
 ## Source and target
 
@@ -14,7 +14,7 @@
 
 Prior live inspection found **Pre-Register now** linking to `#invitation`, and the heading split as **Pre-Register For / Healthcare IT Institute / 2027**. Pre-registration therefore already exists; verify and adjust only the exact requested wording to read **Pre-Register for the Healthcare IT Institute 2027** in its natural reading order. Preserve intentional line breaks and styling if they remain readable.
 
-Do not change every Institute's CTA. The existing HIT page may retain its pre-registration flow while [24](24-institutes-calendar.md) displays its Horizon calendar entry without a registration action. The attendee recipient was blank in the research snapshot; wording is not proof of working routing, which belongs to [34](34-hit-2027-sam-routing.md).
+Do not change every Institute's CTA. The existing HIT page may retain its pre-registration flow while [24](24-institutes-calendar.md) displays its Horizon calendar entry without a registration action. Correction: the native attendee recipient field `test` already contains `scolquhoun@ipmievents.com`, matching staging and production hidden attendee/recipient inputs. It was preserved; wording is not proof of successful delivery, which belongs to [34](34-hit-2027-sam-routing.md).
 
 ## Chrome / Webflow implementation checklist
 
@@ -26,12 +26,16 @@ Do not change every Institute's CTA. The existing HIT page may retain its pre-re
 
 ## Acceptance checks
 
-- [ ] HIT 2027 heading reads “Pre-Register for the Healthcare IT Institute 2027”.
-- [ ] CTA reaches the visible invitation form, including on mobile and with keyboard navigation.
-- [ ] Other Institutes retain their existing event-specific heading/CTA behavior.
-- [ ] Calendar Horizon policy and HIT's existing page flow coexist without global CTA changes.
-- [ ] Routing is linked to task 34 and reported independently; it is not marked verified while the recipient is unresolved.
+- [x] HIT 2027 heading reads “Pre-Register for the Healthcare IT Institute 2027”.
+- [x] CTA reaches the visible invitation form, including on mobile and with keyboard navigation.
+- [x] Other Institutes retain their existing event-specific heading/CTA behavior.
+- [x] HIT page correction preserves all CTAs and leaves calendar Horizon policy to task 24.
+- [x] Routing is linked to task 34 and reported independently; existing recipient preserved, actual delivery unverified.
 
 ## Rollback
 
 Restore only the recorded HIT wording/binding and any event-specific visibility condition. Preserve existing date, Horizon status, and independently approved recipient settings.
+
+## September 24, 2026 completion record
+
+[Implementation, rollback, screenshots and acceptance evidence](evidence/task18/README.md). Native first-h3 Text conditional: Current Institute is HIT 2027 → `Pre-Register for the`; Else → original `Pre-Register For`. Existing title/year bindings, styling and form flow preserved. Only staging published. Desktop/tablet/mobile and keyboard anchor checks passed; another Horizon and a released Institute retain original behavior. Independent HTTP checks confirm form/image/link preservation and unchanged production wording. No placeholders or runtime-code changes. Task 34 delivery and task 24 calendar remain separate.

@@ -1,0 +1,95 @@
+[
+  {
+    "documentWidth": 790,
+    "heading": [
+      {
+        "rect": {
+          "bottom": 21.1875,
+          "height": 20.796875,
+          "left": 117.046875,
+          "right": 337.40625,
+          "top": 0.390625,
+          "width": 220.359375,
+          "x": 117.046875,
+          "y": 0.390625
+        },
+        "text": "Pre-Register for the"
+      },
+      {
+        "rect": {
+          "bottom": 21.1875,
+          "height": 20.796875,
+          "left": 345.40625,
+          "right": 595.703125,
+          "top": 0.390625,
+          "width": 250.296875,
+          "x": 345.40625,
+          "y": 0.390625
+        },
+        "text": "Healthcare IT Institute"
+      },
+      {
+        "rect": {
+          "bottom": 21.1875,
+          "height": 20.796875,
+          "left": 603.703125,
+          "right": 650.9375,
+          "top": 0.390625,
+          "width": 47.234375,
+          "x": 603.703125,
+          "y": 0.390625
+        },
+        "text": "2027"
+      }
+    ],
+    "phone": "<input class=\"field _450 w-input\" autocomplete=\"tel\" maxlength=\"256\" name=\"Phone\" data-name=\"Phone\" placeholder=\"Phone number\" type=\"tel\" id=\"field-phone-institute\">",
+    "url": "https://ipmi.webflow.io/institutes/hit-2027#invitation",
+    "width": 768
+  },
+  {
+    "documentWidth": 375,
+    "headings": [
+      {
+        "rect": {
+          "bottom": 17.6875,
+          "height": 18.1875,
+          "left": 88.59375,
+          "right": 286.40625,
+          "top": -0.5,
+          "width": 197.8125,
+          "x": 88.59375,
+          "y": -0.5
+        },
+        "text": "Pre-Register for the"
+      },
+      {
+        "rect": {
+          "bottom": 42.875,
+          "height": 18.1875,
+          "left": 49.953125,
+          "right": 274.71875,
+          "top": 24.6875,
+          "width": 224.765625,
+          "x": 49.953125,
+          "y": 24.6875
+        },
+        "text": "Healthcare IT Institute"
+      },
+      {
+        "rect": {
+          "bottom": 42.875,
+          "height": 18.1875,
+          "left": 282.71875,
+          "right": 325.046875,
+          "top": 24.6875,
+          "width": 42.328125,
+          "x": 282.71875,
+          "y": 24.6875
+        },
+        "text": "2027"
+      }
+    ],
+    "url": "https://ipmi.webflow.io/institutes/hit-2027#invitation",
+    "width": 375
+  }
+]
