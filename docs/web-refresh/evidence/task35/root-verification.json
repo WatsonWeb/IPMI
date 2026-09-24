@@ -1,0 +1,11 @@
+{
+  "recordCount": 103,
+  "expected": 26,
+  "manifest": 26,
+  "idsEqual": true,
+  "allNativeFieldsExact": true,
+  "mismatches": [],
+  "horizon": 20,
+  "released": 6,
+  "timeZone": "America/Toronto"
+}

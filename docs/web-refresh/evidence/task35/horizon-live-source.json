@@ -1,0 +1,326 @@
+{
+  "observedAt": "2026-09-24T10:00:03.374Z",
+  "rows": [
+    {
+      "attributes": {
+        "data-attend-recipient": "jgray@ipmievents.com",
+        "data-label": "EHS Management Institute - Jan 24, 2027",
+        "data-slug": "ehs-jan-2027"
+      },
+      "slug": "ehs-jan-2027",
+      "text": "Jan 24 - Jan 26, 2027EHS Management Institute.Four Seasons Hotel, Austin, TXPre-Register Now ➜"
+    },
+    {
+      "attributes": {
+        "data-attend-recipient": "jgray@ipmievents.com",
+        "data-label": "HR Management Institute - Feb 21, 2027",
+        "data-slug": "hrmi-feb-2027"
+      },
+      "slug": "hrmi-feb-2027",
+      "text": "Feb 21 - Feb 23, 2027HR Management Institute.The Ritz-Carlton Orlando, Grande Lakes, FLPre-Register Now ➜"
+    },
+    {
+      "attributes": {
+        "data-attend-recipient": "jgray@ipmievents.com",
+        "data-label": "Healthcare Law & Compliance Institute - Feb 21, 2027",
+        "data-slug": "hgc-feb-2027"
+      },
+      "slug": "hgc-feb-2027",
+      "text": "Feb 21 - Feb 23, 2027Healthcare Law & Compliance Institute.Four Seasons Hotel, Nashville, TNPre-Register Now ➜"
+    },
+    {
+      "attributes": {
+        "data-attend-recipient": "jgray@ipmievents.com",
+        "data-label": "Healthcare HR Management Institute - Mar 21, 2027",
+        "data-slug": "hchrmi-march-2027"
+      },
+      "slug": "hchrmi-march-2027",
+      "text": "Mar 21 - Mar 23, 2027Healthcare HR Management Institute.The Langham Huntington, Pasadena, CAPre-Register Now ➜"
+    },
+    {
+      "attributes": {
+        "data-attend-recipient": "jgray@ipmievents.com",
+        "data-label": "Corporate Learning Development Institute - Mar 21, 2027",
+        "data-slug": "cldi-march-2027"
+      },
+      "slug": "cldi-march-2027",
+      "text": "Mar 21 - Mar 23, 2027Corporate Learning Development Institute.Four Seasons Hotel, Las Vegas, NVPre-Register Now ➜"
+    },
+    {
+      "attributes": {
+        "data-attend-recipient": "jgray@ipmievents.com",
+        "data-label": "Healthcare Finance Institute - Apr 11, 2027",
+        "data-slug": "hfi-2027"
+      },
+      "slug": "hfi-2027",
+      "text": "Apr 11 - Apr 13, 2027Healthcare Finance Institute.Omni Barton Creek, Austin, TXPre-Register Now ➜"
+    },
+    {
+      "attributes": {
+        "data-attend-recipient": "jgray@ipmievents.com",
+        "data-label": "HR Management Institute Canada - Apr 25, 2027",
+        "data-slug": "hr-can-april-2027"
+      },
+      "slug": "hr-can-april-2027",
+      "text": "Apr 25 - Apr 27, 2027HR Management Institute Canada.JW Marriott The Rosseau Muskoka Resort & Spa, ONPre-Register Now ➜"
+    },
+    {
+      "attributes": {
+        "data-attend-recipient": "jgray@ipmievents.com",
+        "data-label": "Talent Acquisition Institute - May 16, 2027",
+        "data-slug": "28-tai-us-2027"
+      },
+      "slug": "28-tai-us-2027",
+      "text": "May 16 - May 18, 2027Talent Acquisition Institute.The Ritz-Carlton, New Orleans, LAPre-Register Now ➜"
+    },
+    {
+      "attributes": {
+        "data-attend-recipient": "jgray@ipmi.com",
+        "data-label": "Talent Acquisition & Employee Experience Institute Canada - May 30, 2027",
+        "data-slug": "29-taeei-can"
+      },
+      "slug": "29-taeei-can",
+      "text": "May 30 - Jun 1, 2027Talent Acquisition & Employee Experience Institute Canada.JW Marriott The Rosseau Muskoka Resort & Spa, ONPre-Register Now ➜"
+    },
+    {
+      "attributes": {
+        "data-attend-recipient": "scolquhoun@ipmievents.com",
+        "data-label": "Healthcare IT Institute - Jun 06, 2027",
+        "data-slug": "hit-2027"
+      },
+      "slug": "hit-2027",
+      "text": "Jun 6 - Jun 8, 2027Healthcare IT Institute.The Ritz-Carlton, New Orleans, LAPre-Register Now ➜"
+    },
+    {
+      "attributes": {
+        "data-attend-recipient": "jgray@ipmi.com",
+        "data-label": "HR Management Institute - Jun 06, 2027",
+        "data-slug": "211-hrmi-june-2027"
+      },
+      "slug": "211-hrmi-june-2027",
+      "text": "Jun 6 - Jun 8, 2027HR Management Institute.Fairmont Miramar Hotel, Santa Monica, CAPre-Register Now ➜"
+    },
+    {
+      "attributes": {
+        "data-attend-recipient": "jgray@ipmievents.com",
+        "data-label": "EHS Management Institute - Jul 25, 2027",
+        "data-slug": "ehs-july-2027"
+      },
+      "slug": "ehs-july-2027",
+      "text": "Jul 25 - Jul 27, 2027EHS Management Institute.JW Marriott, Anaheim Resort, CAPre-Register Now ➜"
+    },
+    {
+      "attributes": {
+        "data-attend-recipient": "jgray@ipmi.com",
+        "data-label": "Corporate Learning & Development Institute - Sep 12, 2027",
+        "data-slug": "213-cldi-sept-2027"
+      },
+      "slug": "213-cldi-sept-2027",
+      "text": "Sep 12 - Sep 14, 2027Corporate Learning & Development Institute.The Ritz-Carlton Orlando, Grande Lakes, FLPre-Register Now ➜"
+    },
+    {
+      "attributes": {
+        "data-attend-recipient": "jgray@ipmi.com",
+        "data-label": "Healthcare Law & Compliance Institute - Sep 12, 2027",
+        "data-slug": "214-hgc-sept-2027"
+      },
+      "slug": "214-hgc-sept-2027",
+      "text": "Sep 12 - Sep 14, 2027Healthcare Law & Compliance Institute.Four Seasons Hotel Westlake Village, CAPre-Register Now ➜"
+    },
+    {
+      "attributes": {
+        "data-attend-recipient": "jgray@ipmi.com",
+        "data-label": "Healthcare HR Management Institute - Sep 19, 2027",
+        "data-slug": "215-hchr-sept-2027"
+      },
+      "slug": "215-hchr-sept-2027",
+      "text": "Sep 19 - Sep 21, 2027Healthcare HR Management Institute.The Ritz-Carlton, Amelia Island, FLPre-Register Now ➜"
+    },
+    {
+      "attributes": {
+        "data-attend-recipient": "jgray@ipmi.com",
+        "data-label": "IP Law & Management Institute - Oct 17, 2027",
+        "data-slug": "216-ip-law-2027"
+      },
+      "slug": "216-ip-law-2027",
+      "text": "Oct 17 - Oct 19, 2027IP Law & Management Institute.Four Seasons Hotel Westlake Village, CAPre-Register Now ➜"
+    },
+    {
+      "attributes": {
+        "data-attend-recipient": "jgray@ipmi.com",
+        "data-label": "HR Management Institute - Oct 17, 2027",
+        "data-slug": "217-hrmi-oct-2027"
+      },
+      "slug": "217-hrmi-oct-2027",
+      "text": "Oct 17 - Oct 19, 2027HR Management Institute.The Ritz-Carlton, Amelia Island, FLPre-Register Now ➜"
+    },
+    {
+      "attributes": {
+        "data-attend-recipient": "jgray@ipmi.com",
+        "data-label": "Chief Nursing Institute  - Nov 07, 2027",
+        "data-slug": "218-cni-2027"
+      },
+      "slug": "218-cni-2027",
+      "text": "Nov 7 - Nov 9, 2027Chief Nursing Institute .Four Seasons Hotel Westlake Village, CAPre-Register Now ➜"
+    },
+    {
+      "attributes": {
+        "data-attend-recipient": "jgray@ipmi.com",
+        "data-label": "Corporate Wellness Institute - Nov 07, 2027",
+        "data-slug": "219-cwi-2027"
+      },
+      "slug": "219-cwi-2027",
+      "text": "Nov 7 - Nov 9, 2027Corporate Wellness Institute.Park Hyatt Aviara Resort, Carlsbad, CAPre-Register Now ➜"
+    },
+    {
+      "attributes": {
+        "data-attend-recipient": "jgray@ipmi.com",
+        "data-label": "HR Management Institute Canada - Nov 21, 2027",
+        "data-slug": "220-hr-can-2027"
+      },
+      "slug": "220-hr-can-2027",
+      "text": "Nov 21 - Nov 23, 2027HR Management Institute Canada.JW Marriott Parq, Vancouver, BCPre-Register Now ➜"
+    },
+    {
+      "attributes": {
+        "data-slug": "ehs-jan-2027"
+      },
+      "slug": "ehs-jan-2027",
+      "text": "Select Institute (Optional)EHS Management Institute - Jan 24, 2027HR Management Institute - Feb 21, 2027Healthcare Law & Compliance Institute - Feb 21, 2027Healthcare HR Management Institute - Mar 21, 2027Corporate Learning Development Institute - Mar 21, 2027Healthcare Finance Institute - Apr 11, 2027HR Management Institute Canada - Apr 25, 2027Talent Acquisition Institute - May 16, 2027Talent Acquisition & Employee Experience Institute Canada - May 30, 2027Healthcare IT Institute - Jun 06, 2027HR Management Institute - Jun 06, 2027EHS Management Institute - Jul 25, 2027Corporate Learning & Development Institute - Sep 12, 2027Healthcare Law & Compliance Institute - Sep 12, 2027Healthcare HR Management Institute - Sep 19, 2027IP Law & Management Institute - Oct 17, 2027HR Management Institute - Oct 17, 2027Chief Nursing Institute  - Nov 07, 2027Corporate Wellness Institute - Nov 07, 2027HR Management Institute Canada - Nov 21, 2027"
+    },
+    {
+      "attributes": {
+        "data-slug": "hrmi-feb-2027"
+      },
+      "slug": "hrmi-feb-2027",
+      "text": "Select Institute (Optional)EHS Management Institute - Jan 24, 2027HR Management Institute - Feb 21, 2027Healthcare Law & Compliance Institute - Feb 21, 2027Healthcare HR Management Institute - Mar 21, 2027Corporate Learning Development Institute - Mar 21, 2027Healthcare Finance Institute - Apr 11, 2027HR Management Institute Canada - Apr 25, 2027Talent Acquisition Institute - May 16, 2027Talent Acquisition & Employee Experience Institute Canada - May 30, 2027Healthcare IT Institute - Jun 06, 2027HR Management Institute - Jun 06, 2027EHS Management Institute - Jul 25, 2027Corporate Learning & Development Institute - Sep 12, 2027Healthcare Law & Compliance Institute - Sep 12, 2027Healthcare HR Management Institute - Sep 19, 2027IP Law & Management Institute - Oct 17, 2027HR Management Institute - Oct 17, 2027Chief Nursing Institute  - Nov 07, 2027Corporate Wellness Institute - Nov 07, 2027HR Management Institute Canada - Nov 21, 2027"
+    },
+    {
+      "attributes": {
+        "data-slug": "hgc-feb-2027"
+      },
+      "slug": "hgc-feb-2027",
+      "text": "Select Institute (Optional)EHS Management Institute - Jan 24, 2027HR Management Institute - Feb 21, 2027Healthcare Law & Compliance Institute - Feb 21, 2027Healthcare HR Management Institute - Mar 21, 2027Corporate Learning Development Institute - Mar 21, 2027Healthcare Finance Institute - Apr 11, 2027HR Management Institute Canada - Apr 25, 2027Talent Acquisition Institute - May 16, 2027Talent Acquisition & Employee Experience Institute Canada - May 30, 2027Healthcare IT Institute - Jun 06, 2027HR Management Institute - Jun 06, 2027EHS Management Institute - Jul 25, 2027Corporate Learning & Development Institute - Sep 12, 2027Healthcare Law & Compliance Institute - Sep 12, 2027Healthcare HR Management Institute - Sep 19, 2027IP Law & Management Institute - Oct 17, 2027HR Management Institute - Oct 17, 2027Chief Nursing Institute  - Nov 07, 2027Corporate Wellness Institute - Nov 07, 2027HR Management Institute Canada - Nov 21, 2027"
+    },
+    {
+      "attributes": {
+        "data-slug": "hchrmi-march-2027"
+      },
+      "slug": "hchrmi-march-2027",
+      "text": "Select Institute (Optional)EHS Management Institute - Jan 24, 2027HR Management Institute - Feb 21, 2027Healthcare Law & Compliance Institute - Feb 21, 2027Healthcare HR Management Institute - Mar 21, 2027Corporate Learning Development Institute - Mar 21, 2027Healthcare Finance Institute - Apr 11, 2027HR Management Institute Canada - Apr 25, 2027Talent Acquisition Institute - May 16, 2027Talent Acquisition & Employee Experience Institute Canada - May 30, 2027Healthcare IT Institute - Jun 06, 2027HR Management Institute - Jun 06, 2027EHS Management Institute - Jul 25, 2027Corporate Learning & Development Institute - Sep 12, 2027Healthcare Law & Compliance Institute - Sep 12, 2027Healthcare HR Management Institute - Sep 19, 2027IP Law & Management Institute - Oct 17, 2027HR Management Institute - Oct 17, 2027Chief Nursing Institute  - Nov 07, 2027Corporate Wellness Institute - Nov 07, 2027HR Management Institute Canada - Nov 21, 2027"
+    },
+    {
+      "attributes": {
+        "data-slug": "cldi-march-2027"
+      },
+      "slug": "cldi-march-2027",
+      "text": "Select Institute (Optional)EHS Management Institute - Jan 24, 2027HR Management Institute - Feb 21, 2027Healthcare Law & Compliance Institute - Feb 21, 2027Healthcare HR Management Institute - Mar 21, 2027Corporate Learning Development Institute - Mar 21, 2027Healthcare Finance Institute - Apr 11, 2027HR Management Institute Canada - Apr 25, 2027Talent Acquisition Institute - May 16, 2027Talent Acquisition & Employee Experience Institute Canada - May 30, 2027Healthcare IT Institute - Jun 06, 2027HR Management Institute - Jun 06, 2027EHS Management Institute - Jul 25, 2027Corporate Learning & Development Institute - Sep 12, 2027Healthcare Law & Compliance Institute - Sep 12, 2027Healthcare HR Management Institute - Sep 19, 2027IP Law & Management Institute - Oct 17, 2027HR Management Institute - Oct 17, 2027Chief Nursing Institute  - Nov 07, 2027Corporate Wellness Institute - Nov 07, 2027HR Management Institute Canada - Nov 21, 2027"
+    },
+    {
+      "attributes": {
+        "data-slug": "hfi-2027"
+      },
+      "slug": "hfi-2027",
+      "text": "Select Institute (Optional)EHS Management Institute - Jan 24, 2027HR Management Institute - Feb 21, 2027Healthcare Law & Compliance Institute - Feb 21, 2027Healthcare HR Management Institute - Mar 21, 2027Corporate Learning Development Institute - Mar 21, 2027Healthcare Finance Institute - Apr 11, 2027HR Management Institute Canada - Apr 25, 2027Talent Acquisition Institute - May 16, 2027Talent Acquisition & Employee Experience Institute Canada - May 30, 2027Healthcare IT Institute - Jun 06, 2027HR Management Institute - Jun 06, 2027EHS Management Institute - Jul 25, 2027Corporate Learning & Development Institute - Sep 12, 2027Healthcare Law & Compliance Institute - Sep 12, 2027Healthcare HR Management Institute - Sep 19, 2027IP Law & Management Institute - Oct 17, 2027HR Management Institute - Oct 17, 2027Chief Nursing Institute  - Nov 07, 2027Corporate Wellness Institute - Nov 07, 2027HR Management Institute Canada - Nov 21, 2027"
+    },
+    {
+      "attributes": {
+        "data-slug": "hr-can-april-2027"
+      },
+      "slug": "hr-can-april-2027",
+      "text": "Select Institute (Optional)EHS Management Institute - Jan 24, 2027HR Management Institute - Feb 21, 2027Healthcare Law & Compliance Institute - Feb 21, 2027Healthcare HR Management Institute - Mar 21, 2027Corporate Learning Development Institute - Mar 21, 2027Healthcare Finance Institute - Apr 11, 2027HR Management Institute Canada - Apr 25, 2027Talent Acquisition Institute - May 16, 2027Talent Acquisition & Employee Experience Institute Canada - May 30, 2027Healthcare IT Institute - Jun 06, 2027HR Management Institute - Jun 06, 2027EHS Management Institute - Jul 25, 2027Corporate Learning & Development Institute - Sep 12, 2027Healthcare Law & Compliance Institute - Sep 12, 2027Healthcare HR Management Institute - Sep 19, 2027IP Law & Management Institute - Oct 17, 2027HR Management Institute - Oct 17, 2027Chief Nursing Institute  - Nov 07, 2027Corporate Wellness Institute - Nov 07, 2027HR Management Institute Canada - Nov 21, 2027"
+    },
+    {
+      "attributes": {
+        "data-slug": "28-tai-us-2027"
+      },
+      "slug": "28-tai-us-2027",
+      "text": "Select Institute (Optional)EHS Management Institute - Jan 24, 2027HR Management Institute - Feb 21, 2027Healthcare Law & Compliance Institute - Feb 21, 2027Healthcare HR Management Institute - Mar 21, 2027Corporate Learning Development Institute - Mar 21, 2027Healthcare Finance Institute - Apr 11, 2027HR Management Institute Canada - Apr 25, 2027Talent Acquisition Institute - May 16, 2027Talent Acquisition & Employee Experience Institute Canada - May 30, 2027Healthcare IT Institute - Jun 06, 2027HR Management Institute - Jun 06, 2027EHS Management Institute - Jul 25, 2027Corporate Learning & Development Institute - Sep 12, 2027Healthcare Law & Compliance Institute - Sep 12, 2027Healthcare HR Management Institute - Sep 19, 2027IP Law & Management Institute - Oct 17, 2027HR Management Institute - Oct 17, 2027Chief Nursing Institute  - Nov 07, 2027Corporate Wellness Institute - Nov 07, 2027HR Management Institute Canada - Nov 21, 2027"
+    },
+    {
+      "attributes": {
+        "data-slug": "29-taeei-can"
+      },
+      "slug": "29-taeei-can",
+      "text": "Select Institute (Optional)EHS Management Institute - Jan 24, 2027HR Management Institute - Feb 21, 2027Healthcare Law & Compliance Institute - Feb 21, 2027Healthcare HR Management Institute - Mar 21, 2027Corporate Learning Development Institute - Mar 21, 2027Healthcare Finance Institute - Apr 11, 2027HR Management Institute Canada - Apr 25, 2027Talent Acquisition Institute - May 16, 2027Talent Acquisition & Employee Experience Institute Canada - May 30, 2027Healthcare IT Institute - Jun 06, 2027HR Management Institute - Jun 06, 2027EHS Management Institute - Jul 25, 2027Corporate Learning & Development Institute - Sep 12, 2027Healthcare Law & Compliance Institute - Sep 12, 2027Healthcare HR Management Institute - Sep 19, 2027IP Law & Management Institute - Oct 17, 2027HR Management Institute - Oct 17, 2027Chief Nursing Institute  - Nov 07, 2027Corporate Wellness Institute - Nov 07, 2027HR Management Institute Canada - Nov 21, 2027"
+    },
+    {
+      "attributes": {
+        "data-slug": "hit-2027"
+      },
+      "slug": "hit-2027",
+      "text": "Select Institute (Optional)EHS Management Institute - Jan 24, 2027HR Management Institute - Feb 21, 2027Healthcare Law & Compliance Institute - Feb 21, 2027Healthcare HR Management Institute - Mar 21, 2027Corporate Learning Development Institute - Mar 21, 2027Healthcare Finance Institute - Apr 11, 2027HR Management Institute Canada - Apr 25, 2027Talent Acquisition Institute - May 16, 2027Talent Acquisition & Employee Experience Institute Canada - May 30, 2027Healthcare IT Institute - Jun 06, 2027HR Management Institute - Jun 06, 2027EHS Management Institute - Jul 25, 2027Corporate Learning & Development Institute - Sep 12, 2027Healthcare Law & Compliance Institute - Sep 12, 2027Healthcare HR Management Institute - Sep 19, 2027IP Law & Management Institute - Oct 17, 2027HR Management Institute - Oct 17, 2027Chief Nursing Institute  - Nov 07, 2027Corporate Wellness Institute - Nov 07, 2027HR Management Institute Canada - Nov 21, 2027"
+    },
+    {
+      "attributes": {
+        "data-slug": "211-hrmi-june-2027"
+      },
+      "slug": "211-hrmi-june-2027",
+      "text": "Select Institute (Optional)EHS Management Institute - Jan 24, 2027HR Management Institute - Feb 21, 2027Healthcare Law & Compliance Institute - Feb 21, 2027Healthcare HR Management Institute - Mar 21, 2027Corporate Learning Development Institute - Mar 21, 2027Healthcare Finance Institute - Apr 11, 2027HR Management Institute Canada - Apr 25, 2027Talent Acquisition Institute - May 16, 2027Talent Acquisition & Employee Experience Institute Canada - May 30, 2027Healthcare IT Institute - Jun 06, 2027HR Management Institute - Jun 06, 2027EHS Management Institute - Jul 25, 2027Corporate Learning & Development Institute - Sep 12, 2027Healthcare Law & Compliance Institute - Sep 12, 2027Healthcare HR Management Institute - Sep 19, 2027IP Law & Management Institute - Oct 17, 2027HR Management Institute - Oct 17, 2027Chief Nursing Institute  - Nov 07, 2027Corporate Wellness Institute - Nov 07, 2027HR Management Institute Canada - Nov 21, 2027"
+    },
+    {
+      "attributes": {
+        "data-slug": "ehs-july-2027"
+      },
+      "slug": "ehs-july-2027",
+      "text": "Select Institute (Optional)EHS Management Institute - Jan 24, 2027HR Management Institute - Feb 21, 2027Healthcare Law & Compliance Institute - Feb 21, 2027Healthcare HR Management Institute - Mar 21, 2027Corporate Learning Development Institute - Mar 21, 2027Healthcare Finance Institute - Apr 11, 2027HR Management Institute Canada - Apr 25, 2027Talent Acquisition Institute - May 16, 2027Talent Acquisition & Employee Experience Institute Canada - May 30, 2027Healthcare IT Institute - Jun 06, 2027HR Management Institute - Jun 06, 2027EHS Management Institute - Jul 25, 2027Corporate Learning & Development Institute - Sep 12, 2027Healthcare Law & Compliance Institute - Sep 12, 2027Healthcare HR Management Institute - Sep 19, 2027IP Law & Management Institute - Oct 17, 2027HR Management Institute - Oct 17, 2027Chief Nursing Institute  - Nov 07, 2027Corporate Wellness Institute - Nov 07, 2027HR Management Institute Canada - Nov 21, 2027"
+    },
+    {
+      "attributes": {
+        "data-slug": "213-cldi-sept-2027"
+      },
+      "slug": "213-cldi-sept-2027",
+      "text": "Select Institute (Optional)EHS Management Institute - Jan 24, 2027HR Management Institute - Feb 21, 2027Healthcare Law & Compliance Institute - Feb 21, 2027Healthcare HR Management Institute - Mar 21, 2027Corporate Learning Development Institute - Mar 21, 2027Healthcare Finance Institute - Apr 11, 2027HR Management Institute Canada - Apr 25, 2027Talent Acquisition Institute - May 16, 2027Talent Acquisition & Employee Experience Institute Canada - May 30, 2027Healthcare IT Institute - Jun 06, 2027HR Management Institute - Jun 06, 2027EHS Management Institute - Jul 25, 2027Corporate Learning & Development Institute - Sep 12, 2027Healthcare Law & Compliance Institute - Sep 12, 2027Healthcare HR Management Institute - Sep 19, 2027IP Law & Management Institute - Oct 17, 2027HR Management Institute - Oct 17, 2027Chief Nursing Institute  - Nov 07, 2027Corporate Wellness Institute - Nov 07, 2027HR Management Institute Canada - Nov 21, 2027"
+    },
+    {
+      "attributes": {
+        "data-slug": "214-hgc-sept-2027"
+      },
+      "slug": "214-hgc-sept-2027",
+      "text": "Select Institute (Optional)EHS Management Institute - Jan 24, 2027HR Management Institute - Feb 21, 2027Healthcare Law & Compliance Institute - Feb 21, 2027Healthcare HR Management Institute - Mar 21, 2027Corporate Learning Development Institute - Mar 21, 2027Healthcare Finance Institute - Apr 11, 2027HR Management Institute Canada - Apr 25, 2027Talent Acquisition Institute - May 16, 2027Talent Acquisition & Employee Experience Institute Canada - May 30, 2027Healthcare IT Institute - Jun 06, 2027HR Management Institute - Jun 06, 2027EHS Management Institute - Jul 25, 2027Corporate Learning & Development Institute - Sep 12, 2027Healthcare Law & Compliance Institute - Sep 12, 2027Healthcare HR Management Institute - Sep 19, 2027IP Law & Management Institute - Oct 17, 2027HR Management Institute - Oct 17, 2027Chief Nursing Institute  - Nov 07, 2027Corporate Wellness Institute - Nov 07, 2027HR Management Institute Canada - Nov 21, 2027"
+    },
+    {
+      "attributes": {
+        "data-slug": "215-hchr-sept-2027"
+      },
+      "slug": "215-hchr-sept-2027",
+      "text": "Select Institute (Optional)EHS Management Institute - Jan 24, 2027HR Management Institute - Feb 21, 2027Healthcare Law & Compliance Institute - Feb 21, 2027Healthcare HR Management Institute - Mar 21, 2027Corporate Learning Development Institute - Mar 21, 2027Healthcare Finance Institute - Apr 11, 2027HR Management Institute Canada - Apr 25, 2027Talent Acquisition Institute - May 16, 2027Talent Acquisition & Employee Experience Institute Canada - May 30, 2027Healthcare IT Institute - Jun 06, 2027HR Management Institute - Jun 06, 2027EHS Management Institute - Jul 25, 2027Corporate Learning & Development Institute - Sep 12, 2027Healthcare Law & Compliance Institute - Sep 12, 2027Healthcare HR Management Institute - Sep 19, 2027IP Law & Management Institute - Oct 17, 2027HR Management Institute - Oct 17, 2027Chief Nursing Institute  - Nov 07, 2027Corporate Wellness Institute - Nov 07, 2027HR Management Institute Canada - Nov 21, 2027"
+    },
+    {
+      "attributes": {
+        "data-slug": "216-ip-law-2027"
+      },
+      "slug": "216-ip-law-2027",
+      "text": "Select Institute (Optional)EHS Management Institute - Jan 24, 2027HR Management Institute - Feb 21, 2027Healthcare Law & Compliance Institute - Feb 21, 2027Healthcare HR Management Institute - Mar 21, 2027Corporate Learning Development Institute - Mar 21, 2027Healthcare Finance Institute - Apr 11, 2027HR Management Institute Canada - Apr 25, 2027Talent Acquisition Institute - May 16, 2027Talent Acquisition & Employee Experience Institute Canada - May 30, 2027Healthcare IT Institute - Jun 06, 2027HR Management Institute - Jun 06, 2027EHS Management Institute - Jul 25, 2027Corporate Learning & Development Institute - Sep 12, 2027Healthcare Law & Compliance Institute - Sep 12, 2027Healthcare HR Management Institute - Sep 19, 2027IP Law & Management Institute - Oct 17, 2027HR Management Institute - Oct 17, 2027Chief Nursing Institute  - Nov 07, 2027Corporate Wellness Institute - Nov 07, 2027HR Management Institute Canada - Nov 21, 2027"
+    },
+    {
+      "attributes": {
+        "data-slug": "217-hrmi-oct-2027"
+      },
+      "slug": "217-hrmi-oct-2027",
+      "text": "Select Institute (Optional)EHS Management Institute - Jan 24, 2027HR Management Institute - Feb 21, 2027Healthcare Law & Compliance Institute - Feb 21, 2027Healthcare HR Management Institute - Mar 21, 2027Corporate Learning Development Institute - Mar 21, 2027Healthcare Finance Institute - Apr 11, 2027HR Management Institute Canada - Apr 25, 2027Talent Acquisition Institute - May 16, 2027Talent Acquisition & Employee Experience Institute Canada - May 30, 2027Healthcare IT Institute - Jun 06, 2027HR Management Institute - Jun 06, 2027EHS Management Institute - Jul 25, 2027Corporate Learning & Development Institute - Sep 12, 2027Healthcare Law & Compliance Institute - Sep 12, 2027Healthcare HR Management Institute - Sep 19, 2027IP Law & Management Institute - Oct 17, 2027HR Management Institute - Oct 17, 2027Chief Nursing Institute  - Nov 07, 2027Corporate Wellness Institute - Nov 07, 2027HR Management Institute Canada - Nov 21, 2027"
+    },
+    {
+      "attributes": {
+        "data-slug": "218-cni-2027"
+      },
+      "slug": "218-cni-2027",
+      "text": "Select Institute (Optional)EHS Management Institute - Jan 24, 2027HR Management Institute - Feb 21, 2027Healthcare Law & Compliance Institute - Feb 21, 2027Healthcare HR Management Institute - Mar 21, 2027Corporate Learning Development Institute - Mar 21, 2027Healthcare Finance Institute - Apr 11, 2027HR Management Institute Canada - Apr 25, 2027Talent Acquisition Institute - May 16, 2027Talent Acquisition & Employee Experience Institute Canada - May 30, 2027Healthcare IT Institute - Jun 06, 2027HR Management Institute - Jun 06, 2027EHS Management Institute - Jul 25, 2027Corporate Learning & Development Institute - Sep 12, 2027Healthcare Law & Compliance Institute - Sep 12, 2027Healthcare HR Management Institute - Sep 19, 2027IP Law & Management Institute - Oct 17, 2027HR Management Institute - Oct 17, 2027Chief Nursing Institute  - Nov 07, 2027Corporate Wellness Institute - Nov 07, 2027HR Management Institute Canada - Nov 21, 2027"
+    },
+    {
+      "attributes": {
+        "data-slug": "219-cwi-2027"
+      },
+      "slug": "219-cwi-2027",
+      "text": "Select Institute (Optional)EHS Management Institute - Jan 24, 2027HR Management Institute - Feb 21, 2027Healthcare Law & Compliance Institute - Feb 21, 2027Healthcare HR Management Institute - Mar 21, 2027Corporate Learning Development Institute - Mar 21, 2027Healthcare Finance Institute - Apr 11, 2027HR Management Institute Canada - Apr 25, 2027Talent Acquisition Institute - May 16, 2027Talent Acquisition & Employee Experience Institute Canada - May 30, 2027Healthcare IT Institute - Jun 06, 2027HR Management Institute - Jun 06, 2027EHS Management Institute - Jul 25, 2027Corporate Learning & Development Institute - Sep 12, 2027Healthcare Law & Compliance Institute - Sep 12, 2027Healthcare HR Management Institute - Sep 19, 2027IP Law & Management Institute - Oct 17, 2027HR Management Institute - Oct 17, 2027Chief Nursing Institute  - Nov 07, 2027Corporate Wellness Institute - Nov 07, 2027HR Management Institute Canada - Nov 21, 2027"
+    },
+    {
+      "attributes": {
+        "data-slug": "220-hr-can-2027"
+      },
+      "slug": "220-hr-can-2027",
+      "text": "Select Institute (Optional)EHS Management Institute - Jan 24, 2027HR Management Institute - Feb 21, 2027Healthcare Law & Compliance Institute - Feb 21, 2027Healthcare HR Management Institute - Mar 21, 2027Corporate Learning Development Institute - Mar 21, 2027Healthcare Finance Institute - Apr 11, 2027HR Management Institute Canada - Apr 25, 2027Talent Acquisition Institute - May 16, 2027Talent Acquisition & Employee Experience Institute Canada - May 30, 2027Healthcare IT Institute - Jun 06, 2027HR Management Institute - Jun 06, 2027EHS Management Institute - Jul 25, 2027Corporate Learning & Development Institute - Sep 12, 2027Healthcare Law & Compliance Institute - Sep 12, 2027Healthcare HR Management Institute - Sep 19, 2027IP Law & Management Institute - Oct 17, 2027HR Management Institute - Oct 17, 2027Chief Nursing Institute  - Nov 07, 2027Corporate Wellness Institute - Nov 07, 2027HR Management Institute Canada - Nov 21, 2027"
+    }
+  ],
+  "url": "https://ipmi.webflow.io/institutes-on-the-horizon"
+}

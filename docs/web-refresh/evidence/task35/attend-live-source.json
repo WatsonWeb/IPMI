@@ -1,0 +1,324 @@
+{
+  "observedAt": "2026-09-24T09:59:28.348Z",
+  "options": [
+    {
+      "text": "Select Institute (Optional)",
+      "value": ""
+    },
+    {
+      "text": "Healthcare Law & Compliance Institute - Oct 4",
+      "value": "Healthcare Law & Compliance Institute - Oct 4"
+    },
+    {
+      "text": "IP Law & Management Institute - Oct 18",
+      "value": "IP Law & Management Institute - Oct 18"
+    },
+    {
+      "text": "HR Management Institute - Oct 18",
+      "value": "HR Management Institute - Oct 18"
+    },
+    {
+      "text": "HR Management Institute Canada - Nov 8",
+      "value": "HR Management Institute Canada - Nov 8"
+    },
+    {
+      "text": "Chief Nursing Institute - Nov 8",
+      "value": "Chief Nursing Institute - Nov 8"
+    },
+    {
+      "text": "Corporate Wellness Institute - Nov 8",
+      "value": "Corporate Wellness Institute - Nov 8"
+    },
+    {
+      "text": "EHS Management Institute - Jan 24",
+      "value": "EHS Management Institute - Jan 24"
+    },
+    {
+      "text": "HR Management Institute - Feb 21",
+      "value": "HR Management Institute - Feb 21"
+    },
+    {
+      "text": "Healthcare Law & Compliance Institute - Feb 21",
+      "value": "Healthcare Law & Compliance Institute - Feb 21"
+    },
+    {
+      "text": "Healthcare HR Management Institute - Mar 21",
+      "value": "Healthcare HR Management Institute - Mar 21"
+    },
+    {
+      "text": "Corporate Learning Development Institute - Mar 21",
+      "value": "Corporate Learning Development Institute - Mar 21"
+    },
+    {
+      "text": "Healthcare Finance Institute - Apr 11",
+      "value": "Healthcare Finance Institute - Apr 11"
+    },
+    {
+      "text": "HR Management Institute Canada - Apr 25",
+      "value": "HR Management Institute Canada - Apr 25"
+    },
+    {
+      "text": "Talent Acquisition Institute - May 16",
+      "value": "Talent Acquisition Institute - May 16"
+    },
+    {
+      "text": "Talent Acquisition & Employee Experience Institute Canada - May 30",
+      "value": "Talent Acquisition & Employee Experience Institute Canada - May 30"
+    },
+    {
+      "text": "Healthcare IT Institute - Jun 6",
+      "value": "Healthcare IT Institute - Jun 6"
+    },
+    {
+      "text": "HR Management Institute - Jun 6",
+      "value": "HR Management Institute - Jun 6"
+    },
+    {
+      "text": "EHS Management Institute - Jul 25",
+      "value": "EHS Management Institute - Jul 25"
+    },
+    {
+      "text": "Corporate Learning & Development Institute - Sep 12",
+      "value": "Corporate Learning & Development Institute - Sep 12"
+    },
+    {
+      "text": "Healthcare Law & Compliance Institute - Sep 12",
+      "value": "Healthcare Law & Compliance Institute - Sep 12"
+    },
+    {
+      "text": "Healthcare HR Management Institute - Sep 19",
+      "value": "Healthcare HR Management Institute - Sep 19"
+    },
+    {
+      "text": "IP Law & Management Institute - Oct 17",
+      "value": "IP Law & Management Institute - Oct 17"
+    },
+    {
+      "text": "HR Management Institute - Oct 17",
+      "value": "HR Management Institute - Oct 17"
+    },
+    {
+      "text": "Chief Nursing Institute  - Nov 7",
+      "value": "Chief Nursing Institute  - Nov 7"
+    },
+    {
+      "text": "Corporate Wellness Institute - Nov 7",
+      "value": "Corporate Wellness Institute - Nov 7"
+    },
+    {
+      "text": "HR Management Institute Canada - Nov 21",
+      "value": "HR Management Institute Canada - Nov 21"
+    }
+  ],
+  "rows": [
+    {
+      "attributes": {
+        "data-attend-recipient": "jgray@ipmievents.com",
+        "data-slug": "healthcare-gci-oct-2026"
+      },
+      "slug": "healthcare-gci-oct-2026",
+      "text": "Healthcare Law & Compliance InstituteOct 4"
+    },
+    {
+      "attributes": {
+        "data-attend-recipient": "jgray@ipmievents.com",
+        "data-slug": "iplmi-2026"
+      },
+      "slug": "iplmi-2026",
+      "text": "IP Law & Management InstituteOct 18"
+    },
+    {
+      "attributes": {
+        "data-attend-recipient": "jgray@ipmievents.com",
+        "data-slug": "hrmi-oct-2026"
+      },
+      "slug": "hrmi-oct-2026",
+      "text": "HR Management InstituteOct 18"
+    },
+    {
+      "attributes": {
+        "data-attend-recipient": "jgray@ipmievents.com",
+        "data-slug": "hrmi-canada-nov-2026"
+      },
+      "slug": "hrmi-canada-nov-2026",
+      "text": "HR Management Institute CanadaNov 8"
+    },
+    {
+      "attributes": {
+        "data-attend-recipient": "jgray@ipmievents.com",
+        "data-slug": "cni-2026"
+      },
+      "slug": "cni-2026",
+      "text": "Chief Nursing InstituteNov 8"
+    },
+    {
+      "attributes": {
+        "data-attend-recipient": "jgray@ipmievents.com",
+        "data-slug": "cwi-2026"
+      },
+      "slug": "cwi-2026",
+      "text": "Corporate Wellness InstituteNov 8"
+    },
+    {
+      "attributes": {
+        "data-attend-recipient": "jgray@ipmievents.com",
+        "data-slug": "ehs-jan-2027"
+      },
+      "slug": "ehs-jan-2027",
+      "text": "EHS Management InstituteJan 24"
+    },
+    {
+      "attributes": {
+        "data-attend-recipient": "jgray@ipmievents.com",
+        "data-slug": "hrmi-feb-2027"
+      },
+      "slug": "hrmi-feb-2027",
+      "text": "HR Management InstituteFeb 21"
+    },
+    {
+      "attributes": {
+        "data-attend-recipient": "jgray@ipmievents.com",
+        "data-slug": "hgc-feb-2027"
+      },
+      "slug": "hgc-feb-2027",
+      "text": "Healthcare Law & Compliance InstituteFeb 21"
+    },
+    {
+      "attributes": {
+        "data-attend-recipient": "jgray@ipmievents.com",
+        "data-slug": "hchrmi-march-2027"
+      },
+      "slug": "hchrmi-march-2027",
+      "text": "Healthcare HR Management InstituteMar 21"
+    },
+    {
+      "attributes": {
+        "data-attend-recipient": "jgray@ipmievents.com",
+        "data-slug": "cldi-march-2027"
+      },
+      "slug": "cldi-march-2027",
+      "text": "Corporate Learning Development InstituteMar 21"
+    },
+    {
+      "attributes": {
+        "data-attend-recipient": "jgray@ipmievents.com",
+        "data-slug": "hfi-2027"
+      },
+      "slug": "hfi-2027",
+      "text": "Healthcare Finance InstituteApr 11"
+    },
+    {
+      "attributes": {
+        "data-attend-recipient": "jgray@ipmievents.com",
+        "data-slug": "hr-can-april-2027"
+      },
+      "slug": "hr-can-april-2027",
+      "text": "HR Management Institute CanadaApr 25"
+    },
+    {
+      "attributes": {
+        "data-attend-recipient": "jgray@ipmievents.com",
+        "data-slug": "28-tai-us-2027"
+      },
+      "slug": "28-tai-us-2027",
+      "text": "Talent Acquisition InstituteMay 16"
+    },
+    {
+      "attributes": {
+        "data-attend-recipient": "jgray@ipmi.com",
+        "data-slug": "29-taeei-can"
+      },
+      "slug": "29-taeei-can",
+      "text": "Talent Acquisition & Employee Experience Institute CanadaMay 30"
+    },
+    {
+      "attributes": {
+        "data-attend-recipient": "scolquhoun@ipmievents.com",
+        "data-slug": "hit-2027"
+      },
+      "slug": "hit-2027",
+      "text": "Healthcare IT InstituteJun 6"
+    },
+    {
+      "attributes": {
+        "data-attend-recipient": "jgray@ipmi.com",
+        "data-slug": "211-hrmi-june-2027"
+      },
+      "slug": "211-hrmi-june-2027",
+      "text": "HR Management InstituteJun 6"
+    },
+    {
+      "attributes": {
+        "data-attend-recipient": "jgray@ipmievents.com",
+        "data-slug": "ehs-july-2027"
+      },
+      "slug": "ehs-july-2027",
+      "text": "EHS Management InstituteJul 25"
+    },
+    {
+      "attributes": {
+        "data-attend-recipient": "jgray@ipmi.com",
+        "data-slug": "213-cldi-sept-2027"
+      },
+      "slug": "213-cldi-sept-2027",
+      "text": "Corporate Learning & Development InstituteSep 12"
+    },
+    {
+      "attributes": {
+        "data-attend-recipient": "jgray@ipmi.com",
+        "data-slug": "214-hgc-sept-2027"
+      },
+      "slug": "214-hgc-sept-2027",
+      "text": "Healthcare Law & Compliance InstituteSep 12"
+    },
+    {
+      "attributes": {
+        "data-attend-recipient": "jgray@ipmi.com",
+        "data-slug": "215-hchr-sept-2027"
+      },
+      "slug": "215-hchr-sept-2027",
+      "text": "Healthcare HR Management InstituteSep 19"
+    },
+    {
+      "attributes": {
+        "data-attend-recipient": "jgray@ipmi.com",
+        "data-slug": "216-ip-law-2027"
+      },
+      "slug": "216-ip-law-2027",
+      "text": "IP Law & Management InstituteOct 17"
+    },
+    {
+      "attributes": {
+        "data-attend-recipient": "jgray@ipmi.com",
+        "data-slug": "217-hrmi-oct-2027"
+      },
+      "slug": "217-hrmi-oct-2027",
+      "text": "HR Management InstituteOct 17"
+    },
+    {
+      "attributes": {
+        "data-attend-recipient": "jgray@ipmi.com",
+        "data-slug": "218-cni-2027"
+      },
+      "slug": "218-cni-2027",
+      "text": "Chief Nursing Institute Nov 7"
+    },
+    {
+      "attributes": {
+        "data-attend-recipient": "jgray@ipmi.com",
+        "data-slug": "219-cwi-2027"
+      },
+      "slug": "219-cwi-2027",
+      "text": "Corporate Wellness InstituteNov 7"
+    },
+    {
+      "attributes": {
+        "data-attend-recipient": "jgray@ipmi.com",
+        "data-slug": "220-hr-can-2027"
+      },
+      "slug": "220-hr-can-2027",
+      "text": "HR Management Institute CanadaNov 21"
+    }
+  ],
+  "url": "https://ipmi.webflow.io/attend"
+}

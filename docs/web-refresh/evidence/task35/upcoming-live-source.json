@@ -1,0 +1,30 @@
+{
+  "observedAt": "2026-09-24T10:00:03.833Z",
+  "rows": [
+    {
+      "slug": "healthcare-gci-oct-2026",
+      "text": "HealthcareOct 4-Oct 6, 2026Healthcare Law & Compliance Institute.Park Hyatt Aviara, San Diego, CAStrategy-Focused, Peer-Driven: Navigating Regulatory, Legal, and Operational Complexity in HealthcareView Institute ➜"
+    },
+    {
+      "slug": "iplmi-2026",
+      "text": "LegalOct 18-Oct 20, 2026IP Law & Management Institute.The Fairmont Century Plaza, Los Angeles, CAIP at the Inflection Point: Navigating the Forces Redefining Value, Risk, and Competitive AdvantageView Institute ➜"
+    },
+    {
+      "slug": "hrmi-oct-2026",
+      "text": "Human ResourcesOct 18-Oct 20, 2026HR Management Institute.The Ritz-Carlton, Orlando, FLBeyond People Strategy: How HR Leaders Shape Organizational Growth, Workforce Transformation, and the Future of WorkView Institute ➜"
+    },
+    {
+      "slug": "hrmi-canada-nov-2026",
+      "text": "Human ResourcesNov 8-Nov 10, 2026HR Management Institute Canada.Fairmont Banff Springs, Banff, ABLeading Through Complexity: Aligning Talent, Trust, and PerformanceView Institute ➜"
+    },
+    {
+      "slug": "cni-2026",
+      "text": "HealthcareNov 8-Nov 10, 2026Chief Nursing Institute.Four Seasons, Nashville, TNNavigating and Responding to Change: Nursing Leadership in a New Operational RealityView Institute ➜"
+    },
+    {
+      "slug": "cwi-2026",
+      "text": "Human ResourcesNov 8-Nov 10, 2026Corporate Wellness Institute.The Ritz-Carlton, Amelia Island, FLThe Human-Centered Organization: Building High Performance from the Inside OutView Institute ➜"
+    }
+  ],
+  "url": "https://ipmi.webflow.io/institutes"
+}

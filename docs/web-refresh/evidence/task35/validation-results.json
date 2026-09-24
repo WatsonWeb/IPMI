@@ -1,0 +1,45 @@
+{
+  "validatedAt": "2026-09-24T10:08:04.600Z",
+  "checks": [
+    {
+      "name": "103-record paginated inventory and exact 26-record partition",
+      "result": "pass"
+    },
+    {
+      "name": "Strict date ranges, exact storage, unique IDs/slugs and provisional authority",
+      "result": "pass"
+    },
+    {
+      "name": "Live Attend identity/option coverage matches all 26 native records",
+      "result": "pass"
+    },
+    {
+      "name": "Released and Horizon live card coverage, title, location and dates",
+      "result": "pass"
+    },
+    {
+      "name": "TAEEI boundary, empty December, no current ongoing event and HIT exception",
+      "result": "pass"
+    },
+    {
+      "name": "Changed Markdown local link targets exist",
+      "result": "pass"
+    }
+  ],
+  "summary": {
+    "totalInspected": 103,
+    "included": 26,
+    "released": 6,
+    "horizon": 20,
+    "pastExcluded": 77,
+    "ongoing": 0,
+    "missingLocations": 0,
+    "invalidDateRows": 0,
+    "lastEventEnd": "2027-11-23"
+  },
+  "limitations": [
+    "Stored/native facts only; no client completeness or cancellation approval",
+    "No calendar runtime test; task 24 implements the grid",
+    "No Webflow mutation or publication"
+  ]
+}
