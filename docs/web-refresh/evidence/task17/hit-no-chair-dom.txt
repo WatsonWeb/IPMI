@@ -1,0 +1,196 @@
+- banner:
+  - link "home":
+    - /url: /
+    - img "International Performance Management Institute."
+  - navigation:
+    - link "Institutes":
+      - /url: /institutes
+      - text: Institutes
+    - link "Upcoming Institutes":
+      - /url: /institutes
+      - text: Upcoming Institutes
+    - link "Institute Insights":
+      - /url: /insights
+      - text: Institute Insights
+    - link "Recent Institutes":
+      - /url: /recent-institutes
+      - text: Recent Institutes
+    - link "Institute Gallery":
+      - /url: /gallery
+      - text: Institute Gallery
+    - link "What is an Institute?":
+      - /url: /faq#what-is-an-institute
+      - text: What is an Institute?
+    - link "Think Tanks & Roundtables":
+      - /url: /thinktanks
+      - text: Think Tanks & Roundtables
+    - link "Upcoming Think Tanks & Roundtables":
+      - /url: /thinktanks
+      - text: Upcoming Think Tanks & Roundtables
+    - link "Recent Think Tanks & Roundtables":
+      - /url: /thinktanks#recent
+      - text: Recent Think Tanks & Roundtables
+    - link "What is a Think Tank?":
+      - /url: /faq#what-is-a-think-tank
+      - text: What is a Think Tank?
+    - link "About IPMI":
+      - /url: /about
+      - text: About IPMI
+    - link "About IPMI":
+      - /url: /about
+      - text: About IPMI
+    - link "Testimonials":
+      - /url: /testimonials
+      - text: Testimonials
+    - link "FAQ":
+      - /url: /faq
+      - text: FAQ
+    - link "Attend an Institute":
+      - /url: /attend
+      - text: Attend an Institute
+    - link "Speak at an Institute":
+      - /url: /attend#speak
+      - text: Speak at an Institute
+    - link "Partner with IPMI":
+      - /url: /attend#partner
+      - text: Partner with IPMI
+    - link "Contact Us":
+      - /url: /contact
+    - link "Attend an institute":
+      - /url: /attend
+      - text: Attend an institute
+- generic: June
+- generic: "6"
+- generic: "-"
+- generic: June 8, 2027
+- heading "Healthcare IT Institute." [level=1]
+- heading "The Ritz-Carlton, New Orleans, LA" [level=2]
+- link "Pre-Register now":
+  - /url: "#invitation"
+  - text: Pre-Register now
+- img "IPMI Healthcare Icon"
+- img "The Ritz-Carlton, New Orleans, LA"
+- heading "INSTITUTE ATTENDEES" [level=3]
+- text: +
+- generic: Attendees
+- text: +
+- generic: Speakers
+- text: +
+- generic: Partners
+- heading "INSTITUTE Details" [level=3]
+- img "IPMI Healthcare Icon"
+- generic: June
+- generic: "6"
+- generic: "-"
+- generic: June 8, 2027
+- heading "Healthcare IT Institute." [level=1]
+- heading "The Ritz-Carlton, New Orleans, LA" [level=2]
+- heading "Pre-Register for the" [level=3]
+- heading "Healthcare IT Institute" [level=3]
+- heading "2027" [level=3]
+- form "Invitation Request":
+  - generic: Full Name
+  - textbox "Full Name"
+  - generic: E-mail Address
+  - textbox "Example@domain.com"
+  - generic: Phone number (optional)
+  - textbox "Phone number (optional)":
+    - /placeholder: Phone number
+  - generic: Title
+  - textbox "CEO, CTO etc."
+  - generic: Company / ORGANIZATION
+  - textbox "Example Co."
+  - generic: Company Size
+  - combobox:
+    - option "Select Company Size" [selected]
+    - option "< 1000 Employees"
+    - option "1000 - 1500 Employees"
+    - option "1500 - 2500 Employees"
+    - option "2500 - 5000 Employees"
+    - option "5000 - 10,000 Employees"
+    - option "10,000+ Employees"
+  - generic: Comments
+  - textbox "Comments"
+  - iframe [name="a-kpr3zlw48gm4"]:
+    - checkbox "I'm not a robot"
+    - generic: I'm not a robot
+    - generic: reCAPTCHA
+  - button "Register"
+- contentinfo:
+  - link "Back To Top":
+    - /url: "#top"
+  - link "International Performance Management Institute.":
+    - /url: /
+    - img "International Performance Management Institute."
+  - list:
+    - link "info@ipmievents.com":
+      - /url: mailto:info@ipmievents.com
+    - link "(416) 628-4058":
+      - /url: tel:+14166284058
+    - text: 151 Bloor Street W.
+    - text: Toronto, ON
+    - text: Canada M5S1S4
+  - heading "Institutes" [level=6]:
+    - link "Institutes":
+      - /url: /institutes
+  - list:
+    - link "Upcoming Institutes":
+      - /url: /institutes
+    - link "Institute Insights":
+      - /url: /insights
+    - link "Recent Institutes":
+      - /url: /recent-institutes
+    - link "Institute Gallery":
+      - /url: /gallery
+    - link "What is an Institute?":
+      - /url: /faq#what-is-an-institute
+  - heading "Think Tanks & Roundtables" [level=6]:
+    - link "Think Tanks & Roundtables":
+      - /url: /thinktanks
+      - text: Think Tanks &
+      - text: Roundtables
+  - list:
+    - link "Upcoming Think Tanks":
+      - /url: /thinktanks
+    - link "Recent Think Tanks":
+      - /url: /thinktanks#recent
+    - link "What is a Think Tank?":
+      - /url: /faq#what-is-a-virtual-think-tank
+  - heading "About IPMI" [level=6]:
+    - link "About IPMI":
+      - /url: /about
+  - list:
+    - link "About IPMI":
+      - /url: /about
+    - link "Testimonials":
+      - /url: /testimonials
+    - link "FAQ":
+      - /url: /faq
+    - link "Attend an Institute":
+      - /url: /attend
+    - link "Speak at an Institute":
+      - /url: /attend#speak
+    - link "Partner with IPMI":
+      - /url: /attend#partner
+  - heading "Contact Us" [level=6]:
+    - link "Contact Us":
+      - /url: /contact
+  - list:
+    - link "Contact Us":
+      - /url: /contact
+  - heading "Connect" [level=6]
+  - list:
+    - link "IPMI LinkedIn":
+      - /url: https://www.linkedin.com/company/international-performance-management-institute-ipmi-/?originalSubdomain=ca
+- generic: © International Performance Management Institute. All Rights Reserved.
+- link "Privacy Policy":
+  - /url: /privacy
+- text: "|"
+- link "Terms and Conditions":
+  - /url: /terms
+- heading "Heading" [level=1]
+- heading "Heading" [level=2]
+- heading "Heading" [level=2]
+- heading "Heading" [level=2]
+- link "Close Menu":
+  - /url: "#"

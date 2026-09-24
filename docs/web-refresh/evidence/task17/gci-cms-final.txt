@@ -1,0 +1,1659 @@
+- generic: chair-sponsor-heading
+- generic "Element Settings":
+- button "Add element":
+- button "Add element":
+- generic: Mobile (P)
+- generic: Affects 479px and below
+- iframe [id="site-iframe-next"]:
+  - banner:
+    - link "home":
+      - /url: /
+      - img "International Performance Management Institute."
+    - link "Menu":
+      - /url: "#"
+      - generic: 
+  - img "IPMI Healthcare Icon"
+  - generic: October
+  - generic: "4"
+  - generic: "-"
+  - generic: October 6, 2026
+  - heading "Healthcare Law & Compliance Institute." [level=1]
+  - heading "Park Hyatt Aviara, San Diego, CA" [level=2]
+  - generic: "Strategy-Focused, Peer-Driven: Navigating Regulatory, Legal, and Operational Complexity in Healthcare"
+  - img "Park Hyatt Aviara, San Diego, CA"
+  - link "Request Invitation":
+    - /url: "#invitation"
+  - heading "INSTITUTE ATTENDEES" [level=3]
+  - paragraph:
+    - text: Bringing
+    - strong: Healthcare Law & Compliance Professionals
+    - text: Together to Share Best Practices
+    - strong: .
+  - generic: 
+  - generic: 75+
+  - generic: Attendees
+  - generic: 
+  - generic: 20+
+  - generic: Speakers
+  - generic: 
+  - generic: 15+
+  - generic: Partners
+  - heading "INSTITUTE FOCUS" [level=3]
+  - paragraph:
+    - strong: "Strategy-Focused, Peer-Driven:"
+    - text: Navigating Regulatory, Legal, and Operational Complexity in Healthcare
+    - strong: .
+  - paragraph: Healthcare stands at a critical inflection point as the convergence of regulatory, financial, and technological forces continues to influence and reshape the industry.
+  - paragraph: Amid ongoing policy shifts and evolving enforcement priorities, health system leaders are operating in an environment defined by heightened scrutiny, constrained resources, and increasing expectations. Providers, payers, and other stakeholders are being compelled to adapt in real time as they confront financial pressures, workforce challenges, changing care delivery models, and growing demands for access, transparency, and value.
+  - paragraph: At the same time, the pace of innovation is accelerating. Advances in artificial intelligence, data analytics, virtual care, and value-based arrangements are transforming how healthcare is delivered and managed. While these developments present meaningful opportunities, they also introduce complex legal, compliance, and operational risks that require thoughtful oversight and governance. The resulting landscape demands new approaches to risk management, enterprise decision-making, and cross-functional alignment.
+  - paragraph: "Within this dynamic environment, the Healthcare Law & Compliance Institute will convene leading General Counsel, Chief Legal and Compliance Officers, and industry experts to address these challenges and opportunities. Centered on the theme “Strategy Focused, Peer Driven: Navigating Regulatory, Legal, and Operational Complexity in Healthcare,” the Fall 2026 Healthcare Law & Compliance Institute, hosted at the Park Hyatt Aviara, offers a comprehensive forum for advancing legal excellence, strengthening compliance, and shaping the future of healthcare leadership."
+  - paragraph: Through panels, interactive think tanks, and collaborative roundtables, participants will engage in candid dialogue, share practical insights, and explore actionable strategies to address today’s most pressing challenges. We look forward to welcoming you this Fall for a highly engaging and collegial experience. Click on the Agenda to learn more.
+  - link "View institute agenda":
+    - /url: https://ipmionline.sharepoint.com/:b:/s/IPMIExternal/IQCnURRTX3f_TqKKCJ8GokBWAXTt-7rJg2f6LYq_dpYaYok
+  - generic: MEET YOUR TEAM
+  - list:
+    - img "Nas Panwar"
+    - generic: Nas Panwar
+    - generic: Chief Production Officer
+    - generic: IPMI
+    - img "Tori Di Clemente"
+    - generic: Tori Di Clemente
+    - generic: Event Operations Manager
+    - generic: IPMI
+  - heading "Advisory Commitee" [level=3]
+  - heading "Developed by Executives, for Executives." [level=1]:
+    - text: Developed by
+    - strong: Executives
+    - text: ", for Executives"
+    - strong: .
+  - generic: We partner with an exclusive Advisory Committee for each Institute to shape relevant and topical content.
+  - list:
+    - img "Stacy Bratcher"
+    - generic: 
+    - generic: Stacy Bratcher
+    - generic: SVP, Chief Legal Officer
+    - generic: Cottage Health
+    - img "Elizabeth Callahan"
+    - generic: 
+    - generic: Elizabeth Callahan
+    - generic: SVP & GC
+    - generic: Baptist Health Care
+    - img "Brett Denton"
+    - generic: 
+    - generic: Brett Denton
+    - generic: EVP, Chief Legal Officer
+    - generic: Advocate Health
+    - img "Charity Elmer"
+    - generic: 
+    - generic: Charity Elmer
+    - generic: SVP & GC
+    - generic: CoxHealth
+    - img "Robert Gerberry"
+    - generic: 
+    - generic: Robert Gerberry
+    - generic: Former SVP & CLO
+    - generic: Summa Health
+    - img "Michelle Johnson Tidjani"
+    - generic: 
+    - generic: Michelle Johnson Tidjani
+    - generic: Senior EVP & Chief Administrative Officer
+    - generic: CommonSpirit Health
+    - img "Greg Matis"
+    - generic: 
+    - generic: Greg Matis
+    - generic: EVP, Chief Legal Officer
+    - generic: Intermountain Health
+    - img "Carmen Neuberger"
+    - generic: 
+    - generic: Carmen Neuberger
+    - generic: Former EVP and General Counsel
+    - generic: Phoenix Children’s Hospital
+    - img "Anna Newsom"
+    - generic: 
+    - generic: Anna Newsom
+    - generic: EVP, Chief Legal Officer
+    - generic: Providence
+    - img "Fatema Zanzi"
+    - generic: 
+    - generic: Fatema Zanzi
+    - generic: EVP, Chief Administrative and Legal Officer
+    - generic: Ann & Robert H. Lurie Children’s Hospital of Chicago
+  - generic: 
+  - generic: 
+  - heading "SPEAKER FACULTY" [level=3]
+  - heading "Insights from Thought Leaders, Sharing Initiatives Launched, Best Practices Employed, and Lessons Learned." [level=1]:
+    - text: Insights from
+    - strong: Thought Leaders
+    - text: ", Sharing Initiatives Launched, Best Practices Employed, and Lessons Learned"
+    - strong: .
+  - generic: Institute speakers are experienced practitioners and executives from a variety of organizations who provide expertise and share experiences to advance the objectives of their functional areas and organizations.
+  - list:
+    - img "Yemi Adeyanju"
+    - generic: 
+    - generic: Yemi Adeyanju
+    - generic: VP, Division Senior Corporate Counsel
+    - generic: Providence
+    - img "Joseph Aguilar"
+    - generic: 
+    - generic: Joseph Aguilar
+    - generic: Partner
+    - generic: HMS Valuation Partners
+    - img "Ranbir Ahdan"
+    - generic: 
+    - generic: Ranbir Ahdan
+    - generic: Vice President, Senior Counsel – System Support Services
+    - generic: Memorial Hermann Health System
+    - img "Nora Becerra"
+    - generic: 
+    - generic: Nora Becerra
+    - generic: Partner
+    - generic: K&L Gates
+    - img "Natalie Bell"
+    - generic: 
+    - generic: Natalie Bell
+    - generic: Partner
+    - generic: HMS Valuation Partners
+    - img "Paul Carr-Rollitt"
+    - generic: 
+    - generic: Paul Carr-Rollitt
+    - generic: Partner
+    - generic: Manatt, Phelps & Phillips
+    - img "Valda Clark Christian"
+    - generic: 
+    - generic: Valda Clark Christian
+    - generic: Senior Vice President and Chief Ethics and Compliance Officer
+    - generic: OhioHealth
+    - img "Devin Cohen"
+    - generic: 
+    - generic: Devin Cohen
+    - generic: Partner
+    - generic: Proskauer
+    - img "Chris Conway"
+    - generic: 
+    - generic: Chris Conway
+    - generic: Professor, Oxford University
+    - generic: Partner, Meade, Roach & Annulis, LLP
+    - img "Ritu Cooper"
+    - generic: 
+    - generic: Ritu Cooper
+    - generic: Shareholder
+    - generic: Hall, Render, Killian, Heath & Lyman P.C.
+    - img "Matt Curley"
+    - generic: 
+    - generic: Matt Curley
+    - generic: Member
+    - generic: Bass, Berry & Sims
+    - img "Jim Daniel"
+    - generic: 
+    - generic: Jim Daniel
+    - generic: Partner
+    - generic: Hancock Daniel
+    - img "Jason Deloney"
+    - generic: 
+    - generic: Jason Deloney
+    - generic: Vice President
+    - generic: Realty Trust Group
+    - img "Jonathan Elsasser"
+    - generic: 
+    - generic: Jonathan Elsasser
+    - generic: Counsel
+    - generic: Clifford Chance
+    - img "Jennifer England"
+    - generic: 
+    - generic: Jennifer England
+    - generic: Associate Chief Regional General Counsel
+    - generic: AdventHealth
+    - img "Ellen Gallagher"
+    - generic: 
+    - generic: Ellen Gallagher
+    - generic: Senior Vice President, Chief Audit, Compliance and Privacy Officer
+    - generic: Rochester Regional Health
+    - img "Scott Gallisdorfer"
+    - generic: 
+    - generic: Scott Gallisdorfer
+    - generic: Partner
+    - generic: Bass, Berry & Sims
+    - img "Michael Greer"
+    - generic: 
+    - generic: Michael Greer
+    - generic: Shareholder
+    - generic: Hall, Render, Killian, Heath & Lyman P.C.
+    - img "Charles Griffin"
+    - generic: 
+    - generic: Charles Griffin
+    - generic: Senior Vice President
+    - generic: Burford Capital
+    - img "Christine Guillory"
+    - generic: 
+    - generic: Christine Guillory
+    - generic: Chief Legal Officer
+    - generic: Grady Health System
+    - img "Ali Hartley"
+    - generic: 
+    - generic: Ali Hartley
+    - generic: Chief Legal Officer
+    - generic: SimplePractice
+    - img "Mandy Hayes-Chandler"
+    - generic: 
+    - generic: Mandy Hayes-Chandler
+    - generic: Regional General Counsel
+    - generic: SSM Health Oklahoma & Mid-Missouri
+    - img "Susannah Herkert"
+    - generic: 
+    - generic: Susannah Herkert
+    - generic: Senior Director
+    - generic: Guidepost Solutions
+    - img "Mike Herrmann"
+    - generic: 
+    - generic: Mike Herrmann
+    - generic: Associate
+    - generic: Manatt, Phelps & Phillips
+    - img "Caitlin Holleran"
+    - generic: 
+    - generic: Caitlin Holleran
+    - generic: Chief Audit and Compliance Officer
+    - generic: Sharp HealthCare
+    - img "Michelle Johnson Tidjani"
+    - generic: 
+    - generic: Michelle Johnson Tidjani
+    - generic: Senior EVP & Chief Administrative Officer
+    - generic: CommonSpirit Health
+    - img "Seema Kamal"
+    - generic: 
+    - generic: Seema Kamal
+    - generic: SVP & General Counsel
+    - generic: AltaMed Health Services
+    - img "Malinda Lee"
+    - generic: 
+    - generic: Malinda Lee
+    - generic: Supervising Deputy Attorney General
+    - generic: California Department of Justice
+    - img "Maria Liu"
+    - generic: 
+    - generic: Maria Liu
+    - generic: Vice President, Enterprise Analytics and Digital Innovation
+    - generic: Sharp HealthCare
+    - img "Sara Low"
+    - generic: 
+    - generic: Sara Low
+    - generic: Chief Operations Officer
+    - generic: Ntracts
+    - img "Jason Madden"
+    - generic: 
+    - generic: Jason Madden
+    - generic: Partner
+    - generic: Proskauer
+    - img "Mary Malone"
+    - generic: 
+    - generic: Mary Malone
+    - generic: Partner
+    - generic: Hancock Daniel
+    - img "Greg Matis"
+    - generic: 
+    - generic: Greg Matis
+    - generic: EVP, Chief Legal Officer
+    - generic: Intermountain Health
+    - img "Jeff Maurer"
+    - generic: 
+    - generic: Jeff Maurer
+    - generic: Partner
+    - generic: Manatt, Phelps & Phillips
+    - img "Torrey McClary"
+    - generic: 
+    - generic: Torrey McClary
+    - generic: Partner
+    - generic: Ropes & Gray
+    - img "Greg McPolin"
+    - generic: 
+    - generic: Greg McPolin
+    - generic: Managing Director
+    - generic: Burford Capital
+    - img "Ryan Meade"
+    - generic: 
+    - generic: Ryan Meade
+    - generic: Professor, Oxford University
+    - generic: Partner, Meade, Roach & Annulis, LLP
+    - img "Kendall Miller"
+    - generic: 
+    - generic: Kendall Miller
+    - generic: DGC
+    - generic: MultiCare Health System
+    - img "Goran Musinovic"
+    - generic: 
+    - generic: Goran Musinovic
+    - generic: SVP and General Counsel
+    - generic: Realty Trust Group
+    - img "Elizabeth Odette"
+    - generic: 
+    - generic: Elizabeth Odette
+    - generic: Assistant Attorney General
+    - generic: Office of the Minnesota Attorney General
+    - img "Mark Ogunsusi"
+    - generic: 
+    - generic: Mark Ogunsusi
+    - generic: Partner
+    - generic: K&L Gates
+    - img "Leigh Oliver"
+    - generic: 
+    - generic: Leigh Oliver
+    - generic: Partner
+    - generic: Clifford Chance
+    - img "Meighan O'Reardon"
+    - generic: 
+    - generic: Meighan O'Reardon
+    - generic: Partner
+    - generic: Clifford Chance
+    - img "Raisa Patron"
+    - generic: 
+    - generic: Raisa Patron
+    - generic: Partner
+    - generic: Manatt, Phelps & Phillips
+    - img "Jarrod Pearson"
+    - generic: 
+    - generic: Jarrod Pearson
+    - generic: Chief Privacy Officer, Managing Deputy General Counsel - Federal Regulatory
+    - generic: Sutter Health
+    - img "Cindy Perr"
+    - generic: 
+    - generic: Cindy Perr
+    - generic: Chief Legal Officer and General Counsel
+    - generic: Advocare
+    - img "Jonian Rafti"
+    - generic: 
+    - generic: Jonian Rafti
+    - generic: Proskauer
+    - img "Lisa Rivera"
+    - generic: 
+    - generic: Lisa Rivera
+    - generic: Partner
+    - generic: Bass, Berry & Sims
+    - img "Priya Shah"
+    - generic: 
+    - generic: Priya Shah
+    - generic: Associate Chief Legal Officer
+    - generic: El Camino Health
+    - img "Jeannine Taylor"
+    - generic: 
+    - generic: Jeannine Taylor
+    - generic: Deputy General Counsel
+    - generic: Keck Medicine of USC
+    - img "Leslie Thornton"
+    - generic: 
+    - generic: Leslie Thornton
+    - generic: Counsel
+    - generic: Ropes & Gray
+    - img "Dale Van Gorder"
+    - generic: 
+    - generic: Dale Van Gorder
+    - generic: Chief of Sales
+    - generic: Ntracts
+    - img "Justin Watkins"
+    - generic: 
+    - generic: Justin Watkins
+    - generic: Partner
+    - generic: Faegre Drinker
+    - img "Robert Wax"
+    - generic: 
+    - generic: Robert Wax
+    - generic: SVP & GC
+    - generic: St Luke’s University Health Network
+    - img "Charles Whipple"
+    - generic: 
+    - generic: Charles Whipple
+    - generic: EVP, General Counsel
+    - generic: Rochester Regional Health
+    - img "Isaac Willett"
+    - generic: 
+    - generic: Isaac Willett
+    - generic: Partner
+    - generic: Faegre Drinker
+    - img "Jane Willis"
+    - generic: 
+    - generic: Jane Willis
+    - generic: Partner
+    - generic: Ropes & Gray
+    - img "Adam Young"
+    - generic: 
+    - generic: Adam Young
+    - generic: Counsel
+    - generic: Clifford Chance
+    - img "Cecilia Ziniti"
+    - generic: 
+    - generic: Cecilia Ziniti
+    - generic: Chief Executive Officer and Co-Founder
+    - generic: GC AI
+  - generic: 
+  - generic: 
+  - heading "INSTITUTE PARTNERS" [level=3]
+  - heading "Wide-Ranging Expertise from Renowned Industry Leaders and Innovative Game Changers." [level=1]:
+    - text: Wide-Ranging Expertise from Renowned
+    - strong: Industry Leaders
+    - text: and Innovative Game Changers
+    - strong: .
+  - generic: Partnerships with leading Service Providers allows us to provide executives with cutting-edge thinking and research, thoughtful solutions and depth of knowledge and expertise.
+  - heading "INSTITUTE CHAIR SPONSOR" [level=3]
+  - img "PLACEHOLDER - Chair Sponsor (approval pending)"
+  - list:
+    - link "Agiloft":
+      - /url: https://www.agiloft.com/
+      - img "Agiloft"
+    - link "Bass Berry & Sims":
+      - /url: https://www.bassberry.com/
+      - img "Bass Berry & Sims"
+    - link "Brightflag":
+      - /url: https://brightflag.com/
+      - img "Brightflag"
+    - link "Burford Capital":
+      - /url: https://www.burfordcapital.com/
+      - img "Burford Capital"
+    - link "Checkbox":
+      - /url: https://www.checkbox.ai/
+      - img "Checkbox"
+    - link "Clifford Chance":
+      - /url: https://www.cliffordchance.com/home.html
+      - img "Clifford Chance"
+    - link "ECG":
+      - /url: https://www.ecgmc.com/
+      - img "ECG"
+    - link "Faegre Drinker":
+      - /url: https://www.faegredrinker.com/en
+      - img "Faegre Drinker"
+    - link "Filevine":
+      - /url: https://www.filevine.com/
+      - img "Filevine"
+    - link "GC AI":
+      - /url: https://gc.ai/
+      - img "GC AI"
+    - link "Hall Render":
+      - /url: https://www.hallrender.com/
+      - img "Hall Render"
+    - link "Hancock Daniel":
+      - /url: https://hancockdaniel.com/
+      - img "Hancock Daniel"
+    - link "HMS Valuation Partners":
+      - /url: https://hmsvalue.com/
+      - img "HMS Valuation Partners"
+    - link "Huron Consulting Group":
+      - /url: https://www.huronconsultinggroup.com/
+      - img "Huron Consulting Group"
+    - link "Husch Blackwell":
+      - /url: https://www.huschblackwell.com/
+      - img "Husch Blackwell"
+    - link "Ice Miller":
+      - /url: https://www.icemiller.com/
+      - img "Ice Miller"
+    - link "K&L Gates":
+      - /url: https://www.klgates.com/
+      - img "K&L Gates"
+    - link "Luminance":
+      - /url: https://www.luminance.com/
+      - img "Luminance"
+    - link "Luminance Technologies":
+      - /url: https://www.luminance.com/
+      - img "Luminance Technologies"
+    - link "Manatt":
+      - /url: https://www.manatt.com/
+      - img "Manatt"
+    - link "Meade Roach & Annulis":
+      - /url: https://mrahealthlaw.com/
+      - img "Meade Roach & Annulis"
+    - link "NTracts":
+      - /url: https://www.ntracts.com/
+      - img "NTracts"
+    - link "Paul Hastings LLP":
+      - /url: https://www.paulhastings.com/
+      - img "Paul Hastings LLP"
+    - link "Proskauer":
+      - /url: https://www.proskauer.com/
+      - img "Proskauer"
+    - link "Realty Trust Group (RTG)":
+      - /url: https://www.realtytrustgroup.com/
+      - img "Realty Trust Group (RTG)"
+    - link "Ropes & Gray":
+      - /url: https://www.ropesgray.com/en
+      - img "Ropes & Gray"
+    - link "Sandstone":
+      - /url: https://sandstone.com/
+      - img "Sandstone"
+    - link "Sheppard Mullin":
+      - /url: https://www.sheppardmullin.com/
+      - img "Sheppard Mullin"
+  - generic: 
+  - generic: 
+  - heading "INSTITUTE Details" [level=3]
+  - img "IPMI Healthcare Icon"
+  - generic: October
+  - generic: "4"
+  - generic: "-"
+  - generic: October 6, 2026
+  - heading "Healthcare Law & Compliance Institute." [level=1]
+  - heading "Park Hyatt Aviara, San Diego, CA" [level=2]
+  - generic: 7100 Aviara Resort Drive, Carlsbad, CA 92011, United States
+  - list:
+    - link "open lightbox":
+      - /url: "#"
+    - link "open lightbox":
+      - /url: "#"
+  - iframe:
+    - link "Open in Maps (opens in new tab)":
+      - /url: https://maps.google.com/maps?ll=33.099483,-117.28575&z=16&t=m&hl=en-US&gl=US&mapclient=embed&cid=3122289704493574474
+      - text: Open in Maps
+    - button "Keyboard shortcuts"
+    - region "Map"
+    - iframe
+    - button "Map camera controls"
+    - button "Show satellite imagery":
+      - region
+      - iframe
+    - img "Google"
+    - button "Keyboard shortcuts"
+    - generic: Map data ©2026 Google
+    - link "Terms (opens in new tab)":
+      - /url: https://www.google.com/intl/en-US_US/help/terms_maps.html
+      - text: Terms
+    - link "Report a map error (opens in new tab)":
+      - /url: https://www.google.com/maps/@33.0994829,-117.2857501,16z/data=!10m1!1e1!12b1?source=apiv3&rapsrc=apiv3
+      - text: Report a map error
+  - heading "Request an Invitation" [level=3]
+  - link " Attend":
+    - /url: "#"
+    - generic: 
+    - generic: Attend
+  - link " Speak":
+    - /url: "#"
+    - generic: 
+    - generic: Speak
+  - link " Partner":
+    - /url: "#"
+    - generic: 
+    - generic: Partner
+  - form "Invitation Request":
+    - generic: Full Name
+    - textbox "Full Name"
+    - generic: 
+    - generic: E-mail Address
+    - textbox "Example@domain.com"
+    - generic: 
+    - generic: Phone number (optional)
+    - textbox "Phone number (optional)":
+      - /placeholder: Phone number
+    - generic: 
+    - generic: Title
+    - textbox "CEO, CTO etc."
+    - generic: 
+    - generic: Company / ORGANIZATION
+    - textbox "Example Co."
+    - generic: 
+    - generic: Company Size
+    - combobox:
+      - option "Select Company Size" [selected]
+      - option "< 1000 Employees"
+      - option "1000 - 1500 Employees"
+      - option "1500 - 2500 Employees"
+      - option "2500 - 5000 Employees"
+      - option "5000 - 10,000 Employees"
+      - option "10,000+ Employees"
+      - option "N/A"
+    - generic: 
+    - generic: Comments
+    - textbox "Comments"
+    - generic: 
+    - button "Request Invite"
+  - contentinfo:
+    - link "Back To Top":
+      - /url: "#top"
+      - generic: 
+    - link "International Performance Management Institute.":
+      - /url: /
+      - img "International Performance Management Institute."
+    - list:
+      - generic: 
+      - link "info@ipmievents.com":
+        - /url: mailto:info@ipmievents.com
+      - generic: 
+      - link "(416) 628-4058":
+        - /url: tel:+14166284058
+      - generic: 
+      - text: 151 Bloor Street W.
+      - text: Toronto, ON
+      - text: Canada M5S1S4
+    - link "View sitemap":
+      - /url: "#"
+  - generic: © International Performance Management Institute. All Rights Reserved.
+  - link "Privacy Policy":
+    - /url: /privacy
+  - text: "|"
+  - link "Terms and Conditions":
+    - /url: /terms
+  - heading "Heading" [level=1]
+  - heading "Heading" [level=2]
+  - heading "Heading" [level=2]
+  - heading "Heading" [level=2]
+  - link "Close Menu":
+    - /url: "#"
+    - generic: 
+  - link "Close Menu":
+    - /url: "#"
+    - generic: 
+  - button "Institutes ":
+    - generic: Institutes 
+  - navigation "Institutes ":
+    - link " Upcoming Institutes":
+      - /url: /institutes
+      - generic: 
+      - text: Upcoming Institutes
+    - link " Institute Insights":
+      - /url: /insights
+      - generic: 
+      - text: Institute Insights
+    - link " Recent Institutes":
+      - /url: /recent-institutes
+      - generic: 
+      - text: Recent Institutes
+    - link " Institute Gallery":
+      - /url: /gallery
+      - generic: 
+      - text: Institute Gallery
+    - link " What is an Institute?":
+      - /url: /faq#what-is-an-institute
+      - generic: 
+      - text: What is an Institute?
+  - button "Think Tanks & Roundtables ":
+    - generic: Think Tanks & Roundtables 
+  - navigation "Think Tanks & Roundtables ":
+    - link " Upcoming Think Tanks & Roundtables":
+      - /url: /thinktanks
+      - generic: 
+      - text: Upcoming Think Tanks
+      - text: "& Roundtables"
+    - link " Recent Think Tanks & Roundtables":
+      - /url: /thinktanks#recent
+      - generic: 
+      - text: Recent Think Tanks
+      - text: "& Roundtables"
+    - link " What is a Think Tank?":
+      - /url: /faq#what-is-a-think-tank
+      - generic: 
+      - text: What is a Think Tank?
+  - button "About IPMI ":
+    - generic: About IPMI 
+  - navigation "About IPMI ":
+    - link " About IPMI":
+      - /url: /about
+      - generic: 
+      - text: About IPMI
+    - link " Testimonials":
+      - /url: /testimonials
+      - generic: 
+      - text: Testimonials
+    - link " Attend an Institute":
+      - /url: /attend
+      - generic: 
+      - text: Attend an Institute
+    - link " Speak at an Institute":
+      - /url: /attend#speak
+      - generic: 
+      - text: Speak at an Institute
+    - link " Partner with IPMI":
+      - /url: /attend#partner
+      - generic: 
+      - text: Partner with IPMI
+    - link " FAQ":
+      - /url: /faq
+      - generic: 
+      - text: FAQ
+  - link "Contact Us":
+    - /url: /contact
+  - link "Attend an Institute":
+    - /url: /attend
+- iframe [id="responsive-images-iframe"]:
+  - banner:
+    - link "home":
+      - /url: /
+      - img "International Performance Management Institute."
+    - link "Menu":
+      - /url: "#"
+  - img "IPMI Healthcare Icon"
+  - generic: October
+  - generic: "4"
+  - generic: "-"
+  - generic: October 6, 2026
+  - heading "Healthcare Law & Compliance Institute." [level=1]
+  - heading "Park Hyatt Aviara, San Diego, CA" [level=2]
+  - generic: "Strategy-Focused, Peer-Driven: Navigating Regulatory, Legal, and Operational Complexity in Healthcare"
+  - link "Request Invitation":
+    - /url: "#invitation"
+  - img "IPMI Healthcare Icon"
+  - img "Park Hyatt Aviara, San Diego, CA"
+  - link "Request Invitation":
+    - /url: "#invitation"
+  - heading "INSTITUTE ATTENDEES" [level=3]
+  - paragraph:
+    - text: Bringing
+    - strong: Healthcare Law & Compliance Professionals
+    - text: Together to Share Best Practices
+    - strong: .
+  - generic: 75+
+  - generic: Attendees
+  - generic: 20+
+  - generic: Speakers
+  - generic: 15+
+  - generic: Partners
+  - heading "INSTITUTE FOCUS" [level=3]
+  - paragraph:
+    - strong: "Strategy-Focused, Peer-Driven:"
+    - text: Navigating Regulatory, Legal, and Operational Complexity in Healthcare
+    - strong: .
+  - paragraph: Healthcare stands at a critical inflection point as the convergence of regulatory, financial, and technological forces continues to influence and reshape the industry.
+  - paragraph: Amid ongoing policy shifts and evolving enforcement priorities, health system leaders are operating in an environment defined by heightened scrutiny, constrained resources, and increasing expectations. Providers, payers, and other stakeholders are being compelled to adapt in real time as they confront financial pressures, workforce challenges, changing care delivery models, and growing demands for access, transparency, and value.
+  - paragraph: At the same time, the pace of innovation is accelerating. Advances in artificial intelligence, data analytics, virtual care, and value-based arrangements are transforming how healthcare is delivered and managed. While these developments present meaningful opportunities, they also introduce complex legal, compliance, and operational risks that require thoughtful oversight and governance. The resulting landscape demands new approaches to risk management, enterprise decision-making, and cross-functional alignment.
+  - paragraph: "Within this dynamic environment, the Healthcare Law & Compliance Institute will convene leading General Counsel, Chief Legal and Compliance Officers, and industry experts to address these challenges and opportunities. Centered on the theme “Strategy Focused, Peer Driven: Navigating Regulatory, Legal, and Operational Complexity in Healthcare,” the Fall 2026 Healthcare Law & Compliance Institute, hosted at the Park Hyatt Aviara, offers a comprehensive forum for advancing legal excellence, strengthening compliance, and shaping the future of healthcare leadership."
+  - paragraph: Through panels, interactive think tanks, and collaborative roundtables, participants will engage in candid dialogue, share practical insights, and explore actionable strategies to address today’s most pressing challenges. We look forward to welcoming you this Fall for a highly engaging and collegial experience. Click on the Agenda to learn more.
+  - link "View institute agenda":
+    - /url: https://ipmionline.sharepoint.com/:b:/s/IPMIExternal/IQCnURRTX3f_TqKKCJ8GokBWAXTt-7rJg2f6LYq_dpYaYok
+  - generic: MEET YOUR TEAM
+  - list:
+    - img "Nas Panwar"
+    - generic: Nas Panwar
+    - generic: Chief Production Officer
+    - generic: IPMI
+    - img "Tori Di Clemente"
+    - generic: Tori Di Clemente
+    - generic: Event Operations Manager
+    - generic: IPMI
+  - heading "Advisory Commitee" [level=3]
+  - heading "Developed by Executives, for Executives." [level=1]:
+    - text: Developed by
+    - strong: Executives
+    - text: ", for Executives"
+    - strong: .
+  - generic: We partner with an exclusive Advisory Committee for each Institute to shape relevant and topical content.
+  - list:
+    - img "Stacy Bratcher"
+    - generic: Stacy Bratcher
+    - generic: SVP, Chief Legal Officer
+    - generic: Cottage Health
+    - img "Elizabeth Callahan"
+    - generic: Elizabeth Callahan
+    - generic: SVP & GC
+    - generic: Baptist Health Care
+    - img "Brett Denton"
+    - generic: Brett Denton
+    - generic: EVP, Chief Legal Officer
+    - generic: Advocate Health
+    - img "Charity Elmer"
+    - generic: Charity Elmer
+    - generic: SVP & GC
+    - generic: CoxHealth
+    - img "Robert Gerberry"
+    - generic: Robert Gerberry
+    - generic: Former SVP & CLO
+    - generic: Summa Health
+    - img "Michelle Johnson Tidjani"
+    - generic: Michelle Johnson Tidjani
+    - generic: Senior EVP & Chief Administrative Officer
+    - generic: CommonSpirit Health
+    - img "Greg Matis"
+    - generic: Greg Matis
+    - generic: EVP, Chief Legal Officer
+    - generic: Intermountain Health
+    - img "Carmen Neuberger"
+    - generic: Carmen Neuberger
+    - generic: Former EVP and General Counsel
+    - generic: Phoenix Children’s Hospital
+    - img "Anna Newsom"
+    - generic: Anna Newsom
+    - generic: EVP, Chief Legal Officer
+    - generic: Providence
+    - img "Fatema Zanzi"
+    - generic: Fatema Zanzi
+    - generic: EVP, Chief Administrative and Legal Officer
+    - generic: Ann & Robert H. Lurie Children’s Hospital of Chicago
+  - heading "SPEAKER FACULTY" [level=3]
+  - heading "Insights from Thought Leaders, Sharing Initiatives Launched, Best Practices Employed, and Lessons Learned." [level=1]:
+    - text: Insights from
+    - strong: Thought Leaders
+    - text: ", Sharing Initiatives Launched, Best Practices Employed, and Lessons Learned"
+    - strong: .
+  - generic: Institute speakers are experienced practitioners and executives from a variety of organizations who provide expertise and share experiences to advance the objectives of their functional areas and organizations.
+  - list:
+    - img "Yemi Adeyanju"
+    - generic: Yemi Adeyanju
+    - generic: VP, Division Senior Corporate Counsel
+    - generic: Providence
+    - img "Joseph Aguilar"
+    - generic: Joseph Aguilar
+    - generic: Partner
+    - generic: HMS Valuation Partners
+    - img "Ranbir Ahdan"
+    - generic: Ranbir Ahdan
+    - generic: Vice President, Senior Counsel – System Support Services
+    - generic: Memorial Hermann Health System
+    - img "Nora Becerra"
+    - generic: Nora Becerra
+    - generic: Partner
+    - generic: K&L Gates
+    - img "Natalie Bell"
+    - generic: Natalie Bell
+    - generic: Partner
+    - generic: HMS Valuation Partners
+    - img "Paul Carr-Rollitt"
+    - generic: Paul Carr-Rollitt
+    - generic: Partner
+    - generic: Manatt, Phelps & Phillips
+    - img "Valda Clark Christian"
+    - generic: Valda Clark Christian
+    - generic: Senior Vice President and Chief Ethics and Compliance Officer
+    - generic: OhioHealth
+    - img "Devin Cohen"
+    - generic: Devin Cohen
+    - generic: Partner
+    - generic: Proskauer
+    - img "Chris Conway"
+    - generic: Chris Conway
+    - generic: Professor, Oxford University
+    - generic: Partner, Meade, Roach & Annulis, LLP
+    - img "Ritu Cooper"
+    - generic: Ritu Cooper
+    - generic: Shareholder
+    - generic: Hall, Render, Killian, Heath & Lyman P.C.
+    - img "Matt Curley"
+    - generic: Matt Curley
+    - generic: Member
+    - generic: Bass, Berry & Sims
+    - img "Jim Daniel"
+    - generic: Jim Daniel
+    - generic: Partner
+    - generic: Hancock Daniel
+    - img "Jason Deloney"
+    - generic: Jason Deloney
+    - generic: Vice President
+    - generic: Realty Trust Group
+    - img "Jonathan Elsasser"
+    - generic: Jonathan Elsasser
+    - generic: Counsel
+    - generic: Clifford Chance
+    - img "Jennifer England"
+    - generic: Jennifer England
+    - generic: Associate Chief Regional General Counsel
+    - generic: AdventHealth
+    - img "Ellen Gallagher"
+    - generic: Ellen Gallagher
+    - generic: Senior Vice President, Chief Audit, Compliance and Privacy Officer
+    - generic: Rochester Regional Health
+    - img "Scott Gallisdorfer"
+    - generic: Scott Gallisdorfer
+    - generic: Partner
+    - generic: Bass, Berry & Sims
+    - img "Michael Greer"
+    - generic: Michael Greer
+    - generic: Shareholder
+    - generic: Hall, Render, Killian, Heath & Lyman P.C.
+    - img "Charles Griffin"
+    - generic: Charles Griffin
+    - generic: Senior Vice President
+    - generic: Burford Capital
+    - img "Christine Guillory"
+    - generic: Christine Guillory
+    - generic: Chief Legal Officer
+    - generic: Grady Health System
+    - img "Ali Hartley"
+    - generic: Ali Hartley
+    - generic: Chief Legal Officer
+    - generic: SimplePractice
+    - img "Mandy Hayes-Chandler"
+    - generic: Mandy Hayes-Chandler
+    - generic: Regional General Counsel
+    - generic: SSM Health Oklahoma & Mid-Missouri
+    - img "Susannah Herkert"
+    - generic: Susannah Herkert
+    - generic: Senior Director
+    - generic: Guidepost Solutions
+    - img "Mike Herrmann"
+    - generic: Mike Herrmann
+    - generic: Associate
+    - generic: Manatt, Phelps & Phillips
+    - img "Caitlin Holleran"
+    - generic: Caitlin Holleran
+    - generic: Chief Audit and Compliance Officer
+    - generic: Sharp HealthCare
+    - img "Michelle Johnson Tidjani"
+    - generic: Michelle Johnson Tidjani
+    - generic: Senior EVP & Chief Administrative Officer
+    - generic: CommonSpirit Health
+    - img "Seema Kamal"
+    - generic: Seema Kamal
+    - generic: SVP & General Counsel
+    - generic: AltaMed Health Services
+    - img "Malinda Lee"
+    - generic: Malinda Lee
+    - generic: Supervising Deputy Attorney General
+    - generic: California Department of Justice
+    - img "Maria Liu"
+    - generic: Maria Liu
+    - generic: Vice President, Enterprise Analytics and Digital Innovation
+    - generic: Sharp HealthCare
+    - img "Sara Low"
+    - generic: Sara Low
+    - generic: Chief Operations Officer
+    - generic: Ntracts
+    - img "Jason Madden"
+    - generic: Jason Madden
+    - generic: Partner
+    - generic: Proskauer
+    - img "Mary Malone"
+    - generic: Mary Malone
+    - generic: Partner
+    - generic: Hancock Daniel
+    - img "Greg Matis"
+    - generic: Greg Matis
+    - generic: EVP, Chief Legal Officer
+    - generic: Intermountain Health
+    - img "Jeff Maurer"
+    - generic: Jeff Maurer
+    - generic: Partner
+    - generic: Manatt, Phelps & Phillips
+    - img "Torrey McClary"
+    - generic: Torrey McClary
+    - generic: Partner
+    - generic: Ropes & Gray
+    - img "Greg McPolin"
+    - generic: Greg McPolin
+    - generic: Managing Director
+    - generic: Burford Capital
+    - img "Ryan Meade"
+    - generic: Ryan Meade
+    - generic: Professor, Oxford University
+    - generic: Partner, Meade, Roach & Annulis, LLP
+    - img "Kendall Miller"
+    - generic: Kendall Miller
+    - generic: DGC
+    - generic: MultiCare Health System
+    - img "Goran Musinovic"
+    - generic: Goran Musinovic
+    - generic: SVP and General Counsel
+    - generic: Realty Trust Group
+    - img "Elizabeth Odette"
+    - generic: Elizabeth Odette
+    - generic: Assistant Attorney General
+    - generic: Office of the Minnesota Attorney General
+    - img "Mark Ogunsusi"
+    - generic: Mark Ogunsusi
+    - generic: Partner
+    - generic: K&L Gates
+    - img "Leigh Oliver"
+    - generic: Leigh Oliver
+    - generic: Partner
+    - generic: Clifford Chance
+    - img "Meighan O'Reardon"
+    - generic: Meighan O'Reardon
+    - generic: Partner
+    - generic: Clifford Chance
+    - img "Raisa Patron"
+    - generic: Raisa Patron
+    - generic: Partner
+    - generic: Manatt, Phelps & Phillips
+    - img "Jarrod Pearson"
+    - generic: Jarrod Pearson
+    - generic: Chief Privacy Officer, Managing Deputy General Counsel - Federal Regulatory
+    - generic: Sutter Health
+    - img "Cindy Perr"
+    - generic: Cindy Perr
+    - generic: Chief Legal Officer and General Counsel
+    - generic: Advocare
+    - img "Jonian Rafti"
+    - generic: Jonian Rafti
+    - generic: Proskauer
+    - img "Lisa Rivera"
+    - generic: Lisa Rivera
+    - generic: Partner
+    - generic: Bass, Berry & Sims
+    - img "Priya Shah"
+    - generic: Priya Shah
+    - generic: Associate Chief Legal Officer
+    - generic: El Camino Health
+    - img "Jeannine Taylor"
+    - generic: Jeannine Taylor
+    - generic: Deputy General Counsel
+    - generic: Keck Medicine of USC
+    - img "Leslie Thornton"
+    - generic: Leslie Thornton
+    - generic: Counsel
+    - generic: Ropes & Gray
+    - img "Dale Van Gorder"
+    - generic: Dale Van Gorder
+    - generic: Chief of Sales
+    - generic: Ntracts
+    - img "Justin Watkins"
+    - generic: Justin Watkins
+    - generic: Partner
+    - generic: Faegre Drinker
+    - img "Robert Wax"
+    - generic: Robert Wax
+    - generic: SVP & GC
+    - generic: St Luke’s University Health Network
+    - img "Charles Whipple"
+    - generic: Charles Whipple
+    - generic: EVP, General Counsel
+    - generic: Rochester Regional Health
+    - img "Isaac Willett"
+    - generic: Isaac Willett
+    - generic: Partner
+    - generic: Faegre Drinker
+    - img "Jane Willis"
+    - generic: Jane Willis
+    - generic: Partner
+    - generic: Ropes & Gray
+    - img "Adam Young"
+    - generic: Adam Young
+    - generic: Counsel
+    - generic: Clifford Chance
+    - img "Cecilia Ziniti"
+    - generic: Cecilia Ziniti
+    - generic: Chief Executive Officer and Co-Founder
+    - generic: GC AI
+  - heading "INSTITUTE PARTNERS" [level=3]
+  - heading "Wide-Ranging Expertise from Renowned Industry Leaders and Innovative Game Changers." [level=1]:
+    - text: Wide-Ranging Expertise from Renowned
+    - strong: Industry Leaders
+    - text: and Innovative Game Changers
+    - strong: .
+  - generic: Partnerships with leading Service Providers allows us to provide executives with cutting-edge thinking and research, thoughtful solutions and depth of knowledge and expertise.
+  - heading "INSTITUTE CHAIR SPONSOR" [level=3]
+  - img "PLACEHOLDER - Chair Sponsor (approval pending)"
+  - paragraph: "PLACEHOLDER: Chair sponsor approval pending. Replace this example with the approved Partner logo and an Institute-specific description before production publication."
+  - list:
+    - link "Agiloft":
+      - /url: https://www.agiloft.com/
+      - img "Agiloft"
+    - link "Bass Berry & Sims":
+      - /url: https://www.bassberry.com/
+      - img "Bass Berry & Sims"
+    - link "Brightflag":
+      - /url: https://brightflag.com/
+      - img "Brightflag"
+    - link "Burford Capital":
+      - /url: https://www.burfordcapital.com/
+      - img "Burford Capital"
+    - link "Checkbox":
+      - /url: https://www.checkbox.ai/
+      - img "Checkbox"
+    - link "Clifford Chance":
+      - /url: https://www.cliffordchance.com/home.html
+      - img "Clifford Chance"
+    - link "ECG":
+      - /url: https://www.ecgmc.com/
+      - img "ECG"
+    - link "Faegre Drinker":
+      - /url: https://www.faegredrinker.com/en
+      - img "Faegre Drinker"
+    - link "Filevine":
+      - /url: https://www.filevine.com/
+      - img "Filevine"
+    - link "GC AI":
+      - /url: https://gc.ai/
+      - img "GC AI"
+    - link "Hall Render":
+      - /url: https://www.hallrender.com/
+      - img "Hall Render"
+    - link "Hancock Daniel":
+      - /url: https://hancockdaniel.com/
+      - img "Hancock Daniel"
+    - link "HMS Valuation Partners":
+      - /url: https://hmsvalue.com/
+      - img "HMS Valuation Partners"
+    - link "Huron Consulting Group":
+      - /url: https://www.huronconsultinggroup.com/
+      - img "Huron Consulting Group"
+    - link "Husch Blackwell":
+      - /url: https://www.huschblackwell.com/
+      - img "Husch Blackwell"
+    - link "Ice Miller":
+      - /url: https://www.icemiller.com/
+      - img "Ice Miller"
+    - link "K&L Gates":
+      - /url: https://www.klgates.com/
+      - img "K&L Gates"
+    - link "Luminance":
+      - /url: https://www.luminance.com/
+      - img "Luminance"
+    - link "Luminance Technologies":
+      - /url: https://www.luminance.com/
+      - img "Luminance Technologies"
+    - link "Manatt":
+      - /url: https://www.manatt.com/
+      - img "Manatt"
+    - link "Meade Roach & Annulis":
+      - /url: https://mrahealthlaw.com/
+      - img "Meade Roach & Annulis"
+    - link "NTracts":
+      - /url: https://www.ntracts.com/
+      - img "NTracts"
+    - link "Paul Hastings LLP":
+      - /url: https://www.paulhastings.com/
+      - img "Paul Hastings LLP"
+    - link "Proskauer":
+      - /url: https://www.proskauer.com/
+      - img "Proskauer"
+    - link "Realty Trust Group (RTG)":
+      - /url: https://www.realtytrustgroup.com/
+      - img "Realty Trust Group (RTG)"
+    - link "Ropes & Gray":
+      - /url: https://www.ropesgray.com/en
+      - img "Ropes & Gray"
+    - link "Sandstone":
+      - /url: https://sandstone.com/
+      - img "Sandstone"
+    - link "Sheppard Mullin":
+      - /url: https://www.sheppardmullin.com/
+      - img "Sheppard Mullin"
+  - heading "INSTITUTE Details" [level=3]
+  - img "IPMI Healthcare Icon"
+  - generic: October
+  - generic: "4"
+  - generic: "-"
+  - generic: October 6, 2026
+  - heading "Healthcare Law & Compliance Institute." [level=1]
+  - heading "Park Hyatt Aviara, San Diego, CA" [level=2]
+  - generic: 7100 Aviara Resort Drive, Carlsbad, CA 92011, United States
+  - list:
+    - link "open lightbox":
+      - /url: "#"
+    - link "open lightbox":
+      - /url: "#"
+  - iframe:
+    - link "Get directions (opens in new tab)":
+      - /url: https://www.google.com/maps/dir//''/data=!4m7!4m6!1m1!4e2!1m2!1m1!1s0x80dc0cb4a911d5a5:0x2b5499f19232e94a!3e0?g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAMYASAF
+  - heading "Request an Invitation" [level=3]
+  - link "Attend":
+    - /url: "#"
+    - generic: Attend
+  - link "Speak":
+    - /url: "#"
+    - generic: Speak
+  - link "Partner":
+    - /url: "#"
+    - generic: Partner
+  - form "Invitation Request":
+    - generic: Full Name
+    - textbox "Full Name"
+    - generic: E-mail Address
+    - textbox "Example@domain.com"
+    - generic: Phone number (optional)
+    - textbox "Phone number (optional)":
+      - /placeholder: Phone number
+    - generic: Title
+    - textbox "CEO, CTO etc."
+    - generic: Company / ORGANIZATION
+    - textbox "Example Co."
+    - generic: Company Size
+    - combobox:
+      - option "Select Company Size" [selected]
+      - option "< 1000 Employees"
+      - option "1000 - 1500 Employees"
+      - option "1500 - 2500 Employees"
+      - option "2500 - 5000 Employees"
+      - option "5000 - 10,000 Employees"
+      - option "10,000+ Employees"
+      - option "N/A"
+    - generic: Comments
+    - textbox "Comments"
+    - button "Request Invite"
+  - contentinfo:
+    - link "Back To Top":
+      - /url: "#top"
+    - link "International Performance Management Institute.":
+      - /url: /
+      - img "International Performance Management Institute."
+    - list:
+      - link "info@ipmievents.com":
+        - /url: mailto:info@ipmievents.com
+      - link "(416) 628-4058":
+        - /url: tel:+14166284058
+      - text: 151 Bloor Street W.
+      - text: Toronto, ON
+      - text: Canada M5S1S4
+    - link "View sitemap":
+      - /url: "#"
+    - link "Close sitemap":
+      - /url: "#"
+  - generic: © International Performance Management Institute. All Rights Reserved.
+  - link "Privacy Policy":
+    - /url: /privacy
+  - text: "|"
+  - link "Terms and Conditions":
+    - /url: /terms
+  - heading "Heading" [level=1]
+  - heading "Heading" [level=2]
+  - heading "Heading" [level=2]
+  - heading "Heading" [level=2]
+  - link "Close Menu":
+    - /url: "#"
+  - link "Close Menu":
+    - /url: "#"
+    - text: CLOSE
+  - button "Institutes":
+    - generic: Institutes
+  - button "Think Tanks & Roundtables":
+    - generic: Think Tanks & Roundtables
+  - button "About IPMI":
+    - generic: About IPMI
+  - link "Contact Us":
+    - /url: /contact
+  - link "Attend an Institute":
+    - /url: /attend
+- button "File menu button":
+- button "Design":
+  - generic: Design
+- button "CMS" [pressed]:
+  - generic: CMS
+- button "Insights":
+  - generic: Insights
+- generic: IPMI
+- button "IPMI Webmaster (active) on page Institutes Template":
+  - generic: IPMI Webmaster
+  - generic: IW
+- button "Preview (Alt + P)":
+- button "Share":
+  - generic: Share
+- heading "CMS Collections" [level=2]
+- button "More menu":
+- button "Create collection":
+- textbox "Search Collections":
+  - /placeholder: Search Collections...
+- status
+- button:
+- button "KBYG Content Blocks 43 items":
+  - generic: KBYG Content Blocks
+  - generic: 43 items
+- button:
+- button "KBYG Pages 4 items":
+  - generic: KBYG Pages
+  - generic: 4 items
+- button:
+- button "Institutes 103 items":
+  - generic: Institutes
+  - generic: 103 items
+- button:
+- button "Recaps 78 items":
+  - generic: Recaps
+  - generic: 78 items
+- button:
+- button "Think Tanks 36 items":
+  - generic: Think Tanks
+  - generic: 36 items
+- button:
+- button "Staff 12 items":
+  - generic: Staff
+  - generic: 12 items
+- button:
+- button "Speakers 2710 items":
+  - generic: Speakers
+  - generic: 2710 items
+- button:
+- button "Partners 572 items":
+  - generic: Partners
+  - generic: 572 items
+- button:
+- button "Accreditations 7 items":
+  - generic: Accreditations
+  - generic: 7 items
+- button:
+- button "Testimonials 69 items":
+  - generic: Testimonials
+  - generic: 69 items
+- button:
+- button "Downloads 967 items":
+  - generic: Downloads
+  - generic: 967 items
+- button:
+- button "Gallery Photos 79 items":
+  - generic: Gallery Photos
+  - generic: 79 items
+- button:
+- button "FAQs 8 items":
+  - generic: FAQs
+  - generic: 8 items
+- status
+- separator
+- heading "Ecommerce" [level=2]
+- button "Open":
+- heading "Institutes New item" [level=2]:
+  - heading "Institutes New item" [level=2]:
+    - heading "Institutes" [level=2]
+    - button "New item":
+- table:
+  - columnheader "Backend - Institute Label":
+    - button "Backend - Institute Label":
+      - generic: Backend - Institute Label
+  - rowgroup:
+    - row "220. HR Can 2027":
+      - generic: 220. HR Can 2027
+    - row "219. CWI 2027":
+      - generic: 219. CWI 2027
+    - row "218. CNI 2027":
+      - generic: 218. CNI 2027
+    - row "217. HRMI Oct 2027":
+      - generic: 217. HRMI Oct 2027
+    - row "216. IP Law 2027":
+      - generic: 216. IP Law 2027
+    - row "215. HCHR Sept 2027":
+      - generic: 215. HCHR Sept 2027
+    - row "214. HGC Sept 2027":
+      - generic: 214. HGC Sept 2027
+    - row "213. CLDI Sept 2027":
+      - generic: 213. CLDI Sept 2027
+    - row "211. HRMI June 2027":
+      - generic: 211. HRMI June 2027
+    - row "29. TAEEI Can":
+      - generic: 29. TAEEI Can
+    - row "28. TAI US 2027":
+      - generic: 28. TAI US 2027
+    - row "27. HR Can April 2027":
+      - generic: 27. HR Can April 2027
+    - row "212. EHS July 2027":
+      - generic: 212. EHS July 2027
+    - row "21. EHS Jan 2027":
+      - generic: 21. EHS Jan 2027
+    - row "210. HIT 2027":
+      - generic: 210. HIT 2027
+    - row "23. HGC Feb 2027":
+      - generic: 23. HGC Feb 2027
+    - row "25. CLDI March 2027":
+      - generic: 25. CLDI March 2027
+    - row "22. HR Feb 2027":
+      - generic: 22. HR Feb 2027
+    - row "26. HFI 2027":
+      - generic: 26. HFI 2027
+    - row "24. HCHR March 2027":
+      - generic: 24. HCHR March 2027
+    - row "TAEEI Can 2026":
+      - generic: TAEEI Can 2026
+    - row "HIT 2026":
+      - generic: HIT 2026
+    - row "CLDI Sept 2026":
+      - generic: CLDI Sept 2026
+    - row "TAI 2026":
+      - generic: TAI 2026
+    - row "EHS July 2026":
+      - generic: EHS July 2026
+    - row "20. CWI 2026":
+      - generic: 20. CWI 2026
+    - row "18. CNI 2026":
+      - generic: 18. CNI 2026
+    - row "19. HR Can Nov 2026":
+      - generic: 19. HR Can Nov 2026
+    - row "17. HR Oct 2026":
+      - generic: 17. HR Oct 2026
+    - row "HRMI June 2026":
+      - generic: HRMI June 2026
+    - row "HR Can April 2026":
+      - generic: HR Can April 2026
+    - row "EHS 2026":
+      - generic: EHS 2026
+    - row "16. IP Law 2026":
+      - generic: 16. IP Law 2026
+    - row "HCHR Sept 2026":
+      - generic: HCHR Sept 2026
+    - row "CLDI March 2026":
+      - generic: CLDI March 2026
+    - row "HRMI Feb 2026":
+      - generic: HRMI Feb 2026
+    - row "15. HGC Oct 2026 Users currently viewing this cms item":
+      - generic: 15. HGC Oct 2026
+      - generic "Users currently viewing this cms item":
+        - generic: IPMI Webmaster
+        - generic: I
+    - row "HFI 2026":
+      - generic: HFI 2026
+    - row "HCHR March 2026":
+      - generic: HCHR March 2026
+    - row "HGC Feb 2026":
+      - generic: HGC Feb 2026
+    - row "CNI 2025":
+      - generic: CNI 2025
+    - row "IP Law 2025":
+      - generic: IP Law 2025
+- button:
+- heading "15. HGC Oct 2026" [level=2]
+- generic: Published
+- generic: Queued to publish
+- generic: Saved
+- separator
+- button "View content on page":
+- button "Publish now":
+  - generic: Publish now
+- button "More":
+- generic: Basic info
+- generic: Backend - Institute Label
+- text: Used for backend filtering. Include year at the end. E.g. Healthcare IT Institute 2022.
+- textbox: 15. HGC Oct 2026
+- generic: URL Slug
+- text: Website URL slug - Include year at end. (E.g. healthcare-it-2022)
+- textbox: healthcare-gci-oct-2026
+- generic: www.ipmievents.com/institutes/
+- generic: healthcare-gci-oct-2026
+- button "Custom fields More options" [expanded]:
+  - generic: Custom fields
+  - button "More options":
+- generic: Backend - Institute Year
+- text: Used for backend filtering. E.g. 2022
+- textbox: "2026"
+- generic: Global - Institute Title (No Year)
+- text: Title to be displayed on the frontend. Eg. Healthcare IT Institute
+- textbox: Healthcare Law & Compliance Institute
+- generic: Global - Institute Category
+- text: Institute Category - Used For Filtering
+- generic: Healthcare
+- generic: Global - Institute Accent Color
+- text: Choose the accent color matching the institute's category. See Color Guide for more details.
+- textbox: "#25948a"
+- generic: Global - Institute Dark Accent Color
+- text: Used for gradients - Choose the darker color pair matching the accent color.
+- textbox: "#1f7a72"
+- generic: Global - Start Date
+- text: Institute Start Date (E.g. June 12, 2022)
+- textbox "MM/DD/YYYY": 10/04/2026
+- generic: Global - End Date
+- text: Institute End Date (E.g. June 14, 2022)
+- textbox "MM/DD/YYYY": 10/06/2026
+- generic: Global - Venue, City, State
+- text: E.g. La Cantera Resort & Spa, San Antonio, TX
+- textbox: Park Hyatt Aviara, San Diego, CA
+- generic: Global - Address - Postal
+- text: E..g. 16641 La Cantera Pkwy - 78256
+- textbox: 7100 Aviara Resort Drive, Carlsbad, CA 92011, United States
+- generic: Global - Tagline
+- text: E.g. Aligning Strategy, Innovation and technology to effectively impact the care continuum
+- textbox: "Strategy-Focused, Peer-Driven: Navigating Regulatory, Legal, and Operational Complexity in Healthcare"
+- generic: Global - Institute Thumbnail
+- text: Thumbnail for the event (doubles as background for Hero section) - 1280px Width x 720px Height 16:9 (Displayed 640px Width x 360px Height). Compress with squoosh.app to Webp.
+- generic: HCHR March 2026 Cover Photo.webp
+- generic: 1280 x 707 • 419.7 kB
+- link "Preview file":
+  - /url: https://cdn.prod.website-files.com/6312ee46f4c52faf21ee8ab5/689a4b6ae75931cb5ae894ea_HCHR%20March%202026%20Cover%20Photo.webp
+- generic: Replace
+- button "Choose File"
+- button "Delete":
+  - generic: Delete
+- generic: Attendees Section - Title
+- text: E.g. Bringing Healthcare IT Professionals Together to share best practices (Bold is Theme Color)
+- paragraph:
+  - text: Bringing
+  - strong: Healthcare Law & Compliance Professionals
+  - text: Together to Share Best Practices
+  - strong: .
+- generic: "Attendees Section - # of Attendees"
+- text: E.g. 75. (+) Symbol added automatically
+- textbox: "75"
+- generic: "Attendees Section - # of Speakers"
+- text: E.g. 20. (+) Symbol added automatically
+- textbox: "20"
+- generic: "Attendees Section - # of Partners"
+- text: E.g. 15. (+) Symbol added automatically
+- textbox: "15"
+- generic: Targets Section - Title
+- text: E.g. Aligning Strategy, Innovation, and Technology to Effectively Impact the Care Continuum (Bold is Theme Color)
+- paragraph:
+  - strong: "Strategy-Focused, Peer-Driven:"
+  - text: Navigating Regulatory, Legal, and Operational Complexity in Healthcare
+  - strong: .
+- generic: Targets Section - Summary
+- text: Overall Institute summary paragraphs
+- paragraph: Healthcare stands at a critical inflection point as the convergence of regulatory, financial, and technological forces continues to influence and reshape the industry.
+- paragraph: Amid ongoing policy shifts and evolving enforcement priorities, health system leaders are operating in an environment defined by heightened scrutiny, constrained resources, and increasing expectations. Providers, payers, and other stakeholders are being compelled to adapt in real time as they confront financial pressures, workforce challenges, changing care delivery models, and growing demands for access, transparency, and value.
+- paragraph: At the same time, the pace of innovation is accelerating. Advances in artificial intelligence, data analytics, virtual care, and value-based arrangements are transforming how healthcare is delivered and managed. While these developments present meaningful opportunities, they also introduce complex legal, compliance, and operational risks that require thoughtful oversight and governance. The resulting landscape demands new approaches to risk management, enterprise decision-making, and cross-functional alignment.
+- paragraph: "Within this dynamic environment, the Healthcare Law & Compliance Institute will convene leading General Counsel, Chief Legal and Compliance Officers, and industry experts to address these challenges and opportunities. Centered on the theme “Strategy Focused, Peer Driven: Navigating Regulatory, Legal, and Operational Complexity in Healthcare,” the Fall 2026 Healthcare Law & Compliance Institute, hosted at the Park Hyatt Aviara, offers a comprehensive forum for advancing legal excellence, strengthening compliance, and shaping the future of healthcare leadership."
+- paragraph: Through panels, interactive think tanks, and collaborative roundtables, participants will engage in candid dialogue, share practical insights, and explore actionable strategies to address today’s most pressing challenges. We look forward to welcoming you this Fall for a highly engaging and collegial experience. Click on the Agenda to learn more.
+- generic: Targets Section - Institute Agenda Link
+- text: Link to the Institute Agenda PDF
+- textbox: https://ipmionline.sharepoint.com/:b:/s/IPMIExternal/IQCnURRTX3f_TqKKCJ8GokBWAXTt-7rJg2f6LYq_dpYaYok
+- generic: Targets Section - Meet Your Team Staff
+- text: List of Staff to display in the 'Meet Your Team' section
+- generic: Nas Panwar
+- button "Remove Nas Panwar":
+- generic: Tori Di Clemente
+- button "Remove Tori Di Clemente":
+- combobox
+- button:
+- button "Toggle options":
+- button "Add":
+- generic: Accreditations Section - Display Accreditations Section
+- text: Toggle display the Accreditations Section
+- checkbox
+- generic: Accreditations Section - Accreditations
+- text: List of Accreditations
+- combobox
+- generic: Pick Accreditations...
+- button "Toggle options":
+- button "Add":
+- generic: Featured Speakers - Display Featured Speakers Section
+- checkbox
+- generic: Featured Speakers - Title
+- text: E.g. Keynotes from our special guests (Bold is Theme Color)
+- generic: Featured Speakers - Description
+- text: E.g. Our special guests presenting and providing valuable and personal insight you won't get anywhere else.
+- textbox
+- generic: Institute Details - Google Maps Search Query
+- text: Include the venue name, city, and state. Eg. ('La Cantera Resort, San Antonio, TX') *DO NOT USE AN AMPERSAND (&)
+- textbox: Park Hyatt Aviara, Carlsbad, CA
+- generic: Institute Details - Venue Image Thumbnails
+- text: Two images that will appear as square thumbnails in the bottom section. - 640px Width x 640px Height 1:1 (Displayed 320px Width x 320px Height 1:1) Compress with squoosh.app to Webp.
+- generic: Park-Hyat….16x9.webp
+- generic: SANPA-P58….16x9.webp
+- generic: Add more images
+- text: Drag images here
+- text: or, click to browse
+- button "Add more images Drag images here or, click to browse"
+- button "Choose File"
+- note:
+  - generic: 23/25 images left
+- generic: Form - Institute Title
+- text: The Institute Title to be displayed on form e-mail notifications. IE. "Healthcare Law & Compliance East"
+- textbox: Healthcare Law & Compliance Institute Oct 2026
+- generic: Form - Attendee Request E-mail Address
+- text: Staff e-mail address that Attendee Request submissions should be sent to.
+- textbox
+- generic: Form - Speaker Request E-mail Address
+- text: Staff e-mail address that Speaker Request submissions should be sent to.
+- textbox
+- generic: Form - Partner Request E-mail Address
+- text: Staff e-mail address that Partner Request submissions should be sent to.
+- textbox
+- generic: Recap
+- text: Once recap is published, add reference to this Institute's recap here.
+- generic: Pick a Recap...
+- button:
+- generic: Use Legacy Advisors / Speakers
+- text: Enable to use the Multi-Reference Fields below to display Advisors / Speakers. Otherwise, will pull automatically from Speakers collection
+- checkbox
+- generic: Legacy - Featured Speakers - Speakers
+- text: List of Featured Speakers
+- combobox
+- generic: Pick Speakers...
+- button "Toggle options":
+- button "Add":
+- generic: Legacy - Advisory Committee - Members
+- text: List of Committee Advisors
+- combobox
+- generic: Pick Speakers...
+- button "Toggle options":
+- button "Add":
+- generic: Legacy - Speaker Faculty - Speakers
+- text: List of speakers
+- combobox
+- generic: Pick Speakers...
+- button "Toggle options":
+- button "Add":
+- generic: Use Legacy Partners
+- text: Enable to use the Multi-Reference Fields below to display Partners. Otherwise, will pull automatically from Partners collection
+- checkbox
+- generic: Legacy - Institute Partners - Sponsors
+- text: List of Institute Partners
+- combobox
+- generic: Pick Partners...
+- button "Toggle options":
+- button "Add":
+- generic: On the Horizon
+- text: Enable if this Institute is 'On the Horizon' (aka in the future without full details yet). Switch off once the Institute has all the details input.
+- checkbox
+- generic: KBYG Hotel Intro
+- generic: Legacy - KBYG Reservation Details
+- text: Backup only. Edit reservation instructions in CMS > KBYG Pages > the relevant page > KBYG Reservation Details. The updated KBYG template uses the page-level field.
+- generic: KBYG Reservation URL
+- textbox
+- generic: KBYG Transportation Details
+- generic: Chair Sponsor
+- text: Optional chair for this Institute. Select an approved Partner; leave empty to hide the chair block.
+- generic: PLACEHOLDER - Chair Sponsor (approval pending)
+- button:
+- generic: Chair Sponsor Description
+- text: Optional Institute-specific chair description. Maximum 200 characters including spaces. Leave empty to show the logo only.
+- button "Open Grammarly.":
+  - textbox
+- textbox [active]: "PLACEHOLDER: Chair sponsor approval pending. Replace this example with the approved Partner logo and an Institute-specific description before production publication."
+- table:
+  - rowgroup:
+    - row "Locale Status":
+      - columnheader "Locale"
+      - columnheader "Status"
+  - rowgroup:
+    - row "English Queued to publish":
+      - cell "English"
+      - cell "Queued to publish":
+        - generic: Queued to publish
+- heading "Item details" [level=4]
+- generic: Sitemap Indexing
+- generic "More info":
+- paragraph:
+  - text: This setting controls whether search engines can return this page in search results.
+  - link "Learn more":
+    - /url: https://help.webflow.com/hc/en-us/articles/33961368603539-Disable-search-engine-indexing#01JGPQHKRP9ZWWTWW11Y447SAE
+- switch [checked]
+- generic: "On"
+- generic: Item ID
+- generic: 689a4db462964a1e231e1fbb
+- heading "Activity" [level=4]
+- text: Item created
+- generic: August 11, 2025, 3:08pm by Zoe Stefura
+- generic: I
+- text: Last edited
+- generic: September 24, 2026, 5:59am by IPMI Webmaster
+- text: Last published
+- generic: May 27, 2026, 3:14pm by Zoe Stefura
+- button "Archive":
+  - generic: Archive
+- button "Delete":
+  - generic: Delete
+- button "Duplicate":
+  - generic: Duplicate
+- region "Notifications Alt+T"
+- status
+- status
+- status: 1Password menu is available. Press down arrow to select.
+- status
+- status
+- status
+- status
+- status
+- status

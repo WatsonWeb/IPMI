@@ -2,7 +2,7 @@
 
 [Back to master](README.md)
 
-**Owner:** BWC / Webflow implementer; IPMI supplies sponsor assignment and approved description. **Status:** Specification ready; content assignment remains an input, website changes not performed.
+**Owner:** BWC / Webflow implementer; IPMI supplies sponsor assignment and approved description. **Status:** Native feature staged for review September 24, 2026, with an explicitly labeled neutral placeholder. Final sponsor identity, artwork and copy approval remain pending. [Implementation evidence and exact replacement procedure](evidence/task17/README.md).
 
 ## Source and target
 
@@ -26,20 +26,21 @@ Proposed fields below are implementation additions, not claims that they already
 2. Add only missing fields above. Enforce the 200-character limit in Webflow; if the field UI cannot enforce it, require the same limit in the documented pre-publish check.
 3. In the Institute template, add a scoped chair wrapper immediately before the ordinary sponsor group. Bind its logo to the referenced Partner and description to the current Institute. Use existing sponsor typography/spacing.
 4. Apply conditional visibility to the entire wrapper when Chair Sponsor is set; hide the description element when empty. Do not leave an empty heading or spacing when no chair is configured.
-5. Populate only IPMI-approved event/Partner assignments and description copy. Do not fabricate a chair, logo, or description for a production record.
+5. Per the user's missing-content override, demonstrate the feature with a clearly labeled neutral placeholder on staging. Do not identify a real organization as chair without approval; replace or remove the example before production publication.
 6. Preview configured and unconfigured cases, including long descriptions and transparent logos; publish only to staging through [37](37-staging-verification.md).
 
 ## Required inputs and dependencies
 
-IPMI must identify each affected Institute slug, matching Partner record or approved new Partner details/logo, and approved description of at most 200 characters. Confirm logo rights/identity and use [19](19-photo-accessibility.md) for meaningful logo alternative text. If no approved assignment is available, keep the fields unpopulated and track the populated-case check as pending.
+IPMI must identify each affected Institute slug, matching Partner record or approved new Partner details/logo, and approved description of at most 200 characters. Confirm logo rights/identity and use [19](19-photo-accessibility.md) for meaningful logo alternative text. The user explicitly superseded the original keep-empty instruction: the GCI October 2026 example uses a neutral placeholder Partner, with exact applied values in [PLACEHOLDERS](PLACEHOLDERS.md) and the evidence. It is not an approved sponsor assignment.
 
 ## Acceptance checks
 
-- [ ] One optional chair can be selected from Partners per Institute; no unnecessary new collection is created.
-- [ ] Configured chair logo/description appear above ordinary sponsors and match approved content.
-- [ ] Description length is no more than 200 characters; empty descriptions leave no empty block.
-- [ ] Unconfigured Institutes retain their existing layout without chair headings or blank gaps.
-- [ ] Ordinary sponsor references/order, mobile layout, and accessible logo naming remain correct.
+- [x] One optional chair can be selected from Partners per Institute; no new collection.
+- [x] Clearly labeled provisional logo/description appear above both ordinary sponsor branches.
+- [x] Native 200-character limit enforced; blank description has zero layout size.
+- [x] Unconfigured Institutes omit the whole chair block.
+- [x] Mobile layout and dynamic Partner-name logo alt verified; ordinary sponsor preservation independently reviewed in the evidence.
+- [ ] IPMI-approved real sponsor assignment, logo rights and final description.
 
 ## Rollback
 

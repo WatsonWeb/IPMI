@@ -1,0 +1,70 @@
+{
+  "checkedAt": "2026-09-24T11:02:19.801Z",
+  "beforeCount": 103,
+  "afterCount": 103,
+  "changes": [
+    {
+      "id": "689a4db462964a1e231e1fbb",
+      "slug": "healthcare-gci-oct-2026",
+      "field": "chair-sponsor",
+      "after": "6ab4fe478e6d517d534aac7c"
+    },
+    {
+      "id": "689a4db462964a1e231e1fbb",
+      "slug": "healthcare-gci-oct-2026",
+      "field": "chair-sponsor-description",
+      "after": "PLACEHOLDER: Chair sponsor approval pending. Replace this example with the approved Partner logo and an Institute-specific description before production publication."
+    }
+  ],
+  "pages": [
+    {
+      "slug": "healthcare-gci-oct-2026",
+      "ordinaryImages": 119,
+      "imagesPreserved": true,
+      "links": 104,
+      "linksPreserved": true,
+      "formsPreserved": true,
+      "pinsPreserved": true,
+      "chairImages": [
+        {
+          "src": "https://cdn.prod.website-files.com/6312ee46f4c52faf21ee8ab5/6ab4fe40d56d16fa62095af1_chair-sponsor-placeholder.png",
+          "alt": "PLACEHOLDER - Chair Sponsor (approval pending)",
+          "width": "200",
+          "height": "Auto",
+          "loading": "lazy"
+        }
+      ]
+    },
+    {
+      "slug": "ehs-jan-2027",
+      "ordinaryImages": 20,
+      "imagesPreserved": true,
+      "links": 74,
+      "linksPreserved": true,
+      "formsPreserved": true,
+      "pinsPreserved": true,
+      "chairImages": []
+    },
+    {
+      "slug": "hit-2027",
+      "ordinaryImages": 20,
+      "imagesPreserved": true,
+      "links": 74,
+      "linksPreserved": true,
+      "formsPreserved": true,
+      "pinsPreserved": true,
+      "chairImages": []
+    },
+    {
+      "slug": "hrmi-oct-2026",
+      "ordinaryImages": 91,
+      "imagesPreserved": true,
+      "links": 100,
+      "linksPreserved": true,
+      "formsPreserved": true,
+      "pinsPreserved": true,
+      "chairImages": []
+    }
+  ],
+  "newNullFieldValues": 204
+}

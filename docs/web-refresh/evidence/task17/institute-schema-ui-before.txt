@@ -1,0 +1,1291 @@
+- generic: Code Embed
+- generic "Element Settings":
+- generic: Desktop
+- generic: Affects all resolutions
+- iframe [id="site-iframe-next"]:
+  - banner:
+    - link "home":
+      - /url: /
+      - img "International Performance Management Institute."
+    - navigation:
+      - link "Institutes ":
+        - /url: /institutes
+      - link "Upcoming Institutes":
+        - /url: /institutes
+      - link "Institute Insights":
+        - /url: /insights
+      - link "Recent Institutes":
+        - /url: /recent-institutes
+      - link "Institute Gallery":
+        - /url: /gallery
+      - link "What is an Institute?":
+        - /url: /faq#what-is-an-institute
+      - link "Think Tanks & Roundtables ":
+        - /url: /thinktanks
+      - link "Upcoming Think Tanks & Roundtables":
+        - /url: /thinktanks
+      - link "Recent Think Tanks & Roundtables":
+        - /url: /thinktanks#recent
+      - link "What is a Think Tank?":
+        - /url: /faq#what-is-a-think-tank
+      - link "About IPMI ":
+        - /url: /about
+      - link "About IPMI":
+        - /url: /about
+      - link "Testimonials":
+        - /url: /testimonials
+      - link "FAQ":
+        - /url: /faq
+      - link "Attend an Institute":
+        - /url: /attend
+      - link "Speak at an Institute":
+        - /url: /attend#speak
+      - link "Partner with IPMI":
+        - /url: /attend#partner
+      - link "Contact Us":
+        - /url: /contact
+      - link "Attend an institute":
+        - /url: /attend
+  - heading "INSTITUTES ON THE HORIZON" [level=4]
+  - heading "Future Institutes Shaping Tomorrow’s Leaders." [level=1]
+  - generic: Get a sneak peek at our future events and request an early-bird registration for upcoming IPMI Institutes!
+  - link "institutes on the horizon":
+    - /url: "#horizon"
+  - img "A speaker presenting on stage at an IPMI Institute"
+  - img "Attendees engaging with a talk at an IPMI Institute"
+  - heading "INSTITUTES ON THE HORIZON" [level=3]
+  - list:
+    - link "":
+      - /url: "#"
+      - generic: 
+    - link "Four Seasons Hotel, Austin, TX":
+      - /url: "#"
+      - img "Four Seasons Hotel, Austin, TX"
+    - img "IPMI Environmental Icon"
+    - generic: Jan 24
+    - generic: "-"
+    - generic: Jan 26, 2027
+    - link "EHS Management Institute":
+      - /url: "#"
+    - link ".":
+      - /url: "#"
+    - heading "Four Seasons Hotel, Austin, TX" [level=2]
+    - link "Pre-Register Now ➜":
+      - /url: "#invite"
+    - link "":
+      - /url: "#"
+      - generic: 
+    - link "The Ritz-Carlton Orlando, Grande Lakes, FL":
+      - /url: "#"
+      - img "The Ritz-Carlton Orlando, Grande Lakes, FL"
+    - img "IPMI Human Resources Icon"
+    - generic: Feb 21
+    - generic: "-"
+    - generic: Feb 23, 2027
+    - link "HR Management Institute":
+      - /url: "#"
+    - link ".":
+      - /url: "#"
+    - heading "The Ritz-Carlton Orlando, Grande Lakes, FL" [level=2]
+    - link "Pre-Register Now ➜":
+      - /url: "#invite"
+    - link "":
+      - /url: "#"
+      - generic: 
+    - link "Four Seasons Hotel, Nashville, TN":
+      - /url: "#"
+      - img "Four Seasons Hotel, Nashville, TN"
+    - img "IPMI Healthcare Icon"
+    - generic: Feb 21
+    - generic: "-"
+    - generic: Feb 23, 2027
+    - link "Healthcare Law & Compliance Institute":
+      - /url: "#"
+    - link ".":
+      - /url: "#"
+    - heading "Four Seasons Hotel, Nashville, TN" [level=2]
+    - link "Pre-Register Now ➜":
+      - /url: "#invite"
+    - link "":
+      - /url: "#"
+      - generic: 
+    - link "The Langham Huntington, Pasadena, CA":
+      - /url: "#"
+      - img "The Langham Huntington, Pasadena, CA"
+    - img "IPMI Healthcare Icon"
+    - generic: Mar 21
+    - generic: "-"
+    - generic: Mar 23, 2027
+    - link "Healthcare HR Management Institute":
+      - /url: "#"
+    - link ".":
+      - /url: "#"
+    - heading "The Langham Huntington, Pasadena, CA" [level=2]
+    - link "Pre-Register Now ➜":
+      - /url: "#invite"
+    - link "":
+      - /url: "#"
+      - generic: 
+    - link "Four Seasons Hotel, Las Vegas, NV":
+      - /url: "#"
+      - img "Four Seasons Hotel, Las Vegas, NV"
+    - img "IPMI Human Resources Icon"
+    - generic: Mar 21
+    - generic: "-"
+    - generic: Mar 23, 2027
+    - link "Corporate Learning Development Institute":
+      - /url: "#"
+    - link ".":
+      - /url: "#"
+    - heading "Four Seasons Hotel, Las Vegas, NV" [level=2]
+    - link "Pre-Register Now ➜":
+      - /url: "#invite"
+    - link "":
+      - /url: "#"
+      - generic: 
+    - link "Omni Barton Creek, Austin, TX":
+      - /url: "#"
+      - img "Omni Barton Creek, Austin, TX"
+    - img "IPMI Healthcare Icon"
+    - generic: Apr 11
+    - generic: "-"
+    - generic: Apr 13, 2027
+    - link "Healthcare Finance Institute":
+      - /url: "#"
+    - link ".":
+      - /url: "#"
+    - heading "Omni Barton Creek, Austin, TX" [level=2]
+    - link "Pre-Register Now ➜":
+      - /url: "#invite"
+    - link "":
+      - /url: "#"
+      - generic: 
+    - link "JW Marriott The Rosseau Muskoka Resort & Spa, ON":
+      - /url: "#"
+      - img "JW Marriott The Rosseau Muskoka Resort & Spa, ON"
+    - img "IPMI Human Resources Icon"
+    - generic: Apr 25
+    - generic: "-"
+    - generic: Apr 27, 2027
+    - link "HR Management Institute Canada":
+      - /url: "#"
+    - link ".":
+      - /url: "#"
+    - heading "JW Marriott The Rosseau Muskoka Resort & Spa, ON" [level=2]
+    - link "Pre-Register Now ➜":
+      - /url: "#invite"
+    - link "":
+      - /url: "#"
+      - generic: 
+    - link "The Ritz-Carlton, New Orleans, LA":
+      - /url: "#"
+      - img "The Ritz-Carlton, New Orleans, LA"
+    - img "IPMI Human Resources Icon"
+    - generic: May 16
+    - generic: "-"
+    - generic: May 18, 2027
+    - link "Talent Acquisition Institute":
+      - /url: "#"
+    - link ".":
+      - /url: "#"
+    - heading "The Ritz-Carlton, New Orleans, LA" [level=2]
+    - link "Pre-Register Now ➜":
+      - /url: "#invite"
+    - link "":
+      - /url: "#"
+      - generic: 
+    - link "JW Marriott The Rosseau Muskoka Resort & Spa, ON":
+      - /url: "#"
+      - img "JW Marriott The Rosseau Muskoka Resort & Spa, ON"
+    - img "IPMI Human Resources Icon"
+    - generic: May 30
+    - generic: "-"
+    - generic: Jun 1, 2027
+    - link "Talent Acquisition & Employee Experience Institute Canada":
+      - /url: "#"
+    - link ".":
+      - /url: "#"
+    - heading "JW Marriott The Rosseau Muskoka Resort & Spa, ON" [level=2]
+    - link "Pre-Register Now ➜":
+      - /url: "#invite"
+    - link "":
+      - /url: "#"
+      - generic: 
+    - link "The Ritz-Carlton, New Orleans, LA":
+      - /url: "#"
+      - img "The Ritz-Carlton, New Orleans, LA"
+    - img "IPMI Healthcare Icon"
+    - generic: Jun 6
+    - generic: "-"
+    - generic: Jun 8, 2027
+    - link "Healthcare IT Institute":
+      - /url: "#"
+    - link ".":
+      - /url: "#"
+    - heading "The Ritz-Carlton, New Orleans, LA" [level=2]
+    - link "Pre-Register Now ➜":
+      - /url: "#invite"
+    - link "":
+      - /url: "#"
+      - generic: 
+    - link "Fairmont Miramar Hotel, Santa Monica, CA":
+      - /url: "#"
+      - img "Fairmont Miramar Hotel, Santa Monica, CA"
+    - img "IPMI Human Resources Icon"
+    - generic: Jun 6
+    - generic: "-"
+    - generic: Jun 8, 2027
+    - link "HR Management Institute":
+      - /url: "#"
+    - link ".":
+      - /url: "#"
+    - heading "Fairmont Miramar Hotel, Santa Monica, CA" [level=2]
+    - link "Pre-Register Now ➜":
+      - /url: "#invite"
+    - link "":
+      - /url: "#"
+      - generic: 
+    - link "JW Marriott, Anaheim Resort, CA":
+      - /url: "#"
+      - img "JW Marriott, Anaheim Resort, CA"
+    - img "IPMI Environmental Icon"
+    - generic: Jul 25
+    - generic: "-"
+    - generic: Jul 27, 2027
+    - link "EHS Management Institute":
+      - /url: "#"
+    - link ".":
+      - /url: "#"
+    - heading "JW Marriott, Anaheim Resort, CA" [level=2]
+    - link "Pre-Register Now ➜":
+      - /url: "#invite"
+    - link "":
+      - /url: "#"
+      - generic: 
+    - link "The Ritz-Carlton Orlando, Grande Lakes, FL":
+      - /url: "#"
+      - img "The Ritz-Carlton Orlando, Grande Lakes, FL"
+    - img "IPMI Human Resources Icon"
+    - generic: Sep 12
+    - generic: "-"
+    - generic: Sep 14, 2027
+    - link "Corporate Learning & Development Institute":
+      - /url: "#"
+    - link ".":
+      - /url: "#"
+    - heading "The Ritz-Carlton Orlando, Grande Lakes, FL" [level=2]
+    - link "Pre-Register Now ➜":
+      - /url: "#invite"
+    - link "":
+      - /url: "#"
+      - generic: 
+    - link "Four Seasons Hotel Westlake Village, CA":
+      - /url: "#"
+      - img "Four Seasons Hotel Westlake Village, CA"
+    - img "IPMI Healthcare Icon"
+    - generic: Sep 12
+    - generic: "-"
+    - generic: Sep 14, 2027
+    - link "Healthcare Law & Compliance Institute":
+      - /url: "#"
+    - link ".":
+      - /url: "#"
+    - heading "Four Seasons Hotel Westlake Village, CA" [level=2]
+    - link "Pre-Register Now ➜":
+      - /url: "#invite"
+    - link "":
+      - /url: "#"
+      - generic: 
+    - link "The Ritz-Carlton, Amelia Island, FL":
+      - /url: "#"
+      - img "The Ritz-Carlton, Amelia Island, FL"
+    - img "IPMI Healthcare Icon"
+    - generic: Sep 19
+    - generic: "-"
+    - generic: Sep 21, 2027
+    - link "Healthcare HR Management Institute":
+      - /url: "#"
+    - link ".":
+      - /url: "#"
+    - heading "The Ritz-Carlton, Amelia Island, FL" [level=2]
+    - link "Pre-Register Now ➜":
+      - /url: "#invite"
+    - link "":
+      - /url: "#"
+      - generic: 
+    - link "Four Seasons Hotel Westlake Village, CA":
+      - /url: "#"
+      - img "Four Seasons Hotel Westlake Village, CA"
+    - img "IPMI Legal Icon"
+    - generic: Oct 17
+    - generic: "-"
+    - generic: Oct 19, 2027
+    - link "IP Law & Management Institute":
+      - /url: "#"
+    - link ".":
+      - /url: "#"
+    - heading "Four Seasons Hotel Westlake Village, CA" [level=2]
+    - link "Pre-Register Now ➜":
+      - /url: "#invite"
+    - link "":
+      - /url: "#"
+      - generic: 
+    - link "The Ritz-Carlton, Amelia Island, FL":
+      - /url: "#"
+      - img "The Ritz-Carlton, Amelia Island, FL"
+    - img "IPMI Human Resources Icon"
+    - generic: Oct 17
+    - generic: "-"
+    - generic: Oct 19, 2027
+    - link "HR Management Institute":
+      - /url: "#"
+    - link ".":
+      - /url: "#"
+    - heading "The Ritz-Carlton, Amelia Island, FL" [level=2]
+    - link "Pre-Register Now ➜":
+      - /url: "#invite"
+    - link "":
+      - /url: "#"
+      - generic: 
+    - link "Four Seasons Hotel Westlake Village, CA":
+      - /url: "#"
+      - img "Four Seasons Hotel Westlake Village, CA"
+    - img "IPMI Healthcare Icon"
+    - generic: Nov 7
+    - generic: "-"
+    - generic: Nov 9, 2027
+    - link "Chief Nursing Institute":
+      - /url: "#"
+    - link ".":
+      - /url: "#"
+    - heading "Four Seasons Hotel Westlake Village, CA" [level=2]
+    - link "Pre-Register Now ➜":
+      - /url: "#invite"
+    - link "":
+      - /url: "#"
+      - generic: 
+    - link "Park Hyatt Aviara Resort, Carlsbad, CA":
+      - /url: "#"
+      - img "Park Hyatt Aviara Resort, Carlsbad, CA"
+    - img "IPMI Human Resources Icon"
+    - generic: Nov 7
+    - generic: "-"
+    - generic: Nov 9, 2027
+    - link "Corporate Wellness Institute":
+      - /url: "#"
+    - link ".":
+      - /url: "#"
+    - heading "Park Hyatt Aviara Resort, Carlsbad, CA" [level=2]
+    - link "Pre-Register Now ➜":
+      - /url: "#invite"
+    - link "":
+      - /url: "#"
+      - generic: 
+    - link "JW Marriott Parq, Vancouver, BC":
+      - /url: "#"
+      - img "JW Marriott Parq, Vancouver, BC"
+    - img "IPMI Human Resources Icon"
+    - generic: Nov 21
+    - generic: "-"
+    - generic: Nov 23, 2027
+    - link "HR Management Institute Canada":
+      - /url: "#"
+    - link ".":
+      - /url: "#"
+    - heading "JW Marriott Parq, Vancouver, BC" [level=2]
+    - link "Pre-Register Now ➜":
+      - /url: "#invite"
+  - heading "Excited for your next IPMI Institute? Pre-Register for an Institute below!" [level=1]:
+    - text: Excited for your next
+    - strong: IPMI Institute
+    - strong: "?"
+    - text: Pre-Register for an Institute below
+    - strong: "!"
+  - form "Attend Request":
+    - generic: Full Name
+    - textbox "Full Name"
+    - generic: 
+    - generic: E-mail Address
+    - textbox "Example@domain.com"
+    - generic: 
+    - generic: Phone number (optional)
+    - textbox "Phone number (optional)":
+      - /placeholder: Phone number
+    - generic: 
+    - generic: TITLE
+    - textbox "CEO, CTO etc."
+    - generic: 
+    - generic: Company / ORGANIZATION
+    - textbox "Example Co."
+    - generic: 
+    - generic: Company Size
+    - combobox:
+      - option "Select Company Size" [selected]
+      - option "< 1000 Employees"
+      - option "1000 - 1500 Employees"
+      - option "1500 - 2500 Employees"
+      - option "2500 - 5000 Employees"
+      - option "5000 - 10,000 Employees"
+      - option "10,000+ Employees"
+      - option "N/A"
+    - generic: 
+    - generic: Upcoming INSTITUTE
+    - combobox:
+      - option "Select Institute (Optional)" [selected]
+    - generic: 
+    - generic: Comments
+    - textbox "Comments"
+    - generic: 
+    - button "Register"
+  - contentinfo:
+    - link "Back To Top":
+      - /url: "#top"
+      - generic: 
+    - link "International Performance Management Institute.":
+      - /url: /
+      - img "International Performance Management Institute."
+    - list:
+      - generic: 
+      - link "info@ipmievents.com":
+        - /url: mailto:info@ipmievents.com
+      - generic: 
+      - link "(416) 628-4058":
+        - /url: tel:+14166284058
+      - generic: 
+      - text: 151 Bloor Street W.
+      - text: Toronto, ON
+      - text: Canada M5S1S4
+    - heading "Institutes" [level=6]:
+      - link "Institutes":
+        - /url: /institutes
+    - list:
+      - link "Upcoming Institutes":
+        - /url: /institutes
+      - link "Institute Insights":
+        - /url: /insights
+      - link "Recent Institutes":
+        - /url: /recent-institutes
+      - link "Institute Gallery":
+        - /url: /gallery
+      - link "What is an Institute?":
+        - /url: /faq#what-is-an-institute
+    - heading "Think Tanks & Roundtables" [level=6]:
+      - link "Think Tanks & Roundtables":
+        - /url: /thinktanks
+        - text: Think Tanks &
+        - text: Roundtables
+    - list:
+      - link "Upcoming Think Tanks":
+        - /url: /thinktanks
+      - link "Recent Think Tanks":
+        - /url: /thinktanks#recent
+      - link "What is a Think Tank?":
+        - /url: /faq#what-is-a-virtual-think-tank
+    - heading "About IPMI" [level=6]:
+      - link "About IPMI":
+        - /url: /about
+    - list:
+      - link "About IPMI":
+        - /url: /about
+      - link "Testimonials":
+        - /url: /testimonials
+      - link "FAQ":
+        - /url: /faq
+      - link "Attend an Institute":
+        - /url: /attend
+      - link "Speak at an Institute":
+        - /url: /attend#speak
+      - link "Partner with IPMI":
+        - /url: /attend#partner
+    - heading "Contact Us" [level=6]:
+      - link "Contact Us":
+        - /url: /contact
+    - list:
+      - link "Contact Us":
+        - /url: /contact
+    - heading "Connect" [level=6]
+    - list:
+      - link "IPMI LinkedIn":
+        - /url: https://www.linkedin.com/company/international-performance-management-institute-ipmi-/?originalSubdomain=ca
+        - generic: 
+  - generic: © International Performance Management Institute. All Rights Reserved.
+  - link "Privacy Policy":
+    - /url: /privacy
+  - text: "|"
+  - link "Terms and Conditions":
+    - /url: /terms
+- iframe [id="responsive-images-iframe"]:
+  - banner:
+    - link "home":
+      - /url: /
+      - img "International Performance Management Institute."
+    - link "Menu":
+      - /url: "#"
+  - heading "INSTITUTES ON THE HORIZON" [level=4]
+  - heading "Future Institutes Shaping Tomorrow’s Leaders." [level=1]
+  - generic: Get a sneak peek at our future events and request an early-bird registration for upcoming IPMI Institutes!
+  - img "A speaker presenting on stage at an IPMI Institute"
+  - img "Attendees engaging with a talk at an IPMI Institute"
+  - link "institutes on the horizon":
+    - /url: "#"
+  - heading "INSTITUTES ON THE HORIZON" [level=3]
+  - list:
+    - link:
+      - /url: "#"
+    - link "Four Seasons Hotel, Austin, TX":
+      - /url: "#"
+      - img "Four Seasons Hotel, Austin, TX"
+    - img "IPMI Environmental Icon"
+    - generic: Jan 24
+    - generic: "-"
+    - generic: Jan 26, 2027
+    - link "EHS Management Institute":
+      - /url: "#"
+    - link ".":
+      - /url: "#"
+    - heading "Four Seasons Hotel, Austin, TX" [level=2]
+    - link "Pre-Register Now ➜":
+      - /url: "#invite"
+    - link:
+      - /url: "#"
+    - link "The Ritz-Carlton Orlando, Grande Lakes, FL":
+      - /url: "#"
+      - img "The Ritz-Carlton Orlando, Grande Lakes, FL"
+    - img "IPMI Human Resources Icon"
+    - generic: Feb 21
+    - generic: "-"
+    - generic: Feb 23, 2027
+    - link "HR Management Institute":
+      - /url: "#"
+    - link ".":
+      - /url: "#"
+    - heading "The Ritz-Carlton Orlando, Grande Lakes, FL" [level=2]
+    - link "Pre-Register Now ➜":
+      - /url: "#invite"
+    - link:
+      - /url: "#"
+    - link "Four Seasons Hotel, Nashville, TN":
+      - /url: "#"
+      - img "Four Seasons Hotel, Nashville, TN"
+    - img "IPMI Healthcare Icon"
+    - generic: Feb 21
+    - generic: "-"
+    - generic: Feb 23, 2027
+    - link "Healthcare Law & Compliance Institute":
+      - /url: "#"
+    - link ".":
+      - /url: "#"
+    - heading "Four Seasons Hotel, Nashville, TN" [level=2]
+    - link "Pre-Register Now ➜":
+      - /url: "#invite"
+    - link:
+      - /url: "#"
+    - link "The Langham Huntington, Pasadena, CA":
+      - /url: "#"
+      - img "The Langham Huntington, Pasadena, CA"
+    - img "IPMI Healthcare Icon"
+    - generic: Mar 21
+    - generic: "-"
+    - generic: Mar 23, 2027
+    - link "Healthcare HR Management Institute":
+      - /url: "#"
+    - link ".":
+      - /url: "#"
+    - heading "The Langham Huntington, Pasadena, CA" [level=2]
+    - link "Pre-Register Now ➜":
+      - /url: "#invite"
+    - link:
+      - /url: "#"
+    - link "Four Seasons Hotel, Las Vegas, NV":
+      - /url: "#"
+      - img "Four Seasons Hotel, Las Vegas, NV"
+    - img "IPMI Human Resources Icon"
+    - generic: Mar 21
+    - generic: "-"
+    - generic: Mar 23, 2027
+    - link "Corporate Learning Development Institute":
+      - /url: "#"
+    - link ".":
+      - /url: "#"
+    - heading "Four Seasons Hotel, Las Vegas, NV" [level=2]
+    - link "Pre-Register Now ➜":
+      - /url: "#invite"
+    - link:
+      - /url: "#"
+    - link "Omni Barton Creek, Austin, TX":
+      - /url: "#"
+      - img "Omni Barton Creek, Austin, TX"
+    - img "IPMI Healthcare Icon"
+    - generic: Apr 11
+    - generic: "-"
+    - generic: Apr 13, 2027
+    - link "Healthcare Finance Institute":
+      - /url: "#"
+    - link ".":
+      - /url: "#"
+    - heading "Omni Barton Creek, Austin, TX" [level=2]
+    - link "Pre-Register Now ➜":
+      - /url: "#invite"
+    - link:
+      - /url: "#"
+    - link "JW Marriott The Rosseau Muskoka Resort & Spa, ON":
+      - /url: "#"
+      - img "JW Marriott The Rosseau Muskoka Resort & Spa, ON"
+    - img "IPMI Human Resources Icon"
+    - generic: Apr 25
+    - generic: "-"
+    - generic: Apr 27, 2027
+    - link "HR Management Institute Canada":
+      - /url: "#"
+    - link ".":
+      - /url: "#"
+    - heading "JW Marriott The Rosseau Muskoka Resort & Spa, ON" [level=2]
+    - link "Pre-Register Now ➜":
+      - /url: "#invite"
+    - link:
+      - /url: "#"
+    - link "The Ritz-Carlton, New Orleans, LA":
+      - /url: "#"
+      - img "The Ritz-Carlton, New Orleans, LA"
+    - img "IPMI Human Resources Icon"
+    - generic: May 16
+    - generic: "-"
+    - generic: May 18, 2027
+    - link "Talent Acquisition Institute":
+      - /url: "#"
+    - link ".":
+      - /url: "#"
+    - heading "The Ritz-Carlton, New Orleans, LA" [level=2]
+    - link "Pre-Register Now ➜":
+      - /url: "#invite"
+    - link:
+      - /url: "#"
+    - link "JW Marriott The Rosseau Muskoka Resort & Spa, ON":
+      - /url: "#"
+      - img "JW Marriott The Rosseau Muskoka Resort & Spa, ON"
+    - img "IPMI Human Resources Icon"
+    - generic: May 30
+    - generic: "-"
+    - generic: Jun 1, 2027
+    - link "Talent Acquisition & Employee Experience Institute Canada":
+      - /url: "#"
+    - link ".":
+      - /url: "#"
+    - heading "JW Marriott The Rosseau Muskoka Resort & Spa, ON" [level=2]
+    - link "Pre-Register Now ➜":
+      - /url: "#invite"
+    - link:
+      - /url: "#"
+    - link "The Ritz-Carlton, New Orleans, LA":
+      - /url: "#"
+      - img "The Ritz-Carlton, New Orleans, LA"
+    - img "IPMI Healthcare Icon"
+    - generic: Jun 6
+    - generic: "-"
+    - generic: Jun 8, 2027
+    - link "Healthcare IT Institute":
+      - /url: "#"
+    - link ".":
+      - /url: "#"
+    - heading "The Ritz-Carlton, New Orleans, LA" [level=2]
+    - link "Pre-Register Now ➜":
+      - /url: "#invite"
+    - link:
+      - /url: "#"
+    - link "Fairmont Miramar Hotel, Santa Monica, CA":
+      - /url: "#"
+      - img "Fairmont Miramar Hotel, Santa Monica, CA"
+    - img "IPMI Human Resources Icon"
+    - generic: Jun 6
+    - generic: "-"
+    - generic: Jun 8, 2027
+    - link "HR Management Institute":
+      - /url: "#"
+    - link ".":
+      - /url: "#"
+    - heading "Fairmont Miramar Hotel, Santa Monica, CA" [level=2]
+    - link "Pre-Register Now ➜":
+      - /url: "#invite"
+    - link:
+      - /url: "#"
+    - link "JW Marriott, Anaheim Resort, CA":
+      - /url: "#"
+      - img "JW Marriott, Anaheim Resort, CA"
+    - img "IPMI Environmental Icon"
+    - generic: Jul 25
+    - generic: "-"
+    - generic: Jul 27, 2027
+    - link "EHS Management Institute":
+      - /url: "#"
+    - link ".":
+      - /url: "#"
+    - heading "JW Marriott, Anaheim Resort, CA" [level=2]
+    - link "Pre-Register Now ➜":
+      - /url: "#invite"
+    - link:
+      - /url: "#"
+    - link "The Ritz-Carlton Orlando, Grande Lakes, FL":
+      - /url: "#"
+      - img "The Ritz-Carlton Orlando, Grande Lakes, FL"
+    - img "IPMI Human Resources Icon"
+    - generic: Sep 12
+    - generic: "-"
+    - generic: Sep 14, 2027
+    - link "Corporate Learning & Development Institute":
+      - /url: "#"
+    - link ".":
+      - /url: "#"
+    - heading "The Ritz-Carlton Orlando, Grande Lakes, FL" [level=2]
+    - link "Pre-Register Now ➜":
+      - /url: "#invite"
+    - link:
+      - /url: "#"
+    - link "Four Seasons Hotel Westlake Village, CA":
+      - /url: "#"
+      - img "Four Seasons Hotel Westlake Village, CA"
+    - img "IPMI Healthcare Icon"
+    - generic: Sep 12
+    - generic: "-"
+    - generic: Sep 14, 2027
+    - link "Healthcare Law & Compliance Institute":
+      - /url: "#"
+    - link ".":
+      - /url: "#"
+    - heading "Four Seasons Hotel Westlake Village, CA" [level=2]
+    - link "Pre-Register Now ➜":
+      - /url: "#invite"
+    - link:
+      - /url: "#"
+    - link "The Ritz-Carlton, Amelia Island, FL":
+      - /url: "#"
+      - img "The Ritz-Carlton, Amelia Island, FL"
+    - img "IPMI Healthcare Icon"
+    - generic: Sep 19
+    - generic: "-"
+    - generic: Sep 21, 2027
+    - link "Healthcare HR Management Institute":
+      - /url: "#"
+    - link ".":
+      - /url: "#"
+    - heading "The Ritz-Carlton, Amelia Island, FL" [level=2]
+    - link "Pre-Register Now ➜":
+      - /url: "#invite"
+    - link:
+      - /url: "#"
+    - link "Four Seasons Hotel Westlake Village, CA":
+      - /url: "#"
+      - img "Four Seasons Hotel Westlake Village, CA"
+    - img "IPMI Legal Icon"
+    - generic: Oct 17
+    - generic: "-"
+    - generic: Oct 19, 2027
+    - link "IP Law & Management Institute":
+      - /url: "#"
+    - link ".":
+      - /url: "#"
+    - heading "Four Seasons Hotel Westlake Village, CA" [level=2]
+    - link "Pre-Register Now ➜":
+      - /url: "#invite"
+    - link:
+      - /url: "#"
+    - link "The Ritz-Carlton, Amelia Island, FL":
+      - /url: "#"
+      - img "The Ritz-Carlton, Amelia Island, FL"
+    - img "IPMI Human Resources Icon"
+    - generic: Oct 17
+    - generic: "-"
+    - generic: Oct 19, 2027
+    - link "HR Management Institute":
+      - /url: "#"
+    - link ".":
+      - /url: "#"
+    - heading "The Ritz-Carlton, Amelia Island, FL" [level=2]
+    - link "Pre-Register Now ➜":
+      - /url: "#invite"
+    - link:
+      - /url: "#"
+    - link "Four Seasons Hotel Westlake Village, CA":
+      - /url: "#"
+      - img "Four Seasons Hotel Westlake Village, CA"
+    - img "IPMI Healthcare Icon"
+    - generic: Nov 7
+    - generic: "-"
+    - generic: Nov 9, 2027
+    - link "Chief Nursing Institute":
+      - /url: "#"
+    - link ".":
+      - /url: "#"
+    - heading "Four Seasons Hotel Westlake Village, CA" [level=2]
+    - link "Pre-Register Now ➜":
+      - /url: "#invite"
+    - link:
+      - /url: "#"
+    - link "Park Hyatt Aviara Resort, Carlsbad, CA":
+      - /url: "#"
+      - img "Park Hyatt Aviara Resort, Carlsbad, CA"
+    - img "IPMI Human Resources Icon"
+    - generic: Nov 7
+    - generic: "-"
+    - generic: Nov 9, 2027
+    - link "Corporate Wellness Institute":
+      - /url: "#"
+    - link ".":
+      - /url: "#"
+    - heading "Park Hyatt Aviara Resort, Carlsbad, CA" [level=2]
+    - link "Pre-Register Now ➜":
+      - /url: "#invite"
+    - link:
+      - /url: "#"
+    - link "JW Marriott Parq, Vancouver, BC":
+      - /url: "#"
+      - img "JW Marriott Parq, Vancouver, BC"
+    - img "IPMI Human Resources Icon"
+    - generic: Nov 21
+    - generic: "-"
+    - generic: Nov 23, 2027
+    - link "HR Management Institute Canada":
+      - /url: "#"
+    - link ".":
+      - /url: "#"
+    - heading "JW Marriott Parq, Vancouver, BC" [level=2]
+    - link "Pre-Register Now ➜":
+      - /url: "#invite"
+  - heading "Excited for your next IPMI Institute? Pre-Register for an Institute below!" [level=1]:
+    - text: Excited for your next
+    - strong: IPMI Institute
+    - strong: "?"
+    - text: Pre-Register for an Institute below
+    - strong: "!"
+  - form "Attend Request":
+    - generic: Full Name
+    - textbox "Full Name"
+    - generic: E-mail Address
+    - textbox "Example@domain.com"
+    - generic: Phone number (optional)
+    - textbox "Phone number (optional)":
+      - /placeholder: Phone number
+    - generic: TITLE
+    - textbox "CEO, CTO etc."
+    - generic: Company / ORGANIZATION
+    - textbox "Example Co."
+    - generic: Company Size
+    - combobox:
+      - option "Select Company Size" [selected]
+      - option "< 1000 Employees"
+      - option "1000 - 1500 Employees"
+      - option "1500 - 2500 Employees"
+      - option "2500 - 5000 Employees"
+      - option "5000 - 10,000 Employees"
+      - option "10,000+ Employees"
+      - option "N/A"
+    - generic: Upcoming INSTITUTE
+    - combobox:
+      - option "Select Institute (Optional)" [selected]
+    - generic: Comments
+    - textbox "Comments"
+    - button "Register"
+  - contentinfo:
+    - link "Back To Top":
+      - /url: "#top"
+    - link "International Performance Management Institute.":
+      - /url: /
+      - img "International Performance Management Institute."
+    - list:
+      - link "info@ipmievents.com":
+        - /url: mailto:info@ipmievents.com
+      - link "(416) 628-4058":
+        - /url: tel:+14166284058
+      - text: 151 Bloor Street W.
+      - text: Toronto, ON
+      - text: Canada M5S1S4
+    - link "View sitemap":
+      - /url: "#"
+    - link "Close sitemap":
+      - /url: "#"
+  - generic: © International Performance Management Institute. All Rights Reserved.
+  - link "Privacy Policy":
+    - /url: /privacy
+  - text: "|"
+  - link "Terms and Conditions":
+    - /url: /terms
+  - link "Close Menu":
+    - /url: "#"
+    - text: CLOSE
+  - button "Institutes":
+    - generic: Institutes
+  - button "Think Tanks & Roundtables":
+    - generic: Think Tanks & Roundtables
+  - button "About IPMI":
+    - generic: About IPMI
+  - link "Contact Us":
+    - /url: /contact
+  - link "Attend an Institute":
+    - /url: /attend
+- button "File menu button":
+- button "Design":
+  - generic: Design
+- button "CMS" [pressed]:
+  - generic: CMS
+- button "Insights":
+  - generic: Insights
+- generic: IPMI
+- button "IPMI Webmaster (active) on page Institutes on the Horizon":
+  - generic: IPMI Webmaster
+  - generic: IW
+- button "Preview (Alt + P)":
+- button "Share":
+  - generic: Share
+- heading "CMS Collections" [level=2]
+- button "More menu":
+- button "Create collection":
+- textbox "Search Collections":
+  - /placeholder: Search Collections...
+- status
+- button:
+- button "KBYG Content Blocks 43 items":
+  - generic: KBYG Content Blocks
+  - generic: 43 items
+- button:
+- button "KBYG Pages 4 items":
+  - generic: KBYG Pages
+  - generic: 4 items
+- button:
+- button "Institutes 103 items":
+  - generic: Institutes
+  - generic: 103 items
+- button:
+- button "Recaps 78 items":
+  - generic: Recaps
+  - generic: 78 items
+- button:
+- button "Think Tanks 36 items":
+  - generic: Think Tanks
+  - generic: 36 items
+- button:
+- button "Staff 12 items":
+  - generic: Staff
+  - generic: 12 items
+- button:
+- button "Speakers 2710 items":
+  - generic: Speakers
+  - generic: 2710 items
+- button:
+- button "Partners 571 items":
+  - generic: Partners
+  - generic: 571 items
+- button:
+- button "Accreditations 7 items":
+  - generic: Accreditations
+  - generic: 7 items
+- button:
+- button "Testimonials 69 items":
+  - generic: Testimonials
+  - generic: 69 items
+- button:
+- button "Downloads 967 items":
+  - generic: Downloads
+  - generic: 967 items
+- button:
+- button "Gallery Photos 79 items":
+  - generic: Gallery Photos
+  - generic: 79 items
+- button:
+- button "FAQs 8 items":
+  - generic: FAQs
+  - generic: 8 items
+- status
+- separator
+- heading "Ecommerce" [level=2]
+- button "Open":
+- heading "Institute Settings" [level=2]
+- heading [level=2]
+- button "Duplicate Collection":
+- button "Cancel":
+  - generic: Cancel
+- button "Save Collection":
+  - generic: Save Collection
+- generic: Collection Settings
+- generic: Collection ID
+- generic: 6392772fccd80e5128026020
+- button "Copy Collection ID":
+- generic: Collection Name
+- button:
+- textbox "E.g. Blog Posts": Institutes
+- generic: "Plural version:"
+- generic: Institutes
+- generic: "Singular version:"
+- generic: Institute
+- generic: Collection URL
+- button:
+- text: The name of the folder that your Institute pages will be stored in
+- textbox "E.g. post": institutes
+- generic: www.ipmievents.com/institutes/institute-page
+- button "Copy Collection URL":
+- generic: A Collection Page is created for Institutes in the Pages panel.
+- generic: Collaborators can create and edit Institutes in the Editor.
+- generic: Collection fields
+- button:
+- button "Add group":
+  - generic: Add group
+- separator
+- heading "Basic info" [level=3]:
+  - button "Basic info" [expanded]:
+    - generic: Basic info
+- region "Basic info":
+  - generic: Backend - Institute Label
+  - generic: (Plain text)
+  - generic: Required Field
+  - generic: URL Slug
+  - generic: (Plain text)
+  - generic: Required Field
+- separator
+- heading "Custom fields" [level=3]:
+  - button "Custom fields" [expanded]:
+    - generic: Custom fields
+- region "Custom fields":
+  - button "Reorder field":
+  - generic: Backend - Institute Year
+  - generic: (Number)
+  - generic: Required Field
+  - button "Reorder field":
+  - generic: Global - Institute Title (No Year)
+  - generic: (Plain text)
+  - generic: Required Field
+  - button "Reorder field":
+  - generic: Global - Institute Category
+  - generic: (Option)
+  - generic: Required Field
+  - button "Reorder field":
+  - generic: Global - Institute Accent Color
+  - generic: (Color)
+  - generic: Required Field
+  - button "Reorder field":
+  - generic: Global - Institute Dark Accent Color
+  - generic: (Color)
+  - generic: Required Field
+  - button "Reorder field":
+  - generic: Global - Start Date
+  - generic: (Date/Time)
+  - generic: Required Field
+  - button "Reorder field":
+  - generic: Global - End Date
+  - generic: (Date/Time)
+  - generic: Required Field
+  - button "Reorder field":
+  - generic: Global - Venue, City, State
+  - generic: (Plain text)
+  - generic: Required Field
+  - button "Reorder field":
+  - generic: Global - Address - Postal
+  - generic: (Plain text)
+  - generic: Required Field
+  - button "Reorder field":
+  - generic: Global - Tagline
+  - generic: (Plain text)
+  - generic: Required Field
+  - button "Reorder field":
+  - generic: Global - Institute Thumbnail
+  - generic: (Image)
+  - generic: Required Field
+  - button "Reorder field":
+  - generic: Attendees Section - Title
+  - generic: (Rich text)
+  - button "Reorder field":
+  - generic: "Attendees Section - # of Attendees"
+  - generic: (Plain text)
+  - button "Reorder field":
+  - generic: "Attendees Section - # of Speakers"
+  - generic: (Plain text)
+  - button "Reorder field":
+  - generic: "Attendees Section - # of Partners"
+  - generic: (Plain text)
+  - button "Reorder field":
+  - generic: Targets Section - Title
+  - generic: (Rich text)
+  - button "Reorder field":
+  - generic: Targets Section - Summary
+  - generic: (Rich text)
+  - button "Reorder field":
+  - generic: Targets Section - Institute Agenda Link
+  - generic: (Link)
+  - button "Reorder field":
+  - generic: Targets Section - Meet Your Team Staff
+  - generic: (Multi-reference)
+  - button "Reorder field":
+  - generic: Accreditations Section - Display Accreditations Section
+  - generic: (Switch)
+  - button "Reorder field":
+  - generic: Accreditations Section - Accreditations
+  - generic: (Multi-reference)
+  - button "Reorder field":
+  - generic: Featured Speakers - Display Featured Speakers Section
+  - generic: (Switch)
+  - button "Reorder field":
+  - generic: Featured Speakers - Title
+  - generic: (Rich text)
+  - button "Reorder field":
+  - generic: Featured Speakers - Description
+  - generic: (Plain text)
+  - button "Reorder field":
+  - generic: Institute Details - Google Maps Search Query
+  - generic: (Plain text)
+  - button "Reorder field":
+  - generic: Institute Details - Venue Image Thumbnails
+  - generic: (Multi-image)
+  - button "Reorder field":
+  - generic: Form - Institute Title
+  - generic: (Plain text)
+  - button "Reorder field":
+  - generic: Form - Attendee Request E-mail Address
+  - generic: (Email)
+  - generic: Required Field
+  - button "Reorder field":
+  - generic: Form - Speaker Request E-mail Address
+  - generic: (Email)
+  - button "Reorder field":
+  - generic: Form - Partner Request E-mail Address
+  - generic: (Email)
+  - button "Reorder field":
+  - generic: Recap
+  - generic: (Reference)
+  - button "Reorder field":
+  - generic: Use Legacy Advisors / Speakers
+  - generic: (Switch)
+  - button "Reorder field":
+  - generic: Legacy - Featured Speakers - Speakers
+  - generic: (Multi-reference)
+  - button "Reorder field":
+  - generic: Legacy - Advisory Committee - Members
+  - generic: (Multi-reference)
+  - button "Reorder field":
+  - generic: Legacy - Speaker Faculty - Speakers
+  - generic: (Multi-reference)
+  - button "Reorder field":
+  - generic: Use Legacy Partners
+  - generic: (Switch)
+  - button "Reorder field":
+  - generic: Legacy - Institute Partners - Sponsors
+  - generic: (Multi-reference)
+  - button "Reorder field":
+  - generic: On the Horizon
+  - generic: (Switch)
+  - button "Reorder field":
+  - generic: KBYG Hotel Intro
+  - generic: (Rich text)
+  - button "Reorder field":
+  - generic: Legacy - KBYG Reservation Details
+  - generic: (Rich text)
+  - button "Reorder field":
+  - generic: KBYG Reservation URL
+  - generic: (Link)
+  - button "Reorder field":
+  - generic: KBYG Transportation Details
+  - generic: (Rich text)
+  - button "Add Field":
+    - generic: Add Field
+- status
+- note:
+  - generic: 18/60 fields left.
+- generic: We also added Date Created, Date Edited and Date Published fields for you. You can use these to filter and sort Collection Lists in Webflow. These don't count against your field limit.
+- button "Delete Collection" [disabled]:
+  - generic: Delete Collection
+- button "View Connections":
+  - generic: View Connections
+- heading "Editor Preview" [level=2]
+- paragraph: This is the form that Collaborators will see when creating a new Institute
+- heading "Basic Info" [level=3]
+- generic: Backend - Institute Label *
+- generic: Used for backend filtering. Include year at the end. E.g. Healthcare IT Institute 2022.
+- generic: URL Slug *
+- generic: Website URL slug - Include year at end. (E.g. healthcare-it-2022)
+- generic: webflow.com/institutes/example
+- heading "Custom fields" [level=3]
+- generic: Backend - Institute Year *
+- generic: Used for backend filtering. E.g. 2022
+- generic: Global - Institute Title (No Year) *
+- generic: Title to be displayed on the frontend. Eg. Healthcare IT Institute
+- generic: Global - Institute Category *
+- generic: Institute Category - Used For Filtering
+- generic: Global - Institute Accent Color *
+- generic: Choose the accent color matching the institute's category. See Color Guide for more details.
+- generic: Global - Institute Dark Accent Color *
+- generic: Used for gradients - Choose the darker color pair matching the accent color.
+- generic: Global - Start Date *
+- generic: Institute Start Date (E.g. June 12, 2022)
+- generic: Global - End Date *
+- generic: Institute End Date (E.g. June 14, 2022)
+- generic: Global - Venue, City, State *
+- generic: E.g. La Cantera Resort & Spa, San Antonio, TX
+- generic: Global - Address - Postal *
+- generic: E..g. 16641 La Cantera Pkwy - 78256
+- generic: Global - Tagline *
+- generic: E.g. Aligning Strategy, Innovation and technology to effectively impact the care continuum
+- generic: Global - Institute Thumbnail *
+- generic: Thumbnail for the event (doubles as background for Hero section) - 1280px Width x 720px Height 16:9 (Displayed 640px Width x 360px Height). Compress with squoosh.app to Webp.
+- generic: Attendees Section - Title
+- generic: E.g. Bringing Healthcare IT Professionals Together to share best practices (Bold is Theme Color)
+- generic: "Attendees Section - # of Attendees"
+- generic: E.g. 75. (+) Symbol added automatically
+- generic: "Attendees Section - # of Speakers"
+- generic: E.g. 20. (+) Symbol added automatically
+- generic: "Attendees Section - # of Partners"
+- generic: E.g. 15. (+) Symbol added automatically
+- generic: Targets Section - Title
+- generic: E.g. Aligning Strategy, Innovation, and Technology to Effectively Impact the Care Continuum (Bold is Theme Color)
+- generic: Targets Section - Summary
+- generic: Overall Institute summary paragraphs
+- generic: Targets Section - Institute Agenda Link
+- generic: Link to the Institute Agenda PDF
+- generic: Targets Section - Meet Your Team Staff
+- generic: List of Staff to display in the 'Meet Your Team' section
+- generic: Accreditations Section - Display Accreditations Section
+- generic: Toggle display the Accreditations Section
+- generic: "No"
+- generic: Accreditations Section - Accreditations
+- generic: List of Accreditations
+- generic: Featured Speakers - Display Featured Speakers Section
+- generic: "No"
+- generic: Featured Speakers - Title
+- generic: E.g. Keynotes from our special guests (Bold is Theme Color)
+- generic: Featured Speakers - Description
+- generic: E.g. Our special guests presenting and providing valuable and personal insight you won't get anywhere else.
+- generic: Institute Details - Google Maps Search Query
+- generic: Include the venue name, city, and state. Eg. ('La Cantera Resort, San Antonio, TX') *DO NOT USE AN AMPERSAND (&)
+- generic: Institute Details - Venue Image Thumbnails
+- generic: Two images that will appear as square thumbnails in the bottom section. - 640px Width x 640px Height 1:1 (Displayed 320px Width x 320px Height 1:1) Compress with squoosh.app to Webp.
+- generic: Form - Institute Title
+- generic: The Institute Title to be displayed on form e-mail notifications. IE. "Healthcare Law & Compliance East"
+- generic: Form - Attendee Request E-mail Address *
+- generic: Staff e-mail address that Attendee Request submissions should be sent to.
+- generic: Form - Speaker Request E-mail Address
+- generic: Staff e-mail address that Speaker Request submissions should be sent to.
+- generic: Form - Partner Request E-mail Address
+- generic: Staff e-mail address that Partner Request submissions should be sent to.
+- generic: Recap
+- generic: Once recap is published, add reference to this Institute's recap here.
+- generic: Use Legacy Advisors / Speakers
+- generic: Enable to use the Multi-Reference Fields below to display Advisors / Speakers. Otherwise, will pull automatically from Speakers collection
+- generic: "No"
+- generic: Legacy - Featured Speakers - Speakers
+- generic: List of Featured Speakers
+- generic: Legacy - Advisory Committee - Members
+- generic: List of Committee Advisors
+- generic: Legacy - Speaker Faculty - Speakers
+- generic: List of speakers
+- generic: Use Legacy Partners
+- generic: Enable to use the Multi-Reference Fields below to display Partners. Otherwise, will pull automatically from Partners collection
+- generic: "No"
+- generic: Legacy - Institute Partners - Sponsors
+- generic: List of Institute Partners
+- generic: On the Horizon
+- generic: Enable if this Institute is 'On the Horizon' (aka in the future without full details yet). Switch off once the Institute has all the details input.
+- generic: "No"
+- generic: KBYG Hotel Intro
+- generic: Legacy - KBYG Reservation Details
+- generic: Backup only. Edit reservation instructions in CMS > KBYG Pages > the relevant page > KBYG Reservation Details. The updated KBYG template uses the page-level field.
+- generic: KBYG Reservation URL
+- generic: KBYG Transportation Details
+- region "Notifications Alt+T"
+- status
+- status
+- status: 1Password menu is available. Press down arrow to select.

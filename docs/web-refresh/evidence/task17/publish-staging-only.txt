@@ -1,0 +1,83 @@
+g
+- generic: Normal
+- generic: Opacity
+- slider: "100"
+- textbox:
+  - /placeholder: "100"
+- generic: "%"
+- button:
+- generic: Outline
+- radiogroup:
+- generic: Box shadows
+- button:
+- generic: 2D & 3D transforms
+- button:
+- generic: Transitions
+- button:
+- generic: Filters
+- button:
+- generic: Backdrop filters
+- button:
+- generic: Cursor
+- text: auto
+- generic: Events
+- radiogroup:
+  - generic: Auto
+  - generic: None
+- generic: Custom properties
+- button:
+  - generic: Add
+- button:
+- button [disabled]:
+- separator
+- button:
+  - generic: Body
+- button:
+  - generic: Container
+- button:
+  - generic: chair-sponsor
+- button:
+  - generic: chair-sponsor-heading
+- button:
+  - generic: 1279px
+- button:
+- button:
+- button:
+- button [pressed]:
+- button:
+- button:
+- button:
+- button:
+- button: Dismiss
+- dialog:
+  - generic: Choose publish destination
+  - heading "Staging" [level=2]
+  - list:
+    - checkbox "ipmi.webflow.io Open in new tab" [checked] [active]
+    - generic: ipmi.webflow.io
+    - link "Open in new tab":
+      - /url: https://ipmi.webflow.io/institutes/healthcare-gci-oct-2026
+    - generic: Published 34 minutes ago
+    - generic: •
+    - link "Unpublish domain":
+      - /url: "#"
+  - heading "Production" [level=2]
+  - list:
+    - checkbox "www.ipmievents.com Open in new tab"
+    - generic: www.ipmievents.com
+    - link "Open in new tab":
+      - /url: https://www.ipmievents.com/institutes/healthcare-gci-oct-2026
+    - generic: Published 8 hours ago
+    - generic: •
+    - link "Unpublish domain":
+      - /url: "#"
+  - generic: Advanced publishing options
+  - button "2+ issues to improve on this page":
+    - generic: 2+
+    - text: issues to improve on this page
+  - button "Close":
+    - generic: Close
+  - button "Publish to selected domains":
+    - generic: Publish to selected domains
+- button: Dismiss
+- status: 1Password menu is available. Press down arrow to select.

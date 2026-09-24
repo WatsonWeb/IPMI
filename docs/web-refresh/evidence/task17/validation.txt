@@ -1,0 +1,10 @@
+Task 17 validation, September 24, 2026
+vp fmt --check: PASS for task17/master/PLACEHOLDERS/evidence Markdown and JSON (7 files).
+Local links in task17 document and evidence README: PASS.
+git diff --check: PASS.
+PNG dimensions: desktop staging 1912x970; mobile staging 390x844; boundary Designer 1912x970 (393px canvas); placeholder200x200; before and publish screenshots1912x970.
+Native textarea201-character attempt retained200; empty paragraph display:none and0x0; intended165-character final copy restored.
+Root read-only schema/CMS/canonical staging review: PASS; see root-verification.json.
+Protected ipmi-custom-styles.css SHA25680EF3C254BEF30F97398B63B0888A934085BB9B371CE4EE74E2E6B20BEFE4496 unchanged.
+Full vp run verify not claimed: known accumulated documentation formatting failures remain task37. Native-only feature; no local runtime code changed.
+Chrome viewport reset; native canvas restored992px/base. No CDP device metrics set. Only two owned QA tabs closed; user Designer preserved; Chrome released to root.
