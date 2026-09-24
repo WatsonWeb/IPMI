@@ -1,0 +1,413 @@
+- button:
+- button:
+- generic: Desktop
+- generic: Affects all resolutions
+- iframe [id="site-iframe-next"]:
+  - banner:
+    - link "home":
+      - /url: /
+      - img "International Performance Management Institute."
+    - navigation:
+      - link "Institutes ":
+        - /url: /institutes
+      - link "Upcoming Institutes":
+        - /url: /institutes
+      - link "Institute Insights":
+        - /url: /insights
+      - link "Recent Institutes":
+        - /url: /recent-institutes
+      - link "Institute Gallery":
+        - /url: /gallery
+      - link "What is an Institute?":
+        - /url: /faq#what-is-an-institute
+      - link "Think Tanks & Roundtables ":
+        - /url: /thinktanks
+      - link "Upcoming Think Tanks & Roundtables":
+        - /url: /thinktanks
+      - link "Recent Think Tanks & Roundtables":
+        - /url: /thinktanks#recent
+      - link "What is a Think Tank?":
+        - /url: /faq#what-is-a-think-tank
+      - link "About IPMI ":
+        - /url: /about
+      - link "About IPMI":
+        - /url: /about
+      - link "Testimonials":
+        - /url: /testimonials
+      - link "FAQ":
+        - /url: /faq
+      - link "Attend an Institute":
+        - /url: /attend
+      - link "Speak at an Institute":
+        - /url: /attend#speak
+      - link "Partner with IPMI":
+        - /url: /attend#partner
+      - link "Contact Us":
+        - /url: /contact
+      - link "Attend an institute":
+        - /url: /attend
+  - main:
+    - generic "Know Before You Go.":
+      - paragraph: 2027-11-21 – 2027-11-23
+      - heading "Know Before You Go." [level=1]:
+        - text: Know Before You
+        - strong: Go.
+      - paragraph: HR Management Institute Canada
+      - paragraph: JW Marriott Parq, Vancouver, BC
+      - paragraph: Placeholder — This Sponsor guide is awaiting Operations confirmation.
+      - link "VIEW INSTITUTE GUIDE":
+        - /url: "#welcome"
+    - navigation "On this page":
+      - list:
+        - link "WELCOME":
+          - /url: "#welcome"
+        - link "PREPARE":
+          - /url: "#prepare"
+        - link "DATES":
+          - /url: "#key-dates"
+        - link "AGENDA":
+          - /url: "#agenda"
+        - link "HUB":
+          - /url: "#hub"
+        - link "HOTEL":
+          - /url: "#hotel-travel"
+        - link "MEETINGS":
+          - /url: "#experience"
+        - link "SUPPORT":
+          - /url: "#sponsor-support"
+        - link "CONTACT":
+          - /url: "#contact"
+      - text: ▾ ▾
+    - region "Your Sponsor guide.":
+      - paragraph: WELCOME
+      - heading "Your Sponsor guide." [level=2]
+      - paragraph: Placeholder — Event arrangements and instructions are awaiting Operations confirmation.
+      - paragraph: Placeholder — Sponsor welcome information is awaiting Operations confirmation.
+      - complementary "Operations lead":
+        - paragraph: YOUR OPERATIONS LEAD
+        - paragraph: IPMI
+        - list
+    - paragraph: BEFORE YOU ARRIVE
+    - heading "Preparing for your Institute." [level=2]
+    - paragraph: Placeholder — Sponsor preparation instructions are awaiting Operations confirmation.
+    - generic: Check back soon for preparation details!
+    - paragraph: MARK YOUR CALENDAR
+    - heading "Key Dates & Deliverables." [level=2]
+    - paragraph: Placeholder — Sponsor deadlines are awaiting Operations confirmation.
+    - link "VIEW ALL KEY DATES":
+      - /url: "#hub"
+    - generic: Check back soon for Key Dates & Deliverables!
+    - region "Institute Agenda":
+      - paragraph: EVENT PROGRAM
+      - heading "Institute Agenda" [level=2]
+      - paragraph: Placeholder — The event agenda is awaiting Operations confirmation.
+      - generic: Check back soon for the Institute agenda!
+    - paragraph: EVENT ACCESS
+    - heading "Sponsor Hub." [level=2]
+    - paragraph: Placeholder — Sponsor MeetMax access and login instructions are awaiting Operations confirmation.
+    - region "Hotel & Travel.":
+      - paragraph: HOTEL & TRAVEL
+      - heading "Hotel & Travel." [level=2]
+      - iframe
+      - article:
+        - heading "JW Marriott Parq, Vancouver, BC" [level=3]
+        - paragraph: 39 Smithe St, Vancouver BC V6B 0R3
+      - article:
+        - heading "Hotel Reservations" [level=3]
+        - paragraph: Placeholder — Sponsor reservation instructions, eligibility, rates and deadlines are awaiting Operations confirmation.
+      - article:
+        - heading "Transportation" [level=3]
+    - paragraph: YOUR EXPERIENCE
+    - heading "Your Institute Experience." [level=2]
+    - paragraph: Placeholder — Sponsor experience details are awaiting Operations confirmation.
+    - complementary "How Meetings Are Scheduled":
+      - heading "How Meetings Are Scheduled" [level=3]
+      - generic: Check back soon for business meetings and onsite experience details!
+    - generic: Check back soon for business meetings and onsite experience details!
+    - region "Sponsor Support.":
+      - paragraph: SPONSOR SUPPORT
+      - heading "Sponsor Support." [level=2]
+      - paragraph: Placeholder — Sponsor support instructions and destination are awaiting Operations confirmation.
+    - region "Questions Before You Go?":
+      - paragraph: OPERATIONS CONTACT
+      - heading "Questions Before You Go?" [level=2]
+      - paragraph: Placeholder — The Operations contact is awaiting confirmation.
+      - complementary "Contact your Operations Lead":
+        - paragraph: YOUR OPERATIONS LEAD
+        - list
+  - contentinfo:
+    - link "Back To Top":
+      - /url: "#top"
+      - generic: 
+    - link "International Performance Management Institute.":
+      - /url: /
+      - img "International Performance Management Institute."
+    - list:
+      - generic: 
+      - link "info@ipmievents.com":
+        - /url: mailto:info@ipmievents.com
+      - generic: 
+      - link "(416) 628-4058":
+        - /url: tel:+14166284058
+      - generic: 
+      - text: 151 Bloor Street W.
+      - text: Toronto, ON
+      - text: Canada M5S1S4
+    - heading "Institutes" [level=6]:
+      - link "Institutes":
+        - /url: /institutes
+    - list:
+      - link "Upcoming Institutes":
+        - /url: /institutes
+      - link "Institute Insights":
+        - /url: /insights
+      - link "Recent Institutes":
+        - /url: /recent-institutes
+      - link "Institute Gallery":
+        - /url: /gallery
+      - link "What is an Institute?":
+        - /url: /faq#what-is-an-institute
+    - heading "Think Tanks & Roundtables" [level=6]:
+      - link "Think Tanks & Roundtables":
+        - /url: /thinktanks
+        - text: Think Tanks &
+        - text: Roundtables
+    - list:
+      - link "Upcoming Think Tanks":
+        - /url: /thinktanks
+      - link "Recent Think Tanks":
+        - /url: /thinktanks#recent
+      - link "What is a Think Tank?":
+        - /url: /faq#what-is-a-virtual-think-tank
+    - heading "About IPMI" [level=6]:
+      - link "About IPMI":
+        - /url: /about
+    - list:
+      - link "About IPMI":
+        - /url: /about
+      - link "Testimonials":
+        - /url: /testimonials
+      - link "FAQ":
+        - /url: /faq
+      - link "Attend an Institute":
+        - /url: /attend
+      - link "Speak at an Institute":
+        - /url: /attend#speak
+      - link "Partner with IPMI":
+        - /url: /attend#partner
+    - heading "Contact Us" [level=6]:
+      - link "Contact Us":
+        - /url: /contact
+    - list:
+      - link "Contact Us":
+        - /url: /contact
+    - heading "Connect" [level=6]
+    - list:
+      - link "IPMI LinkedIn":
+        - /url: https://www.linkedin.com/company/international-performance-management-institute-ipmi-/?originalSubdomain=ca
+        - generic: 
+  - generic: © International Performance Management Institute. All Rights Reserved.
+  - link "Privacy Policy":
+    - /url: /privacy
+  - text: "|"
+  - link "Terms and Conditions":
+    - /url: /terms
+- iframe [id="responsive-images-iframe"]
+- button:
+- button [pressed]:
+  - generic: Design
+- button:
+  - generic: CMS
+- button:
+  - generic: Insights
+- button:
+  - generic: EN-US
+- separator
+- button:
+  - generic: 220. HR Can 2027 Sponsor
+- button:
+  - generic: Published
+- button:
+  - generic: IPMI Webmaster
+  - generic: IW
+- button:
+- button:
+- button:
+  - generic: Share
+- button:
+  - button:
+    - generic: Publish
+- button:
+- button:
+- button:
+- separator
+- button:
+- button:
+- button:
+- button:
+- button:
+- button:
+- separator
+- button:
+- button:
+- button:
+- button:
+- button:
+- button:
+- button:
+- heading [level=2]: Navigator
+- button:
+- button:
+- generic: Body
+- generic: Custom Styles
+- generic: kbyg-page
+- generic: Desktop Navigation
+- generic: Main
+- generic: kbyg-hero
+- generic: kbyg-hero__backdrop
+- generic: kbyg-container
+- generic: kbyg-curve
+- generic: kbyg-jump
+- generic: kbyg-section
+- generic: kbyg-curve
+- generic: kbyg-section
+- generic: kbyg-curve
+- generic: kbyg-section
+- generic: kbyg-curve
+- generic: kbyg-section
+- generic: kbyg-curve
+- generic: kbyg-section
+- generic: kbyg-curve
+- generic: kbyg-section
+- generic: kbyg-curve
+- generic: kbyg-section
+- generic: kbyg-curve
+- generic: kbyg-section
+- generic: kbyg-section
+- generic: kbyg-curve
+- generic: kbyg-section
+- generic: kbyg-curve
+- generic: Footer
+- generic: Mobile Navigation
+- generic: KBYG Orlando skyline
+- generic: KBYG Orlando skyline
+- button:
+- generic: Style
+- generic: Settings
+- generic: Interactions
+- generic: ID
+- textbox:
+  - /placeholder: For in-page linking
+- button:
+- generic: Visibility
+- generic: Conditional
+- text: If Institute =
+- generic: HCHR Sept 2026
+- generic: Visible
+- generic: Image settings
+- generic: Image
+- generic: KBYG Orlando skyline
+- generic: 1920 x 828px
+- button:
+  - generic: Replace Image...
+- button:
+- checkbox
+- generic: HiDPI image
+- checkbox
+- checkbox: Disable responsiveness
+- generic: Width
+- textbox:
+  - /placeholder: Auto
+  - text: Auto
+- generic: "-"
+- generic: Height
+- textbox:
+  - /placeholder: Auto
+  - text: Auto
+- generic: "-"
+- generic: Alt Text
+- combobox:
+  - generic: Use alt text from asset
+- button:
+- generic: Type
+- generic: "Lazy: loads on scroll"
+- generic: Dynamic Style Settings
+- text: Get BG Image from
+- text: KBYG Pages
+- text: Get BG Color from
+- text: KBYG Pages
+- text: Get Border Color from
+- text: KBYG Pages
+- generic: Apps
+- generic: Connected Apps
+- button:
+- generic: Custom attributes
+- generic: Attributes
+- button:
+- generic: Advanced
+- checkbox
+- generic: Keep in HTML when hidden
+- checkbox [checked]
+- generic: Allow users to edit this element in edit mode and the Editor
+- checkbox
+- generic: Exclude Image’s content from site search results
+- button:
+- button [disabled]:
+- separator
+- button:
+  - generic: Body
+- button:
+  - generic: kbyg-hero
+- button:
+  - generic: kbyg-hero__backdrop
+- button:
+  - generic: KBYG Orlando skyline
+- button:
+  - generic: 1279px
+- button:
+- button:
+- button:
+- button [pressed]:
+- button:
+- button:
+- button:
+- button:
+- dialog:
+  - generic: Visibility conditions
+  - button "Delete conditional":
+  - generic: If
+  - combobox:
+    - generic: all
+  - generic: conditions in this group are true
+  - button "Institute":
+    - generic: Institute
+  - combobox:
+    - generic: is any
+  - generic: HCHR Sept 2026
+  - button "Remove HCHR Sept 2026":
+  - combobox [active]
+  - button "Toggle options":
+  - button "New condition":
+    - generic: New condition
+  - separator
+  - generic: Visibility
+  - radiogroup:
+    - radio "Visible" [checked]:
+      - generic: Visible
+    - radio "Hidden":
+      - generic: Hidden
+  - button:
+  - status
+  - separator
+  - button "New group":
+    - generic: New group
+  - separator
+  - generic: Else
+  - generic: Visibility
+  - radiogroup:
+    - radio "Visible":
+      - generic: Visible
+    - radio "Hidden" [checked]:
+      - generic: Hidden
+  - button:
+- status: 1Password menu is available. Press down arrow to select.

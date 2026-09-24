@@ -1,0 +1,410 @@
+{
+  "anchors": [
+    "top",
+    "w-nav-overlay-0",
+    "kbyg-page-title",
+    "kbyg-jump-label-delegate",
+    "kbyg-jump-select-delegate",
+    "welcome",
+    "kbyg-welcome-title",
+    "prepare",
+    "kbyg-prepare-title-delegate",
+    "key-dates",
+    "kbyg-key-dates-title-delegate",
+    "kbyg-dates-1-1",
+    "agenda",
+    "kbyg-agenda-title",
+    "hub",
+    "kbyg-hub-title-delegate",
+    "hotel-travel",
+    "kbyg-travel-title",
+    "experience",
+    "kbyg-experience-title-delegate",
+    "faq",
+    "kbyg-faq-title",
+    "contact",
+    "kbyg-contact-title",
+    "w-node-fe321ed4-51e3-f8e5-4b6b-0d079b2b7eb6-9b2b7eae",
+    "footer-button",
+    "w-dropdown-toggle-0",
+    "w-dropdown-list-0",
+    "w-dropdown-toggle-1",
+    "w-dropdown-list-1",
+    "w-dropdown-toggle-2",
+    "w-dropdown-list-2"
+  ],
+  "audience": "delegate",
+  "client": 1440,
+  "colors": {
+    "primary": ""
+  },
+  "emptyNotices": [
+    "Check back soon for hotel reservation details!",
+    "Check back soon for transportation details!"
+  ],
+  "images": [
+    {
+      "alt": "International Performance Management Institute.",
+      "src": "https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/63281aeafc3ab3e21d7c05ec_IPMI-Logo-Light.svg"
+    },
+    {
+      "alt": "Attendee viewing the Know Before You Go event app in a hotel lobby",
+      "src": "https://cdn.prod.website-files.com/6312ee46f4c52faf21ee8ab5/6ab42c78b94c2e08f98100ff_KBYG%20Header%20Image%201.webp"
+    },
+    {
+      "alt": "",
+      "src": "https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/638989f342ab4a19e6bc4aad_IPMI-Environmental-Icon.svg"
+    },
+    {
+      "alt": "Tori Di Clemente",
+      "src": "https://cdn.prod.website-files.com/6312ee46f4c52faf21ee8ab5/6866ae689b6b08875ec01a50_Tori%20Di%20Clemente%20Bnw%20Photo.jpg"
+    },
+    {
+      "alt": "Attendee using a tablet while colleagues meet in a hotel lounge",
+      "src": "https://cdn.prod.website-files.com/6312ee46f4c52faf21ee8ab5/6ab42de9dde757f1bc0c9b73_KBYG%20Delegate%20Hub%20Photo.webp"
+    },
+    {
+      "alt": "Tori Di Clemente",
+      "src": "https://cdn.prod.website-files.com/6312ee46f4c52faf21ee8ab5/6866ae689b6b08875ec01a50_Tori%20Di%20Clemente%20Bnw%20Photo.jpg"
+    },
+    {
+      "alt": "International Performance Management Institute.",
+      "src": "https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6327f8231c814d48b97873a8_Asset%201.svg"
+    }
+  ],
+  "links": [
+    {
+      "href": "/",
+      "text": ""
+    },
+    {
+      "href": "/institutes",
+      "text": "Institutes "
+    },
+    {
+      "href": "/institutes",
+      "text": "Upcoming Institutes"
+    },
+    {
+      "href": "/insights",
+      "text": "Institute Insights"
+    },
+    {
+      "href": "/recent-institutes",
+      "text": "Recent Institutes"
+    },
+    {
+      "href": "/gallery",
+      "text": "Institute Gallery"
+    },
+    {
+      "href": "/faq#what-is-an-institute",
+      "text": "What is an Institute?"
+    },
+    {
+      "href": "/thinktanks",
+      "text": "Think Tanks & Roundtables "
+    },
+    {
+      "href": "/thinktanks",
+      "text": "Upcoming Think Tanks & Roundtables"
+    },
+    {
+      "href": "/thinktanks#recent",
+      "text": "Recent Think Tanks & Roundtables"
+    },
+    {
+      "href": "/faq#what-is-a-think-tank",
+      "text": "What is a Think Tank?"
+    },
+    {
+      "href": "/about",
+      "text": "About IPMI "
+    },
+    {
+      "href": "/about",
+      "text": "About IPMI"
+    },
+    {
+      "href": "/testimonials",
+      "text": "Testimonials"
+    },
+    {
+      "href": "/faq",
+      "text": "FAQ"
+    },
+    {
+      "href": "/attend",
+      "text": "Attend an Institute"
+    },
+    {
+      "href": "/attend#speak",
+      "text": "Speak at an Institute"
+    },
+    {
+      "href": "/attend#partner",
+      "text": "Partner with IPMI"
+    },
+    {
+      "href": "/contact",
+      "text": "Contact Us"
+    },
+    {
+      "href": "/attend",
+      "text": "ATTEND AN INSTITUTE"
+    },
+    {
+      "href": "#welcome",
+      "text": "VIEW INSTITUTE GUIDE"
+    },
+    {
+      "href": "#welcome",
+      "text": "WELCOME"
+    },
+    {
+      "href": "#prepare",
+      "text": "PREPARE"
+    },
+    {
+      "href": "#key-dates",
+      "text": "DATES"
+    },
+    {
+      "href": "#agenda",
+      "text": "AGENDA"
+    },
+    {
+      "href": "#hub",
+      "text": "HUB"
+    },
+    {
+      "href": "#hotel-travel",
+      "text": "HOTEL"
+    },
+    {
+      "href": "#experience",
+      "text": "EXPERIENCE"
+    },
+    {
+      "href": "#faq",
+      "text": "FAQ"
+    },
+    {
+      "href": "#contact",
+      "text": "CONTACT"
+    },
+    {
+      "href": "tel:647.825.8940",
+      "text": "647.825.8940"
+    },
+    {
+      "href": "mailto:tdiclemente@ipmievents.com",
+      "text": "tdiclemente@ipmievents.com"
+    },
+    {
+      "href": "#",
+      "text": "ADD TO CALENDAR"
+    },
+    {
+      "href": "#",
+      "text": "ADD TO CALENDAR"
+    },
+    {
+      "href": "#",
+      "text": "ADD TO CALENDAR"
+    },
+    {
+      "href": "#",
+      "text": "ADD TO CALENDAR"
+    },
+    {
+      "href": "mailto:tdiclemente@ipmievents.com",
+      "text": "OPEN ATTENDEE HUB"
+    },
+    {
+      "href": "https://www.google.com/maps/search/?api=1&query=98%20San%20Jacinto%20Blvd%2C%20Austin%2C%20TX%2078701%2C%20United%20States",
+      "text": "98 San Jacinto Blvd, Austin, TX 78701, United States"
+    },
+    {
+      "href": "tel:647.825.8940",
+      "text": "647.825.8940"
+    },
+    {
+      "href": "mailto:tdiclemente@ipmievents.com",
+      "text": "tdiclemente@ipmievents.com"
+    },
+    {
+      "href": "#top",
+      "text": ""
+    },
+    {
+      "href": "/",
+      "text": ""
+    },
+    {
+      "href": "mailto:info@ipmievents.com",
+      "text": "info@ipmievents.com"
+    },
+    {
+      "href": "tel:+14166284058",
+      "text": "(416) 628-4058"
+    },
+    {
+      "href": "/institutes",
+      "text": "INSTITUTES"
+    },
+    {
+      "href": "/institutes",
+      "text": "Upcoming Institutes"
+    },
+    {
+      "href": "/insights",
+      "text": "Institute Insights"
+    },
+    {
+      "href": "/recent-institutes",
+      "text": "Recent Institutes"
+    },
+    {
+      "href": "/gallery",
+      "text": "Institute Gallery"
+    },
+    {
+      "href": "/faq#what-is-an-institute",
+      "text": "What is an Institute?"
+    },
+    {
+      "href": "/thinktanks",
+      "text": "THINK TANKS &\nROUNDTABLES"
+    },
+    {
+      "href": "/thinktanks",
+      "text": "Upcoming Think Tanks"
+    },
+    {
+      "href": "/thinktanks#recent",
+      "text": "Recent Think Tanks"
+    },
+    {
+      "href": "/faq#what-is-a-virtual-think-tank",
+      "text": "What is a Think Tank?"
+    },
+    {
+      "href": "/about",
+      "text": "ABOUT IPMI"
+    },
+    {
+      "href": "/about",
+      "text": "About IPMI"
+    },
+    {
+      "href": "/testimonials",
+      "text": "Testimonials"
+    },
+    {
+      "href": "/faq",
+      "text": "FAQ"
+    },
+    {
+      "href": "/attend",
+      "text": "Attend an Institute"
+    },
+    {
+      "href": "/attend#speak",
+      "text": "Speak at an Institute"
+    },
+    {
+      "href": "/attend#partner",
+      "text": "Partner with IPMI"
+    },
+    {
+      "href": "/contact",
+      "text": "CONTACT US"
+    },
+    {
+      "href": "/contact",
+      "text": "Contact Us"
+    },
+    {
+      "href": "https://www.linkedin.com/company/international-performance-management-institute-ipmi-/?originalSubdomain=ca",
+      "text": ""
+    },
+    {
+      "href": "/privacy",
+      "text": "Privacy Policy"
+    },
+    {
+      "href": "/terms",
+      "text": "Terms and Conditions"
+    }
+  ],
+  "robots": "noindex,follow",
+  "scroll": 1440,
+  "sections": [
+    {
+      "height": 503.25,
+      "id": "welcome"
+    },
+    {
+      "height": 329.796875,
+      "id": "prepare"
+    },
+    {
+      "height": 529,
+      "id": "key-dates"
+    },
+    {
+      "height": 293.796875,
+      "id": "agenda"
+    },
+    {
+      "height": 531,
+      "id": "hub"
+    },
+    {
+      "height": 799,
+      "id": "hotel-travel"
+    },
+    {
+      "height": 520,
+      "id": "experience"
+    },
+    {
+      "height": 320.796875,
+      "id": "faq"
+    },
+    {
+      "height": 394.59375,
+      "id": "contact"
+    }
+  ],
+  "text": "Institutes \nUpcoming Institutes\nInstitute Insights\nRecent Institutes\nInstitute Gallery\nWhat is an Institute?\nThink Tanks & Roundtables \nUpcoming Think Tanks & Roundtables\nRecent Think Tanks & Roundtables\nWhat is a Think Tank?\nAbout IPMI \nAbout IPMI\nTestimonials\nFAQ\nAttend an Institute\nSpeak at an Institute\nPartner with IPMI\nContact Us\nATTEND AN INSTITUTE\n\nJANUARY 24-26, 2027\n\nKnow Before You Go.\n\n2027 EHS Management Institute\n\nFour Seasons Hotel, Austin, TX\n\nYour essential guide to event preparation, travel, timing, and everything you need to arrive confident and ready for the connections ahead.\n\nVIEW INSTITUTE GUIDE\nWELCOME\nPREPARE\nDATES\nAGENDA\nHUB\nHOTEL\nEXPERIENCE\nFAQ\nCONTACT\n\nWELCOME\n\nWelcome, we’re excited to see you soon!\n\nEverything you need to prepare, travel, and arrive ready is gathered here in one focused guide, making the weeks before the Institute feel clear, organized, and manageable.\n\nPlaceholder - Operations copy pending.\n\nYOUR OPERATIONS LEAD\n\nTori Di Clemente\n\nEvent Operations Manager\n\nIPMI\n\n647.825.8940\ntdiclemente@ipmievents.com\n\nBEFORE YOU ARRIVE\n\nPreparing for your Institute.\n\nPlaceholder — Delegate preparation instructions are awaiting Operations confirmation.\n\nCheck back soon for preparation details!\n\nMARK YOUR CALENDAR\n\nKey Dates & Deliverables.\n\nYour profile, hotel, and schedule milestones—sequenced from first login through arrival.\n\nDEC\n19\nAttendee Profile Due\n\nFriday, December 18, 2026\n\nADD TO CALENDAR\nDEC\n19\nTravel Details Due\n\nFriday, December 18, 2026\n\nADD TO CALENDAR\nJAN\n14\nItinerary Selections Due\n\nWednesday, January 13, 2027\n\nADD TO CALENDAR\nJAN\n15\nHotel Confirmation Numbers\n\nThursday, January 14, 2027\n\nADD TO CALENDAR\n\nPLAN YOUR DAILY SCHEDULE\n\nAgenda At-A-Glance.\n\nPlaceholder — The event agenda is awaiting Operations confirmation.\n\nCheck back soon for the Institute agenda!\n\nYOUR DIGITAL HOME BASE\n\nAttendee Hub.\n\nThe Attendee Hub is your central resource for all event-related information. Through the Hub, you can review key dates and deliverables, submit your Attendee Profile questionnaire and hotel requirements, build your personalized itinerary, and access important event information and resources.\n\nAttendee Hub login credentials are provided by your Operations Lead in their welcome email, which is typically sent 8–10 weeks before the event start date.\n\nOPEN ATTENDEE HUB\n\nARRIVE WITH CONFIDENCE\n\nHotel & Travel.\nFour Seasons Hotel, Austin, TX\n98 San Jacinto Blvd, Austin, TX 78701, United States\nHotel Reservations\n\nCheck back soon for hotel reservation details!\n\nTransportation\n\nCheck back soon for transportation details!\n\nDESIGNED AROUND CONNECTION\n\nYour Institute Experience.\n\nPlaceholder — Delegate experience details are awaiting Operations confirmation.\n\nCheck back soon for Institute experience details!\n\nHELPFUL ANSWERS\n\nFrequently Asked Questions.\nCheck back soon for frequently asked questions!\n\nYOUR OPERATIONS LEAD\n\nQuestions Before You Go? We’re Here to Help.\n\nReach out for help with your Attendee Hub, hotel details, profile, or personal schedule.\n\nYOUR OPERATIONS LEAD\n\nTori Di Clemente\n\nEvent Operations Manager\n\n647.825.8940\ntdiclemente@ipmievents.com\ninfo@ipmievents.com\n(416) 628-4058\n151 Bloor Street W.\nToronto, ON\nCanada M5S1S4\nINSTITUTES\nUpcoming Institutes\nInstitute Insights\nRecent Institutes\nInstitute Gallery\nWhat is an Institute?\nTHINK TANKS &\nROUNDTABLES\nUpcoming Think Tanks\nRecent Think Tanks\nWhat is a Think Tank?\nABOUT IPMI\nAbout IPMI\nTestimonials\nFAQ\nAttend an Institute\nSpeak at an Institute\nPartner with IPMI\nCONTACT US\nContact Us\nCONNECT\n© International Performance Management Institute. All Rights Reserved.\nPrivacy Policy | Terms and Conditions",
+  "title": "EHS Management Institute Know Before You Go — delegate",
+  "width": 1440,
+  "slug": "ehs-jan-2027-delegate",
+  "expectedWidth": 1440,
+  "checks": {
+    "audience": true,
+    "title": true,
+    "year": true,
+    "venue": true,
+    "noindex": true,
+    "noOverflow": true,
+    "anchors": true,
+    "noEmptyVisibleImages": true,
+    "backdrop": true
+  },
+  "extra": {
+    "backdrop": false,
+    "robots": [
+      "noindex,follow"
+    ],
+    "hashControls": [
+      "ADD TO CALENDAR",
+      "ADD TO CALENDAR",
+      "ADD TO CALENDAR",
+      "ADD TO CALENDAR"
+    ]
+  },
+  "notes": "Hash-only calendar, FAQ and global navigation controls are not destination CTAs. Exact guide URLs audited in root-http-verification.json."
+}

@@ -39,7 +39,10 @@
   <main>
     <header class="kbyg-hero" aria-labelledby="kbyg-page-title">
       <div class="kbyg-hero__backdrop" aria-hidden="true">
-        <!-- WEBFLOW BIND: KBYG Page > Hero Image; this backdrop image is decorative. -->
+        <!-- WEBFLOW CONDITION: Show this static decorative Orlando skyline only when
+             Institute is HCHR Sept 2026 (68b0aff93e4f6363f03f620b). Otherwise hide
+             and omit from HTML. Keep the neutral backdrop and separate page-bound
+             Hero Image; never reuse the attendee artwork as a city backdrop. -->
         <img
           src="https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6a9a6b00eb4c917e35e13982_kbyg-hero-orlando-skyline.webp"
           alt=""
@@ -113,6 +116,7 @@
           </a>
         </div>
 
+        <!-- WEBFLOW CONDITION: Hero Image is set; otherwise omit media and its decorative badge. -->
         <div class="kbyg-hero__media">
           <!-- WEBFLOW BIND: KBYG Page > Hero Image and Hero Image Alt. -->
           <img

@@ -1,0 +1,357 @@
+{
+  "anchors": [
+    "top",
+    "w-nav-overlay-0",
+    "kbyg-page-title",
+    "kbyg-jump-label-delegate",
+    "kbyg-jump-select-delegate",
+    "welcome",
+    "kbyg-welcome-title",
+    "prepare",
+    "kbyg-prepare-title-delegate",
+    "key-dates",
+    "kbyg-key-dates-title-delegate",
+    "kbyg-dates-1-1",
+    "agenda",
+    "kbyg-agenda-title",
+    "hub",
+    "kbyg-hub-title-delegate",
+    "hotel-travel",
+    "kbyg-travel-title",
+    "experience",
+    "kbyg-experience-title-delegate",
+    "faq",
+    "kbyg-faq-title",
+    "kbyg-accordion-1-1-trigger",
+    "kbyg-accordion-1-1-panel",
+    "kbyg-accordion-1-2-trigger",
+    "kbyg-accordion-1-2-panel",
+    "kbyg-accordion-1-3-trigger",
+    "kbyg-accordion-1-3-panel",
+    "kbyg-accordion-1-4-trigger",
+    "kbyg-accordion-1-4-panel",
+    "kbyg-accordion-1-5-trigger",
+    "kbyg-accordion-1-5-panel",
+    "contact",
+    "kbyg-contact-title",
+    "w-node-fe321ed4-51e3-f8e5-4b6b-0d079b2b7eb6-9b2b7eae",
+    "footer-button",
+    "w-dropdown-toggle-0",
+    "w-dropdown-list-0",
+    "w-dropdown-toggle-1",
+    "w-dropdown-list-1",
+    "w-dropdown-toggle-2",
+    "w-dropdown-list-2"
+  ],
+  "audience": "delegate",
+  "client": 390,
+  "colors": {
+    "primary": ""
+  },
+  "emptyNotices": [],
+  "images": [
+    {
+      "alt": "International Performance Management Institute.",
+      "src": "https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/63281aeafc3ab3e21d7c05ec_IPMI-Logo-Light.svg"
+    },
+    {
+      "alt": "",
+      "src": "https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6a9a6b00eb4c917e35e13982_kbyg-hero-orlando-skyline.webp"
+    },
+    {
+      "alt": "Attendee viewing the Know Before You Go event app in a hotel lobby",
+      "src": "https://cdn.prod.website-files.com/6312ee46f4c52faf21ee8ab5/6a9a6b10fd883fff73e457a1_6a9a69f8fd883fff73e394fb_kbyg-hero-attendee-clean.webp"
+    },
+    {
+      "alt": "",
+      "src": "https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/638989f462c2a24e78ab5665_IPMI-Healthcare-Icon.svg"
+    },
+    {
+      "alt": "Katrina Brightling",
+      "src": "https://cdn.prod.website-files.com/6312ee46f4c52faf21ee8ab5/6a2190a1fe9f7474db6cfc18_Katrina%20Brightling%20bnw%20Photo.jpg"
+    },
+    {
+      "alt": "Attendee using a tablet while colleagues meet in a hotel lounge",
+      "src": "https://cdn.prod.website-files.com/6312ee46f4c52faf21ee8ab5/6a9a66d199a7e9cbc7082da8_6a9a6644c73b205cf5e0cf83_kbyg-hub-attendee.webp"
+    },
+    {
+      "alt": "Event venue",
+      "src": "https://cdn.prod.website-files.com/6312ee46f4c52faf21ee8ab5/6a9a66fceb4c917e35dec429_6a9a66444b76f8336b80a7b3_kbyg-ritz-carlton-exterior.webp"
+    },
+    {
+      "alt": "Event venue",
+      "src": "https://cdn.prod.website-files.com/6312ee46f4c52faf21ee8ab5/6a9a66fceb4c917e35dec431_6a9a6644ce252381364dc0c2_kbyg-ritz-carlton-pool.webp"
+    },
+    {
+      "alt": "Katrina Brightling",
+      "src": "https://cdn.prod.website-files.com/6312ee46f4c52faf21ee8ab5/6a2190a1fe9f7474db6cfc18_Katrina%20Brightling%20bnw%20Photo.jpg"
+    },
+    {
+      "alt": "International Performance Management Institute.",
+      "src": "https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6327f8231c814d48b97873a8_Asset%201.svg"
+    }
+  ],
+  "links": [
+    {
+      "href": "/",
+      "text": ""
+    },
+    {
+      "href": "#",
+      "text": ""
+    },
+    {
+      "href": "#welcome",
+      "text": "VIEW INSTITUTE GUIDE"
+    },
+    {
+      "href": "tel:647.969.8536",
+      "text": "647.969.8536"
+    },
+    {
+      "href": "mailto:kbrightling@ipmievents.com",
+      "text": "kbrightling@ipmievents.com"
+    },
+    {
+      "href": "#kbyg-dates-1-1",
+      "text": "VIEW ALL KEY DATES"
+    },
+    {
+      "href": "#",
+      "text": "ADD TO CALENDAR"
+    },
+    {
+      "href": "#",
+      "text": "ADD TO CALENDAR"
+    },
+    {
+      "href": "#",
+      "text": "ADD TO CALENDAR"
+    },
+    {
+      "href": "https://ipmionline.sharepoint.com/:b:/s/IPMIExternal/IQDhY6Ng2S5QQ4ydRO30tLytAd2eoi55aaOvVa0DMGPXDKw",
+      "text": "VIEW FULL INSTITUTE AGENDA"
+    },
+    {
+      "href": "mailto:kbrightling@ipmievents.com",
+      "text": "OPEN ATTENDEE HUB"
+    },
+    {
+      "href": "https://cdn.prod.website-files.com/6312ee46f4c52faf21ee8ab5/6a9a66fceb4c917e35dec429_6a9a66444b76f8336b80a7b3_kbyg-ritz-carlton-exterior.webp",
+      "text": ""
+    },
+    {
+      "href": "https://cdn.prod.website-files.com/6312ee46f4c52faf21ee8ab5/6a9a66fceb4c917e35dec431_6a9a6644ce252381364dc0c2_kbyg-ritz-carlton-pool.webp",
+      "text": ""
+    },
+    {
+      "href": "https://www.google.com/maps/search/?api=1&query=4012%20Central%20Florida%20Pkwy%2C%20Orlando%2C%20FL%2032837%2C%20United%20States",
+      "text": "4012 Central Florida Pkwy, Orlando, FL 32837, United States"
+    },
+    {
+      "href": "mailto:kbrightling@ipmievents.com",
+      "text": "REQUEST RESERVATION SUPPORT"
+    },
+    {
+      "href": "#",
+      "text": "?\nWhat are my participation requirements?"
+    },
+    {
+      "href": "#",
+      "text": "?\nWhat is included in my participation?"
+    },
+    {
+      "href": "#",
+      "text": "?\nIs airfare/transportation provided to/from the hotel?"
+    },
+    {
+      "href": "#",
+      "text": "?\nHow do I know if my reservation has been booked at the hotel?"
+    },
+    {
+      "href": "#",
+      "text": "?\nIf I am looking to extend my stay, what is the process?"
+    },
+    {
+      "href": "tel:647.969.8536",
+      "text": "647.969.8536"
+    },
+    {
+      "href": "mailto:kbrightling@ipmievents.com",
+      "text": "kbrightling@ipmievents.com"
+    },
+    {
+      "href": "#top",
+      "text": ""
+    },
+    {
+      "href": "/",
+      "text": ""
+    },
+    {
+      "href": "mailto:info@ipmievents.com",
+      "text": "info@ipmievents.com"
+    },
+    {
+      "href": "tel:+14166284058",
+      "text": "(416) 628-4058"
+    },
+    {
+      "href": "#",
+      "text": "VIEW SITEMAP"
+    },
+    {
+      "href": "/privacy",
+      "text": "Privacy Policy"
+    },
+    {
+      "href": "/terms",
+      "text": "Terms and Conditions"
+    },
+    {
+      "href": "#",
+      "text": ""
+    },
+    {
+      "href": "/institutes",
+      "text": "Upcoming Institutes"
+    },
+    {
+      "href": "/insights",
+      "text": "Institute Insights"
+    },
+    {
+      "href": "/recent-institutes",
+      "text": "Recent Institutes"
+    },
+    {
+      "href": "/gallery",
+      "text": "Institute Gallery"
+    },
+    {
+      "href": "/faq#what-is-an-institute",
+      "text": "What is an Institute?"
+    },
+    {
+      "href": "/thinktanks",
+      "text": "Upcoming Think Tanks\n& Roundtables"
+    },
+    {
+      "href": "/thinktanks#recent",
+      "text": "Recent Think Tanks\n& Roundtables"
+    },
+    {
+      "href": "/faq#what-is-a-think-tank",
+      "text": "What is a Think Tank?"
+    },
+    {
+      "href": "/about",
+      "text": "About IPMI"
+    },
+    {
+      "href": "/testimonials",
+      "text": "Testimonials"
+    },
+    {
+      "href": "/attend",
+      "text": "Attend an Institute"
+    },
+    {
+      "href": "/attend#speak",
+      "text": "Speak at an Institute"
+    },
+    {
+      "href": "/attend#partner",
+      "text": "Partner with IPMI"
+    },
+    {
+      "href": "/faq",
+      "text": "FAQ"
+    },
+    {
+      "href": "/contact",
+      "text": "Contact Us"
+    },
+    {
+      "href": "/attend",
+      "text": "Attend an Institute"
+    }
+  ],
+  "robots": "noindex",
+  "scroll": 390,
+  "sections": [
+    {
+      "height": 1212.5,
+      "id": "welcome"
+    },
+    {
+      "height": 1130.5,
+      "id": "prepare"
+    },
+    {
+      "height": 913.296875,
+      "id": "key-dates"
+    },
+    {
+      "height": 1358.5,
+      "id": "agenda"
+    },
+    {
+      "height": 813.796875,
+      "id": "hub"
+    },
+    {
+      "height": 1771.03125,
+      "id": "hotel-travel"
+    },
+    {
+      "height": 1159.5,
+      "id": "experience"
+    },
+    {
+      "height": 880.28125,
+      "id": "faq"
+    },
+    {
+      "height": 577.859375,
+      "id": "contact"
+    }
+  ],
+  "text": "SEPTEMBER 13-15, 2026\n\nKnow Before You Go.\n\n2026 Healthcare HR Management Institute\n\nThe Ritz-Carlton, Orlando, FL\n\nYour essential guide to event preparation, travel, timing, and everything you need to arrive confident and ready for the connections ahead.\n\nVIEW INSTITUTE GUIDE\nJUMP TO:\nWELCOME\nPREPARE\nDATES\nAGENDA\nHUB\nHOTEL\nEXPERIENCE\nFAQ\nCONTACT\n\nWELCOME\n\nWelcome, we’re excited to see you soon!\n\nEverything you need to prepare, travel, and arrive ready is gathered here in one focused guide, making the weeks before the Institute feel clear, organized, and manageable.\n\nWelcome to the 2026 Healthcare HR Management Institute, and thank you for choosing to join us. We are delighted to bring together an exceptional group of senior Healthcare HR leaders and solution providers for three days of meaningful conversations, fresh perspectives, and valuable relationship-building opportunities.\n\nIn the coming weeks, we will guide you through three simple steps to help prepare for a successful program. Your Operations Lead, Katrina Brightling, will be available throughout the process to provide support and ensure you are ready to make the most of your experience.\n\nYOUR OPERATIONS LEAD\n\nKatrina Brightling\n\nOperations Director\n\nIPMI\n\n647.969.8536\nkbrightling@ipmievents.com\n\nBEFORE YOU ARRIVE\n\nPreparing for your Institute is as easy as 1-2-3.\n\nComplete these actions in the Attendee Hub, then build a schedule around the conversations that matter most to you.\n\nSubmit Your Travel Details\n\nPlease submit your Travel Details through the “Book Hotel” tab of your Attendee Hub to make your hotel reservation for the event.\n\nCreate Your Attendee Profile\n\nPrior to the event, please complete the brief questionnaire addressing your specific operational goals and strategic objectives for the program.\n\nCreate Your Itinerary\n\nCustomize your event agenda by selecting your conference sessions, Think Tanks, and business meeting preferences for the Institute.\n\nMARK YOUR CALENDAR\n\nKey Dates & Deliverables.\n\nYour profile, hotel, and schedule milestones—sequenced from first login through arrival.\n\nVIEW ALL KEY DATES\nJUL\n29\nAttendee Profile Opens\n\nWednesday, July 29, 2026\n\nADD TO CALENDAR\nAUG\n19\nDeadline to Submit Travel Details\n\nWednesday, August 19, 2026\n\nADD TO CALENDAR\nAUG\n19\nDeadline to Complete Your Attendee Profile\n\nWednesday, August 19, 2026\n\nADD TO CALENDAR\n\nPLAN YOUR DAILY SCHEDULE\n\nAgenda At-A-Glance.\n\nTimes are approximate and subject to change. Please refer to the Event Agenda in the Sponsor Hub for complete program details.\n\nDAY 1 - SUNDAY\n\n12:00 PM - 1:00 PM\nRegistration & Welcome\n\n1:00 PM - 6:30 PM\nConference Sessions, Think Tanks & Business Meetings\n\n6:30 PM - 8:00 PM\nWelcome Reception & Dinner\n\nDAY 2 - MONDAY\n\n7:30 AM - 8:30 AM\nBreakfast\n\n8:30 AM - 6:30 PM\nEvent Programming, Breakouts & Business Meetings\n\n12:00 PM - 1:00 PM\nNetworking Lunch\n\n6:30 PM - 8:00 PM\nDinner & Evening Entertainment\n\nDAY 3 - TUESDAY\n\n7:30 AM - 8:30 AM\nBreakfast\n\n8:30 AM - 12:00 PM\nConference Sessions, Think Tanks & Business Meetings\n\n12:00 PM\nClosing Remarks & Event Conclusion\n\nVIEW FULL INSTITUTE AGENDA\n\nYOUR DIGITAL HOME BASE\n\nAttendee Hub.\n\nThe Attendee Hub is your central resource for all event-related information. Through the Hub, you can review key dates and deliverables, submit your Attendee Profile questionnaire and hotel requirements, build your personalized itinerary, and access important event information and resources.\n\nAttendee Hub login credentials are provided by your Operations Lead in their welcome email, which is typically sent 8–10 weeks before the event start date.\n\nOPEN ATTENDEE HUB\n\nARRIVE WITH CONFIDENCE\n\nHotel & Travel.\n\nThe essentials for your stay at Grande Lakes, from room coverage to local transportation.\n\nThe Ritz-Carlton, Orlando, FL\n4012 Central Florida Pkwy, Orlando, FL 32837, United States\nHotel Reservations\n\nSecure your reservation by submitting your hotel needs through the Attendee Hub’s “Book Hotel” tab by the deadline. Your participation includes two nights; additional nights, if available, are $335 per night plus a $25 nightly resort fee, payable at check-out.\n\nREQUEST RESERVATION SUPPORT\nTransportation\n\nGuests are responsible for arranging their own transportation to and from the hotel. For destination information and helpful local recommendations, please visit the Attendee Hub.\n\nDESIGNED AROUND CONNECTION\n\nYour Institute Experience.\n\nA purposeful mix of insight, one-to-one conversation, and peer collaboration.\n\nThought Leadership Sessions\n\nGain valuable insights from industry leaders through panel discussions and case studies focused on the most pressing issues facing healthcare HR executives.\n\nBusiness Meetings\n\nConnect one-on-one with leading Service Providers in curated 30-minute meetings tailored to your interests, priorities, and business objectives.\n\nInteractive Think Tank Sessions\n\nCollaborate with peers in small-group discussions designed to tackle shared challenges, exchange ideas, and develop actionable strategies in a highly engaging, solution-focused environment.\n\nHELPFUL ANSWERS\n\nFrequently Asked Questions.\n?\nWhat are my participation requirements?\n\nYou are required to complete the following three tasks prior to the event: 1) Complete Your Attendee Profile; 2) Submit Hotel Reservation/Travel Details; and 3) Create Your Itinerary.\n\n?\nWhat is included in my participation?\n?\nIs airfare/transportation provided to/from the hotel?\n?\nHow do I know if my reservation has been booked at the hotel?\n?\nIf I am looking to extend my stay, what is the process?\n\nYOUR OPERATIONS LEAD\n\nQuestions Before You Go? We’re Here to Help.\n\nReach out for help with your Attendee Hub, hotel details, profile, or personal schedule.\n\nYOUR OPERATIONS LEAD\n\nKatrina Brightling\n\nOperations Director\n\n647.969.8536\nkbrightling@ipmievents.com\ninfo@ipmievents.com\n(416) 628-4058\n151 Bloor Street W.\nToronto, ON\nCanada M5S1S4\nVIEW SITEMAP\n© International Performance Management Institute. All Rights Reserved.\nPrivacy Policy | Terms and Conditions\nInstitutes \nUpcoming Institutes\nInstitute Insights\nRecent Institutes\nInstitute Gallery\nWhat is an Institute?\nThink Tanks & Roundtables \nUpcoming Think Tanks\n& Roundtables\nRecent Think Tanks\n& Roundtables\nWhat is a Think Tank?\nAbout IPMI \nAbout IPMI\nTestimonials\nAttend an Institute\nSpeak at an Institute\nPartner with IPMI\nFAQ\nContact Us\nAttend an Institute",
+  "title": "Healthcare HR Management Institute Know Before You Go — delegate",
+  "width": 390,
+  "slug": "hchr-sept-2026-delegate",
+  "expectedWidth": 390,
+  "checks": {
+    "audience": true,
+    "title": true,
+    "year": true,
+    "venue": true,
+    "noindex": true,
+    "noOverflow": true,
+    "anchors": true,
+    "noEmptyVisibleImages": true,
+    "backdrop": true
+  },
+  "extra": {
+    "backdrop": true,
+    "robots": [
+      "noindex",
+      "noindex,follow"
+    ],
+    "hashControls": [
+      "",
+      "ADD TO CALENDAR",
+      "ADD TO CALENDAR",
+      "ADD TO CALENDAR",
+      "?\nWhat are my participation requirements?",
+      "?\nWhat is included in my participation?",
+      "?\nIs airfare/transportation provided to/from the hotel?",
+      "?\nHow do I know if my reservation has been booked at the hotel?",
+      "?\nIf I am looking to extend my stay, what is the process?",
+      "VIEW SITEMAP",
+      ""
+    ]
+  },
+  "notes": "Hash-only calendar, FAQ and global navigation controls are not destination CTAs. Exact guide URLs audited in root-http-verification.json."
+}

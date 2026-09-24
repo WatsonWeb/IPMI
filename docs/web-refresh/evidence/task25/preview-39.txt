@@ -1,0 +1,385 @@
+ [level=2]
+- generic: Displaying item 41 of 51
+- button "Previous":
+- button "Next" [active]:
+- button "Cancel":
+  - generic: Cancel
+- button "Import 50 KBYG Pages":
+  - generic: Import 50 KBYG Pages
+- generic: Field configuration
+- button "Clear all":
+  - generic: Clear all
+- generic: Institute
+- textbox: 215-hchr-sept-2027
+- generic: Map to existing field
+- generic: Institute
+- generic: Audience
+- textbox: sponsor
+- generic: Map to existing field
+- generic: Audience
+- generic: Operations Lead
+- textbox
+- generic: Do not import
+- generic: Hero Image
+- textbox
+- generic: Map to existing field
+- generic: Hero Image
+- generic: Hero Image Alt
+- textbox
+- generic: Map to existing field
+- generic: Hero Image Alt
+- generic: Hub Image
+- textbox
+- generic: Map to existing field
+- generic: Hub Image
+- generic: Hub Image Alt
+- textbox
+- generic: Map to existing field
+- generic: Hub Image Alt
+- generic: Preparation
+- textbox
+- generic: Do not import
+- generic: Key Dates
+- textbox
+- generic: Do not import
+- generic: Agenda Days
+- textbox
+- generic: Do not import
+- generic: Experience
+- textbox
+- generic: Do not import
+- generic: FAQs
+- textbox
+- generic: Do not import
+- generic: Hero Eyebrow
+- textbox: 2027-09-19 – 2027-09-21
+- generic: Map to existing field
+- generic: Hero Eyebrow
+- generic: Hero Intro
+- textbox: Placeholder — This Sponsor guide is awaiting Operations confirmation.
+- generic: Map to existing field
+- generic: Hero Intro
+- generic: Hero CTA Label
+- textbox: VIEW INSTITUTE GUIDE
+- generic: Map to existing field
+- generic: Hero CTA Label
+- generic: Hero CTA URL
+- textbox: "#welcome"
+- generic: Map to existing field
+- generic: Hero CTA URL
+- generic: Welcome Eyebrow
+- textbox: WELCOME
+- generic: Map to existing field
+- generic: Welcome Eyebrow
+- generic: Welcome Title
+- textbox: Your Sponsor guide.
+- generic: Map to existing field
+- generic: Welcome Title
+- generic: Welcome Intro
+- textbox: <p>Placeholder — Event arrangements and instructions are awaiting Operations confirmation.</p>
+- generic: Map to existing field
+- generic: Welcome Intro
+- note:
+  - text: Some elements, classes and attributes are not supported by the rich text field and may be lost during import. Please check your rich text content in the Item Preview.
+  - button "View article":
+    - text: View article
+- generic: Welcome Body
+- textbox: <p>Placeholder — Sponsor welcome information is awaiting Operations confirmation.</p>
+- generic: Map to existing field
+- generic: Welcome Body
+- note:
+  - text: Some elements, classes and attributes are not supported by the rich text field and may be lost during import. Please check your rich text content in the Item Preview.
+  - button "View article":
+    - text: View article
+- generic: Preparation Eyebrow
+- textbox: BEFORE YOU ARRIVE
+- generic: Map to existing field
+- generic: Preparation Eyebrow
+- generic: Preparation Title
+- textbox: Preparing for your Institute.
+- generic: Map to existing field
+- generic: Preparation Title
+- generic: Preparation Intro
+- textbox: Placeholder — Sponsor preparation instructions are awaiting Operations confirmation.
+- generic: Map to existing field
+- generic: Preparation Intro
+- generic: Key Dates Eyebrow
+- textbox: MARK YOUR CALENDAR
+- generic: Map to existing field
+- generic: Key Dates Eyebrow
+- generic: Key Dates Title
+- textbox: Key Dates & Deliverables.
+- generic: Map to existing field
+- generic: Key Dates Title
+- generic: Key Dates Intro
+- textbox: Placeholder — Sponsor deadlines are awaiting Operations confirmation.
+- generic: Map to existing field
+- generic: Key Dates Intro
+- generic: Agenda Eyebrow
+- textbox: EVENT PROGRAM
+- generic: Map to existing field
+- generic: Agenda Eyebrow
+- generic: Agenda Title
+- textbox: Institute Agenda
+- generic: Map to existing field
+- generic: Agenda Title
+- generic: Agenda Intro
+- textbox: Placeholder — The event agenda is awaiting Operations confirmation.
+- generic: Map to existing field
+- generic: Agenda Intro
+- generic: Agenda CTA Label
+- textbox: VIEW FULL INSTITUTE AGENDA
+- generic: Map to existing field
+- generic: Agenda CTA Label
+- generic: Hub Eyebrow
+- textbox: EVENT ACCESS
+- generic: Map to existing field
+- generic: Hub Eyebrow
+- generic: Hub Title
+- textbox: Sponsor Hub.
+- generic: Map to existing field
+- generic: Hub Title
+- generic: Hub Body
+- textbox: <p>Placeholder — Sponsor MeetMax access and login instructions are awaiting Operations confirmation.</p>
+- generic: Map to existing field
+- generic: Hub Body
+- note:
+  - text: Some elements, classes and attributes are not supported by the rich text field and may be lost during import. Please check your rich text content in the Item Preview.
+  - button "View article":
+    - text: View article
+- generic: Hub URL
+- textbox
+- generic: Map to existing field
+- generic: Hub URL
+- generic: Hub CTA Label
+- textbox: OPEN SPONSOR HUB
+- generic: Map to existing field
+- generic: Hub CTA Label
+- generic: Hotel Eyebrow
+- textbox: HOTEL & TRAVEL
+- generic: Map to existing field
+- generic: Hotel Eyebrow
+- generic: Hotel Title
+- textbox: Hotel & Travel.
+- generic: Map to existing field
+- generic: Hotel Title
+- generic: Experience Eyebrow
+- textbox: YOUR EXPERIENCE
+- generic: Map to existing field
+- generic: Experience Eyebrow
+- generic: Experience Title
+- textbox: Your Institute Experience.
+- generic: Map to existing field
+- generic: Experience Title
+- generic: Experience Intro
+- textbox: Placeholder — Sponsor experience details are awaiting Operations confirmation.
+- generic: Map to existing field
+- generic: Experience Intro
+- generic: Support Eyebrow
+- textbox: SPONSOR SUPPORT
+- generic: Map to existing field
+- generic: Support Eyebrow
+- generic: Support Title
+- textbox: Sponsor Support.
+- generic: Map to existing field
+- generic: Support Title
+- generic: Support Body
+- textbox: <p>Placeholder — Sponsor support instructions and destination are awaiting Operations confirmation.</p>
+- generic: Map to existing field
+- generic: Support Body
+- note:
+  - text: Some elements, classes and attributes are not supported by the rich text field and may be lost during import. Please check your rich text content in the Item Preview.
+  - button "View article":
+    - text: View article
+- generic: Support URL
+- textbox
+- generic: Map to existing field
+- generic: Support URL
+- generic: Support CTA Label
+- textbox: SPONSOR SUPPORT
+- generic: Map to existing field
+- generic: Support CTA Label
+- generic: Contact Eyebrow
+- textbox: OPERATIONS CONTACT
+- generic: Map to existing field
+- generic: Contact Eyebrow
+- generic: Contact Title
+- textbox: Questions Before You Go?
+- generic: Map to existing field
+- generic: Contact Title
+- generic: Contact Intro
+- textbox: Placeholder — The Operations contact is awaiting confirmation.
+- generic: Map to existing field
+- generic: Contact Intro
+- generic: KBYG Reservation Details
+- textbox: <p>Placeholder — Sponsor reservation instructions, eligibility, rates and deadlines are awaiting Operations confirmation.</p>
+- generic: Map to existing field
+- generic: KBYG Reservation Details
+- note:
+  - text: Some elements, classes and attributes are not supported by the rich text field and may be lost during import. Please check your rich text content in the Item Preview.
+  - button "View article":
+    - text: View article
+- generic: Name
+- textbox: 215. HCHR Sept 2027 Sponsor
+- generic: Map to existing field
+- generic: Name
+- generic: Slug
+- textbox: 215-hchr-sept-2027-sponsor
+- generic: Map to existing field
+- generic: Slug
+- generic: Item preview
+- switch "Skip import"
+- generic: Skip import
+- generic: Name
+- generic: (Plain text)
+- textbox [disabled]: 215. HCHR Sept 2027 Sponsor
+- generic: Slug
+- generic: (Plain text)
+- textbox [disabled]: 215-hchr-sept-2027-sponsor
+- generic: Institute
+- generic: (Reference)
+- generic: 215. HCHR Sept 2027
+- generic: Audience
+- generic: (Option)
+- generic: sponsor
+- generic: Operations Lead
+- generic: (Reference)
+- generic: Hero Image
+- generic: (Image)
+- generic: Hero Image Alt
+- generic: (Plain text)
+- textbox [disabled]
+- generic: Hub Image
+- generic: (Image)
+- generic: Hub Image Alt
+- generic: (Plain text)
+- textbox [disabled]
+- generic: Preparation
+- generic: (Multi-reference)
+- textbox [disabled]
+- generic: Key Dates
+- generic: (Multi-reference)
+- textbox [disabled]
+- generic: Agenda Days
+- generic: (Multi-reference)
+- textbox [disabled]
+- generic: Experience
+- generic: (Multi-reference)
+- textbox [disabled]
+- generic: FAQs
+- generic: (Multi-reference)
+- textbox [disabled]
+- generic: Hero Eyebrow
+- generic: (Plain text)
+- textbox [disabled]: 2027-09-19 – 2027-09-21
+- generic: Hero Intro
+- generic: (Plain text)
+- textbox [disabled]: Placeholder — This Sponsor guide is awaiting Operations confirmation.
+- generic: Hero CTA Label
+- generic: (Plain text)
+- textbox [disabled]: VIEW INSTITUTE GUIDE
+- generic: Hero CTA URL
+- generic: (Link)
+- textbox [disabled]: "#welcome"
+- generic: Welcome Eyebrow
+- generic: (Plain text)
+- textbox [disabled]: WELCOME
+- generic: Welcome Title
+- generic: (Plain text)
+- textbox [disabled]: Your Sponsor guide.
+- generic: Welcome Intro
+- generic: (Rich text)
+- paragraph: Placeholder — Event arrangements and instructions are awaiting Operations confirmation.
+- generic: Welcome Body
+- generic: (Rich text)
+- paragraph: Placeholder — Sponsor welcome information is awaiting Operations confirmation.
+- generic: Preparation Eyebrow
+- generic: (Plain text)
+- textbox [disabled]: BEFORE YOU ARRIVE
+- generic: Preparation Title
+- generic: (Plain text)
+- textbox [disabled]: Preparing for your Institute.
+- generic: Preparation Intro
+- generic: (Plain text)
+- textbox [disabled]: Placeholder — Sponsor preparation instructions are awaiting Operations confirmation.
+- generic: Key Dates Eyebrow
+- generic: (Plain text)
+- textbox [disabled]: MARK YOUR CALENDAR
+- generic: Key Dates Title
+- generic: (Plain text)
+- textbox [disabled]: Key Dates & Deliverables.
+- generic: Key Dates Intro
+- generic: (Plain text)
+- textbox [disabled]: Placeholder — Sponsor deadlines are awaiting Operations confirmation.
+- generic: Agenda Eyebrow
+- generic: (Plain text)
+- textbox [disabled]: EVENT PROGRAM
+- generic: Agenda Title
+- generic: (Plain text)
+- textbox [disabled]: Institute Agenda
+- generic: Agenda Intro
+- generic: (Plain text)
+- textbox [disabled]: Placeholder — The event agenda is awaiting Operations confirmation.
+- generic: Agenda CTA Label
+- generic: (Plain text)
+- textbox [disabled]: VIEW FULL INSTITUTE AGENDA
+- generic: Hub Eyebrow
+- generic: (Plain text)
+- textbox [disabled]: EVENT ACCESS
+- generic: Hub Title
+- generic: (Plain text)
+- textbox [disabled]: Sponsor Hub.
+- generic: Hub Body
+- generic: (Rich text)
+- paragraph: Placeholder — Sponsor MeetMax access and login instructions are awaiting Operations confirmation.
+- generic: Hub URL
+- generic: (Link)
+- textbox [disabled]
+- generic: Hub CTA Label
+- generic: (Plain text)
+- textbox [disabled]: OPEN SPONSOR HUB
+- generic: Hotel Eyebrow
+- generic: (Plain text)
+- textbox [disabled]: HOTEL & TRAVEL
+- generic: Hotel Title
+- generic: (Plain text)
+- textbox [disabled]: Hotel & Travel.
+- generic: Experience Eyebrow
+- generic: (Plain text)
+- textbox [disabled]: YOUR EXPERIENCE
+- generic: Experience Title
+- generic: (Plain text)
+- textbox [disabled]: Your Institute Experience.
+- generic: Experience Intro
+- generic: (Plain text)
+- textbox [disabled]: Placeholder — Sponsor experience details are awaiting Operations confirmation.
+- generic: Support Eyebrow
+- generic: (Plain text)
+- textbox [disabled]: SPONSOR SUPPORT
+- generic: Support Title
+- generic: (Plain text)
+- textbox [disabled]: Sponsor Support.
+- generic: Support Body
+- generic: (Rich text)
+- paragraph: Placeholder — Sponsor support instructions and destination are awaiting Operations confirmation.
+- generic: Support URL
+- generic: (Link)
+- textbox [disabled]
+- generic: Support CTA Label
+- generic: (Plain text)
+- textbox [disabled]: SPONSOR SUPPORT
+- generic: Contact Eyebrow
+- generic: (Plain text)
+- textbox [disabled]: OPERATIONS CONTACT
+- generic: Contact Title
+- generic: (Plain text)
+- textbox [disabled]: Questions Before You Go?
+- generic: Contact Intro
+- generic: (Plain text)
+- textbox [disabled]: Placeholder — The Operations contact is awaiting confirmation.
+- generic: KBYG Reservation Details
+- generic: (Rich text)
+- generic: Hotel reservation instructions for this KBYG page and audience. Leave blank to show a Coming Soon notice.
+- paragraph: Placeholder — Sponsor reservation instructions, eligibility, rates and deadlines are awaiting Operations confirmation.
+- region "Notifications Alt+T"
+- status: 1Password menu is available. Press down arrow to select.

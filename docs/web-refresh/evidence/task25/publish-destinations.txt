@@ -1,0 +1,3 @@
+Browser tab: 1953600721, Title: "Webflow - IPMI", URL: "https://ipmi.design.webflow.com/?locale=en-US&pageId=6a9a5f7c77769cbf46ce29ec&itemId=6ab50d5f9c872074f0aeff9a&workflow=canvas".
+There has been no change in the accessibility tree.
+The focused UI element is 979 checkbox (settable, integer) Description: ipmi.webflow.io Open in new tab, Value: 1, ID: r358

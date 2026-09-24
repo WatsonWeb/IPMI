@@ -1,0 +1,27 @@
+[disabled]
+- generic: Support CTA Label
+- generic: (Plain text)
+- textbox [disabled]: SPONSOR SUPPORT
+- generic: Contact Eyebrow
+- generic: (Plain text)
+- textbox [disabled]: OPERATIONS CONTACT
+- generic: Contact Title
+- generic: (Plain text)
+- textbox [disabled]: Questions Before You Go?
+- generic: Contact Intro
+- generic: (Plain text)
+- textbox [disabled]: Placeholder — The Operations contact is awaiting confirmation.
+- generic: KBYG Reservation Details
+- generic: (Rich text)
+- generic: Hotel reservation instructions for this KBYG page and audience. Leave blank to show a Coming Soon notice.
+- paragraph: Placeholder — Sponsor reservation instructions, eligibility, rates and deadlines are awaiting Operations confirmation.
+- button "Dismiss"
+- dialog "Import Complete" [active]:
+  - generic: Import Complete
+  - heading "50 of 50 items imported" [level=1]
+  - generic: We also created a pre-import backup of your site that you can restore from the Versions tab of your Site Settings, just in case anything went wrong with the import.
+  - button "Close":
+    - generic: Close
+- button "Dismiss"
+- region "Notifications Alt+T"
+- status: 1Password menu is available. Press down arrow to select.

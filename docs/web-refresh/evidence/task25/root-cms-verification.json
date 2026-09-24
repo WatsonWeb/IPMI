@@ -1,0 +1,3949 @@
+{
+  "checkedAt": "2026-09-24T11:46:14.738Z",
+  "expectedPairs": 54,
+  "actualPages": 54,
+  "newPages": 50,
+  "originalPageChanges": [],
+  "originalBlockChanges": [],
+  "originalBlockCount": 43,
+  "currentBlockCount": 43,
+  "mappings": [
+    {
+      "slug": "healthcare-gci-oct-2026-delegate",
+      "id": "6ab50d28542a6c43a9329ed1",
+      "count": 1,
+      "slugCorrect": true,
+      "isDraft": false,
+      "isArchived": false
+    },
+    {
+      "slug": "healthcare-gci-oct-2026-sponsor",
+      "id": "6ab50d2915df90825fd7cb2a",
+      "count": 1,
+      "slugCorrect": true,
+      "isDraft": false,
+      "isArchived": false
+    },
+    {
+      "slug": "hrmi-oct-2026-delegate",
+      "id": "6ab50d2991bd576bd55f8f89",
+      "count": 1,
+      "slugCorrect": true,
+      "isDraft": false,
+      "isArchived": false
+    },
+    {
+      "slug": "hrmi-oct-2026-sponsor",
+      "id": "6ab50d2a89b31179acde3a95",
+      "count": 1,
+      "slugCorrect": true,
+      "isDraft": false,
+      "isArchived": false
+    },
+    {
+      "slug": "iplmi-2026-delegate",
+      "id": "6ab50d2bbd92bfba7714c9fb",
+      "count": 1,
+      "slugCorrect": true,
+      "isDraft": false,
+      "isArchived": false
+    },
+    {
+      "slug": "iplmi-2026-sponsor",
+      "id": "6ab50d2c0585a374ecb22f08",
+      "count": 1,
+      "slugCorrect": true,
+      "isDraft": false,
+      "isArchived": false
+    },
+    {
+      "slug": "cni-2026-delegate",
+      "id": "6ab50d2cbd92bfba7714cb08",
+      "count": 1,
+      "slugCorrect": true,
+      "isDraft": false,
+      "isArchived": false
+    },
+    {
+      "slug": "cni-2026-sponsor",
+      "id": "6ab50d2d4aab59c653498729",
+      "count": 1,
+      "slugCorrect": true,
+      "isDraft": false,
+      "isArchived": false
+    },
+    {
+      "slug": "cwi-2026-delegate",
+      "id": "6ab50d2d9c872074f0aee0f9",
+      "count": 1,
+      "slugCorrect": true,
+      "isDraft": false,
+      "isArchived": false
+    },
+    {
+      "slug": "cwi-2026-sponsor",
+      "id": "6ab50d2ecc6def753759a243",
+      "count": 1,
+      "slugCorrect": true,
+      "isDraft": false,
+      "isArchived": false
+    },
+    {
+      "slug": "hrmi-canada-nov-2026-delegate",
+      "id": "6ab50d2f844fd9696be15789",
+      "count": 1,
+      "slugCorrect": true,
+      "isDraft": false,
+      "isArchived": false
+    },
+    {
+      "slug": "hrmi-canada-nov-2026-sponsor",
+      "id": "6ab50d307a1a4f8bfaf11708",
+      "count": 1,
+      "slugCorrect": true,
+      "isDraft": false,
+      "isArchived": false
+    },
+    {
+      "slug": "ehs-jan-2027-delegate",
+      "id": "6ab419ab01801a6514d9c07a",
+      "count": 1,
+      "slugCorrect": true,
+      "isDraft": false,
+      "isArchived": false
+    },
+    {
+      "slug": "ehs-jan-2027-sponsor",
+      "id": "6ab427151e2a1d57f6652add",
+      "count": 1,
+      "slugCorrect": true,
+      "isDraft": false,
+      "isArchived": false
+    },
+    {
+      "slug": "hgc-feb-2027-delegate",
+      "id": "6ab50d31ae4335f04765e4bb",
+      "count": 1,
+      "slugCorrect": true,
+      "isDraft": false,
+      "isArchived": false
+    },
+    {
+      "slug": "hgc-feb-2027-sponsor",
+      "id": "6ab50d318208177f8b488170",
+      "count": 1,
+      "slugCorrect": true,
+      "isDraft": false,
+      "isArchived": false
+    },
+    {
+      "slug": "hrmi-feb-2027-delegate",
+      "id": "6ab50d32fb0314c5be0c52d4",
+      "count": 1,
+      "slugCorrect": true,
+      "isDraft": false,
+      "isArchived": false
+    },
+    {
+      "slug": "hrmi-feb-2027-sponsor",
+      "id": "6ab50d32d372bc4825dd16e6",
+      "count": 1,
+      "slugCorrect": true,
+      "isDraft": false,
+      "isArchived": false
+    },
+    {
+      "slug": "cldi-march-2027-delegate",
+      "id": "6ab50d382b317c839e6cf11e",
+      "count": 1,
+      "slugCorrect": true,
+      "isDraft": false,
+      "isArchived": false
+    },
+    {
+      "slug": "cldi-march-2027-sponsor",
+      "id": "6ab50d3a1863d23effcb22f3",
+      "count": 1,
+      "slugCorrect": true,
+      "isDraft": false,
+      "isArchived": false
+    },
+    {
+      "slug": "hchrmi-march-2027-delegate",
+      "id": "6ab50d3a262aeca30e7c05d3",
+      "count": 1,
+      "slugCorrect": true,
+      "isDraft": false,
+      "isArchived": false
+    },
+    {
+      "slug": "hchrmi-march-2027-sponsor",
+      "id": "6ab50d3bbd8e93127ef599f4",
+      "count": 1,
+      "slugCorrect": true,
+      "isDraft": false,
+      "isArchived": false
+    },
+    {
+      "slug": "hfi-2027-delegate",
+      "id": "6ab50d3f38aff95b67bc8c2f",
+      "count": 1,
+      "slugCorrect": true,
+      "isDraft": false,
+      "isArchived": false
+    },
+    {
+      "slug": "hfi-2027-sponsor",
+      "id": "6ab50d40cc6def753759aeea",
+      "count": 1,
+      "slugCorrect": true,
+      "isDraft": false,
+      "isArchived": false
+    },
+    {
+      "slug": "hr-can-april-2027-delegate",
+      "id": "6ab50d40935a054fc242f52d",
+      "count": 1,
+      "slugCorrect": true,
+      "isDraft": false,
+      "isArchived": false
+    },
+    {
+      "slug": "hr-can-april-2027-sponsor",
+      "id": "6ab50d411863d23effcb263e",
+      "count": 1,
+      "slugCorrect": true,
+      "isDraft": false,
+      "isArchived": false
+    },
+    {
+      "slug": "28-tai-us-2027-delegate",
+      "id": "6ab50d424aab59c6534991e0",
+      "count": 1,
+      "slugCorrect": true,
+      "isDraft": false,
+      "isArchived": false
+    },
+    {
+      "slug": "28-tai-us-2027-sponsor",
+      "id": "6ab50d4289b31179acde4532",
+      "count": 1,
+      "slugCorrect": true,
+      "isDraft": false,
+      "isArchived": false
+    },
+    {
+      "slug": "29-taeei-can-delegate",
+      "id": "6ab50d45ae4335f0476609d9",
+      "count": 1,
+      "slugCorrect": true,
+      "isDraft": false,
+      "isArchived": false
+    },
+    {
+      "slug": "29-taeei-can-sponsor",
+      "id": "6ab50d4589b31179acde4752",
+      "count": 1,
+      "slugCorrect": true,
+      "isDraft": false,
+      "isArchived": false
+    },
+    {
+      "slug": "211-hrmi-june-2027-delegate",
+      "id": "6ab50d46bd8e93127ef5ad2a",
+      "count": 1,
+      "slugCorrect": true,
+      "isDraft": false,
+      "isArchived": false
+    },
+    {
+      "slug": "211-hrmi-june-2027-sponsor",
+      "id": "6ab50d47fe62ee119ab784dd",
+      "count": 1,
+      "slugCorrect": true,
+      "isDraft": false,
+      "isArchived": false
+    },
+    {
+      "slug": "hit-2027-delegate",
+      "id": "6ab50d4846f505e214eb19fc",
+      "count": 1,
+      "slugCorrect": true,
+      "isDraft": false,
+      "isArchived": false
+    },
+    {
+      "slug": "hit-2027-sponsor",
+      "id": "6ab50d484aab59c653499575",
+      "count": 1,
+      "slugCorrect": true,
+      "isDraft": false,
+      "isArchived": false
+    },
+    {
+      "slug": "ehs-july-2027-delegate",
+      "id": "6ab50d4928b704e9dad696de",
+      "count": 1,
+      "slugCorrect": true,
+      "isDraft": false,
+      "isArchived": false
+    },
+    {
+      "slug": "ehs-july-2027-sponsor",
+      "id": "6ab50d492b317c839e6cf9af",
+      "count": 1,
+      "slugCorrect": true,
+      "isDraft": false,
+      "isArchived": false
+    },
+    {
+      "slug": "213-cldi-sept-2027-delegate",
+      "id": "6ab50d4aae4335f047660bef",
+      "count": 1,
+      "slugCorrect": true,
+      "isDraft": false,
+      "isArchived": false
+    },
+    {
+      "slug": "213-cldi-sept-2027-sponsor",
+      "id": "6ab50d4bda20e728200b036d",
+      "count": 1,
+      "slugCorrect": true,
+      "isDraft": false,
+      "isArchived": false
+    },
+    {
+      "slug": "214-hgc-sept-2027-delegate",
+      "id": "6ab50d4bfb0314c5be0c5dea",
+      "count": 1,
+      "slugCorrect": true,
+      "isDraft": false,
+      "isArchived": false
+    },
+    {
+      "slug": "214-hgc-sept-2027-sponsor",
+      "id": "6ab50d4c0585a374ecb23e37",
+      "count": 1,
+      "slugCorrect": true,
+      "isDraft": false,
+      "isArchived": false
+    },
+    {
+      "slug": "215-hchr-sept-2027-delegate",
+      "id": "6ab50d4d1fa22ba818463c7b",
+      "count": 1,
+      "slugCorrect": true,
+      "isDraft": false,
+      "isArchived": false
+    },
+    {
+      "slug": "215-hchr-sept-2027-sponsor",
+      "id": "6ab50d4ebe40a686ff3bdd32",
+      "count": 1,
+      "slugCorrect": true,
+      "isDraft": false,
+      "isArchived": false
+    },
+    {
+      "slug": "216-ip-law-2027-delegate",
+      "id": "6ab50d4ff482b9db6492a50e",
+      "count": 1,
+      "slugCorrect": true,
+      "isDraft": false,
+      "isArchived": false
+    },
+    {
+      "slug": "216-ip-law-2027-sponsor",
+      "id": "6ab50d4f28b704e9dad69b0a",
+      "count": 1,
+      "slugCorrect": true,
+      "isDraft": false,
+      "isArchived": false
+    },
+    {
+      "slug": "217-hrmi-oct-2027-delegate",
+      "id": "6ab50d5091bd576bd55fa45f",
+      "count": 1,
+      "slugCorrect": true,
+      "isDraft": false,
+      "isArchived": false
+    },
+    {
+      "slug": "217-hrmi-oct-2027-sponsor",
+      "id": "6ab50d52fb0314c5be0c6051",
+      "count": 1,
+      "slugCorrect": true,
+      "isDraft": false,
+      "isArchived": false
+    },
+    {
+      "slug": "218-cni-2027-delegate",
+      "id": "6ab50d5a3446081b63aed129",
+      "count": 1,
+      "slugCorrect": true,
+      "isDraft": false,
+      "isArchived": false
+    },
+    {
+      "slug": "218-cni-2027-sponsor",
+      "id": "6ab50d5cd8d214d5415db3e1",
+      "count": 1,
+      "slugCorrect": true,
+      "isDraft": false,
+      "isArchived": false
+    },
+    {
+      "slug": "219-cwi-2027-delegate",
+      "id": "6ab50d5c9c872074f0aefe06",
+      "count": 1,
+      "slugCorrect": true,
+      "isDraft": false,
+      "isArchived": false
+    },
+    {
+      "slug": "219-cwi-2027-sponsor",
+      "id": "6ab50d5eacf6bb42ac866afc",
+      "count": 1,
+      "slugCorrect": true,
+      "isDraft": false,
+      "isArchived": false
+    },
+    {
+      "slug": "220-hr-can-2027-delegate",
+      "id": "6ab50d5fcfe51f506e57187c",
+      "count": 1,
+      "slugCorrect": true,
+      "isDraft": false,
+      "isArchived": false
+    },
+    {
+      "slug": "220-hr-can-2027-sponsor",
+      "id": "6ab50d5f9c872074f0aeff9a",
+      "count": 1,
+      "slugCorrect": true,
+      "isDraft": false,
+      "isArchived": false
+    },
+    {
+      "slug": "hchr-sept-2026-delegate",
+      "id": "6a9a6378aaffd3efb5e46336",
+      "count": 1,
+      "slugCorrect": true,
+      "isDraft": false,
+      "isArchived": false
+    },
+    {
+      "slug": "hchr-sept-2026-sponsor",
+      "id": "6a9a6378aaffd3efb5e46338",
+      "count": 1,
+      "slugCorrect": true,
+      "isDraft": false,
+      "isArchived": false
+    }
+  ],
+  "differences": [
+    {
+      "slug": "healthcare-gci-oct-2026-delegate",
+      "field": "preparation",
+      "expected": [],
+      "actual": null,
+      "semanticEmptyNormalization": true
+    },
+    {
+      "slug": "healthcare-gci-oct-2026-delegate",
+      "field": "key-dates",
+      "expected": [],
+      "actual": null,
+      "semanticEmptyNormalization": true
+    },
+    {
+      "slug": "healthcare-gci-oct-2026-delegate",
+      "field": "agenda-days",
+      "expected": [],
+      "actual": null,
+      "semanticEmptyNormalization": true
+    },
+    {
+      "slug": "healthcare-gci-oct-2026-delegate",
+      "field": "experience",
+      "expected": [],
+      "actual": null,
+      "semanticEmptyNormalization": true
+    },
+    {
+      "slug": "healthcare-gci-oct-2026-delegate",
+      "field": "faqs",
+      "expected": [],
+      "actual": null,
+      "semanticEmptyNormalization": true
+    },
+    {
+      "slug": "healthcare-gci-oct-2026-delegate",
+      "field": "welcome-intro",
+      "expected": "<p>Placeholder — Event arrangements and instructions are awaiting Operations confirmation.</p>",
+      "actual": "<p id=\"\">Placeholder — Event arrangements and instructions are awaiting Operations confirmation.</p>",
+      "semanticEmptyNormalization": false
+    },
+    {
+      "slug": "healthcare-gci-oct-2026-delegate",
+      "field": "welcome-body",
+      "expected": "<p>Placeholder — Delegate welcome information is awaiting Operations confirmation.</p>",
+      "actual": "<p id=\"\">Placeholder — Delegate welcome information is awaiting Operations confirmation.</p>",
+      "semanticEmptyNormalization": false
+    },
+    {
+      "slug": "healthcare-gci-oct-2026-delegate",
+      "field": "hub-body",
+      "expected": "<p>Placeholder — Delegate MeetMax access and login instructions are awaiting Operations confirmation.</p>",
+      "actual": "<p id=\"\">Placeholder — Delegate MeetMax access and login instructions are awaiting Operations confirmation.</p>",
+      "semanticEmptyNormalization": false
+    },
+    {
+      "slug": "healthcare-gci-oct-2026-delegate",
+      "field": "support-body",
+      "expected": null,
+      "actual": "",
+      "semanticEmptyNormalization": true
+    },
+    {
+      "slug": "healthcare-gci-oct-2026-delegate",
+      "field": "kbyg-reservation-details",
+      "expected": "<p>Placeholder — Delegate reservation instructions, eligibility, rates and deadlines are awaiting Operations confirmation.</p>",
+      "actual": "<p id=\"\">Placeholder — Delegate reservation instructions, eligibility, rates and deadlines are awaiting Operations confirmation.</p>",
+      "semanticEmptyNormalization": false
+    },
+    {
+      "slug": "healthcare-gci-oct-2026-sponsor",
+      "field": "preparation",
+      "expected": [],
+      "actual": null,
+      "semanticEmptyNormalization": true
+    },
+    {
+      "slug": "healthcare-gci-oct-2026-sponsor",
+      "field": "key-dates",
+      "expected": [],
+      "actual": null,
+      "semanticEmptyNormalization": true
+    },
+    {
+      "slug": "healthcare-gci-oct-2026-sponsor",
+      "field": "agenda-days",
+      "expected": [],
+      "actual": null,
+      "semanticEmptyNormalization": true
+    },
+    {
+      "slug": "healthcare-gci-oct-2026-sponsor",
+      "field": "experience",
+      "expected": [],
+      "actual": null,
+      "semanticEmptyNormalization": true
+    },
+    {
+      "slug": "healthcare-gci-oct-2026-sponsor",
+      "field": "faqs",
+      "expected": [],
+      "actual": null,
+      "semanticEmptyNormalization": true
+    },
+    {
+      "slug": "healthcare-gci-oct-2026-sponsor",
+      "field": "welcome-intro",
+      "expected": "<p>Placeholder — Event arrangements and instructions are awaiting Operations confirmation.</p>",
+      "actual": "<p id=\"\">Placeholder — Event arrangements and instructions are awaiting Operations confirmation.</p>",
+      "semanticEmptyNormalization": false
+    },
+    {
+      "slug": "healthcare-gci-oct-2026-sponsor",
+      "field": "welcome-body",
+      "expected": "<p>Placeholder — Sponsor welcome information is awaiting Operations confirmation.</p>",
+      "actual": "<p id=\"\">Placeholder — Sponsor welcome information is awaiting Operations confirmation.</p>",
+      "semanticEmptyNormalization": false
+    },
+    {
+      "slug": "healthcare-gci-oct-2026-sponsor",
+      "field": "hub-body",
+      "expected": "<p>Placeholder — Sponsor MeetMax access and login instructions are awaiting Operations confirmation.</p>",
+      "actual": "<p id=\"\">Placeholder — Sponsor MeetMax access and login instructions are awaiting Operations confirmation.</p>",
+      "semanticEmptyNormalization": false
+    },
+    {
+      "slug": "healthcare-gci-oct-2026-sponsor",
+      "field": "support-body",
+      "expected": "<p>Placeholder — Sponsor support instructions and destination are awaiting Operations confirmation.</p>",
+      "actual": "<p id=\"\">Placeholder — Sponsor support instructions and destination are awaiting Operations confirmation.</p>",
+      "semanticEmptyNormalization": false
+    },
+    {
+      "slug": "healthcare-gci-oct-2026-sponsor",
+      "field": "kbyg-reservation-details",
+      "expected": "<p>Placeholder — Sponsor reservation instructions, eligibility, rates and deadlines are awaiting Operations confirmation.</p>",
+      "actual": "<p id=\"\">Placeholder — Sponsor reservation instructions, eligibility, rates and deadlines are awaiting Operations confirmation.</p>",
+      "semanticEmptyNormalization": false
+    },
+    {
+      "slug": "hrmi-oct-2026-delegate",
+      "field": "preparation",
+      "expected": [],
+      "actual": null,
+      "semanticEmptyNormalization": true
+    },
+    {
+      "slug": "hrmi-oct-2026-delegate",
+      "field": "key-dates",
+      "expected": [],
+      "actual": null,
+      "semanticEmptyNormalization": true
+    },
+    {
+      "slug": "hrmi-oct-2026-delegate",
+      "field": "agenda-days",
+      "expected": [],
+      "actual": null,
+      "semanticEmptyNormalization": true
+    },
+    {
+      "slug": "hrmi-oct-2026-delegate",
+      "field": "experience",
+      "expected": [],
+      "actual": null,
+      "semanticEmptyNormalization": true
+    },
+    {
+      "slug": "hrmi-oct-2026-delegate",
+      "field": "faqs",
+      "expected": [],
+      "actual": null,
+      "semanticEmptyNormalization": true
+    },
+    {
+      "slug": "hrmi-oct-2026-delegate",
+      "field": "welcome-intro",
+      "expected": "<p>Placeholder — Event arrangements and instructions are awaiting Operations confirmation.</p>",
+      "actual": "<p id=\"\">Placeholder — Event arrangements and instructions are awaiting Operations confirmation.</p>",
+      "semanticEmptyNormalization": false
+    },
+    {
+      "slug": "hrmi-oct-2026-delegate",
+      "field": "welcome-body",
+      "expected": "<p>Placeholder — Delegate welcome information is awaiting Operations confirmation.</p>",
+      "actual": "<p id=\"\">Placeholder — Delegate welcome information is awaiting Operations confirmation.</p>",
+      "semanticEmptyNormalization": false
+    },
+    {
+      "slug": "hrmi-oct-2026-delegate",
+      "field": "hub-body",
+      "expected": "<p>Placeholder — Delegate MeetMax access and login instructions are awaiting Operations confirmation.</p>",
+      "actual": "<p id=\"\">Placeholder — Delegate MeetMax access and login instructions are awaiting Operations confirmation.</p>",
+      "semanticEmptyNormalization": false
+    },
+    {
+      "slug": "hrmi-oct-2026-delegate",
+      "field": "support-body",
+      "expected": null,
+      "actual": "",
+      "semanticEmptyNormalization": true
+    },
+    {
+      "slug": "hrmi-oct-2026-delegate",
+      "field": "kbyg-reservation-details",
+      "expected": "<p>Placeholder — Delegate reservation instructions, eligibility, rates and deadlines are awaiting Operations confirmation.</p>",
+      "actual": "<p id=\"\">Placeholder — Delegate reservation instructions, eligibility, rates and deadlines are awaiting Operations confirmation.</p>",
+      "semanticEmptyNormalization": false
+    },
+    {
+      "slug": "hrmi-oct-2026-sponsor",
+      "field": "preparation",
+      "expected": [],
+      "actual": null,
+      "semanticEmptyNormalization": true
+    },
+    {
+      "slug": "hrmi-oct-2026-sponsor",
+      "field": "key-dates",
+      "expected": [],
+      "actual": null,
+      "semanticEmptyNormalization": true
+    },
+    {
+      "slug": "hrmi-oct-2026-sponsor",
+      "field": "agenda-days",
+      "expected": [],
+      "actual": null,
+      "semanticEmptyNormalization": true
+    },
+    {
+      "slug": "hrmi-oct-2026-sponsor",
+      "field": "experience",
+      "expected": [],
+      "actual": null,
+      "semanticEmptyNormalization": true
+    },
+    {
+      "slug": "hrmi-oct-2026-sponsor",
+      "field": "faqs",
+      "expected": [],
+      "actual": null,
+      "semanticEmptyNormalization": true
+    },
+    {
+      "slug": "hrmi-oct-2026-sponsor",
+      "field": "welcome-intro",
+      "expected": "<p>Placeholder — Event arrangements and instructions are awaiting Operations confirmation.</p>",
+      "actual": "<p id=\"\">Placeholder — Event arrangements and instructions are awaiting Operations confirmation.</p>",
+      "semanticEmptyNormalization": false
+    },
+    {
+      "slug": "hrmi-oct-2026-sponsor",
+      "field": "welcome-body",
+      "expected": "<p>Placeholder — Sponsor welcome information is awaiting Operations confirmation.</p>",
+      "actual": "<p id=\"\">Placeholder — Sponsor welcome information is awaiting Operations confirmation.</p>",
+      "semanticEmptyNormalization": false
+    },
+    {
+      "slug": "hrmi-oct-2026-sponsor",
+      "field": "hub-body",
+      "expected": "<p>Placeholder — Sponsor MeetMax access and login instructions are awaiting Operations confirmation.</p>",
+      "actual": "<p id=\"\">Placeholder — Sponsor MeetMax access and login instructions are awaiting Operations confirmation.</p>",
+      "semanticEmptyNormalization": false
+    },
+    {
+      "slug": "hrmi-oct-2026-sponsor",
+      "field": "support-body",
+      "expected": "<p>Placeholder — Sponsor support instructions and destination are awaiting Operations confirmation.</p>",
+      "actual": "<p id=\"\">Placeholder — Sponsor support instructions and destination are awaiting Operations confirmation.</p>",
+      "semanticEmptyNormalization": false
+    },
+    {
+      "slug": "hrmi-oct-2026-sponsor",
+      "field": "kbyg-reservation-details",
+      "expected": "<p>Placeholder — Sponsor reservation instructions, eligibility, rates and deadlines are awaiting Operations confirmation.</p>",
+      "actual": "<p id=\"\">Placeholder — Sponsor reservation instructions, eligibility, rates and deadlines are awaiting Operations confirmation.</p>",
+      "semanticEmptyNormalization": false
+    },
+    {
+      "slug": "iplmi-2026-delegate",
+      "field": "preparation",
+      "expected": [],
+      "actual": null,
+      "semanticEmptyNormalization": true
+    },
+    {
+      "slug": "iplmi-2026-delegate",
+      "field": "key-dates",
+      "expected": [],
+      "actual": null,
+      "semanticEmptyNormalization": true
+    },
+    {
+      "slug": "iplmi-2026-delegate",
+      "field": "agenda-days",
+      "expected": [],
+      "actual": null,
+      "semanticEmptyNormalization": true
+    },
+    {
+      "slug": "iplmi-2026-delegate",
+      "field": "experience",
+      "expected": [],
+      "actual": null,
+      "semanticEmptyNormalization": true
+    },
+    {
+      "slug": "iplmi-2026-delegate",
+      "field": "faqs",
+      "expected": [],
+      "actual": null,
+      "semanticEmptyNormalization": true
+    },
+    {
+      "slug": "iplmi-2026-delegate",
+      "field": "welcome-intro",
+      "expected": "<p>Placeholder — Event arrangements and instructions are awaiting Operations confirmation.</p>",
+      "actual": "<p id=\"\">Placeholder — Event arrangements and instructions are awaiting Operations confirmation.</p>",
+      "semanticEmptyNormalization": false
+    },
+    {
+      "slug": "iplmi-2026-delegate",
+      "field": "welcome-body",
+      "expected": "<p>Placeholder — Delegate welcome information is awaiting Operations confirmation.</p>",
+      "actual": "<p id=\"\">Placeholder — Delegate welcome information is awaiting Operations confirmation.</p>",
+      "semanticEmptyNormalization": false
+    },
+    {
+      "slug": "iplmi-2026-delegate",
+      "field": "hub-body",
+      "expected": "<p>Placeholder — Delegate MeetMax access and login instructions are awaiting Operations confirmation.</p>",
+      "actual": "<p id=\"\">Placeholder — Delegate MeetMax access and login instructions are awaiting Operations confirmation.</p>",
+      "semanticEmptyNormalization": false
+    },
+    {
+      "slug": "iplmi-2026-delegate",
+      "field": "support-body",
+      "expected": null,
+      "actual": "",
+      "semanticEmptyNormalization": true
+    },
+    {
+      "slug": "iplmi-2026-delegate",
+      "field": "kbyg-reservation-details",
+      "expected": "<p>Placeholder — Delegate reservation instructions, eligibility, rates and deadlines are awaiting Operations confirmation.</p>",
+      "actual": "<p id=\"\">Placeholder — Delegate reservation instructions, eligibility, rates and deadlines are awaiting Operations confirmation.</p>",
+      "semanticEmptyNormalization": false
+    },
+    {
+      "slug": "iplmi-2026-sponsor",
+      "field": "preparation",
+      "expected": [],
+      "actual": null,
+      "semanticEmptyNormalization": true
+    },
+    {
+      "slug": "iplmi-2026-sponsor",
+      "field": "key-dates",
+      "expected": [],
+      "actual": null,
+      "semanticEmptyNormalization": true
+    },
+    {
+      "slug": "iplmi-2026-sponsor",
+      "field": "agenda-days",
+      "expected": [],
+      "actual": null,
+      "semanticEmptyNormalization": true
+    },
+    {
+      "slug": "iplmi-2026-sponsor",
+      "field": "experience",
+      "expected": [],
+      "actual": null,
+      "semanticEmptyNormalization": true
+    },
+    {
+      "slug": "iplmi-2026-sponsor",
+      "field": "faqs",
+      "expected": [],
+      "actual": null,
+      "semanticEmptyNormalization": true
+    },
+    {
+      "slug": "iplmi-2026-sponsor",
+      "field": "welcome-intro",
+      "expected": "<p>Placeholder — Event arrangements and instructions are awaiting Operations confirmation.</p>",
+      "actual": "<p id=\"\">Placeholder — Event arrangements and instructions are awaiting Operations confirmation.</p>",
+      "semanticEmptyNormalization": false
+    },
+    {
+      "slug": "iplmi-2026-sponsor",
+      "field": "welcome-body",
+      "expected": "<p>Placeholder — Sponsor welcome information is awaiting Operations confirmation.</p>",
+      "actual": "<p id=\"\">Placeholder — Sponsor welcome information is awaiting Operations confirmation.</p>",
+      "semanticEmptyNormalization": false
+    },
+    {
+      "slug": "iplmi-2026-sponsor",
+      "field": "hub-body",
+      "expected": "<p>Placeholder — Sponsor MeetMax access and login instructions are awaiting Operations confirmation.</p>",
+      "actual": "<p id=\"\">Placeholder — Sponsor MeetMax access and login instructions are awaiting Operations confirmation.</p>",
+      "semanticEmptyNormalization": false
+    },
+    {
+      "slug": "iplmi-2026-sponsor",
+      "field": "support-body",
+      "expected": "<p>Placeholder — Sponsor support instructions and destination are awaiting Operations confirmation.</p>",
+      "actual": "<p id=\"\">Placeholder — Sponsor support instructions and destination are awaiting Operations confirmation.</p>",
+      "semanticEmptyNormalization": false
+    },
+    {
+      "slug": "iplmi-2026-sponsor",
+      "field": "kbyg-reservation-details",
+      "expected": "<p>Placeholder — Sponsor reservation instructions, eligibility, rates and deadlines are awaiting Operations confirmation.</p>",
+      "actual": "<p id=\"\">Placeholder — Sponsor reservation instructions, eligibility, rates and deadlines are awaiting Operations confirmation.</p>",
+      "semanticEmptyNormalization": false
+    },
+    {
+      "slug": "cni-2026-delegate",
+      "field": "preparation",
+      "expected": [],
+      "actual": null,
+      "semanticEmptyNormalization": true
+    },
+    {
+      "slug": "cni-2026-delegate",
+      "field": "key-dates",
+      "expected": [],
+      "actual": null,
+      "semanticEmptyNormalization": true
+    },
+    {
+      "slug": "cni-2026-delegate",
+      "field": "agenda-days",
+      "expected": [],
+      "actual": null,
+      "semanticEmptyNormalization": true
+    },
+    {
+      "slug": "cni-2026-delegate",
+      "field": "experience",
+      "expected": [],
+      "actual": null,
+      "semanticEmptyNormalization": true
+    },
+    {
+      "slug": "cni-2026-delegate",
+      "field": "faqs",
+      "expected": [],
+      "actual": null,
+      "semanticEmptyNormalization": true
+    },
+    {
+      "slug": "cni-2026-delegate",
+      "field": "welcome-intro",
+      "expected": "<p>Placeholder — Event arrangements and instructions are awaiting Operations confirmation.</p>",
+      "actual": "<p id=\"\">Placeholder — Event arrangements and instructions are awaiting Operations confirmation.</p>",
+      "semanticEmptyNormalization": false
+    },
+    {
+      "slug": "cni-2026-delegate",
+      "field": "welcome-body",
+      "expected": "<p>Placeholder — Delegate welcome information is awaiting Operations confirmation.</p>",
+      "actual": "<p id=\"\">Placeholder — Delegate welcome information is awaiting Operations confirmation.</p>",
+      "semanticEmptyNormalization": false
+    },
+    {
+      "slug": "cni-2026-delegate",
+      "field": "hub-body",
+      "expected": "<p>Placeholder — Delegate MeetMax access and login instructions are awaiting Operations confirmation.</p>",
+      "actual": "<p id=\"\">Placeholder — Delegate MeetMax access and login instructions are awaiting Operations confirmation.</p>",
+      "semanticEmptyNormalization": false
+    },
+    {
+      "slug": "cni-2026-delegate",
+      "field": "support-body",
+      "expected": null,
+      "actual": "",
+      "semanticEmptyNormalization": true
+    },
+    {
+      "slug": "cni-2026-delegate",
+      "field": "kbyg-reservation-details",
+      "expected": "<p>Placeholder — Delegate reservation instructions, eligibility, rates and deadlines are awaiting Operations confirmation.</p>",
+      "actual": "<p id=\"\">Placeholder — Delegate reservation instructions, eligibility, rates and deadlines are awaiting Operations confirmation.</p>",
+      "semanticEmptyNormalization": false
+    },
+    {
+      "slug": "cni-2026-sponsor",
+      "field": "preparation",
+      "expected": [],
+      "actual": null,
+      "semanticEmptyNormalization": true
+    },
+    {
+      "slug": "cni-2026-sponsor",
+      "field": "key-dates",
+      "expected": [],
+      "actual": null,
+      "semanticEmptyNormalization": true
+    },
+    {
+      "slug": "cni-2026-sponsor",
+      "field": "agenda-days",
+      "expected": [],
+      "actual": null,
+      "semanticEmptyNormalization": true
+    },
+    {
+      "slug": "cni-2026-sponsor",
+      "field": "experience",
+      "expected": [],
+      "actual": null,
+      "semanticEmptyNormalization": true
+    },
+    {
+      "slug": "cni-2026-sponsor",
+      "field": "faqs",
+      "expected": [],
+      "actual": null,
+      "semanticEmptyNormalization": true
+    },
+    {
+      "slug": "cni-2026-sponsor",
+      "field": "welcome-intro",
+      "expected": "<p>Placeholder — Event arrangements and instructions are awaiting Operations confirmation.</p>",
+      "actual": "<p id=\"\">Placeholder — Event arrangements and instructions are awaiting Operations confirmation.</p>",
+      "semanticEmptyNormalization": false
+    },
+    {
+      "slug": "cni-2026-sponsor",
+      "field": "welcome-body",
+      "expected": "<p>Placeholder — Sponsor welcome information is awaiting Operations confirmation.</p>",
+      "actual": "<p id=\"\">Placeholder — Sponsor welcome information is awaiting Operations confirmation.</p>",
+      "semanticEmptyNormalization": false
+    },
+    {
+      "slug": "cni-2026-sponsor",
+      "field": "hub-body",
+      "expected": "<p>Placeholder — Sponsor MeetMax access and login instructions are awaiting Operations confirmation.</p>",
+      "actual": "<p id=\"\">Placeholder — Sponsor MeetMax access and login instructions are awaiting Operations confirmation.</p>",
+      "semanticEmptyNormalization": false
+    },
+    {
+      "slug": "cni-2026-sponsor",
+      "field": "support-body",
+      "expected": "<p>Placeholder — Sponsor support instructions and destination are awaiting Operations confirmation.</p>",
+      "actual": "<p id=\"\">Placeholder — Sponsor support instructions and destination are awaiting Operations confirmation.</p>",
+      "semanticEmptyNormalization": false
+    },
+    {
+      "slug": "cni-2026-sponsor",
+      "field": "kbyg-reservation-details",
+      "expected": "<p>Placeholder — Sponsor reservation instructions, eligibility, rates and deadlines are awaiting Operations confirmation.</p>",
+      "actual": "<p id=\"\">Placeholder — Sponsor reservation instructions, eligibility, rates and deadlines are awaiting Operations confirmation.</p>",
+      "semanticEmptyNormalization": false
+    },
+    {
+      "slug": "cwi-2026-delegate",
+      "field": "preparation",
+      "expected": [],
+      "actual": null,
+      "semanticEmptyNormalization": true
+    },
+    {
+      "slug": "cwi-2026-delegate",
+      "field": "key-dates",
+      "expected": [],
+      "actual": null,
+      "semanticEmptyNormalization": true
+    },
+    {
+      "slug": "cwi-2026-delegate",
+      "field": "agenda-days",
+      "expected": [],
+      "actual": null,
+      "semanticEmptyNormalization": true
+    },
+    {
+      "slug": "cwi-2026-delegate",
+      "field": "experience",
+      "expected": [],
+      "actual": null,
+      "semanticEmptyNormalization": true
+    },
+    {
+      "slug": "cwi-2026-delegate",
+      "field": "faqs",
+      "expected": [],
+      "actual": null,
+      "semanticEmptyNormalization": true
+    },
+    {
+      "slug": "cwi-2026-delegate",
+      "field": "welcome-intro",
+      "expected": "<p>Placeholder — Event arrangements and instructions are awaiting Operations confirmation.</p>",
+      "actual": "<p id=\"\">Placeholder — Event arrangements and instructions are awaiting Operations confirmation.</p>",
+      "semanticEmptyNormalization": false
+    },
+    {
+      "slug": "cwi-2026-delegate",
+      "field": "welcome-body",
+      "expected": "<p>Placeholder — Delegate welcome information is awaiting Operations confirmation.</p>",
+      "actual": "<p id=\"\">Placeholder — Delegate welcome information is awaiting Operations confirmation.</p>",
+      "semanticEmptyNormalization": false
+    },
+    {
+      "slug": "cwi-2026-delegate",
+      "field": "hub-body",
+      "expected": "<p>Placeholder — Delegate MeetMax access and login instructions are awaiting Operations confirmation.</p>",
+      "actual": "<p id=\"\">Placeholder — Delegate MeetMax access and login instructions are awaiting Operations confirmation.</p>",
+      "semanticEmptyNormalization": false
+    },
+    {
+      "slug": "cwi-2026-delegate",
+      "field": "support-body",
+      "expected": null,
+      "actual": "",
+      "semanticEmptyNormalization": true
+    },
+    {
+      "slug": "cwi-2026-delegate",
+      "field": "kbyg-reservation-details",
+      "expected": "<p>Placeholder — Delegate reservation instructions, eligibility, rates and deadlines are awaiting Operations confirmation.</p>",
+      "actual": "<p id=\"\">Placeholder — Delegate reservation instructions, eligibility, rates and deadlines are awaiting Operations confirmation.</p>",
+      "semanticEmptyNormalization": false
+    },
+    {
+      "slug": "cwi-2026-sponsor",
+      "field": "preparation",
+      "expected": [],
+      "actual": null,
+      "semanticEmptyNormalization": true
+    },
+    {
+      "slug": "cwi-2026-sponsor",
+      "field": "key-dates",
+      "expected": [],
+      "actual": null,
+      "semanticEmptyNormalization": true
+    },
+    {
+      "slug": "cwi-2026-sponsor",
+      "field": "agenda-days",
+      "expected": [],
+      "actual": null,
+      "semanticEmptyNormalization": true
+    },
+    {
+      "slug": "cwi-2026-sponsor",
+      "field": "experience",
+      "expected": [],
+      "actual": null,
+      "semanticEmptyNormalization": true
+    },
+    {
+      "slug": "cwi-2026-sponsor",
+      "field": "faqs",
+      "expected": [],
+      "actual": null,
+      "semanticEmptyNormalization": true
+    },
+    {
+      "slug": "cwi-2026-sponsor",
+      "field": "welcome-intro",
+      "expected": "<p>Placeholder — Event arrangements and instructions are awaiting Operations confirmation.</p>",
+      "actual": "<p id=\"\">Placeholder — Event arrangements and instructions are awaiting Operations confirmation.</p>",
+      "semanticEmptyNormalization": false
+    },
+    {
+      "slug": "cwi-2026-sponsor",
+      "field": "welcome-body",
+      "expected": "<p>Placeholder — Sponsor welcome information is awaiting Operations confirmation.</p>",
+      "actual": "<p id=\"\">Placeholder — Sponsor welcome information is awaiting Operations confirmation.</p>",
+      "semanticEmptyNormalization": false
+    },
+    {
+      "slug": "cwi-2026-sponsor",
+      "field": "hub-body",
+      "expected": "<p>Placeholder — Sponsor MeetMax access and login instructions are awaiting Operations confirmation.</p>",
+      "actual": "<p id=\"\">Placeholder — Sponsor MeetMax access and login instructions are awaiting Operations confirmation.</p>",
+      "semanticEmptyNormalization": false
+    },
+    {
+      "slug": "cwi-2026-sponsor",
+      "field": "support-body",
+      "expected": "<p>Placeholder — Sponsor support instructions and destination are awaiting Operations confirmation.</p>",
+      "actual": "<p id=\"\">Placeholder — Sponsor support instructions and destination are awaiting Operations confirmation.</p>",
+      "semanticEmptyNormalization": false
+    },
+    {
+      "slug": "cwi-2026-sponsor",
+      "field": "kbyg-reservation-details",
+      "expected": "<p>Placeholder — Sponsor reservation instructions, eligibility, rates and deadlines are awaiting Operations confirmation.</p>",
+      "actual": "<p id=\"\">Placeholder — Sponsor reservation instructions, eligibility, rates and deadlines are awaiting Operations confirmation.</p>",
+      "semanticEmptyNormalization": false
+    },
+    {
+      "slug": "hrmi-canada-nov-2026-delegate",
+      "field": "preparation",
+      "expected": [],
+      "actual": null,
+      "semanticEmptyNormalization": true
+    },
+    {
+      "slug": "hrmi-canada-nov-2026-delegate",
+      "field": "key-dates",
+      "expected": [],
+      "actual": null,
+      "semanticEmptyNormalization": true
+    },
+    {
+      "slug": "hrmi-canada-nov-2026-delegate",
+      "field": "agenda-days",
+      "expected": [],
+      "actual": null,
+      "semanticEmptyNormalization": true
+    },
+    {
+      "slug": "hrmi-canada-nov-2026-delegate",
+      "field": "experience",
+      "expected": [],
+      "actual": null,
+      "semanticEmptyNormalization": true
+    },
+    {
+      "slug": "hrmi-canada-nov-2026-delegate",
+      "field": "faqs",
+      "expected": [],
+      "actual": null,
+      "semanticEmptyNormalization": true
+    },
+    {
+      "slug": "hrmi-canada-nov-2026-delegate",
+      "field": "welcome-intro",
+      "expected": "<p>Placeholder — Event arrangements and instructions are awaiting Operations confirmation.</p>",
+      "actual": "<p id=\"\">Placeholder — Event arrangements and instructions are awaiting Operations confirmation.</p>",
+      "semanticEmptyNormalization": false
+    },
+    {
+      "slug": "hrmi-canada-nov-2026-delegate",
+      "field": "welcome-body",
+      "expected": "<p>Placeholder — Delegate welcome information is awaiting Operations confirmation.</p>",
+      "actual": "<p id=\"\">Placeholder — Delegate welcome information is awaiting Operations confirmation.</p>",
+      "semanticEmptyNormalization": false
+    },
+    {
+      "slug": "hrmi-canada-nov-2026-delegate",
+      "field": "hub-body",
+      "expected": "<p>Placeholder — Delegate MeetMax access and login instructions are awaiting Operations confirmation.</p>",
+      "actual": "<p id=\"\">Placeholder — Delegate MeetMax access and login instructions are awaiting Operations confirmation.</p>",
+      "semanticEmptyNormalization": false
+    },
+    {
+      "slug": "hrmi-canada-nov-2026-delegate",
+      "field": "support-body",
+      "expected": null,
+      "actual": "",
+      "semanticEmptyNormalization": true
+    },
+    {
+      "slug": "hrmi-canada-nov-2026-delegate",
+      "field": "kbyg-reservation-details",
+      "expected": "<p>Placeholder — Delegate reservation instructions, eligibility, rates and deadlines are awaiting Operations confirmation.</p>",
+      "actual": "<p id=\"\">Placeholder — Delegate reservation instructions, eligibility, rates and deadlines are awaiting Operations confirmation.</p>",
+      "semanticEmptyNormalization": false
+    },
+    {
+      "slug": "hrmi-canada-nov-2026-sponsor",
+      "field": "preparation",
+      "expected": [],
+      "actual": null,
+      "semanticEmptyNormalization": true
+    },
+    {
+      "slug": "hrmi-canada-nov-2026-sponsor",
+      "field": "key-dates",
+      "expected": [],
+      "actual": null,
+      "semanticEmptyNormalization": true
+    },
+    {
+      "slug": "hrmi-canada-nov-2026-sponsor",
+      "field": "agenda-days",
+      "expected": [],
+      "actual": null,
+      "semanticEmptyNormalization": true
+    },
+    {
+      "slug": "hrmi-canada-nov-2026-sponsor",
+      "field": "experience",
+      "expected": [],
+      "actual": null,
+      "semanticEmptyNormalization": true
+    },
+    {
+      "slug": "hrmi-canada-nov-2026-sponsor",
+      "field": "faqs",
+      "expected": [],
+      "actual": null,
+      "semanticEmptyNormalization": true
+    },
+    {
+      "slug": "hrmi-canada-nov-2026-sponsor",
+      "field": "welcome-intro",
+      "expected": "<p>Placeholder — Event arrangements and instructions are awaiting Operations confirmation.</p>",
+      "actual": "<p id=\"\">Placeholder — Event arrangements and instructions are awaiting Operations confirmation.</p>",
+      "semanticEmptyNormalization": false
+    },
+    {
+      "slug": "hrmi-canada-nov-2026-sponsor",
+      "field": "welcome-body",
+      "expected": "<p>Placeholder — Sponsor welcome information is awaiting Operations confirmation.</p>",
+      "actual": "<p id=\"\">Placeholder — Sponsor welcome information is awaiting Operations confirmation.</p>",
+      "semanticEmptyNormalization": false
+    },
+    {
+      "slug": "hrmi-canada-nov-2026-sponsor",
+      "field": "hub-body",
+      "expected": "<p>Placeholder — Sponsor MeetMax access and login instructions are awaiting Operations confirmation.</p>",
+      "actual": "<p id=\"\">Placeholder — Sponsor MeetMax access and login instructions are awaiting Operations confirmation.</p>",
+      "semanticEmptyNormalization": false
+    },
+    {
+      "slug": "hrmi-canada-nov-2026-sponsor",
+      "field": "support-body",
+      "expected": "<p>Placeholder — Sponsor support instructions and destination are awaiting Operations confirmation.</p>",
+      "actual": "<p id=\"\">Placeholder — Sponsor support instructions and destination are awaiting Operations confirmation.</p>",
+      "semanticEmptyNormalization": false
+    },
+    {
+      "slug": "hrmi-canada-nov-2026-sponsor",
+      "field": "kbyg-reservation-details",
+      "expected": "<p>Placeholder — Sponsor reservation instructions, eligibility, rates and deadlines are awaiting Operations confirmation.</p>",
+      "actual": "<p id=\"\">Placeholder — Sponsor reservation instructions, eligibility, rates and deadlines are awaiting Operations confirmation.</p>",
+      "semanticEmptyNormalization": false
+    },
+    {
+      "slug": "hgc-feb-2027-delegate",
+      "field": "preparation",
+      "expected": [],
+      "actual": null,
+      "semanticEmptyNormalization": true
+    },
+    {
+      "slug": "hgc-feb-2027-delegate",
+      "field": "key-dates",
+      "expected": [],
+      "actual": null,
+      "semanticEmptyNormalization": true
+    },
+    {
+      "slug": "hgc-feb-2027-delegate",
+      "field": "agenda-days",
+      "expected": [],
+      "actual": null,
+      "semanticEmptyNormalization": true
+    },
+    {
+      "slug": "hgc-feb-2027-delegate",
+      "field": "experience",
+      "expected": [],
+      "actual": null,
+      "semanticEmptyNormalization": true
+    },
+    {
+      "slug": "hgc-feb-2027-delegate",
+      "field": "faqs",
+      "expected": [],
+      "actual": null,
+      "semanticEmptyNormalization": true
+    },
+    {
+      "slug": "hgc-feb-2027-delegate",
+      "field": "welcome-intro",
+      "expected": "<p>Placeholder — Event arrangements and instructions are awaiting Operations confirmation.</p>",
+      "actual": "<p id=\"\">Placeholder — Event arrangements and instructions are awaiting Operations confirmation.</p>",
+      "semanticEmptyNormalization": false
+    },
+    {
+      "slug": "hgc-feb-2027-delegate",
+      "field": "welcome-body",
+      "expected": "<p>Placeholder — Delegate welcome information is awaiting Operations confirmation.</p>",
+      "actual": "<p id=\"\">Placeholder — Delegate welcome information is awaiting Operations confirmation.</p>",
+      "semanticEmptyNormalization": false
+    },
+    {
+      "slug": "hgc-feb-2027-delegate",
+      "field": "hub-body",
+      "expected": "<p>Placeholder — Delegate MeetMax access and login instructions are awaiting Operations confirmation.</p>",
+      "actual": "<p id=\"\">Placeholder — Delegate MeetMax access and login instructions are awaiting Operations confirmation.</p>",
+      "semanticEmptyNormalization": false
+    },
+    {
+      "slug": "hgc-feb-2027-delegate",
+      "field": "support-body",
+      "expected": null,
+      "actual": "",
+      "semanticEmptyNormalization": true
+    },
+    {
+      "slug": "hgc-feb-2027-delegate",
+      "field": "kbyg-reservation-details",
+      "expected": "<p>Placeholder — Delegate reservation instructions, eligibility, rates and deadlines are awaiting Operations confirmation.</p>",
+      "actual": "<p id=\"\">Placeholder — Delegate reservation instructions, eligibility, rates and deadlines are awaiting Operations confirmation.</p>",
+      "semanticEmptyNormalization": false
+    },
+    {
+      "slug": "hgc-feb-2027-sponsor",
+      "field": "preparation",
+      "expected": [],
+      "actual": null,
+      "semanticEmptyNormalization": true
+    },
+    {
+      "slug": "hgc-feb-2027-sponsor",
+      "field": "key-dates",
+      "expected": [],
+      "actual": null,
+      "semanticEmptyNormalization": true
+    },
+    {
+      "slug": "hgc-feb-2027-sponsor",
+      "field": "agenda-days",
+      "expected": [],
+      "actual": null,
+      "semanticEmptyNormalization": true
+    },
+    {
+      "slug": "hgc-feb-2027-sponsor",
+      "field": "experience",
+      "expected": [],
+      "actual": null,
+      "semanticEmptyNormalization": true
+    },
+    {
+      "slug": "hgc-feb-2027-sponsor",
+      "field": "faqs",
+      "expected": [],
+      "actual": null,
+      "semanticEmptyNormalization": true
+    },
+    {
+      "slug": "hgc-feb-2027-sponsor",
+      "field": "welcome-intro",
+      "expected": "<p>Placeholder — Event arrangements and instructions are awaiting Operations confirmation.</p>",
+      "actual": "<p id=\"\">Placeholder — Event arrangements and instructions are awaiting Operations confirmation.</p>",
+      "semanticEmptyNormalization": false
+    },
+    {
+      "slug": "hgc-feb-2027-sponsor",
+      "field": "welcome-body",
+      "expected": "<p>Placeholder — Sponsor welcome information is awaiting Operations confirmation.</p>",
+      "actual": "<p id=\"\">Placeholder — Sponsor welcome information is awaiting Operations confirmation.</p>",
+      "semanticEmptyNormalization": false
+    },
+    {
+      "slug": "hgc-feb-2027-sponsor",
+      "field": "hub-body",
+      "expected": "<p>Placeholder — Sponsor MeetMax access and login instructions are awaiting Operations confirmation.</p>",
+      "actual": "<p id=\"\">Placeholder — Sponsor MeetMax access and login instructions are awaiting Operations confirmation.</p>",
+      "semanticEmptyNormalization": false
+    },
+    {
+      "slug": "hgc-feb-2027-sponsor",
+      "field": "support-body",
+      "expected": "<p>Placeholder — Sponsor support instructions and destination are awaiting Operations confirmation.</p>",
+      "actual": "<p id=\"\">Placeholder — Sponsor support instructions and destination are awaiting Operations confirmation.</p>",
+      "semanticEmptyNormalization": false
+    },
+    {
+      "slug": "hgc-feb-2027-sponsor",
+      "field": "kbyg-reservation-details",
+      "expected": "<p>Placeholder — Sponsor reservation instructions, eligibility, rates and deadlines are awaiting Operations confirmation.</p>",
+      "actual": "<p id=\"\">Placeholder — Sponsor reservation instructions, eligibility, rates and deadlines are awaiting Operations confirmation.</p>",
+      "semanticEmptyNormalization": false
+    },
+    {
+      "slug": "hrmi-feb-2027-delegate",
+      "field": "preparation",
+      "expected": [],
+      "actual": null,
+      "semanticEmptyNormalization": true
+    },
+    {
+      "slug": "hrmi-feb-2027-delegate",
+      "field": "key-dates",
+      "expected": [],
+      "actual": null,
+      "semanticEmptyNormalization": true
+    },
+    {
+      "slug": "hrmi-feb-2027-delegate",
+      "field": "agenda-days",
+      "expected": [],
+      "actual": null,
+      "semanticEmptyNormalization": true
+    },
+    {
+      "slug": "hrmi-feb-2027-delegate",
+      "field": "experience",
+      "expected": [],
+      "actual": null,
+      "semanticEmptyNormalization": true
+    },
+    {
+      "slug": "hrmi-feb-2027-delegate",
+      "field": "faqs",
+      "expected": [],
+      "actual": null,
+      "semanticEmptyNormalization": true
+    },
+    {
+      "slug": "hrmi-feb-2027-delegate",
+      "field": "welcome-intro",
+      "expected": "<p>Placeholder — Event arrangements and instructions are awaiting Operations confirmation.</p>",
+      "actual": "<p id=\"\">Placeholder — Event arrangements and instructions are awaiting Operations confirmation.</p>",
+      "semanticEmptyNormalization": false
+    },
+    {
+      "slug": "hrmi-feb-2027-delegate",
+      "field": "welcome-body",
+      "expected": "<p>Placeholder — Delegate welcome information is awaiting Operations confirmation.</p>",
+      "actual": "<p id=\"\">Placeholder — Delegate welcome information is awaiting Operations confirmation.</p>",
+      "semanticEmptyNormalization": false
+    },
+    {
+      "slug": "hrmi-feb-2027-delegate",
+      "field": "hub-body",
+      "expected": "<p>Placeholder — Delegate MeetMax access and login instructions are awaiting Operations confirmation.</p>",
+      "actual": "<p id=\"\">Placeholder — Delegate MeetMax access and login instructions are awaiting Operations confirmation.</p>",
+      "semanticEmptyNormalization": false
+    },
+    {
+      "slug": "hrmi-feb-2027-delegate",
+      "field": "support-body",
+      "expected": null,
+      "actual": "",
+      "semanticEmptyNormalization": true
+    },
+    {
+      "slug": "hrmi-feb-2027-delegate",
+      "field": "kbyg-reservation-details",
+      "expected": "<p>Placeholder — Delegate reservation instructions, eligibility, rates and deadlines are awaiting Operations confirmation.</p>",
+      "actual": "<p id=\"\">Placeholder — Delegate reservation instructions, eligibility, rates and deadlines are awaiting Operations confirmation.</p>",
+      "semanticEmptyNormalization": false
+    },
+    {
+      "slug": "hrmi-feb-2027-sponsor",
+      "field": "preparation",
+      "expected": [],
+      "actual": null,
+      "semanticEmptyNormalization": true
+    },
+    {
+      "slug": "hrmi-feb-2027-sponsor",
+      "field": "key-dates",
+      "expected": [],
+      "actual": null,
+      "semanticEmptyNormalization": true
+    },
+    {
+      "slug": "hrmi-feb-2027-sponsor",
+      "field": "agenda-days",
+      "expected": [],
+      "actual": null,
+      "semanticEmptyNormalization": true
+    },
+    {
+      "slug": "hrmi-feb-2027-sponsor",
+      "field": "experience",
+      "expected": [],
+      "actual": null,
+      "semanticEmptyNormalization": true
+    },
+    {
+      "slug": "hrmi-feb-2027-sponsor",
+      "field": "faqs",
+      "expected": [],
+      "actual": null,
+      "semanticEmptyNormalization": true
+    },
+    {
+      "slug": "hrmi-feb-2027-sponsor",
+      "field": "welcome-intro",
+      "expected": "<p>Placeholder — Event arrangements and instructions are awaiting Operations confirmation.</p>",
+      "actual": "<p id=\"\">Placeholder — Event arrangements and instructions are awaiting Operations confirmation.</p>",
+      "semanticEmptyNormalization": false
+    },
+    {
+      "slug": "hrmi-feb-2027-sponsor",
+      "field": "welcome-body",
+      "expected": "<p>Placeholder — Sponsor welcome information is awaiting Operations confirmation.</p>",
+      "actual": "<p id=\"\">Placeholder — Sponsor welcome information is awaiting Operations confirmation.</p>",
+      "semanticEmptyNormalization": false
+    },
+    {
+      "slug": "hrmi-feb-2027-sponsor",
+      "field": "hub-body",
+      "expected": "<p>Placeholder — Sponsor MeetMax access and login instructions are awaiting Operations confirmation.</p>",
+      "actual": "<p id=\"\">Placeholder — Sponsor MeetMax access and login instructions are awaiting Operations confirmation.</p>",
+      "semanticEmptyNormalization": false
+    },
+    {
+      "slug": "hrmi-feb-2027-sponsor",
+      "field": "support-body",
+      "expected": "<p>Placeholder — Sponsor support instructions and destination are awaiting Operations confirmation.</p>",
+      "actual": "<p id=\"\">Placeholder — Sponsor support instructions and destination are awaiting Operations confirmation.</p>",
+      "semanticEmptyNormalization": false
+    },
+    {
+      "slug": "hrmi-feb-2027-sponsor",
+      "field": "kbyg-reservation-details",
+      "expected": "<p>Placeholder — Sponsor reservation instructions, eligibility, rates and deadlines are awaiting Operations confirmation.</p>",
+      "actual": "<p id=\"\">Placeholder — Sponsor reservation instructions, eligibility, rates and deadlines are awaiting Operations confirmation.</p>",
+      "semanticEmptyNormalization": false
+    },
+    {
+      "slug": "cldi-march-2027-delegate",
+      "field": "preparation",
+      "expected": [],
+      "actual": null,
+      "semanticEmptyNormalization": true
+    },
+    {
+      "slug": "cldi-march-2027-delegate",
+      "field": "key-dates",
+      "expected": [],
+      "actual": null,
+      "semanticEmptyNormalization": true
+    },
+    {
+      "slug": "cldi-march-2027-delegate",
+      "field": "agenda-days",
+      "expected": [],
+      "actual": null,
+      "semanticEmptyNormalization": true
+    },
+    {
+      "slug": "cldi-march-2027-delegate",
+      "field": "experience",
+      "expected": [],
+      "actual": null,
+      "semanticEmptyNormalization": true
+    },
+    {
+      "slug": "cldi-march-2027-delegate",
+      "field": "faqs",
+      "expected": [],
+      "actual": null,
+      "semanticEmptyNormalization": true
+    },
+    {
+      "slug": "cldi-march-2027-delegate",
+      "field": "welcome-intro",
+      "expected": "<p>Placeholder — Event arrangements and instructions are awaiting Operations confirmation.</p>",
+      "actual": "<p id=\"\">Placeholder — Event arrangements and instructions are awaiting Operations confirmation.</p>",
+      "semanticEmptyNormalization": false
+    },
+    {
+      "slug": "cldi-march-2027-delegate",
+      "field": "welcome-body",
+      "expected": "<p>Placeholder — Delegate welcome information is awaiting Operations confirmation.</p>",
+      "actual": "<p id=\"\">Placeholder — Delegate welcome information is awaiting Operations confirmation.</p>",
+      "semanticEmptyNormalization": false
+    },
+    {
+      "slug": "cldi-march-2027-delegate",
+      "field": "hub-body",
+      "expected": "<p>Placeholder — Delegate MeetMax access and login instructions are awaiting Operations confirmation.</p>",
+      "actual": "<p id=\"\">Placeholder — Delegate MeetMax access and login instructions are awaiting Operations confirmation.</p>",
+      "semanticEmptyNormalization": false
+    },
+    {
+      "slug": "cldi-march-2027-delegate",
+      "field": "support-body",
+      "expected": null,
+      "actual": "",
+      "semanticEmptyNormalization": true
+    },
+    {
+      "slug": "cldi-march-2027-delegate",
+      "field": "kbyg-reservation-details",
+      "expected": "<p>Placeholder — Delegate reservation instructions, eligibility, rates and deadlines are awaiting Operations confirmation.</p>",
+      "actual": "<p id=\"\">Placeholder — Delegate reservation instructions, eligibility, rates and deadlines are awaiting Operations confirmation.</p>",
+      "semanticEmptyNormalization": false
+    },
+    {
+      "slug": "cldi-march-2027-sponsor",
+      "field": "preparation",
+      "expected": [],
+      "actual": null,
+      "semanticEmptyNormalization": true
+    },
+    {
+      "slug": "cldi-march-2027-sponsor",
+      "field": "key-dates",
+      "expected": [],
+      "actual": null,
+      "semanticEmptyNormalization": true
+    },
+    {
+      "slug": "cldi-march-2027-sponsor",
+      "field": "agenda-days",
+      "expected": [],
+      "actual": null,
+      "semanticEmptyNormalization": true
+    },
+    {
+      "slug": "cldi-march-2027-sponsor",
+      "field": "experience",
+      "expected": [],
+      "actual": null,
+      "semanticEmptyNormalization": true
+    },
+    {
+      "slug": "cldi-march-2027-sponsor",
+      "field": "faqs",
+      "expected": [],
+      "actual": null,
+      "semanticEmptyNormalization": true
+    },
+    {
+      "slug": "cldi-march-2027-sponsor",
+      "field": "welcome-intro",
+      "expected": "<p>Placeholder — Event arrangements and instructions are awaiting Operations confirmation.</p>",
+      "actual": "<p id=\"\">Placeholder — Event arrangements and instructions are awaiting Operations confirmation.</p>",
+      "semanticEmptyNormalization": false
+    },
+    {
+      "slug": "cldi-march-2027-sponsor",
+      "field": "welcome-body",
+      "expected": "<p>Placeholder — Sponsor welcome information is awaiting Operations confirmation.</p>",
+      "actual": "<p id=\"\">Placeholder — Sponsor welcome information is awaiting Operations confirmation.</p>",
+      "semanticEmptyNormalization": false
+    },
+    {
+      "slug": "cldi-march-2027-sponsor",
+      "field": "hub-body",
+      "expected": "<p>Placeholder — Sponsor MeetMax access and login instructions are awaiting Operations confirmation.</p>",
+      "actual": "<p id=\"\">Placeholder — Sponsor MeetMax access and login instructions are awaiting Operations confirmation.</p>",
+      "semanticEmptyNormalization": false
+    },
+    {
+      "slug": "cldi-march-2027-sponsor",
+      "field": "support-body",
+      "expected": "<p>Placeholder — Sponsor support instructions and destination are awaiting Operations confirmation.</p>",
+      "actual": "<p id=\"\">Placeholder — Sponsor support instructions and destination are awaiting Operations confirmation.</p>",
+      "semanticEmptyNormalization": false
+    },
+    {
+      "slug": "cldi-march-2027-sponsor",
+      "field": "kbyg-reservation-details",
+      "expected": "<p>Placeholder — Sponsor reservation instructions, eligibility, rates and deadlines are awaiting Operations confirmation.</p>",
+      "actual": "<p id=\"\">Placeholder — Sponsor reservation instructions, eligibility, rates and deadlines are awaiting Operations confirmation.</p>",
+      "semanticEmptyNormalization": false
+    },
+    {
+      "slug": "hchrmi-march-2027-delegate",
+      "field": "preparation",
+      "expected": [],
+      "actual": null,
+      "semanticEmptyNormalization": true
+    },
+    {
+      "slug": "hchrmi-march-2027-delegate",
+      "field": "key-dates",
+      "expected": [],
+      "actual": null,
+      "semanticEmptyNormalization": true
+    },
+    {
+      "slug": "hchrmi-march-2027-delegate",
+      "field": "agenda-days",
+      "expected": [],
+      "actual": null,
+      "semanticEmptyNormalization": true
+    },
+    {
+      "slug": "hchrmi-march-2027-delegate",
+      "field": "experience",
+      "expected": [],
+      "actual": null,
+      "semanticEmptyNormalization": true
+    },
+    {
+      "slug": "hchrmi-march-2027-delegate",
+      "field": "faqs",
+      "expected": [],
+      "actual": null,
+      "semanticEmptyNormalization": true
+    },
+    {
+      "slug": "hchrmi-march-2027-delegate",
+      "field": "welcome-intro",
+      "expected": "<p>Placeholder — Event arrangements and instructions are awaiting Operations confirmation.</p>",
+      "actual": "<p id=\"\">Placeholder — Event arrangements and instructions are awaiting Operations confirmation.</p>",
+      "semanticEmptyNormalization": false
+    },
+    {
+      "slug": "hchrmi-march-2027-delegate",
+      "field": "welcome-body",
+      "expected": "<p>Placeholder — Delegate welcome information is awaiting Operations confirmation.</p>",
+      "actual": "<p id=\"\">Placeholder — Delegate welcome information is awaiting Operations confirmation.</p>",
+      "semanticEmptyNormalization": false
+    },
+    {
+      "slug": "hchrmi-march-2027-delegate",
+      "field": "hub-body",
+      "expected": "<p>Placeholder — Delegate MeetMax access and login instructions are awaiting Operations confirmation.</p>",
+      "actual": "<p id=\"\">Placeholder — Delegate MeetMax access and login instructions are awaiting Operations confirmation.</p>",
+      "semanticEmptyNormalization": false
+    },
+    {
+      "slug": "hchrmi-march-2027-delegate",
+      "field": "support-body",
+      "expected": null,
+      "actual": "",
+      "semanticEmptyNormalization": true
+    },
+    {
+      "slug": "hchrmi-march-2027-delegate",
+      "field": "kbyg-reservation-details",
+      "expected": "<p>Placeholder — Delegate reservation instructions, eligibility, rates and deadlines are awaiting Operations confirmation.</p>",
+      "actual": "<p id=\"\">Placeholder — Delegate reservation instructions, eligibility, rates and deadlines are awaiting Operations confirmation.</p>",
+      "semanticEmptyNormalization": false
+    },
+    {
+      "slug": "hchrmi-march-2027-sponsor",
+      "field": "preparation",
+      "expected": [],
+      "actual": null,
+      "semanticEmptyNormalization": true
+    },
+    {
+      "slug": "hchrmi-march-2027-sponsor",
+      "field": "key-dates",
+      "expected": [],
+      "actual": null,
+      "semanticEmptyNormalization": true
+    },
+    {
+      "slug": "hchrmi-march-2027-sponsor",
+      "field": "agenda-days",
+      "expected": [],
+      "actual": null,
+      "semanticEmptyNormalization": true
+    },
+    {
+      "slug": "hchrmi-march-2027-sponsor",
+      "field": "experience",
+      "expected": [],
+      "actual": null,
+      "semanticEmptyNormalization": true
+    },
+    {
+      "slug": "hchrmi-march-2027-sponsor",
+      "field": "faqs",
+      "expected": [],
+      "actual": null,
+      "semanticEmptyNormalization": true
+    },
+    {
+      "slug": "hchrmi-march-2027-sponsor",
+      "field": "welcome-intro",
+      "expected": "<p>Placeholder — Event arrangements and instructions are awaiting Operations confirmation.</p>",
+      "actual": "<p id=\"\">Placeholder — Event arrangements and instructions are awaiting Operations confirmation.</p>",
+      "semanticEmptyNormalization": false
+    },
+    {
+      "slug": "hchrmi-march-2027-sponsor",
+      "field": "welcome-body",
+      "expected": "<p>Placeholder — Sponsor welcome information is awaiting Operations confirmation.</p>",
+      "actual": "<p id=\"\">Placeholder — Sponsor welcome information is awaiting Operations confirmation.</p>",
+      "semanticEmptyNormalization": false
+    },
+    {
+      "slug": "hchrmi-march-2027-sponsor",
+      "field": "hub-body",
+      "expected": "<p>Placeholder — Sponsor MeetMax access and login instructions are awaiting Operations confirmation.</p>",
+      "actual": "<p id=\"\">Placeholder — Sponsor MeetMax access and login instructions are awaiting Operations confirmation.</p>",
+      "semanticEmptyNormalization": false
+    },
+    {
+      "slug": "hchrmi-march-2027-sponsor",
+      "field": "support-body",
+      "expected": "<p>Placeholder — Sponsor support instructions and destination are awaiting Operations confirmation.</p>",
+      "actual": "<p id=\"\">Placeholder — Sponsor support instructions and destination are awaiting Operations confirmation.</p>",
+      "semanticEmptyNormalization": false
+    },
+    {
+      "slug": "hchrmi-march-2027-sponsor",
+      "field": "kbyg-reservation-details",
+      "expected": "<p>Placeholder — Sponsor reservation instructions, eligibility, rates and deadlines are awaiting Operations confirmation.</p>",
+      "actual": "<p id=\"\">Placeholder — Sponsor reservation instructions, eligibility, rates and deadlines are awaiting Operations confirmation.</p>",
+      "semanticEmptyNormalization": false
+    },
+    {
+      "slug": "hfi-2027-delegate",
+      "field": "preparation",
+      "expected": [],
+      "actual": null,
+      "semanticEmptyNormalization": true
+    },
+    {
+      "slug": "hfi-2027-delegate",
+      "field": "key-dates",
+      "expected": [],
+      "actual": null,
+      "semanticEmptyNormalization": true
+    },
+    {
+      "slug": "hfi-2027-delegate",
+      "field": "agenda-days",
+      "expected": [],
+      "actual": null,
+      "semanticEmptyNormalization": true
+    },
+    {
+      "slug": "hfi-2027-delegate",
+      "field": "experience",
+      "expected": [],
+      "actual": null,
+      "semanticEmptyNormalization": true
+    },
+    {
+      "slug": "hfi-2027-delegate",
+      "field": "faqs",
+      "expected": [],
+      "actual": null,
+      "semanticEmptyNormalization": true
+    },
+    {
+      "slug": "hfi-2027-delegate",
+      "field": "welcome-intro",
+      "expected": "<p>Placeholder — Event arrangements and instructions are awaiting Operations confirmation.</p>",
+      "actual": "<p id=\"\">Placeholder — Event arrangements and instructions are awaiting Operations confirmation.</p>",
+      "semanticEmptyNormalization": false
+    },
+    {
+      "slug": "hfi-2027-delegate",
+      "field": "welcome-body",
+      "expected": "<p>Placeholder — Delegate welcome information is awaiting Operations confirmation.</p>",
+      "actual": "<p id=\"\">Placeholder — Delegate welcome information is awaiting Operations confirmation.</p>",
+      "semanticEmptyNormalization": false
+    },
+    {
+      "slug": "hfi-2027-delegate",
+      "field": "hub-body",
+      "expected": "<p>Placeholder — Delegate MeetMax access and login instructions are awaiting Operations confirmation.</p>",
+      "actual": "<p id=\"\">Placeholder — Delegate MeetMax access and login instructions are awaiting Operations confirmation.</p>",
+      "semanticEmptyNormalization": false
+    },
+    {
+      "slug": "hfi-2027-delegate",
+      "field": "support-body",
+      "expected": null,
+      "actual": "",
+      "semanticEmptyNormalization": true
+    },
+    {
+      "slug": "hfi-2027-delegate",
+      "field": "kbyg-reservation-details",
+      "expected": "<p>Placeholder — Delegate reservation instructions, eligibility, rates and deadlines are awaiting Operations confirmation.</p>",
+      "actual": "<p id=\"\">Placeholder — Delegate reservation instructions, eligibility, rates and deadlines are awaiting Operations confirmation.</p>",
+      "semanticEmptyNormalization": false
+    },
+    {
+      "slug": "hfi-2027-sponsor",
+      "field": "preparation",
+      "expected": [],
+      "actual": null,
+      "semanticEmptyNormalization": true
+    },
+    {
+      "slug": "hfi-2027-sponsor",
+      "field": "key-dates",
+      "expected": [],
+      "actual": null,
+      "semanticEmptyNormalization": true
+    },
+    {
+      "slug": "hfi-2027-sponsor",
+      "field": "agenda-days",
+      "expected": [],
+      "actual": null,
+      "semanticEmptyNormalization": true
+    },
+    {
+      "slug": "hfi-2027-sponsor",
+      "field": "experience",
+      "expected": [],
+      "actual": null,
+      "semanticEmptyNormalization": true
+    },
+    {
+      "slug": "hfi-2027-sponsor",
+      "field": "faqs",
+      "expected": [],
+      "actual": null,
+      "semanticEmptyNormalization": true
+    },
+    {
+      "slug": "hfi-2027-sponsor",
+      "field": "welcome-intro",
+      "expected": "<p>Placeholder — Event arrangements and instructions are awaiting Operations confirmation.</p>",
+      "actual": "<p id=\"\">Placeholder — Event arrangements and instructions are awaiting Operations confirmation.</p>",
+      "semanticEmptyNormalization": false
+    },
+    {
+      "slug": "hfi-2027-sponsor",
+      "field": "welcome-body",
+      "expected": "<p>Placeholder — Sponsor welcome information is awaiting Operations confirmation.</p>",
+      "actual": "<p id=\"\">Placeholder — Sponsor welcome information is awaiting Operations confirmation.</p>",
+      "semanticEmptyNormalization": false
+    },
+    {
+      "slug": "hfi-2027-sponsor",
+      "field": "hub-body",
+      "expected": "<p>Placeholder — Sponsor MeetMax access and login instructions are awaiting Operations confirmation.</p>",
+      "actual": "<p id=\"\">Placeholder — Sponsor MeetMax access and login instructions are awaiting Operations confirmation.</p>",
+      "semanticEmptyNormalization": false
+    },
+    {
+      "slug": "hfi-2027-sponsor",
+      "field": "support-body",
+      "expected": "<p>Placeholder — Sponsor support instructions and destination are awaiting Operations confirmation.</p>",
+      "actual": "<p id=\"\">Placeholder — Sponsor support instructions and destination are awaiting Operations confirmation.</p>",
+      "semanticEmptyNormalization": false
+    },
+    {
+      "slug": "hfi-2027-sponsor",
+      "field": "kbyg-reservation-details",
+      "expected": "<p>Placeholder — Sponsor reservation instructions, eligibility, rates and deadlines are awaiting Operations confirmation.</p>",
+      "actual": "<p id=\"\">Placeholder — Sponsor reservation instructions, eligibility, rates and deadlines are awaiting Operations confirmation.</p>",
+      "semanticEmptyNormalization": false
+    },
+    {
+      "slug": "hr-can-april-2027-delegate",
+      "field": "preparation",
+      "expected": [],
+      "actual": null,
+      "semanticEmptyNormalization": true
+    },
+    {
+      "slug": "hr-can-april-2027-delegate",
+      "field": "key-dates",
+      "expected": [],
+      "actual": null,
+      "semanticEmptyNormalization": true
+    },
+    {
+      "slug": "hr-can-april-2027-delegate",
+      "field": "agenda-days",
+      "expected": [],
+      "actual": null,
+      "semanticEmptyNormalization": true
+    },
+    {
+      "slug": "hr-can-april-2027-delegate",
+      "field": "experience",
+      "expected": [],
+      "actual": null,
+      "semanticEmptyNormalization": true
+    },
+    {
+      "slug": "hr-can-april-2027-delegate",
+      "field": "faqs",
+      "expected": [],
+      "actual": null,
+      "semanticEmptyNormalization": true
+    },
+    {
+      "slug": "hr-can-april-2027-delegate",
+      "field": "welcome-intro",
+      "expected": "<p>Placeholder — Event arrangements and instructions are awaiting Operations confirmation.</p>",
+      "actual": "<p id=\"\">Placeholder — Event arrangements and instructions are awaiting Operations confirmation.</p>",
+      "semanticEmptyNormalization": false
+    },
+    {
+      "slug": "hr-can-april-2027-delegate",
+      "field": "welcome-body",
+      "expected": "<p>Placeholder — Delegate welcome information is awaiting Operations confirmation.</p>",
+      "actual": "<p id=\"\">Placeholder — Delegate welcome information is awaiting Operations confirmation.</p>",
+      "semanticEmptyNormalization": false
+    },
+    {
+      "slug": "hr-can-april-2027-delegate",
+      "field": "hub-body",
+      "expected": "<p>Placeholder — Delegate MeetMax access and login instructions are awaiting Operations confirmation.</p>",
+      "actual": "<p id=\"\">Placeholder — Delegate MeetMax access and login instructions are awaiting Operations confirmation.</p>",
+      "semanticEmptyNormalization": false
+    },
+    {
+      "slug": "hr-can-april-2027-delegate",
+      "field": "support-body",
+      "expected": null,
+      "actual": "",
+      "semanticEmptyNormalization": true
+    },
+    {
+      "slug": "hr-can-april-2027-delegate",
+      "field": "kbyg-reservation-details",
+      "expected": "<p>Placeholder — Delegate reservation instructions, eligibility, rates and deadlines are awaiting Operations confirmation.</p>",
+      "actual": "<p id=\"\">Placeholder — Delegate reservation instructions, eligibility, rates and deadlines are awaiting Operations confirmation.</p>",
+      "semanticEmptyNormalization": false
+    },
+    {
+      "slug": "hr-can-april-2027-sponsor",
+      "field": "preparation",
+      "expected": [],
+      "actual": null,
+      "semanticEmptyNormalization": true
+    },
+    {
+      "slug": "hr-can-april-2027-sponsor",
+      "field": "key-dates",
+      "expected": [],
+      "actual": null,
+      "semanticEmptyNormalization": true
+    },
+    {
+      "slug": "hr-can-april-2027-sponsor",
+      "field": "agenda-days",
+      "expected": [],
+      "actual": null,
+      "semanticEmptyNormalization": true
+    },
+    {
+      "slug": "hr-can-april-2027-sponsor",
+      "field": "experience",
+      "expected": [],
+      "actual": null,
+      "semanticEmptyNormalization": true
+    },
+    {
+      "slug": "hr-can-april-2027-sponsor",
+      "field": "faqs",
+      "expected": [],
+      "actual": null,
+      "semanticEmptyNormalization": true
+    },
+    {
+      "slug": "hr-can-april-2027-sponsor",
+      "field": "welcome-intro",
+      "expected": "<p>Placeholder — Event arrangements and instructions are awaiting Operations confirmation.</p>",
+      "actual": "<p id=\"\">Placeholder — Event arrangements and instructions are awaiting Operations confirmation.</p>",
+      "semanticEmptyNormalization": false
+    },
+    {
+      "slug": "hr-can-april-2027-sponsor",
+      "field": "welcome-body",
+      "expected": "<p>Placeholder — Sponsor welcome information is awaiting Operations confirmation.</p>",
+      "actual": "<p id=\"\">Placeholder — Sponsor welcome information is awaiting Operations confirmation.</p>",
+      "semanticEmptyNormalization": false
+    },
+    {
+      "slug": "hr-can-april-2027-sponsor",
+      "field": "hub-body",
+      "expected": "<p>Placeholder — Sponsor MeetMax access and login instructions are awaiting Operations confirmation.</p>",
+      "actual": "<p id=\"\">Placeholder — Sponsor MeetMax access and login instructions are awaiting Operations confirmation.</p>",
+      "semanticEmptyNormalization": false
+    },
+    {
+      "slug": "hr-can-april-2027-sponsor",
+      "field": "support-body",
+      "expected": "<p>Placeholder — Sponsor support instructions and destination are awaiting Operations confirmation.</p>",
+      "actual": "<p id=\"\">Placeholder — Sponsor support instructions and destination are awaiting Operations confirmation.</p>",
+      "semanticEmptyNormalization": false
+    },
+    {
+      "slug": "hr-can-april-2027-sponsor",
+      "field": "kbyg-reservation-details",
+      "expected": "<p>Placeholder — Sponsor reservation instructions, eligibility, rates and deadlines are awaiting Operations confirmation.</p>",
+      "actual": "<p id=\"\">Placeholder — Sponsor reservation instructions, eligibility, rates and deadlines are awaiting Operations confirmation.</p>",
+      "semanticEmptyNormalization": false
+    },
+    {
+      "slug": "28-tai-us-2027-delegate",
+      "field": "preparation",
+      "expected": [],
+      "actual": null,
+      "semanticEmptyNormalization": true
+    },
+    {
+      "slug": "28-tai-us-2027-delegate",
+      "field": "key-dates",
+      "expected": [],
+      "actual": null,
+      "semanticEmptyNormalization": true
+    },
+    {
+      "slug": "28-tai-us-2027-delegate",
+      "field": "agenda-days",
+      "expected": [],
+      "actual": null,
+      "semanticEmptyNormalization": true
+    },
+    {
+      "slug": "28-tai-us-2027-delegate",
+      "field": "experience",
+      "expected": [],
+      "actual": null,
+      "semanticEmptyNormalization": true
+    },
+    {
+      "slug": "28-tai-us-2027-delegate",
+      "field": "faqs",
+      "expected": [],
+      "actual": null,
+      "semanticEmptyNormalization": true
+    },
+    {
+      "slug": "28-tai-us-2027-delegate",
+      "field": "welcome-intro",
+      "expected": "<p>Placeholder — Event arrangements and instructions are awaiting Operations confirmation.</p>",
+      "actual": "<p id=\"\">Placeholder — Event arrangements and instructions are awaiting Operations confirmation.</p>",
+      "semanticEmptyNormalization": false
+    },
+    {
+      "slug": "28-tai-us-2027-delegate",
+      "field": "welcome-body",
+      "expected": "<p>Placeholder — Delegate welcome information is awaiting Operations confirmation.</p>",
+      "actual": "<p id=\"\">Placeholder — Delegate welcome information is awaiting Operations confirmation.</p>",
+      "semanticEmptyNormalization": false
+    },
+    {
+      "slug": "28-tai-us-2027-delegate",
+      "field": "hub-body",
+      "expected": "<p>Placeholder — Delegate MeetMax access and login instructions are awaiting Operations confirmation.</p>",
+      "actual": "<p id=\"\">Placeholder — Delegate MeetMax access and login instructions are awaiting Operations confirmation.</p>",
+      "semanticEmptyNormalization": false
+    },
+    {
+      "slug": "28-tai-us-2027-delegate",
+      "field": "support-body",
+      "expected": null,
+      "actual": "",
+      "semanticEmptyNormalization": true
+    },
+    {
+      "slug": "28-tai-us-2027-delegate",
+      "field": "kbyg-reservation-details",
+      "expected": "<p>Placeholder — Delegate reservation instructions, eligibility, rates and deadlines are awaiting Operations confirmation.</p>",
+      "actual": "<p id=\"\">Placeholder — Delegate reservation instructions, eligibility, rates and deadlines are awaiting Operations confirmation.</p>",
+      "semanticEmptyNormalization": false
+    },
+    {
+      "slug": "28-tai-us-2027-sponsor",
+      "field": "preparation",
+      "expected": [],
+      "actual": null,
+      "semanticEmptyNormalization": true
+    },
+    {
+      "slug": "28-tai-us-2027-sponsor",
+      "field": "key-dates",
+      "expected": [],
+      "actual": null,
+      "semanticEmptyNormalization": true
+    },
+    {
+      "slug": "28-tai-us-2027-sponsor",
+      "field": "agenda-days",
+      "expected": [],
+      "actual": null,
+      "semanticEmptyNormalization": true
+    },
+    {
+      "slug": "28-tai-us-2027-sponsor",
+      "field": "experience",
+      "expected": [],
+      "actual": null,
+      "semanticEmptyNormalization": true
+    },
+    {
+      "slug": "28-tai-us-2027-sponsor",
+      "field": "faqs",
+      "expected": [],
+      "actual": null,
+      "semanticEmptyNormalization": true
+    },
+    {
+      "slug": "28-tai-us-2027-sponsor",
+      "field": "welcome-intro",
+      "expected": "<p>Placeholder — Event arrangements and instructions are awaiting Operations confirmation.</p>",
+      "actual": "<p id=\"\">Placeholder — Event arrangements and instructions are awaiting Operations confirmation.</p>",
+      "semanticEmptyNormalization": false
+    },
+    {
+      "slug": "28-tai-us-2027-sponsor",
+      "field": "welcome-body",
+      "expected": "<p>Placeholder — Sponsor welcome information is awaiting Operations confirmation.</p>",
+      "actual": "<p id=\"\">Placeholder — Sponsor welcome information is awaiting Operations confirmation.</p>",
+      "semanticEmptyNormalization": false
+    },
+    {
+      "slug": "28-tai-us-2027-sponsor",
+      "field": "hub-body",
+      "expected": "<p>Placeholder — Sponsor MeetMax access and login instructions are awaiting Operations confirmation.</p>",
+      "actual": "<p id=\"\">Placeholder — Sponsor MeetMax access and login instructions are awaiting Operations confirmation.</p>",
+      "semanticEmptyNormalization": false
+    },
+    {
+      "slug": "28-tai-us-2027-sponsor",
+      "field": "support-body",
+      "expected": "<p>Placeholder — Sponsor support instructions and destination are awaiting Operations confirmation.</p>",
+      "actual": "<p id=\"\">Placeholder — Sponsor support instructions and destination are awaiting Operations confirmation.</p>",
+      "semanticEmptyNormalization": false
+    },
+    {
+      "slug": "28-tai-us-2027-sponsor",
+      "field": "kbyg-reservation-details",
+      "expected": "<p>Placeholder — Sponsor reservation instructions, eligibility, rates and deadlines are awaiting Operations confirmation.</p>",
+      "actual": "<p id=\"\">Placeholder — Sponsor reservation instructions, eligibility, rates and deadlines are awaiting Operations confirmation.</p>",
+      "semanticEmptyNormalization": false
+    },
+    {
+      "slug": "29-taeei-can-delegate",
+      "field": "preparation",
+      "expected": [],
+      "actual": null,
+      "semanticEmptyNormalization": true
+    },
+    {
+      "slug": "29-taeei-can-delegate",
+      "field": "key-dates",
+      "expected": [],
+      "actual": null,
+      "semanticEmptyNormalization": true
+    },
+    {
+      "slug": "29-taeei-can-delegate",
+      "field": "agenda-days",
+      "expected": [],
+      "actual": null,
+      "semanticEmptyNormalization": true
+    },
+    {
+      "slug": "29-taeei-can-delegate",
+      "field": "experience",
+      "expected": [],
+      "actual": null,
+      "semanticEmptyNormalization": true
+    },
+    {
+      "slug": "29-taeei-can-delegate",
+      "field": "faqs",
+      "expected": [],
+      "actual": null,
+      "semanticEmptyNormalization": true
+    },
+    {
+      "slug": "29-taeei-can-delegate",
+      "field": "welcome-intro",
+      "expected": "<p>Placeholder — Event arrangements and instructions are awaiting Operations confirmation.</p>",
+      "actual": "<p id=\"\">Placeholder — Event arrangements and instructions are awaiting Operations confirmation.</p>",
+      "semanticEmptyNormalization": false
+    },
+    {
+      "slug": "29-taeei-can-delegate",
+      "field": "welcome-body",
+      "expected": "<p>Placeholder — Delegate welcome information is awaiting Operations confirmation.</p>",
+      "actual": "<p id=\"\">Placeholder — Delegate welcome information is awaiting Operations confirmation.</p>",
+      "semanticEmptyNormalization": false
+    },
+    {
+      "slug": "29-taeei-can-delegate",
+      "field": "hub-body",
+      "expected": "<p>Placeholder — Delegate MeetMax access and login instructions are awaiting Operations confirmation.</p>",
+      "actual": "<p id=\"\">Placeholder — Delegate MeetMax access and login instructions are awaiting Operations confirmation.</p>",
+      "semanticEmptyNormalization": false
+    },
+    {
+      "slug": "29-taeei-can-delegate",
+      "field": "support-body",
+      "expected": null,
+      "actual": "",
+      "semanticEmptyNormalization": true
+    },
+    {
+      "slug": "29-taeei-can-delegate",
+      "field": "kbyg-reservation-details",
+      "expected": "<p>Placeholder — Delegate reservation instructions, eligibility, rates and deadlines are awaiting Operations confirmation.</p>",
+      "actual": "<p id=\"\">Placeholder — Delegate reservation instructions, eligibility, rates and deadlines are awaiting Operations confirmation.</p>",
+      "semanticEmptyNormalization": false
+    },
+    {
+      "slug": "29-taeei-can-sponsor",
+      "field": "preparation",
+      "expected": [],
+      "actual": null,
+      "semanticEmptyNormalization": true
+    },
+    {
+      "slug": "29-taeei-can-sponsor",
+      "field": "key-dates",
+      "expected": [],
+      "actual": null,
+      "semanticEmptyNormalization": true
+    },
+    {
+      "slug": "29-taeei-can-sponsor",
+      "field": "agenda-days",
+      "expected": [],
+      "actual": null,
+      "semanticEmptyNormalization": true
+    },
+    {
+      "slug": "29-taeei-can-sponsor",
+      "field": "experience",
+      "expected": [],
+      "actual": null,
+      "semanticEmptyNormalization": true
+    },
+    {
+      "slug": "29-taeei-can-sponsor",
+      "field": "faqs",
+      "expected": [],
+      "actual": null,
+      "semanticEmptyNormalization": true
+    },
+    {
+      "slug": "29-taeei-can-sponsor",
+      "field": "welcome-intro",
+      "expected": "<p>Placeholder — Event arrangements and instructions are awaiting Operations confirmation.</p>",
+      "actual": "<p id=\"\">Placeholder — Event arrangements and instructions are awaiting Operations confirmation.</p>",
+      "semanticEmptyNormalization": false
+    },
+    {
+      "slug": "29-taeei-can-sponsor",
+      "field": "welcome-body",
+      "expected": "<p>Placeholder — Sponsor welcome information is awaiting Operations confirmation.</p>",
+      "actual": "<p id=\"\">Placeholder — Sponsor welcome information is awaiting Operations confirmation.</p>",
+      "semanticEmptyNormalization": false
+    },
+    {
+      "slug": "29-taeei-can-sponsor",
+      "field": "hub-body",
+      "expected": "<p>Placeholder — Sponsor MeetMax access and login instructions are awaiting Operations confirmation.</p>",
+      "actual": "<p id=\"\">Placeholder — Sponsor MeetMax access and login instructions are awaiting Operations confirmation.</p>",
+      "semanticEmptyNormalization": false
+    },
+    {
+      "slug": "29-taeei-can-sponsor",
+      "field": "support-body",
+      "expected": "<p>Placeholder — Sponsor support instructions and destination are awaiting Operations confirmation.</p>",
+      "actual": "<p id=\"\">Placeholder — Sponsor support instructions and destination are awaiting Operations confirmation.</p>",
+      "semanticEmptyNormalization": false
+    },
+    {
+      "slug": "29-taeei-can-sponsor",
+      "field": "kbyg-reservation-details",
+      "expected": "<p>Placeholder — Sponsor reservation instructions, eligibility, rates and deadlines are awaiting Operations confirmation.</p>",
+      "actual": "<p id=\"\">Placeholder — Sponsor reservation instructions, eligibility, rates and deadlines are awaiting Operations confirmation.</p>",
+      "semanticEmptyNormalization": false
+    },
+    {
+      "slug": "211-hrmi-june-2027-delegate",
+      "field": "preparation",
+      "expected": [],
+      "actual": null,
+      "semanticEmptyNormalization": true
+    },
+    {
+      "slug": "211-hrmi-june-2027-delegate",
+      "field": "key-dates",
+      "expected": [],
+      "actual": null,
+      "semanticEmptyNormalization": true
+    },
+    {
+      "slug": "211-hrmi-june-2027-delegate",
+      "field": "agenda-days",
+      "expected": [],
+      "actual": null,
+      "semanticEmptyNormalization": true
+    },
+    {
+      "slug": "211-hrmi-june-2027-delegate",
+      "field": "experience",
+      "expected": [],
+      "actual": null,
+      "semanticEmptyNormalization": true
+    },
+    {
+      "slug": "211-hrmi-june-2027-delegate",
+      "field": "faqs",
+      "expected": [],
+      "actual": null,
+      "semanticEmptyNormalization": true
+    },
+    {
+      "slug": "211-hrmi-june-2027-delegate",
+      "field": "welcome-intro",
+      "expected": "<p>Placeholder — Event arrangements and instructions are awaiting Operations confirmation.</p>",
+      "actual": "<p id=\"\">Placeholder — Event arrangements and instructions are awaiting Operations confirmation.</p>",
+      "semanticEmptyNormalization": false
+    },
+    {
+      "slug": "211-hrmi-june-2027-delegate",
+      "field": "welcome-body",
+      "expected": "<p>Placeholder — Delegate welcome information is awaiting Operations confirmation.</p>",
+      "actual": "<p id=\"\">Placeholder — Delegate welcome information is awaiting Operations confirmation.</p>",
+      "semanticEmptyNormalization": false
+    },
+    {
+      "slug": "211-hrmi-june-2027-delegate",
+      "field": "hub-body",
+      "expected": "<p>Placeholder — Delegate MeetMax access and login instructions are awaiting Operations confirmation.</p>",
+      "actual": "<p id=\"\">Placeholder — Delegate MeetMax access and login instructions are awaiting Operations confirmation.</p>",
+      "semanticEmptyNormalization": false
+    },
+    {
+      "slug": "211-hrmi-june-2027-delegate",
+      "field": "support-body",
+      "expected": null,
+      "actual": "",
+      "semanticEmptyNormalization": true
+    },
+    {
+      "slug": "211-hrmi-june-2027-delegate",
+      "field": "kbyg-reservation-details",
+      "expected": "<p>Placeholder — Delegate reservation instructions, eligibility, rates and deadlines are awaiting Operations confirmation.</p>",
+      "actual": "<p id=\"\">Placeholder — Delegate reservation instructions, eligibility, rates and deadlines are awaiting Operations confirmation.</p>",
+      "semanticEmptyNormalization": false
+    },
+    {
+      "slug": "211-hrmi-june-2027-sponsor",
+      "field": "preparation",
+      "expected": [],
+      "actual": null,
+      "semanticEmptyNormalization": true
+    },
+    {
+      "slug": "211-hrmi-june-2027-sponsor",
+      "field": "key-dates",
+      "expected": [],
+      "actual": null,
+      "semanticEmptyNormalization": true
+    },
+    {
+      "slug": "211-hrmi-june-2027-sponsor",
+      "field": "agenda-days",
+      "expected": [],
+      "actual": null,
+      "semanticEmptyNormalization": true
+    },
+    {
+      "slug": "211-hrmi-june-2027-sponsor",
+      "field": "experience",
+      "expected": [],
+      "actual": null,
+      "semanticEmptyNormalization": true
+    },
+    {
+      "slug": "211-hrmi-june-2027-sponsor",
+      "field": "faqs",
+      "expected": [],
+      "actual": null,
+      "semanticEmptyNormalization": true
+    },
+    {
+      "slug": "211-hrmi-june-2027-sponsor",
+      "field": "welcome-intro",
+      "expected": "<p>Placeholder — Event arrangements and instructions are awaiting Operations confirmation.</p>",
+      "actual": "<p id=\"\">Placeholder — Event arrangements and instructions are awaiting Operations confirmation.</p>",
+      "semanticEmptyNormalization": false
+    },
+    {
+      "slug": "211-hrmi-june-2027-sponsor",
+      "field": "welcome-body",
+      "expected": "<p>Placeholder — Sponsor welcome information is awaiting Operations confirmation.</p>",
+      "actual": "<p id=\"\">Placeholder — Sponsor welcome information is awaiting Operations confirmation.</p>",
+      "semanticEmptyNormalization": false
+    },
+    {
+      "slug": "211-hrmi-june-2027-sponsor",
+      "field": "hub-body",
+      "expected": "<p>Placeholder — Sponsor MeetMax access and login instructions are awaiting Operations confirmation.</p>",
+      "actual": "<p id=\"\">Placeholder — Sponsor MeetMax access and login instructions are awaiting Operations confirmation.</p>",
+      "semanticEmptyNormalization": false
+    },
+    {
+      "slug": "211-hrmi-june-2027-sponsor",
+      "field": "support-body",
+      "expected": "<p>Placeholder — Sponsor support instructions and destination are awaiting Operations confirmation.</p>",
+      "actual": "<p id=\"\">Placeholder — Sponsor support instructions and destination are awaiting Operations confirmation.</p>",
+      "semanticEmptyNormalization": false
+    },
+    {
+      "slug": "211-hrmi-june-2027-sponsor",
+      "field": "kbyg-reservation-details",
+      "expected": "<p>Placeholder — Sponsor reservation instructions, eligibility, rates and deadlines are awaiting Operations confirmation.</p>",
+      "actual": "<p id=\"\">Placeholder — Sponsor reservation instructions, eligibility, rates and deadlines are awaiting Operations confirmation.</p>",
+      "semanticEmptyNormalization": false
+    },
+    {
+      "slug": "hit-2027-delegate",
+      "field": "preparation",
+      "expected": [],
+      "actual": null,
+      "semanticEmptyNormalization": true
+    },
+    {
+      "slug": "hit-2027-delegate",
+      "field": "key-dates",
+      "expected": [],
+      "actual": null,
+      "semanticEmptyNormalization": true
+    },
+    {
+      "slug": "hit-2027-delegate",
+      "field": "agenda-days",
+      "expected": [],
+      "actual": null,
+      "semanticEmptyNormalization": true
+    },
+    {
+      "slug": "hit-2027-delegate",
+      "field": "experience",
+      "expected": [],
+      "actual": null,
+      "semanticEmptyNormalization": true
+    },
+    {
+      "slug": "hit-2027-delegate",
+      "field": "faqs",
+      "expected": [],
+      "actual": null,
+      "semanticEmptyNormalization": true
+    },
+    {
+      "slug": "hit-2027-delegate",
+      "field": "welcome-intro",
+      "expected": "<p>Placeholder — Event arrangements and instructions are awaiting Operations confirmation.</p>",
+      "actual": "<p id=\"\">Placeholder — Event arrangements and instructions are awaiting Operations confirmation.</p>",
+      "semanticEmptyNormalization": false
+    },
+    {
+      "slug": "hit-2027-delegate",
+      "field": "welcome-body",
+      "expected": "<p>Placeholder — Delegate welcome information is awaiting Operations confirmation.</p>",
+      "actual": "<p id=\"\">Placeholder — Delegate welcome information is awaiting Operations confirmation.</p>",
+      "semanticEmptyNormalization": false
+    },
+    {
+      "slug": "hit-2027-delegate",
+      "field": "hub-body",
+      "expected": "<p>Placeholder — Delegate MeetMax access and login instructions are awaiting Operations confirmation.</p>",
+      "actual": "<p id=\"\">Placeholder — Delegate MeetMax access and login instructions are awaiting Operations confirmation.</p>",
+      "semanticEmptyNormalization": false
+    },
+    {
+      "slug": "hit-2027-delegate",
+      "field": "support-body",
+      "expected": null,
+      "actual": "",
+      "semanticEmptyNormalization": true
+    },
+    {
+      "slug": "hit-2027-delegate",
+      "field": "kbyg-reservation-details",
+      "expected": "<p>Placeholder — Delegate reservation instructions, eligibility, rates and deadlines are awaiting Operations confirmation.</p>",
+      "actual": "<p id=\"\">Placeholder — Delegate reservation instructions, eligibility, rates and deadlines are awaiting Operations confirmation.</p>",
+      "semanticEmptyNormalization": false
+    },
+    {
+      "slug": "hit-2027-sponsor",
+      "field": "preparation",
+      "expected": [],
+      "actual": null,
+      "semanticEmptyNormalization": true
+    },
+    {
+      "slug": "hit-2027-sponsor",
+      "field": "key-dates",
+      "expected": [],
+      "actual": null,
+      "semanticEmptyNormalization": true
+    },
+    {
+      "slug": "hit-2027-sponsor",
+      "field": "agenda-days",
+      "expected": [],
+      "actual": null,
+      "semanticEmptyNormalization": true
+    },
+    {
+      "slug": "hit-2027-sponsor",
+      "field": "experience",
+      "expected": [],
+      "actual": null,
+      "semanticEmptyNormalization": true
+    },
+    {
+      "slug": "hit-2027-sponsor",
+      "field": "faqs",
+      "expected": [],
+      "actual": null,
+      "semanticEmptyNormalization": true
+    },
+    {
+      "slug": "hit-2027-sponsor",
+      "field": "welcome-intro",
+      "expected": "<p>Placeholder — Event arrangements and instructions are awaiting Operations confirmation.</p>",
+      "actual": "<p id=\"\">Placeholder — Event arrangements and instructions are awaiting Operations confirmation.</p>",
+      "semanticEmptyNormalization": false
+    },
+    {
+      "slug": "hit-2027-sponsor",
+      "field": "welcome-body",
+      "expected": "<p>Placeholder — Sponsor welcome information is awaiting Operations confirmation.</p>",
+      "actual": "<p id=\"\">Placeholder — Sponsor welcome information is awaiting Operations confirmation.</p>",
+      "semanticEmptyNormalization": false
+    },
+    {
+      "slug": "hit-2027-sponsor",
+      "field": "hub-body",
+      "expected": "<p>Placeholder — Sponsor MeetMax access and login instructions are awaiting Operations confirmation.</p>",
+      "actual": "<p id=\"\">Placeholder — Sponsor MeetMax access and login instructions are awaiting Operations confirmation.</p>",
+      "semanticEmptyNormalization": false
+    },
+    {
+      "slug": "hit-2027-sponsor",
+      "field": "support-body",
+      "expected": "<p>Placeholder — Sponsor support instructions and destination are awaiting Operations confirmation.</p>",
+      "actual": "<p id=\"\">Placeholder — Sponsor support instructions and destination are awaiting Operations confirmation.</p>",
+      "semanticEmptyNormalization": false
+    },
+    {
+      "slug": "hit-2027-sponsor",
+      "field": "kbyg-reservation-details",
+      "expected": "<p>Placeholder — Sponsor reservation instructions, eligibility, rates and deadlines are awaiting Operations confirmation.</p>",
+      "actual": "<p id=\"\">Placeholder — Sponsor reservation instructions, eligibility, rates and deadlines are awaiting Operations confirmation.</p>",
+      "semanticEmptyNormalization": false
+    },
+    {
+      "slug": "ehs-july-2027-delegate",
+      "field": "preparation",
+      "expected": [],
+      "actual": null,
+      "semanticEmptyNormalization": true
+    },
+    {
+      "slug": "ehs-july-2027-delegate",
+      "field": "key-dates",
+      "expected": [],
+      "actual": null,
+      "semanticEmptyNormalization": true
+    },
+    {
+      "slug": "ehs-july-2027-delegate",
+      "field": "agenda-days",
+      "expected": [],
+      "actual": null,
+      "semanticEmptyNormalization": true
+    },
+    {
+      "slug": "ehs-july-2027-delegate",
+      "field": "experience",
+      "expected": [],
+      "actual": null,
+      "semanticEmptyNormalization": true
+    },
+    {
+      "slug": "ehs-july-2027-delegate",
+      "field": "faqs",
+      "expected": [],
+      "actual": null,
+      "semanticEmptyNormalization": true
+    },
+    {
+      "slug": "ehs-july-2027-delegate",
+      "field": "welcome-intro",
+      "expected": "<p>Placeholder — Event arrangements and instructions are awaiting Operations confirmation.</p>",
+      "actual": "<p id=\"\">Placeholder — Event arrangements and instructions are awaiting Operations confirmation.</p>",
+      "semanticEmptyNormalization": false
+    },
+    {
+      "slug": "ehs-july-2027-delegate",
+      "field": "welcome-body",
+      "expected": "<p>Placeholder — Delegate welcome information is awaiting Operations confirmation.</p>",
+      "actual": "<p id=\"\">Placeholder — Delegate welcome information is awaiting Operations confirmation.</p>",
+      "semanticEmptyNormalization": false
+    },
+    {
+      "slug": "ehs-july-2027-delegate",
+      "field": "hub-body",
+      "expected": "<p>Placeholder — Delegate MeetMax access and login instructions are awaiting Operations confirmation.</p>",
+      "actual": "<p id=\"\">Placeholder — Delegate MeetMax access and login instructions are awaiting Operations confirmation.</p>",
+      "semanticEmptyNormalization": false
+    },
+    {
+      "slug": "ehs-july-2027-delegate",
+      "field": "support-body",
+      "expected": null,
+      "actual": "",
+      "semanticEmptyNormalization": true
+    },
+    {
+      "slug": "ehs-july-2027-delegate",
+      "field": "kbyg-reservation-details",
+      "expected": "<p>Placeholder — Delegate reservation instructions, eligibility, rates and deadlines are awaiting Operations confirmation.</p>",
+      "actual": "<p id=\"\">Placeholder — Delegate reservation instructions, eligibility, rates and deadlines are awaiting Operations confirmation.</p>",
+      "semanticEmptyNormalization": false
+    },
+    {
+      "slug": "ehs-july-2027-sponsor",
+      "field": "preparation",
+      "expected": [],
+      "actual": null,
+      "semanticEmptyNormalization": true
+    },
+    {
+      "slug": "ehs-july-2027-sponsor",
+      "field": "key-dates",
+      "expected": [],
+      "actual": null,
+      "semanticEmptyNormalization": true
+    },
+    {
+      "slug": "ehs-july-2027-sponsor",
+      "field": "agenda-days",
+      "expected": [],
+      "actual": null,
+      "semanticEmptyNormalization": true
+    },
+    {
+      "slug": "ehs-july-2027-sponsor",
+      "field": "experience",
+      "expected": [],
+      "actual": null,
+      "semanticEmptyNormalization": true
+    },
+    {
+      "slug": "ehs-july-2027-sponsor",
+      "field": "faqs",
+      "expected": [],
+      "actual": null,
+      "semanticEmptyNormalization": true
+    },
+    {
+      "slug": "ehs-july-2027-sponsor",
+      "field": "welcome-intro",
+      "expected": "<p>Placeholder — Event arrangements and instructions are awaiting Operations confirmation.</p>",
+      "actual": "<p id=\"\">Placeholder — Event arrangements and instructions are awaiting Operations confirmation.</p>",
+      "semanticEmptyNormalization": false
+    },
+    {
+      "slug": "ehs-july-2027-sponsor",
+      "field": "welcome-body",
+      "expected": "<p>Placeholder — Sponsor welcome information is awaiting Operations confirmation.</p>",
+      "actual": "<p id=\"\">Placeholder — Sponsor welcome information is awaiting Operations confirmation.</p>",
+      "semanticEmptyNormalization": false
+    },
+    {
+      "slug": "ehs-july-2027-sponsor",
+      "field": "hub-body",
+      "expected": "<p>Placeholder — Sponsor MeetMax access and login instructions are awaiting Operations confirmation.</p>",
+      "actual": "<p id=\"\">Placeholder — Sponsor MeetMax access and login instructions are awaiting Operations confirmation.</p>",
+      "semanticEmptyNormalization": false
+    },
+    {
+      "slug": "ehs-july-2027-sponsor",
+      "field": "support-body",
+      "expected": "<p>Placeholder — Sponsor support instructions and destination are awaiting Operations confirmation.</p>",
+      "actual": "<p id=\"\">Placeholder — Sponsor support instructions and destination are awaiting Operations confirmation.</p>",
+      "semanticEmptyNormalization": false
+    },
+    {
+      "slug": "ehs-july-2027-sponsor",
+      "field": "kbyg-reservation-details",
+      "expected": "<p>Placeholder — Sponsor reservation instructions, eligibility, rates and deadlines are awaiting Operations confirmation.</p>",
+      "actual": "<p id=\"\">Placeholder — Sponsor reservation instructions, eligibility, rates and deadlines are awaiting Operations confirmation.</p>",
+      "semanticEmptyNormalization": false
+    },
+    {
+      "slug": "213-cldi-sept-2027-delegate",
+      "field": "preparation",
+      "expected": [],
+      "actual": null,
+      "semanticEmptyNormalization": true
+    },
+    {
+      "slug": "213-cldi-sept-2027-delegate",
+      "field": "key-dates",
+      "expected": [],
+      "actual": null,
+      "semanticEmptyNormalization": true
+    },
+    {
+      "slug": "213-cldi-sept-2027-delegate",
+      "field": "agenda-days",
+      "expected": [],
+      "actual": null,
+      "semanticEmptyNormalization": true
+    },
+    {
+      "slug": "213-cldi-sept-2027-delegate",
+      "field": "experience",
+      "expected": [],
+      "actual": null,
+      "semanticEmptyNormalization": true
+    },
+    {
+      "slug": "213-cldi-sept-2027-delegate",
+      "field": "faqs",
+      "expected": [],
+      "actual": null,
+      "semanticEmptyNormalization": true
+    },
+    {
+      "slug": "213-cldi-sept-2027-delegate",
+      "field": "welcome-intro",
+      "expected": "<p>Placeholder — Event arrangements and instructions are awaiting Operations confirmation.</p>",
+      "actual": "<p id=\"\">Placeholder — Event arrangements and instructions are awaiting Operations confirmation.</p>",
+      "semanticEmptyNormalization": false
+    },
+    {
+      "slug": "213-cldi-sept-2027-delegate",
+      "field": "welcome-body",
+      "expected": "<p>Placeholder — Delegate welcome information is awaiting Operations confirmation.</p>",
+      "actual": "<p id=\"\">Placeholder — Delegate welcome information is awaiting Operations confirmation.</p>",
+      "semanticEmptyNormalization": false
+    },
+    {
+      "slug": "213-cldi-sept-2027-delegate",
+      "field": "hub-body",
+      "expected": "<p>Placeholder — Delegate MeetMax access and login instructions are awaiting Operations confirmation.</p>",
+      "actual": "<p id=\"\">Placeholder — Delegate MeetMax access and login instructions are awaiting Operations confirmation.</p>",
+      "semanticEmptyNormalization": false
+    },
+    {
+      "slug": "213-cldi-sept-2027-delegate",
+      "field": "support-body",
+      "expected": null,
+      "actual": "",
+      "semanticEmptyNormalization": true
+    },
+    {
+      "slug": "213-cldi-sept-2027-delegate",
+      "field": "kbyg-reservation-details",
+      "expected": "<p>Placeholder — Delegate reservation instructions, eligibility, rates and deadlines are awaiting Operations confirmation.</p>",
+      "actual": "<p id=\"\">Placeholder — Delegate reservation instructions, eligibility, rates and deadlines are awaiting Operations confirmation.</p>",
+      "semanticEmptyNormalization": false
+    },
+    {
+      "slug": "213-cldi-sept-2027-sponsor",
+      "field": "preparation",
+      "expected": [],
+      "actual": null,
+      "semanticEmptyNormalization": true
+    },
+    {
+      "slug": "213-cldi-sept-2027-sponsor",
+      "field": "key-dates",
+      "expected": [],
+      "actual": null,
+      "semanticEmptyNormalization": true
+    },
+    {
+      "slug": "213-cldi-sept-2027-sponsor",
+      "field": "agenda-days",
+      "expected": [],
+      "actual": null,
+      "semanticEmptyNormalization": true
+    },
+    {
+      "slug": "213-cldi-sept-2027-sponsor",
+      "field": "experience",
+      "expected": [],
+      "actual": null,
+      "semanticEmptyNormalization": true
+    },
+    {
+      "slug": "213-cldi-sept-2027-sponsor",
+      "field": "faqs",
+      "expected": [],
+      "actual": null,
+      "semanticEmptyNormalization": true
+    },
+    {
+      "slug": "213-cldi-sept-2027-sponsor",
+      "field": "welcome-intro",
+      "expected": "<p>Placeholder — Event arrangements and instructions are awaiting Operations confirmation.</p>",
+      "actual": "<p id=\"\">Placeholder — Event arrangements and instructions are awaiting Operations confirmation.</p>",
+      "semanticEmptyNormalization": false
+    },
+    {
+      "slug": "213-cldi-sept-2027-sponsor",
+      "field": "welcome-body",
+      "expected": "<p>Placeholder — Sponsor welcome information is awaiting Operations confirmation.</p>",
+      "actual": "<p id=\"\">Placeholder — Sponsor welcome information is awaiting Operations confirmation.</p>",
+      "semanticEmptyNormalization": false
+    },
+    {
+      "slug": "213-cldi-sept-2027-sponsor",
+      "field": "hub-body",
+      "expected": "<p>Placeholder — Sponsor MeetMax access and login instructions are awaiting Operations confirmation.</p>",
+      "actual": "<p id=\"\">Placeholder — Sponsor MeetMax access and login instructions are awaiting Operations confirmation.</p>",
+      "semanticEmptyNormalization": false
+    },
+    {
+      "slug": "213-cldi-sept-2027-sponsor",
+      "field": "support-body",
+      "expected": "<p>Placeholder — Sponsor support instructions and destination are awaiting Operations confirmation.</p>",
+      "actual": "<p id=\"\">Placeholder — Sponsor support instructions and destination are awaiting Operations confirmation.</p>",
+      "semanticEmptyNormalization": false
+    },
+    {
+      "slug": "213-cldi-sept-2027-sponsor",
+      "field": "kbyg-reservation-details",
+      "expected": "<p>Placeholder — Sponsor reservation instructions, eligibility, rates and deadlines are awaiting Operations confirmation.</p>",
+      "actual": "<p id=\"\">Placeholder — Sponsor reservation instructions, eligibility, rates and deadlines are awaiting Operations confirmation.</p>",
+      "semanticEmptyNormalization": false
+    },
+    {
+      "slug": "214-hgc-sept-2027-delegate",
+      "field": "preparation",
+      "expected": [],
+      "actual": null,
+      "semanticEmptyNormalization": true
+    },
+    {
+      "slug": "214-hgc-sept-2027-delegate",
+      "field": "key-dates",
+      "expected": [],
+      "actual": null,
+      "semanticEmptyNormalization": true
+    },
+    {
+      "slug": "214-hgc-sept-2027-delegate",
+      "field": "agenda-days",
+      "expected": [],
+      "actual": null,
+      "semanticEmptyNormalization": true
+    },
+    {
+      "slug": "214-hgc-sept-2027-delegate",
+      "field": "experience",
+      "expected": [],
+      "actual": null,
+      "semanticEmptyNormalization": true
+    },
+    {
+      "slug": "214-hgc-sept-2027-delegate",
+      "field": "faqs",
+      "expected": [],
+      "actual": null,
+      "semanticEmptyNormalization": true
+    },
+    {
+      "slug": "214-hgc-sept-2027-delegate",
+      "field": "welcome-intro",
+      "expected": "<p>Placeholder — Event arrangements and instructions are awaiting Operations confirmation.</p>",
+      "actual": "<p id=\"\">Placeholder — Event arrangements and instructions are awaiting Operations confirmation.</p>",
+      "semanticEmptyNormalization": false
+    },
+    {
+      "slug": "214-hgc-sept-2027-delegate",
+      "field": "welcome-body",
+      "expected": "<p>Placeholder — Delegate welcome information is awaiting Operations confirmation.</p>",
+      "actual": "<p id=\"\">Placeholder — Delegate welcome information is awaiting Operations confirmation.</p>",
+      "semanticEmptyNormalization": false
+    },
+    {
+      "slug": "214-hgc-sept-2027-delegate",
+      "field": "hub-body",
+      "expected": "<p>Placeholder — Delegate MeetMax access and login instructions are awaiting Operations confirmation.</p>",
+      "actual": "<p id=\"\">Placeholder — Delegate MeetMax access and login instructions are awaiting Operations confirmation.</p>",
+      "semanticEmptyNormalization": false
+    },
+    {
+      "slug": "214-hgc-sept-2027-delegate",
+      "field": "support-body",
+      "expected": null,
+      "actual": "",
+      "semanticEmptyNormalization": true
+    },
+    {
+      "slug": "214-hgc-sept-2027-delegate",
+      "field": "kbyg-reservation-details",
+      "expected": "<p>Placeholder — Delegate reservation instructions, eligibility, rates and deadlines are awaiting Operations confirmation.</p>",
+      "actual": "<p id=\"\">Placeholder — Delegate reservation instructions, eligibility, rates and deadlines are awaiting Operations confirmation.</p>",
+      "semanticEmptyNormalization": false
+    },
+    {
+      "slug": "214-hgc-sept-2027-sponsor",
+      "field": "preparation",
+      "expected": [],
+      "actual": null,
+      "semanticEmptyNormalization": true
+    },
+    {
+      "slug": "214-hgc-sept-2027-sponsor",
+      "field": "key-dates",
+      "expected": [],
+      "actual": null,
+      "semanticEmptyNormalization": true
+    },
+    {
+      "slug": "214-hgc-sept-2027-sponsor",
+      "field": "agenda-days",
+      "expected": [],
+      "actual": null,
+      "semanticEmptyNormalization": true
+    },
+    {
+      "slug": "214-hgc-sept-2027-sponsor",
+      "field": "experience",
+      "expected": [],
+      "actual": null,
+      "semanticEmptyNormalization": true
+    },
+    {
+      "slug": "214-hgc-sept-2027-sponsor",
+      "field": "faqs",
+      "expected": [],
+      "actual": null,
+      "semanticEmptyNormalization": true
+    },
+    {
+      "slug": "214-hgc-sept-2027-sponsor",
+      "field": "welcome-intro",
+      "expected": "<p>Placeholder — Event arrangements and instructions are awaiting Operations confirmation.</p>",
+      "actual": "<p id=\"\">Placeholder — Event arrangements and instructions are awaiting Operations confirmation.</p>",
+      "semanticEmptyNormalization": false
+    },
+    {
+      "slug": "214-hgc-sept-2027-sponsor",
+      "field": "welcome-body",
+      "expected": "<p>Placeholder — Sponsor welcome information is awaiting Operations confirmation.</p>",
+      "actual": "<p id=\"\">Placeholder — Sponsor welcome information is awaiting Operations confirmation.</p>",
+      "semanticEmptyNormalization": false
+    },
+    {
+      "slug": "214-hgc-sept-2027-sponsor",
+      "field": "hub-body",
+      "expected": "<p>Placeholder — Sponsor MeetMax access and login instructions are awaiting Operations confirmation.</p>",
+      "actual": "<p id=\"\">Placeholder — Sponsor MeetMax access and login instructions are awaiting Operations confirmation.</p>",
+      "semanticEmptyNormalization": false
+    },
+    {
+      "slug": "214-hgc-sept-2027-sponsor",
+      "field": "support-body",
+      "expected": "<p>Placeholder — Sponsor support instructions and destination are awaiting Operations confirmation.</p>",
+      "actual": "<p id=\"\">Placeholder — Sponsor support instructions and destination are awaiting Operations confirmation.</p>",
+      "semanticEmptyNormalization": false
+    },
+    {
+      "slug": "214-hgc-sept-2027-sponsor",
+      "field": "kbyg-reservation-details",
+      "expected": "<p>Placeholder — Sponsor reservation instructions, eligibility, rates and deadlines are awaiting Operations confirmation.</p>",
+      "actual": "<p id=\"\">Placeholder — Sponsor reservation instructions, eligibility, rates and deadlines are awaiting Operations confirmation.</p>",
+      "semanticEmptyNormalization": false
+    },
+    {
+      "slug": "215-hchr-sept-2027-delegate",
+      "field": "preparation",
+      "expected": [],
+      "actual": null,
+      "semanticEmptyNormalization": true
+    },
+    {
+      "slug": "215-hchr-sept-2027-delegate",
+      "field": "key-dates",
+      "expected": [],
+      "actual": null,
+      "semanticEmptyNormalization": true
+    },
+    {
+      "slug": "215-hchr-sept-2027-delegate",
+      "field": "agenda-days",
+      "expected": [],
+      "actual": null,
+      "semanticEmptyNormalization": true
+    },
+    {
+      "slug": "215-hchr-sept-2027-delegate",
+      "field": "experience",
+      "expected": [],
+      "actual": null,
+      "semanticEmptyNormalization": true
+    },
+    {
+      "slug": "215-hchr-sept-2027-delegate",
+      "field": "faqs",
+      "expected": [],
+      "actual": null,
+      "semanticEmptyNormalization": true
+    },
+    {
+      "slug": "215-hchr-sept-2027-delegate",
+      "field": "welcome-intro",
+      "expected": "<p>Placeholder — Event arrangements and instructions are awaiting Operations confirmation.</p>",
+      "actual": "<p id=\"\">Placeholder — Event arrangements and instructions are awaiting Operations confirmation.</p>",
+      "semanticEmptyNormalization": false
+    },
+    {
+      "slug": "215-hchr-sept-2027-delegate",
+      "field": "welcome-body",
+      "expected": "<p>Placeholder — Delegate welcome information is awaiting Operations confirmation.</p>",
+      "actual": "<p id=\"\">Placeholder — Delegate welcome information is awaiting Operations confirmation.</p>",
+      "semanticEmptyNormalization": false
+    },
+    {
+      "slug": "215-hchr-sept-2027-delegate",
+      "field": "hub-body",
+      "expected": "<p>Placeholder — Delegate MeetMax access and login instructions are awaiting Operations confirmation.</p>",
+      "actual": "<p id=\"\">Placeholder — Delegate MeetMax access and login instructions are awaiting Operations confirmation.</p>",
+      "semanticEmptyNormalization": false
+    },
+    {
+      "slug": "215-hchr-sept-2027-delegate",
+      "field": "support-body",
+      "expected": null,
+      "actual": "",
+      "semanticEmptyNormalization": true
+    },
+    {
+      "slug": "215-hchr-sept-2027-delegate",
+      "field": "kbyg-reservation-details",
+      "expected": "<p>Placeholder — Delegate reservation instructions, eligibility, rates and deadlines are awaiting Operations confirmation.</p>",
+      "actual": "<p id=\"\">Placeholder — Delegate reservation instructions, eligibility, rates and deadlines are awaiting Operations confirmation.</p>",
+      "semanticEmptyNormalization": false
+    },
+    {
+      "slug": "215-hchr-sept-2027-sponsor",
+      "field": "preparation",
+      "expected": [],
+      "actual": null,
+      "semanticEmptyNormalization": true
+    },
+    {
+      "slug": "215-hchr-sept-2027-sponsor",
+      "field": "key-dates",
+      "expected": [],
+      "actual": null,
+      "semanticEmptyNormalization": true
+    },
+    {
+      "slug": "215-hchr-sept-2027-sponsor",
+      "field": "agenda-days",
+      "expected": [],
+      "actual": null,
+      "semanticEmptyNormalization": true
+    },
+    {
+      "slug": "215-hchr-sept-2027-sponsor",
+      "field": "experience",
+      "expected": [],
+      "actual": null,
+      "semanticEmptyNormalization": true
+    },
+    {
+      "slug": "215-hchr-sept-2027-sponsor",
+      "field": "faqs",
+      "expected": [],
+      "actual": null,
+      "semanticEmptyNormalization": true
+    },
+    {
+      "slug": "215-hchr-sept-2027-sponsor",
+      "field": "welcome-intro",
+      "expected": "<p>Placeholder — Event arrangements and instructions are awaiting Operations confirmation.</p>",
+      "actual": "<p id=\"\">Placeholder — Event arrangements and instructions are awaiting Operations confirmation.</p>",
+      "semanticEmptyNormalization": false
+    },
+    {
+      "slug": "215-hchr-sept-2027-sponsor",
+      "field": "welcome-body",
+      "expected": "<p>Placeholder — Sponsor welcome information is awaiting Operations confirmation.</p>",
+      "actual": "<p id=\"\">Placeholder — Sponsor welcome information is awaiting Operations confirmation.</p>",
+      "semanticEmptyNormalization": false
+    },
+    {
+      "slug": "215-hchr-sept-2027-sponsor",
+      "field": "hub-body",
+      "expected": "<p>Placeholder — Sponsor MeetMax access and login instructions are awaiting Operations confirmation.</p>",
+      "actual": "<p id=\"\">Placeholder — Sponsor MeetMax access and login instructions are awaiting Operations confirmation.</p>",
+      "semanticEmptyNormalization": false
+    },
+    {
+      "slug": "215-hchr-sept-2027-sponsor",
+      "field": "support-body",
+      "expected": "<p>Placeholder — Sponsor support instructions and destination are awaiting Operations confirmation.</p>",
+      "actual": "<p id=\"\">Placeholder — Sponsor support instructions and destination are awaiting Operations confirmation.</p>",
+      "semanticEmptyNormalization": false
+    },
+    {
+      "slug": "215-hchr-sept-2027-sponsor",
+      "field": "kbyg-reservation-details",
+      "expected": "<p>Placeholder — Sponsor reservation instructions, eligibility, rates and deadlines are awaiting Operations confirmation.</p>",
+      "actual": "<p id=\"\">Placeholder — Sponsor reservation instructions, eligibility, rates and deadlines are awaiting Operations confirmation.</p>",
+      "semanticEmptyNormalization": false
+    },
+    {
+      "slug": "216-ip-law-2027-delegate",
+      "field": "preparation",
+      "expected": [],
+      "actual": null,
+      "semanticEmptyNormalization": true
+    },
+    {
+      "slug": "216-ip-law-2027-delegate",
+      "field": "key-dates",
+      "expected": [],
+      "actual": null,
+      "semanticEmptyNormalization": true
+    },
+    {
+      "slug": "216-ip-law-2027-delegate",
+      "field": "agenda-days",
+      "expected": [],
+      "actual": null,
+      "semanticEmptyNormalization": true
+    },
+    {
+      "slug": "216-ip-law-2027-delegate",
+      "field": "experience",
+      "expected": [],
+      "actual": null,
+      "semanticEmptyNormalization": true
+    },
+    {
+      "slug": "216-ip-law-2027-delegate",
+      "field": "faqs",
+      "expected": [],
+      "actual": null,
+      "semanticEmptyNormalization": true
+    },
+    {
+      "slug": "216-ip-law-2027-delegate",
+      "field": "welcome-intro",
+      "expected": "<p>Placeholder — Event arrangements and instructions are awaiting Operations confirmation.</p>",
+      "actual": "<p id=\"\">Placeholder — Event arrangements and instructions are awaiting Operations confirmation.</p>",
+      "semanticEmptyNormalization": false
+    },
+    {
+      "slug": "216-ip-law-2027-delegate",
+      "field": "welcome-body",
+      "expected": "<p>Placeholder — Delegate welcome information is awaiting Operations confirmation.</p>",
+      "actual": "<p id=\"\">Placeholder — Delegate welcome information is awaiting Operations confirmation.</p>",
+      "semanticEmptyNormalization": false
+    },
+    {
+      "slug": "216-ip-law-2027-delegate",
+      "field": "hub-body",
+      "expected": "<p>Placeholder — Delegate MeetMax access and login instructions are awaiting Operations confirmation.</p>",
+      "actual": "<p id=\"\">Placeholder — Delegate MeetMax access and login instructions are awaiting Operations confirmation.</p>",
+      "semanticEmptyNormalization": false
+    },
+    {
+      "slug": "216-ip-law-2027-delegate",
+      "field": "support-body",
+      "expected": null,
+      "actual": "",
+      "semanticEmptyNormalization": true
+    },
+    {
+      "slug": "216-ip-law-2027-delegate",
+      "field": "kbyg-reservation-details",
+      "expected": "<p>Placeholder — Delegate reservation instructions, eligibility, rates and deadlines are awaiting Operations confirmation.</p>",
+      "actual": "<p id=\"\">Placeholder — Delegate reservation instructions, eligibility, rates and deadlines are awaiting Operations confirmation.</p>",
+      "semanticEmptyNormalization": false
+    },
+    {
+      "slug": "216-ip-law-2027-sponsor",
+      "field": "preparation",
+      "expected": [],
+      "actual": null,
+      "semanticEmptyNormalization": true
+    },
+    {
+      "slug": "216-ip-law-2027-sponsor",
+      "field": "key-dates",
+      "expected": [],
+      "actual": null,
+      "semanticEmptyNormalization": true
+    },
+    {
+      "slug": "216-ip-law-2027-sponsor",
+      "field": "agenda-days",
+      "expected": [],
+      "actual": null,
+      "semanticEmptyNormalization": true
+    },
+    {
+      "slug": "216-ip-law-2027-sponsor",
+      "field": "experience",
+      "expected": [],
+      "actual": null,
+      "semanticEmptyNormalization": true
+    },
+    {
+      "slug": "216-ip-law-2027-sponsor",
+      "field": "faqs",
+      "expected": [],
+      "actual": null,
+      "semanticEmptyNormalization": true
+    },
+    {
+      "slug": "216-ip-law-2027-sponsor",
+      "field": "welcome-intro",
+      "expected": "<p>Placeholder — Event arrangements and instructions are awaiting Operations confirmation.</p>",
+      "actual": "<p id=\"\">Placeholder — Event arrangements and instructions are awaiting Operations confirmation.</p>",
+      "semanticEmptyNormalization": false
+    },
+    {
+      "slug": "216-ip-law-2027-sponsor",
+      "field": "welcome-body",
+      "expected": "<p>Placeholder — Sponsor welcome information is awaiting Operations confirmation.</p>",
+      "actual": "<p id=\"\">Placeholder — Sponsor welcome information is awaiting Operations confirmation.</p>",
+      "semanticEmptyNormalization": false
+    },
+    {
+      "slug": "216-ip-law-2027-sponsor",
+      "field": "hub-body",
+      "expected": "<p>Placeholder — Sponsor MeetMax access and login instructions are awaiting Operations confirmation.</p>",
+      "actual": "<p id=\"\">Placeholder — Sponsor MeetMax access and login instructions are awaiting Operations confirmation.</p>",
+      "semanticEmptyNormalization": false
+    },
+    {
+      "slug": "216-ip-law-2027-sponsor",
+      "field": "support-body",
+      "expected": "<p>Placeholder — Sponsor support instructions and destination are awaiting Operations confirmation.</p>",
+      "actual": "<p id=\"\">Placeholder — Sponsor support instructions and destination are awaiting Operations confirmation.</p>",
+      "semanticEmptyNormalization": false
+    },
+    {
+      "slug": "216-ip-law-2027-sponsor",
+      "field": "kbyg-reservation-details",
+      "expected": "<p>Placeholder — Sponsor reservation instructions, eligibility, rates and deadlines are awaiting Operations confirmation.</p>",
+      "actual": "<p id=\"\">Placeholder — Sponsor reservation instructions, eligibility, rates and deadlines are awaiting Operations confirmation.</p>",
+      "semanticEmptyNormalization": false
+    },
+    {
+      "slug": "217-hrmi-oct-2027-delegate",
+      "field": "preparation",
+      "expected": [],
+      "actual": null,
+      "semanticEmptyNormalization": true
+    },
+    {
+      "slug": "217-hrmi-oct-2027-delegate",
+      "field": "key-dates",
+      "expected": [],
+      "actual": null,
+      "semanticEmptyNormalization": true
+    },
+    {
+      "slug": "217-hrmi-oct-2027-delegate",
+      "field": "agenda-days",
+      "expected": [],
+      "actual": null,
+      "semanticEmptyNormalization": true
+    },
+    {
+      "slug": "217-hrmi-oct-2027-delegate",
+      "field": "experience",
+      "expected": [],
+      "actual": null,
+      "semanticEmptyNormalization": true
+    },
+    {
+      "slug": "217-hrmi-oct-2027-delegate",
+      "field": "faqs",
+      "expected": [],
+      "actual": null,
+      "semanticEmptyNormalization": true
+    },
+    {
+      "slug": "217-hrmi-oct-2027-delegate",
+      "field": "welcome-intro",
+      "expected": "<p>Placeholder — Event arrangements and instructions are awaiting Operations confirmation.</p>",
+      "actual": "<p id=\"\">Placeholder — Event arrangements and instructions are awaiting Operations confirmation.</p>",
+      "semanticEmptyNormalization": false
+    },
+    {
+      "slug": "217-hrmi-oct-2027-delegate",
+      "field": "welcome-body",
+      "expected": "<p>Placeholder — Delegate welcome information is awaiting Operations confirmation.</p>",
+      "actual": "<p id=\"\">Placeholder — Delegate welcome information is awaiting Operations confirmation.</p>",
+      "semanticEmptyNormalization": false
+    },
+    {
+      "slug": "217-hrmi-oct-2027-delegate",
+      "field": "hub-body",
+      "expected": "<p>Placeholder — Delegate MeetMax access and login instructions are awaiting Operations confirmation.</p>",
+      "actual": "<p id=\"\">Placeholder — Delegate MeetMax access and login instructions are awaiting Operations confirmation.</p>",
+      "semanticEmptyNormalization": false
+    },
+    {
+      "slug": "217-hrmi-oct-2027-delegate",
+      "field": "support-body",
+      "expected": null,
+      "actual": "",
+      "semanticEmptyNormalization": true
+    },
+    {
+      "slug": "217-hrmi-oct-2027-delegate",
+      "field": "kbyg-reservation-details",
+      "expected": "<p>Placeholder — Delegate reservation instructions, eligibility, rates and deadlines are awaiting Operations confirmation.</p>",
+      "actual": "<p id=\"\">Placeholder — Delegate reservation instructions, eligibility, rates and deadlines are awaiting Operations confirmation.</p>",
+      "semanticEmptyNormalization": false
+    },
+    {
+      "slug": "217-hrmi-oct-2027-sponsor",
+      "field": "preparation",
+      "expected": [],
+      "actual": null,
+      "semanticEmptyNormalization": true
+    },
+    {
+      "slug": "217-hrmi-oct-2027-sponsor",
+      "field": "key-dates",
+      "expected": [],
+      "actual": null,
+      "semanticEmptyNormalization": true
+    },
+    {
+      "slug": "217-hrmi-oct-2027-sponsor",
+      "field": "agenda-days",
+      "expected": [],
+      "actual": null,
+      "semanticEmptyNormalization": true
+    },
+    {
+      "slug": "217-hrmi-oct-2027-sponsor",
+      "field": "experience",
+      "expected": [],
+      "actual": null,
+      "semanticEmptyNormalization": true
+    },
+    {
+      "slug": "217-hrmi-oct-2027-sponsor",
+      "field": "faqs",
+      "expected": [],
+      "actual": null,
+      "semanticEmptyNormalization": true
+    },
+    {
+      "slug": "217-hrmi-oct-2027-sponsor",
+      "field": "welcome-intro",
+      "expected": "<p>Placeholder — Event arrangements and instructions are awaiting Operations confirmation.</p>",
+      "actual": "<p id=\"\">Placeholder — Event arrangements and instructions are awaiting Operations confirmation.</p>",
+      "semanticEmptyNormalization": false
+    },
+    {
+      "slug": "217-hrmi-oct-2027-sponsor",
+      "field": "welcome-body",
+      "expected": "<p>Placeholder — Sponsor welcome information is awaiting Operations confirmation.</p>",
+      "actual": "<p id=\"\">Placeholder — Sponsor welcome information is awaiting Operations confirmation.</p>",
+      "semanticEmptyNormalization": false
+    },
+    {
+      "slug": "217-hrmi-oct-2027-sponsor",
+      "field": "hub-body",
+      "expected": "<p>Placeholder — Sponsor MeetMax access and login instructions are awaiting Operations confirmation.</p>",
+      "actual": "<p id=\"\">Placeholder — Sponsor MeetMax access and login instructions are awaiting Operations confirmation.</p>",
+      "semanticEmptyNormalization": false
+    },
+    {
+      "slug": "217-hrmi-oct-2027-sponsor",
+      "field": "support-body",
+      "expected": "<p>Placeholder — Sponsor support instructions and destination are awaiting Operations confirmation.</p>",
+      "actual": "<p id=\"\">Placeholder — Sponsor support instructions and destination are awaiting Operations confirmation.</p>",
+      "semanticEmptyNormalization": false
+    },
+    {
+      "slug": "217-hrmi-oct-2027-sponsor",
+      "field": "kbyg-reservation-details",
+      "expected": "<p>Placeholder — Sponsor reservation instructions, eligibility, rates and deadlines are awaiting Operations confirmation.</p>",
+      "actual": "<p id=\"\">Placeholder — Sponsor reservation instructions, eligibility, rates and deadlines are awaiting Operations confirmation.</p>",
+      "semanticEmptyNormalization": false
+    },
+    {
+      "slug": "218-cni-2027-delegate",
+      "field": "preparation",
+      "expected": [],
+      "actual": null,
+      "semanticEmptyNormalization": true
+    },
+    {
+      "slug": "218-cni-2027-delegate",
+      "field": "key-dates",
+      "expected": [],
+      "actual": null,
+      "semanticEmptyNormalization": true
+    },
+    {
+      "slug": "218-cni-2027-delegate",
+      "field": "agenda-days",
+      "expected": [],
+      "actual": null,
+      "semanticEmptyNormalization": true
+    },
+    {
+      "slug": "218-cni-2027-delegate",
+      "field": "experience",
+      "expected": [],
+      "actual": null,
+      "semanticEmptyNormalization": true
+    },
+    {
+      "slug": "218-cni-2027-delegate",
+      "field": "faqs",
+      "expected": [],
+      "actual": null,
+      "semanticEmptyNormalization": true
+    },
+    {
+      "slug": "218-cni-2027-delegate",
+      "field": "welcome-intro",
+      "expected": "<p>Placeholder — Event arrangements and instructions are awaiting Operations confirmation.</p>",
+      "actual": "<p id=\"\">Placeholder — Event arrangements and instructions are awaiting Operations confirmation.</p>",
+      "semanticEmptyNormalization": false
+    },
+    {
+      "slug": "218-cni-2027-delegate",
+      "field": "welcome-body",
+      "expected": "<p>Placeholder — Delegate welcome information is awaiting Operations confirmation.</p>",
+      "actual": "<p id=\"\">Placeholder — Delegate welcome information is awaiting Operations confirmation.</p>",
+      "semanticEmptyNormalization": false
+    },
+    {
+      "slug": "218-cni-2027-delegate",
+      "field": "hub-body",
+      "expected": "<p>Placeholder — Delegate MeetMax access and login instructions are awaiting Operations confirmation.</p>",
+      "actual": "<p id=\"\">Placeholder — Delegate MeetMax access and login instructions are awaiting Operations confirmation.</p>",
+      "semanticEmptyNormalization": false
+    },
+    {
+      "slug": "218-cni-2027-delegate",
+      "field": "support-body",
+      "expected": null,
+      "actual": "",
+      "semanticEmptyNormalization": true
+    },
+    {
+      "slug": "218-cni-2027-delegate",
+      "field": "kbyg-reservation-details",
+      "expected": "<p>Placeholder — Delegate reservation instructions, eligibility, rates and deadlines are awaiting Operations confirmation.</p>",
+      "actual": "<p id=\"\">Placeholder — Delegate reservation instructions, eligibility, rates and deadlines are awaiting Operations confirmation.</p>",
+      "semanticEmptyNormalization": false
+    },
+    {
+      "slug": "218-cni-2027-sponsor",
+      "field": "preparation",
+      "expected": [],
+      "actual": null,
+      "semanticEmptyNormalization": true
+    },
+    {
+      "slug": "218-cni-2027-sponsor",
+      "field": "key-dates",
+      "expected": [],
+      "actual": null,
+      "semanticEmptyNormalization": true
+    },
+    {
+      "slug": "218-cni-2027-sponsor",
+      "field": "agenda-days",
+      "expected": [],
+      "actual": null,
+      "semanticEmptyNormalization": true
+    },
+    {
+      "slug": "218-cni-2027-sponsor",
+      "field": "experience",
+      "expected": [],
+      "actual": null,
+      "semanticEmptyNormalization": true
+    },
+    {
+      "slug": "218-cni-2027-sponsor",
+      "field": "faqs",
+      "expected": [],
+      "actual": null,
+      "semanticEmptyNormalization": true
+    },
+    {
+      "slug": "218-cni-2027-sponsor",
+      "field": "welcome-intro",
+      "expected": "<p>Placeholder — Event arrangements and instructions are awaiting Operations confirmation.</p>",
+      "actual": "<p id=\"\">Placeholder — Event arrangements and instructions are awaiting Operations confirmation.</p>",
+      "semanticEmptyNormalization": false
+    },
+    {
+      "slug": "218-cni-2027-sponsor",
+      "field": "welcome-body",
+      "expected": "<p>Placeholder — Sponsor welcome information is awaiting Operations confirmation.</p>",
+      "actual": "<p id=\"\">Placeholder — Sponsor welcome information is awaiting Operations confirmation.</p>",
+      "semanticEmptyNormalization": false
+    },
+    {
+      "slug": "218-cni-2027-sponsor",
+      "field": "hub-body",
+      "expected": "<p>Placeholder — Sponsor MeetMax access and login instructions are awaiting Operations confirmation.</p>",
+      "actual": "<p id=\"\">Placeholder — Sponsor MeetMax access and login instructions are awaiting Operations confirmation.</p>",
+      "semanticEmptyNormalization": false
+    },
+    {
+      "slug": "218-cni-2027-sponsor",
+      "field": "support-body",
+      "expected": "<p>Placeholder — Sponsor support instructions and destination are awaiting Operations confirmation.</p>",
+      "actual": "<p id=\"\">Placeholder — Sponsor support instructions and destination are awaiting Operations confirmation.</p>",
+      "semanticEmptyNormalization": false
+    },
+    {
+      "slug": "218-cni-2027-sponsor",
+      "field": "kbyg-reservation-details",
+      "expected": "<p>Placeholder — Sponsor reservation instructions, eligibility, rates and deadlines are awaiting Operations confirmation.</p>",
+      "actual": "<p id=\"\">Placeholder — Sponsor reservation instructions, eligibility, rates and deadlines are awaiting Operations confirmation.</p>",
+      "semanticEmptyNormalization": false
+    },
+    {
+      "slug": "219-cwi-2027-delegate",
+      "field": "preparation",
+      "expected": [],
+      "actual": null,
+      "semanticEmptyNormalization": true
+    },
+    {
+      "slug": "219-cwi-2027-delegate",
+      "field": "key-dates",
+      "expected": [],
+      "actual": null,
+      "semanticEmptyNormalization": true
+    },
+    {
+      "slug": "219-cwi-2027-delegate",
+      "field": "agenda-days",
+      "expected": [],
+      "actual": null,
+      "semanticEmptyNormalization": true
+    },
+    {
+      "slug": "219-cwi-2027-delegate",
+      "field": "experience",
+      "expected": [],
+      "actual": null,
+      "semanticEmptyNormalization": true
+    },
+    {
+      "slug": "219-cwi-2027-delegate",
+      "field": "faqs",
+      "expected": [],
+      "actual": null,
+      "semanticEmptyNormalization": true
+    },
+    {
+      "slug": "219-cwi-2027-delegate",
+      "field": "welcome-intro",
+      "expected": "<p>Placeholder — Event arrangements and instructions are awaiting Operations confirmation.</p>",
+      "actual": "<p id=\"\">Placeholder — Event arrangements and instructions are awaiting Operations confirmation.</p>",
+      "semanticEmptyNormalization": false
+    },
+    {
+      "slug": "219-cwi-2027-delegate",
+      "field": "welcome-body",
+      "expected": "<p>Placeholder — Delegate welcome information is awaiting Operations confirmation.</p>",
+      "actual": "<p id=\"\">Placeholder — Delegate welcome information is awaiting Operations confirmation.</p>",
+      "semanticEmptyNormalization": false
+    },
+    {
+      "slug": "219-cwi-2027-delegate",
+      "field": "hub-body",
+      "expected": "<p>Placeholder — Delegate MeetMax access and login instructions are awaiting Operations confirmation.</p>",
+      "actual": "<p id=\"\">Placeholder — Delegate MeetMax access and login instructions are awaiting Operations confirmation.</p>",
+      "semanticEmptyNormalization": false
+    },
+    {
+      "slug": "219-cwi-2027-delegate",
+      "field": "support-body",
+      "expected": null,
+      "actual": "",
+      "semanticEmptyNormalization": true
+    },
+    {
+      "slug": "219-cwi-2027-delegate",
+      "field": "kbyg-reservation-details",
+      "expected": "<p>Placeholder — Delegate reservation instructions, eligibility, rates and deadlines are awaiting Operations confirmation.</p>",
+      "actual": "<p id=\"\">Placeholder — Delegate reservation instructions, eligibility, rates and deadlines are awaiting Operations confirmation.</p>",
+      "semanticEmptyNormalization": false
+    },
+    {
+      "slug": "219-cwi-2027-sponsor",
+      "field": "preparation",
+      "expected": [],
+      "actual": null,
+      "semanticEmptyNormalization": true
+    },
+    {
+      "slug": "219-cwi-2027-sponsor",
+      "field": "key-dates",
+      "expected": [],
+      "actual": null,
+      "semanticEmptyNormalization": true
+    },
+    {
+      "slug": "219-cwi-2027-sponsor",
+      "field": "agenda-days",
+      "expected": [],
+      "actual": null,
+      "semanticEmptyNormalization": true
+    },
+    {
+      "slug": "219-cwi-2027-sponsor",
+      "field": "experience",
+      "expected": [],
+      "actual": null,
+      "semanticEmptyNormalization": true
+    },
+    {
+      "slug": "219-cwi-2027-sponsor",
+      "field": "faqs",
+      "expected": [],
+      "actual": null,
+      "semanticEmptyNormalization": true
+    },
+    {
+      "slug": "219-cwi-2027-sponsor",
+      "field": "welcome-intro",
+      "expected": "<p>Placeholder — Event arrangements and instructions are awaiting Operations confirmation.</p>",
+      "actual": "<p id=\"\">Placeholder — Event arrangements and instructions are awaiting Operations confirmation.</p>",
+      "semanticEmptyNormalization": false
+    },
+    {
+      "slug": "219-cwi-2027-sponsor",
+      "field": "welcome-body",
+      "expected": "<p>Placeholder — Sponsor welcome information is awaiting Operations confirmation.</p>",
+      "actual": "<p id=\"\">Placeholder — Sponsor welcome information is awaiting Operations confirmation.</p>",
+      "semanticEmptyNormalization": false
+    },
+    {
+      "slug": "219-cwi-2027-sponsor",
+      "field": "hub-body",
+      "expected": "<p>Placeholder — Sponsor MeetMax access and login instructions are awaiting Operations confirmation.</p>",
+      "actual": "<p id=\"\">Placeholder — Sponsor MeetMax access and login instructions are awaiting Operations confirmation.</p>",
+      "semanticEmptyNormalization": false
+    },
+    {
+      "slug": "219-cwi-2027-sponsor",
+      "field": "support-body",
+      "expected": "<p>Placeholder — Sponsor support instructions and destination are awaiting Operations confirmation.</p>",
+      "actual": "<p id=\"\">Placeholder — Sponsor support instructions and destination are awaiting Operations confirmation.</p>",
+      "semanticEmptyNormalization": false
+    },
+    {
+      "slug": "219-cwi-2027-sponsor",
+      "field": "kbyg-reservation-details",
+      "expected": "<p>Placeholder — Sponsor reservation instructions, eligibility, rates and deadlines are awaiting Operations confirmation.</p>",
+      "actual": "<p id=\"\">Placeholder — Sponsor reservation instructions, eligibility, rates and deadlines are awaiting Operations confirmation.</p>",
+      "semanticEmptyNormalization": false
+    },
+    {
+      "slug": "220-hr-can-2027-delegate",
+      "field": "preparation",
+      "expected": [],
+      "actual": null,
+      "semanticEmptyNormalization": true
+    },
+    {
+      "slug": "220-hr-can-2027-delegate",
+      "field": "key-dates",
+      "expected": [],
+      "actual": null,
+      "semanticEmptyNormalization": true
+    },
+    {
+      "slug": "220-hr-can-2027-delegate",
+      "field": "agenda-days",
+      "expected": [],
+      "actual": null,
+      "semanticEmptyNormalization": true
+    },
+    {
+      "slug": "220-hr-can-2027-delegate",
+      "field": "experience",
+      "expected": [],
+      "actual": null,
+      "semanticEmptyNormalization": true
+    },
+    {
+      "slug": "220-hr-can-2027-delegate",
+      "field": "faqs",
+      "expected": [],
+      "actual": null,
+      "semanticEmptyNormalization": true
+    },
+    {
+      "slug": "220-hr-can-2027-delegate",
+      "field": "welcome-intro",
+      "expected": "<p>Placeholder — Event arrangements and instructions are awaiting Operations confirmation.</p>",
+      "actual": "<p id=\"\">Placeholder — Event arrangements and instructions are awaiting Operations confirmation.</p>",
+      "semanticEmptyNormalization": false
+    },
+    {
+      "slug": "220-hr-can-2027-delegate",
+      "field": "welcome-body",
+      "expected": "<p>Placeholder — Delegate welcome information is awaiting Operations confirmation.</p>",
+      "actual": "<p id=\"\">Placeholder — Delegate welcome information is awaiting Operations confirmation.</p>",
+      "semanticEmptyNormalization": false
+    },
+    {
+      "slug": "220-hr-can-2027-delegate",
+      "field": "hub-body",
+      "expected": "<p>Placeholder — Delegate MeetMax access and login instructions are awaiting Operations confirmation.</p>",
+      "actual": "<p id=\"\">Placeholder — Delegate MeetMax access and login instructions are awaiting Operations confirmation.</p>",
+      "semanticEmptyNormalization": false
+    },
+    {
+      "slug": "220-hr-can-2027-delegate",
+      "field": "support-body",
+      "expected": null,
+      "actual": "",
+      "semanticEmptyNormalization": true
+    },
+    {
+      "slug": "220-hr-can-2027-delegate",
+      "field": "kbyg-reservation-details",
+      "expected": "<p>Placeholder — Delegate reservation instructions, eligibility, rates and deadlines are awaiting Operations confirmation.</p>",
+      "actual": "<p id=\"\">Placeholder — Delegate reservation instructions, eligibility, rates and deadlines are awaiting Operations confirmation.</p>",
+      "semanticEmptyNormalization": false
+    },
+    {
+      "slug": "220-hr-can-2027-sponsor",
+      "field": "preparation",
+      "expected": [],
+      "actual": null,
+      "semanticEmptyNormalization": true
+    },
+    {
+      "slug": "220-hr-can-2027-sponsor",
+      "field": "key-dates",
+      "expected": [],
+      "actual": null,
+      "semanticEmptyNormalization": true
+    },
+    {
+      "slug": "220-hr-can-2027-sponsor",
+      "field": "agenda-days",
+      "expected": [],
+      "actual": null,
+      "semanticEmptyNormalization": true
+    },
+    {
+      "slug": "220-hr-can-2027-sponsor",
+      "field": "experience",
+      "expected": [],
+      "actual": null,
+      "semanticEmptyNormalization": true
+    },
+    {
+      "slug": "220-hr-can-2027-sponsor",
+      "field": "faqs",
+      "expected": [],
+      "actual": null,
+      "semanticEmptyNormalization": true
+    },
+    {
+      "slug": "220-hr-can-2027-sponsor",
+      "field": "welcome-intro",
+      "expected": "<p>Placeholder — Event arrangements and instructions are awaiting Operations confirmation.</p>",
+      "actual": "<p id=\"\">Placeholder — Event arrangements and instructions are awaiting Operations confirmation.</p>",
+      "semanticEmptyNormalization": false
+    },
+    {
+      "slug": "220-hr-can-2027-sponsor",
+      "field": "welcome-body",
+      "expected": "<p>Placeholder — Sponsor welcome information is awaiting Operations confirmation.</p>",
+      "actual": "<p id=\"\">Placeholder — Sponsor welcome information is awaiting Operations confirmation.</p>",
+      "semanticEmptyNormalization": false
+    },
+    {
+      "slug": "220-hr-can-2027-sponsor",
+      "field": "hub-body",
+      "expected": "<p>Placeholder — Sponsor MeetMax access and login instructions are awaiting Operations confirmation.</p>",
+      "actual": "<p id=\"\">Placeholder — Sponsor MeetMax access and login instructions are awaiting Operations confirmation.</p>",
+      "semanticEmptyNormalization": false
+    },
+    {
+      "slug": "220-hr-can-2027-sponsor",
+      "field": "support-body",
+      "expected": "<p>Placeholder — Sponsor support instructions and destination are awaiting Operations confirmation.</p>",
+      "actual": "<p id=\"\">Placeholder — Sponsor support instructions and destination are awaiting Operations confirmation.</p>",
+      "semanticEmptyNormalization": false
+    },
+    {
+      "slug": "220-hr-can-2027-sponsor",
+      "field": "kbyg-reservation-details",
+      "expected": "<p>Placeholder — Sponsor reservation instructions, eligibility, rates and deadlines are awaiting Operations confirmation.</p>",
+      "actual": "<p id=\"\">Placeholder — Sponsor reservation instructions, eligibility, rates and deadlines are awaiting Operations confirmation.</p>",
+      "semanticEmptyNormalization": false
+    }
+  ],
+  "richTextEmptyIdNormalizations": 225,
+  "emptyNormalizations": 275,
+  "unexpectedDifferences": []
+}

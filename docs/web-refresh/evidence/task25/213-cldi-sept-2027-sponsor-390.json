@@ -1,0 +1,242 @@
+{
+  "anchors": [
+    "top",
+    "w-nav-overlay-0",
+    "kbyg-page-title",
+    "kbyg-jump-label-sponsor",
+    "kbyg-jump-select-sponsor",
+    "welcome",
+    "kbyg-welcome-title",
+    "prepare",
+    "kbyg-prepare-title-sponsor",
+    "key-dates",
+    "kbyg-key-dates-title-sponsor",
+    "agenda",
+    "kbyg-agenda-title",
+    "hub",
+    "kbyg-hub-title-sponsor",
+    "hotel-travel",
+    "kbyg-travel-title",
+    "experience",
+    "kbyg-experience-title-sponsor",
+    "kbyg-meeting-method-title",
+    "sponsor-support",
+    "kbyg-sponsor-support-title",
+    "contact",
+    "kbyg-contact-title",
+    "w-node-fe321ed4-51e3-f8e5-4b6b-0d079b2b7eb6-9b2b7eae",
+    "footer-button",
+    "w-dropdown-toggle-0",
+    "w-dropdown-list-0",
+    "w-dropdown-toggle-1",
+    "w-dropdown-list-1",
+    "w-dropdown-toggle-2",
+    "w-dropdown-list-2"
+  ],
+  "audience": "sponsor",
+  "client": 390,
+  "colors": {
+    "primary": ""
+  },
+  "emptyNotices": [
+    "Check back soon for your Operations Lead contact details!",
+    "Check back soon for transportation details!",
+    "Check back soon for your Operations Lead contact details!"
+  ],
+  "images": [
+    {
+      "alt": "International Performance Management Institute.",
+      "src": "https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/63281aeafc3ab3e21d7c05ec_IPMI-Logo-Light.svg"
+    },
+    {
+      "alt": "",
+      "src": "https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/63898af5538b8f3d9ad17d52_IPMI-HR-Icon.svg"
+    },
+    {
+      "alt": "International Performance Management Institute.",
+      "src": "https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6327f8231c814d48b97873a8_Asset%201.svg"
+    }
+  ],
+  "links": [
+    {
+      "href": "/",
+      "text": ""
+    },
+    {
+      "href": "#",
+      "text": ""
+    },
+    {
+      "href": "#welcome",
+      "text": "VIEW INSTITUTE GUIDE"
+    },
+    {
+      "href": "https://www.google.com/maps/search/?api=1&query=4012%20Central%20Florida%20Pkwy%2C%20Orlando%2C%20FL%2032837",
+      "text": "4012 Central Florida Pkwy, Orlando, FL 32837"
+    },
+    {
+      "href": "#top",
+      "text": ""
+    },
+    {
+      "href": "/",
+      "text": ""
+    },
+    {
+      "href": "mailto:info@ipmievents.com",
+      "text": "info@ipmievents.com"
+    },
+    {
+      "href": "tel:+14166284058",
+      "text": "(416) 628-4058"
+    },
+    {
+      "href": "#",
+      "text": "VIEW SITEMAP"
+    },
+    {
+      "href": "/privacy",
+      "text": "Privacy Policy"
+    },
+    {
+      "href": "/terms",
+      "text": "Terms and Conditions"
+    },
+    {
+      "href": "#",
+      "text": ""
+    },
+    {
+      "href": "/institutes",
+      "text": "Upcoming Institutes"
+    },
+    {
+      "href": "/insights",
+      "text": "Institute Insights"
+    },
+    {
+      "href": "/recent-institutes",
+      "text": "Recent Institutes"
+    },
+    {
+      "href": "/gallery",
+      "text": "Institute Gallery"
+    },
+    {
+      "href": "/faq#what-is-an-institute",
+      "text": "What is an Institute?"
+    },
+    {
+      "href": "/thinktanks",
+      "text": "Upcoming Think Tanks\n& Roundtables"
+    },
+    {
+      "href": "/thinktanks#recent",
+      "text": "Recent Think Tanks\n& Roundtables"
+    },
+    {
+      "href": "/faq#what-is-a-think-tank",
+      "text": "What is a Think Tank?"
+    },
+    {
+      "href": "/about",
+      "text": "About IPMI"
+    },
+    {
+      "href": "/testimonials",
+      "text": "Testimonials"
+    },
+    {
+      "href": "/attend",
+      "text": "Attend an Institute"
+    },
+    {
+      "href": "/attend#speak",
+      "text": "Speak at an Institute"
+    },
+    {
+      "href": "/attend#partner",
+      "text": "Partner with IPMI"
+    },
+    {
+      "href": "/faq",
+      "text": "FAQ"
+    },
+    {
+      "href": "/contact",
+      "text": "Contact Us"
+    },
+    {
+      "href": "/attend",
+      "text": "Attend an Institute"
+    }
+  ],
+  "robots": "noindex,follow",
+  "scroll": 390,
+  "sections": [
+    {
+      "height": 792.5,
+      "id": "welcome"
+    },
+    {
+      "height": 387.296875,
+      "id": "prepare"
+    },
+    {
+      "height": 368.09375,
+      "id": "key-dates"
+    },
+    {
+      "height": 333.296875,
+      "id": "agenda"
+    },
+    {
+      "height": 281.5,
+      "id": "hub"
+    },
+    {
+      "height": 1078.328125,
+      "id": "hotel-travel"
+    },
+    {
+      "height": 627.890625,
+      "id": "experience"
+    },
+    {
+      "height": 239.5,
+      "id": "sponsor-support"
+    },
+    {
+      "height": 460.6875,
+      "id": "contact"
+    }
+  ],
+  "text": "2027-09-12 – 2027-09-14\n\nKnow Before You Go.\n\n2027 Corporate Learning & Development Institute\n\nThe Ritz-Carlton Orlando, Grande Lakes, FL\n\nPlaceholder — This Sponsor guide is awaiting Operations confirmation.\n\nVIEW INSTITUTE GUIDE\nJUMP TO:\nWELCOME\nPREPARE\nDATES\nAGENDA\nHUB\nHOTEL\nMEETINGS\nSUPPORT\nCONTACT\n\nWELCOME\n\nYour Sponsor guide.\n\nPlaceholder — Event arrangements and instructions are awaiting Operations confirmation.\n\nPlaceholder — Sponsor welcome information is awaiting Operations confirmation.\n\nCheck back soon for your Operations Lead contact details!\n\nBEFORE YOU ARRIVE\n\nPreparing for your Institute.\n\nPlaceholder — Sponsor preparation instructions are awaiting Operations confirmation.\n\nCheck back soon for preparation details!\n\nMARK YOUR CALENDAR\n\nKey Dates & Deliverables.\n\nPlaceholder — Sponsor deadlines are awaiting Operations confirmation.\n\nCheck back soon for Key Dates & Deliverables!\n\nEVENT PROGRAM\n\nInstitute Agenda\n\nPlaceholder — The event agenda is awaiting Operations confirmation.\n\nCheck back soon for the Institute agenda!\n\nEVENT ACCESS\n\nSponsor Hub.\n\nPlaceholder — Sponsor MeetMax access and login instructions are awaiting Operations confirmation.\n\nHOTEL & TRAVEL\n\nHotel & Travel.\nThe Ritz-Carlton Orlando, Grande Lakes, FL\n4012 Central Florida Pkwy, Orlando, FL 32837\nHotel Reservations\n\nPlaceholder — Sponsor reservation instructions, eligibility, rates and deadlines are awaiting Operations confirmation.\n\nTransportation\n\nCheck back soon for transportation details!\n\nYOUR EXPERIENCE\n\nYour Institute Experience.\n\nPlaceholder — Sponsor experience details are awaiting Operations confirmation.\n\nHow Meetings Are Scheduled\nCheck back soon for business meetings and onsite experience details!\n\nSPONSOR SUPPORT\n\nSponsor Support.\n\nPlaceholder — Sponsor support instructions and destination are awaiting Operations confirmation.\n\nOPERATIONS CONTACT\n\nQuestions Before You Go?\n\nPlaceholder — The Operations contact is awaiting confirmation.\n\nCheck back soon for your Operations Lead contact details!\n\ninfo@ipmievents.com\n(416) 628-4058\n151 Bloor Street W.\nToronto, ON\nCanada M5S1S4\nVIEW SITEMAP\n© International Performance Management Institute. All Rights Reserved.\nPrivacy Policy | Terms and Conditions\nInstitutes \nUpcoming Institutes\nInstitute Insights\nRecent Institutes\nInstitute Gallery\nWhat is an Institute?\nThink Tanks & Roundtables \nUpcoming Think Tanks\n& Roundtables\nRecent Think Tanks\n& Roundtables\nWhat is a Think Tank?\nAbout IPMI \nAbout IPMI\nTestimonials\nAttend an Institute\nSpeak at an Institute\nPartner with IPMI\nFAQ\nContact Us\nAttend an Institute",
+  "title": "Corporate Learning & Development Institute Know Before You Go — sponsor",
+  "width": 390,
+  "slug": "213-cldi-sept-2027-sponsor",
+  "expectedWidth": 390,
+  "checks": {
+    "audience": true,
+    "title": true,
+    "year": true,
+    "venue": true,
+    "noindex": true,
+    "noOverflow": true,
+    "anchors": true,
+    "noEmptyVisibleImages": true,
+    "backdrop": true
+  },
+  "extra": {
+    "backdrop": false,
+    "robots": [
+      "noindex,follow"
+    ],
+    "hashControls": [
+      "",
+      "VIEW SITEMAP",
+      ""
+    ]
+  },
+  "notes": "Hash-only calendar, FAQ and global navigation controls are not destination CTAs. Exact guide URLs audited in root-http-verification.json."
+}

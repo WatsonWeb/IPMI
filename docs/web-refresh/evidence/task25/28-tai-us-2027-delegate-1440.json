@@ -1,0 +1,353 @@
+{
+  "anchors": [
+    "top",
+    "w-nav-overlay-0",
+    "kbyg-page-title",
+    "kbyg-jump-label-delegate",
+    "kbyg-jump-select-delegate",
+    "welcome",
+    "kbyg-welcome-title",
+    "prepare",
+    "kbyg-prepare-title-delegate",
+    "key-dates",
+    "kbyg-key-dates-title-delegate",
+    "agenda",
+    "kbyg-agenda-title",
+    "hub",
+    "kbyg-hub-title-delegate",
+    "hotel-travel",
+    "kbyg-travel-title",
+    "experience",
+    "kbyg-experience-title-delegate",
+    "faq",
+    "kbyg-faq-title",
+    "contact",
+    "kbyg-contact-title",
+    "w-node-fe321ed4-51e3-f8e5-4b6b-0d079b2b7eb6-9b2b7eae",
+    "footer-button",
+    "w-dropdown-toggle-0",
+    "w-dropdown-list-0",
+    "w-dropdown-toggle-1",
+    "w-dropdown-list-1",
+    "w-dropdown-toggle-2",
+    "w-dropdown-list-2"
+  ],
+  "audience": "delegate",
+  "client": 1440,
+  "colors": {
+    "primary": ""
+  },
+  "emptyNotices": [
+    "Check back soon for your Operations Lead contact details!",
+    "Check back soon for transportation details!",
+    "Check back soon for your Operations Lead contact details!"
+  ],
+  "images": [
+    {
+      "alt": "International Performance Management Institute.",
+      "src": "https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/63281aeafc3ab3e21d7c05ec_IPMI-Logo-Light.svg"
+    },
+    {
+      "alt": "",
+      "src": "https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/63898af5538b8f3d9ad17d52_IPMI-HR-Icon.svg"
+    },
+    {
+      "alt": "International Performance Management Institute.",
+      "src": "https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6327f8231c814d48b97873a8_Asset%201.svg"
+    }
+  ],
+  "links": [
+    {
+      "href": "/",
+      "text": ""
+    },
+    {
+      "href": "/institutes",
+      "text": "Institutes "
+    },
+    {
+      "href": "/institutes",
+      "text": "Upcoming Institutes"
+    },
+    {
+      "href": "/insights",
+      "text": "Institute Insights"
+    },
+    {
+      "href": "/recent-institutes",
+      "text": "Recent Institutes"
+    },
+    {
+      "href": "/gallery",
+      "text": "Institute Gallery"
+    },
+    {
+      "href": "/faq#what-is-an-institute",
+      "text": "What is an Institute?"
+    },
+    {
+      "href": "/thinktanks",
+      "text": "Think Tanks & Roundtables "
+    },
+    {
+      "href": "/thinktanks",
+      "text": "Upcoming Think Tanks & Roundtables"
+    },
+    {
+      "href": "/thinktanks#recent",
+      "text": "Recent Think Tanks & Roundtables"
+    },
+    {
+      "href": "/faq#what-is-a-think-tank",
+      "text": "What is a Think Tank?"
+    },
+    {
+      "href": "/about",
+      "text": "About IPMI "
+    },
+    {
+      "href": "/about",
+      "text": "About IPMI"
+    },
+    {
+      "href": "/testimonials",
+      "text": "Testimonials"
+    },
+    {
+      "href": "/faq",
+      "text": "FAQ"
+    },
+    {
+      "href": "/attend",
+      "text": "Attend an Institute"
+    },
+    {
+      "href": "/attend#speak",
+      "text": "Speak at an Institute"
+    },
+    {
+      "href": "/attend#partner",
+      "text": "Partner with IPMI"
+    },
+    {
+      "href": "/contact",
+      "text": "Contact Us"
+    },
+    {
+      "href": "/attend",
+      "text": "ATTEND AN INSTITUTE"
+    },
+    {
+      "href": "#welcome",
+      "text": "VIEW INSTITUTE GUIDE"
+    },
+    {
+      "href": "#welcome",
+      "text": "WELCOME"
+    },
+    {
+      "href": "#prepare",
+      "text": "PREPARE"
+    },
+    {
+      "href": "#key-dates",
+      "text": "DATES"
+    },
+    {
+      "href": "#agenda",
+      "text": "AGENDA"
+    },
+    {
+      "href": "#hub",
+      "text": "HUB"
+    },
+    {
+      "href": "#hotel-travel",
+      "text": "HOTEL"
+    },
+    {
+      "href": "#experience",
+      "text": "EXPERIENCE"
+    },
+    {
+      "href": "#faq",
+      "text": "FAQ"
+    },
+    {
+      "href": "#contact",
+      "text": "CONTACT"
+    },
+    {
+      "href": "https://www.google.com/maps/search/?api=1&query=921%20Canal%20St%2C%20New%20Orleans%2C%20LA%2070112",
+      "text": "921 Canal St, New Orleans, LA 70112"
+    },
+    {
+      "href": "#top",
+      "text": ""
+    },
+    {
+      "href": "/",
+      "text": ""
+    },
+    {
+      "href": "mailto:info@ipmievents.com",
+      "text": "info@ipmievents.com"
+    },
+    {
+      "href": "tel:+14166284058",
+      "text": "(416) 628-4058"
+    },
+    {
+      "href": "/institutes",
+      "text": "INSTITUTES"
+    },
+    {
+      "href": "/institutes",
+      "text": "Upcoming Institutes"
+    },
+    {
+      "href": "/insights",
+      "text": "Institute Insights"
+    },
+    {
+      "href": "/recent-institutes",
+      "text": "Recent Institutes"
+    },
+    {
+      "href": "/gallery",
+      "text": "Institute Gallery"
+    },
+    {
+      "href": "/faq#what-is-an-institute",
+      "text": "What is an Institute?"
+    },
+    {
+      "href": "/thinktanks",
+      "text": "THINK TANKS &\nROUNDTABLES"
+    },
+    {
+      "href": "/thinktanks",
+      "text": "Upcoming Think Tanks"
+    },
+    {
+      "href": "/thinktanks#recent",
+      "text": "Recent Think Tanks"
+    },
+    {
+      "href": "/faq#what-is-a-virtual-think-tank",
+      "text": "What is a Think Tank?"
+    },
+    {
+      "href": "/about",
+      "text": "ABOUT IPMI"
+    },
+    {
+      "href": "/about",
+      "text": "About IPMI"
+    },
+    {
+      "href": "/testimonials",
+      "text": "Testimonials"
+    },
+    {
+      "href": "/faq",
+      "text": "FAQ"
+    },
+    {
+      "href": "/attend",
+      "text": "Attend an Institute"
+    },
+    {
+      "href": "/attend#speak",
+      "text": "Speak at an Institute"
+    },
+    {
+      "href": "/attend#partner",
+      "text": "Partner with IPMI"
+    },
+    {
+      "href": "/contact",
+      "text": "CONTACT US"
+    },
+    {
+      "href": "/contact",
+      "text": "Contact Us"
+    },
+    {
+      "href": "https://www.linkedin.com/company/international-performance-management-institute-ipmi-/?originalSubdomain=ca",
+      "text": ""
+    },
+    {
+      "href": "/privacy",
+      "text": "Privacy Policy"
+    },
+    {
+      "href": "/terms",
+      "text": "Terms and Conditions"
+    }
+  ],
+  "robots": "noindex,follow",
+  "scroll": 1440,
+  "sections": [
+    {
+      "height": 279,
+      "id": "welcome"
+    },
+    {
+      "height": 329.796875,
+      "id": "prepare"
+    },
+    {
+      "height": 311.796875,
+      "id": "key-dates"
+    },
+    {
+      "height": 293.796875,
+      "id": "agenda"
+    },
+    {
+      "height": 248,
+      "id": "hub"
+    },
+    {
+      "height": 799,
+      "id": "hotel-travel"
+    },
+    {
+      "height": 520,
+      "id": "experience"
+    },
+    {
+      "height": 320.796875,
+      "id": "faq"
+    },
+    {
+      "height": 394.59375,
+      "id": "contact"
+    }
+  ],
+  "text": "Institutes \nUpcoming Institutes\nInstitute Insights\nRecent Institutes\nInstitute Gallery\nWhat is an Institute?\nThink Tanks & Roundtables \nUpcoming Think Tanks & Roundtables\nRecent Think Tanks & Roundtables\nWhat is a Think Tank?\nAbout IPMI \nAbout IPMI\nTestimonials\nFAQ\nAttend an Institute\nSpeak at an Institute\nPartner with IPMI\nContact Us\nATTEND AN INSTITUTE\n\n2027-05-16 – 2027-05-18\n\nKnow Before You Go.\n\n2027 Talent Acquisition Institute\n\nThe Ritz-Carlton, New Orleans, LA\n\nPlaceholder — This Delegate guide is awaiting Operations confirmation.\n\nVIEW INSTITUTE GUIDE\nWELCOME\nPREPARE\nDATES\nAGENDA\nHUB\nHOTEL\nEXPERIENCE\nFAQ\nCONTACT\n\nWELCOME\n\nYour Delegate guide.\n\nPlaceholder — Event arrangements and instructions are awaiting Operations confirmation.\n\nPlaceholder — Delegate welcome information is awaiting Operations confirmation.\n\nCheck back soon for your Operations Lead contact details!\n\nBEFORE YOU ARRIVE\n\nPreparing for your Institute.\n\nPlaceholder — Delegate preparation instructions are awaiting Operations confirmation.\n\nCheck back soon for preparation details!\n\nMARK YOUR CALENDAR\n\nKey Dates & Deliverables.\n\nPlaceholder — Delegate deadlines are awaiting Operations confirmation.\n\nCheck back soon for Key Dates & Deliverables!\n\nEVENT PROGRAM\n\nInstitute Agenda\n\nPlaceholder — The event agenda is awaiting Operations confirmation.\n\nCheck back soon for the Institute agenda!\n\nEVENT ACCESS\n\nAttendee Hub.\n\nPlaceholder — Delegate MeetMax access and login instructions are awaiting Operations confirmation.\n\nHOTEL & TRAVEL\n\nHotel & Travel.\nThe Ritz-Carlton, New Orleans, LA\n921 Canal St, New Orleans, LA 70112\nHotel Reservations\n\nPlaceholder — Delegate reservation instructions, eligibility, rates and deadlines are awaiting Operations confirmation.\n\nTransportation\n\nCheck back soon for transportation details!\n\nYOUR EXPERIENCE\n\nYour Institute Experience.\n\nPlaceholder — Delegate experience details are awaiting Operations confirmation.\n\nCheck back soon for Institute experience details!\n\nHELPFUL ANSWERS\n\nFrequently Asked Questions.\nCheck back soon for frequently asked questions!\n\nOPERATIONS CONTACT\n\nQuestions Before You Go?\n\nPlaceholder — The Operations contact is awaiting confirmation.\n\nCheck back soon for your Operations Lead contact details!\n\ninfo@ipmievents.com\n(416) 628-4058\n151 Bloor Street W.\nToronto, ON\nCanada M5S1S4\nINSTITUTES\nUpcoming Institutes\nInstitute Insights\nRecent Institutes\nInstitute Gallery\nWhat is an Institute?\nTHINK TANKS &\nROUNDTABLES\nUpcoming Think Tanks\nRecent Think Tanks\nWhat is a Think Tank?\nABOUT IPMI\nAbout IPMI\nTestimonials\nFAQ\nAttend an Institute\nSpeak at an Institute\nPartner with IPMI\nCONTACT US\nContact Us\nCONNECT\n© International Performance Management Institute. All Rights Reserved.\nPrivacy Policy | Terms and Conditions",
+  "title": "Talent Acquisition Institute Know Before You Go — delegate",
+  "width": 1440,
+  "slug": "28-tai-us-2027-delegate",
+  "expectedWidth": 1440,
+  "checks": {
+    "audience": true,
+    "title": true,
+    "year": true,
+    "venue": true,
+    "noindex": true,
+    "noOverflow": true,
+    "anchors": true,
+    "noEmptyVisibleImages": true,
+    "backdrop": true
+  },
+  "extra": {
+    "backdrop": false,
+    "robots": [
+      "noindex,follow"
+    ],
+    "hashControls": []
+  },
+  "notes": "Hash-only calendar, FAQ and global navigation controls are not destination CTAs. Exact guide URLs audited in root-http-verification.json."
+}

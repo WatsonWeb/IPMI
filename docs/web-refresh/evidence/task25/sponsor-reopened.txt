@@ -1,0 +1,179 @@
+ [level=2]
+- generic: Not published
+- generic: Queued to publish
+- separator
+- button "View content on page":
+- button "Publish now":
+  - generic: Publish now
+- button "More":
+- generic: Basic info
+- generic: Name
+- textbox: 220. HR Can 2027 Sponsor
+- generic: Slug
+- textbox: 220-hr-can-2027-sponsor
+- generic: www.ipmievents.com/know-before-you-go/
+- generic: 220-hr-can-2027-sponsor
+- button "Custom fields More options" [expanded]:
+  - generic: Custom fields
+  - button "More options":
+- generic: Institute
+- generic: 220. HR Can 2027
+- button:
+- generic: Audience
+- generic: sponsor
+- generic: Operations Lead
+- generic: Pick a Staff...
+- button:
+- generic: Hero Image
+- generic: Drag your image here
+- generic: or click to browse for a file
+- button "Drag your image here or click to browse for a file"
+- generic: Hero Image Alt
+- textbox
+- generic: Hub Image
+- generic: Drag your image here
+- generic: or click to browse for a file
+- button "Drag your image here or click to browse for a file"
+- generic: Hub Image Alt
+- textbox
+- generic: Preparation
+- combobox
+- generic: Pick KBYG Content Blocks...
+- button "Toggle options":
+- button "Add":
+- generic: Key Dates
+- combobox
+- generic: Pick KBYG Content Blocks...
+- button "Toggle options":
+- button "Add":
+- generic: Agenda Days
+- combobox
+- generic: Pick KBYG Content Blocks...
+- button "Toggle options":
+- button "Add":
+- generic: Experience
+- combobox
+- generic: Pick KBYG Content Blocks...
+- button "Toggle options":
+- button "Add":
+- generic: FAQs
+- combobox
+- generic: Pick KBYG Content Blocks...
+- button "Toggle options":
+- button "Add":
+- generic: Hero Eyebrow
+- textbox: 2027-11-21 – 2027-11-23
+- generic: Hero Intro
+- textbox: Placeholder — This Sponsor guide is awaiting Operations confirmation.
+- generic: Hero CTA Label
+- textbox: VIEW INSTITUTE GUIDE
+- generic: Hero CTA URL
+- textbox: "#welcome"
+- generic: Welcome Eyebrow
+- textbox: WELCOME
+- generic: Welcome Title
+- textbox: Your Sponsor guide.
+- generic: Welcome Intro
+- paragraph: Placeholder — Event arrangements and instructions are awaiting Operations confirmation.
+- generic: Welcome Body
+- paragraph: Placeholder — Sponsor welcome information is awaiting Operations confirmation.
+- generic: Preparation Eyebrow
+- textbox: BEFORE YOU ARRIVE
+- generic: Preparation Title
+- textbox: Preparing for your Institute.
+- generic: Preparation Intro
+- textbox: Placeholder — Sponsor preparation instructions are awaiting Operations confirmation.
+- generic: Key Dates Eyebrow
+- textbox: MARK YOUR CALENDAR
+- generic: Key Dates Title
+- textbox: Key Dates & Deliverables.
+- generic: Key Dates Intro
+- textbox: Placeholder — Sponsor deadlines are awaiting Operations confirmation.
+- generic: Agenda Eyebrow
+- textbox: EVENT PROGRAM
+- generic: Agenda Title
+- textbox: Institute Agenda
+- generic: Agenda Intro
+- textbox: Placeholder — The event agenda is awaiting Operations confirmation.
+- generic: Agenda CTA Label
+- textbox: VIEW FULL INSTITUTE AGENDA
+- generic: Hub Eyebrow
+- textbox: EVENT ACCESS
+- generic: Hub Title
+- textbox: Sponsor Hub.
+- generic: Hub Body
+- paragraph: Placeholder — Sponsor MeetMax access and login instructions are awaiting Operations confirmation.
+- generic: Hub URL
+- textbox
+- generic: Hub CTA Label
+- textbox: OPEN SPONSOR HUB
+- generic: Hotel Eyebrow
+- textbox: HOTEL & TRAVEL
+- generic: Hotel Title
+- textbox: Hotel & Travel.
+- generic: Experience Eyebrow
+- textbox: YOUR EXPERIENCE
+- generic: Experience Title
+- textbox: Your Institute Experience.
+- generic: Experience Intro
+- textbox: Placeholder — Sponsor experience details are awaiting Operations confirmation.
+- generic: Support Eyebrow
+- textbox: SPONSOR SUPPORT
+- generic: Support Title
+- textbox: Sponsor Support.
+- generic: Support Body
+- paragraph: Placeholder — Sponsor support instructions and destination are awaiting Operations confirmation.
+- generic: Support URL
+- textbox
+- generic: Support CTA Label
+- textbox: SPONSOR SUPPORT
+- generic: Contact Eyebrow
+- textbox: OPERATIONS CONTACT
+- generic: Contact Title
+- textbox: Questions Before You Go?
+- generic: Contact Intro
+- textbox: Placeholder — The Operations contact is awaiting confirmation.
+- generic: KBYG Reservation Details
+- text: Hotel reservation instructions for this KBYG page and audience. Leave blank to show a Coming Soon notice.
+- paragraph: Placeholder — Sponsor reservation instructions, eligibility, rates and deadlines are awaiting Operations confirmation.
+- table:
+  - rowgroup:
+    - row "Locale Status":
+      - columnheader "Locale"
+      - columnheader "Status"
+  - rowgroup:
+    - row "English Queued to publish":
+      - cell "English"
+      - cell "Queued to publish":
+        - generic: Queued to publish
+- heading "Item details" [level=4]
+- generic: Sitemap Indexing
+- generic "More info":
+- paragraph:
+  - text: This setting controls whether search engines can return this page in search results.
+  - link "Learn more":
+    - /url: https://help.webflow.com/hc/en-us/articles/33961368603539-Disable-search-engine-indexing#01JGPQHKRP9ZWWTWW11Y447SAE
+- switch [checked]
+- generic: "On"
+- generic: Item ID
+- generic: 6ab50d5f9c872074f0aeff9a
+- heading "Activity" [level=4]
+- generic: I
+- text: Item created
+- generic: September 24, 2026, 6:45am by IPMI Webmaster
+- generic: I
+- text: Last edited
+- generic: September 24, 2026, 6:45am by IPMI Webmaster
+- button "Archive":
+  - generic: Archive
+- button "Delete":
+  - generic: Delete
+- button "Duplicate":
+  - generic: Duplicate
+- region "Notifications Alt+T"
+- status: 1Password menu is available. Press down arrow to select.
+- status
+- status
+- status
+- status
+- status

@@ -1,0 +1,1287 @@
+{
+  "checkedAt": "2026-09-24T12:00:49.546Z",
+  "count": 54,
+  "failures": [],
+  "results": [
+    {
+      "slug": "211-hrmi-june-2027-delegate",
+      "status": 200,
+      "title": "HR Management Institute",
+      "year": "2027",
+      "audience": "delegate",
+      "noindex": true,
+      "exampleLinks": [],
+      "original": null,
+      "problems": []
+    },
+    {
+      "slug": "211-hrmi-june-2027-sponsor",
+      "status": 200,
+      "title": "HR Management Institute",
+      "year": "2027",
+      "audience": "sponsor",
+      "noindex": true,
+      "exampleLinks": [],
+      "original": null,
+      "problems": []
+    },
+    {
+      "slug": "213-cldi-sept-2027-delegate",
+      "status": 200,
+      "title": "Corporate Learning & Development Institute",
+      "year": "2027",
+      "audience": "delegate",
+      "noindex": true,
+      "exampleLinks": [],
+      "original": null,
+      "problems": []
+    },
+    {
+      "slug": "213-cldi-sept-2027-sponsor",
+      "status": 200,
+      "title": "Corporate Learning & Development Institute",
+      "year": "2027",
+      "audience": "sponsor",
+      "noindex": true,
+      "exampleLinks": [],
+      "original": null,
+      "problems": []
+    },
+    {
+      "slug": "214-hgc-sept-2027-delegate",
+      "status": 200,
+      "title": "Healthcare Law & Compliance Institute",
+      "year": "2027",
+      "audience": "delegate",
+      "noindex": true,
+      "exampleLinks": [],
+      "original": null,
+      "problems": []
+    },
+    {
+      "slug": "214-hgc-sept-2027-sponsor",
+      "status": 200,
+      "title": "Healthcare Law & Compliance Institute",
+      "year": "2027",
+      "audience": "sponsor",
+      "noindex": true,
+      "exampleLinks": [],
+      "original": null,
+      "problems": []
+    },
+    {
+      "slug": "215-hchr-sept-2027-delegate",
+      "status": 200,
+      "title": "Healthcare HR Management Institute",
+      "year": "2027",
+      "audience": "delegate",
+      "noindex": true,
+      "exampleLinks": [],
+      "original": null,
+      "problems": []
+    },
+    {
+      "slug": "215-hchr-sept-2027-sponsor",
+      "status": 200,
+      "title": "Healthcare HR Management Institute",
+      "year": "2027",
+      "audience": "sponsor",
+      "noindex": true,
+      "exampleLinks": [],
+      "original": null,
+      "problems": []
+    },
+    {
+      "slug": "216-ip-law-2027-delegate",
+      "status": 200,
+      "title": "IP Law & Management Institute",
+      "year": "2027",
+      "audience": "delegate",
+      "noindex": true,
+      "exampleLinks": [],
+      "original": null,
+      "problems": []
+    },
+    {
+      "slug": "216-ip-law-2027-sponsor",
+      "status": 200,
+      "title": "IP Law & Management Institute",
+      "year": "2027",
+      "audience": "sponsor",
+      "noindex": true,
+      "exampleLinks": [],
+      "original": null,
+      "problems": []
+    },
+    {
+      "slug": "217-hrmi-oct-2027-delegate",
+      "status": 200,
+      "title": "HR Management Institute",
+      "year": "2027",
+      "audience": "delegate",
+      "noindex": true,
+      "exampleLinks": [],
+      "original": null,
+      "problems": []
+    },
+    {
+      "slug": "217-hrmi-oct-2027-sponsor",
+      "status": 200,
+      "title": "HR Management Institute",
+      "year": "2027",
+      "audience": "sponsor",
+      "noindex": true,
+      "exampleLinks": [],
+      "original": null,
+      "problems": []
+    },
+    {
+      "slug": "218-cni-2027-delegate",
+      "status": 200,
+      "title": "Chief Nursing Institute",
+      "year": "2027",
+      "audience": "delegate",
+      "noindex": true,
+      "exampleLinks": [],
+      "original": null,
+      "problems": []
+    },
+    {
+      "slug": "218-cni-2027-sponsor",
+      "status": 200,
+      "title": "Chief Nursing Institute",
+      "year": "2027",
+      "audience": "sponsor",
+      "noindex": true,
+      "exampleLinks": [],
+      "original": null,
+      "problems": []
+    },
+    {
+      "slug": "219-cwi-2027-delegate",
+      "status": 200,
+      "title": "Corporate Wellness Institute",
+      "year": "2027",
+      "audience": "delegate",
+      "noindex": true,
+      "exampleLinks": [],
+      "original": null,
+      "problems": []
+    },
+    {
+      "slug": "219-cwi-2027-sponsor",
+      "status": 200,
+      "title": "Corporate Wellness Institute",
+      "year": "2027",
+      "audience": "sponsor",
+      "noindex": true,
+      "exampleLinks": [],
+      "original": null,
+      "problems": []
+    },
+    {
+      "slug": "220-hr-can-2027-delegate",
+      "status": 200,
+      "title": "HR Management Institute Canada",
+      "year": "2027",
+      "audience": "delegate",
+      "noindex": true,
+      "exampleLinks": [],
+      "original": null,
+      "problems": []
+    },
+    {
+      "slug": "220-hr-can-2027-sponsor",
+      "status": 200,
+      "title": "HR Management Institute Canada",
+      "year": "2027",
+      "audience": "sponsor",
+      "noindex": true,
+      "exampleLinks": [],
+      "original": null,
+      "problems": []
+    },
+    {
+      "slug": "28-tai-us-2027-delegate",
+      "status": 200,
+      "title": "Talent Acquisition Institute",
+      "year": "2027",
+      "audience": "delegate",
+      "noindex": true,
+      "exampleLinks": [],
+      "original": null,
+      "problems": []
+    },
+    {
+      "slug": "28-tai-us-2027-sponsor",
+      "status": 200,
+      "title": "Talent Acquisition Institute",
+      "year": "2027",
+      "audience": "sponsor",
+      "noindex": true,
+      "exampleLinks": [],
+      "original": null,
+      "problems": []
+    },
+    {
+      "slug": "29-taeei-can-delegate",
+      "status": 200,
+      "title": "Talent Acquisition & Employee Experience Institute Canada",
+      "year": "2027",
+      "audience": "delegate",
+      "noindex": true,
+      "exampleLinks": [],
+      "original": null,
+      "problems": []
+    },
+    {
+      "slug": "29-taeei-can-sponsor",
+      "status": 200,
+      "title": "Talent Acquisition & Employee Experience Institute Canada",
+      "year": "2027",
+      "audience": "sponsor",
+      "noindex": true,
+      "exampleLinks": [],
+      "original": null,
+      "problems": []
+    },
+    {
+      "slug": "cldi-march-2027-delegate",
+      "status": 200,
+      "title": "Corporate Learning Development Institute",
+      "year": "2027",
+      "audience": "delegate",
+      "noindex": true,
+      "exampleLinks": [],
+      "original": null,
+      "problems": []
+    },
+    {
+      "slug": "cldi-march-2027-sponsor",
+      "status": 200,
+      "title": "Corporate Learning Development Institute",
+      "year": "2027",
+      "audience": "sponsor",
+      "noindex": true,
+      "exampleLinks": [],
+      "original": null,
+      "problems": []
+    },
+    {
+      "slug": "cni-2026-delegate",
+      "status": 200,
+      "title": "Chief Nursing Institute",
+      "year": "2026",
+      "audience": "delegate",
+      "noindex": true,
+      "exampleLinks": [],
+      "original": null,
+      "problems": []
+    },
+    {
+      "slug": "cni-2026-sponsor",
+      "status": 200,
+      "title": "Chief Nursing Institute",
+      "year": "2026",
+      "audience": "sponsor",
+      "noindex": true,
+      "exampleLinks": [],
+      "original": null,
+      "problems": []
+    },
+    {
+      "slug": "cwi-2026-delegate",
+      "status": 200,
+      "title": "Corporate Wellness Institute",
+      "year": "2026",
+      "audience": "delegate",
+      "noindex": true,
+      "exampleLinks": [],
+      "original": null,
+      "problems": []
+    },
+    {
+      "slug": "cwi-2026-sponsor",
+      "status": 200,
+      "title": "Corporate Wellness Institute",
+      "year": "2026",
+      "audience": "sponsor",
+      "noindex": true,
+      "exampleLinks": [],
+      "original": null,
+      "problems": []
+    },
+    {
+      "slug": "ehs-jan-2027-delegate",
+      "status": 200,
+      "title": "EHS Management Institute",
+      "year": "2027",
+      "audience": "delegate",
+      "noindex": true,
+      "exampleLinks": [],
+      "original": {
+        "imagesPreserved": false,
+        "linksPreserved": true,
+        "pinsPreserved": true,
+        "otherImageAttributesPreserved": true,
+        "note": "Intentional removal of unrelated Orlando backdrop; Webflow also normalized sizes attributes only (Delegate2/Sponsor1). All other image attributes preserved."
+      },
+      "problems": []
+    },
+    {
+      "slug": "ehs-jan-2027-sponsor",
+      "status": 200,
+      "title": "EHS Management Institute",
+      "year": "2027",
+      "audience": "sponsor",
+      "noindex": true,
+      "exampleLinks": [
+        "https://example.com/sponsor-hub",
+        "https://example.com/sponsor-hub"
+      ],
+      "original": {
+        "imagesPreserved": false,
+        "linksPreserved": true,
+        "pinsPreserved": true,
+        "otherImageAttributesPreserved": true,
+        "note": "Intentional removal of unrelated Orlando backdrop; Webflow also normalized sizes attributes only (Delegate2/Sponsor1). All other image attributes preserved."
+      },
+      "problems": []
+    },
+    {
+      "slug": "ehs-july-2027-delegate",
+      "status": 200,
+      "title": "EHS Management Institute",
+      "year": "2027",
+      "audience": "delegate",
+      "noindex": true,
+      "exampleLinks": [],
+      "original": null,
+      "problems": []
+    },
+    {
+      "slug": "ehs-july-2027-sponsor",
+      "status": 200,
+      "title": "EHS Management Institute",
+      "year": "2027",
+      "audience": "sponsor",
+      "noindex": true,
+      "exampleLinks": [],
+      "original": null,
+      "problems": []
+    },
+    {
+      "slug": "hchr-sept-2026-delegate",
+      "status": 200,
+      "title": "Healthcare HR Management Institute",
+      "year": "2026",
+      "audience": "delegate",
+      "noindex": true,
+      "exampleLinks": [],
+      "original": {
+        "imagesPreserved": true,
+        "linksPreserved": true,
+        "pinsPreserved": true
+      },
+      "problems": []
+    },
+    {
+      "slug": "hchr-sept-2026-sponsor",
+      "status": 200,
+      "title": "Healthcare HR Management Institute",
+      "year": "2026",
+      "audience": "sponsor",
+      "noindex": true,
+      "exampleLinks": [
+        "https://example.com/sponsor-hub",
+        "https://example.com/sponsor-hub"
+      ],
+      "original": {
+        "imagesPreserved": true,
+        "linksPreserved": true,
+        "pinsPreserved": true
+      },
+      "problems": []
+    },
+    {
+      "slug": "hchrmi-march-2027-delegate",
+      "status": 200,
+      "title": "Healthcare HR Management Institute",
+      "year": "2027",
+      "audience": "delegate",
+      "noindex": true,
+      "exampleLinks": [],
+      "original": null,
+      "problems": []
+    },
+    {
+      "slug": "hchrmi-march-2027-sponsor",
+      "status": 200,
+      "title": "Healthcare HR Management Institute",
+      "year": "2027",
+      "audience": "sponsor",
+      "noindex": true,
+      "exampleLinks": [],
+      "original": null,
+      "problems": []
+    },
+    {
+      "slug": "healthcare-gci-oct-2026-delegate",
+      "status": 200,
+      "title": "Healthcare Law & Compliance Institute",
+      "year": "2026",
+      "audience": "delegate",
+      "noindex": true,
+      "exampleLinks": [],
+      "original": null,
+      "problems": []
+    },
+    {
+      "slug": "healthcare-gci-oct-2026-sponsor",
+      "status": 200,
+      "title": "Healthcare Law & Compliance Institute",
+      "year": "2026",
+      "audience": "sponsor",
+      "noindex": true,
+      "exampleLinks": [],
+      "original": null,
+      "problems": []
+    },
+    {
+      "slug": "hfi-2027-delegate",
+      "status": 200,
+      "title": "Healthcare Finance Institute",
+      "year": "2027",
+      "audience": "delegate",
+      "noindex": true,
+      "exampleLinks": [],
+      "original": null,
+      "problems": []
+    },
+    {
+      "slug": "hfi-2027-sponsor",
+      "status": 200,
+      "title": "Healthcare Finance Institute",
+      "year": "2027",
+      "audience": "sponsor",
+      "noindex": true,
+      "exampleLinks": [],
+      "original": null,
+      "problems": []
+    },
+    {
+      "slug": "hgc-feb-2027-delegate",
+      "status": 200,
+      "title": "Healthcare Law & Compliance Institute",
+      "year": "2027",
+      "audience": "delegate",
+      "noindex": true,
+      "exampleLinks": [],
+      "original": null,
+      "problems": []
+    },
+    {
+      "slug": "hgc-feb-2027-sponsor",
+      "status": 200,
+      "title": "Healthcare Law & Compliance Institute",
+      "year": "2027",
+      "audience": "sponsor",
+      "noindex": true,
+      "exampleLinks": [],
+      "original": null,
+      "problems": []
+    },
+    {
+      "slug": "hit-2027-delegate",
+      "status": 200,
+      "title": "Healthcare IT Institute",
+      "year": "2027",
+      "audience": "delegate",
+      "noindex": true,
+      "exampleLinks": [],
+      "original": null,
+      "problems": []
+    },
+    {
+      "slug": "hit-2027-sponsor",
+      "status": 200,
+      "title": "Healthcare IT Institute",
+      "year": "2027",
+      "audience": "sponsor",
+      "noindex": true,
+      "exampleLinks": [],
+      "original": null,
+      "problems": []
+    },
+    {
+      "slug": "hr-can-april-2027-delegate",
+      "status": 200,
+      "title": "HR Management Institute Canada",
+      "year": "2027",
+      "audience": "delegate",
+      "noindex": true,
+      "exampleLinks": [],
+      "original": null,
+      "problems": []
+    },
+    {
+      "slug": "hr-can-april-2027-sponsor",
+      "status": 200,
+      "title": "HR Management Institute Canada",
+      "year": "2027",
+      "audience": "sponsor",
+      "noindex": true,
+      "exampleLinks": [],
+      "original": null,
+      "problems": []
+    },
+    {
+      "slug": "hrmi-canada-nov-2026-delegate",
+      "status": 200,
+      "title": "HR Management Institute Canada",
+      "year": "2026",
+      "audience": "delegate",
+      "noindex": true,
+      "exampleLinks": [],
+      "original": null,
+      "problems": []
+    },
+    {
+      "slug": "hrmi-canada-nov-2026-sponsor",
+      "status": 200,
+      "title": "HR Management Institute Canada",
+      "year": "2026",
+      "audience": "sponsor",
+      "noindex": true,
+      "exampleLinks": [],
+      "original": null,
+      "problems": []
+    },
+    {
+      "slug": "hrmi-feb-2027-delegate",
+      "status": 200,
+      "title": "HR Management Institute",
+      "year": "2027",
+      "audience": "delegate",
+      "noindex": true,
+      "exampleLinks": [],
+      "original": null,
+      "problems": []
+    },
+    {
+      "slug": "hrmi-feb-2027-sponsor",
+      "status": 200,
+      "title": "HR Management Institute",
+      "year": "2027",
+      "audience": "sponsor",
+      "noindex": true,
+      "exampleLinks": [],
+      "original": null,
+      "problems": []
+    },
+    {
+      "slug": "hrmi-oct-2026-delegate",
+      "status": 200,
+      "title": "HR Management Institute",
+      "year": "2026",
+      "audience": "delegate",
+      "noindex": true,
+      "exampleLinks": [],
+      "original": null,
+      "problems": []
+    },
+    {
+      "slug": "hrmi-oct-2026-sponsor",
+      "status": 200,
+      "title": "HR Management Institute",
+      "year": "2026",
+      "audience": "sponsor",
+      "noindex": true,
+      "exampleLinks": [],
+      "original": null,
+      "problems": []
+    },
+    {
+      "slug": "iplmi-2026-delegate",
+      "status": 200,
+      "title": "IP Law & Management Institute",
+      "year": "2026",
+      "audience": "delegate",
+      "noindex": true,
+      "exampleLinks": [],
+      "original": null,
+      "problems": []
+    },
+    {
+      "slug": "iplmi-2026-sponsor",
+      "status": 200,
+      "title": "IP Law & Management Institute",
+      "year": "2026",
+      "audience": "sponsor",
+      "noindex": true,
+      "exampleLinks": [],
+      "original": null,
+      "problems": []
+    }
+  ],
+  "finalNativePages": {
+    "count": 54,
+    "changedSinceImport": [],
+    "draft": 0,
+    "archived": 0,
+    "missingPublished": 0
+  },
+  "backdropChecks": [
+    {
+      "slug": "211-hrmi-june-2027-delegate",
+      "hasCity": false,
+      "expected": false,
+      "pass": true
+    },
+    {
+      "slug": "211-hrmi-june-2027-sponsor",
+      "hasCity": false,
+      "expected": false,
+      "pass": true
+    },
+    {
+      "slug": "213-cldi-sept-2027-delegate",
+      "hasCity": false,
+      "expected": false,
+      "pass": true
+    },
+    {
+      "slug": "213-cldi-sept-2027-sponsor",
+      "hasCity": false,
+      "expected": false,
+      "pass": true
+    },
+    {
+      "slug": "214-hgc-sept-2027-delegate",
+      "hasCity": false,
+      "expected": false,
+      "pass": true
+    },
+    {
+      "slug": "214-hgc-sept-2027-sponsor",
+      "hasCity": false,
+      "expected": false,
+      "pass": true
+    },
+    {
+      "slug": "215-hchr-sept-2027-delegate",
+      "hasCity": false,
+      "expected": false,
+      "pass": true
+    },
+    {
+      "slug": "215-hchr-sept-2027-sponsor",
+      "hasCity": false,
+      "expected": false,
+      "pass": true
+    },
+    {
+      "slug": "216-ip-law-2027-delegate",
+      "hasCity": false,
+      "expected": false,
+      "pass": true
+    },
+    {
+      "slug": "216-ip-law-2027-sponsor",
+      "hasCity": false,
+      "expected": false,
+      "pass": true
+    },
+    {
+      "slug": "217-hrmi-oct-2027-delegate",
+      "hasCity": false,
+      "expected": false,
+      "pass": true
+    },
+    {
+      "slug": "217-hrmi-oct-2027-sponsor",
+      "hasCity": false,
+      "expected": false,
+      "pass": true
+    },
+    {
+      "slug": "218-cni-2027-delegate",
+      "hasCity": false,
+      "expected": false,
+      "pass": true
+    },
+    {
+      "slug": "218-cni-2027-sponsor",
+      "hasCity": false,
+      "expected": false,
+      "pass": true
+    },
+    {
+      "slug": "219-cwi-2027-delegate",
+      "hasCity": false,
+      "expected": false,
+      "pass": true
+    },
+    {
+      "slug": "219-cwi-2027-sponsor",
+      "hasCity": false,
+      "expected": false,
+      "pass": true
+    },
+    {
+      "slug": "220-hr-can-2027-delegate",
+      "hasCity": false,
+      "expected": false,
+      "pass": true
+    },
+    {
+      "slug": "220-hr-can-2027-sponsor",
+      "hasCity": false,
+      "expected": false,
+      "pass": true
+    },
+    {
+      "slug": "28-tai-us-2027-delegate",
+      "hasCity": false,
+      "expected": false,
+      "pass": true
+    },
+    {
+      "slug": "28-tai-us-2027-sponsor",
+      "hasCity": false,
+      "expected": false,
+      "pass": true
+    },
+    {
+      "slug": "29-taeei-can-delegate",
+      "hasCity": false,
+      "expected": false,
+      "pass": true
+    },
+    {
+      "slug": "29-taeei-can-sponsor",
+      "hasCity": false,
+      "expected": false,
+      "pass": true
+    },
+    {
+      "slug": "cldi-march-2027-delegate",
+      "hasCity": false,
+      "expected": false,
+      "pass": true
+    },
+    {
+      "slug": "cldi-march-2027-sponsor",
+      "hasCity": false,
+      "expected": false,
+      "pass": true
+    },
+    {
+      "slug": "cni-2026-delegate",
+      "hasCity": false,
+      "expected": false,
+      "pass": true
+    },
+    {
+      "slug": "cni-2026-sponsor",
+      "hasCity": false,
+      "expected": false,
+      "pass": true
+    },
+    {
+      "slug": "cwi-2026-delegate",
+      "hasCity": false,
+      "expected": false,
+      "pass": true
+    },
+    {
+      "slug": "cwi-2026-sponsor",
+      "hasCity": false,
+      "expected": false,
+      "pass": true
+    },
+    {
+      "slug": "ehs-jan-2027-delegate",
+      "hasCity": false,
+      "expected": false,
+      "pass": true
+    },
+    {
+      "slug": "ehs-jan-2027-sponsor",
+      "hasCity": false,
+      "expected": false,
+      "pass": true
+    },
+    {
+      "slug": "ehs-july-2027-delegate",
+      "hasCity": false,
+      "expected": false,
+      "pass": true
+    },
+    {
+      "slug": "ehs-july-2027-sponsor",
+      "hasCity": false,
+      "expected": false,
+      "pass": true
+    },
+    {
+      "slug": "hchr-sept-2026-delegate",
+      "hasCity": true,
+      "expected": true,
+      "pass": true
+    },
+    {
+      "slug": "hchr-sept-2026-sponsor",
+      "hasCity": true,
+      "expected": true,
+      "pass": true
+    },
+    {
+      "slug": "hchrmi-march-2027-delegate",
+      "hasCity": false,
+      "expected": false,
+      "pass": true
+    },
+    {
+      "slug": "hchrmi-march-2027-sponsor",
+      "hasCity": false,
+      "expected": false,
+      "pass": true
+    },
+    {
+      "slug": "healthcare-gci-oct-2026-delegate",
+      "hasCity": false,
+      "expected": false,
+      "pass": true
+    },
+    {
+      "slug": "healthcare-gci-oct-2026-sponsor",
+      "hasCity": false,
+      "expected": false,
+      "pass": true
+    },
+    {
+      "slug": "hfi-2027-delegate",
+      "hasCity": false,
+      "expected": false,
+      "pass": true
+    },
+    {
+      "slug": "hfi-2027-sponsor",
+      "hasCity": false,
+      "expected": false,
+      "pass": true
+    },
+    {
+      "slug": "hgc-feb-2027-delegate",
+      "hasCity": false,
+      "expected": false,
+      "pass": true
+    },
+    {
+      "slug": "hgc-feb-2027-sponsor",
+      "hasCity": false,
+      "expected": false,
+      "pass": true
+    },
+    {
+      "slug": "hit-2027-delegate",
+      "hasCity": false,
+      "expected": false,
+      "pass": true
+    },
+    {
+      "slug": "hit-2027-sponsor",
+      "hasCity": false,
+      "expected": false,
+      "pass": true
+    },
+    {
+      "slug": "hr-can-april-2027-delegate",
+      "hasCity": false,
+      "expected": false,
+      "pass": true
+    },
+    {
+      "slug": "hr-can-april-2027-sponsor",
+      "hasCity": false,
+      "expected": false,
+      "pass": true
+    },
+    {
+      "slug": "hrmi-canada-nov-2026-delegate",
+      "hasCity": false,
+      "expected": false,
+      "pass": true
+    },
+    {
+      "slug": "hrmi-canada-nov-2026-sponsor",
+      "hasCity": false,
+      "expected": false,
+      "pass": true
+    },
+    {
+      "slug": "hrmi-feb-2027-delegate",
+      "hasCity": false,
+      "expected": false,
+      "pass": true
+    },
+    {
+      "slug": "hrmi-feb-2027-sponsor",
+      "hasCity": false,
+      "expected": false,
+      "pass": true
+    },
+    {
+      "slug": "hrmi-oct-2026-delegate",
+      "hasCity": false,
+      "expected": false,
+      "pass": true
+    },
+    {
+      "slug": "hrmi-oct-2026-sponsor",
+      "hasCity": false,
+      "expected": false,
+      "pass": true
+    },
+    {
+      "slug": "iplmi-2026-delegate",
+      "hasCity": false,
+      "expected": false,
+      "pass": true
+    },
+    {
+      "slug": "iplmi-2026-sponsor",
+      "hasCity": false,
+      "expected": false,
+      "pass": true
+    }
+  ],
+  "backdropFailures": [],
+  "finalMediaChecks": [
+    {
+      "slug": "220-hr-can-2027-sponsor",
+      "mediaPresent": false,
+      "expected": false,
+      "pass": true
+    },
+    {
+      "slug": "220-hr-can-2027-delegate",
+      "mediaPresent": false,
+      "expected": false,
+      "pass": true
+    },
+    {
+      "slug": "219-cwi-2027-sponsor",
+      "mediaPresent": false,
+      "expected": false,
+      "pass": true
+    },
+    {
+      "slug": "219-cwi-2027-delegate",
+      "mediaPresent": false,
+      "expected": false,
+      "pass": true
+    },
+    {
+      "slug": "218-cni-2027-sponsor",
+      "mediaPresent": false,
+      "expected": false,
+      "pass": true
+    },
+    {
+      "slug": "218-cni-2027-delegate",
+      "mediaPresent": false,
+      "expected": false,
+      "pass": true
+    },
+    {
+      "slug": "217-hrmi-oct-2027-sponsor",
+      "mediaPresent": false,
+      "expected": false,
+      "pass": true
+    },
+    {
+      "slug": "217-hrmi-oct-2027-delegate",
+      "mediaPresent": false,
+      "expected": false,
+      "pass": true
+    },
+    {
+      "slug": "216-ip-law-2027-sponsor",
+      "mediaPresent": false,
+      "expected": false,
+      "pass": true
+    },
+    {
+      "slug": "216-ip-law-2027-delegate",
+      "mediaPresent": false,
+      "expected": false,
+      "pass": true
+    },
+    {
+      "slug": "215-hchr-sept-2027-sponsor",
+      "mediaPresent": false,
+      "expected": false,
+      "pass": true
+    },
+    {
+      "slug": "215-hchr-sept-2027-delegate",
+      "mediaPresent": false,
+      "expected": false,
+      "pass": true
+    },
+    {
+      "slug": "214-hgc-sept-2027-sponsor",
+      "mediaPresent": false,
+      "expected": false,
+      "pass": true
+    },
+    {
+      "slug": "214-hgc-sept-2027-delegate",
+      "mediaPresent": false,
+      "expected": false,
+      "pass": true
+    },
+    {
+      "slug": "213-cldi-sept-2027-sponsor",
+      "mediaPresent": false,
+      "expected": false,
+      "pass": true
+    },
+    {
+      "slug": "213-cldi-sept-2027-delegate",
+      "mediaPresent": false,
+      "expected": false,
+      "pass": true
+    },
+    {
+      "slug": "ehs-july-2027-sponsor",
+      "mediaPresent": false,
+      "expected": false,
+      "pass": true
+    },
+    {
+      "slug": "ehs-july-2027-delegate",
+      "mediaPresent": false,
+      "expected": false,
+      "pass": true
+    },
+    {
+      "slug": "hit-2027-sponsor",
+      "mediaPresent": false,
+      "expected": false,
+      "pass": true
+    },
+    {
+      "slug": "hit-2027-delegate",
+      "mediaPresent": false,
+      "expected": false,
+      "pass": true
+    },
+    {
+      "slug": "211-hrmi-june-2027-sponsor",
+      "mediaPresent": false,
+      "expected": false,
+      "pass": true
+    },
+    {
+      "slug": "211-hrmi-june-2027-delegate",
+      "mediaPresent": false,
+      "expected": false,
+      "pass": true
+    },
+    {
+      "slug": "29-taeei-can-sponsor",
+      "mediaPresent": false,
+      "expected": false,
+      "pass": true
+    },
+    {
+      "slug": "29-taeei-can-delegate",
+      "mediaPresent": false,
+      "expected": false,
+      "pass": true
+    },
+    {
+      "slug": "28-tai-us-2027-sponsor",
+      "mediaPresent": false,
+      "expected": false,
+      "pass": true
+    },
+    {
+      "slug": "28-tai-us-2027-delegate",
+      "mediaPresent": false,
+      "expected": false,
+      "pass": true
+    },
+    {
+      "slug": "hr-can-april-2027-sponsor",
+      "mediaPresent": false,
+      "expected": false,
+      "pass": true
+    },
+    {
+      "slug": "hr-can-april-2027-delegate",
+      "mediaPresent": false,
+      "expected": false,
+      "pass": true
+    },
+    {
+      "slug": "hfi-2027-sponsor",
+      "mediaPresent": false,
+      "expected": false,
+      "pass": true
+    },
+    {
+      "slug": "hfi-2027-delegate",
+      "mediaPresent": false,
+      "expected": false,
+      "pass": true
+    },
+    {
+      "slug": "hchrmi-march-2027-sponsor",
+      "mediaPresent": false,
+      "expected": false,
+      "pass": true
+    },
+    {
+      "slug": "hchrmi-march-2027-delegate",
+      "mediaPresent": false,
+      "expected": false,
+      "pass": true
+    },
+    {
+      "slug": "cldi-march-2027-sponsor",
+      "mediaPresent": false,
+      "expected": false,
+      "pass": true
+    },
+    {
+      "slug": "cldi-march-2027-delegate",
+      "mediaPresent": false,
+      "expected": false,
+      "pass": true
+    },
+    {
+      "slug": "hrmi-feb-2027-sponsor",
+      "mediaPresent": false,
+      "expected": false,
+      "pass": true
+    },
+    {
+      "slug": "hrmi-feb-2027-delegate",
+      "mediaPresent": false,
+      "expected": false,
+      "pass": true
+    },
+    {
+      "slug": "hgc-feb-2027-sponsor",
+      "mediaPresent": false,
+      "expected": false,
+      "pass": true
+    },
+    {
+      "slug": "hgc-feb-2027-delegate",
+      "mediaPresent": false,
+      "expected": false,
+      "pass": true
+    },
+    {
+      "slug": "hrmi-canada-nov-2026-sponsor",
+      "mediaPresent": false,
+      "expected": false,
+      "pass": true
+    },
+    {
+      "slug": "hrmi-canada-nov-2026-delegate",
+      "mediaPresent": false,
+      "expected": false,
+      "pass": true
+    },
+    {
+      "slug": "cwi-2026-sponsor",
+      "mediaPresent": false,
+      "expected": false,
+      "pass": true
+    },
+    {
+      "slug": "cwi-2026-delegate",
+      "mediaPresent": false,
+      "expected": false,
+      "pass": true
+    },
+    {
+      "slug": "cni-2026-sponsor",
+      "mediaPresent": false,
+      "expected": false,
+      "pass": true
+    },
+    {
+      "slug": "cni-2026-delegate",
+      "mediaPresent": false,
+      "expected": false,
+      "pass": true
+    },
+    {
+      "slug": "iplmi-2026-sponsor",
+      "mediaPresent": false,
+      "expected": false,
+      "pass": true
+    },
+    {
+      "slug": "iplmi-2026-delegate",
+      "mediaPresent": false,
+      "expected": false,
+      "pass": true
+    },
+    {
+      "slug": "hrmi-oct-2026-sponsor",
+      "mediaPresent": false,
+      "expected": false,
+      "pass": true
+    },
+    {
+      "slug": "hrmi-oct-2026-delegate",
+      "mediaPresent": false,
+      "expected": false,
+      "pass": true
+    },
+    {
+      "slug": "healthcare-gci-oct-2026-sponsor",
+      "mediaPresent": false,
+      "expected": false,
+      "pass": true
+    },
+    {
+      "slug": "healthcare-gci-oct-2026-delegate",
+      "mediaPresent": false,
+      "expected": false,
+      "pass": true
+    },
+    {
+      "slug": "ehs-jan-2027-sponsor",
+      "mediaPresent": true,
+      "expected": true,
+      "pass": true
+    },
+    {
+      "slug": "ehs-jan-2027-delegate",
+      "mediaPresent": true,
+      "expected": true,
+      "pass": true
+    },
+    {
+      "slug": "hchr-sept-2026-sponsor",
+      "mediaPresent": true,
+      "expected": true,
+      "pass": true
+    },
+    {
+      "slug": "hchr-sept-2026-delegate",
+      "mediaPresent": true,
+      "expected": true,
+      "pass": true
+    }
+  ]
+}

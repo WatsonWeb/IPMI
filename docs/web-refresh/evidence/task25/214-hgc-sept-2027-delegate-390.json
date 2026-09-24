@@ -1,0 +1,241 @@
+{
+  "anchors": [
+    "top",
+    "w-nav-overlay-0",
+    "kbyg-page-title",
+    "kbyg-jump-label-delegate",
+    "kbyg-jump-select-delegate",
+    "welcome",
+    "kbyg-welcome-title",
+    "prepare",
+    "kbyg-prepare-title-delegate",
+    "key-dates",
+    "kbyg-key-dates-title-delegate",
+    "agenda",
+    "kbyg-agenda-title",
+    "hub",
+    "kbyg-hub-title-delegate",
+    "hotel-travel",
+    "kbyg-travel-title",
+    "experience",
+    "kbyg-experience-title-delegate",
+    "faq",
+    "kbyg-faq-title",
+    "contact",
+    "kbyg-contact-title",
+    "w-node-fe321ed4-51e3-f8e5-4b6b-0d079b2b7eb6-9b2b7eae",
+    "footer-button",
+    "w-dropdown-toggle-0",
+    "w-dropdown-list-0",
+    "w-dropdown-toggle-1",
+    "w-dropdown-list-1",
+    "w-dropdown-toggle-2",
+    "w-dropdown-list-2"
+  ],
+  "audience": "delegate",
+  "client": 390,
+  "colors": {
+    "primary": ""
+  },
+  "emptyNotices": [
+    "Check back soon for your Operations Lead contact details!",
+    "Check back soon for transportation details!",
+    "Check back soon for your Operations Lead contact details!"
+  ],
+  "images": [
+    {
+      "alt": "International Performance Management Institute.",
+      "src": "https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/63281aeafc3ab3e21d7c05ec_IPMI-Logo-Light.svg"
+    },
+    {
+      "alt": "",
+      "src": "https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/638989f462c2a24e78ab5665_IPMI-Healthcare-Icon.svg"
+    },
+    {
+      "alt": "International Performance Management Institute.",
+      "src": "https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6327f8231c814d48b97873a8_Asset%201.svg"
+    }
+  ],
+  "links": [
+    {
+      "href": "/",
+      "text": ""
+    },
+    {
+      "href": "#",
+      "text": ""
+    },
+    {
+      "href": "#welcome",
+      "text": "VIEW INSTITUTE GUIDE"
+    },
+    {
+      "href": "https://www.google.com/maps/search/?api=1&query=2%20Dole%20Dr%2C%20Westlake%20Village%2C%20CA%2091362",
+      "text": "2 Dole Dr, Westlake Village, CA 91362"
+    },
+    {
+      "href": "#top",
+      "text": ""
+    },
+    {
+      "href": "/",
+      "text": ""
+    },
+    {
+      "href": "mailto:info@ipmievents.com",
+      "text": "info@ipmievents.com"
+    },
+    {
+      "href": "tel:+14166284058",
+      "text": "(416) 628-4058"
+    },
+    {
+      "href": "#",
+      "text": "VIEW SITEMAP"
+    },
+    {
+      "href": "/privacy",
+      "text": "Privacy Policy"
+    },
+    {
+      "href": "/terms",
+      "text": "Terms and Conditions"
+    },
+    {
+      "href": "#",
+      "text": ""
+    },
+    {
+      "href": "/institutes",
+      "text": "Upcoming Institutes"
+    },
+    {
+      "href": "/insights",
+      "text": "Institute Insights"
+    },
+    {
+      "href": "/recent-institutes",
+      "text": "Recent Institutes"
+    },
+    {
+      "href": "/gallery",
+      "text": "Institute Gallery"
+    },
+    {
+      "href": "/faq#what-is-an-institute",
+      "text": "What is an Institute?"
+    },
+    {
+      "href": "/thinktanks",
+      "text": "Upcoming Think Tanks\n& Roundtables"
+    },
+    {
+      "href": "/thinktanks#recent",
+      "text": "Recent Think Tanks\n& Roundtables"
+    },
+    {
+      "href": "/faq#what-is-a-think-tank",
+      "text": "What is a Think Tank?"
+    },
+    {
+      "href": "/about",
+      "text": "About IPMI"
+    },
+    {
+      "href": "/testimonials",
+      "text": "Testimonials"
+    },
+    {
+      "href": "/attend",
+      "text": "Attend an Institute"
+    },
+    {
+      "href": "/attend#speak",
+      "text": "Speak at an Institute"
+    },
+    {
+      "href": "/attend#partner",
+      "text": "Partner with IPMI"
+    },
+    {
+      "href": "/faq",
+      "text": "FAQ"
+    },
+    {
+      "href": "/contact",
+      "text": "Contact Us"
+    },
+    {
+      "href": "/attend",
+      "text": "Attend an Institute"
+    }
+  ],
+  "robots": "noindex,follow",
+  "scroll": 390,
+  "sections": [
+    {
+      "height": 821.5,
+      "id": "welcome"
+    },
+    {
+      "height": 373.296875,
+      "id": "prepare"
+    },
+    {
+      "height": 380.09375,
+      "id": "key-dates"
+    },
+    {
+      "height": 343.296875,
+      "id": "agenda"
+    },
+    {
+      "height": 286.5,
+      "id": "hub"
+    },
+    {
+      "height": 1056.328125,
+      "id": "hotel-travel"
+    },
+    {
+      "height": 372.09375,
+      "id": "experience"
+    },
+    {
+      "height": 318.09375,
+      "id": "faq"
+    },
+    {
+      "height": 460.6875,
+      "id": "contact"
+    }
+  ],
+  "text": "2027-09-12 – 2027-09-14\n\nKnow Before You Go.\n\n2027 Healthcare Law & Compliance Institute\n\nFour Seasons Hotel Westlake Village, CA\n\nPlaceholder — This Delegate guide is awaiting Operations confirmation.\n\nVIEW INSTITUTE GUIDE\nJUMP TO:\nWELCOME\nPREPARE\nDATES\nAGENDA\nHUB\nHOTEL\nEXPERIENCE\nFAQ\nCONTACT\n\nWELCOME\n\nYour Delegate guide.\n\nPlaceholder — Event arrangements and instructions are awaiting Operations confirmation.\n\nPlaceholder — Delegate welcome information is awaiting Operations confirmation.\n\nCheck back soon for your Operations Lead contact details!\n\nBEFORE YOU ARRIVE\n\nPreparing for your Institute.\n\nPlaceholder — Delegate preparation instructions are awaiting Operations confirmation.\n\nCheck back soon for preparation details!\n\nMARK YOUR CALENDAR\n\nKey Dates & Deliverables.\n\nPlaceholder — Delegate deadlines are awaiting Operations confirmation.\n\nCheck back soon for Key Dates & Deliverables!\n\nEVENT PROGRAM\n\nInstitute Agenda\n\nPlaceholder — The event agenda is awaiting Operations confirmation.\n\nCheck back soon for the Institute agenda!\n\nEVENT ACCESS\n\nAttendee Hub.\n\nPlaceholder — Delegate MeetMax access and login instructions are awaiting Operations confirmation.\n\nHOTEL & TRAVEL\n\nHotel & Travel.\nFour Seasons Hotel Westlake Village, CA\n2 Dole Dr, Westlake Village, CA 91362\nHotel Reservations\n\nPlaceholder — Delegate reservation instructions, eligibility, rates and deadlines are awaiting Operations confirmation.\n\nTransportation\n\nCheck back soon for transportation details!\n\nYOUR EXPERIENCE\n\nYour Institute Experience.\n\nPlaceholder — Delegate experience details are awaiting Operations confirmation.\n\nCheck back soon for Institute experience details!\n\nHELPFUL ANSWERS\n\nFrequently Asked Questions.\nCheck back soon for frequently asked questions!\n\nOPERATIONS CONTACT\n\nQuestions Before You Go?\n\nPlaceholder — The Operations contact is awaiting confirmation.\n\nCheck back soon for your Operations Lead contact details!\n\ninfo@ipmievents.com\n(416) 628-4058\n151 Bloor Street W.\nToronto, ON\nCanada M5S1S4\nVIEW SITEMAP\n© International Performance Management Institute. All Rights Reserved.\nPrivacy Policy | Terms and Conditions\nInstitutes \nUpcoming Institutes\nInstitute Insights\nRecent Institutes\nInstitute Gallery\nWhat is an Institute?\nThink Tanks & Roundtables \nUpcoming Think Tanks\n& Roundtables\nRecent Think Tanks\n& Roundtables\nWhat is a Think Tank?\nAbout IPMI \nAbout IPMI\nTestimonials\nAttend an Institute\nSpeak at an Institute\nPartner with IPMI\nFAQ\nContact Us\nAttend an Institute",
+  "title": "Healthcare Law & Compliance Institute Know Before You Go — delegate",
+  "width": 390,
+  "slug": "214-hgc-sept-2027-delegate",
+  "expectedWidth": 390,
+  "checks": {
+    "audience": true,
+    "title": true,
+    "year": true,
+    "venue": true,
+    "noindex": true,
+    "noOverflow": true,
+    "anchors": true,
+    "noEmptyVisibleImages": true,
+    "backdrop": true
+  },
+  "extra": {
+    "backdrop": false,
+    "robots": [
+      "noindex,follow"
+    ],
+    "hashControls": [
+      "",
+      "VIEW SITEMAP",
+      ""
+    ]
+  },
+  "notes": "Hash-only calendar, FAQ and global navigation controls are not destination CTAs. Exact guide URLs audited in root-http-verification.json."
+}

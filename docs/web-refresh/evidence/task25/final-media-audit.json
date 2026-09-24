@@ -1,0 +1,326 @@
+[
+  {
+    "slug": "healthcare-gci-oct-2026-delegate",
+    "backdrop": false,
+    "media": false,
+    "pass": true
+  },
+  {
+    "slug": "healthcare-gci-oct-2026-sponsor",
+    "backdrop": false,
+    "media": false,
+    "pass": true
+  },
+  {
+    "slug": "hrmi-oct-2026-delegate",
+    "backdrop": false,
+    "media": false,
+    "pass": true
+  },
+  {
+    "slug": "hrmi-oct-2026-sponsor",
+    "backdrop": false,
+    "media": false,
+    "pass": true
+  },
+  {
+    "slug": "iplmi-2026-delegate",
+    "backdrop": false,
+    "media": false,
+    "pass": true
+  },
+  {
+    "slug": "iplmi-2026-sponsor",
+    "backdrop": false,
+    "media": false,
+    "pass": true
+  },
+  {
+    "slug": "cni-2026-delegate",
+    "backdrop": false,
+    "media": false,
+    "pass": true
+  },
+  {
+    "slug": "cni-2026-sponsor",
+    "backdrop": false,
+    "media": false,
+    "pass": true
+  },
+  {
+    "slug": "cwi-2026-delegate",
+    "backdrop": false,
+    "media": false,
+    "pass": true
+  },
+  {
+    "slug": "cwi-2026-sponsor",
+    "backdrop": false,
+    "media": false,
+    "pass": true
+  },
+  {
+    "slug": "hrmi-canada-nov-2026-delegate",
+    "backdrop": false,
+    "media": false,
+    "pass": true
+  },
+  {
+    "slug": "hrmi-canada-nov-2026-sponsor",
+    "backdrop": false,
+    "media": false,
+    "pass": true
+  },
+  {
+    "slug": "ehs-jan-2027-delegate",
+    "backdrop": false,
+    "media": true,
+    "pass": true
+  },
+  {
+    "slug": "ehs-jan-2027-sponsor",
+    "backdrop": false,
+    "media": true,
+    "pass": true
+  },
+  {
+    "slug": "hgc-feb-2027-delegate",
+    "backdrop": false,
+    "media": false,
+    "pass": true
+  },
+  {
+    "slug": "hgc-feb-2027-sponsor",
+    "backdrop": false,
+    "media": false,
+    "pass": true
+  },
+  {
+    "slug": "hrmi-feb-2027-delegate",
+    "backdrop": false,
+    "media": false,
+    "pass": true
+  },
+  {
+    "slug": "hrmi-feb-2027-sponsor",
+    "backdrop": false,
+    "media": false,
+    "pass": true
+  },
+  {
+    "slug": "cldi-march-2027-delegate",
+    "backdrop": false,
+    "media": false,
+    "pass": true
+  },
+  {
+    "slug": "cldi-march-2027-sponsor",
+    "backdrop": false,
+    "media": false,
+    "pass": true
+  },
+  {
+    "slug": "hchrmi-march-2027-delegate",
+    "backdrop": false,
+    "media": false,
+    "pass": true
+  },
+  {
+    "slug": "hchrmi-march-2027-sponsor",
+    "backdrop": false,
+    "media": false,
+    "pass": true
+  },
+  {
+    "slug": "hfi-2027-delegate",
+    "backdrop": false,
+    "media": false,
+    "pass": true
+  },
+  {
+    "slug": "hfi-2027-sponsor",
+    "backdrop": false,
+    "media": false,
+    "pass": true
+  },
+  {
+    "slug": "hr-can-april-2027-delegate",
+    "backdrop": false,
+    "media": false,
+    "pass": true
+  },
+  {
+    "slug": "hr-can-april-2027-sponsor",
+    "backdrop": false,
+    "media": false,
+    "pass": true
+  },
+  {
+    "slug": "28-tai-us-2027-delegate",
+    "backdrop": false,
+    "media": false,
+    "pass": true
+  },
+  {
+    "slug": "28-tai-us-2027-sponsor",
+    "backdrop": false,
+    "media": false,
+    "pass": true
+  },
+  {
+    "slug": "29-taeei-can-delegate",
+    "backdrop": false,
+    "media": false,
+    "pass": true
+  },
+  {
+    "slug": "29-taeei-can-sponsor",
+    "backdrop": false,
+    "media": false,
+    "pass": true
+  },
+  {
+    "slug": "211-hrmi-june-2027-delegate",
+    "backdrop": false,
+    "media": false,
+    "pass": true
+  },
+  {
+    "slug": "211-hrmi-june-2027-sponsor",
+    "backdrop": false,
+    "media": false,
+    "pass": true
+  },
+  {
+    "slug": "hit-2027-delegate",
+    "backdrop": false,
+    "media": false,
+    "pass": true
+  },
+  {
+    "slug": "hit-2027-sponsor",
+    "backdrop": false,
+    "media": false,
+    "pass": true
+  },
+  {
+    "slug": "ehs-july-2027-delegate",
+    "backdrop": false,
+    "media": false,
+    "pass": true
+  },
+  {
+    "slug": "ehs-july-2027-sponsor",
+    "backdrop": false,
+    "media": false,
+    "pass": true
+  },
+  {
+    "slug": "213-cldi-sept-2027-delegate",
+    "backdrop": false,
+    "media": false,
+    "pass": true
+  },
+  {
+    "slug": "213-cldi-sept-2027-sponsor",
+    "backdrop": false,
+    "media": false,
+    "pass": true
+  },
+  {
+    "slug": "214-hgc-sept-2027-delegate",
+    "backdrop": false,
+    "media": false,
+    "pass": true
+  },
+  {
+    "slug": "214-hgc-sept-2027-sponsor",
+    "backdrop": false,
+    "media": false,
+    "pass": true
+  },
+  {
+    "slug": "215-hchr-sept-2027-delegate",
+    "backdrop": false,
+    "media": false,
+    "pass": true
+  },
+  {
+    "slug": "215-hchr-sept-2027-sponsor",
+    "backdrop": false,
+    "media": false,
+    "pass": true
+  },
+  {
+    "slug": "216-ip-law-2027-delegate",
+    "backdrop": false,
+    "media": false,
+    "pass": true
+  },
+  {
+    "slug": "216-ip-law-2027-sponsor",
+    "backdrop": false,
+    "media": false,
+    "pass": true
+  },
+  {
+    "slug": "217-hrmi-oct-2027-delegate",
+    "backdrop": false,
+    "media": false,
+    "pass": true
+  },
+  {
+    "slug": "217-hrmi-oct-2027-sponsor",
+    "backdrop": false,
+    "media": false,
+    "pass": true
+  },
+  {
+    "slug": "218-cni-2027-delegate",
+    "backdrop": false,
+    "media": false,
+    "pass": true
+  },
+  {
+    "slug": "218-cni-2027-sponsor",
+    "backdrop": false,
+    "media": false,
+    "pass": true
+  },
+  {
+    "slug": "219-cwi-2027-delegate",
+    "backdrop": false,
+    "media": false,
+    "pass": true
+  },
+  {
+    "slug": "219-cwi-2027-sponsor",
+    "backdrop": false,
+    "media": false,
+    "pass": true
+  },
+  {
+    "slug": "220-hr-can-2027-delegate",
+    "backdrop": false,
+    "media": false,
+    "pass": true
+  },
+  {
+    "slug": "220-hr-can-2027-sponsor",
+    "backdrop": false,
+    "media": false,
+    "pass": true
+  },
+  {
+    "slug": "hchr-sept-2026-delegate",
+    "backdrop": true,
+    "media": true,
+    "pass": true
+  },
+  {
+    "slug": "hchr-sept-2026-sponsor",
+    "backdrop": true,
+    "media": true,
+    "pass": true
+  }
+]
