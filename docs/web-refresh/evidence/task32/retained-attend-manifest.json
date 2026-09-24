@@ -1,0 +1,1313 @@
+[
+  {
+    "registerId": "32-01",
+    "status": "Provisional retained content; final approval pending",
+    "pageId": "63c3cdd3cff81805b2fec9e4",
+    "collectionId": "63bf18a0654be0fa16c240ad",
+    "cmsId": "63c4eec3273781f5d27fd754",
+    "cmsFields": {
+      "gallery-image": {
+        "fileId": "63c4eeb0273781eec27fd727",
+        "url": "https://uploads-ssl.webflow.com/6312ee46f4c52faf21ee8ab5/63c4eeb0273781eec27fd727_HR%20Can%20April%202022%20-%20Session.webp",
+        "alt": null
+      },
+      "gallery-image-caption": "HR Management Institute Canada April 2022",
+      "gallery-category": null,
+      "attend-an-institute-page-category": "950a7f8dd69a16ea5f5538472d069e0c",
+      "feature-on-about-ipmi-page": false,
+      "color-accent-color": "hsla(282.58064516129025, 38.91%, 46.86%, 1.00)",
+      "sort-order": 1,
+      "name": "HR Can April 2022 - Session",
+      "slug": "hr-can-april-2022-session"
+    },
+    "placements": [
+      {
+        "section": "attend",
+        "variant": "mobile",
+        "sectionPosition": 1,
+        "wrapper": "attend-mobile-swiper",
+        "documentPosition": 1,
+        "image": "https://cdn.prod.website-files.com/6312ee46f4c52faf21ee8ab5/63c4eeb0273781eec27fd727_HR%20Can%20April%202022%20-%20Session.webp",
+        "alt": "HR Management Institute Canada April 2022",
+        "caption": "HR Management Institute Canada April 2022",
+        "href": "#",
+        "accessibleName": "open lightbox",
+        "lightbox": {
+          "group": "Attend Mobile",
+          "items": [
+            {
+              "type": "image",
+              "url": "https://cdn.prod.website-files.com/6312ee46f4c52faf21ee8ab5/63c4eeb0273781eec27fd727_HR%20Can%20April%202022%20-%20Session.webp"
+            }
+          ]
+        }
+      },
+      {
+        "section": "attend",
+        "variant": "desktop",
+        "sectionPosition": 1,
+        "wrapper": "attend-desktop-swiper",
+        "documentPosition": 7,
+        "image": "https://cdn.prod.website-files.com/6312ee46f4c52faf21ee8ab5/63c4eeb0273781eec27fd727_HR%20Can%20April%202022%20-%20Session.webp",
+        "alt": "HR Management Institute Canada April 2022",
+        "caption": "HR Management Institute Canada April 2022",
+        "href": "#",
+        "accessibleName": "open lightbox",
+        "lightbox": {
+          "group": "Attend Desktop",
+          "items": [
+            {
+              "type": "image",
+              "url": "https://cdn.prod.website-files.com/6312ee46f4c52faf21ee8ab5/63c4eeb0273781eec27fd727_HR%20Can%20April%202022%20-%20Session.webp"
+            }
+          ]
+        }
+      }
+    ],
+    "priorValue": "Identical to retained values; no task 32 website change",
+    "requiredReplacement": "IPMI must approve retention or supply exact original asset, rights/attribution, confirmed subject/event, section and order, caption/alt, and destination decision (retain full-size lightbox or exact approved Gallery URL/item).",
+    "rollback": "No website rollback needed. For a future approved replacement restore only this record/placement delta; preserve shared uses."
+  },
+  {
+    "registerId": "32-02",
+    "status": "Provisional retained content; final approval pending",
+    "pageId": "63c3cdd3cff81805b2fec9e4",
+    "collectionId": "63bf18a0654be0fa16c240ad",
+    "cmsId": "63c4ee8c7204b6632964a945",
+    "cmsFields": {
+      "gallery-image": {
+        "fileId": "63c4ee7b95a3b883fe7eb14a",
+        "url": "https://uploads-ssl.webflow.com/6312ee46f4c52faf21ee8ab5/63c4ee7b95a3b883fe7eb14a_Healthcare%20Finance%20Institute%202022%20-%20Thomas%20Bennett%20House%20Dinner.webp",
+        "alt": null
+      },
+      "gallery-image-caption": "Healthcare Finance Institute 2022",
+      "gallery-category": null,
+      "attend-an-institute-page-category": "950a7f8dd69a16ea5f5538472d069e0c",
+      "feature-on-about-ipmi-page": false,
+      "color-accent-color": "hsla(174.59459459459458, 60.00%, 36.27%, 1.00)",
+      "sort-order": 2,
+      "name": "Healthcare Finance Institute 2022 - Thomas Bennett House Dinner",
+      "slug": "healthcare-finance-institute-2022-thomas-bennett-house-dinner"
+    },
+    "placements": [
+      {
+        "section": "attend",
+        "variant": "mobile",
+        "sectionPosition": 2,
+        "wrapper": "attend-mobile-swiper",
+        "documentPosition": 2,
+        "image": "https://cdn.prod.website-files.com/6312ee46f4c52faf21ee8ab5/63c4ee7b95a3b883fe7eb14a_Healthcare%20Finance%20Institute%202022%20-%20Thomas%20Bennett%20House%20Dinner.webp",
+        "alt": "Healthcare Finance Institute 2022",
+        "caption": "Healthcare Finance Institute 2022",
+        "href": "#",
+        "accessibleName": "open lightbox",
+        "lightbox": {
+          "group": "Attend Mobile",
+          "items": [
+            {
+              "type": "image",
+              "url": "https://cdn.prod.website-files.com/6312ee46f4c52faf21ee8ab5/63c4ee7b95a3b883fe7eb14a_Healthcare%20Finance%20Institute%202022%20-%20Thomas%20Bennett%20House%20Dinner.webp"
+            }
+          ]
+        }
+      },
+      {
+        "section": "attend",
+        "variant": "desktop",
+        "sectionPosition": 2,
+        "wrapper": "attend-desktop-swiper",
+        "documentPosition": 8,
+        "image": "https://cdn.prod.website-files.com/6312ee46f4c52faf21ee8ab5/63c4ee7b95a3b883fe7eb14a_Healthcare%20Finance%20Institute%202022%20-%20Thomas%20Bennett%20House%20Dinner.webp",
+        "alt": "Healthcare Finance Institute 2022",
+        "caption": "Healthcare Finance Institute 2022",
+        "href": "#",
+        "accessibleName": "open lightbox",
+        "lightbox": {
+          "group": "Attend Desktop",
+          "items": [
+            {
+              "type": "image",
+              "url": "https://cdn.prod.website-files.com/6312ee46f4c52faf21ee8ab5/63c4ee7b95a3b883fe7eb14a_Healthcare%20Finance%20Institute%202022%20-%20Thomas%20Bennett%20House%20Dinner.webp"
+            }
+          ]
+        }
+      }
+    ],
+    "priorValue": "Identical to retained values; no task 32 website change",
+    "requiredReplacement": "IPMI must approve retention or supply exact original asset, rights/attribution, confirmed subject/event, section and order, caption/alt, and destination decision (retain full-size lightbox or exact approved Gallery URL/item).",
+    "rollback": "No website rollback needed. For a future approved replacement restore only this record/placement delta; preserve shared uses."
+  },
+  {
+    "registerId": "32-03",
+    "status": "Provisional retained content; final approval pending",
+    "pageId": "63c3cdd3cff81805b2fec9e4",
+    "collectionId": "63bf18a0654be0fa16c240ad",
+    "cmsId": "63c4eef9d06f101994811da3",
+    "cmsFields": {
+      "gallery-image": {
+        "fileId": "63c4eee659c35a1685472598",
+        "url": "https://uploads-ssl.webflow.com/6312ee46f4c52faf21ee8ab5/63c4eee659c35a1685472598_TAI%202022%20-%20Think%20Tank%203.webp",
+        "alt": null
+      },
+      "gallery-image-caption": "Talent Acquisition Institute 2022",
+      "gallery-category": null,
+      "attend-an-institute-page-category": "950a7f8dd69a16ea5f5538472d069e0c",
+      "feature-on-about-ipmi-page": false,
+      "color-accent-color": "hsla(282.58064516129025, 38.91%, 46.86%, 1.00)",
+      "sort-order": 3,
+      "name": "TAI 2022 - Think Tank 3",
+      "slug": "tai-2022-think-tank-3"
+    },
+    "placements": [
+      {
+        "section": "attend",
+        "variant": "mobile",
+        "sectionPosition": 3,
+        "wrapper": "attend-mobile-swiper",
+        "documentPosition": 3,
+        "image": "https://cdn.prod.website-files.com/6312ee46f4c52faf21ee8ab5/63c4eee659c35a1685472598_TAI%202022%20-%20Think%20Tank%203.webp",
+        "alt": "Talent Acquisition Institute 2022",
+        "caption": "Talent Acquisition Institute 2022",
+        "href": "#",
+        "accessibleName": "open lightbox",
+        "lightbox": {
+          "group": "Attend Mobile",
+          "items": [
+            {
+              "type": "image",
+              "url": "https://cdn.prod.website-files.com/6312ee46f4c52faf21ee8ab5/63c4eee659c35a1685472598_TAI%202022%20-%20Think%20Tank%203.webp"
+            }
+          ]
+        }
+      },
+      {
+        "section": "attend",
+        "variant": "desktop",
+        "sectionPosition": 3,
+        "wrapper": "attend-desktop-swiper",
+        "documentPosition": 9,
+        "image": "https://cdn.prod.website-files.com/6312ee46f4c52faf21ee8ab5/63c4eee659c35a1685472598_TAI%202022%20-%20Think%20Tank%203.webp",
+        "alt": "Talent Acquisition Institute 2022",
+        "caption": "Talent Acquisition Institute 2022",
+        "href": "#",
+        "accessibleName": "open lightbox",
+        "lightbox": {
+          "group": "Attend Desktop",
+          "items": [
+            {
+              "type": "image",
+              "url": "https://cdn.prod.website-files.com/6312ee46f4c52faf21ee8ab5/63c4eee659c35a1685472598_TAI%202022%20-%20Think%20Tank%203.webp"
+            }
+          ]
+        }
+      }
+    ],
+    "priorValue": "Identical to retained values; no task 32 website change",
+    "requiredReplacement": "IPMI must approve retention or supply exact original asset, rights/attribution, confirmed subject/event, section and order, caption/alt, and destination decision (retain full-size lightbox or exact approved Gallery URL/item).",
+    "rollback": "No website rollback needed. For a future approved replacement restore only this record/placement delta; preserve shared uses."
+  },
+  {
+    "registerId": "32-04",
+    "status": "Provisional retained content; final approval pending",
+    "pageId": "63c3cdd3cff81805b2fec9e4",
+    "collectionId": "63bf18a0654be0fa16c240ad",
+    "cmsId": "63c4eeaba9dabe15805457b1",
+    "cmsFields": {
+      "gallery-image": {
+        "fileId": "63c4ee97afad0b478ee4e7da",
+        "url": "https://uploads-ssl.webflow.com/6312ee46f4c52faf21ee8ab5/63c4ee97afad0b478ee4e7da_HR%20Can%20April%202022%20-%20Paddle%20Painting.webp",
+        "alt": null
+      },
+      "gallery-image-caption": "HR Management Institute Canada April 2022",
+      "gallery-category": null,
+      "attend-an-institute-page-category": "950a7f8dd69a16ea5f5538472d069e0c",
+      "feature-on-about-ipmi-page": false,
+      "color-accent-color": "hsla(282.58064516129025, 38.91%, 46.86%, 1.00)",
+      "sort-order": 4,
+      "name": "HR Can April 2022 - Paddle Painting",
+      "slug": "hr-can-april-2022-paddle-painting"
+    },
+    "placements": [
+      {
+        "section": "attend",
+        "variant": "mobile",
+        "sectionPosition": 4,
+        "wrapper": "attend-mobile-swiper",
+        "documentPosition": 4,
+        "image": "https://cdn.prod.website-files.com/6312ee46f4c52faf21ee8ab5/63c4ee97afad0b478ee4e7da_HR%20Can%20April%202022%20-%20Paddle%20Painting.webp",
+        "alt": "HR Management Institute Canada April 2022",
+        "caption": "HR Management Institute Canada April 2022",
+        "href": "#",
+        "accessibleName": "open lightbox",
+        "lightbox": {
+          "group": "Attend Mobile",
+          "items": [
+            {
+              "type": "image",
+              "url": "https://cdn.prod.website-files.com/6312ee46f4c52faf21ee8ab5/63c4ee97afad0b478ee4e7da_HR%20Can%20April%202022%20-%20Paddle%20Painting.webp"
+            }
+          ]
+        }
+      },
+      {
+        "section": "attend",
+        "variant": "desktop",
+        "sectionPosition": 4,
+        "wrapper": "attend-desktop-swiper",
+        "documentPosition": 10,
+        "image": "https://cdn.prod.website-files.com/6312ee46f4c52faf21ee8ab5/63c4ee97afad0b478ee4e7da_HR%20Can%20April%202022%20-%20Paddle%20Painting.webp",
+        "alt": "HR Management Institute Canada April 2022",
+        "caption": "HR Management Institute Canada April 2022",
+        "href": "#",
+        "accessibleName": "open lightbox",
+        "lightbox": {
+          "group": "Attend Desktop",
+          "items": [
+            {
+              "type": "image",
+              "url": "https://cdn.prod.website-files.com/6312ee46f4c52faf21ee8ab5/63c4ee97afad0b478ee4e7da_HR%20Can%20April%202022%20-%20Paddle%20Painting.webp"
+            }
+          ]
+        }
+      }
+    ],
+    "priorValue": "Identical to retained values; no task 32 website change",
+    "requiredReplacement": "IPMI must approve retention or supply exact original asset, rights/attribution, confirmed subject/event, section and order, caption/alt, and destination decision (retain full-size lightbox or exact approved Gallery URL/item).",
+    "rollback": "No website rollback needed. For a future approved replacement restore only this record/placement delta; preserve shared uses."
+  },
+  {
+    "registerId": "32-05",
+    "status": "Provisional retained content; final approval pending",
+    "pageId": "63c3cdd3cff81805b2fec9e4",
+    "collectionId": "63bf18a0654be0fa16c240ad",
+    "cmsId": "63c4eeddd3f6690dab776de2",
+    "cmsFields": {
+      "gallery-image": {
+        "fileId": "63c4eecfab4c864305c9f4a9",
+        "url": "https://uploads-ssl.webflow.com/6312ee46f4c52faf21ee8ab5/63c4eecfab4c864305c9f4a9_TAI%202022%20-%20Business%20Meeting.webp",
+        "alt": null
+      },
+      "gallery-image-caption": "Talent Acquisition Institute 2022",
+      "gallery-category": null,
+      "attend-an-institute-page-category": "950a7f8dd69a16ea5f5538472d069e0c",
+      "feature-on-about-ipmi-page": false,
+      "color-accent-color": "hsla(282.58064516129025, 38.91%, 46.86%, 1.00)",
+      "sort-order": 5,
+      "name": "TAI 2022 - Business Meeting",
+      "slug": "tai-2022-business-meeting"
+    },
+    "placements": [
+      {
+        "section": "attend",
+        "variant": "mobile",
+        "sectionPosition": 5,
+        "wrapper": "attend-mobile-swiper",
+        "documentPosition": 5,
+        "image": "https://cdn.prod.website-files.com/6312ee46f4c52faf21ee8ab5/63c4eecfab4c864305c9f4a9_TAI%202022%20-%20Business%20Meeting.webp",
+        "alt": "Talent Acquisition Institute 2022",
+        "caption": "Talent Acquisition Institute 2022",
+        "href": "#",
+        "accessibleName": "open lightbox",
+        "lightbox": {
+          "group": "Attend Mobile",
+          "items": [
+            {
+              "type": "image",
+              "url": "https://cdn.prod.website-files.com/6312ee46f4c52faf21ee8ab5/63c4eecfab4c864305c9f4a9_TAI%202022%20-%20Business%20Meeting.webp"
+            }
+          ]
+        }
+      },
+      {
+        "section": "attend",
+        "variant": "desktop",
+        "sectionPosition": 5,
+        "wrapper": "attend-desktop-swiper",
+        "documentPosition": 11,
+        "image": "https://cdn.prod.website-files.com/6312ee46f4c52faf21ee8ab5/63c4eecfab4c864305c9f4a9_TAI%202022%20-%20Business%20Meeting.webp",
+        "alt": "Talent Acquisition Institute 2022",
+        "caption": "Talent Acquisition Institute 2022",
+        "href": "#",
+        "accessibleName": "open lightbox",
+        "lightbox": {
+          "group": "Attend Desktop",
+          "items": [
+            {
+              "type": "image",
+              "url": "https://cdn.prod.website-files.com/6312ee46f4c52faf21ee8ab5/63c4eecfab4c864305c9f4a9_TAI%202022%20-%20Business%20Meeting.webp"
+            }
+          ]
+        }
+      }
+    ],
+    "priorValue": "Identical to retained values; no task 32 website change",
+    "requiredReplacement": "IPMI must approve retention or supply exact original asset, rights/attribution, confirmed subject/event, section and order, caption/alt, and destination decision (retain full-size lightbox or exact approved Gallery URL/item).",
+    "rollback": "No website rollback needed. For a future approved replacement restore only this record/placement delta; preserve shared uses."
+  },
+  {
+    "registerId": "32-06",
+    "status": "Provisional retained content; final approval pending",
+    "pageId": "63c3cdd3cff81805b2fec9e4",
+    "collectionId": "63bf18a0654be0fa16c240ad",
+    "cmsId": "63c4ee74a45ec70f5e15606d",
+    "cmsFields": {
+      "gallery-image": {
+        "fileId": "63c4ee5ac092f81e48b0c683",
+        "url": "https://uploads-ssl.webflow.com/6312ee46f4c52faf21ee8ab5/63c4ee5ac092f81e48b0c683_Healthcare%20Finance%20Institute%202022%20-%20App.webp",
+        "alt": null
+      },
+      "gallery-image-caption": "Healthcare Finance Institute 2022",
+      "gallery-category": null,
+      "attend-an-institute-page-category": "950a7f8dd69a16ea5f5538472d069e0c",
+      "feature-on-about-ipmi-page": false,
+      "color-accent-color": "hsla(174.59459459459458, 60.00%, 36.27%, 1.00)",
+      "sort-order": 6,
+      "name": "Healthcare Finance Institute 2022 - App",
+      "slug": "healthcare-finance-institute-2022-app"
+    },
+    "placements": [
+      {
+        "section": "attend",
+        "variant": "mobile",
+        "sectionPosition": 6,
+        "wrapper": "attend-mobile-swiper",
+        "documentPosition": 6,
+        "image": "https://cdn.prod.website-files.com/6312ee46f4c52faf21ee8ab5/63c4ee5ac092f81e48b0c683_Healthcare%20Finance%20Institute%202022%20-%20App.webp",
+        "alt": "Healthcare Finance Institute 2022",
+        "caption": "Healthcare Finance Institute 2022",
+        "href": "#",
+        "accessibleName": "open lightbox",
+        "lightbox": {
+          "group": "Attend Mobile",
+          "items": [
+            {
+              "type": "image",
+              "url": "https://cdn.prod.website-files.com/6312ee46f4c52faf21ee8ab5/63c4ee5ac092f81e48b0c683_Healthcare%20Finance%20Institute%202022%20-%20App.webp"
+            }
+          ]
+        }
+      },
+      {
+        "section": "attend",
+        "variant": "desktop",
+        "sectionPosition": 6,
+        "wrapper": "attend-desktop-swiper",
+        "documentPosition": 12,
+        "image": "https://cdn.prod.website-files.com/6312ee46f4c52faf21ee8ab5/63c4ee5ac092f81e48b0c683_Healthcare%20Finance%20Institute%202022%20-%20App.webp",
+        "alt": "Healthcare Finance Institute 2022",
+        "caption": "Healthcare Finance Institute 2022",
+        "href": "#",
+        "accessibleName": "open lightbox",
+        "lightbox": {
+          "group": "Attend Desktop",
+          "items": [
+            {
+              "type": "image",
+              "url": "https://cdn.prod.website-files.com/6312ee46f4c52faf21ee8ab5/63c4ee5ac092f81e48b0c683_Healthcare%20Finance%20Institute%202022%20-%20App.webp"
+            }
+          ]
+        }
+      }
+    ],
+    "priorValue": "Identical to retained values; no task 32 website change",
+    "requiredReplacement": "IPMI must approve retention or supply exact original asset, rights/attribution, confirmed subject/event, section and order, caption/alt, and destination decision (retain full-size lightbox or exact approved Gallery URL/item).",
+    "rollback": "No website rollback needed. For a future approved replacement restore only this record/placement delta; preserve shared uses."
+  },
+  {
+    "registerId": "32-07",
+    "status": "Provisional retained content; final approval pending",
+    "pageId": "63c3cdd3cff81805b2fec9e4",
+    "collectionId": "63bf18a0654be0fa16c240ad",
+    "cmsId": "63c4ef1ece5aa2aa3bea0957",
+    "cmsFields": {
+      "gallery-image": {
+        "fileId": "63c4ef0f3b2b764510bbdc9e",
+        "url": "https://uploads-ssl.webflow.com/6312ee46f4c52faf21ee8ab5/63c4ef0f3b2b764510bbdc9e_CLDI%202022%20-%20Speaking%20Session.webp",
+        "alt": null
+      },
+      "gallery-image-caption": "Corporate Learning & Development Institute 2022",
+      "gallery-category": null,
+      "attend-an-institute-page-category": "1c3ead4c3119de11a1f5b3e3f2ce365b",
+      "feature-on-about-ipmi-page": false,
+      "color-accent-color": "hsla(282.58064516129025, 38.91%, 46.86%, 1.00)",
+      "sort-order": 1,
+      "name": "CLDI 2022 - Speaking Session",
+      "slug": "cldi-2022-speaking-session"
+    },
+    "placements": [
+      {
+        "section": "speak",
+        "variant": "desktop",
+        "sectionPosition": 1,
+        "wrapper": "speak-desktop-swiper",
+        "documentPosition": 13,
+        "image": "https://cdn.prod.website-files.com/6312ee46f4c52faf21ee8ab5/63c4ef0f3b2b764510bbdc9e_CLDI%202022%20-%20Speaking%20Session.webp",
+        "alt": "Corporate Learning & Development Institute 2022",
+        "caption": "Corporate Learning & Development Institute 2022",
+        "href": "#",
+        "accessibleName": "open lightbox",
+        "lightbox": {
+          "group": "",
+          "items": [
+            {
+              "type": "image",
+              "url": "https://cdn.prod.website-files.com/6312ee46f4c52faf21ee8ab5/63c4ef0f3b2b764510bbdc9e_CLDI%202022%20-%20Speaking%20Session.webp"
+            }
+          ]
+        }
+      },
+      {
+        "section": "speak",
+        "variant": "mobile",
+        "sectionPosition": 1,
+        "wrapper": "speak-mobile-swiper",
+        "documentPosition": 19,
+        "image": "https://cdn.prod.website-files.com/6312ee46f4c52faf21ee8ab5/63c4ef0f3b2b764510bbdc9e_CLDI%202022%20-%20Speaking%20Session.webp",
+        "alt": "Corporate Learning & Development Institute 2022",
+        "caption": "Corporate Learning & Development Institute 2022",
+        "href": "#",
+        "accessibleName": "open lightbox",
+        "lightbox": {
+          "group": "Speak Mobile",
+          "items": [
+            {
+              "type": "image",
+              "url": "https://cdn.prod.website-files.com/6312ee46f4c52faf21ee8ab5/63c4ef0f3b2b764510bbdc9e_CLDI%202022%20-%20Speaking%20Session.webp"
+            }
+          ]
+        }
+      }
+    ],
+    "priorValue": "Identical to retained values; no task 32 website change",
+    "requiredReplacement": "IPMI must approve retention or supply exact original asset, rights/attribution, confirmed subject/event, section and order, caption/alt, and destination decision (retain full-size lightbox or exact approved Gallery URL/item).",
+    "rollback": "No website rollback needed. For a future approved replacement restore only this record/placement delta; preserve shared uses."
+  },
+  {
+    "registerId": "32-08",
+    "status": "Provisional retained content; final approval pending",
+    "pageId": "63c3cdd3cff81805b2fec9e4",
+    "collectionId": "63bf18a0654be0fa16c240ad",
+    "cmsId": "63c4ef35d4a4c34ebd43930d",
+    "cmsFields": {
+      "gallery-image": {
+        "fileId": "63c4ef260a006048f1ebe0ec",
+        "url": "https://uploads-ssl.webflow.com/6312ee46f4c52faf21ee8ab5/63c4ef260a006048f1ebe0ec_Heathcare%20Law%20and%20Compliance%20Institute%20Feb%202022%20-%20Session.webp",
+        "alt": null
+      },
+      "gallery-image-caption": "Healthcare Law and Compliance Institute February 2022",
+      "gallery-category": null,
+      "attend-an-institute-page-category": "1c3ead4c3119de11a1f5b3e3f2ce365b",
+      "feature-on-about-ipmi-page": false,
+      "color-accent-color": "hsla(174.59459459459458, 60.00%, 36.27%, 1.00)",
+      "sort-order": 2,
+      "name": "Healthcare Law and Compliance Institute Feb 2022 - Session",
+      "slug": "heathcare-law-and-compliance-institute-feb-2022-session"
+    },
+    "placements": [
+      {
+        "section": "speak",
+        "variant": "desktop",
+        "sectionPosition": 2,
+        "wrapper": "speak-desktop-swiper",
+        "documentPosition": 14,
+        "image": "https://cdn.prod.website-files.com/6312ee46f4c52faf21ee8ab5/63c4ef260a006048f1ebe0ec_Heathcare%20Law%20and%20Compliance%20Institute%20Feb%202022%20-%20Session.webp",
+        "alt": "Healthcare Law and Compliance Institute February 2022",
+        "caption": "Healthcare Law and Compliance Institute February 2022",
+        "href": "#",
+        "accessibleName": "open lightbox",
+        "lightbox": {
+          "group": "",
+          "items": [
+            {
+              "type": "image",
+              "url": "https://cdn.prod.website-files.com/6312ee46f4c52faf21ee8ab5/63c4ef260a006048f1ebe0ec_Heathcare%20Law%20and%20Compliance%20Institute%20Feb%202022%20-%20Session.webp"
+            }
+          ]
+        }
+      },
+      {
+        "section": "speak",
+        "variant": "mobile",
+        "sectionPosition": 2,
+        "wrapper": "speak-mobile-swiper",
+        "documentPosition": 20,
+        "image": "https://cdn.prod.website-files.com/6312ee46f4c52faf21ee8ab5/63c4ef260a006048f1ebe0ec_Heathcare%20Law%20and%20Compliance%20Institute%20Feb%202022%20-%20Session.webp",
+        "alt": "Healthcare Law and Compliance Institute February 2022",
+        "caption": "Healthcare Law and Compliance Institute February 2022",
+        "href": "#",
+        "accessibleName": "open lightbox",
+        "lightbox": {
+          "group": "Speak Mobile",
+          "items": [
+            {
+              "type": "image",
+              "url": "https://cdn.prod.website-files.com/6312ee46f4c52faf21ee8ab5/63c4ef260a006048f1ebe0ec_Heathcare%20Law%20and%20Compliance%20Institute%20Feb%202022%20-%20Session.webp"
+            }
+          ]
+        }
+      }
+    ],
+    "priorValue": "Identical to retained values; no task 32 website change",
+    "requiredReplacement": "IPMI must approve retention or supply exact original asset, rights/attribution, confirmed subject/event, section and order, caption/alt, and destination decision (retain full-size lightbox or exact approved Gallery URL/item).",
+    "rollback": "No website rollback needed. For a future approved replacement restore only this record/placement delta; preserve shared uses."
+  },
+  {
+    "registerId": "32-09",
+    "status": "Provisional retained content; final approval pending",
+    "pageId": "63c3cdd3cff81805b2fec9e4",
+    "collectionId": "63bf18a0654be0fa16c240ad",
+    "cmsId": "63c4ef4c8ec26404ba5d596b",
+    "cmsFields": {
+      "gallery-image": {
+        "fileId": "63c4ef3a1c21782c1dd5691b",
+        "url": "https://uploads-ssl.webflow.com/6312ee46f4c52faf21ee8ab5/63c4ef3a1c21782c1dd5691b_HR%20East%202022%20-%20Speaking%20Session%202.webp",
+        "alt": null
+      },
+      "gallery-image-caption": "HR Management Institute East 2022",
+      "gallery-category": null,
+      "attend-an-institute-page-category": "1c3ead4c3119de11a1f5b3e3f2ce365b",
+      "feature-on-about-ipmi-page": false,
+      "color-accent-color": "hsla(282.58064516129025, 38.91%, 46.86%, 1.00)",
+      "sort-order": 3,
+      "name": "HR East 2022 - Speaking Session 2",
+      "slug": "hr-east-2022-speaking-session-2"
+    },
+    "placements": [
+      {
+        "section": "speak",
+        "variant": "desktop",
+        "sectionPosition": 3,
+        "wrapper": "speak-desktop-swiper",
+        "documentPosition": 15,
+        "image": "https://cdn.prod.website-files.com/6312ee46f4c52faf21ee8ab5/63c4ef3a1c21782c1dd5691b_HR%20East%202022%20-%20Speaking%20Session%202.webp",
+        "alt": "HR Management Institute East 2022",
+        "caption": "HR Management Institute East 2022",
+        "href": "#",
+        "accessibleName": "open lightbox",
+        "lightbox": {
+          "group": "",
+          "items": [
+            {
+              "type": "image",
+              "url": "https://cdn.prod.website-files.com/6312ee46f4c52faf21ee8ab5/63c4ef3a1c21782c1dd5691b_HR%20East%202022%20-%20Speaking%20Session%202.webp"
+            }
+          ]
+        }
+      },
+      {
+        "section": "speak",
+        "variant": "mobile",
+        "sectionPosition": 3,
+        "wrapper": "speak-mobile-swiper",
+        "documentPosition": 21,
+        "image": "https://cdn.prod.website-files.com/6312ee46f4c52faf21ee8ab5/63c4ef3a1c21782c1dd5691b_HR%20East%202022%20-%20Speaking%20Session%202.webp",
+        "alt": "HR Management Institute East 2022",
+        "caption": "HR Management Institute East 2022",
+        "href": "#",
+        "accessibleName": "open lightbox",
+        "lightbox": {
+          "group": "Speak Mobile",
+          "items": [
+            {
+              "type": "image",
+              "url": "https://cdn.prod.website-files.com/6312ee46f4c52faf21ee8ab5/63c4ef3a1c21782c1dd5691b_HR%20East%202022%20-%20Speaking%20Session%202.webp"
+            }
+          ]
+        }
+      }
+    ],
+    "priorValue": "Identical to retained values; no task 32 website change",
+    "requiredReplacement": "IPMI must approve retention or supply exact original asset, rights/attribution, confirmed subject/event, section and order, caption/alt, and destination decision (retain full-size lightbox or exact approved Gallery URL/item).",
+    "rollback": "No website rollback needed. For a future approved replacement restore only this record/placement delta; preserve shared uses."
+  },
+  {
+    "registerId": "32-10",
+    "status": "Provisional retained content; final approval pending",
+    "pageId": "63c3cdd3cff81805b2fec9e4",
+    "collectionId": "63bf18a0654be0fa16c240ad",
+    "cmsId": "63c4ef5ece5aa25280ea0a11",
+    "cmsFields": {
+      "gallery-image": {
+        "fileId": "63c4ef50ce5aa28b18ea09ee",
+        "url": "https://uploads-ssl.webflow.com/6312ee46f4c52faf21ee8ab5/63c4ef50ce5aa28b18ea09ee_HR%20East%202022%20-%20Speaking%20Session%203.webp",
+        "alt": null
+      },
+      "gallery-image-caption": "HR Management Institute East 2022",
+      "gallery-category": null,
+      "attend-an-institute-page-category": "1c3ead4c3119de11a1f5b3e3f2ce365b",
+      "feature-on-about-ipmi-page": false,
+      "color-accent-color": "hsla(282.58064516129025, 38.91%, 46.86%, 1.00)",
+      "sort-order": 4,
+      "name": "HR East 2022 - Speaking Session 3",
+      "slug": "hr-east-2022-speaking-session-3"
+    },
+    "placements": [
+      {
+        "section": "speak",
+        "variant": "desktop",
+        "sectionPosition": 4,
+        "wrapper": "speak-desktop-swiper",
+        "documentPosition": 16,
+        "image": "https://cdn.prod.website-files.com/6312ee46f4c52faf21ee8ab5/63c4ef50ce5aa28b18ea09ee_HR%20East%202022%20-%20Speaking%20Session%203.webp",
+        "alt": "HR Management Institute East 2022",
+        "caption": "HR Management Institute East 2022",
+        "href": "#",
+        "accessibleName": "open lightbox",
+        "lightbox": {
+          "group": "",
+          "items": [
+            {
+              "type": "image",
+              "url": "https://cdn.prod.website-files.com/6312ee46f4c52faf21ee8ab5/63c4ef50ce5aa28b18ea09ee_HR%20East%202022%20-%20Speaking%20Session%203.webp"
+            }
+          ]
+        }
+      },
+      {
+        "section": "speak",
+        "variant": "mobile",
+        "sectionPosition": 4,
+        "wrapper": "speak-mobile-swiper",
+        "documentPosition": 22,
+        "image": "https://cdn.prod.website-files.com/6312ee46f4c52faf21ee8ab5/63c4ef50ce5aa28b18ea09ee_HR%20East%202022%20-%20Speaking%20Session%203.webp",
+        "alt": "HR Management Institute East 2022",
+        "caption": "HR Management Institute East 2022",
+        "href": "#",
+        "accessibleName": "open lightbox",
+        "lightbox": {
+          "group": "Speak Mobile",
+          "items": [
+            {
+              "type": "image",
+              "url": "https://cdn.prod.website-files.com/6312ee46f4c52faf21ee8ab5/63c4ef50ce5aa28b18ea09ee_HR%20East%202022%20-%20Speaking%20Session%203.webp"
+            }
+          ]
+        }
+      }
+    ],
+    "priorValue": "Identical to retained values; no task 32 website change",
+    "requiredReplacement": "IPMI must approve retention or supply exact original asset, rights/attribution, confirmed subject/event, section and order, caption/alt, and destination decision (retain full-size lightbox or exact approved Gallery URL/item).",
+    "rollback": "No website rollback needed. For a future approved replacement restore only this record/placement delta; preserve shared uses."
+  },
+  {
+    "registerId": "32-11",
+    "status": "Provisional retained content; final approval pending",
+    "pageId": "63c3cdd3cff81805b2fec9e4",
+    "collectionId": "63bf18a0654be0fa16c240ad",
+    "cmsId": "63c4ef704553f65b58e0c1bc",
+    "cmsFields": {
+      "gallery-image": {
+        "fileId": "63c4ef634553f64d99e0c0d5",
+        "url": "https://uploads-ssl.webflow.com/6312ee46f4c52faf21ee8ab5/63c4ef634553f64d99e0c0d5_TAI%202022%20-%20Speaker%20Session.webp",
+        "alt": null
+      },
+      "gallery-image-caption": "Talent Acquisition Institute 2022",
+      "gallery-category": null,
+      "attend-an-institute-page-category": "1c3ead4c3119de11a1f5b3e3f2ce365b",
+      "feature-on-about-ipmi-page": false,
+      "color-accent-color": "hsla(282.58064516129025, 38.91%, 46.86%, 1.00)",
+      "sort-order": 5,
+      "name": "TAI 2022 - Speaker Session",
+      "slug": "tai-2022-speaker-session"
+    },
+    "placements": [
+      {
+        "section": "speak",
+        "variant": "desktop",
+        "sectionPosition": 5,
+        "wrapper": "speak-desktop-swiper",
+        "documentPosition": 17,
+        "image": "https://cdn.prod.website-files.com/6312ee46f4c52faf21ee8ab5/63c4ef634553f64d99e0c0d5_TAI%202022%20-%20Speaker%20Session.webp",
+        "alt": "Talent Acquisition Institute 2022",
+        "caption": "Talent Acquisition Institute 2022",
+        "href": "#",
+        "accessibleName": "open lightbox",
+        "lightbox": {
+          "group": "",
+          "items": [
+            {
+              "type": "image",
+              "url": "https://cdn.prod.website-files.com/6312ee46f4c52faf21ee8ab5/63c4ef634553f64d99e0c0d5_TAI%202022%20-%20Speaker%20Session.webp"
+            }
+          ]
+        }
+      },
+      {
+        "section": "speak",
+        "variant": "mobile",
+        "sectionPosition": 5,
+        "wrapper": "speak-mobile-swiper",
+        "documentPosition": 23,
+        "image": "https://cdn.prod.website-files.com/6312ee46f4c52faf21ee8ab5/63c4ef634553f64d99e0c0d5_TAI%202022%20-%20Speaker%20Session.webp",
+        "alt": "Talent Acquisition Institute 2022",
+        "caption": "Talent Acquisition Institute 2022",
+        "href": "#",
+        "accessibleName": "open lightbox",
+        "lightbox": {
+          "group": "Speak Mobile",
+          "items": [
+            {
+              "type": "image",
+              "url": "https://cdn.prod.website-files.com/6312ee46f4c52faf21ee8ab5/63c4ef634553f64d99e0c0d5_TAI%202022%20-%20Speaker%20Session.webp"
+            }
+          ]
+        }
+      }
+    ],
+    "priorValue": "Identical to retained values; no task 32 website change",
+    "requiredReplacement": "IPMI must approve retention or supply exact original asset, rights/attribution, confirmed subject/event, section and order, caption/alt, and destination decision (retain full-size lightbox or exact approved Gallery URL/item).",
+    "rollback": "No website rollback needed. For a future approved replacement restore only this record/placement delta; preserve shared uses."
+  },
+  {
+    "registerId": "32-12",
+    "status": "Provisional retained content; final approval pending",
+    "pageId": "63c3cdd3cff81805b2fec9e4",
+    "collectionId": "63bf18a0654be0fa16c240ad",
+    "cmsId": "63c4ef86afad0b5383e4f236",
+    "cmsFields": {
+      "gallery-image": {
+        "fileId": "63c4ef75a9dabe0a44546799",
+        "url": "https://uploads-ssl.webflow.com/6312ee46f4c52faf21ee8ab5/63c4ef75a9dabe0a44546799_TAI%20Canada%202022%20-%20Happy%20Hour%20Roundtables%202.webp",
+        "alt": null
+      },
+      "gallery-image-caption": "Talent Acquisition & Employee Experience Institute Canada 2022",
+      "gallery-category": null,
+      "attend-an-institute-page-category": "1c3ead4c3119de11a1f5b3e3f2ce365b",
+      "feature-on-about-ipmi-page": false,
+      "color-accent-color": "hsla(282.58064516129025, 38.91%, 46.86%, 1.00)",
+      "sort-order": 6,
+      "name": "TAI Canada 2022 - Happy Hour Roundtables",
+      "slug": "tai-canada-2022-happy-hour-roundtables-2"
+    },
+    "placements": [
+      {
+        "section": "speak",
+        "variant": "desktop",
+        "sectionPosition": 6,
+        "wrapper": "speak-desktop-swiper",
+        "documentPosition": 18,
+        "image": "https://cdn.prod.website-files.com/6312ee46f4c52faf21ee8ab5/63c4ef75a9dabe0a44546799_TAI%20Canada%202022%20-%20Happy%20Hour%20Roundtables%202.webp",
+        "alt": "Talent Acquisition & Employee Experience Institute Canada 2022",
+        "caption": "Talent Acquisition & Employee Experience Institute Canada 2022",
+        "href": "#",
+        "accessibleName": "open lightbox",
+        "lightbox": {
+          "group": "",
+          "items": [
+            {
+              "type": "image",
+              "url": "https://cdn.prod.website-files.com/6312ee46f4c52faf21ee8ab5/63c4ef75a9dabe0a44546799_TAI%20Canada%202022%20-%20Happy%20Hour%20Roundtables%202.webp"
+            }
+          ]
+        }
+      },
+      {
+        "section": "speak",
+        "variant": "mobile",
+        "sectionPosition": 6,
+        "wrapper": "speak-mobile-swiper",
+        "documentPosition": 24,
+        "image": "https://cdn.prod.website-files.com/6312ee46f4c52faf21ee8ab5/63c4ef75a9dabe0a44546799_TAI%20Canada%202022%20-%20Happy%20Hour%20Roundtables%202.webp",
+        "alt": "Talent Acquisition & Employee Experience Institute Canada 2022",
+        "caption": "Talent Acquisition & Employee Experience Institute Canada 2022",
+        "href": "#",
+        "accessibleName": "open lightbox",
+        "lightbox": {
+          "group": "Speak Mobile",
+          "items": [
+            {
+              "type": "image",
+              "url": "https://cdn.prod.website-files.com/6312ee46f4c52faf21ee8ab5/63c4ef75a9dabe0a44546799_TAI%20Canada%202022%20-%20Happy%20Hour%20Roundtables%202.webp"
+            }
+          ]
+        }
+      }
+    ],
+    "priorValue": "Identical to retained values; no task 32 website change",
+    "requiredReplacement": "IPMI must approve retention or supply exact original asset, rights/attribution, confirmed subject/event, section and order, caption/alt, and destination decision (retain full-size lightbox or exact approved Gallery URL/item).",
+    "rollback": "No website rollback needed. For a future approved replacement restore only this record/placement delta; preserve shared uses."
+  },
+  {
+    "registerId": "32-13",
+    "status": "Provisional retained content; final approval pending",
+    "pageId": "63c3cdd3cff81805b2fec9e4",
+    "collectionId": "63bf18a0654be0fa16c240ad",
+    "cmsId": "63c4f03fd3f66927a4777f3b",
+    "cmsFields": {
+      "gallery-image": {
+        "fileId": "63c4efdd3b2b761212bbeb68",
+        "url": "https://uploads-ssl.webflow.com/6312ee46f4c52faf21ee8ab5/63c4efdd3b2b761212bbeb68_HR%20July%202022%20-%20Business%20Meeting%203.webp",
+        "alt": null
+      },
+      "gallery-image-caption": "HR Management Institute July 2022",
+      "gallery-category": null,
+      "attend-an-institute-page-category": "8ab3d0b5c4190d068516605c9fe3e0d0",
+      "feature-on-about-ipmi-page": false,
+      "color-accent-color": "hsla(282.58064516129025, 38.91%, 46.86%, 1.00)",
+      "sort-order": 1,
+      "name": "HR July 2022 - Business Meeting 3",
+      "slug": "hr-july-2022-business-meeting-3-4"
+    },
+    "placements": [
+      {
+        "section": "partner",
+        "variant": "mobile",
+        "sectionPosition": 1,
+        "wrapper": "partner-mobile-swiper",
+        "documentPosition": 25,
+        "image": "https://cdn.prod.website-files.com/6312ee46f4c52faf21ee8ab5/63c4efdd3b2b761212bbeb68_HR%20July%202022%20-%20Business%20Meeting%203.webp",
+        "alt": "HR Management Institute July 2022",
+        "caption": "HR Management Institute July 2022",
+        "href": "#",
+        "accessibleName": "open lightbox",
+        "lightbox": {
+          "group": "Partner Mobile",
+          "items": [
+            {
+              "type": "image",
+              "url": "https://cdn.prod.website-files.com/6312ee46f4c52faf21ee8ab5/63c4efdd3b2b761212bbeb68_HR%20July%202022%20-%20Business%20Meeting%203.webp"
+            }
+          ]
+        }
+      },
+      {
+        "section": "partner",
+        "variant": "desktop",
+        "sectionPosition": 1,
+        "wrapper": "partner-desktop-swiper",
+        "documentPosition": 32,
+        "image": "https://cdn.prod.website-files.com/6312ee46f4c52faf21ee8ab5/63c4efdd3b2b761212bbeb68_HR%20July%202022%20-%20Business%20Meeting%203.webp",
+        "alt": "HR Management Institute July 2022",
+        "caption": "HR Management Institute July 2022",
+        "href": "#",
+        "accessibleName": "open lightbox",
+        "lightbox": {
+          "group": "Partner Desktop",
+          "items": [
+            {
+              "type": "image",
+              "url": "https://cdn.prod.website-files.com/6312ee46f4c52faf21ee8ab5/63c4efdd3b2b761212bbeb68_HR%20July%202022%20-%20Business%20Meeting%203.webp"
+            }
+          ]
+        }
+      }
+    ],
+    "priorValue": "Identical to retained values; no task 32 website change",
+    "requiredReplacement": "IPMI must approve retention or supply exact original asset, rights/attribution, confirmed subject/event, section and order, caption/alt, and destination decision (retain full-size lightbox or exact approved Gallery URL/item).",
+    "rollback": "No website rollback needed. For a future approved replacement restore only this record/placement delta; preserve shared uses."
+  },
+  {
+    "registerId": "32-14",
+    "status": "Provisional retained content; final approval pending",
+    "pageId": "63c3cdd3cff81805b2fec9e4",
+    "collectionId": "63bf18a0654be0fa16c240ad",
+    "cmsId": "63c4f00c0a006068bbebeb69",
+    "cmsFields": {
+      "gallery-image": {
+        "fileId": "63c4f0057204b6718864ccce",
+        "url": "https://uploads-ssl.webflow.com/6312ee46f4c52faf21ee8ab5/63c4f0057204b6718864ccce_HR%20Can%20April%202022%20-%20Speaking%20Session.webp",
+        "alt": null
+      },
+      "gallery-image-caption": "HR Management Institute Canada April 2022",
+      "gallery-category": null,
+      "attend-an-institute-page-category": "8ab3d0b5c4190d068516605c9fe3e0d0",
+      "feature-on-about-ipmi-page": false,
+      "color-accent-color": "hsla(282.58064516129025, 38.91%, 46.86%, 1.00)",
+      "sort-order": 2,
+      "name": "HR Can April 2022 - Speaking Session",
+      "slug": "hr-can-april-2022-speaking-session"
+    },
+    "placements": [
+      {
+        "section": "partner",
+        "variant": "mobile",
+        "sectionPosition": 2,
+        "wrapper": "partner-mobile-swiper",
+        "documentPosition": 26,
+        "image": "https://cdn.prod.website-files.com/6312ee46f4c52faf21ee8ab5/63c4f0057204b6718864ccce_HR%20Can%20April%202022%20-%20Speaking%20Session.webp",
+        "alt": "HR Management Institute Canada April 2022",
+        "caption": "HR Management Institute Canada April 2022",
+        "href": "#",
+        "accessibleName": "open lightbox",
+        "lightbox": {
+          "group": "Partner Mobile",
+          "items": [
+            {
+              "type": "image",
+              "url": "https://cdn.prod.website-files.com/6312ee46f4c52faf21ee8ab5/63c4f0057204b6718864ccce_HR%20Can%20April%202022%20-%20Speaking%20Session.webp"
+            }
+          ]
+        }
+      },
+      {
+        "section": "partner",
+        "variant": "desktop",
+        "sectionPosition": 2,
+        "wrapper": "partner-desktop-swiper",
+        "documentPosition": 33,
+        "image": "https://cdn.prod.website-files.com/6312ee46f4c52faf21ee8ab5/63c4f0057204b6718864ccce_HR%20Can%20April%202022%20-%20Speaking%20Session.webp",
+        "alt": "HR Management Institute Canada April 2022",
+        "caption": "HR Management Institute Canada April 2022",
+        "href": "#",
+        "accessibleName": "open lightbox",
+        "lightbox": {
+          "group": "Partner Desktop",
+          "items": [
+            {
+              "type": "image",
+              "url": "https://cdn.prod.website-files.com/6312ee46f4c52faf21ee8ab5/63c4f0057204b6718864ccce_HR%20Can%20April%202022%20-%20Speaking%20Session.webp"
+            }
+          ]
+        }
+      }
+    ],
+    "priorValue": "Identical to retained values; no task 32 website change",
+    "requiredReplacement": "IPMI must approve retention or supply exact original asset, rights/attribution, confirmed subject/event, section and order, caption/alt, and destination decision (retain full-size lightbox or exact approved Gallery URL/item).",
+    "rollback": "No website rollback needed. For a future approved replacement restore only this record/placement delta; preserve shared uses."
+  },
+  {
+    "registerId": "32-15",
+    "status": "Provisional retained content; final approval pending",
+    "pageId": "63c3cdd3cff81805b2fec9e4",
+    "collectionId": "63bf18a0654be0fa16c240ad",
+    "cmsId": "63c4f0510a0060c6eeebee0f",
+    "cmsFields": {
+      "gallery-image": {
+        "fileId": "63c4f04359c35a5d43474b0e",
+        "url": "https://uploads-ssl.webflow.com/6312ee46f4c52faf21ee8ab5/63c4f04359c35a5d43474b0e_HR%20July%202022%20-%20Dinner%20Networking%202.webp",
+        "alt": null
+      },
+      "gallery-image-caption": "HR Management Institute July 2022",
+      "gallery-category": null,
+      "attend-an-institute-page-category": "8ab3d0b5c4190d068516605c9fe3e0d0",
+      "feature-on-about-ipmi-page": false,
+      "color-accent-color": "hsla(282.58064516129025, 38.91%, 46.86%, 1.00)",
+      "sort-order": 3,
+      "name": "HR July 2022 - Dinner Networking 2",
+      "slug": "hr-july-2022-dinner-networking-2"
+    },
+    "placements": [
+      {
+        "section": "partner",
+        "variant": "mobile",
+        "sectionPosition": 3,
+        "wrapper": "partner-mobile-swiper",
+        "documentPosition": 27,
+        "image": "https://cdn.prod.website-files.com/6312ee46f4c52faf21ee8ab5/63c4f04359c35a5d43474b0e_HR%20July%202022%20-%20Dinner%20Networking%202.webp",
+        "alt": "HR Management Institute July 2022",
+        "caption": "HR Management Institute July 2022",
+        "href": "#",
+        "accessibleName": "open lightbox",
+        "lightbox": {
+          "group": "Partner Mobile",
+          "items": [
+            {
+              "type": "image",
+              "url": "https://cdn.prod.website-files.com/6312ee46f4c52faf21ee8ab5/63c4f04359c35a5d43474b0e_HR%20July%202022%20-%20Dinner%20Networking%202.webp"
+            }
+          ]
+        }
+      },
+      {
+        "section": "partner",
+        "variant": "desktop",
+        "sectionPosition": 3,
+        "wrapper": "partner-desktop-swiper",
+        "documentPosition": 34,
+        "image": "https://cdn.prod.website-files.com/6312ee46f4c52faf21ee8ab5/63c4f04359c35a5d43474b0e_HR%20July%202022%20-%20Dinner%20Networking%202.webp",
+        "alt": "HR Management Institute July 2022",
+        "caption": "HR Management Institute July 2022",
+        "href": "#",
+        "accessibleName": "open lightbox",
+        "lightbox": {
+          "group": "Partner Desktop",
+          "items": [
+            {
+              "type": "image",
+              "url": "https://cdn.prod.website-files.com/6312ee46f4c52faf21ee8ab5/63c4f04359c35a5d43474b0e_HR%20July%202022%20-%20Dinner%20Networking%202.webp"
+            }
+          ]
+        }
+      }
+    ],
+    "priorValue": "Identical to retained values; no task 32 website change",
+    "requiredReplacement": "IPMI must approve retention or supply exact original asset, rights/attribution, confirmed subject/event, section and order, caption/alt, and destination decision (retain full-size lightbox or exact approved Gallery URL/item).",
+    "rollback": "No website rollback needed. For a future approved replacement restore only this record/placement delta; preserve shared uses."
+  },
+  {
+    "registerId": "32-16",
+    "status": "Provisional retained content; final approval pending",
+    "pageId": "63c3cdd3cff81805b2fec9e4",
+    "collectionId": "63bf18a0654be0fa16c240ad",
+    "cmsId": "63c4f06d4553f638dce0d28a",
+    "cmsFields": {
+      "gallery-image": {
+        "fileId": "63c4f058a45ec7963e157eb6",
+        "url": "https://uploads-ssl.webflow.com/6312ee46f4c52faf21ee8ab5/63c4f058a45ec7963e157eb6_TAI%202022%20-%20Business%20Meeting%20Double.webp",
+        "alt": null
+      },
+      "gallery-image-caption": "Talent Acquisition Institute 2022",
+      "gallery-category": null,
+      "attend-an-institute-page-category": "8ab3d0b5c4190d068516605c9fe3e0d0",
+      "feature-on-about-ipmi-page": false,
+      "color-accent-color": "hsla(282.58064516129025, 38.91%, 46.86%, 1.00)",
+      "sort-order": 4,
+      "name": "TAI 2022 - Business Meeting Double",
+      "slug": "tai-2022-business-meeting-double"
+    },
+    "placements": [
+      {
+        "section": "partner",
+        "variant": "mobile",
+        "sectionPosition": 4,
+        "wrapper": "partner-mobile-swiper",
+        "documentPosition": 28,
+        "image": "https://cdn.prod.website-files.com/6312ee46f4c52faf21ee8ab5/63c4f058a45ec7963e157eb6_TAI%202022%20-%20Business%20Meeting%20Double.webp",
+        "alt": "Talent Acquisition Institute 2022",
+        "caption": "Talent Acquisition Institute 2022",
+        "href": "#",
+        "accessibleName": "open lightbox",
+        "lightbox": {
+          "group": "Partner Mobile",
+          "items": [
+            {
+              "type": "image",
+              "url": "https://cdn.prod.website-files.com/6312ee46f4c52faf21ee8ab5/63c4f058a45ec7963e157eb6_TAI%202022%20-%20Business%20Meeting%20Double.webp"
+            }
+          ]
+        }
+      },
+      {
+        "section": "partner",
+        "variant": "desktop",
+        "sectionPosition": 4,
+        "wrapper": "partner-desktop-swiper",
+        "documentPosition": 35,
+        "image": "https://cdn.prod.website-files.com/6312ee46f4c52faf21ee8ab5/63c4f058a45ec7963e157eb6_TAI%202022%20-%20Business%20Meeting%20Double.webp",
+        "alt": "Talent Acquisition Institute 2022",
+        "caption": "Talent Acquisition Institute 2022",
+        "href": "#",
+        "accessibleName": "open lightbox",
+        "lightbox": {
+          "group": "Partner Desktop",
+          "items": [
+            {
+              "type": "image",
+              "url": "https://cdn.prod.website-files.com/6312ee46f4c52faf21ee8ab5/63c4f058a45ec7963e157eb6_TAI%202022%20-%20Business%20Meeting%20Double.webp"
+            }
+          ]
+        }
+      }
+    ],
+    "priorValue": "Identical to retained values; no task 32 website change",
+    "requiredReplacement": "IPMI must approve retention or supply exact original asset, rights/attribution, confirmed subject/event, section and order, caption/alt, and destination decision (retain full-size lightbox or exact approved Gallery URL/item).",
+    "rollback": "No website rollback needed. For a future approved replacement restore only this record/placement delta; preserve shared uses."
+  },
+  {
+    "registerId": "32-17",
+    "status": "Provisional retained content; final approval pending",
+    "pageId": "63c3cdd3cff81805b2fec9e4",
+    "collectionId": "63bf18a0654be0fa16c240ad",
+    "cmsId": "63c4f01ea9dabe7981547074",
+    "cmsFields": {
+      "gallery-image": {
+        "fileId": "63c4f00f3b2b767977bbedb6",
+        "url": "https://uploads-ssl.webflow.com/6312ee46f4c52faf21ee8ab5/63c4f00f3b2b767977bbedb6_HR%20Can%20April%202022%20-%20Think%20Tank%202.webp",
+        "alt": null
+      },
+      "gallery-image-caption": "HR Management Institute Canada April 2022",
+      "gallery-category": null,
+      "attend-an-institute-page-category": "8ab3d0b5c4190d068516605c9fe3e0d0",
+      "feature-on-about-ipmi-page": false,
+      "color-accent-color": "hsla(282.58064516129025, 38.91%, 46.86%, 1.00)",
+      "sort-order": 5,
+      "name": "HR Can April 2022 - Think Tank 2",
+      "slug": "hr-can-april-2022-think-tank-2"
+    },
+    "placements": [
+      {
+        "section": "partner",
+        "variant": "mobile",
+        "sectionPosition": 5,
+        "wrapper": "partner-mobile-swiper",
+        "documentPosition": 29,
+        "image": "https://cdn.prod.website-files.com/6312ee46f4c52faf21ee8ab5/63c4f00f3b2b767977bbedb6_HR%20Can%20April%202022%20-%20Think%20Tank%202.webp",
+        "alt": "HR Management Institute Canada April 2022",
+        "caption": "HR Management Institute Canada April 2022",
+        "href": "#",
+        "accessibleName": "open lightbox",
+        "lightbox": {
+          "group": "Partner Mobile",
+          "items": [
+            {
+              "type": "image",
+              "url": "https://cdn.prod.website-files.com/6312ee46f4c52faf21ee8ab5/63c4f00f3b2b767977bbedb6_HR%20Can%20April%202022%20-%20Think%20Tank%202.webp"
+            }
+          ]
+        }
+      },
+      {
+        "section": "partner",
+        "variant": "desktop",
+        "sectionPosition": 5,
+        "wrapper": "partner-desktop-swiper",
+        "documentPosition": 36,
+        "image": "https://cdn.prod.website-files.com/6312ee46f4c52faf21ee8ab5/63c4f00f3b2b767977bbedb6_HR%20Can%20April%202022%20-%20Think%20Tank%202.webp",
+        "alt": "HR Management Institute Canada April 2022",
+        "caption": "HR Management Institute Canada April 2022",
+        "href": "#",
+        "accessibleName": "open lightbox",
+        "lightbox": {
+          "group": "Partner Desktop",
+          "items": [
+            {
+              "type": "image",
+              "url": "https://cdn.prod.website-files.com/6312ee46f4c52faf21ee8ab5/63c4f00f3b2b767977bbedb6_HR%20Can%20April%202022%20-%20Think%20Tank%202.webp"
+            }
+          ]
+        }
+      }
+    ],
+    "priorValue": "Identical to retained values; no task 32 website change",
+    "requiredReplacement": "IPMI must approve retention or supply exact original asset, rights/attribution, confirmed subject/event, section and order, caption/alt, and destination decision (retain full-size lightbox or exact approved Gallery URL/item).",
+    "rollback": "No website rollback needed. For a future approved replacement restore only this record/placement delta; preserve shared uses."
+  },
+  {
+    "registerId": "32-18",
+    "status": "Provisional retained content; final approval pending",
+    "pageId": "63c3cdd3cff81805b2fec9e4",
+    "collectionId": "63bf18a0654be0fa16c240ad",
+    "cmsId": "63c4eff5afad0b0482e4f57e",
+    "cmsFields": {
+      "gallery-image": {
+        "fileId": "63c4efe4afad0b686ae4f53b",
+        "url": "https://uploads-ssl.webflow.com/6312ee46f4c52faf21ee8ab5/63c4efe4afad0b686ae4f53b_HIT%202022%20-%20Networking.webp",
+        "alt": null
+      },
+      "gallery-image-caption": "Healthcare IT Institute 2022",
+      "gallery-category": null,
+      "attend-an-institute-page-category": "8ab3d0b5c4190d068516605c9fe3e0d0",
+      "feature-on-about-ipmi-page": false,
+      "color-accent-color": "hsla(174.59459459459458, 60.00%, 36.27%, 1.00)",
+      "sort-order": 6,
+      "name": "HIT 2022 - Networking",
+      "slug": "hit-2022-networking"
+    },
+    "placements": [
+      {
+        "section": "partner",
+        "variant": "mobile",
+        "sectionPosition": 6,
+        "wrapper": "partner-mobile-swiper",
+        "documentPosition": 30,
+        "image": "https://cdn.prod.website-files.com/6312ee46f4c52faf21ee8ab5/63c4efe4afad0b686ae4f53b_HIT%202022%20-%20Networking.webp",
+        "alt": "Healthcare IT Institute 2022",
+        "caption": "Healthcare IT Institute 2022",
+        "href": "#",
+        "accessibleName": "open lightbox",
+        "lightbox": {
+          "group": "Partner Mobile",
+          "items": [
+            {
+              "type": "image",
+              "url": "https://cdn.prod.website-files.com/6312ee46f4c52faf21ee8ab5/63c4efe4afad0b686ae4f53b_HIT%202022%20-%20Networking.webp"
+            }
+          ]
+        }
+      },
+      {
+        "section": "partner",
+        "variant": "desktop",
+        "sectionPosition": 6,
+        "wrapper": "partner-desktop-swiper",
+        "documentPosition": 37,
+        "image": "https://cdn.prod.website-files.com/6312ee46f4c52faf21ee8ab5/63c4efe4afad0b686ae4f53b_HIT%202022%20-%20Networking.webp",
+        "alt": "Healthcare IT Institute 2022",
+        "caption": "Healthcare IT Institute 2022",
+        "href": "#",
+        "accessibleName": "open lightbox",
+        "lightbox": {
+          "group": "Partner Desktop",
+          "items": [
+            {
+              "type": "image",
+              "url": "https://cdn.prod.website-files.com/6312ee46f4c52faf21ee8ab5/63c4efe4afad0b686ae4f53b_HIT%202022%20-%20Networking.webp"
+            }
+          ]
+        }
+      }
+    ],
+    "priorValue": "Identical to retained values; no task 32 website change",
+    "requiredReplacement": "IPMI must approve retention or supply exact original asset, rights/attribution, confirmed subject/event, section and order, caption/alt, and destination decision (retain full-size lightbox or exact approved Gallery URL/item).",
+    "rollback": "No website rollback needed. For a future approved replacement restore only this record/placement delta; preserve shared uses."
+  },
+  {
+    "registerId": "32-19",
+    "status": "Provisional retained content; final approval pending",
+    "pageId": "63c3cdd3cff81805b2fec9e4",
+    "collectionId": "63bf18a0654be0fa16c240ad",
+    "cmsId": "63c4efbb9bcbb4db1896ff70",
+    "cmsFields": {
+      "gallery-image": {
+        "fileId": "63c4ef9494eb39ec3d0b3e2a",
+        "url": "https://uploads-ssl.webflow.com/6312ee46f4c52faf21ee8ab5/63c4ef9494eb39ec3d0b3e2a_HCHR%202022%20-%20Chairperson%20Remarks.webp",
+        "alt": null
+      },
+      "gallery-image-caption": "Healthcare HR Management Institute 2022",
+      "gallery-category": null,
+      "attend-an-institute-page-category": "8ab3d0b5c4190d068516605c9fe3e0d0",
+      "feature-on-about-ipmi-page": false,
+      "color-accent-color": "hsla(282.58064516129025, 38.91%, 46.86%, 1.00)",
+      "sort-order": 7,
+      "name": "HCHR 2022 - Chairperson Remarks",
+      "slug": "hchr-2022-chairperson-remarks"
+    },
+    "placements": [
+      {
+        "section": "partner",
+        "variant": "mobile",
+        "sectionPosition": 7,
+        "wrapper": "partner-mobile-swiper",
+        "documentPosition": 31,
+        "image": "https://cdn.prod.website-files.com/6312ee46f4c52faf21ee8ab5/63c4ef9494eb39ec3d0b3e2a_HCHR%202022%20-%20Chairperson%20Remarks.webp",
+        "alt": "Healthcare HR Management Institute 2022",
+        "caption": "Healthcare HR Management Institute 2022",
+        "href": "#",
+        "accessibleName": "open lightbox",
+        "lightbox": {
+          "group": "Partner Mobile",
+          "items": [
+            {
+              "type": "image",
+              "url": "https://cdn.prod.website-files.com/6312ee46f4c52faf21ee8ab5/63c4ef9494eb39ec3d0b3e2a_HCHR%202022%20-%20Chairperson%20Remarks.webp"
+            }
+          ]
+        }
+      },
+      {
+        "section": "partner",
+        "variant": "desktop",
+        "sectionPosition": 7,
+        "wrapper": "partner-desktop-swiper",
+        "documentPosition": 38,
+        "image": "https://cdn.prod.website-files.com/6312ee46f4c52faf21ee8ab5/63c4ef9494eb39ec3d0b3e2a_HCHR%202022%20-%20Chairperson%20Remarks.webp",
+        "alt": "Healthcare HR Management Institute 2022",
+        "caption": "Healthcare HR Management Institute 2022",
+        "href": "#",
+        "accessibleName": "open lightbox",
+        "lightbox": {
+          "group": "Partner Desktop",
+          "items": [
+            {
+              "type": "image",
+              "url": "https://cdn.prod.website-files.com/6312ee46f4c52faf21ee8ab5/63c4ef9494eb39ec3d0b3e2a_HCHR%202022%20-%20Chairperson%20Remarks.webp"
+            }
+          ]
+        }
+      }
+    ],
+    "priorValue": "Identical to retained values; no task 32 website change",
+    "requiredReplacement": "IPMI must approve retention or supply exact original asset, rights/attribution, confirmed subject/event, section and order, caption/alt, and destination decision (retain full-size lightbox or exact approved Gallery URL/item).",
+    "rollback": "No website rollback needed. For a future approved replacement restore only this record/placement delta; preserve shared uses."
+  }
+]

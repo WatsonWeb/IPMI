@@ -1,0 +1,41 @@
+[
+  {
+    "cta": "attend",
+    "active": [
+      "Attend"
+    ]
+  },
+  {
+    "cta": "speak",
+    "active": [
+      "Speak"
+    ]
+  },
+  {
+    "cta": "partner",
+    "active": [
+      "Partner"
+    ]
+  },
+  {
+    "viewport": 390,
+    "cta": "attend",
+    "active": [
+      "Attend"
+    ]
+  },
+  {
+    "viewport": 390,
+    "cta": "speak",
+    "active": [
+      "Speak"
+    ]
+  },
+  {
+    "viewport": 390,
+    "cta": "partner",
+    "active": [
+      "Partner"
+    ]
+  }
+]

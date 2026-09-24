@@ -1,0 +1,420 @@
+[
+  {
+    "section": "attend",
+    "variant": "desktop",
+    "slide": 1,
+    "actual": [
+      {
+        "loaded": true,
+        "src": "https://cdn.prod.website-files.com/6312ee46f4c52faf21ee8ab5/63c4eeb0273781eec27fd727_HR%20Can%20April%202022%20-%20Session.webp"
+      }
+    ]
+  },
+  {
+    "section": "attend",
+    "variant": "desktop",
+    "slide": 2,
+    "actual": [
+      {
+        "loaded": true,
+        "src": "https://cdn.prod.website-files.com/6312ee46f4c52faf21ee8ab5/63c4ee7b95a3b883fe7eb14a_Healthcare%20Finance%20Institute%202022%20-%20Thomas%20Bennett%20House%20Dinner.webp"
+      }
+    ]
+  },
+  {
+    "section": "attend",
+    "variant": "desktop",
+    "slide": 3,
+    "actual": [
+      {
+        "loaded": true,
+        "src": "https://cdn.prod.website-files.com/6312ee46f4c52faf21ee8ab5/63c4eee659c35a1685472598_TAI%202022%20-%20Think%20Tank%203.webp"
+      }
+    ]
+  },
+  {
+    "section": "attend",
+    "variant": "desktop",
+    "slide": 4,
+    "actual": [
+      {
+        "loaded": true,
+        "src": "https://cdn.prod.website-files.com/6312ee46f4c52faf21ee8ab5/63c4ee97afad0b478ee4e7da_HR%20Can%20April%202022%20-%20Paddle%20Painting.webp"
+      }
+    ]
+  },
+  {
+    "section": "attend",
+    "variant": "desktop",
+    "slide": 5,
+    "actual": [
+      {
+        "loaded": true,
+        "src": "https://cdn.prod.website-files.com/6312ee46f4c52faf21ee8ab5/63c4eecfab4c864305c9f4a9_TAI%202022%20-%20Business%20Meeting.webp"
+      }
+    ]
+  },
+  {
+    "section": "attend",
+    "variant": "desktop",
+    "slide": 6,
+    "actual": [
+      {
+        "loaded": true,
+        "src": "https://cdn.prod.website-files.com/6312ee46f4c52faf21ee8ab5/63c4ee5ac092f81e48b0c683_Healthcare%20Finance%20Institute%202022%20-%20App.webp"
+      }
+    ]
+  },
+  {
+    "section": "speak",
+    "variant": "desktop",
+    "slide": 1,
+    "actual": [
+      {
+        "loaded": true,
+        "src": "https://cdn.prod.website-files.com/6312ee46f4c52faf21ee8ab5/63c4ef0f3b2b764510bbdc9e_CLDI%202022%20-%20Speaking%20Session.webp"
+      }
+    ]
+  },
+  {
+    "section": "speak",
+    "variant": "desktop",
+    "slide": 2,
+    "actual": [
+      {
+        "loaded": true,
+        "src": "https://cdn.prod.website-files.com/6312ee46f4c52faf21ee8ab5/63c4ef260a006048f1ebe0ec_Heathcare%20Law%20and%20Compliance%20Institute%20Feb%202022%20-%20Session.webp"
+      }
+    ]
+  },
+  {
+    "section": "speak",
+    "variant": "desktop",
+    "slide": 3,
+    "actual": [
+      {
+        "loaded": true,
+        "src": "https://cdn.prod.website-files.com/6312ee46f4c52faf21ee8ab5/63c4ef3a1c21782c1dd5691b_HR%20East%202022%20-%20Speaking%20Session%202.webp"
+      }
+    ]
+  },
+  {
+    "section": "speak",
+    "variant": "desktop",
+    "slide": 4,
+    "actual": [
+      {
+        "loaded": true,
+        "src": "https://cdn.prod.website-files.com/6312ee46f4c52faf21ee8ab5/63c4ef50ce5aa28b18ea09ee_HR%20East%202022%20-%20Speaking%20Session%203.webp"
+      }
+    ]
+  },
+  {
+    "section": "speak",
+    "variant": "desktop",
+    "slide": 5,
+    "actual": [
+      {
+        "loaded": true,
+        "src": "https://cdn.prod.website-files.com/6312ee46f4c52faf21ee8ab5/63c4ef634553f64d99e0c0d5_TAI%202022%20-%20Speaker%20Session.webp"
+      }
+    ]
+  },
+  {
+    "section": "speak",
+    "variant": "desktop",
+    "slide": 6,
+    "actual": [
+      {
+        "loaded": true,
+        "src": "https://cdn.prod.website-files.com/6312ee46f4c52faf21ee8ab5/63c4ef75a9dabe0a44546799_TAI%20Canada%202022%20-%20Happy%20Hour%20Roundtables%202.webp"
+      }
+    ]
+  },
+  {
+    "section": "partner",
+    "variant": "desktop",
+    "slide": 1,
+    "actual": [
+      {
+        "loaded": true,
+        "src": "https://cdn.prod.website-files.com/6312ee46f4c52faf21ee8ab5/63c4efdd3b2b761212bbeb68_HR%20July%202022%20-%20Business%20Meeting%203.webp"
+      }
+    ]
+  },
+  {
+    "section": "partner",
+    "variant": "desktop",
+    "slide": 2,
+    "actual": [
+      {
+        "loaded": true,
+        "src": "https://cdn.prod.website-files.com/6312ee46f4c52faf21ee8ab5/63c4f0057204b6718864ccce_HR%20Can%20April%202022%20-%20Speaking%20Session.webp"
+      }
+    ]
+  },
+  {
+    "section": "partner",
+    "variant": "desktop",
+    "slide": 3,
+    "actual": [
+      {
+        "loaded": true,
+        "src": "https://cdn.prod.website-files.com/6312ee46f4c52faf21ee8ab5/63c4f04359c35a5d43474b0e_HR%20July%202022%20-%20Dinner%20Networking%202.webp"
+      }
+    ]
+  },
+  {
+    "section": "partner",
+    "variant": "desktop",
+    "slide": 4,
+    "actual": [
+      {
+        "loaded": true,
+        "src": "https://cdn.prod.website-files.com/6312ee46f4c52faf21ee8ab5/63c4f058a45ec7963e157eb6_TAI%202022%20-%20Business%20Meeting%20Double.webp"
+      }
+    ]
+  },
+  {
+    "section": "partner",
+    "variant": "desktop",
+    "slide": 5,
+    "actual": [
+      {
+        "loaded": true,
+        "src": "https://cdn.prod.website-files.com/6312ee46f4c52faf21ee8ab5/63c4f00f3b2b767977bbedb6_HR%20Can%20April%202022%20-%20Think%20Tank%202.webp"
+      }
+    ]
+  },
+  {
+    "section": "partner",
+    "variant": "desktop",
+    "slide": 6,
+    "actual": [
+      {
+        "loaded": true,
+        "src": "https://cdn.prod.website-files.com/6312ee46f4c52faf21ee8ab5/63c4efe4afad0b686ae4f53b_HIT%202022%20-%20Networking.webp"
+      }
+    ]
+  },
+  {
+    "section": "partner",
+    "variant": "desktop",
+    "slide": 7,
+    "actual": [
+      {
+        "loaded": true,
+        "src": "https://cdn.prod.website-files.com/6312ee46f4c52faf21ee8ab5/63c4ef9494eb39ec3d0b3e2a_HCHR%202022%20-%20Chairperson%20Remarks.webp"
+      }
+    ]
+  },
+  {
+    "section": "attend",
+    "variant": "mobile",
+    "slide": 1,
+    "actual": [
+      {
+        "loaded": true,
+        "src": "https://cdn.prod.website-files.com/6312ee46f4c52faf21ee8ab5/63c4eeb0273781eec27fd727_HR%20Can%20April%202022%20-%20Session.webp"
+      }
+    ]
+  },
+  {
+    "section": "attend",
+    "variant": "mobile",
+    "slide": 2,
+    "actual": [
+      {
+        "loaded": true,
+        "src": "https://cdn.prod.website-files.com/6312ee46f4c52faf21ee8ab5/63c4ee7b95a3b883fe7eb14a_Healthcare%20Finance%20Institute%202022%20-%20Thomas%20Bennett%20House%20Dinner.webp"
+      }
+    ]
+  },
+  {
+    "section": "attend",
+    "variant": "mobile",
+    "slide": 3,
+    "actual": [
+      {
+        "loaded": true,
+        "src": "https://cdn.prod.website-files.com/6312ee46f4c52faf21ee8ab5/63c4eee659c35a1685472598_TAI%202022%20-%20Think%20Tank%203.webp"
+      }
+    ]
+  },
+  {
+    "section": "attend",
+    "variant": "mobile",
+    "slide": 4,
+    "actual": [
+      {
+        "loaded": true,
+        "src": "https://cdn.prod.website-files.com/6312ee46f4c52faf21ee8ab5/63c4ee97afad0b478ee4e7da_HR%20Can%20April%202022%20-%20Paddle%20Painting.webp"
+      }
+    ]
+  },
+  {
+    "section": "attend",
+    "variant": "mobile",
+    "slide": 5,
+    "actual": [
+      {
+        "loaded": true,
+        "src": "https://cdn.prod.website-files.com/6312ee46f4c52faf21ee8ab5/63c4eecfab4c864305c9f4a9_TAI%202022%20-%20Business%20Meeting.webp"
+      }
+    ]
+  },
+  {
+    "section": "attend",
+    "variant": "mobile",
+    "slide": 6,
+    "actual": [
+      {
+        "loaded": true,
+        "src": "https://cdn.prod.website-files.com/6312ee46f4c52faf21ee8ab5/63c4ee5ac092f81e48b0c683_Healthcare%20Finance%20Institute%202022%20-%20App.webp"
+      }
+    ]
+  },
+  {
+    "section": "speak",
+    "variant": "mobile",
+    "slide": 1,
+    "actual": [
+      {
+        "loaded": true,
+        "src": "https://cdn.prod.website-files.com/6312ee46f4c52faf21ee8ab5/63c4ef0f3b2b764510bbdc9e_CLDI%202022%20-%20Speaking%20Session.webp"
+      }
+    ]
+  },
+  {
+    "section": "speak",
+    "variant": "mobile",
+    "slide": 2,
+    "actual": [
+      {
+        "loaded": true,
+        "src": "https://cdn.prod.website-files.com/6312ee46f4c52faf21ee8ab5/63c4ef260a006048f1ebe0ec_Heathcare%20Law%20and%20Compliance%20Institute%20Feb%202022%20-%20Session.webp"
+      }
+    ]
+  },
+  {
+    "section": "speak",
+    "variant": "mobile",
+    "slide": 3,
+    "actual": [
+      {
+        "loaded": true,
+        "src": "https://cdn.prod.website-files.com/6312ee46f4c52faf21ee8ab5/63c4ef3a1c21782c1dd5691b_HR%20East%202022%20-%20Speaking%20Session%202.webp"
+      }
+    ]
+  },
+  {
+    "section": "speak",
+    "variant": "mobile",
+    "slide": 4,
+    "actual": [
+      {
+        "loaded": true,
+        "src": "https://cdn.prod.website-files.com/6312ee46f4c52faf21ee8ab5/63c4ef50ce5aa28b18ea09ee_HR%20East%202022%20-%20Speaking%20Session%203.webp"
+      }
+    ]
+  },
+  {
+    "section": "speak",
+    "variant": "mobile",
+    "slide": 5,
+    "actual": [
+      {
+        "loaded": true,
+        "src": "https://cdn.prod.website-files.com/6312ee46f4c52faf21ee8ab5/63c4ef634553f64d99e0c0d5_TAI%202022%20-%20Speaker%20Session.webp"
+      }
+    ]
+  },
+  {
+    "section": "speak",
+    "variant": "mobile",
+    "slide": 6,
+    "actual": [
+      {
+        "loaded": true,
+        "src": "https://cdn.prod.website-files.com/6312ee46f4c52faf21ee8ab5/63c4ef75a9dabe0a44546799_TAI%20Canada%202022%20-%20Happy%20Hour%20Roundtables%202.webp"
+      }
+    ]
+  },
+  {
+    "section": "partner",
+    "variant": "mobile",
+    "slide": 1,
+    "actual": [
+      {
+        "loaded": true,
+        "src": "https://cdn.prod.website-files.com/6312ee46f4c52faf21ee8ab5/63c4efdd3b2b761212bbeb68_HR%20July%202022%20-%20Business%20Meeting%203.webp"
+      }
+    ]
+  },
+  {
+    "section": "partner",
+    "variant": "mobile",
+    "slide": 2,
+    "actual": [
+      {
+        "loaded": true,
+        "src": "https://cdn.prod.website-files.com/6312ee46f4c52faf21ee8ab5/63c4f0057204b6718864ccce_HR%20Can%20April%202022%20-%20Speaking%20Session.webp"
+      }
+    ]
+  },
+  {
+    "section": "partner",
+    "variant": "mobile",
+    "slide": 3,
+    "actual": [
+      {
+        "loaded": true,
+        "src": "https://cdn.prod.website-files.com/6312ee46f4c52faf21ee8ab5/63c4f04359c35a5d43474b0e_HR%20July%202022%20-%20Dinner%20Networking%202.webp"
+      }
+    ]
+  },
+  {
+    "section": "partner",
+    "variant": "mobile",
+    "slide": 4,
+    "actual": [
+      {
+        "loaded": true,
+        "src": "https://cdn.prod.website-files.com/6312ee46f4c52faf21ee8ab5/63c4f058a45ec7963e157eb6_TAI%202022%20-%20Business%20Meeting%20Double.webp"
+      }
+    ]
+  },
+  {
+    "section": "partner",
+    "variant": "mobile",
+    "slide": 5,
+    "actual": [
+      {
+        "loaded": true,
+        "src": "https://cdn.prod.website-files.com/6312ee46f4c52faf21ee8ab5/63c4f00f3b2b767977bbedb6_HR%20Can%20April%202022%20-%20Think%20Tank%202.webp"
+      }
+    ]
+  },
+  {
+    "section": "partner",
+    "variant": "mobile",
+    "slide": 6,
+    "actual": [
+      {
+        "loaded": true,
+        "src": "https://cdn.prod.website-files.com/6312ee46f4c52faf21ee8ab5/63c4efe4afad0b686ae4f53b_HIT%202022%20-%20Networking.webp"
+      }
+    ]
+  },
+  {
+    "section": "partner",
+    "variant": "mobile",
+    "slide": 7,
+    "actual": [
+      {
+        "loaded": true,
+        "src": "https://cdn.prod.website-files.com/6312ee46f4c52faf21ee8ab5/63c4ef9494eb39ec3d0b3e2a_HCHR%202022%20-%20Chairperson%20Remarks.webp"
+      }
+    ]
+  }
+]

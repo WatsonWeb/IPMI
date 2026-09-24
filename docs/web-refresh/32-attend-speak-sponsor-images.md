@@ -2,7 +2,7 @@
 
 [Back to master](README.md)
 
-**Owner:** IPMI supplies/approves images and mappings; BWC implements. **Status:** Awaiting additional client image mappings; website changes not performed.
+**Owner:** IPMI supplies/approves images and mappings; BWC implements. **Status:** Provisional handoff — 19 existing section photos deliberately retained and 38 desktop/mobile lightbox placements verified; final assets/destination approval pending. No website mutation or publication.
 
 ## Source and target
 
@@ -30,10 +30,20 @@ For every photo provide original asset URL, section (Attend/Speak/Sponsor), exac
 
 - [ ] Approved assets appear in the correct Attend, Speak, or Sponsor/Partner section and order.
 - [ ] Each intended photo link reaches its exact approved gallery destination.
-- [ ] Existing section anchors and inquiry-category selection still work.
+- [x] Existing section anchors and inquiry-category selection still work (September 24 desktop/mobile checks; no submission).
 - [ ] Linked image accessible names, desktop/mobile crops, and photo-group layout pass review.
 - [ ] Task 13 content is reconciled; additional missing assets remain dependencies rather than substituted photos.
 
 ## Rollback
 
 Save original assets, order, alt values, and link destinations for each section. Restore only the affected photo/link configuration and preserve inquiry buttons and unrelated copy/form changes.
+
+## September 24, 2026 provisional handoff
+
+Bryan's placeholder instruction permits retaining suitable existing imagery. The existing session, speaker, networking and business-meeting photographs were retained across Attend (6), Speak (6), and Partner/Sponsor (7). No supplied task 13 hero was replaced and no duplicate Sponsor section was created. All 19 CMS records have two responsive placements. The [exact per-record manifest](evidence/task32/retained-attend-manifest.json) records both placements, asset URLs, original CMS fields, captions/alts, order, current lightbox destinations, replacement requirements and rollback. Register IDs are `32-01`–`32-19`.
+
+Chrome testing opened all 38 placements by keyboard and verified the matching full-size image loaded. Desktop Speak has individual ungrouped lightboxes; those destinations work and were preserved. Other wrappers use their existing named groups. The separate View Gallery buttons retain `/gallery`; photo clicks currently open full-size lightboxes, not dedicated Gallery records/pages. IPMI must explicitly confirm the intended final destination per row.
+
+All three inquiry CTAs selected the expected visible Attend/Speak/Partner category at desktop and 390px. No personal data was entered, CAPTCHA handled, or form submitted; backend payload/routing/delivery was not tested. Existing optional Phone, task 03 copy, task 13 P24/P25 assets and task 16 public footer were preserved. Read-only source comparison also found the full form and all image/anchor/script/input/form tags unchanged.
+
+Representative crops were visually checked at 1440, 390 and 768px, with geometry checks at 375, 767, 768 and 1024px. Generic `open lightbox` names, empty full-size alts, and a missing visible focus outline remain task 19; the inherited 768px navigation overflow (790px document width) remains task 37. These prevent claiming full accessibility/integrated acceptance here. See [evidence, exact replacement procedure and limits](evidence/task32/README.md). Final approved imagery, rights, factual captions and destination/order decisions remain pending. No Webflow rollback is needed because this task changed only documentation/evidence.

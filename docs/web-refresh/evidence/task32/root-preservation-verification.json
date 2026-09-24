@@ -1,0 +1,34 @@
+{
+  "checkedAt": "2026-09-24T03:39:48.7507069-05:00",
+  "url": "https://ipmi.webflow.io/attend",
+  "status": 200,
+  "checks": [
+    {
+      "tag": "img",
+      "count": 43,
+      "unchanged": true
+    },
+    {
+      "tag": "a",
+      "count": 118,
+      "unchanged": true
+    },
+    {
+      "tag": "script",
+      "count": 53,
+      "unchanged": true
+    },
+    {
+      "tag": "input",
+      "count": 11,
+      "unchanged": true
+    },
+    {
+      "tag": "form",
+      "count": 1,
+      "unchanged": true
+    }
+  ],
+  "fullFormUnchanged": true,
+  "scope": "Independent HTTP source preservation check; browser interaction verified separately"
+}
