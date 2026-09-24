@@ -2,7 +2,7 @@
 
 This package turns the Web Refresh Master To-Do and its supporting documents into 37 independently reviewable implementation tasks. Each task contains its sources, edit targets, steps, dependencies, acceptance checks, and rollback instructions. Start with the catalog below; follow its links for the actual copy, photo mappings, and feature details.
 
-**Package owner:** Bryan / implementation team. **Client content owner:** IPMI. **Prepared:** September 23, 2026, America/Chicago (browser observations continued September 24 UTC). **Delivery status:** Implementation underway; tasks 01–11 are staged for review, with evidence in their task documents. Remaining website implementation and integrated staging acceptance remain outstanding. A source request that already appears satisfied is a verification task, not a claim that this refresh implemented it.
+**Package owner:** Bryan / implementation team. **Client content owner:** IPMI. **Prepared:** September 23, 2026, America/Chicago (browser observations continued September 24 UTC). **Delivery status:** Implementation underway; tasks 01–12 are staged for review, with evidence in their task documents. Remaining website implementation and integrated staging acceptance remain outstanding. A source request that already appears satisfied is a verification task, not a claim that this refresh implemented it.
 
 ## Sources and evidence
 
@@ -44,7 +44,7 @@ Status describes **implementation progress**, not whether the Markdown file exis
 | 09  | [Think Tanks photo](09-think-tanks-photo.md)                                                | Implementation                   | Staged for review     | Approved P15 hero back photo and alt; preserved front/cards; responsive checks passed; 19       |
 | 10  | [About IPMI photos](10-about-ipmi-photos.md)                                                | Implementation                   | Staged for review     | Approved P16–P19; About-only CMS selection; responsive/lightbox checks passed; 19/31            |
 | 11  | [Testimonials photos](11-testimonials-photos.md)                                            | Implementation                   | Staged for review     | Approved P20/P21 hero photos and alt; responsive checks passed; 19/33                           |
-| 12  | [FAQ photos](12-faq-photos.md)                                                              | Implementation                   | Ready                 | Source P22–P23; separate from 30                                                                |
+| 12  | [FAQ photos](12-faq-photos.md)                                                              | Implementation                   | Staged for review     | Approved P22/P23 hero photos and alt; responsive/FAQ checks passed; 19/30                       |
 | 13  | [Attend photos](13-attend-photos.md)                                                        | Implementation                   | Ready                 | Source P24–P25; separate from 32                                                                |
 | 14  | [Contact photo](14-contact-photo.md)                                                        | Implementation                   | Ready                 | Source P26 retention/P27 replacement                                                            |
 | 15  | [Optional phone fields](15-optional-phone-fields.md)                                        | Implementation                   | Ready                 | Inventory forms; retain integration mappings                                                    |

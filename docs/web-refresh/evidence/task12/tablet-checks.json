@@ -1,0 +1,45 @@
+{
+  "images": [
+    {
+      "alt": "Seated panelist holding a microphone and notes during an IPMI session",
+      "box": {
+        "bottom": 490,
+        "height": 250,
+        "left": 451.21875,
+        "right": 701.21875,
+        "top": 240,
+        "width": 250,
+        "x": 451.21875,
+        "y": 240
+      },
+      "currentSrc": "https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4c494e4410c930e2e090d_P23-HIT-Jun-2025-Session-3-p-500.jpg",
+      "fit": "fill",
+      "loaded": true,
+      "position": "50% 50%",
+      "src": "https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4c494e4410c930e2e090d_P23-HIT-Jun-2025-Session-3.jpg"
+    },
+    {
+      "alt": "Seated speaker wearing a headset microphone during an IPMI session",
+      "box": {
+        "bottom": 654.9375,
+        "height": 250,
+        "left": 451.21875,
+        "right": 701.21875,
+        "top": 404.9375,
+        "width": 250,
+        "x": 451.21875,
+        "y": 404.9375
+      },
+      "currentSrc": "https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4c438118f040f8b2c7ec0_P22-HRMI-West-2025-Session-6-p-500.jpg",
+      "fit": "fill",
+      "loaded": true,
+      "position": "50% 50%",
+      "src": "https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4c438118f040f8b2c7ec0_P22-HRMI-West-2025-Session-6.jpg"
+    }
+  ],
+  "viewport": {
+    "documentWidth": 790,
+    "height": 1024,
+    "width": 768
+  }
+}
