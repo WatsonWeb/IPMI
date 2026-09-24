@@ -1,0 +1,278 @@
+[
+  {
+    "registerId": "31-01",
+    "status": "Approved task 10 asset preserved; additional destination approval pending",
+    "page": "https://ipmi.webflow.io/about#about",
+    "position": 1,
+    "section": "Our Mission",
+    "sectionPosition": 1,
+    "cmsId": "6ab4bd3aeae4404f8477c276",
+    "cmsFields": {
+      "gallery-image": {
+        "fileId": "6ab4bd1fbf52ddc3481af066",
+        "url": "https://cdn.prod.website-files.com/6312ee46f4c52faf21ee8ab5/6ab4bd1fbf52ddc3481af066_P18-HRMI-Apr-2025-Staff-1-1920.jpg",
+        "alt": null
+      },
+      "gallery-image-caption": "Two participants smiling together at an IPMI event",
+      "gallery-category": null,
+      "attend-an-institute-page-category": null,
+      "feature-on-about-ipmi-page": false,
+      "color-accent-color": null,
+      "sort-order": null,
+      "name": "P18 - HRMI Apr 2025 Staff 1 - About Mission",
+      "slug": "p18-hrmi-apr-2025-staff-1-about-mission"
+    },
+    "live": {
+      "alt": "Two participants smiling together at an IPMI event",
+      "href": "#",
+      "image": "https://cdn.prod.website-files.com/6312ee46f4c52faf21ee8ab5/6ab4bd1fbf52ddc3481af066_P18-HRMI-Apr-2025-Staff-1-1920.jpg",
+      "label": "open lightbox",
+      "lightbox": {
+        "group": "About",
+        "items": [
+          {
+            "type": "image",
+            "url": "https://cdn.prod.website-files.com/6312ee46f4c52faf21ee8ab5/6ab4bd1fbf52ddc3481af066_P18-HRMI-Apr-2025-Staff-1-1920.jpg"
+          }
+        ]
+      },
+      "position": 1,
+      "role": null,
+      "section": "Our Mission",
+      "sectionPosition": 1,
+      "wrapperClass": "lightbox rounded shadow-lg w-inline-block w-lightbox"
+    },
+    "previousValue": "Identical retained value; no task 31 website mutation",
+    "requiredReplacement": "IPMI: approve retention or supply original file, rights, exact replacement position, verified event/subject, caption/alt, intended gallery destination, and ordering. Preserve approved task 10 swaps unless expressly superseded."
+  },
+  {
+    "registerId": "31-02",
+    "status": "Approved task 10 asset preserved; additional destination approval pending",
+    "page": "https://ipmi.webflow.io/about#about",
+    "position": 2,
+    "section": "Our Mission",
+    "sectionPosition": 2,
+    "cmsId": "6ab4bd83211dc7575394d8e2",
+    "cmsFields": {
+      "gallery-image": {
+        "fileId": "6ab4bd741859cfc75a33edf7",
+        "url": "https://cdn.prod.website-files.com/6312ee46f4c52faf21ee8ab5/6ab4bd741859cfc75a33edf7_P19-HFI-2026-Staff-1920.jpg",
+        "alt": null
+      },
+      "gallery-image-caption": "Four IPMI team members smiling together at an outdoor event",
+      "gallery-category": null,
+      "attend-an-institute-page-category": null,
+      "feature-on-about-ipmi-page": false,
+      "color-accent-color": null,
+      "sort-order": null,
+      "name": "P19 - HFI 2026 Staff - About Mission",
+      "slug": "p19-hfi-2026-staff-about-mission"
+    },
+    "live": {
+      "alt": "Four IPMI team members smiling together at an outdoor event",
+      "href": "#",
+      "image": "https://cdn.prod.website-files.com/6312ee46f4c52faf21ee8ab5/6ab4bd741859cfc75a33edf7_P19-HFI-2026-Staff-1920.jpg",
+      "label": "open lightbox",
+      "lightbox": {
+        "group": "About",
+        "items": [
+          {
+            "type": "image",
+            "url": "https://cdn.prod.website-files.com/6312ee46f4c52faf21ee8ab5/6ab4bd741859cfc75a33edf7_P19-HFI-2026-Staff-1920.jpg"
+          }
+        ]
+      },
+      "position": 2,
+      "role": null,
+      "section": "Our Mission",
+      "sectionPosition": 2,
+      "wrapperClass": "lightbox rounded shadow-lg w-inline-block w-lightbox"
+    },
+    "previousValue": "Identical retained value; no task 31 website mutation",
+    "requiredReplacement": "IPMI: approve retention or supply original file, rights, exact replacement position, verified event/subject, caption/alt, intended gallery destination, and ordering. Preserve approved task 10 swaps unless expressly superseded."
+  },
+  {
+    "registerId": "31-03",
+    "status": "Provisional retained existing image; final approval pending",
+    "page": "https://ipmi.webflow.io/about#about",
+    "position": 3,
+    "section": "About carousel",
+    "sectionPosition": 1,
+    "cmsId": "63bf5bdc10f3fdd73323cc02",
+    "cmsFields": {
+      "gallery-image": {
+        "fileId": "63bf5bdb10f3fdd90423cc01",
+        "url": "https://uploads-ssl.webflow.com/6312ee46f4c52faf21ee8ab5/63bf5bdb10f3fdd90423cc01_HR%20July%202022%20-%20Session%20Room.webp",
+        "alt": null
+      },
+      "gallery-image-caption": "HR Management Institute July 2022",
+      "gallery-category": "f11e993f312f83980cc8464c61144c9e",
+      "attend-an-institute-page-category": null,
+      "feature-on-about-ipmi-page": true,
+      "color-accent-color": "hsla(282.58064516129025, 38.91%, 46.86%, 1.00)",
+      "sort-order": 4,
+      "name": "HR July 2022 - Session Room",
+      "slug": "hr-july-2022-session-room"
+    },
+    "live": {
+      "alt": "",
+      "href": "#",
+      "image": "https://cdn.prod.website-files.com/6312ee46f4c52faf21ee8ab5/63bf5bdb10f3fdd90423cc01_HR%20July%202022%20-%20Session%20Room.webp",
+      "label": "open lightbox",
+      "lightbox": {
+        "group": "About",
+        "items": [
+          {
+            "type": "image",
+            "url": "https://cdn.prod.website-files.com/6312ee46f4c52faf21ee8ab5/63bf5bdb10f3fdd90423cc01_HR%20July%202022%20-%20Session%20Room.webp"
+          }
+        ]
+      },
+      "position": 3,
+      "role": "listitem",
+      "section": "About carousel",
+      "sectionPosition": 1,
+      "wrapperClass": "recap-lightbox w-inline-block w-lightbox"
+    },
+    "previousValue": "Identical retained value; no task 31 website mutation",
+    "requiredReplacement": "IPMI: approve retention or supply original file, rights, exact replacement position, verified event/subject, caption/alt, intended gallery destination, and ordering. Preserve approved task 10 swaps unless expressly superseded."
+  },
+  {
+    "registerId": "31-04",
+    "status": "Provisional retained existing image; final approval pending",
+    "page": "https://ipmi.webflow.io/about#about",
+    "position": 4,
+    "section": "About carousel",
+    "sectionPosition": 2,
+    "cmsId": "63c9bbce840fddd0ef67c52a",
+    "cmsFields": {
+      "gallery-image": {
+        "fileId": "63c9bbafd6abd0ea3863461b",
+        "url": "https://uploads-ssl.webflow.com/6312ee46f4c52faf21ee8ab5/63c9bbafd6abd0ea3863461b_HCHR%202022%20-%20Nas.jpg",
+        "alt": null
+      },
+      "gallery-image-caption": "Healthcare HR Management Institute 2022 ",
+      "gallery-category": null,
+      "attend-an-institute-page-category": null,
+      "feature-on-about-ipmi-page": true,
+      "color-accent-color": "hsla(174.59459459459458, 60.00%, 36.27%, 1.00)",
+      "sort-order": 4,
+      "name": "HCHR 2022 - Nas",
+      "slug": "hchr-2022-nas"
+    },
+    "live": {
+      "alt": "",
+      "href": "#",
+      "image": "https://cdn.prod.website-files.com/6312ee46f4c52faf21ee8ab5/63c9bbafd6abd0ea3863461b_HCHR%202022%20-%20Nas.jpg",
+      "label": "open lightbox",
+      "lightbox": {
+        "group": "About",
+        "items": [
+          {
+            "type": "image",
+            "url": "https://cdn.prod.website-files.com/6312ee46f4c52faf21ee8ab5/63c9bbafd6abd0ea3863461b_HCHR%202022%20-%20Nas.jpg"
+          }
+        ]
+      },
+      "position": 4,
+      "role": "listitem",
+      "section": "About carousel",
+      "sectionPosition": 2,
+      "wrapperClass": "recap-lightbox w-inline-block w-lightbox"
+    },
+    "previousValue": "Identical retained value; no task 31 website mutation",
+    "requiredReplacement": "IPMI: approve retention or supply original file, rights, exact replacement position, verified event/subject, caption/alt, intended gallery destination, and ordering. Preserve approved task 10 swaps unless expressly superseded."
+  },
+  {
+    "registerId": "31-05",
+    "status": "Provisional retained existing image; final approval pending",
+    "page": "https://ipmi.webflow.io/about#about",
+    "position": 5,
+    "section": "About carousel",
+    "sectionPosition": 3,
+    "cmsId": "63c532de3b2b766fcec071e4",
+    "cmsFields": {
+      "gallery-image": {
+        "fileId": "63c532c4e9a211c81899cf01",
+        "url": "https://uploads-ssl.webflow.com/6312ee46f4c52faf21ee8ab5/63c532c4e9a211c81899cf01_HCHR%202022%20-%20Networking.webp",
+        "alt": null
+      },
+      "gallery-image-caption": "Healthcare HR Management Institute 2022",
+      "gallery-category": null,
+      "attend-an-institute-page-category": null,
+      "feature-on-about-ipmi-page": true,
+      "color-accent-color": "hsla(174.59459459459458, 60.00%, 36.27%, 1.00)",
+      "sort-order": 5,
+      "name": "HCHR 2022 - Networking",
+      "slug": "hchr-2022-networking"
+    },
+    "live": {
+      "alt": "",
+      "href": "#",
+      "image": "https://cdn.prod.website-files.com/6312ee46f4c52faf21ee8ab5/63c532c4e9a211c81899cf01_HCHR%202022%20-%20Networking.webp",
+      "label": "open lightbox",
+      "lightbox": {
+        "group": "About",
+        "items": [
+          {
+            "type": "image",
+            "url": "https://cdn.prod.website-files.com/6312ee46f4c52faf21ee8ab5/63c532c4e9a211c81899cf01_HCHR%202022%20-%20Networking.webp"
+          }
+        ]
+      },
+      "position": 5,
+      "role": "listitem",
+      "section": "About carousel",
+      "sectionPosition": 3,
+      "wrapperClass": "recap-lightbox w-inline-block w-lightbox"
+    },
+    "previousValue": "Identical retained value; no task 31 website mutation",
+    "requiredReplacement": "IPMI: approve retention or supply original file, rights, exact replacement position, verified event/subject, caption/alt, intended gallery destination, and ordering. Preserve approved task 10 swaps unless expressly superseded."
+  },
+  {
+    "registerId": "31-06",
+    "status": "Provisional retained existing image; final approval pending",
+    "page": "https://ipmi.webflow.io/about#about",
+    "position": 6,
+    "section": "About carousel",
+    "sectionPosition": 4,
+    "cmsId": "63c9bca7764ce25d9543c712",
+    "cmsFields": {
+      "gallery-image": {
+        "fileId": "63c9bc955b64c559b02d1363",
+        "url": "https://uploads-ssl.webflow.com/6312ee46f4c52faf21ee8ab5/63c9bc955b64c559b02d1363_SOI%202022%20Jenny.webp",
+        "alt": null
+      },
+      "gallery-image-caption": "Sales Operations Institute 2022",
+      "gallery-category": null,
+      "attend-an-institute-page-category": null,
+      "feature-on-about-ipmi-page": true,
+      "color-accent-color": "hsla(349.93006993007, 59.83%, 46.86%, 1.00)",
+      "sort-order": 6,
+      "name": "SOI 2022 Jenny",
+      "slug": "soi-2022-jenny"
+    },
+    "live": {
+      "alt": "",
+      "href": "#",
+      "image": "https://cdn.prod.website-files.com/6312ee46f4c52faf21ee8ab5/63c9bc955b64c559b02d1363_SOI%202022%20Jenny.webp",
+      "label": "open lightbox",
+      "lightbox": {
+        "group": "About",
+        "items": [
+          {
+            "type": "image",
+            "url": "https://cdn.prod.website-files.com/6312ee46f4c52faf21ee8ab5/63c9bc955b64c559b02d1363_SOI%202022%20Jenny.webp"
+          }
+        ]
+      },
+      "position": 6,
+      "role": "listitem",
+      "section": "About carousel",
+      "sectionPosition": 4,
+      "wrapperClass": "recap-lightbox w-inline-block w-lightbox"
+    },
+    "previousValue": "Identical retained value; no task 31 website mutation",
+    "requiredReplacement": "IPMI: approve retention or supply original file, rights, exact replacement position, verified event/subject, caption/alt, intended gallery destination, and ordering. Preserve approved task 10 swaps unless expressly superseded."
+  }
+]

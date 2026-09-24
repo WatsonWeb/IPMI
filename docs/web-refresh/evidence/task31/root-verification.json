@@ -1,0 +1,23 @@
+{
+  "checkedAt": "2026-09-24T03:27:14.3846558-05:00",
+  "url": "https://ipmi.webflow.io/about",
+  "status": 200,
+  "checks": [
+    {
+      "tag": "img",
+      "count": 20,
+      "unchanged": true
+    },
+    {
+      "tag": "a",
+      "count": 94,
+      "unchanged": true
+    },
+    {
+      "tag": "script",
+      "count": 22,
+      "unchanged": true
+    }
+  ],
+  "scope": "Independent HTTP source preservation check; browser behavior verified separately"
+}

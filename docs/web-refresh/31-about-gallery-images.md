@@ -2,7 +2,7 @@
 
 [Back to master](README.md)
 
-**Owner:** IPMI supplies/approves images and destinations; BWC implements. **Status:** Awaiting additional client image mappings; website changes not performed.
+**Owner:** IPMI supplies/approves images and destinations; BWC implements. **Status:** Provisional handoff verified September 24, 2026. Six existing gallery-linked placements retained and inventoried; final additional image/destination approval pending. No website mutation or publication needed.
 
 ## Source and target
 
@@ -29,10 +29,18 @@ Supply each original asset/download link, intended About page section/position, 
 ## Acceptance checks
 
 - [ ] Each approved row has an exact About position, asset, and working gallery destination.
-- [ ] Task 10's already supplied swaps are preserved or intentionally reconciled, without duplicated work.
+- [x] Task 10's already supplied swaps are preserved or intentionally reconciled, without duplicated work.
 - [ ] Linked photos are keyboard accessible and do not create nested interactive elements.
 - [ ] Desktop/tablet/mobile crops and surrounding layout remain correct.
-- [ ] Missing client assets or destination decisions remain visible dependencies.
+- [x] Missing client assets or destination decisions remain visible dependencies.
+
+## September 24 provisional retention and verification
+
+No additional asset/destination manifest was supplied. Retained the four appropriate existing carousel photos as provisional content and preserved approved task 10 P16–P19. No empty placement, fabricated image, duplicate CMS record, or guessed gallery URL was introduced. Existing links open the six-item **About** lightbox; they do not navigate to `/gallery` or individual Gallery Photos template pages. This is a functioning current destination, not evidence of IPMI approval for the final requested linking behavior.
+
+The [exact six-row manifest](evidence/task31/retained-about-manifest.json) records actual asset URLs, CMS IDs and fields, rendered position/order, wrapper, href, thumbnail alt, and full-size destination. [Verification and replacement instructions](evidence/task31/README.md) include responsive screenshots and rollback. Mission rows 31-01/02 remain approved task 10 assets; only their additional destination decision is pending. Rows 31-03–06 are provisional retained carousel content.
+
+Keyboard launch, viewer navigation/close, focus return and carousel controls worked; no nested interactive elements were found. Descriptive names/full-size alt and the carousel's inherited `role=listitem` semantics remain task 19, so comprehensive accessibility acceptance remains open. Image crops passed at 1440, 768 and 390px; the inherited 768px shared-navigation overflow and visible Swiper status text remain task 37. Final approved-row/destination acceptance remains pending IPMI's manifest.
 
 ## Rollback
 

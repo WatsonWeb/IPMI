@@ -1,0 +1,122 @@
+[
+  {
+    "alt": "Two participants smiling together at an IPMI event",
+    "href": "#",
+    "image": "https://cdn.prod.website-files.com/6312ee46f4c52faf21ee8ab5/6ab4bd1fbf52ddc3481af066_P18-HRMI-Apr-2025-Staff-1-1920.jpg",
+    "label": "open lightbox",
+    "lightbox": {
+      "group": "About",
+      "items": [
+        {
+          "type": "image",
+          "url": "https://cdn.prod.website-files.com/6312ee46f4c52faf21ee8ab5/6ab4bd1fbf52ddc3481af066_P18-HRMI-Apr-2025-Staff-1-1920.jpg"
+        }
+      ]
+    },
+    "position": 1,
+    "role": null,
+    "section": "Our Mission",
+    "sectionPosition": 1,
+    "wrapperClass": "lightbox rounded shadow-lg w-inline-block w-lightbox"
+  },
+  {
+    "alt": "Four IPMI team members smiling together at an outdoor event",
+    "href": "#",
+    "image": "https://cdn.prod.website-files.com/6312ee46f4c52faf21ee8ab5/6ab4bd741859cfc75a33edf7_P19-HFI-2026-Staff-1920.jpg",
+    "label": "open lightbox",
+    "lightbox": {
+      "group": "About",
+      "items": [
+        {
+          "type": "image",
+          "url": "https://cdn.prod.website-files.com/6312ee46f4c52faf21ee8ab5/6ab4bd741859cfc75a33edf7_P19-HFI-2026-Staff-1920.jpg"
+        }
+      ]
+    },
+    "position": 2,
+    "role": null,
+    "section": "Our Mission",
+    "sectionPosition": 2,
+    "wrapperClass": "lightbox rounded shadow-lg w-inline-block w-lightbox"
+  },
+  {
+    "alt": "",
+    "href": "#",
+    "image": "https://cdn.prod.website-files.com/6312ee46f4c52faf21ee8ab5/63bf5bdb10f3fdd90423cc01_HR%20July%202022%20-%20Session%20Room.webp",
+    "label": "open lightbox",
+    "lightbox": {
+      "group": "About",
+      "items": [
+        {
+          "type": "image",
+          "url": "https://cdn.prod.website-files.com/6312ee46f4c52faf21ee8ab5/63bf5bdb10f3fdd90423cc01_HR%20July%202022%20-%20Session%20Room.webp"
+        }
+      ]
+    },
+    "position": 3,
+    "role": "listitem",
+    "section": "About carousel",
+    "sectionPosition": 1,
+    "wrapperClass": "recap-lightbox w-inline-block w-lightbox"
+  },
+  {
+    "alt": "",
+    "href": "#",
+    "image": "https://cdn.prod.website-files.com/6312ee46f4c52faf21ee8ab5/63c9bbafd6abd0ea3863461b_HCHR%202022%20-%20Nas.jpg",
+    "label": "open lightbox",
+    "lightbox": {
+      "group": "About",
+      "items": [
+        {
+          "type": "image",
+          "url": "https://cdn.prod.website-files.com/6312ee46f4c52faf21ee8ab5/63c9bbafd6abd0ea3863461b_HCHR%202022%20-%20Nas.jpg"
+        }
+      ]
+    },
+    "position": 4,
+    "role": "listitem",
+    "section": "About carousel",
+    "sectionPosition": 2,
+    "wrapperClass": "recap-lightbox w-inline-block w-lightbox"
+  },
+  {
+    "alt": "",
+    "href": "#",
+    "image": "https://cdn.prod.website-files.com/6312ee46f4c52faf21ee8ab5/63c532c4e9a211c81899cf01_HCHR%202022%20-%20Networking.webp",
+    "label": "open lightbox",
+    "lightbox": {
+      "group": "About",
+      "items": [
+        {
+          "type": "image",
+          "url": "https://cdn.prod.website-files.com/6312ee46f4c52faf21ee8ab5/63c532c4e9a211c81899cf01_HCHR%202022%20-%20Networking.webp"
+        }
+      ]
+    },
+    "position": 5,
+    "role": "listitem",
+    "section": "About carousel",
+    "sectionPosition": 3,
+    "wrapperClass": "recap-lightbox w-inline-block w-lightbox"
+  },
+  {
+    "alt": "",
+    "href": "#",
+    "image": "https://cdn.prod.website-files.com/6312ee46f4c52faf21ee8ab5/63c9bc955b64c559b02d1363_SOI%202022%20Jenny.webp",
+    "label": "open lightbox",
+    "lightbox": {
+      "group": "About",
+      "items": [
+        {
+          "type": "image",
+          "url": "https://cdn.prod.website-files.com/6312ee46f4c52faf21ee8ab5/63c9bc955b64c559b02d1363_SOI%202022%20Jenny.webp"
+        }
+      ]
+    },
+    "position": 6,
+    "role": "listitem",
+    "section": "About carousel",
+    "sectionPosition": 4,
+    "wrapperClass": "recap-lightbox w-inline-block w-lightbox"
+  }
+]
