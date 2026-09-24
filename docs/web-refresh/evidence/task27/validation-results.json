@@ -1,0 +1,11 @@
+{
+  "checkedAt": "2026-09-24T13:13:28.6190484Z",
+  "scope": "Task 27 CMS destination safety",
+  "registerValidation": "passed: 54 independent rows, 81 pending purposes, 12 allowed native deltas, all 43 blocks unchanged, 12 browser samples",
+  "scopedLint": "passed",
+  "scopedFormatting": "passed",
+  "markdownLocalLinks": "passed",
+  "gitDiffCheck": "passed",
+  "runtimeBuild": "not run; no runtime or template changes",
+  "fullSuite": "not rerun; task 26 known 249/250 result and task 37 integration/formatting findings remain separate"
+}

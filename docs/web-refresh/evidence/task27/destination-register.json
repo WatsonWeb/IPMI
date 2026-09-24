@@ -1,0 +1,1892 @@
+[
+  {
+    "registerId": "27-healthcare-gci-oct-2026-delegate",
+    "pageId": "6ab50d28542a6c43a9329ed1",
+    "pageSlug": "healthcare-gci-oct-2026-delegate",
+    "instituteId": "689a4db462964a1e231e1fbb",
+    "instituteSlug": "healthcare-gci-oct-2026",
+    "instituteName": "15. HGC Oct 2026",
+    "audience": "Delegate",
+    "stagingUrl": "https://ipmi.webflow.io/know-before-you-go/healthcare-gci-oct-2026-delegate",
+    "owner": "IPMI Operations",
+    "confirmedUrl": null,
+    "confirmationDate": null,
+    "hub": {
+      "field": "hub-url",
+      "purpose": "Delegate MeetMax access",
+      "storedDestination": null,
+      "currentPurpose": "Noninteractive pending destination",
+      "visibleLabel": null,
+      "body": "<p id=\"\">Placeholder — Delegate MeetMax access and login instructions are awaiting Operations confirmation.</p>",
+      "status": "Actual MeetMax URL and approval pending",
+      "replacement": "Supply this exact Institute/audience MeetMax URL with full query string, purpose, approver and date. Replace Hub URL and set a matching Hub CTA Label; remove the pending paragraph and email-only explanation. Keep independent staff contacts."
+    },
+    "support": {
+      "status": "Not applicable to Delegate branch; native field retained",
+      "storedDestination": null
+    },
+    "preserved": [
+      "Institute Agenda Link",
+      "Institute KBYG Reservation URL",
+      "Operations Lead contacts",
+      "all content-block destinations and references"
+    ]
+  },
+  {
+    "registerId": "27-healthcare-gci-oct-2026-sponsor",
+    "pageId": "6ab50d2915df90825fd7cb2a",
+    "pageSlug": "healthcare-gci-oct-2026-sponsor",
+    "instituteId": "689a4db462964a1e231e1fbb",
+    "instituteSlug": "healthcare-gci-oct-2026",
+    "instituteName": "15. HGC Oct 2026",
+    "audience": "Sponsor",
+    "stagingUrl": "https://ipmi.webflow.io/know-before-you-go/healthcare-gci-oct-2026-sponsor",
+    "owner": "IPMI Operations",
+    "confirmedUrl": null,
+    "confirmationDate": null,
+    "hub": {
+      "field": "hub-url",
+      "purpose": "Sponsor MeetMax access",
+      "storedDestination": null,
+      "currentPurpose": "Noninteractive pending destination",
+      "visibleLabel": null,
+      "body": "<p id=\"\">Placeholder — Sponsor MeetMax access and login instructions are awaiting Operations confirmation.</p>",
+      "status": "Actual MeetMax URL and approval pending",
+      "replacement": "Supply this exact Institute/audience MeetMax URL with full query string, purpose, approver and date. Replace Hub URL and set a matching Hub CTA Label; remove the pending paragraph and email-only explanation. Keep independent staff contacts."
+    },
+    "support": {
+      "field": "support-url",
+      "purpose": "Sponsor Support (MeetMax or separate support purpose unconfirmed)",
+      "storedDestination": null,
+      "body": "<p id=\"\">Placeholder — Sponsor support instructions and destination are awaiting Operations confirmation.</p>",
+      "status": "Noninteractive pending destination",
+      "replacement": "Confirm purpose independently and supply the exact event/audience Support URL, matching CTA label, approver and date. Do not reuse Hub URL without specific approval; remove pending copy after confirmation."
+    },
+    "preserved": [
+      "Institute Agenda Link",
+      "Institute KBYG Reservation URL",
+      "Operations Lead contacts",
+      "all content-block destinations and references"
+    ]
+  },
+  {
+    "registerId": "27-hrmi-oct-2026-delegate",
+    "pageId": "6ab50d2991bd576bd55f8f89",
+    "pageSlug": "hrmi-oct-2026-delegate",
+    "instituteId": "68ed913448c9b512bb7abeae",
+    "instituteSlug": "hrmi-oct-2026",
+    "instituteName": "17. HR Oct 2026",
+    "audience": "Delegate",
+    "stagingUrl": "https://ipmi.webflow.io/know-before-you-go/hrmi-oct-2026-delegate",
+    "owner": "IPMI Operations",
+    "confirmedUrl": null,
+    "confirmationDate": null,
+    "hub": {
+      "field": "hub-url",
+      "purpose": "Delegate MeetMax access",
+      "storedDestination": null,
+      "currentPurpose": "Noninteractive pending destination",
+      "visibleLabel": null,
+      "body": "<p id=\"\">Placeholder — Delegate MeetMax access and login instructions are awaiting Operations confirmation.</p>",
+      "status": "Actual MeetMax URL and approval pending",
+      "replacement": "Supply this exact Institute/audience MeetMax URL with full query string, purpose, approver and date. Replace Hub URL and set a matching Hub CTA Label; remove the pending paragraph and email-only explanation. Keep independent staff contacts."
+    },
+    "support": {
+      "status": "Not applicable to Delegate branch; native field retained",
+      "storedDestination": null
+    },
+    "preserved": [
+      "Institute Agenda Link",
+      "Institute KBYG Reservation URL",
+      "Operations Lead contacts",
+      "all content-block destinations and references"
+    ]
+  },
+  {
+    "registerId": "27-hrmi-oct-2026-sponsor",
+    "pageId": "6ab50d2a89b31179acde3a95",
+    "pageSlug": "hrmi-oct-2026-sponsor",
+    "instituteId": "68ed913448c9b512bb7abeae",
+    "instituteSlug": "hrmi-oct-2026",
+    "instituteName": "17. HR Oct 2026",
+    "audience": "Sponsor",
+    "stagingUrl": "https://ipmi.webflow.io/know-before-you-go/hrmi-oct-2026-sponsor",
+    "owner": "IPMI Operations",
+    "confirmedUrl": null,
+    "confirmationDate": null,
+    "hub": {
+      "field": "hub-url",
+      "purpose": "Sponsor MeetMax access",
+      "storedDestination": null,
+      "currentPurpose": "Noninteractive pending destination",
+      "visibleLabel": null,
+      "body": "<p id=\"\">Placeholder — Sponsor MeetMax access and login instructions are awaiting Operations confirmation.</p>",
+      "status": "Actual MeetMax URL and approval pending",
+      "replacement": "Supply this exact Institute/audience MeetMax URL with full query string, purpose, approver and date. Replace Hub URL and set a matching Hub CTA Label; remove the pending paragraph and email-only explanation. Keep independent staff contacts."
+    },
+    "support": {
+      "field": "support-url",
+      "purpose": "Sponsor Support (MeetMax or separate support purpose unconfirmed)",
+      "storedDestination": null,
+      "body": "<p id=\"\">Placeholder — Sponsor support instructions and destination are awaiting Operations confirmation.</p>",
+      "status": "Noninteractive pending destination",
+      "replacement": "Confirm purpose independently and supply the exact event/audience Support URL, matching CTA label, approver and date. Do not reuse Hub URL without specific approval; remove pending copy after confirmation."
+    },
+    "preserved": [
+      "Institute Agenda Link",
+      "Institute KBYG Reservation URL",
+      "Operations Lead contacts",
+      "all content-block destinations and references"
+    ]
+  },
+  {
+    "registerId": "27-iplmi-2026-delegate",
+    "pageId": "6ab50d2bbd92bfba7714c9fb",
+    "pageSlug": "iplmi-2026-delegate",
+    "instituteId": "68d55b267c9b7466cf7f635e",
+    "instituteSlug": "iplmi-2026",
+    "instituteName": "16. IP Law 2026",
+    "audience": "Delegate",
+    "stagingUrl": "https://ipmi.webflow.io/know-before-you-go/iplmi-2026-delegate",
+    "owner": "IPMI Operations",
+    "confirmedUrl": null,
+    "confirmationDate": null,
+    "hub": {
+      "field": "hub-url",
+      "purpose": "Delegate MeetMax access",
+      "storedDestination": null,
+      "currentPurpose": "Noninteractive pending destination",
+      "visibleLabel": null,
+      "body": "<p id=\"\">Placeholder — Delegate MeetMax access and login instructions are awaiting Operations confirmation.</p>",
+      "status": "Actual MeetMax URL and approval pending",
+      "replacement": "Supply this exact Institute/audience MeetMax URL with full query string, purpose, approver and date. Replace Hub URL and set a matching Hub CTA Label; remove the pending paragraph and email-only explanation. Keep independent staff contacts."
+    },
+    "support": {
+      "status": "Not applicable to Delegate branch; native field retained",
+      "storedDestination": null
+    },
+    "preserved": [
+      "Institute Agenda Link",
+      "Institute KBYG Reservation URL",
+      "Operations Lead contacts",
+      "all content-block destinations and references"
+    ]
+  },
+  {
+    "registerId": "27-iplmi-2026-sponsor",
+    "pageId": "6ab50d2c0585a374ecb22f08",
+    "pageSlug": "iplmi-2026-sponsor",
+    "instituteId": "68d55b267c9b7466cf7f635e",
+    "instituteSlug": "iplmi-2026",
+    "instituteName": "16. IP Law 2026",
+    "audience": "Sponsor",
+    "stagingUrl": "https://ipmi.webflow.io/know-before-you-go/iplmi-2026-sponsor",
+    "owner": "IPMI Operations",
+    "confirmedUrl": null,
+    "confirmationDate": null,
+    "hub": {
+      "field": "hub-url",
+      "purpose": "Sponsor MeetMax access",
+      "storedDestination": null,
+      "currentPurpose": "Noninteractive pending destination",
+      "visibleLabel": null,
+      "body": "<p id=\"\">Placeholder — Sponsor MeetMax access and login instructions are awaiting Operations confirmation.</p>",
+      "status": "Actual MeetMax URL and approval pending",
+      "replacement": "Supply this exact Institute/audience MeetMax URL with full query string, purpose, approver and date. Replace Hub URL and set a matching Hub CTA Label; remove the pending paragraph and email-only explanation. Keep independent staff contacts."
+    },
+    "support": {
+      "field": "support-url",
+      "purpose": "Sponsor Support (MeetMax or separate support purpose unconfirmed)",
+      "storedDestination": null,
+      "body": "<p id=\"\">Placeholder — Sponsor support instructions and destination are awaiting Operations confirmation.</p>",
+      "status": "Noninteractive pending destination",
+      "replacement": "Confirm purpose independently and supply the exact event/audience Support URL, matching CTA label, approver and date. Do not reuse Hub URL without specific approval; remove pending copy after confirmation."
+    },
+    "preserved": [
+      "Institute Agenda Link",
+      "Institute KBYG Reservation URL",
+      "Operations Lead contacts",
+      "all content-block destinations and references"
+    ]
+  },
+  {
+    "registerId": "27-cni-2026-delegate",
+    "pageId": "6ab50d2cbd92bfba7714cb08",
+    "pageSlug": "cni-2026-delegate",
+    "instituteId": "68ee5828523be4d7c19ad78b",
+    "instituteSlug": "cni-2026",
+    "instituteName": "18. CNI 2026",
+    "audience": "Delegate",
+    "stagingUrl": "https://ipmi.webflow.io/know-before-you-go/cni-2026-delegate",
+    "owner": "IPMI Operations",
+    "confirmedUrl": null,
+    "confirmationDate": null,
+    "hub": {
+      "field": "hub-url",
+      "purpose": "Delegate MeetMax access",
+      "storedDestination": null,
+      "currentPurpose": "Noninteractive pending destination",
+      "visibleLabel": null,
+      "body": "<p id=\"\">Placeholder — Delegate MeetMax access and login instructions are awaiting Operations confirmation.</p>",
+      "status": "Actual MeetMax URL and approval pending",
+      "replacement": "Supply this exact Institute/audience MeetMax URL with full query string, purpose, approver and date. Replace Hub URL and set a matching Hub CTA Label; remove the pending paragraph and email-only explanation. Keep independent staff contacts."
+    },
+    "support": {
+      "status": "Not applicable to Delegate branch; native field retained",
+      "storedDestination": null
+    },
+    "preserved": [
+      "Institute Agenda Link",
+      "Institute KBYG Reservation URL",
+      "Operations Lead contacts",
+      "all content-block destinations and references"
+    ]
+  },
+  {
+    "registerId": "27-cni-2026-sponsor",
+    "pageId": "6ab50d2d4aab59c653498729",
+    "pageSlug": "cni-2026-sponsor",
+    "instituteId": "68ee5828523be4d7c19ad78b",
+    "instituteSlug": "cni-2026",
+    "instituteName": "18. CNI 2026",
+    "audience": "Sponsor",
+    "stagingUrl": "https://ipmi.webflow.io/know-before-you-go/cni-2026-sponsor",
+    "owner": "IPMI Operations",
+    "confirmedUrl": null,
+    "confirmationDate": null,
+    "hub": {
+      "field": "hub-url",
+      "purpose": "Sponsor MeetMax access",
+      "storedDestination": null,
+      "currentPurpose": "Noninteractive pending destination",
+      "visibleLabel": null,
+      "body": "<p id=\"\">Placeholder — Sponsor MeetMax access and login instructions are awaiting Operations confirmation.</p>",
+      "status": "Actual MeetMax URL and approval pending",
+      "replacement": "Supply this exact Institute/audience MeetMax URL with full query string, purpose, approver and date. Replace Hub URL and set a matching Hub CTA Label; remove the pending paragraph and email-only explanation. Keep independent staff contacts."
+    },
+    "support": {
+      "field": "support-url",
+      "purpose": "Sponsor Support (MeetMax or separate support purpose unconfirmed)",
+      "storedDestination": null,
+      "body": "<p id=\"\">Placeholder — Sponsor support instructions and destination are awaiting Operations confirmation.</p>",
+      "status": "Noninteractive pending destination",
+      "replacement": "Confirm purpose independently and supply the exact event/audience Support URL, matching CTA label, approver and date. Do not reuse Hub URL without specific approval; remove pending copy after confirmation."
+    },
+    "preserved": [
+      "Institute Agenda Link",
+      "Institute KBYG Reservation URL",
+      "Operations Lead contacts",
+      "all content-block destinations and references"
+    ]
+  },
+  {
+    "registerId": "27-cwi-2026-delegate",
+    "pageId": "6ab50d2d9c872074f0aee0f9",
+    "pageSlug": "cwi-2026-delegate",
+    "instituteId": "68f13f6b14773d35b80ea18f",
+    "instituteSlug": "cwi-2026",
+    "instituteName": "20. CWI 2026",
+    "audience": "Delegate",
+    "stagingUrl": "https://ipmi.webflow.io/know-before-you-go/cwi-2026-delegate",
+    "owner": "IPMI Operations",
+    "confirmedUrl": null,
+    "confirmationDate": null,
+    "hub": {
+      "field": "hub-url",
+      "purpose": "Delegate MeetMax access",
+      "storedDestination": null,
+      "currentPurpose": "Noninteractive pending destination",
+      "visibleLabel": null,
+      "body": "<p id=\"\">Placeholder — Delegate MeetMax access and login instructions are awaiting Operations confirmation.</p>",
+      "status": "Actual MeetMax URL and approval pending",
+      "replacement": "Supply this exact Institute/audience MeetMax URL with full query string, purpose, approver and date. Replace Hub URL and set a matching Hub CTA Label; remove the pending paragraph and email-only explanation. Keep independent staff contacts."
+    },
+    "support": {
+      "status": "Not applicable to Delegate branch; native field retained",
+      "storedDestination": null
+    },
+    "preserved": [
+      "Institute Agenda Link",
+      "Institute KBYG Reservation URL",
+      "Operations Lead contacts",
+      "all content-block destinations and references"
+    ]
+  },
+  {
+    "registerId": "27-cwi-2026-sponsor",
+    "pageId": "6ab50d2ecc6def753759a243",
+    "pageSlug": "cwi-2026-sponsor",
+    "instituteId": "68f13f6b14773d35b80ea18f",
+    "instituteSlug": "cwi-2026",
+    "instituteName": "20. CWI 2026",
+    "audience": "Sponsor",
+    "stagingUrl": "https://ipmi.webflow.io/know-before-you-go/cwi-2026-sponsor",
+    "owner": "IPMI Operations",
+    "confirmedUrl": null,
+    "confirmationDate": null,
+    "hub": {
+      "field": "hub-url",
+      "purpose": "Sponsor MeetMax access",
+      "storedDestination": null,
+      "currentPurpose": "Noninteractive pending destination",
+      "visibleLabel": null,
+      "body": "<p id=\"\">Placeholder — Sponsor MeetMax access and login instructions are awaiting Operations confirmation.</p>",
+      "status": "Actual MeetMax URL and approval pending",
+      "replacement": "Supply this exact Institute/audience MeetMax URL with full query string, purpose, approver and date. Replace Hub URL and set a matching Hub CTA Label; remove the pending paragraph and email-only explanation. Keep independent staff contacts."
+    },
+    "support": {
+      "field": "support-url",
+      "purpose": "Sponsor Support (MeetMax or separate support purpose unconfirmed)",
+      "storedDestination": null,
+      "body": "<p id=\"\">Placeholder — Sponsor support instructions and destination are awaiting Operations confirmation.</p>",
+      "status": "Noninteractive pending destination",
+      "replacement": "Confirm purpose independently and supply the exact event/audience Support URL, matching CTA label, approver and date. Do not reuse Hub URL without specific approval; remove pending copy after confirmation."
+    },
+    "preserved": [
+      "Institute Agenda Link",
+      "Institute KBYG Reservation URL",
+      "Operations Lead contacts",
+      "all content-block destinations and references"
+    ]
+  },
+  {
+    "registerId": "27-hrmi-canada-nov-2026-delegate",
+    "pageId": "6ab50d2f844fd9696be15789",
+    "pageSlug": "hrmi-canada-nov-2026-delegate",
+    "instituteId": "68ed935044ff3bb50a197a5e",
+    "instituteSlug": "hrmi-canada-nov-2026",
+    "instituteName": "19. HR Can Nov 2026",
+    "audience": "Delegate",
+    "stagingUrl": "https://ipmi.webflow.io/know-before-you-go/hrmi-canada-nov-2026-delegate",
+    "owner": "IPMI Operations",
+    "confirmedUrl": null,
+    "confirmationDate": null,
+    "hub": {
+      "field": "hub-url",
+      "purpose": "Delegate MeetMax access",
+      "storedDestination": null,
+      "currentPurpose": "Noninteractive pending destination",
+      "visibleLabel": null,
+      "body": "<p id=\"\">Placeholder — Delegate MeetMax access and login instructions are awaiting Operations confirmation.</p>",
+      "status": "Actual MeetMax URL and approval pending",
+      "replacement": "Supply this exact Institute/audience MeetMax URL with full query string, purpose, approver and date. Replace Hub URL and set a matching Hub CTA Label; remove the pending paragraph and email-only explanation. Keep independent staff contacts."
+    },
+    "support": {
+      "status": "Not applicable to Delegate branch; native field retained",
+      "storedDestination": null
+    },
+    "preserved": [
+      "Institute Agenda Link",
+      "Institute KBYG Reservation URL",
+      "Operations Lead contacts",
+      "all content-block destinations and references"
+    ]
+  },
+  {
+    "registerId": "27-hrmi-canada-nov-2026-sponsor",
+    "pageId": "6ab50d307a1a4f8bfaf11708",
+    "pageSlug": "hrmi-canada-nov-2026-sponsor",
+    "instituteId": "68ed935044ff3bb50a197a5e",
+    "instituteSlug": "hrmi-canada-nov-2026",
+    "instituteName": "19. HR Can Nov 2026",
+    "audience": "Sponsor",
+    "stagingUrl": "https://ipmi.webflow.io/know-before-you-go/hrmi-canada-nov-2026-sponsor",
+    "owner": "IPMI Operations",
+    "confirmedUrl": null,
+    "confirmationDate": null,
+    "hub": {
+      "field": "hub-url",
+      "purpose": "Sponsor MeetMax access",
+      "storedDestination": null,
+      "currentPurpose": "Noninteractive pending destination",
+      "visibleLabel": null,
+      "body": "<p id=\"\">Placeholder — Sponsor MeetMax access and login instructions are awaiting Operations confirmation.</p>",
+      "status": "Actual MeetMax URL and approval pending",
+      "replacement": "Supply this exact Institute/audience MeetMax URL with full query string, purpose, approver and date. Replace Hub URL and set a matching Hub CTA Label; remove the pending paragraph and email-only explanation. Keep independent staff contacts."
+    },
+    "support": {
+      "field": "support-url",
+      "purpose": "Sponsor Support (MeetMax or separate support purpose unconfirmed)",
+      "storedDestination": null,
+      "body": "<p id=\"\">Placeholder — Sponsor support instructions and destination are awaiting Operations confirmation.</p>",
+      "status": "Noninteractive pending destination",
+      "replacement": "Confirm purpose independently and supply the exact event/audience Support URL, matching CTA label, approver and date. Do not reuse Hub URL without specific approval; remove pending copy after confirmation."
+    },
+    "preserved": [
+      "Institute Agenda Link",
+      "Institute KBYG Reservation URL",
+      "Operations Lead contacts",
+      "all content-block destinations and references"
+    ]
+  },
+  {
+    "registerId": "27-ehs-jan-2027-delegate",
+    "pageId": "6ab419ab01801a6514d9c07a",
+    "pageSlug": "ehs-jan-2027-delegate",
+    "instituteId": "6a46ac429cad4c03adc65259",
+    "instituteSlug": "ehs-jan-2027",
+    "instituteName": "21. EHS Jan 2027",
+    "audience": "Delegate",
+    "stagingUrl": "https://ipmi.webflow.io/know-before-you-go/ehs-jan-2027-delegate",
+    "owner": "IPMI Operations",
+    "confirmedUrl": null,
+    "confirmationDate": null,
+    "hub": {
+      "field": "hub-url",
+      "purpose": "Delegate MeetMax access",
+      "storedDestination": "mailto:tdiclemente@ipmievents.com",
+      "currentPurpose": "Operations email contact only",
+      "visibleLabel": "EMAIL OPERATIONS",
+      "body": "<p>The Attendee Hub is your central resource for all event-related information. Through the Hub, you can review key dates and deliverables, submit your Attendee Profile questionnaire and hotel requirements, build your personalized itinerary, and access important event information and resources.</p><p>Attendee Hub login credentials are provided by your Operations Lead in their welcome email, which is typically sent 8–10 weeks before the event start date.</p><p>Placeholder — Delegate MeetMax destination pending Operations confirmation. The email link below contacts Operations; it does not open MeetMax.</p><p>‍</p>",
+      "status": "Actual MeetMax URL and approval pending",
+      "replacement": "Supply this exact Institute/audience MeetMax URL with full query string, purpose, approver and date. Replace Hub URL and set a matching Hub CTA Label; remove the pending paragraph and email-only explanation. Keep independent staff contacts."
+    },
+    "support": {
+      "status": "Not applicable to Delegate branch; native field retained",
+      "storedDestination": null
+    },
+    "preserved": [
+      "Institute Agenda Link",
+      "Institute KBYG Reservation URL",
+      "Operations Lead contacts",
+      "all content-block destinations and references"
+    ]
+  },
+  {
+    "registerId": "27-ehs-jan-2027-sponsor",
+    "pageId": "6ab427151e2a1d57f6652add",
+    "pageSlug": "ehs-jan-2027-sponsor",
+    "instituteId": "6a46ac429cad4c03adc65259",
+    "instituteSlug": "ehs-jan-2027",
+    "instituteName": "21. EHS Jan 2027",
+    "audience": "Sponsor",
+    "stagingUrl": "https://ipmi.webflow.io/know-before-you-go/ehs-jan-2027-sponsor",
+    "owner": "IPMI Operations",
+    "confirmedUrl": null,
+    "confirmationDate": null,
+    "hub": {
+      "field": "hub-url",
+      "purpose": "Sponsor MeetMax access",
+      "storedDestination": null,
+      "currentPurpose": "Noninteractive pending destination",
+      "visibleLabel": null,
+      "body": "<p>The Sponsor Hub is the central resource for managing your organization’s participation in the event. Through the Hub, you can submit a custom Delegate Profiling Question, update your company information, register your onsite attendees, complete the business meeting selection process, review key dates and deliverables, and access important event information and resources.</p><p>Sponsor Hub login credentials are provided by your Operations Lead in their welcome email, which is typically sent 8–10 weeks prior to the event start date.</p><p>Placeholder — Sponsor MeetMax destination pending Operations confirmation</p>",
+      "status": "Actual MeetMax URL and approval pending",
+      "replacement": "Supply this exact Institute/audience MeetMax URL with full query string, purpose, approver and date. Replace Hub URL and set a matching Hub CTA Label; remove the pending paragraph and email-only explanation. Keep independent staff contacts."
+    },
+    "support": {
+      "field": "support-url",
+      "purpose": "Sponsor Support (MeetMax or separate support purpose unconfirmed)",
+      "storedDestination": null,
+      "body": "<p>Visit the Sponsor Hub for a comprehensive FAQ section covering a wide range of topics, including pre-event deliverables, hotel reservations, business meetings, shipping instructions, onsite logistics, and post-event follow-up details.</p><p>Placeholder — Sponsor Support destination and purpose pending Operations confirmation.</p>",
+      "status": "Noninteractive pending destination",
+      "replacement": "Confirm purpose independently and supply the exact event/audience Support URL, matching CTA label, approver and date. Do not reuse Hub URL without specific approval; remove pending copy after confirmation."
+    },
+    "preserved": [
+      "Institute Agenda Link",
+      "Institute KBYG Reservation URL",
+      "Operations Lead contacts",
+      "all content-block destinations and references"
+    ]
+  },
+  {
+    "registerId": "27-hgc-feb-2027-delegate",
+    "pageId": "6ab50d31ae4335f04765e4bb",
+    "pageSlug": "hgc-feb-2027-delegate",
+    "instituteId": "6a062c48ceedbb1f5325d842",
+    "instituteSlug": "hgc-feb-2027",
+    "instituteName": "23. HGC Feb 2027",
+    "audience": "Delegate",
+    "stagingUrl": "https://ipmi.webflow.io/know-before-you-go/hgc-feb-2027-delegate",
+    "owner": "IPMI Operations",
+    "confirmedUrl": null,
+    "confirmationDate": null,
+    "hub": {
+      "field": "hub-url",
+      "purpose": "Delegate MeetMax access",
+      "storedDestination": null,
+      "currentPurpose": "Noninteractive pending destination",
+      "visibleLabel": null,
+      "body": "<p id=\"\">Placeholder — Delegate MeetMax access and login instructions are awaiting Operations confirmation.</p>",
+      "status": "Actual MeetMax URL and approval pending",
+      "replacement": "Supply this exact Institute/audience MeetMax URL with full query string, purpose, approver and date. Replace Hub URL and set a matching Hub CTA Label; remove the pending paragraph and email-only explanation. Keep independent staff contacts."
+    },
+    "support": {
+      "status": "Not applicable to Delegate branch; native field retained",
+      "storedDestination": null
+    },
+    "preserved": [
+      "Institute Agenda Link",
+      "Institute KBYG Reservation URL",
+      "Operations Lead contacts",
+      "all content-block destinations and references"
+    ]
+  },
+  {
+    "registerId": "27-hgc-feb-2027-sponsor",
+    "pageId": "6ab50d318208177f8b488170",
+    "pageSlug": "hgc-feb-2027-sponsor",
+    "instituteId": "6a062c48ceedbb1f5325d842",
+    "instituteSlug": "hgc-feb-2027",
+    "instituteName": "23. HGC Feb 2027",
+    "audience": "Sponsor",
+    "stagingUrl": "https://ipmi.webflow.io/know-before-you-go/hgc-feb-2027-sponsor",
+    "owner": "IPMI Operations",
+    "confirmedUrl": null,
+    "confirmationDate": null,
+    "hub": {
+      "field": "hub-url",
+      "purpose": "Sponsor MeetMax access",
+      "storedDestination": null,
+      "currentPurpose": "Noninteractive pending destination",
+      "visibleLabel": null,
+      "body": "<p id=\"\">Placeholder — Sponsor MeetMax access and login instructions are awaiting Operations confirmation.</p>",
+      "status": "Actual MeetMax URL and approval pending",
+      "replacement": "Supply this exact Institute/audience MeetMax URL with full query string, purpose, approver and date. Replace Hub URL and set a matching Hub CTA Label; remove the pending paragraph and email-only explanation. Keep independent staff contacts."
+    },
+    "support": {
+      "field": "support-url",
+      "purpose": "Sponsor Support (MeetMax or separate support purpose unconfirmed)",
+      "storedDestination": null,
+      "body": "<p id=\"\">Placeholder — Sponsor support instructions and destination are awaiting Operations confirmation.</p>",
+      "status": "Noninteractive pending destination",
+      "replacement": "Confirm purpose independently and supply the exact event/audience Support URL, matching CTA label, approver and date. Do not reuse Hub URL without specific approval; remove pending copy after confirmation."
+    },
+    "preserved": [
+      "Institute Agenda Link",
+      "Institute KBYG Reservation URL",
+      "Operations Lead contacts",
+      "all content-block destinations and references"
+    ]
+  },
+  {
+    "registerId": "27-hrmi-feb-2027-delegate",
+    "pageId": "6ab50d32fb0314c5be0c52d4",
+    "pageSlug": "hrmi-feb-2027-delegate",
+    "instituteId": "6a04879eb7bb1f4b01d2f85d",
+    "instituteSlug": "hrmi-feb-2027",
+    "instituteName": "22. HR Feb 2027",
+    "audience": "Delegate",
+    "stagingUrl": "https://ipmi.webflow.io/know-before-you-go/hrmi-feb-2027-delegate",
+    "owner": "IPMI Operations",
+    "confirmedUrl": null,
+    "confirmationDate": null,
+    "hub": {
+      "field": "hub-url",
+      "purpose": "Delegate MeetMax access",
+      "storedDestination": null,
+      "currentPurpose": "Noninteractive pending destination",
+      "visibleLabel": null,
+      "body": "<p id=\"\">Placeholder — Delegate MeetMax access and login instructions are awaiting Operations confirmation.</p>",
+      "status": "Actual MeetMax URL and approval pending",
+      "replacement": "Supply this exact Institute/audience MeetMax URL with full query string, purpose, approver and date. Replace Hub URL and set a matching Hub CTA Label; remove the pending paragraph and email-only explanation. Keep independent staff contacts."
+    },
+    "support": {
+      "status": "Not applicable to Delegate branch; native field retained",
+      "storedDestination": null
+    },
+    "preserved": [
+      "Institute Agenda Link",
+      "Institute KBYG Reservation URL",
+      "Operations Lead contacts",
+      "all content-block destinations and references"
+    ]
+  },
+  {
+    "registerId": "27-hrmi-feb-2027-sponsor",
+    "pageId": "6ab50d32d372bc4825dd16e6",
+    "pageSlug": "hrmi-feb-2027-sponsor",
+    "instituteId": "6a04879eb7bb1f4b01d2f85d",
+    "instituteSlug": "hrmi-feb-2027",
+    "instituteName": "22. HR Feb 2027",
+    "audience": "Sponsor",
+    "stagingUrl": "https://ipmi.webflow.io/know-before-you-go/hrmi-feb-2027-sponsor",
+    "owner": "IPMI Operations",
+    "confirmedUrl": null,
+    "confirmationDate": null,
+    "hub": {
+      "field": "hub-url",
+      "purpose": "Sponsor MeetMax access",
+      "storedDestination": null,
+      "currentPurpose": "Noninteractive pending destination",
+      "visibleLabel": null,
+      "body": "<p id=\"\">Placeholder — Sponsor MeetMax access and login instructions are awaiting Operations confirmation.</p>",
+      "status": "Actual MeetMax URL and approval pending",
+      "replacement": "Supply this exact Institute/audience MeetMax URL with full query string, purpose, approver and date. Replace Hub URL and set a matching Hub CTA Label; remove the pending paragraph and email-only explanation. Keep independent staff contacts."
+    },
+    "support": {
+      "field": "support-url",
+      "purpose": "Sponsor Support (MeetMax or separate support purpose unconfirmed)",
+      "storedDestination": null,
+      "body": "<p id=\"\">Placeholder — Sponsor support instructions and destination are awaiting Operations confirmation.</p>",
+      "status": "Noninteractive pending destination",
+      "replacement": "Confirm purpose independently and supply the exact event/audience Support URL, matching CTA label, approver and date. Do not reuse Hub URL without specific approval; remove pending copy after confirmation."
+    },
+    "preserved": [
+      "Institute Agenda Link",
+      "Institute KBYG Reservation URL",
+      "Operations Lead contacts",
+      "all content-block destinations and references"
+    ]
+  },
+  {
+    "registerId": "27-cldi-march-2027-delegate",
+    "pageId": "6ab50d382b317c839e6cf11e",
+    "pageSlug": "cldi-march-2027-delegate",
+    "instituteId": "6a048e03a3a8842d897b0a7b",
+    "instituteSlug": "cldi-march-2027",
+    "instituteName": "25. CLDI March 2027",
+    "audience": "Delegate",
+    "stagingUrl": "https://ipmi.webflow.io/know-before-you-go/cldi-march-2027-delegate",
+    "owner": "IPMI Operations",
+    "confirmedUrl": null,
+    "confirmationDate": null,
+    "hub": {
+      "field": "hub-url",
+      "purpose": "Delegate MeetMax access",
+      "storedDestination": null,
+      "currentPurpose": "Noninteractive pending destination",
+      "visibleLabel": null,
+      "body": "<p id=\"\">Placeholder — Delegate MeetMax access and login instructions are awaiting Operations confirmation.</p>",
+      "status": "Actual MeetMax URL and approval pending",
+      "replacement": "Supply this exact Institute/audience MeetMax URL with full query string, purpose, approver and date. Replace Hub URL and set a matching Hub CTA Label; remove the pending paragraph and email-only explanation. Keep independent staff contacts."
+    },
+    "support": {
+      "status": "Not applicable to Delegate branch; native field retained",
+      "storedDestination": null
+    },
+    "preserved": [
+      "Institute Agenda Link",
+      "Institute KBYG Reservation URL",
+      "Operations Lead contacts",
+      "all content-block destinations and references"
+    ]
+  },
+  {
+    "registerId": "27-cldi-march-2027-sponsor",
+    "pageId": "6ab50d3a1863d23effcb22f3",
+    "pageSlug": "cldi-march-2027-sponsor",
+    "instituteId": "6a048e03a3a8842d897b0a7b",
+    "instituteSlug": "cldi-march-2027",
+    "instituteName": "25. CLDI March 2027",
+    "audience": "Sponsor",
+    "stagingUrl": "https://ipmi.webflow.io/know-before-you-go/cldi-march-2027-sponsor",
+    "owner": "IPMI Operations",
+    "confirmedUrl": null,
+    "confirmationDate": null,
+    "hub": {
+      "field": "hub-url",
+      "purpose": "Sponsor MeetMax access",
+      "storedDestination": null,
+      "currentPurpose": "Noninteractive pending destination",
+      "visibleLabel": null,
+      "body": "<p id=\"\">Placeholder — Sponsor MeetMax access and login instructions are awaiting Operations confirmation.</p>",
+      "status": "Actual MeetMax URL and approval pending",
+      "replacement": "Supply this exact Institute/audience MeetMax URL with full query string, purpose, approver and date. Replace Hub URL and set a matching Hub CTA Label; remove the pending paragraph and email-only explanation. Keep independent staff contacts."
+    },
+    "support": {
+      "field": "support-url",
+      "purpose": "Sponsor Support (MeetMax or separate support purpose unconfirmed)",
+      "storedDestination": null,
+      "body": "<p id=\"\">Placeholder — Sponsor support instructions and destination are awaiting Operations confirmation.</p>",
+      "status": "Noninteractive pending destination",
+      "replacement": "Confirm purpose independently and supply the exact event/audience Support URL, matching CTA label, approver and date. Do not reuse Hub URL without specific approval; remove pending copy after confirmation."
+    },
+    "preserved": [
+      "Institute Agenda Link",
+      "Institute KBYG Reservation URL",
+      "Operations Lead contacts",
+      "all content-block destinations and references"
+    ]
+  },
+  {
+    "registerId": "27-hchrmi-march-2027-delegate",
+    "pageId": "6ab50d3a262aeca30e7c05d3",
+    "pageSlug": "hchrmi-march-2027-delegate",
+    "instituteId": "69c4204f2ea7175dc8c7bcc2",
+    "instituteSlug": "hchrmi-march-2027",
+    "instituteName": "24. HCHR March 2027",
+    "audience": "Delegate",
+    "stagingUrl": "https://ipmi.webflow.io/know-before-you-go/hchrmi-march-2027-delegate",
+    "owner": "IPMI Operations",
+    "confirmedUrl": null,
+    "confirmationDate": null,
+    "hub": {
+      "field": "hub-url",
+      "purpose": "Delegate MeetMax access",
+      "storedDestination": null,
+      "currentPurpose": "Noninteractive pending destination",
+      "visibleLabel": null,
+      "body": "<p id=\"\">Placeholder — Delegate MeetMax access and login instructions are awaiting Operations confirmation.</p>",
+      "status": "Actual MeetMax URL and approval pending",
+      "replacement": "Supply this exact Institute/audience MeetMax URL with full query string, purpose, approver and date. Replace Hub URL and set a matching Hub CTA Label; remove the pending paragraph and email-only explanation. Keep independent staff contacts."
+    },
+    "support": {
+      "status": "Not applicable to Delegate branch; native field retained",
+      "storedDestination": null
+    },
+    "preserved": [
+      "Institute Agenda Link",
+      "Institute KBYG Reservation URL",
+      "Operations Lead contacts",
+      "all content-block destinations and references"
+    ]
+  },
+  {
+    "registerId": "27-hchrmi-march-2027-sponsor",
+    "pageId": "6ab50d3bbd8e93127ef599f4",
+    "pageSlug": "hchrmi-march-2027-sponsor",
+    "instituteId": "69c4204f2ea7175dc8c7bcc2",
+    "instituteSlug": "hchrmi-march-2027",
+    "instituteName": "24. HCHR March 2027",
+    "audience": "Sponsor",
+    "stagingUrl": "https://ipmi.webflow.io/know-before-you-go/hchrmi-march-2027-sponsor",
+    "owner": "IPMI Operations",
+    "confirmedUrl": null,
+    "confirmationDate": null,
+    "hub": {
+      "field": "hub-url",
+      "purpose": "Sponsor MeetMax access",
+      "storedDestination": null,
+      "currentPurpose": "Noninteractive pending destination",
+      "visibleLabel": null,
+      "body": "<p id=\"\">Placeholder — Sponsor MeetMax access and login instructions are awaiting Operations confirmation.</p>",
+      "status": "Actual MeetMax URL and approval pending",
+      "replacement": "Supply this exact Institute/audience MeetMax URL with full query string, purpose, approver and date. Replace Hub URL and set a matching Hub CTA Label; remove the pending paragraph and email-only explanation. Keep independent staff contacts."
+    },
+    "support": {
+      "field": "support-url",
+      "purpose": "Sponsor Support (MeetMax or separate support purpose unconfirmed)",
+      "storedDestination": null,
+      "body": "<p id=\"\">Placeholder — Sponsor support instructions and destination are awaiting Operations confirmation.</p>",
+      "status": "Noninteractive pending destination",
+      "replacement": "Confirm purpose independently and supply the exact event/audience Support URL, matching CTA label, approver and date. Do not reuse Hub URL without specific approval; remove pending copy after confirmation."
+    },
+    "preserved": [
+      "Institute Agenda Link",
+      "Institute KBYG Reservation URL",
+      "Operations Lead contacts",
+      "all content-block destinations and references"
+    ]
+  },
+  {
+    "registerId": "27-hfi-2027-delegate",
+    "pageId": "6ab50d3f38aff95b67bc8c2f",
+    "pageSlug": "hfi-2027-delegate",
+    "instituteId": "69c4214fdb29400f554e0aa3",
+    "instituteSlug": "hfi-2027",
+    "instituteName": "26. HFI 2027",
+    "audience": "Delegate",
+    "stagingUrl": "https://ipmi.webflow.io/know-before-you-go/hfi-2027-delegate",
+    "owner": "IPMI Operations",
+    "confirmedUrl": null,
+    "confirmationDate": null,
+    "hub": {
+      "field": "hub-url",
+      "purpose": "Delegate MeetMax access",
+      "storedDestination": null,
+      "currentPurpose": "Noninteractive pending destination",
+      "visibleLabel": null,
+      "body": "<p id=\"\">Placeholder — Delegate MeetMax access and login instructions are awaiting Operations confirmation.</p>",
+      "status": "Actual MeetMax URL and approval pending",
+      "replacement": "Supply this exact Institute/audience MeetMax URL with full query string, purpose, approver and date. Replace Hub URL and set a matching Hub CTA Label; remove the pending paragraph and email-only explanation. Keep independent staff contacts."
+    },
+    "support": {
+      "status": "Not applicable to Delegate branch; native field retained",
+      "storedDestination": null
+    },
+    "preserved": [
+      "Institute Agenda Link",
+      "Institute KBYG Reservation URL",
+      "Operations Lead contacts",
+      "all content-block destinations and references"
+    ]
+  },
+  {
+    "registerId": "27-hfi-2027-sponsor",
+    "pageId": "6ab50d40cc6def753759aeea",
+    "pageSlug": "hfi-2027-sponsor",
+    "instituteId": "69c4214fdb29400f554e0aa3",
+    "instituteSlug": "hfi-2027",
+    "instituteName": "26. HFI 2027",
+    "audience": "Sponsor",
+    "stagingUrl": "https://ipmi.webflow.io/know-before-you-go/hfi-2027-sponsor",
+    "owner": "IPMI Operations",
+    "confirmedUrl": null,
+    "confirmationDate": null,
+    "hub": {
+      "field": "hub-url",
+      "purpose": "Sponsor MeetMax access",
+      "storedDestination": null,
+      "currentPurpose": "Noninteractive pending destination",
+      "visibleLabel": null,
+      "body": "<p id=\"\">Placeholder — Sponsor MeetMax access and login instructions are awaiting Operations confirmation.</p>",
+      "status": "Actual MeetMax URL and approval pending",
+      "replacement": "Supply this exact Institute/audience MeetMax URL with full query string, purpose, approver and date. Replace Hub URL and set a matching Hub CTA Label; remove the pending paragraph and email-only explanation. Keep independent staff contacts."
+    },
+    "support": {
+      "field": "support-url",
+      "purpose": "Sponsor Support (MeetMax or separate support purpose unconfirmed)",
+      "storedDestination": null,
+      "body": "<p id=\"\">Placeholder — Sponsor support instructions and destination are awaiting Operations confirmation.</p>",
+      "status": "Noninteractive pending destination",
+      "replacement": "Confirm purpose independently and supply the exact event/audience Support URL, matching CTA label, approver and date. Do not reuse Hub URL without specific approval; remove pending copy after confirmation."
+    },
+    "preserved": [
+      "Institute Agenda Link",
+      "Institute KBYG Reservation URL",
+      "Operations Lead contacts",
+      "all content-block destinations and references"
+    ]
+  },
+  {
+    "registerId": "27-hr-can-april-2027-delegate",
+    "pageId": "6ab50d40935a054fc242f52d",
+    "pageSlug": "hr-can-april-2027-delegate",
+    "instituteId": "6a625aa509d2114b6c18f823",
+    "instituteSlug": "hr-can-april-2027",
+    "instituteName": "27. HR Can April 2027",
+    "audience": "Delegate",
+    "stagingUrl": "https://ipmi.webflow.io/know-before-you-go/hr-can-april-2027-delegate",
+    "owner": "IPMI Operations",
+    "confirmedUrl": null,
+    "confirmationDate": null,
+    "hub": {
+      "field": "hub-url",
+      "purpose": "Delegate MeetMax access",
+      "storedDestination": null,
+      "currentPurpose": "Noninteractive pending destination",
+      "visibleLabel": null,
+      "body": "<p id=\"\">Placeholder — Delegate MeetMax access and login instructions are awaiting Operations confirmation.</p>",
+      "status": "Actual MeetMax URL and approval pending",
+      "replacement": "Supply this exact Institute/audience MeetMax URL with full query string, purpose, approver and date. Replace Hub URL and set a matching Hub CTA Label; remove the pending paragraph and email-only explanation. Keep independent staff contacts."
+    },
+    "support": {
+      "status": "Not applicable to Delegate branch; native field retained",
+      "storedDestination": null
+    },
+    "preserved": [
+      "Institute Agenda Link",
+      "Institute KBYG Reservation URL",
+      "Operations Lead contacts",
+      "all content-block destinations and references"
+    ]
+  },
+  {
+    "registerId": "27-hr-can-april-2027-sponsor",
+    "pageId": "6ab50d411863d23effcb263e",
+    "pageSlug": "hr-can-april-2027-sponsor",
+    "instituteId": "6a625aa509d2114b6c18f823",
+    "instituteSlug": "hr-can-april-2027",
+    "instituteName": "27. HR Can April 2027",
+    "audience": "Sponsor",
+    "stagingUrl": "https://ipmi.webflow.io/know-before-you-go/hr-can-april-2027-sponsor",
+    "owner": "IPMI Operations",
+    "confirmedUrl": null,
+    "confirmationDate": null,
+    "hub": {
+      "field": "hub-url",
+      "purpose": "Sponsor MeetMax access",
+      "storedDestination": null,
+      "currentPurpose": "Noninteractive pending destination",
+      "visibleLabel": null,
+      "body": "<p id=\"\">Placeholder — Sponsor MeetMax access and login instructions are awaiting Operations confirmation.</p>",
+      "status": "Actual MeetMax URL and approval pending",
+      "replacement": "Supply this exact Institute/audience MeetMax URL with full query string, purpose, approver and date. Replace Hub URL and set a matching Hub CTA Label; remove the pending paragraph and email-only explanation. Keep independent staff contacts."
+    },
+    "support": {
+      "field": "support-url",
+      "purpose": "Sponsor Support (MeetMax or separate support purpose unconfirmed)",
+      "storedDestination": null,
+      "body": "<p id=\"\">Placeholder — Sponsor support instructions and destination are awaiting Operations confirmation.</p>",
+      "status": "Noninteractive pending destination",
+      "replacement": "Confirm purpose independently and supply the exact event/audience Support URL, matching CTA label, approver and date. Do not reuse Hub URL without specific approval; remove pending copy after confirmation."
+    },
+    "preserved": [
+      "Institute Agenda Link",
+      "Institute KBYG Reservation URL",
+      "Operations Lead contacts",
+      "all content-block destinations and references"
+    ]
+  },
+  {
+    "registerId": "27-28-tai-us-2027-delegate",
+    "pageId": "6ab50d424aab59c6534991e0",
+    "pageSlug": "28-tai-us-2027-delegate",
+    "instituteId": "6a6b7c84b3f42f1434486fe4",
+    "instituteSlug": "28-tai-us-2027",
+    "instituteName": "28. TAI US 2027",
+    "audience": "Delegate",
+    "stagingUrl": "https://ipmi.webflow.io/know-before-you-go/28-tai-us-2027-delegate",
+    "owner": "IPMI Operations",
+    "confirmedUrl": null,
+    "confirmationDate": null,
+    "hub": {
+      "field": "hub-url",
+      "purpose": "Delegate MeetMax access",
+      "storedDestination": null,
+      "currentPurpose": "Noninteractive pending destination",
+      "visibleLabel": null,
+      "body": "<p id=\"\">Placeholder — Delegate MeetMax access and login instructions are awaiting Operations confirmation.</p>",
+      "status": "Actual MeetMax URL and approval pending",
+      "replacement": "Supply this exact Institute/audience MeetMax URL with full query string, purpose, approver and date. Replace Hub URL and set a matching Hub CTA Label; remove the pending paragraph and email-only explanation. Keep independent staff contacts."
+    },
+    "support": {
+      "status": "Not applicable to Delegate branch; native field retained",
+      "storedDestination": null
+    },
+    "preserved": [
+      "Institute Agenda Link",
+      "Institute KBYG Reservation URL",
+      "Operations Lead contacts",
+      "all content-block destinations and references"
+    ]
+  },
+  {
+    "registerId": "27-28-tai-us-2027-sponsor",
+    "pageId": "6ab50d4289b31179acde4532",
+    "pageSlug": "28-tai-us-2027-sponsor",
+    "instituteId": "6a6b7c84b3f42f1434486fe4",
+    "instituteSlug": "28-tai-us-2027",
+    "instituteName": "28. TAI US 2027",
+    "audience": "Sponsor",
+    "stagingUrl": "https://ipmi.webflow.io/know-before-you-go/28-tai-us-2027-sponsor",
+    "owner": "IPMI Operations",
+    "confirmedUrl": null,
+    "confirmationDate": null,
+    "hub": {
+      "field": "hub-url",
+      "purpose": "Sponsor MeetMax access",
+      "storedDestination": null,
+      "currentPurpose": "Noninteractive pending destination",
+      "visibleLabel": null,
+      "body": "<p id=\"\">Placeholder — Sponsor MeetMax access and login instructions are awaiting Operations confirmation.</p>",
+      "status": "Actual MeetMax URL and approval pending",
+      "replacement": "Supply this exact Institute/audience MeetMax URL with full query string, purpose, approver and date. Replace Hub URL and set a matching Hub CTA Label; remove the pending paragraph and email-only explanation. Keep independent staff contacts."
+    },
+    "support": {
+      "field": "support-url",
+      "purpose": "Sponsor Support (MeetMax or separate support purpose unconfirmed)",
+      "storedDestination": null,
+      "body": "<p id=\"\">Placeholder — Sponsor support instructions and destination are awaiting Operations confirmation.</p>",
+      "status": "Noninteractive pending destination",
+      "replacement": "Confirm purpose independently and supply the exact event/audience Support URL, matching CTA label, approver and date. Do not reuse Hub URL without specific approval; remove pending copy after confirmation."
+    },
+    "preserved": [
+      "Institute Agenda Link",
+      "Institute KBYG Reservation URL",
+      "Operations Lead contacts",
+      "all content-block destinations and references"
+    ]
+  },
+  {
+    "registerId": "27-29-taeei-can-delegate",
+    "pageId": "6ab50d45ae4335f0476609d9",
+    "pageSlug": "29-taeei-can-delegate",
+    "instituteId": "6a734f7e0f9ec23790927eb3",
+    "instituteSlug": "29-taeei-can",
+    "instituteName": "29. TAEEI Can",
+    "audience": "Delegate",
+    "stagingUrl": "https://ipmi.webflow.io/know-before-you-go/29-taeei-can-delegate",
+    "owner": "IPMI Operations",
+    "confirmedUrl": null,
+    "confirmationDate": null,
+    "hub": {
+      "field": "hub-url",
+      "purpose": "Delegate MeetMax access",
+      "storedDestination": null,
+      "currentPurpose": "Noninteractive pending destination",
+      "visibleLabel": null,
+      "body": "<p id=\"\">Placeholder — Delegate MeetMax access and login instructions are awaiting Operations confirmation.</p>",
+      "status": "Actual MeetMax URL and approval pending",
+      "replacement": "Supply this exact Institute/audience MeetMax URL with full query string, purpose, approver and date. Replace Hub URL and set a matching Hub CTA Label; remove the pending paragraph and email-only explanation. Keep independent staff contacts."
+    },
+    "support": {
+      "status": "Not applicable to Delegate branch; native field retained",
+      "storedDestination": null
+    },
+    "preserved": [
+      "Institute Agenda Link",
+      "Institute KBYG Reservation URL",
+      "Operations Lead contacts",
+      "all content-block destinations and references"
+    ]
+  },
+  {
+    "registerId": "27-29-taeei-can-sponsor",
+    "pageId": "6ab50d4589b31179acde4752",
+    "pageSlug": "29-taeei-can-sponsor",
+    "instituteId": "6a734f7e0f9ec23790927eb3",
+    "instituteSlug": "29-taeei-can",
+    "instituteName": "29. TAEEI Can",
+    "audience": "Sponsor",
+    "stagingUrl": "https://ipmi.webflow.io/know-before-you-go/29-taeei-can-sponsor",
+    "owner": "IPMI Operations",
+    "confirmedUrl": null,
+    "confirmationDate": null,
+    "hub": {
+      "field": "hub-url",
+      "purpose": "Sponsor MeetMax access",
+      "storedDestination": null,
+      "currentPurpose": "Noninteractive pending destination",
+      "visibleLabel": null,
+      "body": "<p id=\"\">Placeholder — Sponsor MeetMax access and login instructions are awaiting Operations confirmation.</p>",
+      "status": "Actual MeetMax URL and approval pending",
+      "replacement": "Supply this exact Institute/audience MeetMax URL with full query string, purpose, approver and date. Replace Hub URL and set a matching Hub CTA Label; remove the pending paragraph and email-only explanation. Keep independent staff contacts."
+    },
+    "support": {
+      "field": "support-url",
+      "purpose": "Sponsor Support (MeetMax or separate support purpose unconfirmed)",
+      "storedDestination": null,
+      "body": "<p id=\"\">Placeholder — Sponsor support instructions and destination are awaiting Operations confirmation.</p>",
+      "status": "Noninteractive pending destination",
+      "replacement": "Confirm purpose independently and supply the exact event/audience Support URL, matching CTA label, approver and date. Do not reuse Hub URL without specific approval; remove pending copy after confirmation."
+    },
+    "preserved": [
+      "Institute Agenda Link",
+      "Institute KBYG Reservation URL",
+      "Operations Lead contacts",
+      "all content-block destinations and references"
+    ]
+  },
+  {
+    "registerId": "27-211-hrmi-june-2027-delegate",
+    "pageId": "6ab50d46bd8e93127ef5ad2a",
+    "pageSlug": "211-hrmi-june-2027-delegate",
+    "instituteId": "6a735243aa7b56372e436f6d",
+    "instituteSlug": "211-hrmi-june-2027",
+    "instituteName": "211. HRMI June 2027",
+    "audience": "Delegate",
+    "stagingUrl": "https://ipmi.webflow.io/know-before-you-go/211-hrmi-june-2027-delegate",
+    "owner": "IPMI Operations",
+    "confirmedUrl": null,
+    "confirmationDate": null,
+    "hub": {
+      "field": "hub-url",
+      "purpose": "Delegate MeetMax access",
+      "storedDestination": null,
+      "currentPurpose": "Noninteractive pending destination",
+      "visibleLabel": null,
+      "body": "<p id=\"\">Placeholder — Delegate MeetMax access and login instructions are awaiting Operations confirmation.</p>",
+      "status": "Actual MeetMax URL and approval pending",
+      "replacement": "Supply this exact Institute/audience MeetMax URL with full query string, purpose, approver and date. Replace Hub URL and set a matching Hub CTA Label; remove the pending paragraph and email-only explanation. Keep independent staff contacts."
+    },
+    "support": {
+      "status": "Not applicable to Delegate branch; native field retained",
+      "storedDestination": null
+    },
+    "preserved": [
+      "Institute Agenda Link",
+      "Institute KBYG Reservation URL",
+      "Operations Lead contacts",
+      "all content-block destinations and references"
+    ]
+  },
+  {
+    "registerId": "27-211-hrmi-june-2027-sponsor",
+    "pageId": "6ab50d47fe62ee119ab784dd",
+    "pageSlug": "211-hrmi-june-2027-sponsor",
+    "instituteId": "6a735243aa7b56372e436f6d",
+    "instituteSlug": "211-hrmi-june-2027",
+    "instituteName": "211. HRMI June 2027",
+    "audience": "Sponsor",
+    "stagingUrl": "https://ipmi.webflow.io/know-before-you-go/211-hrmi-june-2027-sponsor",
+    "owner": "IPMI Operations",
+    "confirmedUrl": null,
+    "confirmationDate": null,
+    "hub": {
+      "field": "hub-url",
+      "purpose": "Sponsor MeetMax access",
+      "storedDestination": null,
+      "currentPurpose": "Noninteractive pending destination",
+      "visibleLabel": null,
+      "body": "<p id=\"\">Placeholder — Sponsor MeetMax access and login instructions are awaiting Operations confirmation.</p>",
+      "status": "Actual MeetMax URL and approval pending",
+      "replacement": "Supply this exact Institute/audience MeetMax URL with full query string, purpose, approver and date. Replace Hub URL and set a matching Hub CTA Label; remove the pending paragraph and email-only explanation. Keep independent staff contacts."
+    },
+    "support": {
+      "field": "support-url",
+      "purpose": "Sponsor Support (MeetMax or separate support purpose unconfirmed)",
+      "storedDestination": null,
+      "body": "<p id=\"\">Placeholder — Sponsor support instructions and destination are awaiting Operations confirmation.</p>",
+      "status": "Noninteractive pending destination",
+      "replacement": "Confirm purpose independently and supply the exact event/audience Support URL, matching CTA label, approver and date. Do not reuse Hub URL without specific approval; remove pending copy after confirmation."
+    },
+    "preserved": [
+      "Institute Agenda Link",
+      "Institute KBYG Reservation URL",
+      "Operations Lead contacts",
+      "all content-block destinations and references"
+    ]
+  },
+  {
+    "registerId": "27-hit-2027-delegate",
+    "pageId": "6ab50d4846f505e214eb19fc",
+    "pageSlug": "hit-2027-delegate",
+    "instituteId": "6a062fba0e49a14badf21c95",
+    "instituteSlug": "hit-2027",
+    "instituteName": "210. HIT 2027",
+    "audience": "Delegate",
+    "stagingUrl": "https://ipmi.webflow.io/know-before-you-go/hit-2027-delegate",
+    "owner": "IPMI Operations",
+    "confirmedUrl": null,
+    "confirmationDate": null,
+    "hub": {
+      "field": "hub-url",
+      "purpose": "Delegate MeetMax access",
+      "storedDestination": null,
+      "currentPurpose": "Noninteractive pending destination",
+      "visibleLabel": null,
+      "body": "<p id=\"\">Placeholder — Delegate MeetMax access and login instructions are awaiting Operations confirmation.</p>",
+      "status": "Actual MeetMax URL and approval pending",
+      "replacement": "Supply this exact Institute/audience MeetMax URL with full query string, purpose, approver and date. Replace Hub URL and set a matching Hub CTA Label; remove the pending paragraph and email-only explanation. Keep independent staff contacts."
+    },
+    "support": {
+      "status": "Not applicable to Delegate branch; native field retained",
+      "storedDestination": null
+    },
+    "preserved": [
+      "Institute Agenda Link",
+      "Institute KBYG Reservation URL",
+      "Operations Lead contacts",
+      "all content-block destinations and references"
+    ]
+  },
+  {
+    "registerId": "27-hit-2027-sponsor",
+    "pageId": "6ab50d484aab59c653499575",
+    "pageSlug": "hit-2027-sponsor",
+    "instituteId": "6a062fba0e49a14badf21c95",
+    "instituteSlug": "hit-2027",
+    "instituteName": "210. HIT 2027",
+    "audience": "Sponsor",
+    "stagingUrl": "https://ipmi.webflow.io/know-before-you-go/hit-2027-sponsor",
+    "owner": "IPMI Operations",
+    "confirmedUrl": null,
+    "confirmationDate": null,
+    "hub": {
+      "field": "hub-url",
+      "purpose": "Sponsor MeetMax access",
+      "storedDestination": null,
+      "currentPurpose": "Noninteractive pending destination",
+      "visibleLabel": null,
+      "body": "<p id=\"\">Placeholder — Sponsor MeetMax access and login instructions are awaiting Operations confirmation.</p>",
+      "status": "Actual MeetMax URL and approval pending",
+      "replacement": "Supply this exact Institute/audience MeetMax URL with full query string, purpose, approver and date. Replace Hub URL and set a matching Hub CTA Label; remove the pending paragraph and email-only explanation. Keep independent staff contacts."
+    },
+    "support": {
+      "field": "support-url",
+      "purpose": "Sponsor Support (MeetMax or separate support purpose unconfirmed)",
+      "storedDestination": null,
+      "body": "<p id=\"\">Placeholder — Sponsor support instructions and destination are awaiting Operations confirmation.</p>",
+      "status": "Noninteractive pending destination",
+      "replacement": "Confirm purpose independently and supply the exact event/audience Support URL, matching CTA label, approver and date. Do not reuse Hub URL without specific approval; remove pending copy after confirmation."
+    },
+    "preserved": [
+      "Institute Agenda Link",
+      "Institute KBYG Reservation URL",
+      "Operations Lead contacts",
+      "all content-block destinations and references"
+    ]
+  },
+  {
+    "registerId": "27-ehs-july-2027-delegate",
+    "pageId": "6ab50d4928b704e9dad696de",
+    "pageSlug": "ehs-july-2027-delegate",
+    "instituteId": "6a46b02076a8aaadc4a60eb3",
+    "instituteSlug": "ehs-july-2027",
+    "instituteName": "212. EHS July 2027",
+    "audience": "Delegate",
+    "stagingUrl": "https://ipmi.webflow.io/know-before-you-go/ehs-july-2027-delegate",
+    "owner": "IPMI Operations",
+    "confirmedUrl": null,
+    "confirmationDate": null,
+    "hub": {
+      "field": "hub-url",
+      "purpose": "Delegate MeetMax access",
+      "storedDestination": null,
+      "currentPurpose": "Noninteractive pending destination",
+      "visibleLabel": null,
+      "body": "<p id=\"\">Placeholder — Delegate MeetMax access and login instructions are awaiting Operations confirmation.</p>",
+      "status": "Actual MeetMax URL and approval pending",
+      "replacement": "Supply this exact Institute/audience MeetMax URL with full query string, purpose, approver and date. Replace Hub URL and set a matching Hub CTA Label; remove the pending paragraph and email-only explanation. Keep independent staff contacts."
+    },
+    "support": {
+      "status": "Not applicable to Delegate branch; native field retained",
+      "storedDestination": null
+    },
+    "preserved": [
+      "Institute Agenda Link",
+      "Institute KBYG Reservation URL",
+      "Operations Lead contacts",
+      "all content-block destinations and references"
+    ]
+  },
+  {
+    "registerId": "27-ehs-july-2027-sponsor",
+    "pageId": "6ab50d492b317c839e6cf9af",
+    "pageSlug": "ehs-july-2027-sponsor",
+    "instituteId": "6a46b02076a8aaadc4a60eb3",
+    "instituteSlug": "ehs-july-2027",
+    "instituteName": "212. EHS July 2027",
+    "audience": "Sponsor",
+    "stagingUrl": "https://ipmi.webflow.io/know-before-you-go/ehs-july-2027-sponsor",
+    "owner": "IPMI Operations",
+    "confirmedUrl": null,
+    "confirmationDate": null,
+    "hub": {
+      "field": "hub-url",
+      "purpose": "Sponsor MeetMax access",
+      "storedDestination": null,
+      "currentPurpose": "Noninteractive pending destination",
+      "visibleLabel": null,
+      "body": "<p id=\"\">Placeholder — Sponsor MeetMax access and login instructions are awaiting Operations confirmation.</p>",
+      "status": "Actual MeetMax URL and approval pending",
+      "replacement": "Supply this exact Institute/audience MeetMax URL with full query string, purpose, approver and date. Replace Hub URL and set a matching Hub CTA Label; remove the pending paragraph and email-only explanation. Keep independent staff contacts."
+    },
+    "support": {
+      "field": "support-url",
+      "purpose": "Sponsor Support (MeetMax or separate support purpose unconfirmed)",
+      "storedDestination": null,
+      "body": "<p id=\"\">Placeholder — Sponsor support instructions and destination are awaiting Operations confirmation.</p>",
+      "status": "Noninteractive pending destination",
+      "replacement": "Confirm purpose independently and supply the exact event/audience Support URL, matching CTA label, approver and date. Do not reuse Hub URL without specific approval; remove pending copy after confirmation."
+    },
+    "preserved": [
+      "Institute Agenda Link",
+      "Institute KBYG Reservation URL",
+      "Operations Lead contacts",
+      "all content-block destinations and references"
+    ]
+  },
+  {
+    "registerId": "27-213-cldi-sept-2027-delegate",
+    "pageId": "6ab50d4aae4335f047660bef",
+    "pageSlug": "213-cldi-sept-2027-delegate",
+    "instituteId": "6a7353d54b2d405c8281c2e3",
+    "instituteSlug": "213-cldi-sept-2027",
+    "instituteName": "213. CLDI Sept 2027",
+    "audience": "Delegate",
+    "stagingUrl": "https://ipmi.webflow.io/know-before-you-go/213-cldi-sept-2027-delegate",
+    "owner": "IPMI Operations",
+    "confirmedUrl": null,
+    "confirmationDate": null,
+    "hub": {
+      "field": "hub-url",
+      "purpose": "Delegate MeetMax access",
+      "storedDestination": null,
+      "currentPurpose": "Noninteractive pending destination",
+      "visibleLabel": null,
+      "body": "<p id=\"\">Placeholder — Delegate MeetMax access and login instructions are awaiting Operations confirmation.</p>",
+      "status": "Actual MeetMax URL and approval pending",
+      "replacement": "Supply this exact Institute/audience MeetMax URL with full query string, purpose, approver and date. Replace Hub URL and set a matching Hub CTA Label; remove the pending paragraph and email-only explanation. Keep independent staff contacts."
+    },
+    "support": {
+      "status": "Not applicable to Delegate branch; native field retained",
+      "storedDestination": null
+    },
+    "preserved": [
+      "Institute Agenda Link",
+      "Institute KBYG Reservation URL",
+      "Operations Lead contacts",
+      "all content-block destinations and references"
+    ]
+  },
+  {
+    "registerId": "27-213-cldi-sept-2027-sponsor",
+    "pageId": "6ab50d4bda20e728200b036d",
+    "pageSlug": "213-cldi-sept-2027-sponsor",
+    "instituteId": "6a7353d54b2d405c8281c2e3",
+    "instituteSlug": "213-cldi-sept-2027",
+    "instituteName": "213. CLDI Sept 2027",
+    "audience": "Sponsor",
+    "stagingUrl": "https://ipmi.webflow.io/know-before-you-go/213-cldi-sept-2027-sponsor",
+    "owner": "IPMI Operations",
+    "confirmedUrl": null,
+    "confirmationDate": null,
+    "hub": {
+      "field": "hub-url",
+      "purpose": "Sponsor MeetMax access",
+      "storedDestination": null,
+      "currentPurpose": "Noninteractive pending destination",
+      "visibleLabel": null,
+      "body": "<p id=\"\">Placeholder — Sponsor MeetMax access and login instructions are awaiting Operations confirmation.</p>",
+      "status": "Actual MeetMax URL and approval pending",
+      "replacement": "Supply this exact Institute/audience MeetMax URL with full query string, purpose, approver and date. Replace Hub URL and set a matching Hub CTA Label; remove the pending paragraph and email-only explanation. Keep independent staff contacts."
+    },
+    "support": {
+      "field": "support-url",
+      "purpose": "Sponsor Support (MeetMax or separate support purpose unconfirmed)",
+      "storedDestination": null,
+      "body": "<p id=\"\">Placeholder — Sponsor support instructions and destination are awaiting Operations confirmation.</p>",
+      "status": "Noninteractive pending destination",
+      "replacement": "Confirm purpose independently and supply the exact event/audience Support URL, matching CTA label, approver and date. Do not reuse Hub URL without specific approval; remove pending copy after confirmation."
+    },
+    "preserved": [
+      "Institute Agenda Link",
+      "Institute KBYG Reservation URL",
+      "Operations Lead contacts",
+      "all content-block destinations and references"
+    ]
+  },
+  {
+    "registerId": "27-214-hgc-sept-2027-delegate",
+    "pageId": "6ab50d4bfb0314c5be0c5dea",
+    "pageSlug": "214-hgc-sept-2027-delegate",
+    "instituteId": "6a7355fe6cf8f06fdda1ba83",
+    "instituteSlug": "214-hgc-sept-2027",
+    "instituteName": "214. HGC Sept 2027",
+    "audience": "Delegate",
+    "stagingUrl": "https://ipmi.webflow.io/know-before-you-go/214-hgc-sept-2027-delegate",
+    "owner": "IPMI Operations",
+    "confirmedUrl": null,
+    "confirmationDate": null,
+    "hub": {
+      "field": "hub-url",
+      "purpose": "Delegate MeetMax access",
+      "storedDestination": null,
+      "currentPurpose": "Noninteractive pending destination",
+      "visibleLabel": null,
+      "body": "<p id=\"\">Placeholder — Delegate MeetMax access and login instructions are awaiting Operations confirmation.</p>",
+      "status": "Actual MeetMax URL and approval pending",
+      "replacement": "Supply this exact Institute/audience MeetMax URL with full query string, purpose, approver and date. Replace Hub URL and set a matching Hub CTA Label; remove the pending paragraph and email-only explanation. Keep independent staff contacts."
+    },
+    "support": {
+      "status": "Not applicable to Delegate branch; native field retained",
+      "storedDestination": null
+    },
+    "preserved": [
+      "Institute Agenda Link",
+      "Institute KBYG Reservation URL",
+      "Operations Lead contacts",
+      "all content-block destinations and references"
+    ]
+  },
+  {
+    "registerId": "27-214-hgc-sept-2027-sponsor",
+    "pageId": "6ab50d4c0585a374ecb23e37",
+    "pageSlug": "214-hgc-sept-2027-sponsor",
+    "instituteId": "6a7355fe6cf8f06fdda1ba83",
+    "instituteSlug": "214-hgc-sept-2027",
+    "instituteName": "214. HGC Sept 2027",
+    "audience": "Sponsor",
+    "stagingUrl": "https://ipmi.webflow.io/know-before-you-go/214-hgc-sept-2027-sponsor",
+    "owner": "IPMI Operations",
+    "confirmedUrl": null,
+    "confirmationDate": null,
+    "hub": {
+      "field": "hub-url",
+      "purpose": "Sponsor MeetMax access",
+      "storedDestination": null,
+      "currentPurpose": "Noninteractive pending destination",
+      "visibleLabel": null,
+      "body": "<p id=\"\">Placeholder — Sponsor MeetMax access and login instructions are awaiting Operations confirmation.</p>",
+      "status": "Actual MeetMax URL and approval pending",
+      "replacement": "Supply this exact Institute/audience MeetMax URL with full query string, purpose, approver and date. Replace Hub URL and set a matching Hub CTA Label; remove the pending paragraph and email-only explanation. Keep independent staff contacts."
+    },
+    "support": {
+      "field": "support-url",
+      "purpose": "Sponsor Support (MeetMax or separate support purpose unconfirmed)",
+      "storedDestination": null,
+      "body": "<p id=\"\">Placeholder — Sponsor support instructions and destination are awaiting Operations confirmation.</p>",
+      "status": "Noninteractive pending destination",
+      "replacement": "Confirm purpose independently and supply the exact event/audience Support URL, matching CTA label, approver and date. Do not reuse Hub URL without specific approval; remove pending copy after confirmation."
+    },
+    "preserved": [
+      "Institute Agenda Link",
+      "Institute KBYG Reservation URL",
+      "Operations Lead contacts",
+      "all content-block destinations and references"
+    ]
+  },
+  {
+    "registerId": "27-215-hchr-sept-2027-delegate",
+    "pageId": "6ab50d4d1fa22ba818463c7b",
+    "pageSlug": "215-hchr-sept-2027-delegate",
+    "instituteId": "6a7356e511519b165c9814e1",
+    "instituteSlug": "215-hchr-sept-2027",
+    "instituteName": "215. HCHR Sept 2027",
+    "audience": "Delegate",
+    "stagingUrl": "https://ipmi.webflow.io/know-before-you-go/215-hchr-sept-2027-delegate",
+    "owner": "IPMI Operations",
+    "confirmedUrl": null,
+    "confirmationDate": null,
+    "hub": {
+      "field": "hub-url",
+      "purpose": "Delegate MeetMax access",
+      "storedDestination": null,
+      "currentPurpose": "Noninteractive pending destination",
+      "visibleLabel": null,
+      "body": "<p id=\"\">Placeholder — Delegate MeetMax access and login instructions are awaiting Operations confirmation.</p>",
+      "status": "Actual MeetMax URL and approval pending",
+      "replacement": "Supply this exact Institute/audience MeetMax URL with full query string, purpose, approver and date. Replace Hub URL and set a matching Hub CTA Label; remove the pending paragraph and email-only explanation. Keep independent staff contacts."
+    },
+    "support": {
+      "status": "Not applicable to Delegate branch; native field retained",
+      "storedDestination": null
+    },
+    "preserved": [
+      "Institute Agenda Link",
+      "Institute KBYG Reservation URL",
+      "Operations Lead contacts",
+      "all content-block destinations and references"
+    ]
+  },
+  {
+    "registerId": "27-215-hchr-sept-2027-sponsor",
+    "pageId": "6ab50d4ebe40a686ff3bdd32",
+    "pageSlug": "215-hchr-sept-2027-sponsor",
+    "instituteId": "6a7356e511519b165c9814e1",
+    "instituteSlug": "215-hchr-sept-2027",
+    "instituteName": "215. HCHR Sept 2027",
+    "audience": "Sponsor",
+    "stagingUrl": "https://ipmi.webflow.io/know-before-you-go/215-hchr-sept-2027-sponsor",
+    "owner": "IPMI Operations",
+    "confirmedUrl": null,
+    "confirmationDate": null,
+    "hub": {
+      "field": "hub-url",
+      "purpose": "Sponsor MeetMax access",
+      "storedDestination": null,
+      "currentPurpose": "Noninteractive pending destination",
+      "visibleLabel": null,
+      "body": "<p id=\"\">Placeholder — Sponsor MeetMax access and login instructions are awaiting Operations confirmation.</p>",
+      "status": "Actual MeetMax URL and approval pending",
+      "replacement": "Supply this exact Institute/audience MeetMax URL with full query string, purpose, approver and date. Replace Hub URL and set a matching Hub CTA Label; remove the pending paragraph and email-only explanation. Keep independent staff contacts."
+    },
+    "support": {
+      "field": "support-url",
+      "purpose": "Sponsor Support (MeetMax or separate support purpose unconfirmed)",
+      "storedDestination": null,
+      "body": "<p id=\"\">Placeholder — Sponsor support instructions and destination are awaiting Operations confirmation.</p>",
+      "status": "Noninteractive pending destination",
+      "replacement": "Confirm purpose independently and supply the exact event/audience Support URL, matching CTA label, approver and date. Do not reuse Hub URL without specific approval; remove pending copy after confirmation."
+    },
+    "preserved": [
+      "Institute Agenda Link",
+      "Institute KBYG Reservation URL",
+      "Operations Lead contacts",
+      "all content-block destinations and references"
+    ]
+  },
+  {
+    "registerId": "27-216-ip-law-2027-delegate",
+    "pageId": "6ab50d4ff482b9db6492a50e",
+    "pageSlug": "216-ip-law-2027-delegate",
+    "instituteId": "6a735736f63007d8a10f8aa7",
+    "instituteSlug": "216-ip-law-2027",
+    "instituteName": "216. IP Law 2027",
+    "audience": "Delegate",
+    "stagingUrl": "https://ipmi.webflow.io/know-before-you-go/216-ip-law-2027-delegate",
+    "owner": "IPMI Operations",
+    "confirmedUrl": null,
+    "confirmationDate": null,
+    "hub": {
+      "field": "hub-url",
+      "purpose": "Delegate MeetMax access",
+      "storedDestination": null,
+      "currentPurpose": "Noninteractive pending destination",
+      "visibleLabel": null,
+      "body": "<p id=\"\">Placeholder — Delegate MeetMax access and login instructions are awaiting Operations confirmation.</p>",
+      "status": "Actual MeetMax URL and approval pending",
+      "replacement": "Supply this exact Institute/audience MeetMax URL with full query string, purpose, approver and date. Replace Hub URL and set a matching Hub CTA Label; remove the pending paragraph and email-only explanation. Keep independent staff contacts."
+    },
+    "support": {
+      "status": "Not applicable to Delegate branch; native field retained",
+      "storedDestination": null
+    },
+    "preserved": [
+      "Institute Agenda Link",
+      "Institute KBYG Reservation URL",
+      "Operations Lead contacts",
+      "all content-block destinations and references"
+    ]
+  },
+  {
+    "registerId": "27-216-ip-law-2027-sponsor",
+    "pageId": "6ab50d4f28b704e9dad69b0a",
+    "pageSlug": "216-ip-law-2027-sponsor",
+    "instituteId": "6a735736f63007d8a10f8aa7",
+    "instituteSlug": "216-ip-law-2027",
+    "instituteName": "216. IP Law 2027",
+    "audience": "Sponsor",
+    "stagingUrl": "https://ipmi.webflow.io/know-before-you-go/216-ip-law-2027-sponsor",
+    "owner": "IPMI Operations",
+    "confirmedUrl": null,
+    "confirmationDate": null,
+    "hub": {
+      "field": "hub-url",
+      "purpose": "Sponsor MeetMax access",
+      "storedDestination": null,
+      "currentPurpose": "Noninteractive pending destination",
+      "visibleLabel": null,
+      "body": "<p id=\"\">Placeholder — Sponsor MeetMax access and login instructions are awaiting Operations confirmation.</p>",
+      "status": "Actual MeetMax URL and approval pending",
+      "replacement": "Supply this exact Institute/audience MeetMax URL with full query string, purpose, approver and date. Replace Hub URL and set a matching Hub CTA Label; remove the pending paragraph and email-only explanation. Keep independent staff contacts."
+    },
+    "support": {
+      "field": "support-url",
+      "purpose": "Sponsor Support (MeetMax or separate support purpose unconfirmed)",
+      "storedDestination": null,
+      "body": "<p id=\"\">Placeholder — Sponsor support instructions and destination are awaiting Operations confirmation.</p>",
+      "status": "Noninteractive pending destination",
+      "replacement": "Confirm purpose independently and supply the exact event/audience Support URL, matching CTA label, approver and date. Do not reuse Hub URL without specific approval; remove pending copy after confirmation."
+    },
+    "preserved": [
+      "Institute Agenda Link",
+      "Institute KBYG Reservation URL",
+      "Operations Lead contacts",
+      "all content-block destinations and references"
+    ]
+  },
+  {
+    "registerId": "27-217-hrmi-oct-2027-delegate",
+    "pageId": "6ab50d5091bd576bd55fa45f",
+    "pageSlug": "217-hrmi-oct-2027-delegate",
+    "instituteId": "6a73581d396dde8a1eac912f",
+    "instituteSlug": "217-hrmi-oct-2027",
+    "instituteName": "217. HRMI Oct 2027",
+    "audience": "Delegate",
+    "stagingUrl": "https://ipmi.webflow.io/know-before-you-go/217-hrmi-oct-2027-delegate",
+    "owner": "IPMI Operations",
+    "confirmedUrl": null,
+    "confirmationDate": null,
+    "hub": {
+      "field": "hub-url",
+      "purpose": "Delegate MeetMax access",
+      "storedDestination": null,
+      "currentPurpose": "Noninteractive pending destination",
+      "visibleLabel": null,
+      "body": "<p id=\"\">Placeholder — Delegate MeetMax access and login instructions are awaiting Operations confirmation.</p>",
+      "status": "Actual MeetMax URL and approval pending",
+      "replacement": "Supply this exact Institute/audience MeetMax URL with full query string, purpose, approver and date. Replace Hub URL and set a matching Hub CTA Label; remove the pending paragraph and email-only explanation. Keep independent staff contacts."
+    },
+    "support": {
+      "status": "Not applicable to Delegate branch; native field retained",
+      "storedDestination": null
+    },
+    "preserved": [
+      "Institute Agenda Link",
+      "Institute KBYG Reservation URL",
+      "Operations Lead contacts",
+      "all content-block destinations and references"
+    ]
+  },
+  {
+    "registerId": "27-217-hrmi-oct-2027-sponsor",
+    "pageId": "6ab50d52fb0314c5be0c6051",
+    "pageSlug": "217-hrmi-oct-2027-sponsor",
+    "instituteId": "6a73581d396dde8a1eac912f",
+    "instituteSlug": "217-hrmi-oct-2027",
+    "instituteName": "217. HRMI Oct 2027",
+    "audience": "Sponsor",
+    "stagingUrl": "https://ipmi.webflow.io/know-before-you-go/217-hrmi-oct-2027-sponsor",
+    "owner": "IPMI Operations",
+    "confirmedUrl": null,
+    "confirmationDate": null,
+    "hub": {
+      "field": "hub-url",
+      "purpose": "Sponsor MeetMax access",
+      "storedDestination": null,
+      "currentPurpose": "Noninteractive pending destination",
+      "visibleLabel": null,
+      "body": "<p id=\"\">Placeholder — Sponsor MeetMax access and login instructions are awaiting Operations confirmation.</p>",
+      "status": "Actual MeetMax URL and approval pending",
+      "replacement": "Supply this exact Institute/audience MeetMax URL with full query string, purpose, approver and date. Replace Hub URL and set a matching Hub CTA Label; remove the pending paragraph and email-only explanation. Keep independent staff contacts."
+    },
+    "support": {
+      "field": "support-url",
+      "purpose": "Sponsor Support (MeetMax or separate support purpose unconfirmed)",
+      "storedDestination": null,
+      "body": "<p id=\"\">Placeholder — Sponsor support instructions and destination are awaiting Operations confirmation.</p>",
+      "status": "Noninteractive pending destination",
+      "replacement": "Confirm purpose independently and supply the exact event/audience Support URL, matching CTA label, approver and date. Do not reuse Hub URL without specific approval; remove pending copy after confirmation."
+    },
+    "preserved": [
+      "Institute Agenda Link",
+      "Institute KBYG Reservation URL",
+      "Operations Lead contacts",
+      "all content-block destinations and references"
+    ]
+  },
+  {
+    "registerId": "27-218-cni-2027-delegate",
+    "pageId": "6ab50d5a3446081b63aed129",
+    "pageSlug": "218-cni-2027-delegate",
+    "instituteId": "6a7359850566a260d07c29ea",
+    "instituteSlug": "218-cni-2027",
+    "instituteName": "218. CNI 2027",
+    "audience": "Delegate",
+    "stagingUrl": "https://ipmi.webflow.io/know-before-you-go/218-cni-2027-delegate",
+    "owner": "IPMI Operations",
+    "confirmedUrl": null,
+    "confirmationDate": null,
+    "hub": {
+      "field": "hub-url",
+      "purpose": "Delegate MeetMax access",
+      "storedDestination": null,
+      "currentPurpose": "Noninteractive pending destination",
+      "visibleLabel": null,
+      "body": "<p id=\"\">Placeholder — Delegate MeetMax access and login instructions are awaiting Operations confirmation.</p>",
+      "status": "Actual MeetMax URL and approval pending",
+      "replacement": "Supply this exact Institute/audience MeetMax URL with full query string, purpose, approver and date. Replace Hub URL and set a matching Hub CTA Label; remove the pending paragraph and email-only explanation. Keep independent staff contacts."
+    },
+    "support": {
+      "status": "Not applicable to Delegate branch; native field retained",
+      "storedDestination": null
+    },
+    "preserved": [
+      "Institute Agenda Link",
+      "Institute KBYG Reservation URL",
+      "Operations Lead contacts",
+      "all content-block destinations and references"
+    ]
+  },
+  {
+    "registerId": "27-218-cni-2027-sponsor",
+    "pageId": "6ab50d5cd8d214d5415db3e1",
+    "pageSlug": "218-cni-2027-sponsor",
+    "instituteId": "6a7359850566a260d07c29ea",
+    "instituteSlug": "218-cni-2027",
+    "instituteName": "218. CNI 2027",
+    "audience": "Sponsor",
+    "stagingUrl": "https://ipmi.webflow.io/know-before-you-go/218-cni-2027-sponsor",
+    "owner": "IPMI Operations",
+    "confirmedUrl": null,
+    "confirmationDate": null,
+    "hub": {
+      "field": "hub-url",
+      "purpose": "Sponsor MeetMax access",
+      "storedDestination": null,
+      "currentPurpose": "Noninteractive pending destination",
+      "visibleLabel": null,
+      "body": "<p id=\"\">Placeholder — Sponsor MeetMax access and login instructions are awaiting Operations confirmation.</p>",
+      "status": "Actual MeetMax URL and approval pending",
+      "replacement": "Supply this exact Institute/audience MeetMax URL with full query string, purpose, approver and date. Replace Hub URL and set a matching Hub CTA Label; remove the pending paragraph and email-only explanation. Keep independent staff contacts."
+    },
+    "support": {
+      "field": "support-url",
+      "purpose": "Sponsor Support (MeetMax or separate support purpose unconfirmed)",
+      "storedDestination": null,
+      "body": "<p id=\"\">Placeholder — Sponsor support instructions and destination are awaiting Operations confirmation.</p>",
+      "status": "Noninteractive pending destination",
+      "replacement": "Confirm purpose independently and supply the exact event/audience Support URL, matching CTA label, approver and date. Do not reuse Hub URL without specific approval; remove pending copy after confirmation."
+    },
+    "preserved": [
+      "Institute Agenda Link",
+      "Institute KBYG Reservation URL",
+      "Operations Lead contacts",
+      "all content-block destinations and references"
+    ]
+  },
+  {
+    "registerId": "27-219-cwi-2027-delegate",
+    "pageId": "6ab50d5c9c872074f0aefe06",
+    "pageSlug": "219-cwi-2027-delegate",
+    "instituteId": "6a7359c09abe3b890a523cb3",
+    "instituteSlug": "219-cwi-2027",
+    "instituteName": "219. CWI 2027",
+    "audience": "Delegate",
+    "stagingUrl": "https://ipmi.webflow.io/know-before-you-go/219-cwi-2027-delegate",
+    "owner": "IPMI Operations",
+    "confirmedUrl": null,
+    "confirmationDate": null,
+    "hub": {
+      "field": "hub-url",
+      "purpose": "Delegate MeetMax access",
+      "storedDestination": null,
+      "currentPurpose": "Noninteractive pending destination",
+      "visibleLabel": null,
+      "body": "<p id=\"\">Placeholder — Delegate MeetMax access and login instructions are awaiting Operations confirmation.</p>",
+      "status": "Actual MeetMax URL and approval pending",
+      "replacement": "Supply this exact Institute/audience MeetMax URL with full query string, purpose, approver and date. Replace Hub URL and set a matching Hub CTA Label; remove the pending paragraph and email-only explanation. Keep independent staff contacts."
+    },
+    "support": {
+      "status": "Not applicable to Delegate branch; native field retained",
+      "storedDestination": null
+    },
+    "preserved": [
+      "Institute Agenda Link",
+      "Institute KBYG Reservation URL",
+      "Operations Lead contacts",
+      "all content-block destinations and references"
+    ]
+  },
+  {
+    "registerId": "27-219-cwi-2027-sponsor",
+    "pageId": "6ab50d5eacf6bb42ac866afc",
+    "pageSlug": "219-cwi-2027-sponsor",
+    "instituteId": "6a7359c09abe3b890a523cb3",
+    "instituteSlug": "219-cwi-2027",
+    "instituteName": "219. CWI 2027",
+    "audience": "Sponsor",
+    "stagingUrl": "https://ipmi.webflow.io/know-before-you-go/219-cwi-2027-sponsor",
+    "owner": "IPMI Operations",
+    "confirmedUrl": null,
+    "confirmationDate": null,
+    "hub": {
+      "field": "hub-url",
+      "purpose": "Sponsor MeetMax access",
+      "storedDestination": null,
+      "currentPurpose": "Noninteractive pending destination",
+      "visibleLabel": null,
+      "body": "<p id=\"\">Placeholder — Sponsor MeetMax access and login instructions are awaiting Operations confirmation.</p>",
+      "status": "Actual MeetMax URL and approval pending",
+      "replacement": "Supply this exact Institute/audience MeetMax URL with full query string, purpose, approver and date. Replace Hub URL and set a matching Hub CTA Label; remove the pending paragraph and email-only explanation. Keep independent staff contacts."
+    },
+    "support": {
+      "field": "support-url",
+      "purpose": "Sponsor Support (MeetMax or separate support purpose unconfirmed)",
+      "storedDestination": null,
+      "body": "<p id=\"\">Placeholder — Sponsor support instructions and destination are awaiting Operations confirmation.</p>",
+      "status": "Noninteractive pending destination",
+      "replacement": "Confirm purpose independently and supply the exact event/audience Support URL, matching CTA label, approver and date. Do not reuse Hub URL without specific approval; remove pending copy after confirmation."
+    },
+    "preserved": [
+      "Institute Agenda Link",
+      "Institute KBYG Reservation URL",
+      "Operations Lead contacts",
+      "all content-block destinations and references"
+    ]
+  },
+  {
+    "registerId": "27-220-hr-can-2027-delegate",
+    "pageId": "6ab50d5fcfe51f506e57187c",
+    "pageSlug": "220-hr-can-2027-delegate",
+    "instituteId": "6a735ad6e34946d6f730bc28",
+    "instituteSlug": "220-hr-can-2027",
+    "instituteName": "220. HR Can 2027",
+    "audience": "Delegate",
+    "stagingUrl": "https://ipmi.webflow.io/know-before-you-go/220-hr-can-2027-delegate",
+    "owner": "IPMI Operations",
+    "confirmedUrl": null,
+    "confirmationDate": null,
+    "hub": {
+      "field": "hub-url",
+      "purpose": "Delegate MeetMax access",
+      "storedDestination": null,
+      "currentPurpose": "Noninteractive pending destination",
+      "visibleLabel": null,
+      "body": "<p id=\"\">Placeholder — Delegate MeetMax access and login instructions are awaiting Operations confirmation.</p>",
+      "status": "Actual MeetMax URL and approval pending",
+      "replacement": "Supply this exact Institute/audience MeetMax URL with full query string, purpose, approver and date. Replace Hub URL and set a matching Hub CTA Label; remove the pending paragraph and email-only explanation. Keep independent staff contacts."
+    },
+    "support": {
+      "status": "Not applicable to Delegate branch; native field retained",
+      "storedDestination": null
+    },
+    "preserved": [
+      "Institute Agenda Link",
+      "Institute KBYG Reservation URL",
+      "Operations Lead contacts",
+      "all content-block destinations and references"
+    ]
+  },
+  {
+    "registerId": "27-220-hr-can-2027-sponsor",
+    "pageId": "6ab50d5f9c872074f0aeff9a",
+    "pageSlug": "220-hr-can-2027-sponsor",
+    "instituteId": "6a735ad6e34946d6f730bc28",
+    "instituteSlug": "220-hr-can-2027",
+    "instituteName": "220. HR Can 2027",
+    "audience": "Sponsor",
+    "stagingUrl": "https://ipmi.webflow.io/know-before-you-go/220-hr-can-2027-sponsor",
+    "owner": "IPMI Operations",
+    "confirmedUrl": null,
+    "confirmationDate": null,
+    "hub": {
+      "field": "hub-url",
+      "purpose": "Sponsor MeetMax access",
+      "storedDestination": null,
+      "currentPurpose": "Noninteractive pending destination",
+      "visibleLabel": null,
+      "body": "<p id=\"\">Placeholder — Sponsor MeetMax access and login instructions are awaiting Operations confirmation.</p>",
+      "status": "Actual MeetMax URL and approval pending",
+      "replacement": "Supply this exact Institute/audience MeetMax URL with full query string, purpose, approver and date. Replace Hub URL and set a matching Hub CTA Label; remove the pending paragraph and email-only explanation. Keep independent staff contacts."
+    },
+    "support": {
+      "field": "support-url",
+      "purpose": "Sponsor Support (MeetMax or separate support purpose unconfirmed)",
+      "storedDestination": null,
+      "body": "<p id=\"\">Placeholder — Sponsor support instructions and destination are awaiting Operations confirmation.</p>",
+      "status": "Noninteractive pending destination",
+      "replacement": "Confirm purpose independently and supply the exact event/audience Support URL, matching CTA label, approver and date. Do not reuse Hub URL without specific approval; remove pending copy after confirmation."
+    },
+    "preserved": [
+      "Institute Agenda Link",
+      "Institute KBYG Reservation URL",
+      "Operations Lead contacts",
+      "all content-block destinations and references"
+    ]
+  },
+  {
+    "registerId": "27-hchr-sept-2026-delegate",
+    "pageId": "6a9a6378aaffd3efb5e46336",
+    "pageSlug": "hchr-sept-2026-delegate",
+    "instituteId": "68b0aff93e4f6363f03f620b",
+    "instituteSlug": "hchr-sept-2026",
+    "instituteName": "HCHR Sept 2026",
+    "audience": "Delegate",
+    "stagingUrl": "https://ipmi.webflow.io/know-before-you-go/hchr-sept-2026-delegate",
+    "owner": "IPMI Operations",
+    "confirmedUrl": null,
+    "confirmationDate": null,
+    "hub": {
+      "field": "hub-url",
+      "purpose": "Delegate MeetMax access",
+      "storedDestination": "mailto:kbrightling@ipmievents.com",
+      "currentPurpose": "Operations email contact only",
+      "visibleLabel": "EMAIL OPERATIONS",
+      "body": "<p>The Attendee Hub is your central resource for all event-related information. Through the Hub, you can review key dates and deliverables, submit your Attendee Profile questionnaire and hotel requirements, build your personalized itinerary, and access important event information and resources.</p><p>Attendee Hub login credentials are provided by your Operations Lead in their welcome email, which is typically sent 8–10 weeks before the event start date.</p><p>Placeholder — Delegate MeetMax destination pending Operations confirmation. The email link below contacts Operations; it does not open MeetMax.</p>",
+      "status": "Actual MeetMax URL and approval pending",
+      "replacement": "Supply this exact Institute/audience MeetMax URL with full query string, purpose, approver and date. Replace Hub URL and set a matching Hub CTA Label; remove the pending paragraph and email-only explanation. Keep independent staff contacts."
+    },
+    "support": {
+      "status": "Not applicable to Delegate branch; native field retained",
+      "storedDestination": null
+    },
+    "preserved": [
+      "Institute Agenda Link",
+      "Institute KBYG Reservation URL",
+      "Operations Lead contacts",
+      "all content-block destinations and references"
+    ]
+  },
+  {
+    "registerId": "27-hchr-sept-2026-sponsor",
+    "pageId": "6a9a6378aaffd3efb5e46338",
+    "pageSlug": "hchr-sept-2026-sponsor",
+    "instituteId": "68b0aff93e4f6363f03f620b",
+    "instituteSlug": "hchr-sept-2026",
+    "instituteName": "HCHR Sept 2026",
+    "audience": "Sponsor",
+    "stagingUrl": "https://ipmi.webflow.io/know-before-you-go/hchr-sept-2026-sponsor",
+    "owner": "IPMI Operations",
+    "confirmedUrl": null,
+    "confirmationDate": null,
+    "hub": {
+      "field": "hub-url",
+      "purpose": "Sponsor MeetMax access",
+      "storedDestination": null,
+      "currentPurpose": "Noninteractive pending destination",
+      "visibleLabel": null,
+      "body": "<p>The Sponsor Hub is the central resource for managing your organization’s participation in the event. Through the Hub, you can submit a custom Delegate Profiling Question, update your company information, register your onsite attendees, complete the business meeting selection process, review key dates and deliverables, and access important event information and resources.</p><p>Sponsor Hub login credentials are provided by your Operations Lead in their welcome email, which is typically sent 8–10 weeks prior to the event start date.</p><p>Placeholder — Sponsor MeetMax destination pending Operations confirmation.</p>",
+      "status": "Actual MeetMax URL and approval pending",
+      "replacement": "Supply this exact Institute/audience MeetMax URL with full query string, purpose, approver and date. Replace Hub URL and set a matching Hub CTA Label; remove the pending paragraph and email-only explanation. Keep independent staff contacts."
+    },
+    "support": {
+      "field": "support-url",
+      "purpose": "Sponsor Support (MeetMax or separate support purpose unconfirmed)",
+      "storedDestination": null,
+      "body": "<p>Visit the Sponsor Hub for a comprehensive FAQ section covering a wide range of topics, including pre-event deliverables, hotel reservations, business meetings, shipping instructions, onsite logistics, and post-event follow-up details.</p><p>Placeholder — Sponsor Support destination and purpose pending Operations confirmation.</p>",
+      "status": "Noninteractive pending destination",
+      "replacement": "Confirm purpose independently and supply the exact event/audience Support URL, matching CTA label, approver and date. Do not reuse Hub URL without specific approval; remove pending copy after confirmation."
+    },
+    "preserved": [
+      "Institute Agenda Link",
+      "Institute KBYG Reservation URL",
+      "Operations Lead contacts",
+      "all content-block destinations and references"
+    ]
+  }
+]

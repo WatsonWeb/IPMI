@@ -1,0 +1,41 @@
+# Task 27 — provisional MeetMax destination safety
+
+September 24, 2026. Native Chrome CMS edits by IPMI Webmaster; staging only. No actual MeetMax destinations were supplied or invented. [Task](../../27-kbyg-meetmax-links.md).
+
+## Applied result
+
+The [destination register](destination-register.json) identifies all 54 actual page IDs, Institute IDs, slugs, audiences, staging URLs, current field values, visible labels, exact pending copy, owner and replacement steps. It covers **81 independently pending purposes**: 54 MeetMax Hub destinations and 27 Sponsor Support destinations. The [12 exact native field deltas](native-deltas.json) capture rollback values.
+
+| Pages                                            | Applied change                                                                                                                                                                                    |
+| ------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| HCHR Sep 2026 Sponsor and EHS Jan 2027 Sponsor   | Cleared `hub-url` and `support-url` independently from `https://example.com/sponsor-hub` to native null; appended pending paragraphs to Hub Body and Support Body.                                |
+| HCHR Sep 2026 Delegate and EHS Jan 2027 Delegate | Retained `mailto:kbrightling@ipmievents.com` and `mailto:tdiclemente@ipmievents.com` respectively; changed Hub CTA Label to `EMAIL OPERATIONS`; appended pending MeetMax/email-purpose paragraph. |
+| 50 task 25 pages                                 | All native fields unchanged; their empty destinations and labeled pending Hub/Support copy remain appropriate.                                                                                    |
+
+Appended Delegate text is exactly `Placeholder — Delegate MeetMax destination pending Operations confirmation. The email link below contacts Operations; it does not open MeetMax.` Appended Sponsor Hub text is `Placeholder — Sponsor MeetMax destination pending Operations confirmation.` (EHS has no final period). Appended Sponsor Support text is `Placeholder — Sponsor Support destination and purpose pending Operations confirmation.` The EHS Delegate native rich text also stores a trailing `<p>‍</p>` (U+200D), captured explicitly in the exact delta; it is an empty editor paragraph, not another instruction or link.
+
+Original Hub/Support paragraphs remain intact. Their inherited timing and policy statements are still subject to task 36 Operations approval. This task does not certify those statements. No new content-block URL was supplied, so all 43 blocks and references remain intact.
+
+## Verification
+
+[Root native comparison](root-task27-native-verification.json) and [final CMS pages](kbyg-pages-after-task27.json)/[blocks](kbyg-blocks-after-task27.json) establish exactly 12 intended field changes, 54 nonDraft/nonArchived pages, 50 new pages unchanged and zero block changes. Rich text was reopened and independently read from CMS before publication. A stale selection/model issue was repaired before staging; no corrupted intermediate paragraph was published. Successful append method: click an actual last paragraph, then use separate Ctrl+End, Return and text insertion calls. Full replacement required native Ctrl+Home / Ctrl+Shift+End / deletion and verification before paste.
+
+[Root HTTP comparison](root-task27-http-verification.json) checks all 54 routes: HTTP 200, no example links, noindex and Agenda preserved, exact images/outside-Hub-and-Support links/Agenda links/asset pins unchanged. Existing query-bearing URLs outside this scope are exact matches. No new query-bearing MeetMax destination exists to validate. No root override or runtime change was needed; Hub and Support remain separate native bindings.
+
+[Browser evidence](browser-qa.json) records both audiences for HCHR Sep 2026, EHS Jan 2027 and sparse HR Canada November 2027 at desktop 1912px and mobile 390px. Each document width equals its viewport. Native empty Hub/Support anchors are retained in HTML with `href="#"` but computed `display:none`; there is no active dead CTA. The two visible email anchors have correct mailtos and accessible names from `EMAIL OPERATIONS`, with no stale aria-label or new-tab target. Keyboard focus is visible; email activation was deliberately not invoked. Desktop Enter activation of Hub/Support navigation and mobile Hub selection reached the correct sections with preserved anchors.
+
+Representative inspected screenshots: [HCHR Delegate mobile](hchr-delegate-mobile.png), [HCHR Sponsor desktop](hchr-sponsor-desktop.png), [Sponsor Support](hchr-support-desktop.png), [EHS Delegate desktop](ehs-delegate-desktop.png)/[mobile](ehs-delegate-mobile.png), [EHS Sponsor mobile](ehs-sponsor-mobile.png), [sparse Delegate desktop](sparse-delegate-desktop.png)/[mobile](sparse-delegate-mobile.png), [sparse Sponsor desktop](sparse-sponsor-desktop.png)/[mobile](sparse-sponsor-mobile.png). Additional counterpart screenshots are retained in this directory.
+
+The native publish dialog had only `ipmi.webflow.io` selected and the production domain visibly unchecked. [Site settings](site-settings-after-task27.json) records staging publication `2026-09-24T13:02:25.687Z`; all four custom domains remain `2026-09-24T03:17:26.557Z`. Protected global CSS SHA256 remains `80EF3C254BEF30F97398B63B0888A934085BB9B371CE4EE74E2E6B20BEFE4496`; frozen KBYG CSS remains `2007D1458B81D31A43B8FF5DED6D90DE48D68818BBD7CDBB1EE94479EB02626A`. Runtime, base CSS and task26 tablet supplement pins are unchanged. No local template/runtime source was edited because the existing native fields and bindings fully handled the change.
+
+Run `vp node docs/web-refresh/evidence/task27/build-register.mjs` to regenerate and validate all exact destination rows against the committed task26/task27 snapshots. [Validation results](validation-results.json): register/preservation/browser assertions, scoped `vp lint`, `vp fmt --check`, local Markdown links and `git diff --check` passed. No new runtime test or full-suite claim is warranted for these CMS-only changes. Known task37 full-suite/toolchain and formatting findings remain separate.
+
+## Final replacement and rollback
+
+Owner **IPMI Operations** must provide each exact Institute/audience/purpose URL, complete query string, approved visible label, destination purpose, approver and confirmation date. For Sponsor Support, explicitly confirm whether the destination is MeetMax or a different support resource. The same URL may be used twice only with confirmation for both purposes, while preserving separate fields.
+
+Open each provided destination read-only and verify event/audience identity or supplied ownership evidence; do not log in as an attendee or send data. Edit the corresponding native CMS field, save, reopen/read back, Queue for next site publish, and publish only staging. For both existing Delegate fallbacks, change `hub-url` **and** `hub-cta-label` together to the approved web Hub destination and matching Hub-purpose label, then remove the pending/email-explanation paragraph. Keep independent Operations email contacts. For all rows, replace or approve pending Hub/Support copy; never overwrite Agenda Link, reservation URL, staff contacts or a different content-block CTA. Recheck query strings, external new-tab `rel` protections when applicable, mobile layout, keyboard access and independent Support/Hub behavior.
+
+Rollback only the 12 recorded fields using `native-deltas.json` and staging-only publish; do not restore a whole collection/site. The prior example URLs are unsafe review placeholders, so prefer leaving them empty unless explicitly reviewing the historical baseline. No runtime pin rollback is needed.
+
+Viewport override reset, owned QA/recovery Designer tabs closed, original Designer tab preserved; Chrome released. No messages, attendee login, account creation, registration submission or production publication occurred. Missing actual URL approval remains an external dependency, not an implemented MeetMax integration.

@@ -1,0 +1,1331 @@
+{
+  "checkedAt": "2026-09-24T13:04:05.628Z",
+  "pages": 54,
+  "failures": [],
+  "preservationDifferences": [],
+  "results": [
+    {
+      "slug": "211-hrmi-june-2027-delegate",
+      "status": 200,
+      "noindex": true,
+      "hubLinks": [
+        {
+          "data-kbyg-content": "true",
+          "href": "#",
+          "class": "kbyg-button kbyg-button--external",
+          "text": "OPEN ATTENDEE HUB"
+        }
+      ],
+      "supportLinks": [],
+      "hubText": "EVENT ACCESSAttendee Hub.Placeholder — Delegate MeetMax access and login instructions are awaiting Operations confirmation.OPEN ATTENDEE HUB",
+      "supportText": "",
+      "imagesPreserved": true,
+      "outsideLinksPreserved": true,
+      "agendaLinksPreserved": true,
+      "pinsPreserved": true,
+      "failures": []
+    },
+    {
+      "slug": "211-hrmi-june-2027-sponsor",
+      "status": 200,
+      "noindex": true,
+      "hubLinks": [
+        {
+          "data-kbyg-content": "true",
+          "href": "#",
+          "class": "kbyg-button kbyg-button--external",
+          "text": "OPEN SPONSOR HUB"
+        }
+      ],
+      "supportLinks": [
+        {
+          "data-kbyg-content": "true",
+          "href": "#",
+          "class": "kbyg-button kbyg-button--external",
+          "text": "SPONSOR SUPPORT"
+        }
+      ],
+      "hubText": "EVENT ACCESSSponsor Hub.Placeholder — Sponsor MeetMax access and login instructions are awaiting Operations confirmation.OPEN SPONSOR HUB",
+      "supportText": "SPONSOR SUPPORTSponsor Support.Placeholder — Sponsor support instructions and destination are awaiting Operations confirmation.SPONSOR SUPPORT",
+      "imagesPreserved": true,
+      "outsideLinksPreserved": true,
+      "agendaLinksPreserved": true,
+      "pinsPreserved": true,
+      "failures": []
+    },
+    {
+      "slug": "213-cldi-sept-2027-delegate",
+      "status": 200,
+      "noindex": true,
+      "hubLinks": [
+        {
+          "data-kbyg-content": "true",
+          "href": "#",
+          "class": "kbyg-button kbyg-button--external",
+          "text": "OPEN ATTENDEE HUB"
+        }
+      ],
+      "supportLinks": [],
+      "hubText": "EVENT ACCESSAttendee Hub.Placeholder — Delegate MeetMax access and login instructions are awaiting Operations confirmation.OPEN ATTENDEE HUB",
+      "supportText": "",
+      "imagesPreserved": true,
+      "outsideLinksPreserved": true,
+      "agendaLinksPreserved": true,
+      "pinsPreserved": true,
+      "failures": []
+    },
+    {
+      "slug": "213-cldi-sept-2027-sponsor",
+      "status": 200,
+      "noindex": true,
+      "hubLinks": [
+        {
+          "data-kbyg-content": "true",
+          "href": "#",
+          "class": "kbyg-button kbyg-button--external",
+          "text": "OPEN SPONSOR HUB"
+        }
+      ],
+      "supportLinks": [
+        {
+          "data-kbyg-content": "true",
+          "href": "#",
+          "class": "kbyg-button kbyg-button--external",
+          "text": "SPONSOR SUPPORT"
+        }
+      ],
+      "hubText": "EVENT ACCESSSponsor Hub.Placeholder — Sponsor MeetMax access and login instructions are awaiting Operations confirmation.OPEN SPONSOR HUB",
+      "supportText": "SPONSOR SUPPORTSponsor Support.Placeholder — Sponsor support instructions and destination are awaiting Operations confirmation.SPONSOR SUPPORT",
+      "imagesPreserved": true,
+      "outsideLinksPreserved": true,
+      "agendaLinksPreserved": true,
+      "pinsPreserved": true,
+      "failures": []
+    },
+    {
+      "slug": "214-hgc-sept-2027-delegate",
+      "status": 200,
+      "noindex": true,
+      "hubLinks": [
+        {
+          "data-kbyg-content": "true",
+          "href": "#",
+          "class": "kbyg-button kbyg-button--external",
+          "text": "OPEN ATTENDEE HUB"
+        }
+      ],
+      "supportLinks": [],
+      "hubText": "EVENT ACCESSAttendee Hub.Placeholder — Delegate MeetMax access and login instructions are awaiting Operations confirmation.OPEN ATTENDEE HUB",
+      "supportText": "",
+      "imagesPreserved": true,
+      "outsideLinksPreserved": true,
+      "agendaLinksPreserved": true,
+      "pinsPreserved": true,
+      "failures": []
+    },
+    {
+      "slug": "214-hgc-sept-2027-sponsor",
+      "status": 200,
+      "noindex": true,
+      "hubLinks": [
+        {
+          "data-kbyg-content": "true",
+          "href": "#",
+          "class": "kbyg-button kbyg-button--external",
+          "text": "OPEN SPONSOR HUB"
+        }
+      ],
+      "supportLinks": [
+        {
+          "data-kbyg-content": "true",
+          "href": "#",
+          "class": "kbyg-button kbyg-button--external",
+          "text": "SPONSOR SUPPORT"
+        }
+      ],
+      "hubText": "EVENT ACCESSSponsor Hub.Placeholder — Sponsor MeetMax access and login instructions are awaiting Operations confirmation.OPEN SPONSOR HUB",
+      "supportText": "SPONSOR SUPPORTSponsor Support.Placeholder — Sponsor support instructions and destination are awaiting Operations confirmation.SPONSOR SUPPORT",
+      "imagesPreserved": true,
+      "outsideLinksPreserved": true,
+      "agendaLinksPreserved": true,
+      "pinsPreserved": true,
+      "failures": []
+    },
+    {
+      "slug": "215-hchr-sept-2027-delegate",
+      "status": 200,
+      "noindex": true,
+      "hubLinks": [
+        {
+          "data-kbyg-content": "true",
+          "href": "#",
+          "class": "kbyg-button kbyg-button--external",
+          "text": "OPEN ATTENDEE HUB"
+        }
+      ],
+      "supportLinks": [],
+      "hubText": "EVENT ACCESSAttendee Hub.Placeholder — Delegate MeetMax access and login instructions are awaiting Operations confirmation.OPEN ATTENDEE HUB",
+      "supportText": "",
+      "imagesPreserved": true,
+      "outsideLinksPreserved": true,
+      "agendaLinksPreserved": true,
+      "pinsPreserved": true,
+      "failures": []
+    },
+    {
+      "slug": "215-hchr-sept-2027-sponsor",
+      "status": 200,
+      "noindex": true,
+      "hubLinks": [
+        {
+          "data-kbyg-content": "true",
+          "href": "#",
+          "class": "kbyg-button kbyg-button--external",
+          "text": "OPEN SPONSOR HUB"
+        }
+      ],
+      "supportLinks": [
+        {
+          "data-kbyg-content": "true",
+          "href": "#",
+          "class": "kbyg-button kbyg-button--external",
+          "text": "SPONSOR SUPPORT"
+        }
+      ],
+      "hubText": "EVENT ACCESSSponsor Hub.Placeholder — Sponsor MeetMax access and login instructions are awaiting Operations confirmation.OPEN SPONSOR HUB",
+      "supportText": "SPONSOR SUPPORTSponsor Support.Placeholder — Sponsor support instructions and destination are awaiting Operations confirmation.SPONSOR SUPPORT",
+      "imagesPreserved": true,
+      "outsideLinksPreserved": true,
+      "agendaLinksPreserved": true,
+      "pinsPreserved": true,
+      "failures": []
+    },
+    {
+      "slug": "216-ip-law-2027-delegate",
+      "status": 200,
+      "noindex": true,
+      "hubLinks": [
+        {
+          "data-kbyg-content": "true",
+          "href": "#",
+          "class": "kbyg-button kbyg-button--external",
+          "text": "OPEN ATTENDEE HUB"
+        }
+      ],
+      "supportLinks": [],
+      "hubText": "EVENT ACCESSAttendee Hub.Placeholder — Delegate MeetMax access and login instructions are awaiting Operations confirmation.OPEN ATTENDEE HUB",
+      "supportText": "",
+      "imagesPreserved": true,
+      "outsideLinksPreserved": true,
+      "agendaLinksPreserved": true,
+      "pinsPreserved": true,
+      "failures": []
+    },
+    {
+      "slug": "216-ip-law-2027-sponsor",
+      "status": 200,
+      "noindex": true,
+      "hubLinks": [
+        {
+          "data-kbyg-content": "true",
+          "href": "#",
+          "class": "kbyg-button kbyg-button--external",
+          "text": "OPEN SPONSOR HUB"
+        }
+      ],
+      "supportLinks": [
+        {
+          "data-kbyg-content": "true",
+          "href": "#",
+          "class": "kbyg-button kbyg-button--external",
+          "text": "SPONSOR SUPPORT"
+        }
+      ],
+      "hubText": "EVENT ACCESSSponsor Hub.Placeholder — Sponsor MeetMax access and login instructions are awaiting Operations confirmation.OPEN SPONSOR HUB",
+      "supportText": "SPONSOR SUPPORTSponsor Support.Placeholder — Sponsor support instructions and destination are awaiting Operations confirmation.SPONSOR SUPPORT",
+      "imagesPreserved": true,
+      "outsideLinksPreserved": true,
+      "agendaLinksPreserved": true,
+      "pinsPreserved": true,
+      "failures": []
+    },
+    {
+      "slug": "217-hrmi-oct-2027-delegate",
+      "status": 200,
+      "noindex": true,
+      "hubLinks": [
+        {
+          "data-kbyg-content": "true",
+          "href": "#",
+          "class": "kbyg-button kbyg-button--external",
+          "text": "OPEN ATTENDEE HUB"
+        }
+      ],
+      "supportLinks": [],
+      "hubText": "EVENT ACCESSAttendee Hub.Placeholder — Delegate MeetMax access and login instructions are awaiting Operations confirmation.OPEN ATTENDEE HUB",
+      "supportText": "",
+      "imagesPreserved": true,
+      "outsideLinksPreserved": true,
+      "agendaLinksPreserved": true,
+      "pinsPreserved": true,
+      "failures": []
+    },
+    {
+      "slug": "217-hrmi-oct-2027-sponsor",
+      "status": 200,
+      "noindex": true,
+      "hubLinks": [
+        {
+          "data-kbyg-content": "true",
+          "href": "#",
+          "class": "kbyg-button kbyg-button--external",
+          "text": "OPEN SPONSOR HUB"
+        }
+      ],
+      "supportLinks": [
+        {
+          "data-kbyg-content": "true",
+          "href": "#",
+          "class": "kbyg-button kbyg-button--external",
+          "text": "SPONSOR SUPPORT"
+        }
+      ],
+      "hubText": "EVENT ACCESSSponsor Hub.Placeholder — Sponsor MeetMax access and login instructions are awaiting Operations confirmation.OPEN SPONSOR HUB",
+      "supportText": "SPONSOR SUPPORTSponsor Support.Placeholder — Sponsor support instructions and destination are awaiting Operations confirmation.SPONSOR SUPPORT",
+      "imagesPreserved": true,
+      "outsideLinksPreserved": true,
+      "agendaLinksPreserved": true,
+      "pinsPreserved": true,
+      "failures": []
+    },
+    {
+      "slug": "218-cni-2027-delegate",
+      "status": 200,
+      "noindex": true,
+      "hubLinks": [
+        {
+          "data-kbyg-content": "true",
+          "href": "#",
+          "class": "kbyg-button kbyg-button--external",
+          "text": "OPEN ATTENDEE HUB"
+        }
+      ],
+      "supportLinks": [],
+      "hubText": "EVENT ACCESSAttendee Hub.Placeholder — Delegate MeetMax access and login instructions are awaiting Operations confirmation.OPEN ATTENDEE HUB",
+      "supportText": "",
+      "imagesPreserved": true,
+      "outsideLinksPreserved": true,
+      "agendaLinksPreserved": true,
+      "pinsPreserved": true,
+      "failures": []
+    },
+    {
+      "slug": "218-cni-2027-sponsor",
+      "status": 200,
+      "noindex": true,
+      "hubLinks": [
+        {
+          "data-kbyg-content": "true",
+          "href": "#",
+          "class": "kbyg-button kbyg-button--external",
+          "text": "OPEN SPONSOR HUB"
+        }
+      ],
+      "supportLinks": [
+        {
+          "data-kbyg-content": "true",
+          "href": "#",
+          "class": "kbyg-button kbyg-button--external",
+          "text": "SPONSOR SUPPORT"
+        }
+      ],
+      "hubText": "EVENT ACCESSSponsor Hub.Placeholder — Sponsor MeetMax access and login instructions are awaiting Operations confirmation.OPEN SPONSOR HUB",
+      "supportText": "SPONSOR SUPPORTSponsor Support.Placeholder — Sponsor support instructions and destination are awaiting Operations confirmation.SPONSOR SUPPORT",
+      "imagesPreserved": true,
+      "outsideLinksPreserved": true,
+      "agendaLinksPreserved": true,
+      "pinsPreserved": true,
+      "failures": []
+    },
+    {
+      "slug": "219-cwi-2027-delegate",
+      "status": 200,
+      "noindex": true,
+      "hubLinks": [
+        {
+          "data-kbyg-content": "true",
+          "href": "#",
+          "class": "kbyg-button kbyg-button--external",
+          "text": "OPEN ATTENDEE HUB"
+        }
+      ],
+      "supportLinks": [],
+      "hubText": "EVENT ACCESSAttendee Hub.Placeholder — Delegate MeetMax access and login instructions are awaiting Operations confirmation.OPEN ATTENDEE HUB",
+      "supportText": "",
+      "imagesPreserved": true,
+      "outsideLinksPreserved": true,
+      "agendaLinksPreserved": true,
+      "pinsPreserved": true,
+      "failures": []
+    },
+    {
+      "slug": "219-cwi-2027-sponsor",
+      "status": 200,
+      "noindex": true,
+      "hubLinks": [
+        {
+          "data-kbyg-content": "true",
+          "href": "#",
+          "class": "kbyg-button kbyg-button--external",
+          "text": "OPEN SPONSOR HUB"
+        }
+      ],
+      "supportLinks": [
+        {
+          "data-kbyg-content": "true",
+          "href": "#",
+          "class": "kbyg-button kbyg-button--external",
+          "text": "SPONSOR SUPPORT"
+        }
+      ],
+      "hubText": "EVENT ACCESSSponsor Hub.Placeholder — Sponsor MeetMax access and login instructions are awaiting Operations confirmation.OPEN SPONSOR HUB",
+      "supportText": "SPONSOR SUPPORTSponsor Support.Placeholder — Sponsor support instructions and destination are awaiting Operations confirmation.SPONSOR SUPPORT",
+      "imagesPreserved": true,
+      "outsideLinksPreserved": true,
+      "agendaLinksPreserved": true,
+      "pinsPreserved": true,
+      "failures": []
+    },
+    {
+      "slug": "220-hr-can-2027-delegate",
+      "status": 200,
+      "noindex": true,
+      "hubLinks": [
+        {
+          "data-kbyg-content": "true",
+          "href": "#",
+          "class": "kbyg-button kbyg-button--external",
+          "text": "OPEN ATTENDEE HUB"
+        }
+      ],
+      "supportLinks": [],
+      "hubText": "EVENT ACCESSAttendee Hub.Placeholder — Delegate MeetMax access and login instructions are awaiting Operations confirmation.OPEN ATTENDEE HUB",
+      "supportText": "",
+      "imagesPreserved": true,
+      "outsideLinksPreserved": true,
+      "agendaLinksPreserved": true,
+      "pinsPreserved": true,
+      "failures": []
+    },
+    {
+      "slug": "220-hr-can-2027-sponsor",
+      "status": 200,
+      "noindex": true,
+      "hubLinks": [
+        {
+          "data-kbyg-content": "true",
+          "href": "#",
+          "class": "kbyg-button kbyg-button--external",
+          "text": "OPEN SPONSOR HUB"
+        }
+      ],
+      "supportLinks": [
+        {
+          "data-kbyg-content": "true",
+          "href": "#",
+          "class": "kbyg-button kbyg-button--external",
+          "text": "SPONSOR SUPPORT"
+        }
+      ],
+      "hubText": "EVENT ACCESSSponsor Hub.Placeholder — Sponsor MeetMax access and login instructions are awaiting Operations confirmation.OPEN SPONSOR HUB",
+      "supportText": "SPONSOR SUPPORTSponsor Support.Placeholder — Sponsor support instructions and destination are awaiting Operations confirmation.SPONSOR SUPPORT",
+      "imagesPreserved": true,
+      "outsideLinksPreserved": true,
+      "agendaLinksPreserved": true,
+      "pinsPreserved": true,
+      "failures": []
+    },
+    {
+      "slug": "28-tai-us-2027-delegate",
+      "status": 200,
+      "noindex": true,
+      "hubLinks": [
+        {
+          "data-kbyg-content": "true",
+          "href": "#",
+          "class": "kbyg-button kbyg-button--external",
+          "text": "OPEN ATTENDEE HUB"
+        }
+      ],
+      "supportLinks": [],
+      "hubText": "EVENT ACCESSAttendee Hub.Placeholder — Delegate MeetMax access and login instructions are awaiting Operations confirmation.OPEN ATTENDEE HUB",
+      "supportText": "",
+      "imagesPreserved": true,
+      "outsideLinksPreserved": true,
+      "agendaLinksPreserved": true,
+      "pinsPreserved": true,
+      "failures": []
+    },
+    {
+      "slug": "28-tai-us-2027-sponsor",
+      "status": 200,
+      "noindex": true,
+      "hubLinks": [
+        {
+          "data-kbyg-content": "true",
+          "href": "#",
+          "class": "kbyg-button kbyg-button--external",
+          "text": "OPEN SPONSOR HUB"
+        }
+      ],
+      "supportLinks": [
+        {
+          "data-kbyg-content": "true",
+          "href": "#",
+          "class": "kbyg-button kbyg-button--external",
+          "text": "SPONSOR SUPPORT"
+        }
+      ],
+      "hubText": "EVENT ACCESSSponsor Hub.Placeholder — Sponsor MeetMax access and login instructions are awaiting Operations confirmation.OPEN SPONSOR HUB",
+      "supportText": "SPONSOR SUPPORTSponsor Support.Placeholder — Sponsor support instructions and destination are awaiting Operations confirmation.SPONSOR SUPPORT",
+      "imagesPreserved": true,
+      "outsideLinksPreserved": true,
+      "agendaLinksPreserved": true,
+      "pinsPreserved": true,
+      "failures": []
+    },
+    {
+      "slug": "29-taeei-can-delegate",
+      "status": 200,
+      "noindex": true,
+      "hubLinks": [
+        {
+          "data-kbyg-content": "true",
+          "href": "#",
+          "class": "kbyg-button kbyg-button--external",
+          "text": "OPEN ATTENDEE HUB"
+        }
+      ],
+      "supportLinks": [],
+      "hubText": "EVENT ACCESSAttendee Hub.Placeholder — Delegate MeetMax access and login instructions are awaiting Operations confirmation.OPEN ATTENDEE HUB",
+      "supportText": "",
+      "imagesPreserved": true,
+      "outsideLinksPreserved": true,
+      "agendaLinksPreserved": true,
+      "pinsPreserved": true,
+      "failures": []
+    },
+    {
+      "slug": "29-taeei-can-sponsor",
+      "status": 200,
+      "noindex": true,
+      "hubLinks": [
+        {
+          "data-kbyg-content": "true",
+          "href": "#",
+          "class": "kbyg-button kbyg-button--external",
+          "text": "OPEN SPONSOR HUB"
+        }
+      ],
+      "supportLinks": [
+        {
+          "data-kbyg-content": "true",
+          "href": "#",
+          "class": "kbyg-button kbyg-button--external",
+          "text": "SPONSOR SUPPORT"
+        }
+      ],
+      "hubText": "EVENT ACCESSSponsor Hub.Placeholder — Sponsor MeetMax access and login instructions are awaiting Operations confirmation.OPEN SPONSOR HUB",
+      "supportText": "SPONSOR SUPPORTSponsor Support.Placeholder — Sponsor support instructions and destination are awaiting Operations confirmation.SPONSOR SUPPORT",
+      "imagesPreserved": true,
+      "outsideLinksPreserved": true,
+      "agendaLinksPreserved": true,
+      "pinsPreserved": true,
+      "failures": []
+    },
+    {
+      "slug": "cldi-march-2027-delegate",
+      "status": 200,
+      "noindex": true,
+      "hubLinks": [
+        {
+          "data-kbyg-content": "true",
+          "href": "#",
+          "class": "kbyg-button kbyg-button--external",
+          "text": "OPEN ATTENDEE HUB"
+        }
+      ],
+      "supportLinks": [],
+      "hubText": "EVENT ACCESSAttendee Hub.Placeholder — Delegate MeetMax access and login instructions are awaiting Operations confirmation.OPEN ATTENDEE HUB",
+      "supportText": "",
+      "imagesPreserved": true,
+      "outsideLinksPreserved": true,
+      "agendaLinksPreserved": true,
+      "pinsPreserved": true,
+      "failures": []
+    },
+    {
+      "slug": "cldi-march-2027-sponsor",
+      "status": 200,
+      "noindex": true,
+      "hubLinks": [
+        {
+          "data-kbyg-content": "true",
+          "href": "#",
+          "class": "kbyg-button kbyg-button--external",
+          "text": "OPEN SPONSOR HUB"
+        }
+      ],
+      "supportLinks": [
+        {
+          "data-kbyg-content": "true",
+          "href": "#",
+          "class": "kbyg-button kbyg-button--external",
+          "text": "SPONSOR SUPPORT"
+        }
+      ],
+      "hubText": "EVENT ACCESSSponsor Hub.Placeholder — Sponsor MeetMax access and login instructions are awaiting Operations confirmation.OPEN SPONSOR HUB",
+      "supportText": "SPONSOR SUPPORTSponsor Support.Placeholder — Sponsor support instructions and destination are awaiting Operations confirmation.SPONSOR SUPPORT",
+      "imagesPreserved": true,
+      "outsideLinksPreserved": true,
+      "agendaLinksPreserved": true,
+      "pinsPreserved": true,
+      "failures": []
+    },
+    {
+      "slug": "cni-2026-delegate",
+      "status": 200,
+      "noindex": true,
+      "hubLinks": [
+        {
+          "data-kbyg-content": "true",
+          "href": "#",
+          "class": "kbyg-button kbyg-button--external",
+          "text": "OPEN ATTENDEE HUB"
+        }
+      ],
+      "supportLinks": [],
+      "hubText": "EVENT ACCESSAttendee Hub.Placeholder — Delegate MeetMax access and login instructions are awaiting Operations confirmation.OPEN ATTENDEE HUB",
+      "supportText": "",
+      "imagesPreserved": true,
+      "outsideLinksPreserved": true,
+      "agendaLinksPreserved": true,
+      "pinsPreserved": true,
+      "failures": []
+    },
+    {
+      "slug": "cni-2026-sponsor",
+      "status": 200,
+      "noindex": true,
+      "hubLinks": [
+        {
+          "data-kbyg-content": "true",
+          "href": "#",
+          "class": "kbyg-button kbyg-button--external",
+          "text": "OPEN SPONSOR HUB"
+        }
+      ],
+      "supportLinks": [
+        {
+          "data-kbyg-content": "true",
+          "href": "#",
+          "class": "kbyg-button kbyg-button--external",
+          "text": "SPONSOR SUPPORT"
+        }
+      ],
+      "hubText": "EVENT ACCESSSponsor Hub.Placeholder — Sponsor MeetMax access and login instructions are awaiting Operations confirmation.OPEN SPONSOR HUB",
+      "supportText": "SPONSOR SUPPORTSponsor Support.Placeholder — Sponsor support instructions and destination are awaiting Operations confirmation.SPONSOR SUPPORT",
+      "imagesPreserved": true,
+      "outsideLinksPreserved": true,
+      "agendaLinksPreserved": true,
+      "pinsPreserved": true,
+      "failures": []
+    },
+    {
+      "slug": "cwi-2026-delegate",
+      "status": 200,
+      "noindex": true,
+      "hubLinks": [
+        {
+          "data-kbyg-content": "true",
+          "href": "#",
+          "class": "kbyg-button kbyg-button--external",
+          "text": "OPEN ATTENDEE HUB"
+        }
+      ],
+      "supportLinks": [],
+      "hubText": "EVENT ACCESSAttendee Hub.Placeholder — Delegate MeetMax access and login instructions are awaiting Operations confirmation.OPEN ATTENDEE HUB",
+      "supportText": "",
+      "imagesPreserved": true,
+      "outsideLinksPreserved": true,
+      "agendaLinksPreserved": true,
+      "pinsPreserved": true,
+      "failures": []
+    },
+    {
+      "slug": "cwi-2026-sponsor",
+      "status": 200,
+      "noindex": true,
+      "hubLinks": [
+        {
+          "data-kbyg-content": "true",
+          "href": "#",
+          "class": "kbyg-button kbyg-button--external",
+          "text": "OPEN SPONSOR HUB"
+        }
+      ],
+      "supportLinks": [
+        {
+          "data-kbyg-content": "true",
+          "href": "#",
+          "class": "kbyg-button kbyg-button--external",
+          "text": "SPONSOR SUPPORT"
+        }
+      ],
+      "hubText": "EVENT ACCESSSponsor Hub.Placeholder — Sponsor MeetMax access and login instructions are awaiting Operations confirmation.OPEN SPONSOR HUB",
+      "supportText": "SPONSOR SUPPORTSponsor Support.Placeholder — Sponsor support instructions and destination are awaiting Operations confirmation.SPONSOR SUPPORT",
+      "imagesPreserved": true,
+      "outsideLinksPreserved": true,
+      "agendaLinksPreserved": true,
+      "pinsPreserved": true,
+      "failures": []
+    },
+    {
+      "slug": "ehs-jan-2027-delegate",
+      "status": 200,
+      "noindex": true,
+      "hubLinks": [
+        {
+          "data-kbyg-content": "true",
+          "href": "mailto:tdiclemente@ipmievents.com",
+          "class": "kbyg-button kbyg-button--external",
+          "text": "EMAIL OPERATIONS"
+        }
+      ],
+      "supportLinks": [],
+      "hubText": "YOUR DIGITAL HOME BASEAttendee Hub.The Attendee Hub is your central resource for all event-related information. Through the Hub, you can review key dates and deliverables, submit your Attendee Profile questionnaire and hotel requirements, build your personalized itinerary, and access important event information and resources.Attendee Hub login credentials are provided by your Operations Lead in their welcome email, which is typically sent 8–10 weeks before the event start date.Placeholder — Delegate MeetMax destination pending Operations confirmation. The email link below contacts Operations; it does not open MeetMax.‍EMAIL OPERATIONS",
+      "supportText": "",
+      "imagesPreserved": true,
+      "outsideLinksPreserved": true,
+      "agendaLinksPreserved": true,
+      "pinsPreserved": true,
+      "failures": []
+    },
+    {
+      "slug": "ehs-jan-2027-sponsor",
+      "status": 200,
+      "noindex": true,
+      "hubLinks": [
+        {
+          "data-kbyg-content": "true",
+          "href": "#",
+          "class": "kbyg-button kbyg-button--external",
+          "text": "OPEN SPONSOR HUB"
+        }
+      ],
+      "supportLinks": [
+        {
+          "data-kbyg-content": "true",
+          "href": "#",
+          "class": "kbyg-button kbyg-button--external",
+          "text": "VISIT THE SPONSOR HUB"
+        }
+      ],
+      "hubText": "YOUR DIGITAL HOME BASESponsor Hub.The Sponsor Hub is the central resource for managing your organization’s participation in the event. Through the Hub, you can submit a custom Delegate Profiling Question, update your company information, register your onsite attendees, complete the business meeting selection process, review key dates and deliverables, and access important event information and resources.Sponsor Hub login credentials are provided by your Operations Lead in their welcome email, which is typically sent 8–10 weeks prior to the event start date.Placeholder — Sponsor MeetMax destination pending Operations confirmationOPEN SPONSOR HUB",
+      "supportText": "NEED AN ANSWER?Sponsor Support Lives in the Hub.Visit the Sponsor Hub for a comprehensive FAQ section covering a wide range of topics, including pre-event deliverables, hotel reservations, business meetings, shipping instructions, onsite logistics, and post-event follow-up details.Placeholder — Sponsor Support destination and purpose pending Operations confirmation.VISIT THE SPONSOR HUB",
+      "imagesPreserved": true,
+      "outsideLinksPreserved": true,
+      "agendaLinksPreserved": true,
+      "pinsPreserved": true,
+      "failures": []
+    },
+    {
+      "slug": "ehs-july-2027-delegate",
+      "status": 200,
+      "noindex": true,
+      "hubLinks": [
+        {
+          "data-kbyg-content": "true",
+          "href": "#",
+          "class": "kbyg-button kbyg-button--external",
+          "text": "OPEN ATTENDEE HUB"
+        }
+      ],
+      "supportLinks": [],
+      "hubText": "EVENT ACCESSAttendee Hub.Placeholder — Delegate MeetMax access and login instructions are awaiting Operations confirmation.OPEN ATTENDEE HUB",
+      "supportText": "",
+      "imagesPreserved": true,
+      "outsideLinksPreserved": true,
+      "agendaLinksPreserved": true,
+      "pinsPreserved": true,
+      "failures": []
+    },
+    {
+      "slug": "ehs-july-2027-sponsor",
+      "status": 200,
+      "noindex": true,
+      "hubLinks": [
+        {
+          "data-kbyg-content": "true",
+          "href": "#",
+          "class": "kbyg-button kbyg-button--external",
+          "text": "OPEN SPONSOR HUB"
+        }
+      ],
+      "supportLinks": [
+        {
+          "data-kbyg-content": "true",
+          "href": "#",
+          "class": "kbyg-button kbyg-button--external",
+          "text": "SPONSOR SUPPORT"
+        }
+      ],
+      "hubText": "EVENT ACCESSSponsor Hub.Placeholder — Sponsor MeetMax access and login instructions are awaiting Operations confirmation.OPEN SPONSOR HUB",
+      "supportText": "SPONSOR SUPPORTSponsor Support.Placeholder — Sponsor support instructions and destination are awaiting Operations confirmation.SPONSOR SUPPORT",
+      "imagesPreserved": true,
+      "outsideLinksPreserved": true,
+      "agendaLinksPreserved": true,
+      "pinsPreserved": true,
+      "failures": []
+    },
+    {
+      "slug": "hchr-sept-2026-delegate",
+      "status": 200,
+      "noindex": true,
+      "hubLinks": [
+        {
+          "data-kbyg-content": "true",
+          "href": "mailto:kbrightling@ipmievents.com",
+          "class": "kbyg-button kbyg-button--external",
+          "text": "EMAIL OPERATIONS"
+        }
+      ],
+      "supportLinks": [],
+      "hubText": "YOUR DIGITAL HOME BASEAttendee Hub.The Attendee Hub is your central resource for all event-related information. Through the Hub, you can review key dates and deliverables, submit your Attendee Profile questionnaire and hotel requirements, build your personalized itinerary, and access important event information and resources.Attendee Hub login credentials are provided by your Operations Lead in their welcome email, which is typically sent 8–10 weeks before the event start date.Placeholder — Delegate MeetMax destination pending Operations confirmation. The email link below contacts Operations; it does not open MeetMax.EMAIL OPERATIONS",
+      "supportText": "",
+      "imagesPreserved": true,
+      "outsideLinksPreserved": true,
+      "agendaLinksPreserved": true,
+      "pinsPreserved": true,
+      "failures": []
+    },
+    {
+      "slug": "hchr-sept-2026-sponsor",
+      "status": 200,
+      "noindex": true,
+      "hubLinks": [
+        {
+          "data-kbyg-content": "true",
+          "href": "#",
+          "class": "kbyg-button kbyg-button--external",
+          "text": "OPEN SPONSOR HUB"
+        }
+      ],
+      "supportLinks": [
+        {
+          "data-kbyg-content": "true",
+          "href": "#",
+          "class": "kbyg-button kbyg-button--external",
+          "text": "VISIT THE SPONSOR HUB"
+        }
+      ],
+      "hubText": "YOUR DIGITAL HOME BASESponsor Hub.The Sponsor Hub is the central resource for managing your organization’s participation in the event. Through the Hub, you can submit a custom Delegate Profiling Question, update your company information, register your onsite attendees, complete the business meeting selection process, review key dates and deliverables, and access important event information and resources.Sponsor Hub login credentials are provided by your Operations Lead in their welcome email, which is typically sent 8–10 weeks prior to the event start date.Placeholder — Sponsor MeetMax destination pending Operations confirmation.OPEN SPONSOR HUB",
+      "supportText": "NEED AN ANSWER?Sponsor Support Lives in the Hub.Visit the Sponsor Hub for a comprehensive FAQ section covering a wide range of topics, including pre-event deliverables, hotel reservations, business meetings, shipping instructions, onsite logistics, and post-event follow-up details.Placeholder — Sponsor Support destination and purpose pending Operations confirmation.VISIT THE SPONSOR HUB",
+      "imagesPreserved": true,
+      "outsideLinksPreserved": true,
+      "agendaLinksPreserved": true,
+      "pinsPreserved": true,
+      "failures": []
+    },
+    {
+      "slug": "hchrmi-march-2027-delegate",
+      "status": 200,
+      "noindex": true,
+      "hubLinks": [
+        {
+          "data-kbyg-content": "true",
+          "href": "#",
+          "class": "kbyg-button kbyg-button--external",
+          "text": "OPEN ATTENDEE HUB"
+        }
+      ],
+      "supportLinks": [],
+      "hubText": "EVENT ACCESSAttendee Hub.Placeholder — Delegate MeetMax access and login instructions are awaiting Operations confirmation.OPEN ATTENDEE HUB",
+      "supportText": "",
+      "imagesPreserved": true,
+      "outsideLinksPreserved": true,
+      "agendaLinksPreserved": true,
+      "pinsPreserved": true,
+      "failures": []
+    },
+    {
+      "slug": "hchrmi-march-2027-sponsor",
+      "status": 200,
+      "noindex": true,
+      "hubLinks": [
+        {
+          "data-kbyg-content": "true",
+          "href": "#",
+          "class": "kbyg-button kbyg-button--external",
+          "text": "OPEN SPONSOR HUB"
+        }
+      ],
+      "supportLinks": [
+        {
+          "data-kbyg-content": "true",
+          "href": "#",
+          "class": "kbyg-button kbyg-button--external",
+          "text": "SPONSOR SUPPORT"
+        }
+      ],
+      "hubText": "EVENT ACCESSSponsor Hub.Placeholder — Sponsor MeetMax access and login instructions are awaiting Operations confirmation.OPEN SPONSOR HUB",
+      "supportText": "SPONSOR SUPPORTSponsor Support.Placeholder — Sponsor support instructions and destination are awaiting Operations confirmation.SPONSOR SUPPORT",
+      "imagesPreserved": true,
+      "outsideLinksPreserved": true,
+      "agendaLinksPreserved": true,
+      "pinsPreserved": true,
+      "failures": []
+    },
+    {
+      "slug": "healthcare-gci-oct-2026-delegate",
+      "status": 200,
+      "noindex": true,
+      "hubLinks": [
+        {
+          "data-kbyg-content": "true",
+          "href": "#",
+          "class": "kbyg-button kbyg-button--external",
+          "text": "OPEN ATTENDEE HUB"
+        }
+      ],
+      "supportLinks": [],
+      "hubText": "EVENT ACCESSAttendee Hub.Placeholder — Delegate MeetMax access and login instructions are awaiting Operations confirmation.OPEN ATTENDEE HUB",
+      "supportText": "",
+      "imagesPreserved": true,
+      "outsideLinksPreserved": true,
+      "agendaLinksPreserved": true,
+      "pinsPreserved": true,
+      "failures": []
+    },
+    {
+      "slug": "healthcare-gci-oct-2026-sponsor",
+      "status": 200,
+      "noindex": true,
+      "hubLinks": [
+        {
+          "data-kbyg-content": "true",
+          "href": "#",
+          "class": "kbyg-button kbyg-button--external",
+          "text": "OPEN SPONSOR HUB"
+        }
+      ],
+      "supportLinks": [
+        {
+          "data-kbyg-content": "true",
+          "href": "#",
+          "class": "kbyg-button kbyg-button--external",
+          "text": "SPONSOR SUPPORT"
+        }
+      ],
+      "hubText": "EVENT ACCESSSponsor Hub.Placeholder — Sponsor MeetMax access and login instructions are awaiting Operations confirmation.OPEN SPONSOR HUB",
+      "supportText": "SPONSOR SUPPORTSponsor Support.Placeholder — Sponsor support instructions and destination are awaiting Operations confirmation.SPONSOR SUPPORT",
+      "imagesPreserved": true,
+      "outsideLinksPreserved": true,
+      "agendaLinksPreserved": true,
+      "pinsPreserved": true,
+      "failures": []
+    },
+    {
+      "slug": "hfi-2027-delegate",
+      "status": 200,
+      "noindex": true,
+      "hubLinks": [
+        {
+          "data-kbyg-content": "true",
+          "href": "#",
+          "class": "kbyg-button kbyg-button--external",
+          "text": "OPEN ATTENDEE HUB"
+        }
+      ],
+      "supportLinks": [],
+      "hubText": "EVENT ACCESSAttendee Hub.Placeholder — Delegate MeetMax access and login instructions are awaiting Operations confirmation.OPEN ATTENDEE HUB",
+      "supportText": "",
+      "imagesPreserved": true,
+      "outsideLinksPreserved": true,
+      "agendaLinksPreserved": true,
+      "pinsPreserved": true,
+      "failures": []
+    },
+    {
+      "slug": "hfi-2027-sponsor",
+      "status": 200,
+      "noindex": true,
+      "hubLinks": [
+        {
+          "data-kbyg-content": "true",
+          "href": "#",
+          "class": "kbyg-button kbyg-button--external",
+          "text": "OPEN SPONSOR HUB"
+        }
+      ],
+      "supportLinks": [
+        {
+          "data-kbyg-content": "true",
+          "href": "#",
+          "class": "kbyg-button kbyg-button--external",
+          "text": "SPONSOR SUPPORT"
+        }
+      ],
+      "hubText": "EVENT ACCESSSponsor Hub.Placeholder — Sponsor MeetMax access and login instructions are awaiting Operations confirmation.OPEN SPONSOR HUB",
+      "supportText": "SPONSOR SUPPORTSponsor Support.Placeholder — Sponsor support instructions and destination are awaiting Operations confirmation.SPONSOR SUPPORT",
+      "imagesPreserved": true,
+      "outsideLinksPreserved": true,
+      "agendaLinksPreserved": true,
+      "pinsPreserved": true,
+      "failures": []
+    },
+    {
+      "slug": "hgc-feb-2027-delegate",
+      "status": 200,
+      "noindex": true,
+      "hubLinks": [
+        {
+          "data-kbyg-content": "true",
+          "href": "#",
+          "class": "kbyg-button kbyg-button--external",
+          "text": "OPEN ATTENDEE HUB"
+        }
+      ],
+      "supportLinks": [],
+      "hubText": "EVENT ACCESSAttendee Hub.Placeholder — Delegate MeetMax access and login instructions are awaiting Operations confirmation.OPEN ATTENDEE HUB",
+      "supportText": "",
+      "imagesPreserved": true,
+      "outsideLinksPreserved": true,
+      "agendaLinksPreserved": true,
+      "pinsPreserved": true,
+      "failures": []
+    },
+    {
+      "slug": "hgc-feb-2027-sponsor",
+      "status": 200,
+      "noindex": true,
+      "hubLinks": [
+        {
+          "data-kbyg-content": "true",
+          "href": "#",
+          "class": "kbyg-button kbyg-button--external",
+          "text": "OPEN SPONSOR HUB"
+        }
+      ],
+      "supportLinks": [
+        {
+          "data-kbyg-content": "true",
+          "href": "#",
+          "class": "kbyg-button kbyg-button--external",
+          "text": "SPONSOR SUPPORT"
+        }
+      ],
+      "hubText": "EVENT ACCESSSponsor Hub.Placeholder — Sponsor MeetMax access and login instructions are awaiting Operations confirmation.OPEN SPONSOR HUB",
+      "supportText": "SPONSOR SUPPORTSponsor Support.Placeholder — Sponsor support instructions and destination are awaiting Operations confirmation.SPONSOR SUPPORT",
+      "imagesPreserved": true,
+      "outsideLinksPreserved": true,
+      "agendaLinksPreserved": true,
+      "pinsPreserved": true,
+      "failures": []
+    },
+    {
+      "slug": "hit-2027-delegate",
+      "status": 200,
+      "noindex": true,
+      "hubLinks": [
+        {
+          "data-kbyg-content": "true",
+          "href": "#",
+          "class": "kbyg-button kbyg-button--external",
+          "text": "OPEN ATTENDEE HUB"
+        }
+      ],
+      "supportLinks": [],
+      "hubText": "EVENT ACCESSAttendee Hub.Placeholder — Delegate MeetMax access and login instructions are awaiting Operations confirmation.OPEN ATTENDEE HUB",
+      "supportText": "",
+      "imagesPreserved": true,
+      "outsideLinksPreserved": true,
+      "agendaLinksPreserved": true,
+      "pinsPreserved": true,
+      "failures": []
+    },
+    {
+      "slug": "hit-2027-sponsor",
+      "status": 200,
+      "noindex": true,
+      "hubLinks": [
+        {
+          "data-kbyg-content": "true",
+          "href": "#",
+          "class": "kbyg-button kbyg-button--external",
+          "text": "OPEN SPONSOR HUB"
+        }
+      ],
+      "supportLinks": [
+        {
+          "data-kbyg-content": "true",
+          "href": "#",
+          "class": "kbyg-button kbyg-button--external",
+          "text": "SPONSOR SUPPORT"
+        }
+      ],
+      "hubText": "EVENT ACCESSSponsor Hub.Placeholder — Sponsor MeetMax access and login instructions are awaiting Operations confirmation.OPEN SPONSOR HUB",
+      "supportText": "SPONSOR SUPPORTSponsor Support.Placeholder — Sponsor support instructions and destination are awaiting Operations confirmation.SPONSOR SUPPORT",
+      "imagesPreserved": true,
+      "outsideLinksPreserved": true,
+      "agendaLinksPreserved": true,
+      "pinsPreserved": true,
+      "failures": []
+    },
+    {
+      "slug": "hr-can-april-2027-delegate",
+      "status": 200,
+      "noindex": true,
+      "hubLinks": [
+        {
+          "data-kbyg-content": "true",
+          "href": "#",
+          "class": "kbyg-button kbyg-button--external",
+          "text": "OPEN ATTENDEE HUB"
+        }
+      ],
+      "supportLinks": [],
+      "hubText": "EVENT ACCESSAttendee Hub.Placeholder — Delegate MeetMax access and login instructions are awaiting Operations confirmation.OPEN ATTENDEE HUB",
+      "supportText": "",
+      "imagesPreserved": true,
+      "outsideLinksPreserved": true,
+      "agendaLinksPreserved": true,
+      "pinsPreserved": true,
+      "failures": []
+    },
+    {
+      "slug": "hr-can-april-2027-sponsor",
+      "status": 200,
+      "noindex": true,
+      "hubLinks": [
+        {
+          "data-kbyg-content": "true",
+          "href": "#",
+          "class": "kbyg-button kbyg-button--external",
+          "text": "OPEN SPONSOR HUB"
+        }
+      ],
+      "supportLinks": [
+        {
+          "data-kbyg-content": "true",
+          "href": "#",
+          "class": "kbyg-button kbyg-button--external",
+          "text": "SPONSOR SUPPORT"
+        }
+      ],
+      "hubText": "EVENT ACCESSSponsor Hub.Placeholder — Sponsor MeetMax access and login instructions are awaiting Operations confirmation.OPEN SPONSOR HUB",
+      "supportText": "SPONSOR SUPPORTSponsor Support.Placeholder — Sponsor support instructions and destination are awaiting Operations confirmation.SPONSOR SUPPORT",
+      "imagesPreserved": true,
+      "outsideLinksPreserved": true,
+      "agendaLinksPreserved": true,
+      "pinsPreserved": true,
+      "failures": []
+    },
+    {
+      "slug": "hrmi-canada-nov-2026-delegate",
+      "status": 200,
+      "noindex": true,
+      "hubLinks": [
+        {
+          "data-kbyg-content": "true",
+          "href": "#",
+          "class": "kbyg-button kbyg-button--external",
+          "text": "OPEN ATTENDEE HUB"
+        }
+      ],
+      "supportLinks": [],
+      "hubText": "EVENT ACCESSAttendee Hub.Placeholder — Delegate MeetMax access and login instructions are awaiting Operations confirmation.OPEN ATTENDEE HUB",
+      "supportText": "",
+      "imagesPreserved": true,
+      "outsideLinksPreserved": true,
+      "agendaLinksPreserved": true,
+      "pinsPreserved": true,
+      "failures": []
+    },
+    {
+      "slug": "hrmi-canada-nov-2026-sponsor",
+      "status": 200,
+      "noindex": true,
+      "hubLinks": [
+        {
+          "data-kbyg-content": "true",
+          "href": "#",
+          "class": "kbyg-button kbyg-button--external",
+          "text": "OPEN SPONSOR HUB"
+        }
+      ],
+      "supportLinks": [
+        {
+          "data-kbyg-content": "true",
+          "href": "#",
+          "class": "kbyg-button kbyg-button--external",
+          "text": "SPONSOR SUPPORT"
+        }
+      ],
+      "hubText": "EVENT ACCESSSponsor Hub.Placeholder — Sponsor MeetMax access and login instructions are awaiting Operations confirmation.OPEN SPONSOR HUB",
+      "supportText": "SPONSOR SUPPORTSponsor Support.Placeholder — Sponsor support instructions and destination are awaiting Operations confirmation.SPONSOR SUPPORT",
+      "imagesPreserved": true,
+      "outsideLinksPreserved": true,
+      "agendaLinksPreserved": true,
+      "pinsPreserved": true,
+      "failures": []
+    },
+    {
+      "slug": "hrmi-feb-2027-delegate",
+      "status": 200,
+      "noindex": true,
+      "hubLinks": [
+        {
+          "data-kbyg-content": "true",
+          "href": "#",
+          "class": "kbyg-button kbyg-button--external",
+          "text": "OPEN ATTENDEE HUB"
+        }
+      ],
+      "supportLinks": [],
+      "hubText": "EVENT ACCESSAttendee Hub.Placeholder — Delegate MeetMax access and login instructions are awaiting Operations confirmation.OPEN ATTENDEE HUB",
+      "supportText": "",
+      "imagesPreserved": true,
+      "outsideLinksPreserved": true,
+      "agendaLinksPreserved": true,
+      "pinsPreserved": true,
+      "failures": []
+    },
+    {
+      "slug": "hrmi-feb-2027-sponsor",
+      "status": 200,
+      "noindex": true,
+      "hubLinks": [
+        {
+          "data-kbyg-content": "true",
+          "href": "#",
+          "class": "kbyg-button kbyg-button--external",
+          "text": "OPEN SPONSOR HUB"
+        }
+      ],
+      "supportLinks": [
+        {
+          "data-kbyg-content": "true",
+          "href": "#",
+          "class": "kbyg-button kbyg-button--external",
+          "text": "SPONSOR SUPPORT"
+        }
+      ],
+      "hubText": "EVENT ACCESSSponsor Hub.Placeholder — Sponsor MeetMax access and login instructions are awaiting Operations confirmation.OPEN SPONSOR HUB",
+      "supportText": "SPONSOR SUPPORTSponsor Support.Placeholder — Sponsor support instructions and destination are awaiting Operations confirmation.SPONSOR SUPPORT",
+      "imagesPreserved": true,
+      "outsideLinksPreserved": true,
+      "agendaLinksPreserved": true,
+      "pinsPreserved": true,
+      "failures": []
+    },
+    {
+      "slug": "hrmi-oct-2026-delegate",
+      "status": 200,
+      "noindex": true,
+      "hubLinks": [
+        {
+          "data-kbyg-content": "true",
+          "href": "#",
+          "class": "kbyg-button kbyg-button--external",
+          "text": "OPEN ATTENDEE HUB"
+        }
+      ],
+      "supportLinks": [],
+      "hubText": "EVENT ACCESSAttendee Hub.Placeholder — Delegate MeetMax access and login instructions are awaiting Operations confirmation.OPEN ATTENDEE HUB",
+      "supportText": "",
+      "imagesPreserved": true,
+      "outsideLinksPreserved": true,
+      "agendaLinksPreserved": true,
+      "pinsPreserved": true,
+      "failures": []
+    },
+    {
+      "slug": "hrmi-oct-2026-sponsor",
+      "status": 200,
+      "noindex": true,
+      "hubLinks": [
+        {
+          "data-kbyg-content": "true",
+          "href": "#",
+          "class": "kbyg-button kbyg-button--external",
+          "text": "OPEN SPONSOR HUB"
+        }
+      ],
+      "supportLinks": [
+        {
+          "data-kbyg-content": "true",
+          "href": "#",
+          "class": "kbyg-button kbyg-button--external",
+          "text": "SPONSOR SUPPORT"
+        }
+      ],
+      "hubText": "EVENT ACCESSSponsor Hub.Placeholder — Sponsor MeetMax access and login instructions are awaiting Operations confirmation.OPEN SPONSOR HUB",
+      "supportText": "SPONSOR SUPPORTSponsor Support.Placeholder — Sponsor support instructions and destination are awaiting Operations confirmation.SPONSOR SUPPORT",
+      "imagesPreserved": true,
+      "outsideLinksPreserved": true,
+      "agendaLinksPreserved": true,
+      "pinsPreserved": true,
+      "failures": []
+    },
+    {
+      "slug": "iplmi-2026-delegate",
+      "status": 200,
+      "noindex": true,
+      "hubLinks": [
+        {
+          "data-kbyg-content": "true",
+          "href": "#",
+          "class": "kbyg-button kbyg-button--external",
+          "text": "OPEN ATTENDEE HUB"
+        }
+      ],
+      "supportLinks": [],
+      "hubText": "EVENT ACCESSAttendee Hub.Placeholder — Delegate MeetMax access and login instructions are awaiting Operations confirmation.OPEN ATTENDEE HUB",
+      "supportText": "",
+      "imagesPreserved": true,
+      "outsideLinksPreserved": true,
+      "agendaLinksPreserved": true,
+      "pinsPreserved": true,
+      "failures": []
+    },
+    {
+      "slug": "iplmi-2026-sponsor",
+      "status": 200,
+      "noindex": true,
+      "hubLinks": [
+        {
+          "data-kbyg-content": "true",
+          "href": "#",
+          "class": "kbyg-button kbyg-button--external",
+          "text": "OPEN SPONSOR HUB"
+        }
+      ],
+      "supportLinks": [
+        {
+          "data-kbyg-content": "true",
+          "href": "#",
+          "class": "kbyg-button kbyg-button--external",
+          "text": "SPONSOR SUPPORT"
+        }
+      ],
+      "hubText": "EVENT ACCESSSponsor Hub.Placeholder — Sponsor MeetMax access and login instructions are awaiting Operations confirmation.OPEN SPONSOR HUB",
+      "supportText": "SPONSOR SUPPORTSponsor Support.Placeholder — Sponsor support instructions and destination are awaiting Operations confirmation.SPONSOR SUPPORT",
+      "imagesPreserved": true,
+      "outsideLinksPreserved": true,
+      "agendaLinksPreserved": true,
+      "pinsPreserved": true,
+      "failures": []
+    }
+  ]
+}

@@ -1,0 +1,92 @@
+{
+  "checkedAt": "2026-09-24T13:03:50.498Z",
+  "pages": 54,
+  "blocks": 43,
+  "pageChanges": [
+    {
+      "id": "6ab427151e2a1d57f6652add",
+      "slug": "ehs-jan-2027-sponsor",
+      "field": "hub-body",
+      "before": "<p>The Sponsor Hub is the central resource for managing your organization’s participation in the event. Through the Hub, you can submit a custom Delegate Profiling Question, update your company information, register your onsite attendees, complete the business meeting selection process, review key dates and deliverables, and access important event information and resources.</p><p>Sponsor Hub login credentials are provided by your Operations Lead in their welcome email, which is typically sent 8–10 weeks prior to the event start date.</p>",
+      "after": "<p>The Sponsor Hub is the central resource for managing your organization’s participation in the event. Through the Hub, you can submit a custom Delegate Profiling Question, update your company information, register your onsite attendees, complete the business meeting selection process, review key dates and deliverables, and access important event information and resources.</p><p>Sponsor Hub login credentials are provided by your Operations Lead in their welcome email, which is typically sent 8–10 weeks prior to the event start date.</p><p>Placeholder — Sponsor MeetMax destination pending Operations confirmation</p>"
+    },
+    {
+      "id": "6ab427151e2a1d57f6652add",
+      "slug": "ehs-jan-2027-sponsor",
+      "field": "hub-url",
+      "before": "https://example.com/sponsor-hub",
+      "after": null
+    },
+    {
+      "id": "6ab427151e2a1d57f6652add",
+      "slug": "ehs-jan-2027-sponsor",
+      "field": "support-body",
+      "before": "<p>Visit the Sponsor Hub for a comprehensive FAQ section covering a wide range of topics, including pre-event deliverables, hotel reservations, business meetings, shipping instructions, onsite logistics, and post-event follow-up details.</p>",
+      "after": "<p>Visit the Sponsor Hub for a comprehensive FAQ section covering a wide range of topics, including pre-event deliverables, hotel reservations, business meetings, shipping instructions, onsite logistics, and post-event follow-up details.</p><p>Placeholder — Sponsor Support destination and purpose pending Operations confirmation.</p>"
+    },
+    {
+      "id": "6ab427151e2a1d57f6652add",
+      "slug": "ehs-jan-2027-sponsor",
+      "field": "support-url",
+      "before": "https://example.com/sponsor-hub",
+      "after": null
+    },
+    {
+      "id": "6ab419ab01801a6514d9c07a",
+      "slug": "ehs-jan-2027-delegate",
+      "field": "hub-body",
+      "before": "<p>The Attendee Hub is your central resource for all event-related information. Through the Hub, you can review key dates and deliverables, submit your Attendee Profile questionnaire and hotel requirements, build your personalized itinerary, and access important event information and resources.</p><p>Attendee Hub login credentials are provided by your Operations Lead in their welcome email, which is typically sent 8–10 weeks before the event start date.</p>",
+      "after": "<p>The Attendee Hub is your central resource for all event-related information. Through the Hub, you can review key dates and deliverables, submit your Attendee Profile questionnaire and hotel requirements, build your personalized itinerary, and access important event information and resources.</p><p>Attendee Hub login credentials are provided by your Operations Lead in their welcome email, which is typically sent 8–10 weeks before the event start date.</p><p>Placeholder — Delegate MeetMax destination pending Operations confirmation. The email link below contacts Operations; it does not open MeetMax.</p><p>‍</p>"
+    },
+    {
+      "id": "6ab419ab01801a6514d9c07a",
+      "slug": "ehs-jan-2027-delegate",
+      "field": "hub-cta-label",
+      "before": "OPEN ATTENDEE HUB",
+      "after": "EMAIL OPERATIONS"
+    },
+    {
+      "id": "6a9a6378aaffd3efb5e46338",
+      "slug": "hchr-sept-2026-sponsor",
+      "field": "hub-body",
+      "before": "<p>The Sponsor Hub is the central resource for managing your organization’s participation in the event. Through the Hub, you can submit a custom Delegate Profiling Question, update your company information, register your onsite attendees, complete the business meeting selection process, review key dates and deliverables, and access important event information and resources.</p><p>Sponsor Hub login credentials are provided by your Operations Lead in their welcome email, which is typically sent 8–10 weeks prior to the event start date.</p>",
+      "after": "<p>The Sponsor Hub is the central resource for managing your organization’s participation in the event. Through the Hub, you can submit a custom Delegate Profiling Question, update your company information, register your onsite attendees, complete the business meeting selection process, review key dates and deliverables, and access important event information and resources.</p><p>Sponsor Hub login credentials are provided by your Operations Lead in their welcome email, which is typically sent 8–10 weeks prior to the event start date.</p><p>Placeholder — Sponsor MeetMax destination pending Operations confirmation.</p>"
+    },
+    {
+      "id": "6a9a6378aaffd3efb5e46338",
+      "slug": "hchr-sept-2026-sponsor",
+      "field": "hub-url",
+      "before": "https://example.com/sponsor-hub",
+      "after": null
+    },
+    {
+      "id": "6a9a6378aaffd3efb5e46338",
+      "slug": "hchr-sept-2026-sponsor",
+      "field": "support-body",
+      "before": "<p>Visit the Sponsor Hub for a comprehensive FAQ section covering a wide range of topics, including pre-event deliverables, hotel reservations, business meetings, shipping instructions, onsite logistics, and post-event follow-up details.</p>",
+      "after": "<p>Visit the Sponsor Hub for a comprehensive FAQ section covering a wide range of topics, including pre-event deliverables, hotel reservations, business meetings, shipping instructions, onsite logistics, and post-event follow-up details.</p><p>Placeholder — Sponsor Support destination and purpose pending Operations confirmation.</p>"
+    },
+    {
+      "id": "6a9a6378aaffd3efb5e46338",
+      "slug": "hchr-sept-2026-sponsor",
+      "field": "support-url",
+      "before": "https://example.com/sponsor-hub",
+      "after": null
+    },
+    {
+      "id": "6a9a6378aaffd3efb5e46336",
+      "slug": "hchr-sept-2026-delegate",
+      "field": "hub-body",
+      "before": "<p>The Attendee Hub is your central resource for all event-related information. Through the Hub, you can review key dates and deliverables, submit your Attendee Profile questionnaire and hotel requirements, build your personalized itinerary, and access important event information and resources.</p><p>Attendee Hub login credentials are provided by your Operations Lead in their welcome email, which is typically sent 8–10 weeks before the event start date.</p>",
+      "after": "<p>The Attendee Hub is your central resource for all event-related information. Through the Hub, you can review key dates and deliverables, submit your Attendee Profile questionnaire and hotel requirements, build your personalized itinerary, and access important event information and resources.</p><p>Attendee Hub login credentials are provided by your Operations Lead in their welcome email, which is typically sent 8–10 weeks before the event start date.</p><p>Placeholder — Delegate MeetMax destination pending Operations confirmation. The email link below contacts Operations; it does not open MeetMax.</p>"
+    },
+    {
+      "id": "6a9a6378aaffd3efb5e46336",
+      "slug": "hchr-sept-2026-delegate",
+      "field": "hub-cta-label",
+      "before": "OPEN ATTENDEE HUB",
+      "after": "EMAIL OPERATIONS"
+    }
+  ],
+  "blockChanges": []
+}

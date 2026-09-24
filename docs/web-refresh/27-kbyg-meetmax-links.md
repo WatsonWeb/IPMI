@@ -3,7 +3,7 @@
 [Back to master](README.md)
 
 - **Owner:** IPMI Operations supplies verified destinations; Bryan applies native CMS field/link updates.
-- **Status:** Blocked on exact event- and audience-specific MeetMax URLs. No URLs were supplied in the source package and none have been guessed or configured in this documentation pass.
+- **Status:** Provisionally staged for review September 24, 2026. All 54 page/audience rows have safe pending destination states. Four example URLs were removed; two useful Operations email links have truthful labels. Final event/audience-specific MeetMax URLs and separate Sponsor Support purposes remain IPMI inputs.
 - **Sources:** [Web Refresh Master To-Do](https://ipmionline.sharepoint.com/:w:/s/IPMIExternal/IQDcMcTdU_t5RrSMF4cpizzbAYhFRwKUScDDaC1bx0vQCBI), KBYG MeetMax request; [KBYG example folder](https://ipmionline.sharepoint.com/:f:/s/IPMIExternal/IgDMJTaH9TtpSKYjyVlP6hzHATZ9JieE2KQImFfNSV6rGhc?e=xLcQz9).
 - **Depends on:** Confirmed event/audience URL rows supplied through [36 — Operations input](36-kbyg-operations-content.md). Apply confirmed rows to existing pages independently; coordinate new records with [25](25-kbyg-page-coverage.md) and agenda destinations with [26](26-kbyg-agenda-links.md). Verify in [37](37-staging-verification.md).
 
@@ -15,7 +15,7 @@ The local [CMS-rendering release notes](../KBYG-CMS-Rendering-Release.md), conso
 
 ## Destination mapping to complete before edits
 
-Each row needs IPMI's supplied URL, event/audience identity, intended purpose and confirmation date. A missing URL is a blocker, not permission to reuse another event's destination.
+Each row needs IPMI's supplied URL, event/audience identity, intended purpose and confirmation date. Missing URLs now have labeled, noninteractive staging placeholders under Bryan's later instruction; no destination is borrowed or invented. The [54-row exact destination register](evidence/task27/destination-register.json) supersedes this original six-purpose input table and covers 54 Hub purposes plus 27 independent Sponsor Support purposes.
 
 | Existing record / slug                             | Field and visible destination     | Approved URL                                                                             |
 | -------------------------------------------------- | --------------------------------- | ---------------------------------------------------------------------------------------- |
@@ -60,3 +60,13 @@ Add corresponding rows for every approved new event/audience pair from task 25 a
 ## Rollback
 
 Restore captured URLs, CTA labels and native bindings for only the affected records. Restore the prior versioned runtime pin if a root-override fix required code changes. Republish only staging and verify that every destination has returned to its recorded previous value.
+
+## September 24, 2026 provisional implementation
+
+Native Chrome CMS edits changed exactly 12 fields on the four original pages. Both Sponsor `hub-url` and `support-url` values were cleared independently. Original Hub/Support copy was retained, followed by explicit pending paragraphs. Both Delegate `hub-url` mailtos were retained; `hub-cta-label` became `EMAIL OPERATIONS`, with a pending MeetMax paragraph explaining the email purpose. Existing native optional-link conditions suppress empty CTAs. The 50 new records already have appropriate labeled pending copy and empty destinations and were left unchanged.
+
+[Evidence and replacement/rollback procedure](evidence/task27/README.md), [exact native deltas](evidence/task27/native-deltas.json), [all 54 HTTP checks](evidence/task27/root-task27-http-verification.json), and [12 desktop/mobile browser samples](evidence/task27/browser-qa.json) record the result. Staging published at `2026-09-24T13:02:25.687Z`; all four custom domains remain at `2026-09-24T03:17:26.557Z`. No template, runtime, CSS or asset pin changed.
+
+Implementation checks passed: 54 pages return HTTP 200; no active example or dead Hub/Support CTA; accurate visible/accessible email names; independent Hub/Support bindings; noindex, Agenda, reservation/staff links, images and all 43 blocks preserved; original and sparse new pairs checked at 1912px and 390px. Email focus and in-page keyboard navigation passed without launching mail or submitting data. Hidden empty anchors still exist in native HTML as `href="#"`, with computed `display:none`; they are neither visible nor keyboard targets. These are not active dead links.
+
+Final URL verification, actual MeetMax landing/login identity, full supplied query-string validation and Operations approval remain pending because no MeetMax URL was supplied. No attendee login/account creation occurred. On receipt, replace each exact page/purpose field independently. For the two Delegate email fallbacks, update `hub-url` **and** its Hub-purpose `hub-cta-label` together, remove the pending/email-explanation paragraph, preserve staff contact links, and repeat staging/mobile/keyboard/landing checks. Do not treat Sponsor Support as a Hub synonym without separate confirmation.
