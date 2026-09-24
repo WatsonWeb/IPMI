@@ -1,0 +1,42 @@
+{
+  "documentWidth": 790,
+  "height": 1024,
+  "images": [
+    {
+      "alt": "International Performance Management Institute.",
+      "height": 89,
+      "loaded": true,
+      "src": "https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/63281aeafc3ab3e21d7c05ec_IPMI-Logo-Light.svg",
+      "width": 250
+    },
+    {
+      "alt": "Two attendees smiling and holding drinks at the HIT 2024 dinner",
+      "height": 250,
+      "loaded": true,
+      "src": "https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4ca6019adb9f0df002db6_P27-HIT-2024-Dinner.jpg",
+      "width": 250
+    },
+    {
+      "alt": "IPMI Staff assisting Attendees",
+      "height": 250,
+      "loaded": true,
+      "src": "https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/63c4d1501c2178619dd30322_Contact-Bubble-3.webp",
+      "width": 250
+    },
+    {
+      "alt": "",
+      "height": 799,
+      "loaded": true,
+      "src": "https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/63cf38dc10e34fc6288e187f_Contact-Hero-BG-2.webp",
+      "width": 768
+    },
+    {
+      "alt": "International Performance Management Institute.",
+      "height": 100,
+      "loaded": true,
+      "src": "https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6327f8231c814d48b97873a8_Asset%201.svg",
+      "width": 282
+    }
+  ],
+  "width": 768
+}

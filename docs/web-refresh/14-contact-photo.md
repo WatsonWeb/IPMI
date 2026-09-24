@@ -2,7 +2,7 @@
 
 Owner: Webflow implementer. Asset owner: IPMI.
 
-Status: Ready for implementation, subject to source-image access and placement verification. Documentation only; no website edits performed.
+Status: Staged for review. P26 retained and approved P27 replaced; responsive and preservation checks passed September 24, 2026. Production was not published.
 
 [Back to master](README.md)
 
@@ -41,15 +41,54 @@ No new CMS collection or field is required solely for these replacements. Existi
 
 ## Acceptance checks
 
-- [ ] P26: the existing front image is retained and its asset reference is recorded.
-- [ ] P27: the approved asset is visible at the destination specified in the mapping table.
-- [ ] Every row has an actual Designer/CMS destination and previous asset recorded; unresolved placement guesses are closed before marking complete.
-- [ ] Front/back layering and source-intended composition are correct at desktop, tablet, and mobile sizes.
-- [ ] Images load from Webflow-managed assets with no broken or authenticated SharePoint image URLs.
-- [ ] Informative/decorative treatment and alternative text are verified for the new images.
-- [ ] Unrelated content, links, collections, and interaction behavior remain correct.
-- [ ] Staging URLs and comparison screenshots are recorded.
+- [x] P26: the existing front image is retained and its asset reference is recorded.
+- [x] P27: the approved asset is visible at the destination specified in the mapping table.
+- [x] Every row has an actual Designer/CMS destination and previous asset recorded; unresolved placement guesses are closed before marking complete.
+- [x] Front/back layering and source-intended composition are correct at desktop, tablet, and mobile sizes.
+- [x] Images load from Webflow-managed assets with no broken or authenticated SharePoint image URLs.
+- [x] Informative/decorative treatment and alternative text are verified for the new images.
+- [x] Unrelated content, links, collections, and interaction behavior remain correct.
+- [x] Staging URLs and comparison screenshots are recorded.
 
 ## Rollback
 
 Restore the captured previous asset references and their original crop, focal position, and alternative-text values in the same static/component/CMS fields. Republish staging and verify every affected placement, including dependent component instances. Keep both old and new assets available through review; do not delete an asset that another page may use.
+
+## Implementation record — September 24, 2026
+
+Implemented by Codex through Chrome Designer as **IPMI Webmaster**, with exclusive editor control. Page **Contact Us**, ID `63c3829b2405e78449d8cae5`; staging [Contact](https://ipmi.webflow.io/contact#hero). No placeholders were needed.
+
+[Source page 6](evidence/task14/source-p26-p27.png) confirms the lower-left foreground staff circle is P26 and upper-right background lobby circle is P27. Both are static images under **Hero Section → Hero Container → Hero Wrap → Bubble Photos**. The approved replacement visibly shows two smiling attendees holding drinks; no identities were inferred.
+
+| Row                | Element ID                             | Previous asset and alt                                                             | Final asset and alt                                                                                                                                                                                                           |
+| ------------------ | -------------------------------------- | ---------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| P26 front retained | `fa1f93cb-6aa7-5288-2de1-0b033820b124` | `63c4d1501c2178619dd30322_Contact-Bubble-3.webp`; `IPMI Staff assisting Attendees` | Unchanged                                                                                                                                                                                                                     |
+| P27 back           | `fa1f93cb-6aa7-5288-2de1-0b033820b123` | `63c388708ffd311b54626abd_Contact-Bubble-2.webp`; `IPMI Institute Session Lobby`   | [P27 JPEG](https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4ca6019adb9f0df002db6_P27-HIT-2024-Dinner.jpg), asset `6ab4ca6019adb9f0df002db6`; `Two attendees smiling and holding drinks at the HIT 2024 dinner` |
+
+Original P27 alt mode was **Use alt text from asset**; replacement uses **Custom description**. Old asset metadata remains unchanged. Both old and new assets remain available.
+
+### Provenance and preserved settings
+
+Chrome downloaded the approved SharePoint preview blob `ccccc968-72c5-49c2-8d46-1dee8f43623c.jpg` through the observed preview image. This is an official **2560 × 2560 JPEG preview derivative**, not claimed to be original camera bytes. Its local copy is ignored `.webflow/task14-photos/P27-HIT-2024-Dinner.jpg`, 405545 bytes, SHA-256 `D335D8F2CD26A7F4A3796EB83BFD2A47E9883A3547EB83456C3DE8EB29CEE4C5`. Asset search found related assets but no exact supplied match; P27 was uploaded once via the native file chooser and selected through Replace Image. No screenshot was used as a replacement photo.
+
+[Desktop baseline](evidence/task14/before-desktop-designer.png), [mobile baseline](evidence/task14/before-mobile.png). Preserved 400 × 400 HTML dimensions, eager loading, responsive image generation, centered positioning, circle radius 50%, shadows and `object-fit: fill`. Front classes remain `bubble-photo bottom left circle front shadow-xl` with z-index 2; back remains `bubble-photo top right circle shadow-xl` with z-index auto. Webflow automatically enabled HiDPI for the larger upload. No CSS, breakpoint, focal position, layering or background edits were needed. Reloaded Designer confirmed the saved asset, alt and both unchanged element IDs.
+
+### Verification
+
+Only `ipmi.webflow.io` was selected; the sole listed custom domain `www.ipmievents.com` was unchecked. [Publish selection](evidence/task14/publish-staging-only.png), [completed publication](evidence/task14/publish-completed.png). No CMS immediate publication was used.
+
+| Viewport           | Result                                                                                                                                                                                                                                         |
+| ------------------ | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Desktop 1912 × 970 | [Hero](evidence/task14/desktop-hero.png), [checks](evidence/task14/desktop-checks.json): both loaded, 334px circles, correct overlap and visible subjects; document width 1912px.                                                              |
+| Tablet 768 × 1024  | [Hero](evidence/task14/tablet-hero.png), [checks](evidence/task14/tablet-checks.json): both loaded, 250px circles and inherited vertical overlap preserved. Shared navigation's existing document width 790px remains a separate task 37 item. |
+| Mobile 390 × 844   | [Hero](evidence/task14/mobile-hero.png), [checks](evidence/task14/mobile-checks.json): both loaded, 182px circles, foreground overlap and subjects visible, no horizontal overflow.                                                            |
+
+- Get in Touch reaches `#contact`; the [mobile form](evidence/task14/mobile-contact.png) remains reachable with name, email, message, reCAPTCHA and Send Inquiry. No inquiry or CAPTCHA was submitted; delivery is not asserted.
+- Independent orchestrator HTTP comparison against pretask staging: five images remain, only P27 changed and other four exact; all anchor opening tags and normalized text unchanged; complete form HTML byte-identical. Production's five image tags match its baseline and contain no P27.
+- Contact details, email, form fields/recipients, CMS records, scripts, styles, IDs, bindings and unrelated content were preserved. Tasks 15/16 remain separate. No placeholder register changes were required.
+- Viewport override reset, owned source tabs closed, staging retained for review. Designer left on Contact at Desktop without dialogs; Chrome released to the orchestrator.
+- Relevant formatting and whitespace checks passed. No app build was needed for a photo-only browser change and documentation.
+
+### Exact rollback
+
+Restore P27's old image with prefix `https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/` and **Use alt text from asset** in the same static back element. Preserve dimensions, eager loading, classes, centered circle masks and the retained P26 front photo. Republish staging only with custom domains unchecked. Retain both assets and do not restore a whole-site backup over other tasks.

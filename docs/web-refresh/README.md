@@ -2,7 +2,7 @@
 
 This package turns the Web Refresh Master To-Do and its supporting documents into 37 independently reviewable implementation tasks. Each task contains its sources, edit targets, steps, dependencies, acceptance checks, and rollback instructions. Start with the catalog below; follow its links for the actual copy, photo mappings, and feature details.
 
-**Package owner:** Bryan / implementation team. **Client content owner:** IPMI. **Prepared:** September 23, 2026, America/Chicago (browser observations continued September 24 UTC). **Delivery status:** Implementation underway; tasks 01–13 are staged for review, with evidence in their task documents. Remaining website implementation and integrated staging acceptance remain outstanding. A source request that already appears satisfied is a verification task, not a claim that this refresh implemented it.
+**Package owner:** Bryan / implementation team. **Client content owner:** IPMI. **Prepared:** September 23, 2026, America/Chicago (browser observations continued September 24 UTC). **Delivery status:** Implementation underway; tasks 01–14 are staged for review, with evidence in their task documents. Remaining website implementation and integrated staging acceptance remain outstanding. A source request that already appears satisfied is a verification task, not a claim that this refresh implemented it.
 
 ## Sources and evidence
 
@@ -46,7 +46,7 @@ Status describes **implementation progress**, not whether the Markdown file exis
 | 11  | [Testimonials photos](11-testimonials-photos.md)                                            | Implementation                   | Staged for review     | Approved P20/P21 hero photos and alt; responsive checks passed; 19/33                           |
 | 12  | [FAQ photos](12-faq-photos.md)                                                              | Implementation                   | Staged for review     | Approved P22/P23 hero photos and alt; responsive/FAQ checks passed; 19/30                       |
 | 13  | [Attend photos](13-attend-photos.md)                                                        | Implementation                   | Staged for review     | Approved P24/P25 hero photos and alt; responsive/gallery/category checks passed; 19/32          |
-| 14  | [Contact photo](14-contact-photo.md)                                                        | Implementation                   | Ready                 | Source P26 retention/P27 replacement                                                            |
+| 14  | [Contact photo](14-contact-photo.md)                                                        | Implementation                   | Staged for review     | Approved P27 back; P26 retained; responsive/contact preservation checks passed; 19              |
 | 15  | [Optional phone fields](15-optional-phone-fields.md)                                        | Implementation                   | Ready                 | Inventory forms; retain integration mappings                                                    |
 | 16  | [Public contact email](16-public-contact-email.md)                                          | Implementation                   | Ready                 | Confirmed `info@ipmievents.com`; separate from 28/34                                            |
 | 17  | [Chair-sponsor logo and description](17-chair-sponsor.md)                                   | Implementation + IPMI            | Input required        | Approved partner/logo and description for first populated example                               |

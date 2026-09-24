@@ -1,0 +1,90 @@
+{
+  "forms": 1,
+  "images": [
+    {
+      "alt": "International Performance Management Institute.",
+      "classes": "logo",
+      "css": {
+        "borderRadius": "0px",
+        "objectFit": "fill",
+        "objectPosition": "50% 50%",
+        "zIndex": "auto"
+      },
+      "currentSrc": "https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/63281aeafc3ab3e21d7c05ec_IPMI-Logo-Light.svg",
+      "height": 118,
+      "id": null,
+      "loaded": true,
+      "src": "https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/63281aeafc3ab3e21d7c05ec_IPMI-Logo-Light.svg",
+      "width": 334
+    },
+    {
+      "alt": "Two attendees smiling and holding drinks at the HIT 2024 dinner",
+      "classes": "bubble-photo top right circle shadow-xl",
+      "css": {
+        "borderRadius": "50%",
+        "objectFit": "fill",
+        "objectPosition": "50% 50%",
+        "zIndex": "auto"
+      },
+      "currentSrc": "https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4ca6019adb9f0df002db6_P27-HIT-2024-Dinner-p-500.jpg",
+      "height": 334,
+      "id": null,
+      "loaded": true,
+      "src": "https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4ca6019adb9f0df002db6_P27-HIT-2024-Dinner.jpg",
+      "width": 334
+    },
+    {
+      "alt": "IPMI Staff assisting Attendees",
+      "classes": "bubble-photo bottom left circle front shadow-xl",
+      "css": {
+        "borderRadius": "50%",
+        "objectFit": "fill",
+        "objectPosition": "50% 50%",
+        "zIndex": "2"
+      },
+      "currentSrc": "https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/63c4d1501c2178619dd30322_Contact-Bubble-3.webp",
+      "height": 334,
+      "id": null,
+      "loaded": true,
+      "src": "https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/63c4d1501c2178619dd30322_Contact-Bubble-3.webp",
+      "width": 334
+    },
+    {
+      "alt": "",
+      "classes": "hero-bg-image",
+      "css": {
+        "borderRadius": "0px",
+        "objectFit": "cover",
+        "objectPosition": "50% 50%",
+        "zIndex": "auto"
+      },
+      "currentSrc": "https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/63cf38dc10e34fc6288e187f_Contact-Hero-BG-2.webp",
+      "height": 903,
+      "id": null,
+      "loaded": true,
+      "src": "https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/63cf38dc10e34fc6288e187f_Contact-Hero-BG-2.webp",
+      "width": 1912
+    },
+    {
+      "alt": "International Performance Management Institute.",
+      "classes": "footer-logo",
+      "css": {
+        "borderRadius": "0px",
+        "objectFit": "fill",
+        "objectPosition": "50% 50%",
+        "zIndex": "auto"
+      },
+      "currentSrc": "https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6327f8231c814d48b97873a8_Asset%201.svg",
+      "height": 118,
+      "id": null,
+      "loaded": true,
+      "src": "https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6327f8231c814d48b97873a8_Asset%201.svg",
+      "width": 334
+    }
+  ],
+  "viewport": {
+    "documentWidth": 1912,
+    "height": 970,
+    "width": 1912
+  }
+}
