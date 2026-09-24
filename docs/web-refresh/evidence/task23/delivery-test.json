@@ -1,0 +1,60 @@
+{
+  "status": "not-executed",
+  "networkEnabled": false,
+  "isolatedProject": null,
+  "isolatedWidget": null,
+  "approvedTestDestination": null,
+  "authorization": null,
+  "fixture": {
+    "testId": "IPMI-T23-SYNTHETIC-001",
+    "displayName": "Synthetic handoff reviewer",
+    "replyEmail": "reviewer@example.invalid",
+    "question": "SYNTHETIC REVIEW ONLY: May an additional delegate attend Healthcare IT Institute 2027?",
+    "event": "Healthcare IT Institute 2027",
+    "audience": "Attend / additional delegate",
+    "consent": false
+  },
+  "fixtureWarning": "Deliberately nondeliverable/local-only. Replace identity only with explicitly approved controlled test identity; never submit to shared Tidio.",
+  "requiredReceiptFields": [
+    "testId",
+    "isolatedProjectId",
+    "isolatedWidgetId",
+    "confirmedEvent",
+    "audience",
+    "exactQuestion",
+    "consentTimestamp",
+    "channel",
+    "conversationOrTicketId",
+    "actualInbox",
+    "actualAssignedAgentOrDepartment",
+    "notificationRecipients",
+    "providerAcceptedTimestamp",
+    "receivingTimestamp",
+    "receiptObserver",
+    "visitorVisibleState",
+    "duplicateCount",
+    "productionRecipientsUnaffectedEvidence"
+  ],
+  "cases": [
+    "online general",
+    "offline asynchronous",
+    "all agents unavailable",
+    "cost clarified event/role",
+    "eligibility without approval",
+    "additional delegate versus social guest",
+    "HIT 2027 Attend versus Sponsor/other year",
+    "ambiguous HGC",
+    "unknown recipient",
+    "consent declined",
+    "provider rejection/timeout",
+    "retry without duplicate",
+    "desktop/mobile keyboard and links"
+  ],
+  "preconditions": [
+    "Existing independent configuration/widget and notification isolation verified",
+    "Dated owner approval of exact test recipient/inbox/agent and scope",
+    "Explicit authorization for specific controlled send",
+    "No production email, integration, agent or notification affected",
+    "Capture isolated prior rules/messages/notifications/hours for rollback"
+  ]
+}

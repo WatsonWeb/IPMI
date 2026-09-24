@@ -1,0 +1,127 @@
+{
+  "observedDate": "2026-09-24",
+  "method": "Authenticated Chrome native UI read-only; no unrelated inbox conversations opened",
+  "project": "https://www.ipmievents.com",
+  "widget": "gzt0sc2vqea7hesgtoe4ga0or8kdk8lr",
+  "applied": false,
+  "handoff": {
+    "url": "https://www.tidio.com/panel/lyro-ai/handoff",
+    "online": "Transfer conversation to agent",
+    "offline": "Transfer conversation to agent",
+    "guidanceCount": 0,
+    "audienceCount": 0,
+    "onlineOptionsObserved": [
+      "Transfer conversation to agent",
+      "Keep conversation (no transfer to agent)",
+      "Create a ticket"
+    ],
+    "assignedAgent": null,
+    "assignedDepartment": null,
+    "messages": {
+      "transferOnline": "Absolutely! I'm transferring you to a human right away",
+      "transferOffline": "Currently, the team is unavailable, so I can't connect you. 😔 I'll pass along your message to our team, and they will contact you later.",
+      "ticketOnline": "Currently, all of our operators are unavailable, so I'll transfer your message to our team, and they will contact you via email 😔",
+      "ticketOffline": "Currently, all of our operators are unavailable, so I'll transfer your message to our team, and they will contact you via email 😔",
+      "keep": "I'm sorry, the team is unavailable, so I can't connect you. 😔 Please try asking the question differently so I can help you better."
+    }
+  },
+  "team": {
+    "url": "https://www.tidio.com/panel/settings/team/operators",
+    "rows": [
+      {
+        "name": "IPMI Webmaster",
+        "email": "webmaster@ipmionline.com",
+        "operatorId": "3931667",
+        "role": "Owner",
+        "operatingHours": "Disabled"
+      },
+      {
+        "name": "Sam Colquhoun",
+        "email": "scolquhoun@ipmievents.com",
+        "operatorId": "3931675",
+        "role": "Admin",
+        "operatingHours": "Disabled",
+        "invitationControl": "Resend invitation"
+      },
+      {
+        "name": "Zoe Stefura",
+        "email": "zstefura@ipmievents.com",
+        "operatorId": "3931676",
+        "role": "Admin",
+        "operatingHours": "Disabled",
+        "invitationControl": "Resend invitation"
+      },
+      {
+        "name": "Sarah Leung",
+        "email": "sleung@ipmievents.com",
+        "operatorId": "4051819",
+        "role": "Admin",
+        "operatingHours": "Disabled",
+        "invitationControl": "Resend invitation"
+      }
+    ],
+    "interpretation": "Displayed name/address association only. Membership does not prove mailbox control, accepted invitation, event ownership, approved assignment or receipt."
+  },
+  "departments": { "url": "https://www.tidio.com/panel/settings/team/departments", "count": 0 },
+  "workflows": {
+    "url": "https://www.tidio.com/panel/settings/workflows",
+    "count": 0,
+    "autoAssign": "Template shown, no configured workflow; other legacy assignment settings unverified"
+  },
+  "notifications": {
+    "url": "https://www.tidio.com/panel/settings/notifications",
+    "scope": "IPMI Webmaster only",
+    "newMessage": { "email": true, "web": true },
+    "newChatRequest": { "email": true, "emailControlDisabled": true, "web": true },
+    "newTicketAndMessages": { "email": false, "web": true },
+    "newMention": { "email": true, "web": true },
+    "incomingVisitorWeb": false,
+    "sound": "Dong",
+    "forwardEmailNotifications": false,
+    "forwardDestination": null,
+    "actualReceivingEmail": null,
+    "testNotificationClicked": false
+  },
+  "operatingHours": {
+    "url": "https://www.tidio.com/panel/settings/operating-hours",
+    "selectedAgent": "IPMI Webmaster (You)",
+    "enabled": false,
+    "approvedCoverage": null
+  },
+  "emailChannel": {
+    "url": "https://www.tidio.com/panel/settings/email/mailbox",
+    "connectedMailboxes": 0
+  },
+  "preferences": {
+    "url": "https://www.tidio.com/panel/settings/preferences",
+    "region": "America / Toronto",
+    "visitorEmailNotifications": false
+  },
+  "channels": {
+    "url": "https://www.tidio.com/panel/lyro-ai/channels/live-conversations",
+    "lyroActive": true,
+    "liveChat": true,
+    "emails": "Not connected",
+    "messenger": false,
+    "instagram": false,
+    "whatsapp": false,
+    "lyroResponds": "Always",
+    "readMoreLinks": true,
+    "followUp": true,
+    "followUpAfter": "1 min",
+    "csatLiveChat": "Disabled"
+  },
+  "inheritedTask21": {
+    "domainTarget": "Show on every domain",
+    "isolatedConfiguration": null,
+    "offlineTicketsEnabled": true,
+    "privacyPolicyMessageEnabled": false
+  },
+  "delivery": {
+    "sent": false,
+    "recipientVerified": false,
+    "playgroundNoHumanNotificationGuarantee": false,
+    "R08": "blocked",
+    "receipt": null
+  }
+}

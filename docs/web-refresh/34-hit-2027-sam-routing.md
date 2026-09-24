@@ -17,7 +17,7 @@ Only `ipmi.webflow.io` was published; every custom domain was unchecked. Product
 - [x] Direct HIT canonical baseline corrected and preserved; no public-email substitution.
 - [x] Applicable Horizon query/card/dropdown and generic Attend selection/category paths staged and tested offline with actual published initializers.
 - [x] Other-event/category restoration, optional Phone payload, native form IDs and CAPTCHA preserved; responsive/keyboard checks performed without submission.
-- [ ] IPMI confirms that the existing canonical address belongs to the intended Sam and approves scope, copies and backup recipients. Official IPMI recaps identify Sam Colquhoun, but do not establish his mailbox or routing approval.
+- [ ] IPMI confirms mailbox control and approves scope, copies and backup recipients. Task23's September 24 authenticated Tidio Team roster associates Sam Colquhoun with `scolquhoun@ipmievents.com`, Admin/operator `3931675`; see [native account evidence](evidence/task23/provider-observations.json). This corroborates identity/address association, not control, event responsibility, chatbot assignment or receipt.
 - [ ] Confirm native notification recipients, deployed backend revision and provider configuration, then agree a controlled verification destination and explicitly authorize delivery tests.
 - [ ] Actual webhook/provider delivery verified for direct HIT, Horizon and Attend. Hidden-field and offline FormData results do not establish delivery.
 

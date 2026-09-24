@@ -46,7 +46,7 @@ Guidance showed **Use emojis On**, **Tone of voice: Formal**, audience Everyone,
 
 > International Performance Management Institute (IPMI). IPMI hosts exclusive, high-impact conferences called 'Institutes' designed for senior executives. These events focus on learning, sharing best practices, and networking. Our Institutes gather CxOs from across North America at luxury venues for 2.5 days of collaboration and leadership development.
 
-No auto-sync or Read more setting was visible in the inspected views; their enabled/disabled state remains unknown. Guidance is supported by this account's UI, but no proposed rule was saved. A transient connection warning persisted while the actual tests still completed.
+No auto-sync or Read more setting was visible in task22's inspected views. Task23 subsequently located Channels → Live conversations: Read more **On**, Lyro responds **Always**, follow-up **On / 1 minute**, email **Not connected**; [exact native settings](../task23/provider-observations.json). Auto-sync remains unverified. No value was changed. Guidance is supported by this account's UI, but no proposed rule was saved. A transient connection warning persisted while the actual tests still completed.
 
 The completed HIT attire reply was visually inspected in Playground: a gray answer bubble with the text label **Lyro AI Agent**, no portrait/avatar next to that reply, and a generic blue robot icon during typing. The speaker photograph was not in this conversation view. This does not resolve task21's separate Home-background image or establish sender-avatar behavior on an installed visitor widget; task21's background proposal remains pending.
 

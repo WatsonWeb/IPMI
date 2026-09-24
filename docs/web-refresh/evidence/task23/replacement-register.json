@@ -1,0 +1,102 @@
+[
+  {
+    "id": "23-preview",
+    "exactText": "Preview only — human handoff is not configured for this review. Nothing has been sent to a person. Please do not enter contact details here.",
+    "location": "Local routing-matrix.json messages; future isolated Lyro Handoff/Guidance only",
+    "priorValue": null,
+    "applied": false,
+    "approval": null,
+    "owner": "IPMI event/contact owner approves copy; Bryan implements after isolation",
+    "replacementNeeded": "Approved destination, scope, consent/privacy wording and proven state before replacing preview label. Existing provider defaults are separately captured in provider-observations.json."
+  },
+  {
+    "id": "23-general",
+    "exactText": "You’d like to speak with someone at IPMI. Which Institute or topic is your question about? Preview only — no message will be sent to a person.",
+    "location": "Local routing-matrix.json messages; future isolated Lyro Handoff/Guidance only",
+    "priorValue": null,
+    "applied": false,
+    "approval": null,
+    "owner": "IPMI event/contact owner approves copy; Bryan implements after isolation",
+    "replacementNeeded": "Approved destination, scope, consent/privacy wording and proven state before replacing preview label. Existing provider defaults are separately captured in provider-observations.json."
+  },
+  {
+    "id": "23-cost",
+    "exactText": "Which Institute, year and region are you asking about, and are you interested in attending, speaking or sponsoring? Cost and eligibility need confirmation from the relevant IPMI team. Preview only — no inquiry will be sent.",
+    "location": "Local routing-matrix.json messages; future isolated Lyro Handoff/Guidance only",
+    "priorValue": null,
+    "applied": false,
+    "approval": null,
+    "owner": "IPMI event/contact owner approves copy; Bryan implements after isolation",
+    "replacementNeeded": "Approved destination, scope, consent/privacy wording and proven state before replacing preview label. Existing provider defaults are separately captured in provider-observations.json."
+  },
+  {
+    "id": "23-additional",
+    "exactText": "Which Healthcare IT Institute year do you mean, and would your senior manager attend as a delegate? Additional attendance requires IPMI’s review; this is not approval. Preview only — no inquiry will be sent.",
+    "location": "Local routing-matrix.json messages; future isolated Lyro Handoff/Guidance only",
+    "priorValue": null,
+    "applied": false,
+    "approval": null,
+    "owner": "IPMI event/contact owner approves copy; Bryan implements after isolation",
+    "replacementNeeded": "Approved destination, scope, consent/privacy wording and proven state before replacing preview label. Existing provider defaults are separately captured in provider-observations.json."
+  },
+  {
+    "id": "23-hit",
+    "exactText": "Your question concerns attending Healthcare IT Institute 2027. The human contact route is awaiting approval. Preview only — no inquiry will be sent.",
+    "location": "Local routing-matrix.json messages; future isolated Lyro Handoff/Guidance only",
+    "priorValue": null,
+    "applied": false,
+    "approval": null,
+    "owner": "IPMI event/contact owner approves copy; Bryan implements after isolation",
+    "replacementNeeded": "Approved destination, scope, consent/privacy wording and proven state before replacing preview label. Existing provider defaults are separately captured in provider-observations.json."
+  },
+  {
+    "id": "23-hgc",
+    "exactText": "Please confirm the full Institute name, year and region you mean by HGC. I cannot choose an event contact from that abbreviation alone. Preview only — no inquiry will be sent.",
+    "location": "Local routing-matrix.json messages; future isolated Lyro Handoff/Guidance only",
+    "priorValue": null,
+    "applied": false,
+    "approval": null,
+    "owner": "IPMI event/contact owner approves copy; Bryan implements after isolation",
+    "replacementNeeded": "Approved destination, scope, consent/privacy wording and proven state before replacing preview label. Existing provider defaults are separately captured in provider-observations.json."
+  },
+  {
+    "id": "23-offline",
+    "exactText": "Human handoff is unavailable in this preview. Nothing has been sent, queued or assigned. You can continue asking general event questions without sharing contact details.",
+    "location": "Local routing-matrix.json messages; future isolated Lyro Handoff/Guidance only",
+    "priorValue": null,
+    "applied": false,
+    "approval": null,
+    "owner": "IPMI event/contact owner approves copy; Bryan implements after isolation",
+    "replacementNeeded": "Approved destination, scope, consent/privacy wording and proven state before replacing preview label. Existing provider defaults are separately captured in provider-observations.json."
+  },
+  {
+    "id": "23-contact-link",
+    "exactText": "Open IPMI’s Contact page to review its contact options. Opening the page does not send this chat or submit an inquiry.",
+    "location": "Local routing-matrix.json messages; future isolated Lyro Handoff/Guidance only",
+    "priorValue": null,
+    "applied": false,
+    "approval": null,
+    "owner": "IPMI event/contact owner approves copy; Bryan implements after isolation",
+    "replacementNeeded": "Approved destination, scope, consent/privacy wording and proven state before replacing preview label. Existing provider defaults are separately captured in provider-observations.json."
+  },
+  {
+    "id": "23-consent",
+    "exactText": "May I share your question, confirmed event and attendance role with the approved IPMI contact shown here? Share only the contact details needed for a reply. Sending is disabled in this preview.",
+    "location": "Local routing-matrix.json messages; future isolated Lyro Handoff/Guidance only",
+    "priorValue": null,
+    "applied": false,
+    "approval": null,
+    "owner": "IPMI event/contact owner approves copy; Bryan implements after isolation",
+    "replacementNeeded": "Approved destination, scope, consent/privacy wording and proven state before replacing preview label. Existing provider defaults are separately captured in provider-observations.json."
+  },
+  {
+    "id": "23-failure",
+    "exactText": "I could not confirm the handoff. Please do not assume your inquiry was delivered. No response time is confirmed.",
+    "location": "Local routing-matrix.json messages; future isolated Lyro Handoff/Guidance only",
+    "priorValue": null,
+    "applied": false,
+    "approval": null,
+    "owner": "IPMI event/contact owner approves copy; Bryan implements after isolation",
+    "replacementNeeded": "Approved destination, scope, consent/privacy wording and proven state before replacing preview label. Existing provider defaults are separately captured in provider-observations.json."
+  }
+]

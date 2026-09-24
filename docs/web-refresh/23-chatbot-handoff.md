@@ -3,7 +3,7 @@
 [Back to master](README.md)
 
 - **Owner:** IPMI names the receiving team/person; Bryan configures and verifies the provider flow.
-- **Status:** Blocked on confirmed recipients, provider access and an agreed test destination. Documentation is complete; no messages have been sent or routing changed.
+- **Status:** Prepared September 24, 2026; provider access verified, configuration blocked by safe isolation and approved destinations. Seven-route matrix, ten preview messages and controlled test package prepared. No messages sent or routing changed.
 - **Sources:** [Web Refresh Master To-Do](https://ipmionline.sharepoint.com/:w:/s/IPMIExternal/IQDcMcTdU_t5RrSMF4cpizzbAYhFRwKUScDDaC1bx0vQCBI), chatbot request; [Chatbot feedback](https://ipmionline.sharepoint.com/:w:/s/IPMIExternal/IQA1MDBRp2t9TrR2Y7DpU2W9AdjD13l41gLegMHfs3xM9ms?e=GFhegT), page 5 (“Talk to a person”/cost), page 9 (additional Health IT attendee and HGC contact destination).
 - **Depends on:** Provider access/test configuration from [21](21-chatbot-appearance-and-installation.md) and confirmed destinations, including [34 — HIT inquiries to Sam](34-hit-2027-sam-routing.md) for HIT-specific routing. Coordinate answer wording and regression cases with [22](22-chatbot-knowledge-and-training.md); general routing setup does not wait for all knowledge work. Verify through [37](37-staging-verification.md).
 
@@ -11,7 +11,18 @@
 
 Target the existing chatbot's **Talk to a person** flow, human fallback for cost/attendance eligibility, and event-specific contact links. The source asks whether inquiries go to its author, Sam or the webmaster; it does not supply a confirmed routing answer. No receiving inbox/team or successful delivery has been verified.
 
-The existing Lyro account is inferred from screenshots and must be inspected. A contact link, email notification and live-agent assignment are different routes; document and test the actual configured route. Do not infer chatbot routing from the site's displayed public email address.
+The existing Tidio/Lyro account is verified. [Native settings evidence](evidence/task23/README.md) captures Handoff, Team, Departments, Workflows, notifications, hours, email and channels. Online/offline both transfer to agent; zero handoff guidances, departments and workflows. Named assignment/receipt remain unverified. Contact links, email alerts, tickets and live-agent assignment are distinct. Neither public nor login email is routing approval.
+
+The roster associates **Sam Colquhoun**, `scolquhoun@ipmievents.com`, Admin/operator `3931675`. This corroborates task34's address/name association, not mailbox control, approved scope or receipt. The shared widget remains all-domain. Webmaster email alerts for new messages/chat requests are enabled; no reviewed evidence guarantees Playground escalation avoids humans. **Task22 R08 remains blocked.**
+
+## Prepared implementation and checks — September 24
+
+- [Seven-route matrix](evidence/task23/routing-matrix.json): general, cost, eligibility, additional HIT attendee, HIT 2027 Attend, other HIT scope and unresolved HGC; prior/proposed values, fallback, consent, payload and fail-closed behavior.
+- [Ten exact local-only messages](evidence/task23/replacement-register.json): clearly non-sending preview, without invented destinations or delivery claims.
+- [Isolated procedure, rollback and task37 deferrals](evidence/task23/README.md): native Keep/Transfer/Ticket options and required assignment proof.
+- [Controlled delivery plan](evidence/task23/delivery-test.json): local synthetic fixture, 13 cases and receiving evidence requirements; not executed.
+
+Run `vp node docs/web-refresh/evidence/task23/verify-pack.mjs`. Passing local checks cover scope, pending destinations/authorization and the unchanged 15-fail/1-blocked baseline; they do not prove delivery. No account/widget creation, settings changes, Webflow publication or installed-widget visual acceptance occurred. Browser control is released.
 
 ## Required routing specification
 

@@ -1,0 +1,330 @@
+{
+  "status": "prepared-not-configured",
+  "messages": {
+    "23-preview": "Preview only — human handoff is not configured for this review. Nothing has been sent to a person. Please do not enter contact details here.",
+    "23-general": "You’d like to speak with someone at IPMI. Which Institute or topic is your question about? Preview only — no message will be sent to a person.",
+    "23-cost": "Which Institute, year and region are you asking about, and are you interested in attending, speaking or sponsoring? Cost and eligibility need confirmation from the relevant IPMI team. Preview only — no inquiry will be sent.",
+    "23-additional": "Which Healthcare IT Institute year do you mean, and would your senior manager attend as a delegate? Additional attendance requires IPMI’s review; this is not approval. Preview only — no inquiry will be sent.",
+    "23-hit": "Your question concerns attending Healthcare IT Institute 2027. The human contact route is awaiting approval. Preview only — no inquiry will be sent.",
+    "23-hgc": "Please confirm the full Institute name, year and region you mean by HGC. I cannot choose an event contact from that abbreviation alone. Preview only — no inquiry will be sent.",
+    "23-offline": "Human handoff is unavailable in this preview. Nothing has been sent, queued or assigned. You can continue asking general event questions without sharing contact details.",
+    "23-contact-link": "Open IPMI’s Contact page to review its contact options. Opening the page does not send this chat or submit an inquiry.",
+    "23-consent": "May I share your question, confirmed event and attendance role with the approved IPMI contact shown here? Share only the contact details needed for a reply. Sending is disabled in this preview.",
+    "23-failure": "I could not confirm the handoff. Please do not assume your inquiry was delivered. No response time is confirmed."
+  },
+  "routes": [
+    {
+      "id": "23-general",
+      "intent": "Talk to a person / general inquiry",
+      "eventScope": "Any or unknown event",
+      "audience": "Any; clarify role if relevant",
+      "owner": "IPMI general inquiry owner pending",
+      "messageId": "23-general",
+      "applied": false,
+      "approval": null,
+      "actualPriorValue": {
+        "defaultOnline": "Transfer conversation to agent",
+        "defaultOffline": "Transfer conversation to agent",
+        "eventSpecificProviderRecipient": null,
+        "handoffGuidance": "None (0 total)",
+        "preservedNativeFormRecipient": null
+      },
+      "proposedPendingValue": {
+        "previewAction": "Keep conversation (no transfer to agent)",
+        "destinationType": "none in preview; approved native assignment or separately approved event contact link after verification",
+        "agentId": null,
+        "departmentId": null,
+        "notificationEmail": null,
+        "contactUrl": null,
+        "ticketInbox": null
+      },
+      "fallback": {
+        "messageId": "23-contact-link",
+        "url": "https://www.ipmievents.com/contact",
+        "behavior": "Navigation only, no chat transfer, form submission or delivery claim; no event-specific owner implied"
+      },
+      "offline": "23-offline",
+      "noAvailability": "23-offline",
+      "consent": "23-consent; decline/missing consent prevents sending",
+      "minimalPayload": [
+        "confirmed event title/year/region",
+        "visitor-selected role",
+        "visitor question",
+        "explicit sharing consent",
+        "reply email only if an approved asynchronous route requires it"
+      ],
+      "unknownRecipient": "Fail closed: no send, ticket, public-email or login-email substitution"
+    },
+    {
+      "id": "23-cost",
+      "intent": "Cost",
+      "eventScope": "Confirmed event/year/region required",
+      "audience": "Attend / Speak / Sponsor must be clarified",
+      "owner": "Relevant event/category owner pending",
+      "messageId": "23-cost",
+      "applied": false,
+      "approval": null,
+      "actualPriorValue": {
+        "defaultOnline": "Transfer conversation to agent",
+        "defaultOffline": "Transfer conversation to agent",
+        "eventSpecificProviderRecipient": null,
+        "handoffGuidance": "None (0 total)",
+        "preservedNativeFormRecipient": null
+      },
+      "proposedPendingValue": {
+        "previewAction": "Keep conversation (no transfer to agent)",
+        "destinationType": "none in preview; approved native assignment or separately approved event contact link after verification",
+        "agentId": null,
+        "departmentId": null,
+        "notificationEmail": null,
+        "contactUrl": null,
+        "ticketInbox": null
+      },
+      "fallback": {
+        "messageId": "23-contact-link",
+        "url": "https://www.ipmievents.com/contact",
+        "behavior": "Navigation only, no chat transfer, form submission or delivery claim; no event-specific owner implied"
+      },
+      "offline": "23-offline",
+      "noAvailability": "23-offline",
+      "consent": "23-consent; decline/missing consent prevents sending",
+      "minimalPayload": [
+        "confirmed event title/year/region",
+        "visitor-selected role",
+        "visitor question",
+        "explicit sharing consent",
+        "reply email only if an approved asynchronous route requires it"
+      ],
+      "unknownRecipient": "Fail closed: no send, ticket, public-email or login-email substitution"
+    },
+    {
+      "id": "23-eligibility",
+      "intent": "Attendance eligibility",
+      "eventScope": "Confirmed event/year/region required",
+      "audience": "Delegate; never grant eligibility",
+      "owner": "Relevant attendance owner pending",
+      "messageId": "23-cost",
+      "applied": false,
+      "approval": null,
+      "actualPriorValue": {
+        "defaultOnline": "Transfer conversation to agent",
+        "defaultOffline": "Transfer conversation to agent",
+        "eventSpecificProviderRecipient": null,
+        "handoffGuidance": "None (0 total)",
+        "preservedNativeFormRecipient": null
+      },
+      "proposedPendingValue": {
+        "previewAction": "Keep conversation (no transfer to agent)",
+        "destinationType": "none in preview; approved native assignment or separately approved event contact link after verification",
+        "agentId": null,
+        "departmentId": null,
+        "notificationEmail": null,
+        "contactUrl": null,
+        "ticketInbox": null
+      },
+      "fallback": {
+        "messageId": "23-contact-link",
+        "url": "https://www.ipmievents.com/contact",
+        "behavior": "Navigation only, no chat transfer, form submission or delivery claim; no event-specific owner implied"
+      },
+      "offline": "23-offline",
+      "noAvailability": "23-offline",
+      "consent": "23-consent; decline/missing consent prevents sending",
+      "minimalPayload": [
+        "confirmed event title/year/region",
+        "visitor-selected role",
+        "visitor question",
+        "explicit sharing consent",
+        "reply email only if an approved asynchronous route requires it"
+      ],
+      "unknownRecipient": "Fail closed: no send, ticket, public-email or login-email substitution"
+    },
+    {
+      "id": "23-additional",
+      "intent": "Additional Healthcare IT attendee",
+      "eventScope": "Healthcare IT Institute; ask year",
+      "audience": "Additional delegate; never substitute social guest policy",
+      "owner": "Healthcare IT attendance owner pending",
+      "messageId": "23-additional",
+      "applied": false,
+      "approval": null,
+      "actualPriorValue": {
+        "defaultOnline": "Transfer conversation to agent",
+        "defaultOffline": "Transfer conversation to agent",
+        "eventSpecificProviderRecipient": null,
+        "handoffGuidance": "None (0 total)",
+        "preservedNativeFormRecipient": null
+      },
+      "proposedPendingValue": {
+        "previewAction": "Keep conversation (no transfer to agent)",
+        "destinationType": "none in preview; approved native assignment or separately approved event contact link after verification",
+        "agentId": null,
+        "departmentId": null,
+        "notificationEmail": null,
+        "contactUrl": null,
+        "ticketInbox": null
+      },
+      "fallback": {
+        "messageId": "23-contact-link",
+        "url": "https://www.ipmievents.com/contact",
+        "behavior": "Navigation only, no chat transfer, form submission or delivery claim; no event-specific owner implied"
+      },
+      "offline": "23-offline",
+      "noAvailability": "23-offline",
+      "consent": "23-consent; decline/missing consent prevents sending",
+      "minimalPayload": [
+        "confirmed event title/year/region",
+        "visitor-selected role",
+        "visitor question",
+        "explicit sharing consent",
+        "reply email only if an approved asynchronous route requires it"
+      ],
+      "unknownRecipient": "Fail closed: no send, ticket, public-email or login-email substitution"
+    },
+    {
+      "id": "23-hit-2027",
+      "intent": "HIT 2027 attendee inquiry",
+      "eventScope": "Healthcare IT Institute 2027 / hit-2027 / 6a062fba0e49a14badf21c95",
+      "audience": "Attend only; exclude Speak/Sponsor",
+      "owner": "Sam Colquhoun association corroborated in Tidio; scope/approval pending task34",
+      "messageId": "23-hit",
+      "applied": false,
+      "approval": null,
+      "actualPriorValue": {
+        "defaultOnline": "Transfer conversation to agent",
+        "defaultOffline": "Transfer conversation to agent",
+        "eventSpecificProviderRecipient": null,
+        "handoffGuidance": "None (0 total)",
+        "preservedNativeFormRecipient": "scolquhoun@ipmievents.com"
+      },
+      "proposedPendingValue": {
+        "previewAction": "Keep conversation (no transfer to agent)",
+        "destinationType": "none in preview; approved native assignment or separately approved event contact link after verification",
+        "agentId": null,
+        "departmentId": null,
+        "notificationEmail": null,
+        "contactUrl": null,
+        "ticketInbox": null
+      },
+      "fallback": {
+        "messageId": "23-contact-link",
+        "url": "https://www.ipmievents.com/contact",
+        "behavior": "Navigation only, no chat transfer, form submission or delivery claim; no event-specific owner implied"
+      },
+      "offline": "23-offline",
+      "noAvailability": "23-offline",
+      "consent": "23-consent; decline/missing consent prevents sending",
+      "minimalPayload": [
+        "confirmed event title/year/region",
+        "visitor-selected role",
+        "visitor question",
+        "explicit sharing consent",
+        "reply email only if an approved asynchronous route requires it"
+      ],
+      "unknownRecipient": "Fail closed: no send, ticket, public-email or login-email substitution"
+    },
+    {
+      "id": "23-hit-other",
+      "intent": "HIT other year/category",
+      "eventScope": "Healthcare IT Institute other/unknown year or category",
+      "audience": "Clarify; preserve native category routes",
+      "owner": "Relevant event/category owner pending",
+      "messageId": "23-cost",
+      "applied": false,
+      "approval": null,
+      "actualPriorValue": {
+        "defaultOnline": "Transfer conversation to agent",
+        "defaultOffline": "Transfer conversation to agent",
+        "eventSpecificProviderRecipient": null,
+        "handoffGuidance": "None (0 total)",
+        "preservedNativeFormRecipient": null
+      },
+      "proposedPendingValue": {
+        "previewAction": "Keep conversation (no transfer to agent)",
+        "destinationType": "none in preview; approved native assignment or separately approved event contact link after verification",
+        "agentId": null,
+        "departmentId": null,
+        "notificationEmail": null,
+        "contactUrl": null,
+        "ticketInbox": null
+      },
+      "fallback": {
+        "messageId": "23-contact-link",
+        "url": "https://www.ipmievents.com/contact",
+        "behavior": "Navigation only, no chat transfer, form submission or delivery claim; no event-specific owner implied"
+      },
+      "offline": "23-offline",
+      "noAvailability": "23-offline",
+      "consent": "23-consent; decline/missing consent prevents sending",
+      "minimalPayload": [
+        "confirmed event title/year/region",
+        "visitor-selected role",
+        "visitor question",
+        "explicit sharing consent",
+        "reply email only if an approved asynchronous route requires it"
+      ],
+      "unknownRecipient": "Fail closed: no send, ticket, public-email or login-email substitution"
+    },
+    {
+      "id": "23-hgc",
+      "intent": "HGC-specific contact",
+      "eventScope": "Unresolved abbreviation; require full name/year/region",
+      "audience": "Clarify role; do not infer HCHR or Healthcare GCI",
+      "owner": "Matching event owner pending after clarification",
+      "messageId": "23-hgc",
+      "applied": false,
+      "approval": null,
+      "actualPriorValue": {
+        "defaultOnline": "Transfer conversation to agent",
+        "defaultOffline": "Transfer conversation to agent",
+        "eventSpecificProviderRecipient": null,
+        "handoffGuidance": "None (0 total)",
+        "preservedNativeFormRecipient": null
+      },
+      "proposedPendingValue": {
+        "previewAction": "Keep conversation (no transfer to agent)",
+        "destinationType": "none in preview; approved native assignment or separately approved event contact link after verification",
+        "agentId": null,
+        "departmentId": null,
+        "notificationEmail": null,
+        "contactUrl": null,
+        "ticketInbox": null
+      },
+      "fallback": {
+        "messageId": "23-contact-link",
+        "url": "https://www.ipmievents.com/contact",
+        "behavior": "Navigation only, no chat transfer, form submission or delivery claim; no event-specific owner implied"
+      },
+      "offline": "23-offline",
+      "noAvailability": "23-offline",
+      "consent": "23-consent; decline/missing consent prevents sending",
+      "minimalPayload": [
+        "confirmed event title/year/region",
+        "visitor-selected role",
+        "visitor question",
+        "explicit sharing consent",
+        "reply email only if an approved asynchronous route requires it"
+      ],
+      "unknownRecipient": "Fail closed: no send, ticket, public-email or login-email substitution"
+    }
+  ],
+  "precedence": [
+    "Ambiguous event/region/year/HGC: clarify without handoff",
+    "HIT 2027 Attend: task34 scope; additional-attendee intent still needs review",
+    "Confirmed event-specific request: matching approved category route",
+    "Other/general: approved general route only",
+    "Missing isolation, consent, recipient or availability proof: fail closed"
+  ],
+  "destinationTypes": {
+    "contactLink": "Opens page/composer; no automatic sending or chat transfer",
+    "notificationEmail": "Alert preference; neither case assignment nor delivery evidence",
+    "liveAgentAssignment": "Provider conversation transfer; receipt must establish actual inbox and assignee",
+    "ticket": "Separate asynchronous record; verified inbox and reply handling required"
+  },
+  "preserve": [
+    "All shared-provider current values",
+    "HIT native canonical recipient in direct/Horizon/Attend scopes",
+    "Other native event/category recipient baselines",
+    "Task22 actual baseline transcripts"
+  ]
+}
