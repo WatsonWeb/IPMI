@@ -2,7 +2,7 @@
 
 [Back to master](README.md)
 
-**Owner:** IPMI supplies/approves content; BWC maps and enters approved assets. **Status:** Awaiting complete client image manifest; website changes not performed.
+**Owner:** IPMI supplies/approves content; BWC maps and enters approved assets. **Status:** Provisional retained-content handoff complete; final client manifest/approval pending (September 24, 2026).
 
 ## Source and target
 
@@ -36,3 +36,11 @@ Provide a manifest containing each original-quality asset/download link, filenam
 ## Rollback
 
 Record each affected CMS item's original asset, metadata, references, and order. Restore replacements/references as needed; unpublish newly added items before considering deletion. Preserve original image assets during review.
+
+## September 24, 2026 — provisional retained-content handoff
+
+**Status:** Provisional gallery handoff complete; final IPMI content approval pending. Under Bryan's placeholder override, retain the 40 appropriate existing main-Gallery photos in their current positions. No new image manifest was supplied; no CMS/Designer/asset changes or publication were necessary. Existing content was deliberately registered as temporary review content rather than replaced with fabricated images or duplicate records.
+
+The [evidence and replacement instructions](evidence/task29/README.md) link the exact 40-row asset/CMS/caption/order manifest, all-79 preservation inventory, desktop/mobile screenshots and independent HTTP preservation comparison. Placeholder IDs **29-01–29-40** are registered in [PLACEHOLDERS](PLACEHOLDERS.md). All 40 thumbnail images loaded; all 40 full-size bindings match; four category carousels, keyboard controls and sampled desktop/mobile crops/lightboxes work. There are no event filters/reference fields to verify as event associations. Existing alt/label and visible Swiper-status issues remain task 19/37 follow-ups.
+
+Acceptance: provisional inventory and operational checks complete; approved complete supply, rights, event associations, captions/alt and final order remain pending. Task 08 approved P11–P14 features and task 10 P18/P19 About records are preserved. Rollback: no website delta; revert only this task's documentation if required. Owned QA tab closed and viewport reset.

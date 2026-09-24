@@ -32,10 +32,11 @@ These values are proposals for the owning tasks, **not a record of website chang
 
 ## Applied placeholder register
 
-No placeholders have been applied at the time this document was created. Replace this sentence and append rows as tasks install or deliberately retain temporary content.
+Task 29 deliberately retained the 40 existing main-Gallery photos as provisional review content on September 24, 2026. Exact per-record values are linked below; no invented facts or new website labels were added.
 
 | ID  | Task | Exact applied value or asset URL | Page / element / CMS record and field | Staging URL | Previous value / rollback | Needed replacement / owner | Status |
 | --- | ---- | -------------------------------- | ------------------------------------- | ----------- | ------------------------- | -------------------------- | ------ |
+| 29-01–29-40 | 29 | [Exact 40 asset URLs, captions and alt values](evidence/task29/retained-gallery-manifest.json) | Gallery Photos: exact CMS IDs/slugs/category/sort and displayed positions in manifest | [Gallery](https://ipmi.webflow.io/gallery#gallery) | Identical retained values; no website rollback needed | IPMI: approve retention or supply original assets, rights, verified event/slug, caption/alt, category/order and explicit replacements | Provisional retained content; approval pending |
 
 ## Access and verification still pending
 
