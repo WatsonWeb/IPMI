@@ -3,6 +3,7 @@
   .navbar.w-nav .nav-container {
     width: calc(100% - 40px);
     max-width: none;
+    margin-inline: 20px;
   }
 
   .navbar.w-nav .desktop-menu.w-nav-menu .nav-link {

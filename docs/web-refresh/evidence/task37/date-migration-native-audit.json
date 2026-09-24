@@ -1,0 +1,397 @@
+{
+  "checkedAt": "2026-09-24T15:43:51.684Z",
+  "beforeCount": 43,
+  "afterCount": 43,
+  "deltas": [
+    {
+      "id": "6ab4386fcc918de3f326acb1",
+      "name": "Static - Delegate FAQ 11",
+      "key": "use-local-date",
+      "beforePresent": false,
+      "afterPresent": true,
+      "before": null,
+      "after": null
+    },
+    {
+      "id": "6ab43847ca944c5a1b59f4e1",
+      "name": "Static - Delegate FAQ 10",
+      "key": "use-local-date",
+      "beforePresent": false,
+      "afterPresent": true,
+      "before": null,
+      "after": null
+    },
+    {
+      "id": "6ab4382c7bcbb9190fa67a1b",
+      "name": "Static - Delegate FAQ 9",
+      "key": "use-local-date",
+      "beforePresent": false,
+      "afterPresent": true,
+      "before": null,
+      "after": null
+    },
+    {
+      "id": "6ab4380f8acc57561e461e3f",
+      "name": "Static - Delegate FAQ 8",
+      "key": "use-local-date",
+      "beforePresent": false,
+      "afterPresent": true,
+      "before": null,
+      "after": null
+    },
+    {
+      "id": "6ab437ea1d4a1eaad4b935d0",
+      "name": "Static - Delegate FAQ 7",
+      "key": "use-local-date",
+      "beforePresent": false,
+      "afterPresent": true,
+      "before": null,
+      "after": null
+    },
+    {
+      "id": "6ab437bbe043dfb8e5767632",
+      "name": "Static - Delegate FAQ 6",
+      "key": "use-local-date",
+      "beforePresent": false,
+      "afterPresent": true,
+      "before": null,
+      "after": null
+    },
+    {
+      "id": "6ab4334cd5e480cd010ecfc7",
+      "name": "EHS Jan 2027 Delegate Date 4",
+      "key": "use-local-date",
+      "beforePresent": false,
+      "afterPresent": true,
+      "before": null,
+      "after": true
+    },
+    {
+      "id": "6ab4332204740d0b899d6e49",
+      "name": "EHS Jan 2027 Delegate Date 3",
+      "key": "use-local-date",
+      "beforePresent": false,
+      "afterPresent": true,
+      "before": null,
+      "after": true
+    },
+    {
+      "id": "6ab432ec17568e8104a489dc",
+      "name": "EHS Jan 2027 Delegate Date 2",
+      "key": "use-local-date",
+      "beforePresent": false,
+      "afterPresent": true,
+      "before": null,
+      "after": true
+    },
+    {
+      "id": "6ab432c917568e8104a47eec",
+      "name": "EHS Jan 2027 Delegate Date 1",
+      "key": "use-local-date",
+      "beforePresent": false,
+      "afterPresent": true,
+      "before": null,
+      "after": true
+    },
+    {
+      "id": "6a9a6216fe4cda4c0d5d74d5",
+      "name": "Static - Delegate FAQ 5",
+      "key": "use-local-date",
+      "beforePresent": false,
+      "afterPresent": true,
+      "before": null,
+      "after": null
+    },
+    {
+      "id": "6a9a6216fe4cda4c0d5d74d3",
+      "name": "Static - Delegate FAQ 4",
+      "key": "use-local-date",
+      "beforePresent": false,
+      "afterPresent": true,
+      "before": null,
+      "after": null
+    },
+    {
+      "id": "6a9a6216fe4cda4c0d5d74d1",
+      "name": "Static - Delegate FAQ 3",
+      "key": "use-local-date",
+      "beforePresent": false,
+      "afterPresent": true,
+      "before": null,
+      "after": null
+    },
+    {
+      "id": "6a9a6216fe4cda4c0d5d74cf",
+      "name": "Static - Delegate FAQ 2",
+      "key": "use-local-date",
+      "beforePresent": false,
+      "afterPresent": true,
+      "before": null,
+      "after": null
+    },
+    {
+      "id": "6a9a6216fe4cda4c0d5d74cd",
+      "name": "Static - Delegate FAQ 1",
+      "key": "use-local-date",
+      "beforePresent": false,
+      "afterPresent": true,
+      "before": null,
+      "after": null
+    },
+    {
+      "id": "6a9a6216fe4cda4c0d5d74cb",
+      "name": "Static - Sponsor Experience 5",
+      "key": "use-local-date",
+      "beforePresent": false,
+      "afterPresent": true,
+      "before": null,
+      "after": null
+    },
+    {
+      "id": "6a9a6216fe4cda4c0d5d74c9",
+      "name": "Static - Sponsor Experience 4",
+      "key": "use-local-date",
+      "beforePresent": false,
+      "afterPresent": true,
+      "before": null,
+      "after": null
+    },
+    {
+      "id": "6a9a6216fe4cda4c0d5d74c7",
+      "name": "Static - Sponsor Experience 3",
+      "key": "use-local-date",
+      "beforePresent": false,
+      "afterPresent": true,
+      "before": null,
+      "after": null
+    },
+    {
+      "id": "6a9a6216fe4cda4c0d5d74c5",
+      "name": "Static - Sponsor Experience 2",
+      "key": "use-local-date",
+      "beforePresent": false,
+      "afterPresent": true,
+      "before": null,
+      "after": null
+    },
+    {
+      "id": "6a9a6216fe4cda4c0d5d74c3",
+      "name": "Static - Sponsor Experience 1",
+      "key": "use-local-date",
+      "beforePresent": false,
+      "afterPresent": true,
+      "before": null,
+      "after": null
+    },
+    {
+      "id": "6a9a6216fe4cda4c0d5d74c1",
+      "name": "Static - Sponsor Meeting Method 3",
+      "key": "use-local-date",
+      "beforePresent": false,
+      "afterPresent": true,
+      "before": null,
+      "after": null
+    },
+    {
+      "id": "6a9a6216fe4cda4c0d5d74bf",
+      "name": "Static - Sponsor Meeting Method 2",
+      "key": "use-local-date",
+      "beforePresent": false,
+      "afterPresent": true,
+      "before": null,
+      "after": null
+    },
+    {
+      "id": "6a9a6216fe4cda4c0d5d74bd",
+      "name": "Static - Sponsor Meeting Method 1",
+      "key": "use-local-date",
+      "beforePresent": false,
+      "afterPresent": true,
+      "before": null,
+      "after": null
+    },
+    {
+      "id": "6a9a6216fe4cda4c0d5d74bb",
+      "name": "Static - Delegate Experience 3",
+      "key": "use-local-date",
+      "beforePresent": false,
+      "afterPresent": true,
+      "before": null,
+      "after": null
+    },
+    {
+      "id": "6a9a6216fe4cda4c0d5d74b9",
+      "name": "Static - Delegate Experience 2",
+      "key": "use-local-date",
+      "beforePresent": false,
+      "afterPresent": true,
+      "before": null,
+      "after": null
+    },
+    {
+      "id": "6a9a6216fe4cda4c0d5d74b7",
+      "name": "Static - Delegate Experience 1",
+      "key": "use-local-date",
+      "beforePresent": false,
+      "afterPresent": true,
+      "before": null,
+      "after": null
+    },
+    {
+      "id": "6a9a61f4a74bfa192a4f876e",
+      "name": "Static - Agenda Day 3",
+      "key": "use-local-date",
+      "beforePresent": false,
+      "afterPresent": true,
+      "before": null,
+      "after": null
+    },
+    {
+      "id": "6a9a61f4a74bfa192a4f876c",
+      "name": "Static - Agenda Day 2",
+      "key": "use-local-date",
+      "beforePresent": false,
+      "afterPresent": true,
+      "before": null,
+      "after": null
+    },
+    {
+      "id": "6a9a61f4a74bfa192a4f876a",
+      "name": "Static - Agenda Day 1",
+      "key": "use-local-date",
+      "beforePresent": false,
+      "afterPresent": true,
+      "before": null,
+      "after": null
+    },
+    {
+      "id": "6a9a61f4a74bfa192a4f8768",
+      "name": "HCHR Sep 2026 Sponsor Date 4",
+      "key": "use-local-date",
+      "beforePresent": false,
+      "afterPresent": true,
+      "before": null,
+      "after": null
+    },
+    {
+      "id": "6a9a61f4a74bfa192a4f8766",
+      "name": "HCHR Sep 2026 Sponsor Date 3",
+      "key": "use-local-date",
+      "beforePresent": false,
+      "afterPresent": true,
+      "before": null,
+      "after": null
+    },
+    {
+      "id": "6a9a61f4a74bfa192a4f8764",
+      "name": "HCHR Sep 2026 Sponsor Date 2",
+      "key": "use-local-date",
+      "beforePresent": false,
+      "afterPresent": true,
+      "before": null,
+      "after": null
+    },
+    {
+      "id": "6a9a61f4a74bfa192a4f8762",
+      "name": "HCHR Sep 2026 Sponsor Date 1",
+      "key": "use-local-date",
+      "beforePresent": false,
+      "afterPresent": true,
+      "before": null,
+      "after": null
+    },
+    {
+      "id": "6a9a61f4a74bfa192a4f8760",
+      "name": "HCHR Sep 2026 Delegate Date 4",
+      "key": "use-local-date",
+      "beforePresent": false,
+      "afterPresent": true,
+      "before": null,
+      "after": null
+    },
+    {
+      "id": "6a9a61f4a74bfa192a4f875e",
+      "name": "HCHR Sep 2026 Delegate Date 3",
+      "key": "use-local-date",
+      "beforePresent": false,
+      "afterPresent": true,
+      "before": null,
+      "after": null
+    },
+    {
+      "id": "6a9a61f4a74bfa192a4f875c",
+      "name": "HCHR Sep 2026 Delegate Date 2",
+      "key": "use-local-date",
+      "beforePresent": false,
+      "afterPresent": true,
+      "before": null,
+      "after": null
+    },
+    {
+      "id": "6a9a61f4a74bfa192a4f875a",
+      "name": "HCHR Sep 2026 Delegate Date 1",
+      "key": "use-local-date",
+      "beforePresent": false,
+      "afterPresent": true,
+      "before": null,
+      "after": null
+    },
+    {
+      "id": "6a9a61f4a74bfa192a4f8758",
+      "name": "Static - Sponsor Preparation 3",
+      "key": "use-local-date",
+      "beforePresent": false,
+      "afterPresent": true,
+      "before": null,
+      "after": null
+    },
+    {
+      "id": "6a9a61f4a74bfa192a4f8756",
+      "name": "Static - Sponsor Preparation 2",
+      "key": "use-local-date",
+      "beforePresent": false,
+      "afterPresent": true,
+      "before": null,
+      "after": null
+    },
+    {
+      "id": "6a9a61f4a74bfa192a4f8754",
+      "name": "Static - Sponsor Preparation 1",
+      "key": "use-local-date",
+      "beforePresent": false,
+      "afterPresent": true,
+      "before": null,
+      "after": null
+    },
+    {
+      "id": "6a9a61f4a74bfa192a4f8752",
+      "name": "Static - Delegate Preparation 3",
+      "key": "use-local-date",
+      "beforePresent": false,
+      "afterPresent": true,
+      "before": null,
+      "after": null
+    },
+    {
+      "id": "6a9a61ae2837d9128fd77e03",
+      "name": "Static - Delegate Preparation 2",
+      "key": "use-local-date",
+      "beforePresent": false,
+      "afterPresent": true,
+      "before": null,
+      "after": null
+    },
+    {
+      "id": "6a9a61608591545695d9c51c",
+      "name": "Static - Delegate Preparation 1",
+      "key": "use-local-date",
+      "beforePresent": false,
+      "afterPresent": true,
+      "before": null,
+      "after": null
+    }
+  ],
+  "flags": [],
+  "missing": [],
+  "added": []
+}

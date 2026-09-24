@@ -1,0 +1,23 @@
+{
+  "checkedAt": "2026-09-24T15:40:20.909Z",
+  "historicalJson": {
+    "total": 156,
+    "changed": []
+  },
+  "blockSchema": {
+    "before": 13,
+    "after": 14,
+    "oldFieldsChanged": [],
+    "addedFields": [
+      {
+        "id": "820ade1eff3d679adb7064d06ef84333",
+        "isEditable": true,
+        "isRequired": false,
+        "type": "Switch",
+        "slug": "use-local-date",
+        "displayName": "Use Local Date",
+        "helpText": "All-day calendars only: enable after confirming the authored local calendar date. Off preserves legacy UTC-encoded deadlines. Timed events always preserve their instant."
+      }
+    ]
+  }
+}

@@ -447,6 +447,48 @@ test.each(["no thumbnail", "a stale thumbnail"])(
   },
 );
 
+test.each(["matching", "blank", "unmatched", "multiple institutes", "ambiguous descriptions"])(
+  "native venue metadata uses exact media identity and fails closed for %s sources",
+  (scenario) => {
+    const urls = [
+      "https://cdn.prod.website-files.com/6312ee46f4c52faf21ee8ab5/6ab525d2ac5a08c76d1eeed8_Four%20Seasons%20Hotel%20Austin%20TX%20-%20Front%20of%20Hotel.webp",
+      "https://cdn.prod.website-files.com/6312ee46f4c52faf21ee8ab5/6ab525d204624f9027bea52a_Four%20Seasons%20Hotel%20Austin%20TX%20-%20Hotel%20Garden.webp",
+    ];
+    const alts = [
+      "Hotel entrance framed by trees and landscaping",
+      "Hotel garden with lawn, trees and outdoor seating",
+    ];
+    const items = urls.map((url) => ({ url, type: "image" }));
+    const sourceJson = JSON.stringify({ items, group: "Venue" });
+    const element = page(
+      `<div class="kbyg-travel-gallery"><a class="w-lightbox" data-kbyg-cms-gallery="true"><script class="w-json" type="application/json">${sourceJson}</script></a></div>`,
+    );
+    const images = urls
+      .map(
+        (url, index) =>
+          `<img src="${scenario === "unmatched" ? url + "?different" : url.replace("cdn.prod.website-files.com", "uploads-ssl.webflow.com")}" alt="${scenario === "blank" ? "" : alts[index]}">`,
+      )
+      .join("");
+    document.body.insertAdjacentHTML(
+      "beforeend",
+      `<div id="kbyg-venue-metadata" hidden><div class="w-dyn-items"><div class="w-dyn-item">${images}${scenario === "ambiguous descriptions" ? `<img src="${urls[0]}" alt="Conflicting description">` : ""}</div>${scenario === "multiple institutes" ? `<div class="w-dyn-item">${images}</div>` : ""}</div></div>`,
+    );
+    const instance = initialize(element);
+    expect(instance.venueLightboxes.links).toHaveLength(2);
+    instance.venueLightboxes.links.forEach((link, index) => {
+      const expected =
+        scenario === "matching" || (scenario === "ambiguous descriptions" && index === 1)
+          ? alts[index]
+          : "Event venue";
+      expect(get<HTMLImageElement>(link, "img").alt).toBe(expected);
+      expect(link.getAttribute("aria-label")).toBe(`Open photo: ${expected}`);
+      expect(lightboxItems(link)).toEqual([items[index]]);
+      expect(link.getAttribute("href")).toBe(urls[index]);
+    });
+    expect(get(element, "[data-kbyg-cms-gallery] .w-json").textContent).toBe(sourceJson);
+  },
+);
+
 test("an empty authoritative CMS gallery hides its source and creates no lightboxes", () => {
   const ready = vi.fn();
   (window as KbygWindow).Webflow = { push: (callback) => callback(), require: () => ({ ready }) };

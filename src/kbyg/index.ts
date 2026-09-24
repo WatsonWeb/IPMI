@@ -1760,6 +1760,34 @@ function setupEmptyContent(page: HTMLElement, documentRef: Document, windowRef: 
 
 function setupCmsVenueGalleries(page: HTMLElement, pageToken: number, documentRef: Document) {
   let links: HTMLElement[] = [];
+  // Webflow's MultiImage lightbox JSON omits native per-image alt text. A hidden,
+  // Institute-filtered native image list supplies that metadata without changing
+  // the lightbox's authoritative media URLs, order, or grouping.
+  const descriptions = new Map<string, string>();
+  function mediaKey(value: unknown): string {
+    const valid = externalHttpUrl(value);
+    if (!valid) return "";
+    const url = new URL(valid);
+    if (url.hostname === "uploads-ssl.webflow.com") url.hostname = "cdn.prod.website-files.com";
+    return url.href;
+  }
+  const metadata = documentRef.querySelectorAll("#kbyg-venue-metadata");
+  const institutes =
+    metadata.length === 1
+      ? metadata[0]?.querySelectorAll(":scope > .w-dyn-items > .w-dyn-item")
+      : undefined;
+  if (institutes?.length === 1) {
+    const ambiguous = new Set<string>();
+    institutes[0]?.querySelectorAll("img").forEach((image) => {
+      const key = mediaKey(image.getAttribute("src"));
+      const description = image.getAttribute("alt")?.trim();
+      if (!key || !description || ambiguous.has(key)) return;
+      if (descriptions.has(key) && descriptions.get(key) !== description) {
+        descriptions.delete(key);
+        ambiguous.add(key);
+      } else descriptions.set(key, description);
+    });
+  }
   queryAll(page, '[data-kbyg-cms-gallery="true"]').forEach(function (source, index) {
     let galleryId =
       getAttribute(source, "data-kbyg-gallery-id") || "kbyg-gallery-" + pageToken + "-" + index;
@@ -1803,7 +1831,7 @@ function setupCmsVenueGalleries(page: HTMLElement, pageToken: number, documentRe
           ? media.alt
           : typeof media.caption === "string"
             ? media.caption
-            : "Event venue";
+            : descriptions.get(mediaKey(url)) || "Event venue";
       setAttribute(image, "alt", alt);
       setAttribute(image, "loading", "lazy");
       setAttribute(link, "aria-label", "Open photo: " + (alt || "Event venue"));

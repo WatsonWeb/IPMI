@@ -1,0 +1,132 @@
+te
+- generic: kbyg-rich-text
+- generic: kbyg-button
+- generic: Empty State
+- generic: Check back soon for Key Dates & Delivera...
+- generic: kbyg-curve
+- generic: Curve Right
+- generic: kbyg-section
+- generic: kbyg-container
+- generic: kbyg-section__header
+- generic: kbyg-section__eyebrow
+- generic: kbyg-section__title
+- generic: kbyg-section__intro
+- generic: Collection List Wrapper
+- generic: kbyg-agenda-grid
+- generic: Collection Item
+- generic: kbyg-agenda-card
+- generic: kbyg-agenda-card__header
+- generic: Div Block
+- generic: kbyg-rich-text
+- generic: Empty State
+- generic: Check back soon for the Institute agenda...
+- generic: Code Embed
+- generic: Code Embed
+- button:
+- generic: Style
+- generic: Settings
+- generic: Interactions
+- generic: ID
+- textbox:
+  - /placeholder: For in-page linking
+- button:
+- generic: Visibility
+- radiogroup:
+  - radio [checked]:
+    - generic: Visible
+  - radio:
+    - generic: Hidden
+- button:
+- generic: Code Embed settings
+- generic: Code
+- button:
+  - generic: Edit code
+- generic: Dynamic Style Settings
+- text: Get Text Color from
+- text: Key Dates
+- text: Get BG Image from
+- text: Key Dates
+- text: Get BG Color from
+- text: Key Dates
+- text: Get Border Color from
+- text: Key Dates
+- generic: Custom attributes
+- generic: Attributes
+- button:
+- generic: Advanced
+- checkbox
+- generic: Keep in HTML when hidden
+- checkbox [checked] [disabled]
+- generic: Exclude Code Embed’s content from site search results
+- button:
+- button [disabled]:
+- separator
+- button:
+  - generic: Body
+- button:
+  - generic: Collection Item
+- button:
+  - generic: kbyg-date-card
+- button:
+  - generic: Code Embed
+- button:
+  - generic: 1279px
+- button:
+- button:
+- button:
+- button [pressed]:
+- button:
+- button:
+- button:
+- button:
+- button: Dismiss
+- dialog:
+  - generic: Choose publish destination
+  - heading "Staging" [level=2]
+  - list:
+    - checkbox "ipmi.webflow.io Open in new tab" [checked]
+    - generic: ipmi.webflow.io
+    - link "Open in new tab":
+      - /url: https://ipmi.webflow.io/know-before-you-go/hchr-sept-2026-sponsor
+    - generic: Published 19 minutes ago
+    - generic: •
+    - link "Unpublish domain":
+      - /url: "#"
+  - heading "Production" [level=2]
+  - list:
+    - checkbox "www.ipmievents.com Open in new tab"
+    - generic: www.ipmievents.com
+    - link "Open in new tab":
+      - /url: https://www.ipmievents.com/know-before-you-go/hchr-sept-2026-sponsor
+    - generic: Published 19 minutes ago
+    - generic: •
+    - link "Unpublish domain":
+      - /url: "#"
+  - generic: Advanced publishing options
+  - generic: Performance
+  - checkbox "Asynchronously load JS"
+  - generic: Asynchronously load JS
+  - checkbox "Minify HTML" [checked]
+  - generic: Minify HTML
+  - checkbox "Minify CSS" [checked]
+  - generic: Minify CSS
+  - checkbox "Minify JS" [checked]
+  - generic: Minify JS
+  - checkbox "Per page CSS"
+  - generic: Per page CSS
+  - generic: Security
+  - checkbox "Enable HSTS for subdomains"
+  - generic: Enable HSTS for subdomains
+  - checkbox "Enable HSTS preload header"
+  - generic: Enable HSTS preload header
+  - checkbox "Use secure frame headers" [checked]
+  - generic: Use secure frame headers
+  - button "10 issues to improve on this page":
+    - generic: "10"
+    - text: issues to improve on this page
+  - button "Close":
+    - generic: Close
+  - button "Publish to selected domains":
+    - generic: Publish to selected domains
+- button: Dismiss
+- status: 1Password menu is available. Press down arrow to select.
