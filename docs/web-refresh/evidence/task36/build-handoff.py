@@ -51,7 +51,7 @@ write('placeholder-fields.json',register)
 missing=[r for r in rows if not r['pageId']]
 write('task25-create-pack.json',[{'isDraft':True,'isArchived':False,'fieldData':r['fieldData']} for r in missing])
 with (out/'task25-create-pages.csv').open('w',encoding='utf-8-sig',newline='') as file:
- writer=csv.DictWriter(file,fieldnames=[s['displayName'] for s in schema['fields']]);writer.writeheader()
+ writer=csv.DictWriter(file,fieldnames=[s['displayName'] for s in schema['fields']],lineterminator='\n');writer.writeheader()
  for r in missing:
   record={s['displayName']:r['fieldData'][s['slug']] or '' for s in schema['fields']}
   record['Institute']=r['instituteSlug'];record['Audience']=r['audience'].lower();writer.writerow(record)
@@ -59,4 +59,3 @@ lines=['# Provisional KBYG event × audience matrix','','54 planning rows: 4 ret
 for r in rows: lines.append('| '+r['title'].strip()+' '+str(r['year'])+' | '+r['start']+'–'+r['end']+' | '+r['audience']+' | ['+r['pageSlug']+']('+r['url']+') | '+r['coverage']+' |')
 (out/'MATRIX.md').write_text('\n'.join(lines)+'\n',encoding='utf-8')
 print('Built',len(rows),'rows;',len(missing),'missing;',len(register),'exact pending fields')
-
