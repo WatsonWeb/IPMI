@@ -1,0 +1,20 @@
+{
+  "images": [
+    {
+      "alt": "Speaker wearing a headset microphone and holding a presentation remote",
+      "h": 182,
+      "loaded": true,
+      "src": "https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4c776b9f31bbef1a63b13_P25-HR-East-2026-Session-6-p-500.jpg",
+      "w": 182
+    },
+    {
+      "alt": "Attendees networking outdoors around a cocktail table at sunset",
+      "h": 182,
+      "loaded": true,
+      "src": "https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4c705655ed43be06ebd36_P24-CLDI-Apr-2025-Dinner-12-p-500.jpg",
+      "w": 182
+    }
+  ],
+  "viewport": [390, 844],
+  "width": 390
+}

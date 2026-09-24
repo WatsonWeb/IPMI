@@ -2,7 +2,7 @@
 
 Owner: Webflow implementer. Asset owner: IPMI.
 
-Status: Ready for implementation, subject to source-image access and placement verification. Documentation only; no website edits performed.
+Status: Staged for review. Both approved hero photos and factual alternative descriptions are published to Webflow staging only; evidence below.
 
 [Back to master](README.md)
 
@@ -41,15 +41,61 @@ No new CMS collection or field is required solely for these replacements. Existi
 
 ## Acceptance checks
 
-- [ ] P24: the approved asset is visible at the destination specified in the mapping table.
-- [ ] P25: the approved asset is visible at the destination specified in the mapping table.
-- [ ] Every row has an actual Designer/CMS destination and previous asset recorded; unresolved placement guesses are closed before marking complete.
-- [ ] Front/back layering and source-intended composition are correct at desktop, tablet, and mobile sizes.
-- [ ] Images load from Webflow-managed assets with no broken or authenticated SharePoint image URLs.
-- [ ] Informative/decorative treatment and alternative text are verified for the new images.
-- [ ] Unrelated content, links, collections, and interaction behavior remain correct.
-- [ ] Staging URLs and comparison screenshots are recorded.
+- [x] P24: the approved asset is visible at the destination specified in the mapping table.
+- [x] P25: the approved asset is visible at the destination specified in the mapping table.
+- [x] Every row has an actual Designer/CMS destination and previous asset recorded; unresolved placement guesses are closed before marking complete.
+- [x] Front/back layering and source-intended composition are correct at desktop, tablet, and mobile sizes.
+- [x] Images load from Webflow-managed assets with no broken or authenticated SharePoint image URLs.
+- [x] Informative/decorative treatment and alternative text are verified for the new images.
+- [x] Unrelated content, links, collections, and interaction behavior remain correct.
+- [x] Staging URLs and comparison screenshots are recorded.
 
 ## Rollback
 
 Restore the captured previous asset references and their original crop, focal position, and alternative-text values in the same static/component/CMS fields. Republish staging and verify every affected placement, including dependent component instances. Keep both old and new assets available through review; do not delete an asset that another page may use.
+
+## Implementation record — September 24, 2026
+
+Implemented by Codex through Chrome Designer as **IPMI Webmaster**, with exclusive editor control. Page **Attend an Institute**, ID `63c3cdd3cff81805b2fec9e4`; staging [Attend](https://ipmi.webflow.io/attend#hero). No placeholders were needed.
+
+The [source page 6 screenshot](evidence/task13/source-p24-p25.png) explicitly identifies the lower-left foreground lawn-game circle as P24 and upper-right background Sydney circle as P25. Both are static image elements under **Hero Section → Hero Container → Hero Wrap → Bubble Photos**. They are separate from the Attend, Speak and Partner CMS galleries.
+
+| Row       | Element ID                             | Previous asset and asset alt                                                    | New Webflow asset                                                                                                                                                  | Exact custom description                                                 |
+| --------- | -------------------------------------- | ------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------ |
+| P24 front | `45fc8c33-bacb-f7cf-8979-02789931e0b8` | `63cf42c5a6582964edff70d1_Attend-Bubble-4.webp`; `IPMI Institute Entertainment` | [P24 JPEG](https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4c705655ed43be06ebd36_P24-CLDI-Apr-2025-Dinner-12.jpg), asset `6ab4c705655ed43be06ebd36` | `Attendees networking outdoors around a cocktail table at sunset`        |
+| P25 back  | `45fc8c33-bacb-f7cf-8979-02789931e0b7` | `63cf42c4b3cf92330bc8319f_Attend-Bubble-3.webp`; `IPMI Staff- Sydney`           | [P25 JPEG](https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4c776b9f31bbef1a63b13_P25-HR-East-2026-Session-6.jpg), asset `6ab4c776b9f31bbef1a63b13`  | `Speaker wearing a headset microphone and holding a presentation remote` |
+
+Original alt mode was **Use alt text from asset**; replacements use **Custom description**, preserving old asset metadata. Both photos were inspected in their approved SharePoint previews before retrieval. The scenes are outdoor sunset networking and a speaker holding a presentation remote. No identities were inferred.
+
+### Provenance and preserved settings
+
+Chrome `downloadMedia` retrieved the official SharePoint preview blobs: `9c9b5133-8550-4999-82bd-faebc13aec7c.jpg` (P24) and `593ea9c2-b1d5-4b19-bba3-07801640a4be.jpg` (P25). Both are **2560 × 2560 JPEG preview derivatives**, not claimed to be original camera files. Local copies remain under ignored `.webflow/task13-photos/`. No screenshot was used as a replacement image. Asset searches showed related assets but no exact supplied match; each new asset was uploaded once through Assets' native file chooser and selected through Replace Image.
+
+| Filename                          | Bytes  | SHA-256                                                            |
+| --------------------------------- | ------ | ------------------------------------------------------------------ |
+| `P24-CLDI-Apr-2025-Dinner-12.jpg` | 291038 | `38BFC2A4AFC6EDD55BAE7F1D2BD3687B02DD7F36B90E698EBAD3B47BE14D2BCF` |
+| `P25-HR-East-2026-Session-6.jpg`  | 286562 | `3D1E14BAE57EC91A85FA11B6A4B8E14712A566CD5BD5B6F36F65F7E916247D87` |
+
+[Desktop baseline](evidence/task13/before-desktop-designer.png), [mobile baseline](evidence/task13/before-mobile.png). Preserved 400 × 400 HTML dimensions, eager loading, responsive image generation, `object-fit: fill`, `object-position: 50% 50%`, circle radius 50%, and shadows. Front classes remain `bubble-photo bottom left circle front shadow-xl`, z-index 2; back classes remain `bubble-photo top right circle shadow-xl`, z-index auto. Webflow automatically enabled HiDPI for the larger uploads without changing dimensions. No CSS, breakpoint, focal position, layering or background adjustment was required.
+
+### Verification
+
+Only `ipmi.webflow.io` was selected; the sole listed custom domain `www.ipmievents.com` was unchecked. [Staging-only publish selection](evidence/task13/publish-staging-only.png), [completed publication](evidence/task13/publish-completed.png). No CMS immediate publication was used.
+
+| Viewport           | Result                                                                                                                                                                                                                                    |
+| ------------------ | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Desktop 1912 × 970 | [Hero](evidence/task13/desktop-hero.png), [checks](evidence/task13/desktop-checks.json): both approved images loaded, 334px rendered circles, correct foreground overlap and visible subjects; document width 1912px.                     |
+| Tablet 768 × 1024  | [Hero](evidence/task13/tablet-hero.png), [checks](evidence/task13/tablet-checks.json): both loaded, 250px circles and inherited vertical overlap preserved. Existing shared navigation produces document width 790px; tracked in task 37. |
+| Mobile 390 × 844   | [Hero](evidence/task13/mobile-hero.png), [checks](evidence/task13/mobile-checks.json): both loaded, approximately 182px circles, horizontal pair preserved, no document overflow.                                                         |
+
+- Desktop and mobile Experience an Institute CTA reaches `#attend`. Mobile canonical `#speak` and `#partner` reach their matching sections; [Partner view](evidence/task13/mobile-partner.png). Registration CTA reaches `#invite`; desktop Speak CTA selects Speak.
+- Attend, Speak and Partner category buttons visibly activate the matching state on desktop and mobile. [Desktop Partner form](evidence/task13/desktop-form-partner.png), [mobile Attend form](evidence/task13/mobile-form.png). All fields remain reachable. No inquiry was submitted and delivery/hidden category serialization was not asserted; task 03's existing validation limit remains for task 15.
+- All three gallery Next controls advance to the second slide; counts remain Attend 6, Speak 6 and Partner 7. Each gallery opens its lightbox and closes normally; Attend next-image control works. Speak retains its single-image lightbox; [Partner lightbox](evidence/task13/partner-lightbox.png) retains seven items.
+- Independent orchestrator HTTP comparison against the exact pretask staging baseline: 43 image tags remain, other 41 byte-identical; all 118 anchor opening tags unchanged; normalized source text unchanged (6701 characters); complete form HTML byte-identical. All 43 production image tags match their baseline. Task 03 approved copy is preserved.
+- No CMS records, galleries, form recipients, routing, scripts, styles, shared definitions or old asset bytes were changed. Task 15 phone work and task 32 broader imagery remain separate. No placeholder register changes were required.
+- Viewport override reset; owned source tabs closed; staging retained for review. Designer left on Attend at Desktop, without dialogs, and Chrome explicitly released to the orchestrator.
+- Relevant `vp fmt --check` and `git diff --check` passed. No app build was needed for photo-only browser edits and evidence.
+
+### Exact rollback
+
+In the two static hero image elements, restore the previous asset references above using prefix `https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/` and **Use alt text from asset**. Preserve dimensions, eager loading, classes, centered positioning, circle masks and gallery/form state. Republish only staging with custom domains unchecked. Retain both old and new assets; do not restore a whole-site backup over other tasks.

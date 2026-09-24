@@ -1,0 +1,39 @@
+{
+  "images": [
+    {
+      "alt": "Speaker wearing a headset microphone and holding a presentation remote",
+      "class": "bubble-photo top right circle shadow-xl",
+      "current": "https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4c776b9f31bbef1a63b13_P25-HR-East-2026-Session-6-p-500.jpg",
+      "fit": "fill",
+      "height": 334,
+      "loaded": true,
+      "pos": "50% 50%",
+      "src": "https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4c776b9f31bbef1a63b13_P25-HR-East-2026-Session-6.jpg",
+      "width": 334
+    },
+    {
+      "alt": "Attendees networking outdoors around a cocktail table at sunset",
+      "class": "bubble-photo bottom left circle front shadow-xl",
+      "current": "https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4c705655ed43be06ebd36_P24-CLDI-Apr-2025-Dinner-12-p-500.jpg",
+      "fit": "fill",
+      "height": 334,
+      "loaded": true,
+      "pos": "50% 50%",
+      "src": "https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/6ab4c705655ed43be06ebd36_P24-CLDI-Apr-2025-Dinner-12.jpg",
+      "width": 334
+    },
+    {
+      "alt": "",
+      "class": "hero-bg-image",
+      "current": "https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/63cf429710e34f697f8ec29f_Attend-Hero-BG-2.webp",
+      "fit": "cover",
+      "height": 830,
+      "loaded": true,
+      "pos": "50% 50%",
+      "src": "https://cdn.prod.website-files.com/62f30d583ebbed2d6d47f9a5/63cf429710e34f697f8ec29f_Attend-Hero-BG-2.webp",
+      "width": 1912
+    }
+  ],
+  "viewport": [1912, 970],
+  "width": 1912
+}
