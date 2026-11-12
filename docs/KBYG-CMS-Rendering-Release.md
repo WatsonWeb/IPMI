@@ -44,6 +44,12 @@ remain the source of event, staff, and content-block data.
 - When native date attributes omit the time, add a hidden sibling inside each
   `.kbyg-date-card` with `data-kbyg-calendar-source` and
   `data-kbyg-calendar-timezone="America/Toronto"` (the verified site timezone).
+  Apply the native `kbyg-calendar-source` class with `display: none` at the base
+  breakpoint to the outer Code Embed wrapper for both audiences. Keep `hidden`
+  on the inner source span. Hiding only that span leaves `.w-embed` in the grid,
+  displacing the Sponsor calendar button into the narrow date column. A custom
+  `hidden` attribute on the HtmlEmbed itself is omitted by the Webflow publisher;
+  use the native class. Preserve the source and CMS bindings for downloads.
   Use native Embed field chips to populate that element's `data-kbyg-start` and
   `data-kbyg-end`, both formatted `YYYY-MM-DD H:mm`. The runtime validates these
   local timestamps. Bind `data-kbyg-all-day-local-date` to the optional Content
@@ -120,6 +126,27 @@ The configured asset pins are:
 - Stylesheet: `https://cdn.jsdelivr.net/gh/WatsonWeb/IPMI@0bee9be0be82a5cbd03eab614bada158b88957c1/ipmi-kbyg-styles.css`
 
 ## Build and validation
+
+### Calendar button wrapper repair — November 12, 2026
+
+Both native calendar-source Code Embeds now use `kbyg-calendar-source`, a native
+Webflow base style with `display: none`. Source markup and CMS bindings are
+unchanged. Staging verification passed for EHS January 2027 and HCHR September
+2026, both Sponsor and Delegate, at 1440px, 768px, and 390px (12 combinations).
+All visible button labels fit their buttons; metadata wrappers occupy no layout
+space; no horizontal overflow occurred. Mobile View All revealed all seven EHS
+Sponsor dates. The markup contract, formatting check, and 69 CMS-rendering tests
+passed. The browser download-event check timed out, so an actual downloaded ICS
+was not independently verified in this browser session.
+
+After explicit approval, the full site was published to all four configured
+production domains and staging on November 12, 2026 at 17:33:10 UTC. Production
+verification on `www.ipmievents.com` passed the same 12 event/audience/viewport
+combinations. All visible calendar labels fit, all calendar-source wrappers had
+computed `display: none`, and no horizontal overflow occurred. View All Key Dates
+revealed all seven EHS Sponsor dates with correctly fitting button labels.
+Webflow required a full-site publish because template-only publishing returned
+`Bad Request: Invalid parameter: pageId`.
 
 `vp build` emits the runtime and styles into `dist/`; the release also contains
 the matching root `ipmi-kbyg-styles.css` for the existing Designer import path.

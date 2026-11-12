@@ -28,6 +28,10 @@
   Content Blocks > Use Local Date switch. True preserves a verified authored
   local calendar date; false/blank preserves legacy UTC-encoded dates. Do not
   infer date basis from display copy. See KBYG-CMS-Rendering-Release.md.
+  Give the outer native calendar-source Code Embed in both audience date cards
+  the native kbyg-calendar-source class with display:none at the base breakpoint.
+  Hiding only its inner span leaves .w-embed occupying a date-card grid cell,
+  displacing the Add to Calendar button. Preserve the source and CMS bindings.
   Every venue gallery image must use its current CMS src and alt. Runtime
   rebuilds its lightbox item from that source; data-kbyg-full-image-src on the
   image or lightbox link can bind a separate full-size image when required.
